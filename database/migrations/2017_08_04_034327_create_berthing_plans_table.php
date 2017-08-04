@@ -15,6 +15,11 @@ class CreateBerthingPlansTable extends Migration
     {
         Schema::create('berthing_plans', function (Blueprint $table) {
             $table->increments('id');
+            $table->enum('type', ['International', 'Domestic']); // berthing type
+            $table->dateTime('eta'); // estimated time of arrival
+            $table->string('vessel'); // vessel
+            $table->string('agent'); // shipping line/agent
+            $table->string('voy'); // VOY
             $table->timestamps();
         });
     }
