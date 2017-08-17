@@ -18,8 +18,7 @@ class CreateNewsTable extends Migration
             $table->string('title'); // judul berita
             $table->integer('user_id')->unsigned(); // user id pembuat berita
             $table->foreign('user_id')->references('id')->on('users');
-            $table->integer('photo_id')->unsigned(); // untuk thumbnail foto
-            $table->foreign('photo_id')->references('id')->on('photos');
+            $table->string('thumbnail_path'); // untuk thumbnail foto -> folder news_thumbs
             $table->text('content'); // isi berita
             $table->timestamps();
         });
