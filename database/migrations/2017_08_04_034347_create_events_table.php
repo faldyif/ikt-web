@@ -15,10 +15,13 @@ class CreateEventsTable extends Migration
     {
         Schema::create('events', function (Blueprint $table) {
             $table->increments('id');
-            $table->string('subject'); // subjek agenda
-            $table->text('event'); // deskripsi agenda
-            $table->string('place'); // lokasi agenda
-            $table->dateTime('event_date_time'); // waktu agenda
+            $table->string('subject'); // subjek event
+            $table->text('event'); // deskripsi event
+            $table->string('place'); // lokasi event
+            $table->dateTime('event_date_time'); // waktu event
+            $table->string('thumbnail_path'); // untuk thumbnail foto -> folder event_thumbs
+            $table->integer('user_id')->unsigned(); // user id pembuat event
+            $table->foreign('user_id')->references('id')->on('users');
             $table->timestamps();
         });
     }

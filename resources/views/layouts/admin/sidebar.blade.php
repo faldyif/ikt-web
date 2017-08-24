@@ -43,17 +43,6 @@
             <li {{{ (Request::is('admin/album') ? 'class=active' : '') }}}><a href="{{ url('admin/album') }}"><i class="fa fa-list"></i> List Album</a></li>
           </ul>
         </li>
-        <li class="treeview {{{ ((Request::is('admin/photo/create') || Request::is('admin/photo')) ? 'active' : '') }}}">
-          <a href="#"><i class="fa fa-camera"></i> <span>Foto</span>
-            <span class="pull-right-container">
-                <i class="fa fa-angle-left pull-right"></i>
-              </span>
-          </a>
-          <ul class="treeview-menu">
-            <li {{{ (Request::is('admin/photo/create') ? 'class=active' : '') }}}><a href="{{ url('admin/photo/create') }}"><i class="fa fa-plus"></i> Tambah Foto Baru</a></li>
-            <li {{{ (Request::is('admin/photo') ? 'class=active' : '') }}}><a href="{{ url('admin/photo') }}"><i class="fa fa-list"></i> List Foto</a></li>
-          </ul>
-        </li>
         <li class="treeview {{{ ((Request::is('admin/berthing-plan/create') || Request::is('admin/berthing-plan')) ? 'active' : '') }}}">
           <a href="#"><i class="fa fa-ship"></i> <span>Berthing Plan</span>
             <span class="pull-right-container">

@@ -14686,7 +14686,7 @@ fcViews.month = {
 };
 ;;
 
-/* An abstract class for all agenda-related views. Displays one more columns with time slots running vertically.
+/* An abstract class for all event-related views. Displays one more columns with time slots running vertically.
 ----------------------------------------------------------------------------------------------------------------------*/
 // Is a manager for the TimeGrid subcomponent and possibly the DayGrid subcomponent (if allDaySlot is on).
 // Responsible for managing width/height.
@@ -14756,7 +14756,7 @@ var AgendaView = FC.AgendaView = View.extend({
 			this.dayGrid.setRange(this.renderRange);
 		}
 
-		this.el.addClass('fc-agenda-view').html(this.renderSkeletonHtml());
+		this.el.addClass('fc-event-view').html(this.renderSkeletonHtml());
 		this.renderHead();
 
 		this.scroller.render();
