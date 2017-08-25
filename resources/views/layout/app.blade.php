@@ -104,5 +104,6 @@
   <script src="{{ url('js/masonry.js') }}"></script>
   <script src="{{ url('js/custom.fullpage.js') }}"></script>
   <script src="{{ url('js/custom.js') }}"></script>
+  <script src="{{ url('js/particle.js') }}"></script>
 </body>
 </html>
