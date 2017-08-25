@@ -6,48 +6,21 @@
     <!--FULLPAGE.JS-->
     <div id="fullpage">
     <!--HERO-->
-    <section id="hero" class="pagecontent">
-      <section class="slider">
-        <div>
-          <figure class="figSlider">
-            <img src="{{ url('img/2.jpg') }}">
-            <div class="overlay"></div>
-            <section class="containerCenter alignCenter">
-              <section class="row">
-                <div class="col-md-4 col-md-offset-4 col-sm-4 col-sm-offset-4 col-xs-6 col-xs-offset-3">
-                  <figure>
-                    <img class="wow fadeInLeftBig beWhite" src="{{ url('img/ikt-logo.png') }}">
-                  </figure>
-                </div>
-              </section>
-              <h2 class="roboBlack wow fadeInLeft or" data-wow-delay="0.4s">Indonesia Kendaraan Terminal</h2>
-              <p class="big wow fadeInLeft" data-wow-delay="0.5s">Lebih dari Sekedar Kendaraan Terminal</p>
-            </section>
-          </figure>
-        </div>
-        <div>
-          <figure class="figSlider">
-            <img src="{{ url('img/4.jpg') }}">
-            <div class="overlay"></div>
-            <section class="containerCenter alignCenter">
-              <p class="roboRegular bigger wow fadeInLeft or">Indonesia Kendaraan Terminal</p>
-              <h2 class="upper wh wow fadeInLeft bigTitle">Lebih dari Sekedar Kendaraan Terminal</h2>
-            </section>
-          </figure>
-        </div>
-        <div>
-          <figure class="figSlider">
-            <img src="{{ url('img/3.jpg') }}">
-            <div class="overlay"></div>
-            <section class="containerCenter alignCenter">
-              <p class="roboRegular bigger wow fadeInLeft or">Fast and Reliable</p>
-              <h2 class="upper wh wow fadeInLeft bigTitle">IPC - Tanjung Priok Car Terminal</h2>
-            </section>
-          </figure>
-        </div>
-      </section>
-    </section>
-    <!--/HERO-->
+<section id="hero" class="pagecontent section ">
+  <section class="">
+    <div>
+      <figure class="figSlider">
+        <img src="{{ url('img/2.jpg') }}">
+          <canvas id="canvas-interactive"></canvas>
+          <canvas id="canvas-reference"></canvas>
+          <img src="{{ url('img/new-logo.png') }}" alt="..." id="img">
+        
+        </section>
+      </figure>
+    </div>
+  </section>
+</section>
+<!--/HERO-->
     <!--ABOUT-->
     <section id="about" class="pagecontent">
       <div class="container-fluid">
