@@ -113,6 +113,7 @@
 				navigationPosition: 'right',
 				navigationTooltips: ['Hero', 'About Us', 'Vision and Mission', 'News', 'Agenda', 'Gallery', 'Testimonial', 'Contact Us'],
         scrollBar: true,
+        responsive: 1000,
         afterRender: function(){
             new WOW().init();
         }
