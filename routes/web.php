@@ -11,34 +11,34 @@
 |
 */
 
-Route::get('test', function () {
+Route::get('/', function () {
     return view('index');
 });
 
-Route::get('test-gallery', function () {
+Route::get('gallery', function () {
     return view('gallery-list');
 });
 
-Route::get('test-about', function () {
+Route::get('about', function () {
     return view('about');
 });
 
-Route::get('test-agenda', function () {
+Route::get('agenda', function () {
     return view('agenda');
 });
 
-Route::get('test-company', function () {
+Route::get('company', function () {
     return view('company-history');
 });
 
-Route::get('test-gallery-detail', function () {
+Route::get('gallery-detail', function () {
     return view('gallery-detail');
 });
 
-Route::get('test-news-detail', function () {
+Route::get('news-detail', function () {
     return view('news-detail');
 });
 
-Route::get('test-news-list', function () {
+Route::get('news-list', function () {
     return view('news-list');
 });

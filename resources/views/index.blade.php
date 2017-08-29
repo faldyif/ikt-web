@@ -509,3 +509,23 @@
     </div>
     <!--/CONTACT-->
 @endsection
+
+
+@section('bottom')
+
+  <script type="javascript">
+      $(document).ready(function() {
+          $('#fullpage').fullpage({
+              anchors: ['Hero', 'About Us', 'Vision and Mission', 'News', 'Agenda', 'Gallery', 'Testimonial', 'Contact Us'],
+              navigation: true,
+              navigationPosition: 'right',
+              navigationTooltips: ['Hero', 'About Us', 'Vision and Mission', 'News', 'Agenda', 'Gallery', 'Testimonial', 'Contact Us'],
+              scrollBar: true,
+              afterRender: function(){
+                  new WOW().init();
+              }
+          });
+      });
+  </script>
+
+@endsection

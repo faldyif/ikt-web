@@ -18,6 +18,7 @@
   <link rel="stylesheet" type="text/css" href="{{ url('css/slick.css') }}">
   <link rel="stylesheet" type="text/css" href="{{ url('css/ikt-style.css') }}">
   <link rel="stylesheet" type="text/css" href="{{ url('css/jquery.fullpage.min.css') }}">
+  @yield('head')
 </head>
 <body>
 <div class="loader"></div>
@@ -105,19 +106,6 @@
   <script src="{{ url('js/custom.fullpage.js') }}"></script>
   <script src="{{ url('js/custom.js') }}"></script>
   <script src="{{ url('js/particle.js') }}"></script>
-  <script type"javascript">
-  $(document).ready(function() {
-			$('#fullpage').fullpage({
-				anchors: ['Hero', 'About Us', 'Vision and Mission', 'News', 'Agenda', 'Gallery', 'Testimonial', 'Contact Us'],
-				navigation: true,
-				navigationPosition: 'right',
-				navigationTooltips: ['Hero', 'About Us', 'Vision and Mission', 'News', 'Agenda', 'Gallery', 'Testimonial', 'Contact Us'],
-        scrollBar: true,
-        afterRender: function(){
-            new WOW().init();
-        }
-			});
-    });
-  </script>
+  @yield('bottom')
 </body>
 </html>
