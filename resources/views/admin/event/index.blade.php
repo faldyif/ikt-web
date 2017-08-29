@@ -30,8 +30,8 @@
               <table id="example1" class="table table-bordered table-striped">
                 <thead>
                 <tr>
-                  <th>Nama Agenda</th>
-                  <th>Tempat</th>
+                  <th>Judul Agenda</th>
+                  <th>Subyek</th>
                   <th>Tanggal Agenda</th>
                   <th>Dibuat Pada</th>
                   <th>Aksi</th>
@@ -41,8 +41,8 @@
                 @foreach($event as $key)
                 <tr>
                   <td>{{ $key->event }}</td>
-                  <td>{{ $key->place }}</td>
-                  <td>{{ \Carbon\Carbon::parse($key->event_date_time)->toFormattedDateString() }}</td>
+                  <td>{{ $key->subject }}</td>
+                  <td>{{ \Carbon\Carbon::parse($key->event_date_time)->diffForHumans() }}</td>
                   <td>{{ \Carbon\Carbon::parse($key->created_at)->diffForHumans() }}</td>
                   <td>
                     <div class="btn-group">
