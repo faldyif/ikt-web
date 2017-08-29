@@ -11,7 +11,7 @@
 |
 */
 
-Route::get('/', 'StaticPageController@index');
+//Route::get('/', 'StaticPageController@index');
 
 Route::group(array('namespace'=>'Admin', 'prefix'=>'admin', 'middleware'=>'auth'), function()
 {
@@ -25,3 +25,34 @@ Route::group(array('namespace'=>'Admin', 'prefix'=>'admin', 'middleware'=>'auth'
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+Route::get('/', function () {
+    return view('index');
+});
+
+Route::get('gallery', function () {
+    return view('gallery-list');
+});
+
+Route::get('about', function () {
+    return view('about');
+});
+
+Route::get('agenda', function () {
+    return view('agenda');
+});
+
+Route::get('company', function () {
+    return view('company-history');
+});
+
+Route::get('gallery-detail', function () {
+    return view('gallery-detail');
+});
+
+Route::get('news-detail', function () {
+    return view('news-detail');
+});
+
+Route::get('news-list', function () {
+    return view('news-list');
+});
