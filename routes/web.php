@@ -33,6 +33,10 @@ Route::get('gallery', function () {
     return view('gallery-list');
 });
 
+Route::get('gallery/detail', function () {
+    return view('gallery-detail');
+});
+
 Route::get('about', function () {
     return view('about');
 });
@@ -41,18 +45,19 @@ Route::get('agenda', function () {
     return view('agenda');
 });
 
-Route::get('company', function () {
+Route::get('history', function () {
     return view('company-history');
 });
 
-Route::get('gallery-detail', function () {
-    return view('gallery-detail');
-});
 
-Route::get('news-detail', function () {
+Route::get('news/detail', function () {
     return view('news-detail');
 });
 
-Route::get('news-list', function () {
+Route::get('news', function () {
     return view('news-list');
+});
+
+Route::get('profile', function () {
+    return view('profile');
 });

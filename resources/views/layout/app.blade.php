@@ -56,36 +56,80 @@
 
       <div class="collapse navbar-collapse" id="Navbar">
         <ul class="nav navbar-nav navbar-nav-dropdown navbar-right">
-          <li class="active"><a href="{{ url('index.html#hero') }}">BERANDA</a></li>
-          <li class="has-children"><a>TENTANG</a>
+          <li class="active"><a href="#header">BERANDA</a></li>
+          <li class="has-children"><a>TENTANG KAMI</a>
             <ul class="dropdown-menu">
-              <li><a href="#">Tentang Kami</a></li>
-              <li><a href="#">Sejarah Perusahaan</a></li>
-              <li><a href="{{ url('agenda.html') }}">Acara Perusahaan</a></li>
-              <li class="has-children dropdown-submenu"><a href="#">Berthing Plan</a>
+              <li><a href="{{ url('profile') }}">Profil</a></li>
+              <li><a href="#">Visi Misi</a></li>
+              <li><a href="{{ url('history') }}">Sejarah Perusahaan</a></li>
+              <li><a href="#">Penerapan GCG</a>
+                <!--<ul class="dropdown-menu level-2">-->
+                <!--<li><a href="#">Tata Kelola Perusahaan Berkelanjutan</a></li>-->
+                <!--<li><a href="#">Pemegang Saham &amp RUPS</a></li>-->
+                <!--<li><a href="#">BOD</a></li>-->
+                <!--<li><a href="#">BOC</a></li>-->
+                <!--<li><a href="#">Keterbukaan Informasi</a></li>-->
+                <!--<li><a href="#">Board Manual</a></li>-->
+                <!--<li><a href="#">Code of Conduct</a></li>-->
+                <!--<li><a href="#">Whistle Blower</a></li>-->
+                <!--<li><a href="#">Pengelolaan Gratifikasi</a></li>-->
+                <!--<li><a href="#">LHKPN</a></li>-->
+                <!--</ul>-->
+              </li>
+              <li><a href="#">Budaya Perusahaan</a></li>
+              <li class="has-children dropdown-submenu"><a href="#">Rangkul Warga (CSR)</a>
                 <ul class="dropdown-menu level-2">
-                  <li><a href="#">International</a></li>
-                  <li><a href="#">Domestic</a></li>
+                  <li><a href="#">Pendidikan & Keagamaan</a></li>
+                  <li><a href="#">Olahraga, Seni & Budaya</a></li>
+                  <li><a href="#">Pemuda & Wirausaha</a></li>
+                  <li><a href="#">Kesehatan, Sosial & Lingkungan</a></li>
                 </ul>
               </li>
+              <li><a href="#">Pencapaian</a></li>
+              <li><a href="#">Anak Perusahaan</a></li>
             </ul>
           </li>
           <li class="has-children"><a href="#">LAYANAN</a>
             <ul class="dropdown-menu">
-              <li><a href="#">Gambaran Fasilitas</a></li>
               <li><a href="#">Stevedoring &amp Cardodoring</a></li>
               <li><a href="#">Receiving &amp Delivering</a></li>
-              <li><a href="#">Storages</a></li>
+              <li><a href="#">Pre Delivery Inspection</a></li>
+              <li class="has-children dropdown-submenu"><a href="#">Value Added Services</a>
+                <ul class="dropdown-menu level-2">
+                  <li><a href="#">Minor Repair</a></li>
+                  <li><a href="#">Washing</a></li>
+                  <li><a href="#">Accessories Installation</a></li>
+                  <li><a href="#">Port Stock</a></li>
+                  <li><a href="#">Roro Transfer Services</a></li>
+                </ul>
+              </li>
             </ul>
           </li>
-          <li><a href="{{ url('news-list.html') }}">BERITA</a></li>
-          <li><a href="{{ url('gallery-list.html') }}">GALLERY</a></li>
-          <li><a href="#">PROCUREMENT</a></li>
-          <li class="has-children has-children-right"><a href="#">BATUAN</a>
+          <li class="has-children"><a href="#">FASILITAS</a>
             <ul class="dropdown-menu">
-              <li><a href="#">Customer Service</a></li>
-              <li><a href="#">Help Desk</a></li>
-              <li><a href="#">CCTV</a></li>
+              <li class="has-children dropdown-submenu"><a href="#">Utama</a>
+                <ul class="dropdown-menu level-2">
+                  <li><a href="#">Minor Repair</a></li>
+                  <li><a href="#">Washing</a></li>
+                  <li><a href="#">Accessories Installation</a></li>
+                  <li><a href="#">Port Stock</a></li>
+                  <li><a href="#">Roro Transfer Services</a></li>
+                </ul>
+              </li>
+              <li><a href="#">Penunjang</a></li>
+              <li><a href="#">Peralatan</a></li>
+            </ul>
+          </li>
+          <li class="has-children has-children-right"><a href="#">PUSAT INFORMASI</a>
+            <ul class="dropdown-menu">
+              <li><a href="{{ url('news') }}">News</a></li>
+              <li><a href="#">Press Release</a></li>
+              <li><a href="#">Annual Report</a></li>
+              <li><a href="#">Statistic &amp Data</a></li>
+              <li><a href="#">Our Customer</a></li>
+              <li><a href="#">Procurement</a></li>
+              <li><a href="#">Majalah Limouzine</a></li>
+              <li><a href="{{ url('gallery') }}">Gallery</a></li>
             </ul>
           </li>
           <li><a href="#" id="languageButton"><i class="fa fa-language fa-lg"></i></a></li>
@@ -105,7 +149,6 @@
   <script src="{{ url('js/masonry.js') }}"></script>
   <script src="{{ url('js/custom.fullpage.js') }}"></script>
   <script src="{{ url('js/custom.js') }}"></script>
-  <script src="{{ url('js/particle.js') }}"></script>
   @yield('bottom')
 </body>
 </html>
