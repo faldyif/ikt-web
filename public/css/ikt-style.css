@@ -597,6 +597,9 @@ h2 {
   .dropdown-menu > .active > a:hover, .dropdown-menu > .active > a:focus {
     background-color: inherit; }
 
+#fp-nav ul li a span, .fp-slidesNav ul li a span {
+  background-color: #d0d0d0; }
+
 * {
   box-sizing: border-box; }
 

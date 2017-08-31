@@ -16,30 +16,12 @@
   <link rel="stylesheet" type="text/css" href="{{ url('css/animate.css') }}">
   <link rel="stylesheet" type="text/css" href="{{ url('css/lightcase.css') }}">
   <link rel="stylesheet" type="text/css" href="{{ url('css/slick.css') }}">
-  <link rel="stylesheet" type="text/css" href="{{ url('css/ikt-style.css') }}">
   <link rel="stylesheet" type="text/css" href="{{ url('css/jquery.fullpage.min.css') }}">
+  <link rel="stylesheet" type="text/css" href="{{ url('css/ikt-style.css') }}">
   @yield('head')
 </head>
 <body>
 <div class="loader"></div>
-<div id="search-field">
-  <span id="closeSearch"><i class="fa fa-times"></i></span>
-  <form action="">
-    <input type="text" placeholder="type something here and press enter" class="searchfield" />
-  </form>
-</div>
-<div id="language-field">
-  <span id="closeLanguage"><i class="fa fa-times"></i></span>
-  <div class="container-fluid containerCenter">
-    <h1 class="roboLight wh mg-b-20">Select a language  :</h1>
-    <form action="">
-      <label><input type="radio" name="gender" value="" checked="1"> Bahasa Indonesia</label> <br>
-      <label><input type="radio" name="gender" value=""> English </label> <br>
-      <label><input type="radio" name="gender" value=""> Jepang </label> <br>
-      <button class="submit btn mg-t-20">Submit</button>
-    </form>
-  </div>
-</div>
 <!--NAV-->
   <nav id="navbar" class="navbar navbar-fixed-top">
     <div class="container-fluid">

@@ -85,21 +85,15 @@ $(document).ready(function(){
       transition: 'fade'
     });
 
-    $('#searchButton').on('click', function(e){
-      e.preventDefault()
-      $('#search-field').fadeIn()
-    })
-    $('#closeSearch').on('click', function(e){
-      e.preventDefault()
-      $('#search-field').fadeOut()
-    })
+    $('#accordion .panel').hover(function() {
+      $(this).find(".accordion-toggle .indicator").removeClass("glyphicon-chevron-down").addClass("glyphicon-chevron-up");
+      $(this).find(".panel-collapse").collapse("show");
+    }, function() {
+      var $collapse = $(this).find(".panel-collapse");
+      $(this).find(".accordion-toggle .indicator").addClass("glyphicon-chevron-down").removeClass("glyphicon-chevron-up");
+      setTimeout(function(){
+        $collapse.collapse("hide");
+      },400);
+    });
 
-    $('#languageButton').on('click', function(e){
-      e.preventDefault()
-      $('#language-field').fadeIn()
-    })
-    $('#closeLanguage').on('click', function(e){
-      e.preventDefault()
-      $('#language-field').fadeOut()
-    })
 });
