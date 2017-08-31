@@ -15,15 +15,7 @@
         <section class="containerCenter alignCenter">
           <section class="row">
             <div class="col-md-4 col-md-offset-4 col-sm-4 col-sm-offset-4 col-xs-6 col-xs-offset-3">
-              <figure>
-                <div id="particle-slider">
-                  <div class="slides">
-                  <div id="first-slide" class="slide" data-src="IMG-20170819-WA0002.png">
-                  </div>
-                </div>
-                <canvas class="draw"></canvas>
-              </div>
-              </figure>
+                
             </div>
           </section>
           <h2 class="roboBlack wow fadeInLeft or" data-wow-delay="0.4s">Indonesia Kendaraan Terminal</h2>
@@ -61,7 +53,7 @@
           <div class="about col-md-6 wow fadeInUpBig">
             <hr class="hrSpec hrSpecOrange">
             <h3 class="mg-b-30 roboBold">Tentang Kami</h3>
-            <p class="big">Aliquam principes deterruisset cum et, vel an eius equidem. Id quando legimus inermis eum, cibo consul democritum cum te, cu cum suas laudem graeci. Bonorum gloriatur signiferumque an pro.</p>
+            <p class="big">Indonesia Kendaraan Terminal Merupakan Perusahaan Kendaraan Terminal yang Beroperasi Tanjung Priok Jakarta Indonesia, memberikan pelayanan Cargodooring, Stevedoring, Receiving & delevering serta berbagai Pelayanan Terbaik untuk Pelanggan Kami.</p>
             <p><a href="#" class="roboMedium">Selengkapnya</a></p>
           </div>
           <div class="col-md-6 col-sm-6 figAbout wow fadeInRightBig" data-wow-delay="0.5s">
@@ -123,7 +115,7 @@
                     </a>
                   </h4>
                 </div>
-                <div id="collapse1" class="panel-collapse collapse in">
+                <div id="collapse1" class="panel-collapse collapse">
                   <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
                     sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
                     quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
@@ -274,8 +266,8 @@
       </div>
     </section>
     <!--/RECENT NEWS-->
-    <!--AGENDA-->
-    <section id="agenda" class="pagecontent">
+    <!-- AGENDA-->
+    <!-- <section id="agenda" class="pagecontent">
       <div class="container-fluid">
         <section class="agendaSection">
           <section class="row">
@@ -309,8 +301,8 @@
           </section>
         </section>
       </div>
-    </section>
-    <!--/AGENDA-->
+    </section> -->
+    <!--/AGENDA -->
     <!--GALERRY-->
     <section id="gallery" class="wow fadeInUp pagecontent">
       <div class="container-fluid">
@@ -506,7 +498,7 @@
         <section class="row noMag">
           <div class="col-md-4">
             <section class="contactInfo">
-              <h4 class="roboBold">Information</h4>
+              <h4 class="roboBold">Kontak Kami</h4>
               <section class="row mg-lr-15 mg-t-30">
                 <i class="fa fa-map-marker fa-2x or floatLeft mg-r-20"></i>
                 <p class="small">JL Sindang Laut, Cilincing Jakarta Utara, 14110</p>
@@ -557,6 +549,7 @@
 
 @section('bottom')
   <script src="http://cdnjs.cloudflare.com/ajax/libs/dat-gui/0.5/dat.gui.min.js"></script>
+  <script src="{{ url('js/paticle-f.js')}}"></script>
   
 
 @endsection

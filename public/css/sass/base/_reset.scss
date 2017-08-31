@@ -195,3 +195,19 @@ h2 {
 	margin : 0px ;
 	border : none ;
 }
+
+.nav-pills>li>a {
+	@include radius(0);
+}
+
+.dropdown-menu>.active>a {
+	background-color: inherit;
+	&:hover,&:focus {
+		background-color: inherit;
+	}
+}
+
+// jquery css reset
+#fp-nav ul li a span, .fp-slidesNav ul li a span {
+	background-color: #d0d0d0;
+}

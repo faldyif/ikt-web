@@ -3,7 +3,7 @@ $(document).ready(function(){
     $('#fullpage').fullpage({
         navigation: true,
         navigationPosition: 'right',
-        navigationTooltips: ['Home', 'About Us', 'Vision and Mission', 'News', 'Agenda', 'Gallery', 'Testimonial', 'Contact Us'],
+        navigationTooltips: ['Home', 'About Us', 'Vision and Mission', 'News',  'Gallery', 'Testimonial', 'Contact Us'],
         scrollBar: true,
         responsive: 1000,
         afterRender: function(){

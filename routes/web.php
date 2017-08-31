@@ -41,6 +41,10 @@ Route::get('about', function () {
     return view('about');
 });
 
+Route::get('company-culture', function () {
+    return view('company-culture');
+});
+
 Route::get('agenda', function () {
     return view('agenda');
 });
@@ -60,4 +64,13 @@ Route::get('news', function () {
 
 Route::get('profile', function () {
     return view('profile');
+});
+
+Route::get('vission', function () {
+    return view('vission-mission');
+});
+
+// for tabs-layout template
+Route::get('tabs', function () {
+    return view('tabs-layout');
 });

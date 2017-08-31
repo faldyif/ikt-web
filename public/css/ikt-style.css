@@ -586,6 +586,20 @@ h2 {
   margin: 0px;
   border: none; }
 
+.nav-pills > li > a {
+  border-radius: 0;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -o-border-radius: 0; }
+
+.dropdown-menu > .active > a {
+  background-color: inherit; }
+  .dropdown-menu > .active > a:hover, .dropdown-menu > .active > a:focus {
+    background-color: inherit; }
+
+#fp-nav ul li a span, .fp-slidesNav ul li a span {
+  background-color: #d0d0d0; }
+
 * {
   box-sizing: border-box; }
 
@@ -1110,6 +1124,14 @@ figcaption.caption {
   transform: none;
   margin: 10px 0; }
 
+.be-flex {
+  display: flex; }
+
+.flex-row-center {
+  display: flex !important;
+  flex-direction: row;
+  align-items: center; }
+
 .btn {
   transition: all 0.3s ease-in-out;
   -webkit-transition: all 0.3s ease-in-out;
@@ -1201,9 +1223,14 @@ figure figcaption {
   -moz-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out; }
 
+.bg-navbar {
+  background-image: url("../img/bg-header.png");
+  background-repeat: no-repeat;
+  background-size: contain; }
+
 .top-nav-collapse {
   padding: 5px 30px;
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: rgba(250, 195, 18, 0.9);
   border-color: transparent; }
 
 .navbar-fixed-top {
@@ -1231,7 +1258,9 @@ figure figcaption {
   right: auto; }
 
 .dropdown-menu {
-  background-color: #0d0f10;
+  background-color: #f79a3d;
+  margin-top: 5px !important;
+  border: none;
   box-shadow: none !important;
   -webkit-box-shadow: none !important;
   -moz-box-shadow: none !important;
@@ -1244,6 +1273,10 @@ figure figcaption {
     padding: 20px 30px; }
     .dropdown-menu > li > a:hover {
       color: #ffffff; }
+
+.dropdown-menu-opacity {
+  background-color: rgba(0, 0, 0, 0.5) !important;
+  margin-top: 10px !important; }
 
 .dropdown-submenu > a:after {
   display: block;
@@ -1320,7 +1353,7 @@ figure figcaption {
   background-color: #f7f7f7; }
 
 /***********************************
-homepage 
+homepage
 ***********************************/
 .figSlider {
   cursor: -webkit-grab; }

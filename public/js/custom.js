@@ -1,5 +1,5 @@
 $(document).ready(function(){
-    
+
     // dropdown-menu
     var w = window.innerWidth;
 
@@ -19,13 +19,15 @@ $(document).ready(function(){
 
     // navbar scroll
     $(window).scroll(function() {
-        if ($(".navbar").offset().top > 50) {
-            $(".navbar-fixed-top").addClass("top-nav-collapse");
-            $(".navbar-brand").addClass("beWhite");
-        } else {
-            $(".navbar-fixed-top").removeClass("top-nav-collapse");
-             $(".navbar-brand").removeClass("beWhite");
-        }
+      if ($(".navbar").offset().top > 50) {
+          $(".navbar-fixed-top").addClass("top-nav-collapse");
+          $(".navbar-fixed-top").addClass("bg-navbar");
+          $(".dropdown-menu").removeClass("dropdown-menu-opacity");
+      } else {
+          $(".navbar-fixed-top").removeClass("top-nav-collapse");
+          $(".navbar-fixed-top").removeClass("bg-navbar");
+          $(".dropdown-menu").addClass("dropdown-menu-opacity");
+      }
     });
 
     // slick
@@ -65,13 +67,13 @@ $(document).ready(function(){
           autoplay: true,
           autoplaySpeed: 3000
         });
-    
-    // reply 
+
+    // reply
     $("#showToggle").click(function(){
         $("#thisToggle").slideToggle("slow");
     });
 
-    //mansory 
+    //mansory
     $('.grid').masonry({
       itemSelector: '.grid-item',
       columnWidth: '.grid-sizer',
@@ -83,21 +85,15 @@ $(document).ready(function(){
       transition: 'fade'
     });
 
-    $('#searchButton').on('click', function(e){
-      e.preventDefault()
-      $('#search-field').fadeIn()
-    })
-    $('#closeSearch').on('click', function(e){
-      e.preventDefault()
-      $('#search-field').fadeOut()
-    })
+    $('#accordion .panel').hover(function() {
+      $(this).find(".accordion-toggle .indicator").removeClass("glyphicon-chevron-down").addClass("glyphicon-chevron-up");
+      $(this).find(".panel-collapse").collapse("show");
+    }, function() {
+      var $collapse = $(this).find(".panel-collapse");
+      $(this).find(".accordion-toggle .indicator").addClass("glyphicon-chevron-down").removeClass("glyphicon-chevron-up");
+      setTimeout(function(){
+        $collapse.collapse("hide");
+      },400);
+    });
 
-    $('#languageButton').on('click', function(e){
-      e.preventDefault()
-      $('#language-field').fadeIn()
-    })
-    $('#closeLanguage').on('click', function(e){
-      e.preventDefault()
-      $('#language-field').fadeOut()
-    })
 });
