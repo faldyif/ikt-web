@@ -5,6 +5,7 @@ $(document).ready(function(){
         navigationPosition: 'right',
         navigationTooltips: ['Home', 'About Us', 'Vision and Mission', 'News', 'Agenda', 'Gallery', 'Testimonial', 'Contact Us'],
         scrollBar: true,
+        responsive: 1000,
         afterRender: function(){
             wow = new WOW({
               animateClass: 'animated',

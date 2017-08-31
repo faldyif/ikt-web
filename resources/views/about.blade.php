@@ -237,4 +237,4 @@
       </section>
     </footer>
     <!--/footer-->
-    @endsection
+@endsection
