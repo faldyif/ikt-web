@@ -61,3 +61,8 @@ Route::get('news', function () {
 Route::get('profile', function () {
     return view('profile');
 });
+
+// for tabs-layout template
+Route::get('tabs', function () {
+    return view('tabs-layout');
+});

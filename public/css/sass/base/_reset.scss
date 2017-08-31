@@ -195,3 +195,14 @@ h2 {
 	margin : 0px ;
 	border : none ;
 }
+
+.nav-pills>li>a {
+	@include radius(0);
+}
+
+.dropdown-menu>.active>a {
+	background-color: inherit;
+	&:hover,&:focus {
+		background-color: inherit;
+	}
+}

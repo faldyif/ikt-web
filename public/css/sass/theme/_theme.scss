@@ -3,7 +3,7 @@ html,body {
 	font-family: 'Roboto-Regular', sans-serif;
 }
 .beWhite {
-    filter: brightness(0) invert(1);   
+    filter: brightness(0) invert(1);
 }
 .main{
 	::-webkit-scrollbar {
@@ -30,9 +30,14 @@ figure {
 #navbar {
 	@include transition(0.3);
 }
+.bg-navbar {
+	background-image: url('../img/bg-header.png');
+	background-repeat: no-repeat;
+	background-size: contain;
+}
 .top-nav-collapse {
 	padding: 5px 30px;
-	background-color: rgba(0, 0, 0, 0.8);
+	background-color: rgba(250, 195, 18, 0.9);
     border-color: transparent;
 }
 .navbar-fixed-top {
@@ -71,7 +76,9 @@ figure {
     right: auto;
 }
 .dropdown-menu {
-	background-color: $black;
+	background-color: $darkorange;
+	margin-top:5px !important;
+	border: none;
 	@include no-box-shadow();
 	@include radius(0);
 	&>li {
@@ -83,6 +90,10 @@ figure {
 			}
 		}
 	}
+}
+.dropdown-menu-opacity {
+	background-color: rgba(0, 0, 0, 0.5) !important;
+	margin-top: 10px !important;
 }
 .dropdown-submenu {
 	&>a:after {
@@ -166,7 +177,7 @@ figure {
     background-color: $lightwhite;
 }
 /***********************************
-homepage 
+homepage
 ***********************************/
 .figSlider {
 	cursor: -webkit-grab;
@@ -219,7 +230,7 @@ homepage
 	}
 }
 .agendaSection {
-	
+
 	&>.row {
 
 		.col-md-6 {
@@ -247,7 +258,7 @@ homepage
 
 	.galleryList {
 		overflow: hidden;
-		
+
 		.overlay {
 			@include overlay($darkblue,0.6);
 			opacity:0;
