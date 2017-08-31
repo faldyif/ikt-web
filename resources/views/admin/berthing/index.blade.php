@@ -1,9 +1,9 @@
 @extends('layouts.admin.app')
 
-@section('title', 'List Album')
+@section('title', 'List Berthing Plan')
 
 @section('breadcrumb')
-    <li><a href="{{ url('admin/album') }}"><i class="fa fa-newspaper-o"></i> Album</a></li>
+    <li><a href="{{ url('admin/berthing') }}"><i class="fa fa-calendar"></i> Berthing Plan</a></li>
 @endsection
 
 @section('content')
@@ -20,7 +20,7 @@
           <div class="box">
             <div class="box-header">
               <div class="col-md-2 pull-right">
-              <a href="{{ url('admin/album/create') }}" class="btn btn-block btn-primary">
+              <a href="{{ url('admin/berthing/create') }}" class="btn btn-block btn-primary">
                 Buat Baru
               </a>
               </div>
@@ -30,25 +30,27 @@
               <table id="example1" class="table table-bordered table-striped">
                 <thead>
                 <tr>
-                  <th>Judul Album</th>
-                  <th>Dibuat Oleh</th>
-                  <th>Tanggal Pembuatan</th>
+                  <th>Nama Berthing Plan</th>
+                  <th>Tempat</th>
+                  <th>Tanggal Berthing Plan</th>
+                  <th>Dibuat Pada</th>
                   <th>Aksi</th>
                 </tr>
                 </thead>
                 <tbody>
-                @foreach($album as $key)
+                @foreach($berthing as $key)
                 <tr>
-                  <td>{{ $key->title }}</td>
-                  <td>{{ \App\User::find($key->user_id)->name }}</td>
+                  <td>{{ $key->berthing }}</td>
+                  <td>{{ $key->place }}</td>
+                  <td>{{ \Carbon\Carbon::parse($key->berthing_date_time)->toFormattedDateString() }}</td>
                   <td>{{ \Carbon\Carbon::parse($key->created_at)->diffForHumans() }}</td>
                   <td>
                     <div class="btn-group">
-                      <a class="btn btn-default btn-xs"><i class="fa fa-photo"></i></a>
+                      <a class="btn btn-default btn-xs"><i class="fa fa-bullhorn"></i></a>
                       <a class="btn btn-default btn-xs"><i class="fa fa-eye"></i></a>
-                      <a href="{{ url('admin/album') }}/{{ $key->id }}/edit" class="btn btn-default btn-xs"><i class="fa fa-edit"></i></a>
+                      <a href="{{ url('admin/berthing') }}/{{ $key->id }}/edit" class="btn btn-default btn-xs"><i class="fa fa-edit"></i></a>
                       <a href="#" onclick="deleteConfirmation({{ $key->id }})" class="btn btn-danger btn-xs"><i class="fa fa-trash"></i></a>
-                      {!! Form::open(['route' => ['album.destroy',$key->id], 'method' => 'delete', 'id' => 'delete_form_'.$key->id]) !!}
+                      {!! Form::open(['route' => ['berthing.destroy',$key->id], 'method' => 'delete', 'id' => 'delete_form_'.$key->id]) !!}
                       {!! Form::close() !!}
                     </div>
                   </td>
@@ -57,9 +59,10 @@
                 </tbody>
                 <tfoot>
                 <tr>
-                  <th>Judul Album</th>
-                  <th>Dibuat Oleh</th>
-                  <th>Tanggal Pembuatan</th>
+                  <th>Judul Berthing Plan</th>
+                  <th>Penulis</th>
+                  <th>Ditulis Pada</th>
+                  <th>Terakhir Diedit</th>
                   <th>Aksi</th>
                 </tr>
                 </tfoot>
@@ -106,7 +109,7 @@
   function deleteConfirmation(id) {
     swal({
       title: 'Apakah anda yakin?',
-      text: 'Anda tidak akan dapat mengembalikan Album yang sudah dihapus!',
+      text: 'Anda tidak akan dapat mengembalikan Berthing Plan yang sudah dihapus!',
       type: 'warning',
       showCancelButton: true,
       confirmButtonText: 'Ya, hapus!',
@@ -114,7 +117,7 @@
     }).then(function() {
       swal(
         'Terhapus!',
-        'Album yang anda pilih berhasil terhapus. Reload otomatis dalam 2 detik..',
+        'Berthing Plan yang anda pilih berhasil terhapus. Reload otomatis dalam 2 detik..',
         'success'
       )
       setTimeout(function() {
@@ -126,7 +129,7 @@
       if (dismiss === 'cancel') {
         swal(
           'Dibatalkan',
-          'Album yang anda pilih aman di database :)',
+          'Berthing Plan yang anda pilih aman di database :)',
           'error'
         )
       }

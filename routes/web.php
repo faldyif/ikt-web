@@ -17,7 +17,7 @@ Route::group(array('namespace'=>'Admin', 'prefix'=>'admin', 'middleware'=>'auth'
 {
     Route::get('/', array('as' => 'dashboard', 'uses' => 'DashboardController@index'));
     Route::resource('album', 'AlbumController');
-    Route::resource('berthing-plan', 'BerthingPlanController');
+    Route::resource('berthing', 'BerthingPlanController');
     Route::resource('event', 'EventController');
     Route::resource('news', 'NewsController');
     Route::resource('photo', 'PhotoController');

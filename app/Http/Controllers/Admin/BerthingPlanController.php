@@ -2,6 +2,9 @@
 
 namespace App\Http\Controllers\Admin;
 
+use Illuminate\Support\Facades\Session;
+use Carbon\Carbon;
+use App\BerthingPlan;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 
@@ -14,7 +17,9 @@ class BerthingPlanController extends Controller
      */
     public function index()
     {
-        //
+        Carbon::setLocale('id');
+        $berthing = BerthingPlan::all();
+        return view('admin.berthing.index')->with('berthing', $berthing);
     }
 
     /**
@@ -24,7 +29,7 @@ class BerthingPlanController extends Controller
      */
     public function create()
     {
-        //
+        return view('admin.berthing.create');
     }
 
     /**
@@ -35,7 +40,10 @@ class BerthingPlanController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $berthing = BerthingPlan::create($request->all());
+
+        Session::flash('message', 'Berthing plan berhasil dibuat!');
+        return redirect('admin/berthing');
     }
 
     /**
@@ -57,7 +65,8 @@ class BerthingPlanController extends Controller
      */
     public function edit($id)
     {
-        //
+        $berthing = BerthingPlan::find($id);
+        return view('admin.berthing.edit')->with('berthing', $berthing);
     }
 
     /**
@@ -69,7 +78,16 @@ class BerthingPlanController extends Controller
      */
     public function update(Request $request, $id)
     {
-        //
+        $berthing = BerthingPlan::find($id);
+        $berthing->type = $request->type;
+        $berthing->eta = $request->eta;
+        $berthing->vessel = $request->vessel;
+        $berthing->agent = $request->agent;
+        $berthing->voy = $request->voy;
+        $berthing->touch();
+
+        Session::flash('message', 'Berthing plan berhasil diupdate!');
+        return redirect('admin/berthing');
     }
 
     /**
@@ -80,6 +98,8 @@ class BerthingPlanController extends Controller
      */
     public function destroy($id)
     {
-        //
+        BerthingPlan::destroy($id);
+        Session::flash('message', 'Berthing plan berhasil dihapus!');
+        return redirect('admin/berthing');
     }
 }

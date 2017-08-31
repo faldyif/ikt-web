@@ -16,6 +16,7 @@ class CreateAlbumsTable extends Migration
         Schema::create('albums', function (Blueprint $table) {
             $table->increments('id');
             $table->string('title'); // judul album
+            $table->string('slug'); // slug album (untuk url)
             $table->integer('user_id')->unsigned(); // user id pembuat album
             $table->foreign('user_id')->references('id')->on('users');
             $table->text('description')->nullable(); // deskripsi album
