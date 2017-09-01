@@ -32,7 +32,7 @@
           <span class="icon-bar"></span>
         </button>
         <a class="navbar-brand" href="{{ url('/') }}">
-          <img class="" src="{{ url('img/ikt-logo.png') }}">
+          <img class="" src="{{ url('img/ikt-logo.gif') }}">
         </a>
       </div>
 
@@ -164,7 +164,6 @@
   <script src="{{ url('js/slick.min.js') }}"></script>
   <script src="{{ url('js/jquery.fullpage.min.js') }}"></script>
   <script src="{{ url('js/masonry.js') }}"></script>
-  <script src="{{ url('js/custom.fullpage.js') }}"></script>
   <script src="{{ url('js/custom.js') }}"></script>
   @yield('bottom')
 </body>
