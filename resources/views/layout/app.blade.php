@@ -73,10 +73,11 @@
           </li>
           <li class="has-children"><a href="#">LAYANAN</a>
             <ul class="dropdown-menu dropdown-menu-opacity">
-              <li><a href="#">Stevedoring &amp Cardodoring</a></li>
-              <li><a href="#">Receiving &amp Delivering</a></li>
+              <li><a href="{{ url('stevedoring')}}">Stevedoring &amp Cardodoring</a></li>
+              <li><a href="{{url('receiving')}}">Receiving &amp Delivering</a></li>
               <li><a href="#">Pre Delivery Inspection</a></li>
-              <li class="has-children dropdown-submenu"><a href="#">Value Added Services</a>
+              <li><a href="{{url('vas')}}">Value Added Services</a></li>
+              <!-- <li class="has-children dropdown-submenu"><a href="#">Value Added Services</a>
                 <ul class="dropdown-menu dropdown-menu-opacity level-2">
                   <li><a href="#">Minor Repair</a></li>
                   <li><a href="#">Washing</a></li>
@@ -84,7 +85,7 @@
                   <li><a href="#">Port Stock</a></li>
                   <li><a href="#">Roro Transfer Services</a></li>
                 </ul>
-              </li>
+              </li> -->
             </ul>
           </li>
           <li class="has-children"><a href="#">FASILITAS</a>

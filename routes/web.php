@@ -30,7 +30,7 @@ Route::get('/', function () {
 });
 
 Route::get('/ye', function () {
-    return view('index-particle');
+    return view('tabs-layout');
 });
 
 Route::get('gallery', function () {
@@ -43,6 +43,18 @@ Route::get('gallery/detail', function () {
 
 Route::get('about', function () {
     return view('about');
+});
+
+Route::get('stevedoring', function () {
+    return view('stevedoring');
+});
+
+Route::get('receiving', function () {
+    return view('receiving');
+});
+
+Route::get('vas', function () {
+    return view('vas');
 });
 
 Route::get('company-culture', function () {
