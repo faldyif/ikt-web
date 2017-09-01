@@ -1581,34 +1581,55 @@ figcaption.caption {
   .grid-item figure:hover figcaption.figcaptionBottom {
     bottom: 35%; } }
 @media screen and (max-width: 400px) {
-  #about, .visionSection, .missionSection, #recent-news, #testi, #gallery, #gallery-list {
+  .hidden-400 {
+    display: none; }
+
+  #about, .visionSection, .missionSection, #recent-news, #gallery, #gallery-list {
     padding-left: 20px;
     padding-right: 20px; }
 
-  #news, #news-list {
+  #news, #news-list, #testi {
     padding-left: 0px;
     padding-right: 0px; }
 
   #about {
     padding-top: 70px; }
 
+  .missionSection .panel-title i.fa-chevron-down {
+    margin-top: 0px; }
+  .missionSection .panel-heading {
+    padding-left: 0px;
+    padding-right: 0px; }
+  .missionSection .panel-body {
+    padding-left: 20px; }
+
+  #news .container-fluid {
+    padding-left: 0px;
+    padding-right: 0px; }
+
   #testi {
-    height: 60vh; }
+    height: 60vh;
+    padding-top: 55px; }
     #testi .mg-b-30 {
       margin-bottom: 20px; }
     #testi .pd-lr-30 {
       padding: 0 !important; }
     #testi .multiple-items .rightWidth {
-      width: 75%; }
+      width: 85%; }
       #testi .multiple-items .rightWidth .mg-t-20 {
         margin-top: 0 !important; }
+      #testi .multiple-items .rightWidth .mg-lr-20 {
+        margin-left: 0 !important;
+        margin-right: 0 !important; }
       #testi .multiple-items .rightWidth figure.roundImage {
         display: none; }
+    #testi .multiple-items .slick-prev, #testi .multiple-items .slick-next {
+      top: -40px; }
 
   #contact {
     height: 40vh; }
     #contact .contactInfo {
-      padding: 10px 20px; }
+      padding: 10px 0px; }
       #contact .contactInfo .row.mg-t-30 {
         margin-top: 10px !important; }
       #contact .contactInfo .row.mg-t-10 {

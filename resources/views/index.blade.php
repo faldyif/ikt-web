@@ -113,7 +113,7 @@
                 <div class="panel-heading">
                   <h4 class="panel-title">
                     <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">
-                      <h4><i class="fa fa-check-circle-o fa-2x"></i> Pelanggan dan Mitra<i class="fa fa-chevron-down"></i></h4>
+                      <h4><i class="fa fa-check-circle-o fa-2x hidden-400"></i> Pelanggan dan Mitra<i class="fa fa-chevron-down"></i></h4>
                     </a>
                   </h4>
                 </div>
@@ -128,7 +128,7 @@
                 <div class="panel-heading">
                   <h4 class="panel-title">
                     <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">
-                      <h4><i class="fa fa-check-circle-o fa-2x"></i> Pemegang Saham<i class="fa fa-chevron-down"></i></h4>
+                      <h4><i class="fa fa-check-circle-o fa-2x hidden-400"></i> Pemegang Saham<i class="fa fa-chevron-down"></i></h4>
                     </a>
                   </h4>
                 </div>
@@ -142,7 +142,7 @@
                 <div class="panel-heading">
                   <h4 class="panel-title">
                     <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">
-                      <h4><i class="fa fa-check-circle-o fa-2x"></i> Karyawan<i class="fa fa-chevron-down"></i></h4>
+                      <h4><i class="fa fa-check-circle-o fa-2x hidden-400"></i> Karyawan<i class="fa fa-chevron-down"></i></h4>
                     </a>
                   </h4>
                 </div>
@@ -156,7 +156,7 @@
                 <div class="panel-heading">
                   <h4 class="panel-title">
                     <a data-toggle="collapse" data-parent="#accordion" href="#collapse4">
-                      <h4><i class="fa fa-check-circle-o fa-2x"></i> Masyarakat dan Negara <i class="fa fa-chevron-down"></i></h4>
+                      <h4><i class="fa fa-check-circle-o fa-2x hidden-400"></i> Masyarakat dan Negara <i class="fa fa-chevron-down"></i></h4>
                     </a>
                   </h4>
                 </div>
@@ -360,7 +360,7 @@
       <section id="testi" class="wow fadeInRight">
         <div class="container-fluid">
           <section class="pd-lr-30">
-            <hr class="hrSpec hrSpecWhite">
+            <hr class="hrSpec hrSpecWhite hidden-400">
             <h3 class="mg-b-30 roboBold">Testimonial</h3>
           </section>
           <div class="multiple-items">
@@ -524,7 +524,7 @@
               </section>
             </section>
           </div>
-          <div class="col-md-8 noPad">
+          <div class="col-md-8 noPad hidden-400">
             <div class="map">
               <div class="overlay-map"></div>
               <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3967.1833851621095!2d106.91224451476846!3d-6.105991995578615!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xe329d8258290e493!2sTanjung+Priok+Car+Terminal+(TPT)!5e0!3m2!1sen!2sid!4v1501491377262" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
