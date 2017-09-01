@@ -1258,7 +1258,7 @@ figure figcaption {
   right: auto; }
 
 .dropdown-menu {
-  background-color: #f79a3d;
+  background-color: rgba(247, 154, 61, 0.8);
   margin-top: 5px !important;
   border: none;
   box-shadow: none !important;
@@ -1557,7 +1557,8 @@ figcaption.caption {
 
   .dropdown-submenu > .dropdown-menu, .dropdown-menu {
     position: relative;
-    width: 100%; }
+    width: 100%;
+    left: 0; }
 
   .heroTitle .container-fluid {
     bottom: 20px; }
