@@ -3,61 +3,6 @@
 @section('title','IPC')
 
 @section('content')
-<!--NAV-->
-      <nav id="navbar" class="navbar navbar-fixed-top">
-        <div class="container-fluid">
-          <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed floatRight" data-toggle="collapse" data-target="#Navbar">
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>                        
-            </button>
-            <a class="navbar-brand" href="index.html">
-              <img class="" src="./img/ikt-logo.png">
-            </a>
-          </div>
-
-          <div class="collapse navbar-collapse" id="Navbar">
-            <ul class="nav navbar-nav navbar-nav-dropdown navbar-right">
-              <li><a href="./index.html#hero">BERANDA</a></li>
-              <li class="has-children"><a>TENTANG</a>
-                <ul class="dropdown-menu">
-                  <li><a href="#">Tentang Kami</a></li>
-                  <li><a href="#">Sejarah Perusahaan</a></li>
-                  <li><a href="agenda.html">Acara Perusahaan</a></li>
-                  <li class="has-children dropdown-submenu"><a href="#">Berthing Plan</a>
-                    <ul class="dropdown-menu level-2">
-                      <li><a href="#">International</a></li>
-                      <li><a href="#">Domestic</a></li>
-                    </ul>
-                  </li>
-                </ul>
-              </li>
-              <li class="has-children"><a href="#">LAYANAN</a>
-                <ul class="dropdown-menu">
-                  <li><a href="#">Gambaran Fasilitas</a></li>
-                  <li><a href="#">Stevedoring &amp Cardodoring</a></li>
-                  <li><a href="#">Receiving &amp Delivering</a></li>
-                  <li><a href="#">Storages</a></li>
-                </ul>
-              </li>
-              <li><a href="./news-list.html">BERITA</a></li>
-              <li class="active"><a href="./gallery-list.html">GALLERY</a></li>
-              <li><a href="#">PROCUREMENT</a></li>
-              <li class="has-children has-children-right"><a href="#">BATUAN</a>
-                <ul class="dropdown-menu">
-                  <li><a href="#">Customer Service</a></li>
-                  <li><a href="#">Help Desk</a></li>
-                  <li><a href="#">CCTV</a></li>
-                </ul>
-              </li>
-              <li><a href="#" id="languageButton"><i class="fa fa-language fa-lg"></i></a></li>
-              <li class=""><a href="#" id="searchButton"><i class="fa fa-search"></i></a></li>
-            </ul>
-          </div>
-        </div>
-      </nav>
-    <!--/NAV-->
     <!--HERO-->
     <section id="heroTitle">
       <div class="heroTitle" style="background-image: url('./img/2.jpg');">

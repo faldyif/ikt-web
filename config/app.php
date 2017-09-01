@@ -179,6 +179,9 @@ return [
 
         // LaravelCollective
         Collective\Html\HtmlServiceProvider::class,
+
+        Cviebrock\EloquentSluggable\ServiceProvider::class,
+        PragmaRX\Tracker\Vendor\Laravel\ServiceProvider::class,
     ],
 
     /*
@@ -230,6 +233,7 @@ return [
         // LaravelCollective
         'Form' => Collective\Html\FormFacade::class,
         'Html' => Collective\Html\HtmlFacade::class,
+        'Tracker' => PragmaRX\Tracker\Vendor\Laravel\Facade::class,
 
     ],
 

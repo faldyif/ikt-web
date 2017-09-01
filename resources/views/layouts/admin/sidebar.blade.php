@@ -54,17 +54,6 @@
             <li {{{ (Request::is('admin/berthing-plan') ? 'class=active' : '') }}}><a href="{{ url('admin/berthing-plan') }}"><i class="fa fa-list"></i> List Berthing Plan</a></li>
           </ul>
         </li>
-        <li class="treeview {{{ ((Request::is('admin/event/create') || Request::is('admin/event')) ? 'active' : '') }}}">
-          <a href="#"><i class="fa fa-calendar"></i> <span>Agenda</span>
-            <span class="pull-right-container">
-                <i class="fa fa-angle-left pull-right"></i>
-              </span>
-          </a>
-          <ul class="treeview-menu">
-            <li {{{ (Request::is('admin/event/create') ? 'class=active' : '') }}}><a href="{{ url('admin/event/create') }}"><i class="fa fa-plus"></i> Buat Agenda Baru</a></li>
-            <li {{{ (Request::is('admin/event') ? 'class=active' : '') }}}><a href="{{ url('admin/event') }}"><i class="fa fa-list"></i> List Agenda</a></li>
-          </ul>
-        </li>
       </ul>
       <!-- /.sidebar-menu -->
     </section>

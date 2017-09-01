@@ -3,11 +3,13 @@
 namespace App\Http\Controllers\Admin;
 
 use Illuminate\Http\Request;
+use App\Http\Requests\UploadPhotoRequest;
 use App\Http\Controllers\Controller;
 
 // Custom class
 use App\User;
 use App\Album;
+use App\AlbumPhoto;
 use Session;
 use Carbon\Carbon;
 use Illuminate\Support\Facades\Auth;
@@ -39,21 +41,24 @@ class AlbumController extends Controller
     /**
      * Store a newly created resource in storage.
      *
-     * @param  \Illuminate\Http\Request  $request
+     * @param UploadRequest|UploadPhotoRequest|Request $request
      * @return \Illuminate\Http\Response
      */
-    public function store(Request $request)
+    public function store(UploadPhotoRequest $request)
     {
-        $this->validate($request, [
-            'title' => 'required',
-            'description' => 'required'
+        $album = Album::create([
+            'title' => $request->title,
+            'user_id' => Auth::user()->id,
+            'description' => $request->description
         ]);
-
-        $album = new Album;
-        $album->title = $request->title;
-        $album->description = $request->description;
-        $album->user_id = Auth::user()->id;
-        $album->save();
+        foreach ($request->photos as $photo) {
+            $filename = $photo->store('album_photos');
+            AlbumPhoto::create([
+                'album_id' => $album->id,
+                'user_id' => Auth::user()->id,
+                'filename' => $filename
+            ]);
+        }
 
         Session::flash('message', 'Album berhasil dibuat! Anda dapat menambah maupun mengedit isi fotonya melalui <a>link ini</a>');
         return redirect('admin/album');

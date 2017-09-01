@@ -55,11 +55,8 @@ class NewsController extends Controller
         $news->content = $request->content;
         $news->user_id = Auth::user()->id;
         if($request->hasFile('thumbnail') && $request->file('thumbnail')->isValid()) {
-            $destinationPath = 'public/news_thumbs';
-            $extension = $request->thumbnail->extension();
-            $fileName = date('YmdHms').'_'.Auth::user()->id.'.'.$extension;
-            $request->thumbnail->storeAs($destinationPath, $fileName);
-            $news->thumbnail_path = $fileName;
+            $filename = $request->thumbnail->store('news_thumbs');
+            $news->filename = $filename;
         }
         $news->save();
 
@@ -108,11 +105,8 @@ class NewsController extends Controller
         $news->title = $request->title;
         $news->content = $request->content;
         if($request->hasFile('thumbnail') && $request->file('thumbnail')->isValid()) {
-            $destinationPath = 'public/news_thumbs';
-            $extension = $request->thumbnail->extension();
-            $fileName = date('YmdHms').'_'.Auth::user()->id.'.'.$extension;
-            $request->thumbnail->storeAs($destinationPath, $fileName);
-            $news->thumbnail_path = $fileName;
+            $filename = $request->thumbnail->store('news_thumbs');
+            $news->filename = $filename;
         }
         $news->touch();
 

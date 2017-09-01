@@ -33,7 +33,6 @@
                   <th>Judul Album</th>
                   <th>Dibuat Oleh</th>
                   <th>Tanggal Pembuatan</th>
-                  <th>Tanggal Terakhir Update</th>
                   <th>Aksi</th>
                 </tr>
                 </thead>
@@ -43,10 +42,9 @@
                   <td>{{ $key->title }}</td>
                   <td>{{ \App\User::find($key->user_id)->name }}</td>
                   <td>{{ \Carbon\Carbon::parse($key->created_at)->diffForHumans() }}</td>
-                  <td>{{ \Carbon\Carbon::parse($key->updated_at)->diffForHumans() }}</td>
                   <td>
                     <div class="btn-group">
-                      <a class="btn btn-default btn-xs"><i class="fa fa-bullhorn"></i></a>
+                      <a class="btn btn-default btn-xs"><i class="fa fa-photo"></i></a>
                       <a class="btn btn-default btn-xs"><i class="fa fa-eye"></i></a>
                       <a href="{{ url('admin/album') }}/{{ $key->id }}/edit" class="btn btn-default btn-xs"><i class="fa fa-edit"></i></a>
                       <a href="#" onclick="deleteConfirmation({{ $key->id }})" class="btn btn-danger btn-xs"><i class="fa fa-trash"></i></a>
@@ -62,7 +60,6 @@
                   <th>Judul Album</th>
                   <th>Dibuat Oleh</th>
                   <th>Tanggal Pembuatan</th>
-                  <th>Tanggal Terakhir Update</th>
                   <th>Aksi</th>
                 </tr>
                 </tfoot>
