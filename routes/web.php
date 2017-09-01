@@ -24,6 +24,7 @@ Route::group(array('namespace'=>'Admin', 'prefix'=>'admin', 'middleware'=>'auth'
 });
 Auth::routes();
 
+Route::get('news/{news}', 'NewsController@show')->name('news-detail');
 Route::get('/home', 'HomeController@index')->name('home');
 Route::get('/', function () {
     return view('index');

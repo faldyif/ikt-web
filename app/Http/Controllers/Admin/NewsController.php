@@ -8,6 +8,7 @@ use App\Http\Controllers\Controller;
 // Custom class
 use App\User;
 use App\News;
+use Illuminate\Support\Facades\Storage;
 use Session;
 use Carbon\Carbon;
 use Illuminate\Support\Facades\Auth;
@@ -54,10 +55,8 @@ class NewsController extends Controller
         $news->title = $request->title;
         $news->content = $request->content;
         $news->user_id = Auth::user()->id;
-        if($request->hasFile('thumbnail') && $request->file('thumbnail')->isValid()) {
-            $filename = $request->thumbnail->store('news_thumbs');
-            $news->filename = $filename;
-        }
+        $news->filename = $request->file('thumbnail')->store('news_thumbs');
+        Storage::move($news->filename, 'public/' . $news->filename);
         $news->save();
 
         Session::flash('message', 'Berita berhasil diposkan! Anda dapat mempublikasikannya langsung ke sosial media melalui <a>link ini</a>');
@@ -98,15 +97,16 @@ class NewsController extends Controller
     {
         $this->validate($request, [
             'title' => 'required',
-            'content' => 'required'
+            'content' => 'required',
+            'thumbnail' => 'image|mimes:jpeg,bmp,png|max:2000'
         ]);
 
         $news = News::find($id);
         $news->title = $request->title;
         $news->content = $request->content;
-        if($request->hasFile('thumbnail') && $request->file('thumbnail')->isValid()) {
-            $filename = $request->thumbnail->store('news_thumbs');
-            $news->filename = $filename;
+        if($request->hasFile('thumbnail')) {
+            $news->filename = $request->file('thumbnail')->store('news_thumbs');
+            Storage::move($news->filename, 'public/' . $news->filename);
         }
         $news->touch();
 
