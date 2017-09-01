@@ -1132,6 +1132,18 @@ figcaption.caption {
   flex-direction: row;
   align-items: center; }
 
+@media screen and (max-width: 992px) {
+  .service-media {
+    width: 100%;
+    height: auto; }
+
+  .service-media-1 {
+    width: 100%;
+    height: auto; } }
+@media screen and (min-width: 992px) {
+  .service-media {
+    width: 200%;
+    height: auto; } }
 .btn {
   transition: all 0.3s ease-in-out;
   -webkit-transition: all 0.3s ease-in-out;
