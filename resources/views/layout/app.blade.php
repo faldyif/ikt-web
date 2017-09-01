@@ -32,7 +32,7 @@
           <span class="icon-bar"></span>
         </button>
         <a class="navbar-brand" href="index.html">
-          <img class="" src="{{ url('img/ikt-logo.png') }}">
+          <img class="" src="{{ url('img/ikt-logo.gif') }}">
         </a>
       </div>
 
