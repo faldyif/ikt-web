@@ -49,7 +49,6 @@ Route::get('history', function () {
     return view('company-history');
 });
 
-
 Route::get('news/detail', function () {
     return view('news-detail');
 });
@@ -60,6 +59,10 @@ Route::get('news', function () {
 
 Route::get('profile', function () {
     return view('profile');
+});
+
+Route::get('clients', function () {
+    return view('clients');
 });
 
 // for tabs-layout template

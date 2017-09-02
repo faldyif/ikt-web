@@ -95,7 +95,8 @@
 	&>div {
 
 		section {
-			margin: 0 30px;
+			margin: 0 20px;
+      text-align: center;
 		}
 	}
 
@@ -307,7 +308,6 @@ figcaption.caption {
 	transform: none;
 	margin: 10px 0;
 }
-
 // display flex
 .be-flex {
 display: flex;
@@ -316,4 +316,11 @@ display: flex;
 	display: flex !important;
 	flex-direction: row;
 	align-items: center;
+}
+
+.bg-img-contain {
+  img {
+    @include img-bg();
+    background-size: contain;
+  }
 }
