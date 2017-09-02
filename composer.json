@@ -11,8 +11,7 @@
         "geoip2/geoip2": "~2.0",
         "laravel/framework": "5.4.*",
         "laravel/tinker": "~1.0",
-        "laravelcollective/html": "^5.4.0",
-        "pragmarx/tracker": "^3.1"
+        "laravelcollective/html": "^5.4.0"
     },
     "require-dev": {
         "fzaninotto/faker": "~1.4",
