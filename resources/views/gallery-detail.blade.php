@@ -1,11 +1,11 @@
 @extends('layout.app')
 
-@section('title','IPC')
+@section('title','Gallery Detail')
 
 @section('content')
     <!--HERO-->
     <section id="heroTitle">
-      <div class="heroTitle" style="background-image: url('./img/2.jpg');">
+      <div class="heroTitle" style="background-image: url('{{ url('img/2.jpg') }}');">
         <div class="overlay"></div>
         <section class="container-fluid pd-30">
           <h2 class="roboBold wh alignCenter" data-wow-delay="0.4s">Eam no eripuit noluisse intellegebat</h2>
@@ -15,15 +15,15 @@
     </section>
     <!--/HERO-->
     <!--GALLERY-->
-    <section id="gallery">
+    <section id="gallery-list">
       <div class="container-fluid wow fadeInUpBig pd-30">
         <!-- masonry -->
           <div class="grid">
             <div class="grid-sizer"></div>
             <div class="grid-item">
                 <figure>
-                  <img src="./img/port01.jpg">
-                  <a href="./img/port01.jpg" data-rel="lightcase:galleryCollection" title="Vix eu etiam mediocrem">
+                  <img src="{{ url('img/port01.jpg') }}">
+                  <a href="{{ url('img/port01.jpg') }}" data-rel="lightcase:galleryCollection" title="Vix eu etiam mediocrem">
                     <div class="overlay"></div>
                     <figcaption><i class="fa fa-plus fa-2x"></i></figcaption>
                   </a>
@@ -31,17 +31,17 @@
             </div>
             <div class="grid-item grid-item--width2">
                 <figure>
-                  <img src="./img/port01.jpg">
-                  <a href="./img/port01.jpg" data-rel="lightcase:galleryCollection" title="Vix eu etiam mediocrem">
+                  <img src="{{ url('img/port01.jpg') }}">
+                  <a href="{{ url('img/port01.jpg') }}" data-rel="lightcase:galleryCollection" title="Vix eu etiam mediocrem">
                     <div class="overlay"></div>
                     <figcaption><i class="fa fa-plus fa-2x"></i></figcaption>
                   </a>
                 </figure>
-            </div> 
+            </div>
             <div class="grid-item grid-item--height2">
                 <figure>
-                  <img src="./img/port02.jpg">
-                  <a href="./img/port02.jpg" data-rel="lightcase:galleryCollection" title="Vix eu etiam mediocrem">
+                  <img src="{{ url('img/port02.jpg') }}">
+                  <a href="{{ url('img/port02.jpg') }}" data-rel="lightcase:galleryCollection" title="Vix eu etiam mediocrem">
                     <div class="overlay"></div>
                     <figcaption><i class="fa fa-plus fa-2x"></i></figcaption>
                   </a>
@@ -49,20 +49,20 @@
             </div>
             <div class="grid-item grid-item--height2 grid-item--width2">
                 <figure>
-                  <img src="./img/port01.jpg">
-                  <a href="./img/port01.jpg" data-rel="lightcase:galleryCollection" title="Vix eu etiam mediocrem">
+                  <img src="{{ url('img/port01.jpg') }}">
+                  <a href="{{ url('img/port01.jpg') }}" data-rel="lightcase:galleryCollection" title="Vix eu etiam mediocrem">
                     <div class="overlay"></div>
                     <figcaption><i class="fa fa-plus fa-2x"></i></figcaption>
                   </a>
                 </figure>
-            </div> 
+            </div>
           </div>
         <!-- /masonry -->
         <section class="row mg-t-30">
-              <div class="alignCenter mg-t-20">
-                <a href="#" class="btn btn-blue"><span>Load more</span></a>
-              </div>
-            </section>
+          <div class="alignCenter mg-t-20">
+            <a href="#" class="btn btn-blue"><span>Load more</span></a>
+          </div>
+        </section>
       </div>
     </section>
     <!--/GALLERY-->
@@ -72,7 +72,7 @@
       <section class="row">
         <div class="col-md-3 col-sm-3">
           <figure class="logoFooter">
-            <img src="./img/ikt-logo.png">
+            <img src="{{ url('img/ikt-logo.png') }}">
           </figure>
           <p class="small">Vix eu etiam mediocrem. Qui debet essent omnium ut. Ne qui recusabo temporibus, in eum singulis posidonium. Nec reque saepe ea, esse veniam definitionem est ei.</p>
         </div>

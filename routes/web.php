@@ -89,6 +89,9 @@ Route::get('vission', function () {
 Route::get('clients', function () {
     return view('clients');
 });
+Route::get('achivement', function () {
+    return view('achivement');
+});
 
 // for tabs-layout template
 Route::get('tabs', function () {

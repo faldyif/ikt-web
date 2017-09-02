@@ -5,7 +5,7 @@
 @section('content')
 <!--HERO-->
     <section id="heroTitle">
-      <div class="heroTitle" style="background-image: url('./img/2.jpg');">
+      <div class="heroTitle" style="background-image: url('{{ url('img/2.jpg') }}');">
         <div class="overlay"></div>
         <section class="container-fluid pd-30">
           <h2 class="roboBold wh" data-wow-delay="0.4s">Gallery</h2>
@@ -59,72 +59,73 @@
     <section id="gallery-list" class="mg-bt-30">
       <div class="container-fluid wow fadeInUpBig">
         <section class="mg-lr-20">
-          <h3 class="roboBold">Gallery</h3>
+          <hr class="hrSpec hrSpecOrange">
+          <h3 class="roboBold">Gallery Terbaru</h3>
           <p class="">Vix eu etiam mediocrem. Qui debet essent omnium ut. Ne qui recusabo temporibus</p>
         </section>
         <!-- masonry -->
           <div class="grid">
             <div class="grid-sizer"></div>
-            <div class="grid-item grid-item--width2">
-                <figure>
-                  <img src="./img/port02.jpg">
-                  <a href="./img/port02.jpg" data-rel="lightcase"><div class="overlay"></div></a>
-                  <figcaption class="figcaptionTop hidden-768"><i class="fa fa-camera-retro fa-2x"></i></figcaption>
-                  <figcaption class="figcaptionBottom"><a href="#">Delenit utroque vivendo est ea</a><br>12 July 2017</figcaption>
-                </figure>
-            </div>
-            <div class="grid-item grid-item--height2">
-                <figure>
-                  <img src="./img/blog02.jpg">
-                  <a href="./img/blog02.jpg" data-rel="lightcase"><div class="overlay"></div></a>
-                  <figcaption class="figcaptionTop hidden-768"><i class="fa fa-camera-retro fa-2x"></i></figcaption>
-                  <figcaption class="figcaptionBottom"><a href="#">Delenit utroque vivendo est ea</a><br>12 July 2017</figcaption>
-                </figure>
-            </div>
             <div class="grid-item">
                 <figure>
-                  <img src="./img/blog01.jpg">
-                  <a href="./img/blog01.jpg" data-rel="lightcase"><div class="overlay"></div></a>
-                  <figcaption class="figcaptionTop hidden-768"><i class="fa fa-camera-retro fa-2x"></i></figcaption>
-                  <figcaption class="figcaptionBottom"><a href="#">Delenit utroque vivendo est ea</a><br>12 July 2017</figcaption>
-                </figure>
-            </div>
-            <div class="grid-item">
-                <figure>
-                  <img src="./img/blog04.jpg">
-                  <a href="./img/blog04.jpg" data-rel="lightcase"><div class="overlay"></div></a>
+                  <img src="{{ url('img/port02.jpg') }}">
+                  <a href="{{ url('gallery/detail') }}"><div class="overlay"></div></a>
                   <figcaption class="figcaptionTop hidden-768"><i class="fa fa-camera-retro fa-2x"></i></figcaption>
                   <figcaption class="figcaptionBottom"><a href="{{ url('gallery/detail') }}">Delenit utroque vivendo est ea</a><br>12 July 2017</figcaption>
                 </figure>
             </div>
             <div class="grid-item">
                 <figure>
-                  <img src="./img/port01.jpg">
-                  <div class="overlay"></div>
+                  <img src="{{ url('img/blog02.jpg') }}">
+                  <a href="{{ url('gallery/detail') }}"><div class="overlay"></div></a>
                   <figcaption class="figcaptionTop hidden-768"><i class="fa fa-camera-retro fa-2x"></i></figcaption>
                   <figcaption class="figcaptionBottom"><a href="{{ url('gallery/detail') }}">Delenit utroque vivendo est ea</a><br>12 July 2017</figcaption>
                 </figure>
             </div>
-            <div class="grid-item grid-item--width2">
+            <div class="grid-item">
                 <figure>
-                  <img src="./img/port01.jpg">
-                  <div class="overlay"></div>
+                  <img src="{{ url('img/blog01.jpg') }}">
+                  <a href="{{ url('gallery/detail') }}"><div class="overlay"></div></a>
                   <figcaption class="figcaptionTop hidden-768"><i class="fa fa-camera-retro fa-2x"></i></figcaption>
                   <figcaption class="figcaptionBottom"><a href="{{ url('gallery/detail') }}">Delenit utroque vivendo est ea</a><br>12 July 2017</figcaption>
                 </figure>
             </div>
-            <div class="grid-item grid-item--height2">
+            <div class="grid-item">
                 <figure>
-                  <img src="./img/port01.jpg">
-                  <div class="overlay"></div>
+                  <img src="{{ url('img/blog04.jpg') }}">
+                  <a href="{{ url('gallery/detail') }}"><div class="overlay"></div></a>
                   <figcaption class="figcaptionTop hidden-768"><i class="fa fa-camera-retro fa-2x"></i></figcaption>
                   <figcaption class="figcaptionBottom"><a href="{{ url('gallery/detail') }}">Delenit utroque vivendo est ea</a><br>12 July 2017</figcaption>
                 </figure>
             </div>
-            <div class="grid-item grid-item--height2 grid-item--width2">
+            <div class="grid-item">
                 <figure>
-                  <img src="./img/port01.jpg">
-                  <div class="overlay"></div>
+                  <img src="{{ url('img/port01.jpg') }}">
+                  <a href="{{ url('gallery/detail') }}"><div class="overlay"></div></a>
+                  <figcaption class="figcaptionTop hidden-768"><i class="fa fa-camera-retro fa-2x"></i></figcaption>
+                  <figcaption class="figcaptionBottom"><a href="{{ url('gallery/detail') }}">Delenit utroque vivendo est ea</a><br>12 July 2017</figcaption>
+                </figure>
+            </div>
+            <div class="grid-item">
+                <figure>
+                  <img src="{{ url('img/port01.jpg') }}">
+                  <a href="{{ url('gallery/detail') }}"><div class="overlay"></div></a>
+                  <figcaption class="figcaptionTop hidden-768"><i class="fa fa-camera-retro fa-2x"></i></figcaption>
+                  <figcaption class="figcaptionBottom"><a href="{{ url('gallery/detail') }}">Delenit utroque vivendo est ea</a><br>12 July 2017</figcaption>
+                </figure>
+            </div>
+            <div class="grid-item">
+                <figure>
+                  <img src="{{ url('img/port01.jpg') }}">
+                  <a href="{{ url('gallery/detail') }}"><div class="overlay"></div></a>
+                  <figcaption class="figcaptionTop hidden-768"><i class="fa fa-camera-retro fa-2x"></i></figcaption>
+                  <figcaption class="figcaptionBottom"><a href="{{ url('gallery/detail') }}">Delenit utroque vivendo est ea</a><br>12 July 2017</figcaption>
+                </figure>
+            </div>
+            <div class="grid-item">
+                <figure>
+                  <img src="{{ url('img/port01.jpg') }}">
+                  <a href="{{ url('gallery/detail') }}"><div class="overlay"></div></a>
                   <figcaption class="figcaptionTop hidden-768"><i class="fa fa-camera-retro fa-2x"></i></figcaption>
                   <figcaption class="figcaptionBottom"><a href="{{ url('gallery/detail') }}">Delenit utroque vivendo est ea</a><br>12 July 2017</figcaption>
                 </figure>
@@ -132,10 +133,10 @@
           </div>
         <!-- /masonry -->
         <section class="row mg-t-30">
-              <div class="alignCenter mg-t-20">
-                <a href="#" class="btn btn-blue"><span>Load more</span></a>
-              </div>
-            </section>
+          <div class="alignCenter mg-t-20">
+            <a href="#" class="btn btn-blue"><span>Load more</span></a>
+          </div>
+        </section>
       </div>
     </section>
     <!--/GALLERY-->
@@ -145,7 +146,7 @@
       <section class="row">
         <div class="col-md-3 col-sm-3">
           <figure class="logoFooter">
-            <img src="./img/ikt-logo.png">
+            <img src="{{ url('img/ikt-logo.png') }}">
           </figure>
           <p class="small">Vix eu etiam mediocrem. Qui debet essent omnium ut. Ne qui recusabo temporibus, in eum singulis posidonium. Nec reque saepe ea, esse veniam definitionem est ei.</p>
         </div>
