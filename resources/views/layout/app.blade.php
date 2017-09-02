@@ -67,7 +67,7 @@
                   <li><a href="#">Kesehatan, Sosial & Lingkungan</a></li>
                 </ul>
               </li>
-              <li><a href="#">Pencapaian</a></li>
+              <li><a href="{{ url('achivement') }}">Pencapaian</a></li>
               <li><a href="#">Anak Perusahaan</a></li>
             </ul>
           </li>
