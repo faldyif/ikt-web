@@ -69,6 +69,7 @@
               </li>
               <li><a href="#">Pencapaian</a></li>
               <li><a href="#">Anak Perusahaan</a></li>
+              <li><a href="{{ url('clients') }}">Pelanggan Kami</a></li>
             </ul>
           </li>
           <li class="has-children"><a href="#">LAYANAN</a>
