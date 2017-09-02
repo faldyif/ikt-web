@@ -69,7 +69,6 @@
               </li>
               <li><a href="#">Pencapaian</a></li>
               <li><a href="#">Anak Perusahaan</a></li>
-              <li><a href="{{ url('clients') }}">Pelanggan Kami</a></li>
             </ul>
           </li>
           <li class="has-children"><a href="#">LAYANAN</a>
@@ -109,7 +108,7 @@
               <li><a href="#">Press Release</a></li>
               <li><a href="#">Annual Report</a></li>
               <li><a href="#">Statistic &amp Data</a></li>
-              <li><a href="#">Our Customer</a></li>
+              <li><a href="{{ url('clients') }}">Our Customer</a></li>
               <li><a href="#">Procurement</a></li>
               <li><a href="#">Majalah Limouzine</a></li>
               <li><a href="{{ url('gallery') }}">Gallery</a></li>
