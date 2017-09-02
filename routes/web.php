@@ -70,7 +70,6 @@ Route::get('history', function () {
     return view('company-history');
 });
 
-
 Route::get('news/detail', function () {
     return view('news-detail');
 });
@@ -85,6 +84,10 @@ Route::get('profile', function () {
 
 Route::get('vission', function () {
     return view('vission-mission');
+});
+
+Route::get('clients', function () {
+    return view('clients');
 });
 
 // for tabs-layout template

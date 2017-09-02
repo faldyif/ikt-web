@@ -188,7 +188,7 @@
                 </a>
               </figure>
               <p class="black small mg-t-20"><span>20 June 2017</span> / <span>1k readers</span></p>
-              <a href="#"><h4 class="roboMedium">Delenit utroque vivendo est ea</h4></a>
+              <a href="#"><h4 class="roboMedium">Eam no eripuit noluisse intellegebat</h4></a>
               <p class="black">Eam no eripuit noluisse intellegebat. Nominavi mnesarchum ad eam, pro dico recteque id, cu dicant audiam mel. At eum mazim dolore aliquid, id sed quas saepe doming. </p>
             </section>
           </div>
@@ -202,7 +202,7 @@
                 </a>
               </figure>
               <p class="black small mg-t-20"><span>20 June 2017</span> / <span>1k readers</span></p>
-              <a href="#"><h4 class="roboMedium">Delenit utroque vivendo est ea</h4></a>
+              <a href="#"><h4 class="roboMedium">Aliquam principes deterruisset cum et</h4></a>
               <p class="black">Eam no eripuit noluisse intellegebat. Nominavi mnesarchum ad eam, pro dico recteque id, cu dicant audiam mel. At eum mazim dolore aliquid, id sed quas saepe doming. </p>
             </section>
           </div>
@@ -216,7 +216,7 @@
                 </a>
               </figure>
               <p class="black small mg-t-20"><span>20 June 2017</span> / <span>1k readers</span></p>
-              <a href="#"><h4 class="roboMedium">Delenit utroque vivendo est ea</h4></a>
+              <a href="#"><h4 class="roboMedium">Eam no eripuit noluisse intellegebat</h4></a>
               <p class="black">Eam no eripuit noluisse intellegebat. Nominavi mnesarchum ad eam, pro dico recteque id, cu dicant audiam mel. At eum mazim dolore aliquid, id sed quas saepe doming. </p>
             </section>
           </div>
@@ -230,7 +230,7 @@
                 </a>
               </figure>
               <p class="black small mg-t-20"><span>20 June 2017</span> / <span>1k readers</span></p>
-              <a href="#"><h4 class="roboMedium">Delenit utroque vivendo est ea</h4></a>
+              <a href="#"><h4 class="roboMedium">Eam no eripuit noluisse intellegebat</h4></a>
               <p class="black">Eam no eripuit noluisse intellegebat. Nominavi mnesarchum ad eam, pro dico recteque id, cu dicant audiam mel. At eum mazim dolore aliquid, id sed quas saepe doming. </p>
             </section>
           </div>
@@ -238,6 +238,62 @@
             <section class="newsList">
               <figure>
                 <img src="./img/bg-img.png" style="background-image: url('./img/blog02.jpg');">
+                <div class="overlay"></div>
+                <a href="#">
+                  <figcaption>Selengkapnya</figcaption>
+                </a>
+              </figure>
+              <p class="black small mg-t-20"><span>20 June 2017</span> / <span>1k readers</span></p>
+              <a href="#"><h4 class="roboMedium">Eam no eripuit noluisse intellegebat</h4></a>
+              <p class="black">Eam no eripuit noluisse intellegebat. Nominavi mnesarchum ad eam, pro dico recteque id, cu dicant audiam mel. At eum mazim dolore aliquid, id sed quas saepe doming. </p>
+            </section>
+          </div>
+          <div>
+            <section class="newsList">
+              <figure>
+                <img src="./img/bg-img.png" style="background-image: url('./img/blog03.jpg');">
+                <div class="overlay"></div>
+                <a href="#">
+                  <figcaption>Selengkapnya</figcaption>
+                </a>
+              </figure>
+              <p class="black small mg-t-20"><span>20 June 2017</span> / <span>1k readers</span></p>
+              <a href="#"><h4 class="roboMedium">Delenit utroque vivendo est ea</h4></a>
+              <p class="black">Eam no eripuit noluisse intellegebat. Nominavi mnesarchum ad eam, pro dico recteque id, cu dicant audiam mel. At eum mazim dolore aliquid, id sed quas saepe doming. </p>
+            </section>
+          </div>
+          <div>
+            <section class="newsList">
+              <figure>
+                <img src="./img/bg-img.png" style="background-image: url('./img/blog03.jpg');">
+                <div class="overlay"></div>
+                <a href="#">
+                  <figcaption>Selengkapnya</figcaption>
+                </a>
+              </figure>
+              <p class="black small mg-t-20"><span>20 June 2017</span> / <span>1k readers</span></p>
+              <a href="#"><h4 class="roboMedium">Delenit utroque vivendo est ea</h4></a>
+              <p class="black">Eam no eripuit noluisse intellegebat. Nominavi mnesarchum ad eam, pro dico recteque id, cu dicant audiam mel. At eum mazim dolore aliquid, id sed quas saepe doming. </p>
+            </section>
+          </div>
+          <div>
+            <section class="newsList">
+              <figure>
+                <img src="./img/bg-img.png" style="background-image: url('./img/blog03.jpg');">
+                <div class="overlay"></div>
+                <a href="#">
+                  <figcaption>Selengkapnya</figcaption>
+                </a>
+              </figure>
+              <p class="black small mg-t-20"><span>20 June 2017</span> / <span>1k readers</span></p>
+              <a href="#"><h4 class="roboMedium">Delenit utroque vivendo est ea</h4></a>
+              <p class="black">Eam no eripuit noluisse intellegebat. Nominavi mnesarchum ad eam, pro dico recteque id, cu dicant audiam mel. At eum mazim dolore aliquid, id sed quas saepe doming. </p>
+            </section>
+          </div>
+          <div>
+            <section class="newsList">
+              <figure>
+                <img src="./img/bg-img.png" style="background-image: url('./img/blog03.jpg');">
                 <div class="overlay"></div>
                 <a href="#">
                   <figcaption>Selengkapnya</figcaption>
@@ -361,11 +417,11 @@
             <hr class="hrSpec hrSpecWhite hidden-400">
             <h3 class="mg-b-30 roboBold">Testimonial</h3>
           </section>
-          <div class="multiple-items">
+          <div class="multiple-items-3 pd-lr-30">
             <div>
-              <section class="row">
+              <section class="row pd-lr-20">
                 <div class="floatLeft">
-                  <i class="fa fa-quote-left fa-lg"></i>
+                  <i class="fa fa-quote-left fa-lg hidden-400"></i>
                 </div>
                 <div class="floatLeft mg-lr-20 rightWidth">
                   <p>Vix eu etiam mediocrem. Qui debet essent omnium ut. Ne qui recusabo temporibus, in eum singulis posidonium. Nec reque saepe ea, esse veniam definitionem est ei.</p>
@@ -384,9 +440,9 @@
               </section>
             </div>
             <div>
-              <section class="row">
+              <section class="row pd-lr-20">
                 <div class="floatLeft">
-                  <i class="fa fa-quote-left fa-lg"></i>
+                  <i class="fa fa-quote-left fa-lg hidden-400"></i>
                 </div>
                 <div class="floatLeft mg-lr-20 rightWidth">
                   <p>Vix eu etiam mediocrem. Qui debet essent omnium ut. Ne qui recusabo temporibus, in eum singulis posidonium. Nec reque saepe ea, esse veniam definitionem est ei.</p>
@@ -405,9 +461,9 @@
               </section>
             </div>
             <div>
-              <section class="row">
+              <section class="row pd-lr-20">
                 <div class="floatLeft">
-                  <i class="fa fa-quote-left fa-lg"></i>
+                  <i class="fa fa-quote-left fa-lg hidden-400"></i>
                 </div>
                 <div class="floatLeft mg-lr-20 rightWidth">
                   <p>Duo alia causae vituperatoribus ea, salutatus adolescens conclusionemque qui an. Illum euripidis eu vix.</p>
@@ -426,9 +482,9 @@
               </section>
             </div>
             <div>
-              <section class="row">
+              <section class="row pd-lr-20">
                 <div class="floatLeft">
-                  <i class="fa fa-quote-left fa-lg"></i>
+                  <i class="fa fa-quote-left fa-lg hidden-400"></i>
                 </div>
                 <div class="floatLeft mg-lr-20 rightWidth">
                   <p>Aliquam principes deterruisset cum et, vel an eius equidem. Id quando legimus inermis eum, cibo consul democritum cum te, cu cum suas laudem graeci.</p>
@@ -447,9 +503,9 @@
               </section>
             </div>
             <div>
-              <section class="row">
+              <section class="row pd-lr-20">
                 <div class="floatLeft">
-                  <i class="fa fa-quote-left fa-lg"></i>
+                  <i class="fa fa-quote-left fa-lg hidden-400"></i>
                 </div>
                 <div class="floatLeft mg-lr-20 rightWidth">
                   <p>At eum mazim dolore aliquid, id sed quas saepe doming. Atomorum assentior ne pri, ut cum fugit facilis electram.</p>
@@ -468,9 +524,9 @@
               </section>
             </div>
             <div>
-              <section class="row">
+              <section class="row pd-lr-20">
                 <div class="floatLeft">
-                  <i class="fa fa-quote-left fa-lg"></i>
+                  <i class="fa fa-quote-left fa-lg hidden-400"></i>
                 </div>
                 <div class="floatLeft mg-lr-20 rightWidth">
                   <p>Eam no eripuit noluisse intellegebat. Nominavi mnesarchum ad eam, pro dico recteque id, cu dicant audiam mel.</p>

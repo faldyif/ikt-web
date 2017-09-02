@@ -95,7 +95,8 @@
 	&>div {
 
 		section {
-			margin: 0 30px;
+			margin: 0 20px;
+      text-align: center;
 		}
 	}
 
@@ -307,7 +308,6 @@ figcaption.caption {
 	transform: none;
 	margin: 10px 0;
 }
-
 // display flex
 .be-flex {
 display: flex;
@@ -318,20 +318,9 @@ display: flex;
 	align-items: center;
 }
 
-@media screen and (max-width: 992px){
-	.service-media{
-		width: 100%;
-		height: auto;
-	}
-	.service-media-1{
-		width: 100%;
-		height: auto;
-	}
-}
-
-@media screen and (min-width: 992px){
-	.service-media{
-		width: 200%;
-		height: auto;
-	}
+.bg-img-contain {
+  img {
+    @include img-bg();
+    background-size: contain;
+  }
 }

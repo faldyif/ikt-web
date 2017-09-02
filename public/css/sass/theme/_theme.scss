@@ -392,9 +392,18 @@ news-list page
 		}
 	}
 }
-/***********************************
-news-detail page
-***********************************/
 figcaption.caption {
 	color: $gray;
+}
+.img-grayscale-anim {
+	figure {
+		@include transition(0.5);
+		filter: grayscale(1);
+		cursor: pointer;
+
+		&:hover {
+			filter: grayscale(0);
+		}
+	}
+
 }
