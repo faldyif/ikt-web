@@ -1237,7 +1237,7 @@ figure figcaption {
 
 .top-nav-collapse {
   padding: 5px 30px;
-  background-color: rgba(250, 195, 18, 0.9);
+  background-color: rgba(0, 0, 0, 0.5);
   border-color: transparent; }
 
 .navbar-fixed-top {
