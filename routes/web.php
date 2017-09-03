@@ -67,6 +67,9 @@ Route::get('clients', function () {
 Route::get('achivement', function () {
     return view('achivement');
 });
+Route::get('press', function () {
+    return view('press');
+});
 
 // for tabs-layout template
 Route::get('tabs', function () {
