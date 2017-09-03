@@ -19,26 +19,35 @@
         <div class="col-md-10 col-md-offset-1">
           <div class="container-fluid wow fadeInUpBig pd-bt-30">
             <section class="row mg-lr-20">
-              <div class="col-md-9">
+              <div class="col-md-12">
                 <div class="row mg-t-10 mg-bt-20">
-                  <p class="col-md-2 col-sm-3 col-xs-2 black roboMedium"><span class="bigger">20 June </span> <br>2017</p>
-                  <section class="col-md-10 col-sm-9 col-xs-10">
+                  <p class="col-md-2 col-sm-3 col-xs-2 black roboMedium mg-t-10"><span class="bigger">20 June </span> <br>2017</p>
+                 <section class="col-md-7 col-sm-6 col-xs-10">
                     <h4 class="roboMedium">Delenit utroque vivendo est ea</h4>
                     <a href="{{ url('press-release/detail')}}">Baca Selengkapnya</a>
                   </section>
-                </div>
-                <div class="row mg-t-10 mg-bt-20">
-                  <p class="col-md-2 col-sm-3 col-xs-2 black roboMedium"><span class="bigger">20 June </span> <br>2017</p>
-                  <section class="col-md-10 col-sm-9 col-xs-10">
-                    <h4 class="roboMedium">Egyptian Ministerial event drives new consensus on Africa and Middle East aviation security</h4>
-                    <a href="{{ url('press-release/detail')}}">Baca Selengkapnya</a>
+                  <section class="col-md-3 col-sm-3">
+                    <p class="roboMedium hidden-768 mg-t-5 or">Yogyakarta</p>
                   </section>
                 </div>
                 <div class="row mg-t-10 mg-bt-20">
-                  <p class="col-md-2 col-sm-3 col-xs-2 black roboMedium"><span class="bigger">20 Agt </span> <br>2017</p>
-                  <section class="col-md-10 col-sm-9 col-xs-10">
+                  <p class="col-md-2 col-sm-3 col-xs-2 black roboMedium mg-t-10"><span class="bigger">20 June </span> <br>2017</p>
+                  <section class="col-md-7 col-sm-6 col-xs-10">
                     <h4 class="roboMedium">Egyptian Ministerial event drives new consensus on Africa and Middle East aviation security</h4>
                     <a href="{{ url('press-release/detail')}}">Baca Selengkapnya</a>
+                  </section>
+                  <section class="col-md-3 col-sm-3">
+                    <p class="roboMedium hidden-768 mg-t-5 or">Yogyakarta, Indonesia</p>
+                  </section>
+                </div>
+                <div class="row mg-t-10 mg-bt-20">
+                  <p class="col-md-2 col-sm-3 col-xs-2 black roboMedium mg-t-10"><span class="bigger">20 Agt </span> <br>2017</p>
+                  <section class="col-md-7 col-sm-6 col-xs-10">
+                    <h4 class="roboMedium">Egyptian Ministerial event drives new consensus on Africa and Middle East aviation security</h4>
+                    <a href="{{ url('press-release/detail')}}">Baca Selengkapnya</a>
+                  </section>
+                  <section class="col-md-3 col-sm-3">
+                    <p class="roboMedium hidden-768 mg-t-5 or">Tanjung Priok, Indonesia </p>
                   </section>
                 </div>
                 <section class="row mg-t-30">
@@ -46,40 +55,6 @@
                     <a href="#" class="btn btn-blue"><span>Load more</span></a>
                   </div>
                 </section>
-              </div>
-              <div class="col-md-3">
-                <aside>
-                  <section class="asideSec">
-                    <h4 class="roboBold">Popular Press Release</h4>
-                    <section class="row mg-bt-20">
-                      <div class="col-md-12">
-                        <a href="#"><h5 class="roboBold mg-bt-5">Delenit utroque vivendo est ea</h5></a>
-                        <p class="black small"><span>20 June 2017</span></p>
-                      </div>
-                    </section>
-                    <section class="row mg-bt-20">
-                      <div class="col-md-12">
-                        <a href="#"><h5 class="roboBold mg-bt-5">Lorem ipsum dolor sit ...</h5></a>
-                        <p class="black small"><span>20 June 2017</span></p>
-                      </div>
-                    </section>
-                    <section class="row mg-bt-20">
-                      <div class="col-md-12">
-                        <a href="#"><h5 class="roboBold mg-bt-5">Cu ferri oblique has ...</h5></a>
-                        <p class="black small"><span>20 June 2017</span></p>
-                      </div>
-                    </section>
-                  </section>
-                  <section class="asideSec">
-                    <h4 class="roboBold">Tags</h4>
-                    <ul class="tags">
-                      <li><a href="#">Company</a></li>
-                      <li><a href="#">Storage</a></li>
-                      <li><a href="#">Receiving &amp Delievering</a></li>
-                      <li><a href="#">Justo</a></li>
-                    </ul>
-                  </section>
-                </aside>
               </div>
             </section>
           </div>
