@@ -30,20 +30,18 @@
               <table id="example1" class="table table-bordered table-striped">
                 <thead>
                 <tr>
+                  <th>Nomor</th>
                   <th>Judul Berita</th>
-                  <th>Penulis</th>
                   <th>Ditulis Pada</th>
-                  <th>Terakhir Diedit</th>
                   <th>Aksi</th>
                 </tr>
                 </thead>
                 <tbody>
                 @foreach($news as $key)
                 <tr>
+                  <td>{{ $loop->iteration }}</td>
                   <td>{{ $key->title }}</td>
-                  <td>{{ \App\User::find($key->user_id)->name }}</td>
                   <td>{{ \Carbon\Carbon::parse($key->created_at)->diffForHumans() }}</td>
-                  <td>{{ \Carbon\Carbon::parse($key->updated_at)->diffForHumans() }}</td>
                   <td>
                     <div class="btn-group">
                       <a class="btn btn-default btn-xs"><i class="fa fa-bullhorn"></i></a>
@@ -59,10 +57,9 @@
                 </tbody>
                 <tfoot>
                 <tr>
+                  <th>Nomor</th>
                   <th>Judul Berita</th>
-                  <th>Penulis</th>
                   <th>Ditulis Pada</th>
-                  <th>Terakhir Diedit</th>
                   <th>Aksi</th>
                 </tr>
                 </tfoot>

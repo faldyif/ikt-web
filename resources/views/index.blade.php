@@ -10,7 +10,7 @@
   <section class="">
     <div>
       <figure class="figSlider">
-        <img src="./img/2.jpg">
+        <img src="./img/3.jpg">
         <div class="overlay"></div>
         <section class="containerCenter alignCenter">
           <section class="row">
@@ -18,8 +18,14 @@
                 
             </div>
           </section>
-          <h2 class="roboBlack wow fadeInLeft or" data-wow-delay="0.4s">Indonesia Kendaraan Terminal</h2>
-          <p class="big wow fadeInLeft" data-wow-delay="0.5s">Lebih dari Sekedar Kendaraan Terminal</p>
+          <img id="logo"
+               data-init-position="random"
+               data-init-direction="random"
+               data-particle-gap="1"
+               data-noise="10"
+               data-mouse-force="-10"
+               data-height="400"
+               src="{{ url('img/ikt.png') }}">
         </section>
       </figure>
     </div>
@@ -596,8 +602,16 @@
 
 @section('bottom')
   <script src="{{ url('js/custom.fullpage.js') }}"></script>
-  <script src="http://cdnjs.cloudflare.com/ajax/libs/dat-gui/0.5/dat.gui.min.js"></script>
-  <script src="{{ url('js/paticle-f.js')}}"></script>
-  
+  <script src="https://nextparticle.nextco.de/nextparticle.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/dat-gui/0.6.4/dat.gui.min.js"></script>
+  <script type="text/javascript">
+      var nextParticle = new NextParticle(document.all.logo);
 
+      window.onclick = function() {
+          nextParticle.stop();
+      };
+      nextParticle.on('stopped', function() {
+          nextParticle.start();
+      });
+  </script>
 @endsection

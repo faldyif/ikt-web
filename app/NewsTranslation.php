@@ -2,13 +2,14 @@
 
 namespace App;
 
-use Dimsav\Translatable\Translatable;
+use Cviebrock\EloquentSluggable\Sluggable;
 use Illuminate\Database\Eloquent\Model;
 
-class News extends Model
+class NewsTranslation extends Model
 {
-    use Translatable;
+    use Sluggable;
 
+    public $timestamps = false;
     protected $fillable = ['title', 'user_id', 'filename', 'content'];
 
     /**
@@ -33,10 +34,5 @@ class News extends Model
     public function getRouteKeyName()
     {
         return 'slug';
-    }
-
-    public function user()
-    {
-        return $this->belongsTo('App\User');
     }
 }

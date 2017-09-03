@@ -181,6 +181,8 @@ return [
         Collective\Html\HtmlServiceProvider::class,
 
         Cviebrock\EloquentSluggable\ServiceProvider::class,
+        Petehouston\Tinymce\TinymceServiceProvider::class,
+        Dimsav\Translatable\TranslatableServiceProvider::class,
     ],
 
     /*

@@ -41,9 +41,9 @@
           <li class="active"><a href="{{ url('/') }}">BERANDA</a></li>
           <li class="has-children"><a>TENTANG KAMI</a>
             <ul class="dropdown-menu dropdown-menu-opacity">
-              <li><a href="{{ url('profile') }}">Profil</a></li>
-              <li><a href="{{ url('vission') }}">Visi Misi</a></li>
-              <li><a href="{{ url('history') }}">Sejarah Perusahaan</a></li>
+              <li><a href="{{ route('company.profile') }}">Profil</a></li>
+              <li><a href="{{ route('company.vision-mission') }}">Visi Misi</a></li>
+              <li><a href="{{ route('company.history') }}">Sejarah Perusahaan</a></li>
               <li><a href="#">Penerapan GCG</a>
                 <!--<ul class="dropdown-menu level-2">-->
                 <!--<li><a href="#">Tata Kelola Perusahaan Berkelanjutan</a></li>-->
@@ -58,7 +58,7 @@
                 <!--<li><a href="#">LHKPN</a></li>-->
                 <!--</ul>-->
               </li>
-              <li><a href="{{url('company-culture')}}">Budaya Perusahaan</a></li>
+              <li><a href="{{ route('company.culture') }}">Budaya Perusahaan</a></li>
               <li class="has-children dropdown-submenu"><a href="#">Rangkul Warga (CSR)</a>
                 <ul class="dropdown-menu dropdown-menu-opacity level-2">
                   <li><a href="#">Pendidikan & Keagamaan</a></li>
@@ -67,16 +67,16 @@
                   <li><a href="#">Kesehatan, Sosial & Lingkungan</a></li>
                 </ul>
               </li>
-              <li><a href="#">Pencapaian</a></li>
+              <li><a href="{{ route('company.achievements') }}">Pencapaian</a></li>
               <li><a href="#">Anak Perusahaan</a></li>
             </ul>
           </li>
           <li class="has-children"><a href="#">LAYANAN</a>
             <ul class="dropdown-menu dropdown-menu-opacity">
-              <li><a href="{{ url('stevedoring')}}">Stevedoring &amp Cardodoring</a></li>
-              <li><a href="{{url('receiving')}}">Receiving &amp Delivering</a></li>
+              <li><a href="{{ route('service.stevedoring') }}">Stevedoring &amp Cardodoring</a></li>
+              <li><a href="{{ route('service.receiving') }}">Receiving &amp Delivering</a></li>
               <li><a href="#">Pre Delivery Inspection</a></li>
-              <li><a href="{{url('vas')}}">Value Added Services</a></li>
+              <li><a href="{{ route('service.vas') }}">Value Added Services</a></li>
               <!-- <li class="has-children dropdown-submenu"><a href="#">Value Added Services</a>
                 <ul class="dropdown-menu dropdown-menu-opacity level-2">
                   <li><a href="#">Minor Repair</a></li>
@@ -105,34 +105,34 @@
           </li>
           <li class="has-children has-children-right"><a href="#">PUSAT INFORMASI</a>
             <ul class="dropdown-menu dropdown-menu-opacity">
-              <li><a href="{{ url('news') }}">News</a></li>
+              <li><a href="{{ route('news') }}">News</a></li>
               <li><a href="#">Press Release</a></li>
               <li><a href="#">Annual Report</a></li>
               <li><a href="#">Statistic &amp Data</a></li>
-              <li><a href="{{ url('clients') }}">Our Customer</a></li>
+              <li><a href="{{ route('company.clients') }}">Our Customer</a></li>
               <li><a href="#">Procurement</a></li>
               <li><a href="#">Majalah Limouzine</a></li>
-              <li><a href="{{ url('gallery') }}">Gallery</a></li>
+              <li><a href="{{ route('gallery') }}">Gallery</a></li>
             </ul>
           </li>
           <li class="has-children-onClick has-children-right"><a><i class="fa fa-language fa-lg"></i></a>
             <ul class="dropdown-menu dropdown-menu-opacity">
               <li>
-                <a href="#">
+                <a href="{{ url('welcome/en') }}">
                 <div class="flex-row-center">
                   <img src="./img/english.png" class="mg-r-10" width="20" alt="">
                   <span>English</span>
                 </div>
                 </a>
               </li>
-              <li class="active"><a href="#">
+              <li class="active"><a href="{{ url('welcome/id') }}">
                 <div class="flex-row-center">
                   <img src="./img/indonesian.png" class="mg-r-10" width="20" alt="">
                   <span>Bahasa Indonesia</span>
                 </div>
                 </a>
               </li>
-              <li><a href="#">
+              <li><a href="{{ url('welcome/jp') }}">
                 <div class="flex-row-center">
                   <img src="./img/japan.png" class="mg-r-10" width="20" alt="">
                   <span>Japanese</span>

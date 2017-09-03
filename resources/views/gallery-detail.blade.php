@@ -29,15 +29,78 @@
                   </a>
                 </figure>
             </div>
-            <div class="grid-item grid-item--width2">
-                <figure>
-                  <img src="{{ url('img/port01.jpg') }}">
-                  <a href="{{ url('img/port01.jpg') }}" data-rel="lightcase:galleryCollection" title="Vix eu etiam mediocrem">
-                    <div class="overlay"></div>
-                    <figcaption><i class="fa fa-plus fa-2x"></i></figcaption>
-                  </a>
-                </figure>
-            </div>
+              <div class="grid-item grid-item--width2">
+                  <figure>
+                      <img src="{{ url('img/port01.jpg') }}">
+                      <a href="{{ url('img/port01.jpg') }}" data-rel="lightcase:galleryCollection" title="Vix eu etiam mediocrem">
+                          <div class="overlay"></div>
+                          <figcaption><i class="fa fa-plus fa-2x"></i></figcaption>
+                      </a>
+                  </figure>
+              </div>
+              <div class="grid-item grid-item--width2">
+                  <figure>
+                      <img src="{{ url('img/port01.jpg') }}">
+                      <a href="{{ url('img/port01.jpg') }}" data-rel="lightcase:galleryCollection" title="Vix eu etiam mediocrem">
+                          <div class="overlay"></div>
+                          <figcaption><i class="fa fa-plus fa-2x"></i></figcaption>
+                      </a>
+                  </figure>
+              </div>
+              <div class="grid-item grid-item--width2">
+                  <figure>
+                      <img src="{{ url('img/port01.jpg') }}">
+                      <a href="{{ url('img/port01.jpg') }}" data-rel="lightcase:galleryCollection" title="Vix eu etiam mediocrem">
+                          <div class="overlay"></div>
+                          <figcaption><i class="fa fa-plus fa-2x"></i></figcaption>
+                      </a>
+                  </figure>
+              </div>
+              <div class="grid-item grid-item--width2">
+                  <figure>
+                      <img src="{{ url('img/port01.jpg') }}">
+                      <a href="{{ url('img/port01.jpg') }}" data-rel="lightcase:galleryCollection" title="Vix eu etiam mediocrem">
+                          <div class="overlay"></div>
+                          <figcaption><i class="fa fa-plus fa-2x"></i></figcaption>
+                      </a>
+                  </figure>
+              </div>
+              <div class="grid-item grid-item--width2">
+                  <figure>
+                      <img src="{{ url('img/port01.jpg') }}">
+                      <a href="{{ url('img/port01.jpg') }}" data-rel="lightcase:galleryCollection" title="Vix eu etiam mediocrem">
+                          <div class="overlay"></div>
+                          <figcaption><i class="fa fa-plus fa-2x"></i></figcaption>
+                      </a>
+                  </figure>
+              </div>
+              <div class="grid-item grid-item--width2">
+                  <figure>
+                      <img src="{{ url('img/port01.jpg') }}">
+                      <a href="{{ url('img/port01.jpg') }}" data-rel="lightcase:galleryCollection" title="Vix eu etiam mediocrem">
+                          <div class="overlay"></div>
+                          <figcaption><i class="fa fa-plus fa-2x"></i></figcaption>
+                      </a>
+                  </figure>
+              </div>
+              <div class="grid-item grid-item--width2">
+                  <figure>
+                      <img src="{{ url('img/port01.jpg') }}">
+                      <a href="{{ url('img/port01.jpg') }}" data-rel="lightcase:galleryCollection" title="Vix eu etiam mediocrem">
+                          <div class="overlay"></div>
+                          <figcaption><i class="fa fa-plus fa-2x"></i></figcaption>
+                      </a>
+                  </figure>
+              </div>
+              <div class="grid-item grid-item--width2">
+                  <figure>
+                      <img src="{{ url('img/port01.jpg') }}">
+                      <a href="{{ url('img/port01.jpg') }}" data-rel="lightcase:galleryCollection" title="Vix eu etiam mediocrem">
+                          <div class="overlay"></div>
+                          <figcaption><i class="fa fa-plus fa-2x"></i></figcaption>
+                      </a>
+                  </figure>
+              </div>
             <div class="grid-item grid-item--height2">
                 <figure>
                   <img src="{{ url('img/port02.jpg') }}">

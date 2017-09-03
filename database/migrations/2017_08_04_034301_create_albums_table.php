@@ -20,6 +20,7 @@ class CreateAlbumsTable extends Migration
             $table->integer('user_id')->unsigned(); // user id pembuat album
             $table->foreign('user_id')->references('id')->on('users');
             $table->text('description')->nullable(); // deskripsi album
+            $table->integer('view_count')->default(0); // jumlah page view
             $table->timestamps();
         });
     }

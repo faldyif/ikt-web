@@ -21,48 +21,22 @@
           <h3 class="mg-b-30 roboBold">Berita Terbaru</h3>
         </section>
         <section class="recent-news row pd-t-20">
+          @foreach($news as $key)
           <div class="col-md-4 col-sm-4">
             <section class="newsList">
                 <figure>
-                  <img src="./img/bg-img.png" style="background-image: url('./img/port02.jpg');">
+                  <img src="{{ url('storage') . '/' . $key->filename }}" style="background-image: url('{{ url('storage') . '/' . $key->filename }}');">
                   <div class="overlay"></div>
-                  <a href="news-detail.html">
+                  <a href="{{ url('news') }}/{{ $key->slug }}">
                     <figcaption>Selengkapnya</figcaption>
                   </a>
                 </figure>
-                <p class="black small mg-t-20"><span>20 June 2017</span> / <span>1k readers</span></p>
-                <a href="news-detail.html"><h4 class="roboMedium">Delenit utroque vivendo est ea</h4></a>
-                <p class="black">Eam no eripuit noluisse intellegebat. Nominavi mnesarchum ad eam, pro dico recteque id, cu dicant audiam mel. At eum mazim dolore aliquid, id sed quas saepe doming. </p>
+                <p class="black small mg-t-20"><span>{{ \Carbon\Carbon::parse($key->created_at)->toFormattedDateString() }}</span> / <span>{{ $key->view_count }} readers</span></p>
+                <a href="{{ url('news') }}/{{ $key->slug }}"><h4 class="roboMedium">{{ $key->title }}</h4></a>
+                <p class="black">{!! substr(strip_tags($key->content), 0, 30) !!}</p>
             </section>
           </div>
-          <div class="col-md-4 col-sm-4">
-            <section class="newsList">
-                <figure>
-                  <img src="./img/bg-img.png" style="background-image: url('./img/port01.jpg');">
-                  <div class="overlay"></div>
-                  <a href="news-detail.html">
-                    <figcaption>Selengkapnya</figcaption>
-                  </a>
-                </figure>
-                <p class="black small mg-t-20"><span>20 June 2017</span> / <span>1k readers</span></p>
-                <a href="news-detail.html"><h4 class="roboMedium">Delenit utroque vivendo est ea</h4></a>
-                <p class="black">Eam no eripuit noluisse intellegebat. Nominavi mnesarchum ad eam, pro dico recteque id, cu dicant audiam mel. At eum mazim dolore aliquid, id sed quas saepe doming. </p>
-            </section>
-          </div>
-          <div class="col-md-4 col-sm-4">
-            <section class="newsList">
-                <figure>
-                  <img src="./img/bg-img.png" style="background-image: url('./img/blog04.jpg');">
-                  <div class="overlay"></div>
-                  <a href="news-detail.html">
-                    <figcaption>Selengkapnya</figcaption>
-                  </a>
-                </figure>
-                <p class="black small mg-t-20"><span>20 June 2017</span> / <span>1k readers</span></p>
-                <a href="news-detail.html"><h4 class="roboMedium">Delenit utroque vivendo est ea</h4></a>
-                <p class="black">Eam no eripuit noluisse intellegebat. Nominavi mnesarchum ad eam, pro dico recteque id, cu dicant audiam mel. At eum mazim dolore aliquid, id sed quas saepe doming. </p>
-            </section>
-          </div>
+          @endforeach
         </section>
       </div>
     </section>
@@ -72,48 +46,24 @@
       <div class="container-fluid wow fadeInUpBig pd-bt-30">
         <section class="row mg-lr-20">
           <div class="col-md-9">
-            <section class="row newsListSec">
-              <div class="col-md-6 col-sm-6">
-                <figure>
-                  <img src="./img/bg-img.png" style="background-image: url('./img/blog01.jpg');">
-                </figure>
-              </div>
-              <div class="col-md-6 col-sm-6 textForNewsList">
-                <p class="black small mg-t-20"><span>20 June 2017</span> / <span>1k readers</span></p>
-                <h4 class="roboMedium">Delenit utroque vivendo est ea</h4>
-                <p class="black">Eam no eripuit noluisse intellegebat. Nominavi mnesarchum ad eam, pro dico recteque id, cu dicant audiam mel. At eum mazim dolore aliquid, id sed quas saepe doming. </p>
-                <a href="news-detail.html">Baca Selengkapnya</a>
-              </div>
-            </section>
-            <section class="row newsListSec">
-              <div class="col-md-6 col-sm-6">
-                <figure>
-                  <img src="./img/bg-img.png" style="background-image: url('./img/blog02.jpg');">
-                </figure>
-              </div>
-              <div class="col-md-6 col-sm-6 textForNewsList">
-                <p class="black small mg-t-20"><span>20 June 2017</span> / <span>1k readers</span></p>
-                <h4 class="roboMedium">Delenit utroque vivendo est ea</h4>
-                <p class="black">Vix eu etiam mediocrem. Qui debet essent omnium ut. Ne qui recusabo temporibus, in eum singulis posidonium. Nec reque saepe ea, esse veniam definitionem est ei.</p>
-                <a href="#">Baca Selengkapnya</a>
-              </div>
-            </section>
-            <section class="row newsListSec">
-              <div class="col-md-6 col-sm-6">
-                <figure>
-                  <img src="./img/bg-img.png" style="background-image: url('./img/blog03.jpg');">
-                </figure>
-              </div>
-              <div class="col-md-6 col-sm-6 textForNewsList">
-                <p class="black small mg-t-20"><span>20 June 2017</span> / <span>1k readers</span></p>
-                <h4 class="roboMedium">Delenit utroque vivendo est ea</h4>
-                <p class="black">Lorem ipsum dolor sit amet, quas integre sit no, mei velit virtute oportere cu. Aeque adipisci instructior sit ne, equidem imperdiet ullamcorper cum no. Cu est integre democritum, mediocrem democritum ullamcorper no sit. Minim latine vix ut.</p>
-                <a href="news-detail.html">Baca Selengkapnya</a>
-              </div>
-            </section>
+            @foreach($newsPaginated as $key)
+              <section class="row newsListSec">
+                <div class="col-md-6 col-sm-6">
+                  <figure>
+                    <img src="{{ url('storage') . '/' . $key->filename }}" style="background-image: url('{{ url('storage') . '/' . $key->filename }}');">
+                  </figure>
+                </div>
+                <div class="col-md-6 col-sm-6 textForNewsList">
+                  <p class="black small mg-t-20"><span>{{ \Carbon\Carbon::parse($key->created_at)->toFormattedDateString() }}</span> / <span>{{ $key->view_count }} readers</span></p>
+                  <h4 class="roboMedium">{{ $key->title }}</h4>
+                  <p class="black">{!! substr(strip_tags($key->content), 0, 30) !!}</p>
+                  <a href="{{ url('news') }}/{{ $key->slug }}">Baca Selengkapnya</a>
+                </div>
+              </section>
+            @endforeach
             <section class="row mg-t-30">
               <div class="alignCenter mg-t-20">
-                <a href="#" class="btn btn-blue"><span>Load more</span></a>
+                {{ $newsPaginated->links() }}
               </div>
             </section>
           </div>
@@ -121,48 +71,21 @@
             <aside>
               <section class="asideSec">
                 <h4 class="roboBold">Popular Post</h4>
-                <section class="row mg-bt-20">
-                  <div class="col-md-4 col-sm-2 col-xs-6">
-                    <figure>
-                      <img src="./img/bg-img.png" style="background-image: url('./img/blog02.jpg');">
-                    </figure>
-                  </div>
-                  <div class="col-md-8 col-sm-10 noPad">
-                    <h5 class="roboMedium mg-bt-5">Delenit utroque vivendo est ea</h5>
-                    <p class="black small"><span>20 June 2017</span></p>
-                  </div>
-                </section>
-                <section class="row mg-bt-20">
-                  <div class="col-md-4 col-sm-2 col-xs-6">
-                    <figure>
-                      <img src="./img/bg-img.png" style="background-image: url('./img/blog01.jpg');">
-                    </figure>
-                  </div>
-                  <div class="col-md-8 col-sm-10 noPad">
-                    <h5 class="roboMedium mg-bt-5">Lorem ipsum dolor sit ...</h5>
-                    <p class="black small"><span>20 June 2017</span></p>
-                  </div>
-                </section>
-                <section class="row mg-bt-20">
-                  <div class="col-md-4 col-sm-2 col-xs-6">
-                    <figure>
-                      <img src="./img/bg-img.png" style="background-image: url('./img/blog04.jpg');">
-                    </figure>
-                  </div>
-                  <div class="col-md-8 col-sm-10 noPad">
-                    <h5 class="roboMedium mg-bt-5">Cu ferri oblique has ...</h5>
-                    <p class="black small"><span>20 June 2017</span></p>
-                  </div>
-                </section>
-              </section>
-              <section class="asideSec">
-                <h4 class="roboBold">Tags</h4>
-                <ul class="tags">
-                  <li><a href="#">Company</a></li>
-                  <li><a href="#">Storage</a></li>
-                  <li><a href="#">Receiving &amp Delievering</a></li>
-                  <li><a href="#">Justo</a></li>
-                </ul>
+                @foreach($popularPosts as $key)
+                  <a href="{{ url('news') }}/{{ $key->slug }}">
+                  <section class="row mg-bt-20">
+                      <div class="col-md-4 col-sm-2 col-xs-6">
+                        <figure>
+                          <img src="{{ url('storage') . '/' . $key->filename }}" style="background-image: url('{{ url('storage') . '/' . $key->filename }}');">
+                        </figure>
+                      </div>
+                      <div class="col-md-8 col-sm-10 noPad">
+                        <h5 class="roboMedium mg-bt-5">{{ $key->title }}</h5>
+                        <p class="black small"><span>{{ \Carbon\Carbon::parse($key->created_at)->toFormattedDateString() }}</span></p>
+                      </div>
+                  </section>
+                  </a>
+                @endforeach
               </section>
             </aside>
           </div>

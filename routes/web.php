@@ -11,8 +11,9 @@
 |
 */
 
-//Route::get('/', 'StaticPageController@index');
-
+/*
+ * Admin routes. Starts with /admin prefix
+ */
 Route::group(array('namespace'=>'Admin', 'prefix'=>'admin', 'middleware'=>'auth'), function()
 {
     Route::get('/', array('as' => 'dashboard', 'uses' => 'DashboardController@index'));
@@ -22,78 +23,92 @@ Route::group(array('namespace'=>'Admin', 'prefix'=>'admin', 'middleware'=>'auth'
     Route::resource('news', 'NewsController');
     Route::resource('photo', 'PhotoController');
 });
+
+/*
+ * Default auth routes. Includes /login
+ */
 Auth::routes();
 
-Route::get('news/{news}', 'NewsController@show')->name('news-detail');
-Route::get('/home', 'HomeController@index')->name('home');
+// Home route
 Route::get('/', function () {
     return view('index');
 });
+// Route for redirection from /home to /admin if logged in
+Route::get(trans('routes.home'), 'HomeController@index')->name('home');
 
-Route::get('/ye', function () {
-    return view('tabs-layout');
-});
-
-Route::get('gallery', function () {
-    return view('gallery-list');
-});
-
-Route::get('gallery/detail', function () {
-    return view('gallery-detail');
-});
-
-Route::get('about', function () {
+/*
+ * About company route group
+ */
+Route::get(trans('routes.about'), function () {
     return view('about');
-});
+})->name('company.about');
 
-Route::get('stevedoring', function () {
-    return view('stevedoring');
-});
-
-Route::get('receiving', function () {
-    return view('receiving');
-});
-
-Route::get('vas', function () {
-    return view('vas');
-});
-
-Route::get('company-culture', function () {
+Route::get(trans('routes.company-culture'), function () {
     return view('company-culture');
-});
+})->name('company.culture');
 
-Route::get('agenda', function () {
-    return view('agenda');
-});
-
-Route::get('history', function () {
+Route::get(trans('routes.company-history'), function () {
     return view('company-history');
-});
+})->name('company.history');
 
-Route::get('news/detail', function () {
-    return view('news-detail');
-});
-
-Route::get('news', function () {
-    return view('news-list');
-});
-
-Route::get('profile', function () {
+Route::get(trans('routes.company-profile'), function () {
     return view('profile');
-});
+})->name('company.profile');
 
-Route::get('vission', function () {
+Route::get(trans('routes.company-vision-mission'), function () {
     return view('vission-mission');
-});
+})->name('company.vision-mission');
 
-Route::get('clients', function () {
+Route::get(trans('routes.achievement'), function () {
+    return view('achievement');
+})->name('company.achievements');
+
+Route::get(trans('routes.our-customers'), function () {
     return view('clients');
-});
-Route::get('achivement', function () {
-    return view('achivement');
-});
+})->name('company.clients');
 
+/*
+ * Services route groups
+ */
+Route::get(trans('routes.stevedoring'), function () {
+    return view('stevedoring');
+})->name('service.stevedoring');
+
+Route::get(trans('routes.receiving'), function () {
+    return view('receiving');
+})->name('service.receiving');
+
+Route::get(trans('routes.value-added-service'), function () {
+    return view('vas');
+})->name('service.vas');
+
+/*
+ * Dynamic route groups
+ * Contains: Gallery, News, Press Release
+ */
+
+// Gallery detail
+Route::get(trans('routes.gallery'), function () {
+    return view('gallery-list');
+})->name('gallery');
+// Gallery list
+Route::get(trans('routes.gallery').'/{gallery}', function ($gallery) {
+    return view('gallery-detail');
+})->name('gallery.detail');
+
+// News list
+Route::get(trans('routes.news'), 'NewsController@index')->name('news');
+// News detail
+Route::get(trans('routes.news').'/{news}', 'NewsController@show')->name('news.detail');
+
+
+/*
+ * Temporary/testing routes
+ */
 // for tabs-layout template
 Route::get('tabs', function () {
+    return view('tabs-layout');
+});
+Route::get('/ye', function () {
     return view('tabs-layout');
 });

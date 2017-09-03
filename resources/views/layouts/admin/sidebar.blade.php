@@ -43,15 +43,15 @@
             <li {{{ (Request::is('admin/album') ? 'class=active' : '') }}}><a href="{{ url('admin/album') }}"><i class="fa fa-list"></i> List Album</a></li>
           </ul>
         </li>
-        <li class="treeview {{{ ((Request::is('admin/berthing-plan/create') || Request::is('admin/berthing-plan')) ? 'active' : '') }}}">
+        <li class="treeview {{{ ((Request::is('admin/berthing/create') || Request::is('admin/berthing')) ? 'active' : '') }}}">
           <a href="#"><i class="fa fa-ship"></i> <span>Berthing Plan</span>
             <span class="pull-right-container">
                 <i class="fa fa-angle-left pull-right"></i>
               </span>
           </a>
           <ul class="treeview-menu">
-            <li {{{ (Request::is('admin/berthing-plan/create') ? 'class=active' : '') }}}><a href="{{ url('admin/berthing-plan/create') }}"><i class="fa fa-plus"></i> Buat Berthing Plan Baru</a></li>
-            <li {{{ (Request::is('admin/berthing-plan') ? 'class=active' : '') }}}><a href="{{ url('admin/berthing-plan') }}"><i class="fa fa-list"></i> List Berthing Plan</a></li>
+            <li {{{ (Request::is('admin/berthing/create') ? 'class=active' : '') }}}><a href="{{ url('admin/berthing/create') }}"><i class="fa fa-plus"></i> Buat Berthing Plan Baru</a></li>
+            <li {{{ (Request::is('admin/berthing') ? 'class=active' : '') }}}><a href="{{ url('admin/berthing') }}"><i class="fa fa-list"></i> List Berthing Plan</a></li>
           </ul>
         </li>
       </ul>
