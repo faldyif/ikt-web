@@ -1053,7 +1053,7 @@ footer {
   footer figure {
     margin: 0px auto 10px; }
 
-#thisToggle {
+#thisToggle, #thisToggle-r {
   display: none; }
 
 /***********************************
@@ -1133,11 +1133,25 @@ figcaption.caption {
   flex-direction: row;
   align-items: center; }
 
+.flex-1 {
+  flex: 1; }
+
+.bg-img img {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center; }
+
 .bg-img-contain img {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain; }
+
+.rounded {
+  border-radius: 100%;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  -o-border-radius: 100%; }
 
 .btn {
   transition: all 0.3s ease-in-out;
@@ -1265,7 +1279,7 @@ figure figcaption {
   right: auto; }
 
 .dropdown-menu {
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: rgba(0, 0, 0, 0.6);
   margin-top: 5px !important;
   border: none;
   box-shadow: none !important;

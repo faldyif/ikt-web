@@ -1,6 +1,6 @@
 @extends('layout.app')
 
-@section('title','IPC')
+@section('title','Press Release Detail')
 
 @section('content')
 <!--HERO-->
@@ -14,7 +14,7 @@
       </div>
     </section>
     <!--/HERO-->
-    <!--DETAIL NEWS-->
+    <!--DETAIL -->
     <section id="news-detail">
       <div class="container-fluid wow fadeInUpBig">
         <section class="row pd-t-20">
@@ -43,10 +43,10 @@
             </div>
             </section>
             <section class="mg-t-30">
-              <div id="showToggle-r" class="alignCenter mg-t-20">
+              <div id="showToggle" class="alignCenter mg-t-20">
                 <p class="btn btn-gray-full wd-100"><span>Leave a comment</span></p>
               </div>
-              <div id="thisToggle-r">
+              <div id="thisToggle">
                 <form method="" action="">
                   <div class="form-group">
                     <textarea class="form-control" rows="5" id="" placeholder="Your comment ..."></textarea>
@@ -63,88 +63,29 @@
                 </form>
               </div>
             </section>
-            <section class="mg-bt-30">
-              <hr class="hrSpec hrSpecOrange">
-              <h4 class="roboBold fullWidth">Comments</h4>
-              <section class="row pd-t-10">
-                <figure class="col-md-1 col-md-1 col-sm-1 bg-img mg-t-10">
-                  <img src="{{ url('img/bg-square.png') }}" alt="user" style="background-image: url('{{ url('img/port02.jpg') }}');" class="rounded">
-                </figure>
-                <div class="col-md-9 col-sm-10 col-sm-10">
-                  <h5 class="big roboBold">Someone</h5>
-                  <p class="text-muted">15 Agustus 2017</p>
-                  <p>Aliquam principes deterruisset cum et, vel an eius equidem. Id quando legimus inermis eum, cibo consul democritum cum te, cu cum suas laudem graeci. Bonorum gloriatur signiferumque an pro.</p>
-                </div>
-                <div class=" alignRight col-md-2 col-sm-1 col-xs-1 mg-t-10">
-                  <a href="#" class="roboBold big"><i class="fa fa-reply mg-r-10"></i> Reply</a>
-                </div>
-              </section>
-              <hr>
-              <section class="row pd-t-10">
-                <figure class="col-md-1 col-md-1 col-sm-1 bg-img mg-t-10">
-                  <img src="{{ url('img/bg-square.png') }}" alt="user" style="background-image: url('{{ url('img/port02.jpg') }}');" class="rounded">
-                </figure>
-                <div class="col-md-9 col-sm-10 col-sm-10">
-                  <h5 class="big roboBold">Someone</h5>
-                  <p class="text-muted">15 Agustus 2017</p>
-                  <p>Aliquam principes deterruisset cum et, vel an eius equidem. Id quando legimus inermis eum, cibo consul democritum cum te, cu cum suas laudem graeci. Bonorum gloriatur signiferumque an pro.</p>
-                </div>
-                <div class=" alignRight col-md-2 col-sm-1 col-xs-1 mg-t-10">
-                  <a href="#" class="roboBold big"><i class="fa fa-reply mg-r-10"></i> Reply</a>
-                </div>
-              </section>
-              <hr>
-            </section>
             <section class="mg-t-30">
-              <h5 class="alignCenter fullWidth">You might also like</h5>
-              <p class="roboMedium alignCenter">One of the following</p>
-              <section class="recent-news row mg-t-30">
-                <div class="col-md-4 col-sm-4">
-                  <section class="newsList">
-                      <figure>
-                        <img src="{{ url('img/bg-img.png') }}" style="background-image: url('{{ url('img/port02.jpg') }}');">
-                        <div class="overlay"></div>
-                        <a href="#">
-                          <figcaption>Selengkapnya</figcaption>
-                        </a>
-                      </figure>
-                      <a href="#"><h5 class="alignCenter roboMedium">Delenit utroque vivendo est ea</h5></a>
-                      <p class="black small noMag alignCenter"><span>20 June 2017</span> / <span>1k readers</span></p>
-                  </section>
-                </div>
-                <div class="col-md-4 col-sm-4">
-                  <section class="newsList">
-                      <figure>
-                        <img src="{{ url('img/bg-img.png') }}" style="background-image: url('{{ url('img/port01.jpg') }}');">
-                        <div class="overlay"></div>
-                        <a href="#">
-                          <figcaption>Selengkapnya</figcaption>
-                        </a>
-                      </figure>
-                      <a href="#"><h5 class="alignCenter roboMedium">Delenit utroque vivendo est ea</h5></a>
-                      <p class="black small noMag alignCenter"><span>20 June 2017</span> / <span>1k readers</span></p>
-                  </section>
-                </div>
-                <div class="col-md-4 col-sm-4">
-                  <section class="newsList">
-                      <figure>
-                        <img src="{{ url('img/bg-img.png') }}" style="background-image: url('{{ url('img/blog04.jpg') }}');">
-                        <div class="overlay"></div>
-                        <a href="#">
-                          <figcaption>Selengkapnya</figcaption>
-                        </a>
-                      </figure>
-                      <a href="#"><h5 class="alignCenter roboMedium">Delenit utroque vivendo est ea</h5></a>
-                      <p class="black small noMag alignCenter"><span>20 June 2017</span> / <span>1k readers</span></p>
-                  </section>
-                </div>
-              </section>
+              <h5 class="fullWidth big">You might also like</h5>
+              <p class="roboMedium big">One of the following</p>
+              <div class="row mg-t-10 mg-bt-20">
+                <p class="col-md-2 col-sm-3 col-xs-2 black roboMedium"><span class="bigger">20 June </span> <br>2017</p>
+                <section class="col-md-10 col-sm-9 col-xs-10">
+                  <h4 class="roboMedium">Delenit utroque vivendo est ea</h4>
+                  <a href="{{ url('press-release/detail')}}">Baca Selengkapnya</a>
+                </section>
+              </div>
+              <div class="row mg-t-10 mg-bt-20">
+                <p class="col-md-2 col-sm-3 col-xs-2 black roboMedium"><span class="bigger">20 June </span> <br>2017</p>
+                <section class="col-md-10 col-sm-9 col-xs-10">
+                  <h4 class="roboMedium">Egyptian Ministerial event drives new consensus on Africa and Middle East aviation security</h4>
+                  <a href="{{ url('press-release/detail')}}">Baca Selengkapnya</a>
+                </section>
+              </div>
             </section>
           </div>
         </section>
       </div>
     </section>
-    <!--/DETAIL NEWS-->
+    <!--/DETAIL -->
     <!--footer-->
     <!-- <div class="hiddenSec"></div> -->
     <footer class="footer-1">

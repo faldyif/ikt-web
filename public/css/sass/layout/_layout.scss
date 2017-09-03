@@ -219,7 +219,7 @@ footer {
 		margin: 0px auto 10px;
 	}
 }
-#thisToggle {
+#thisToggle,#thisToggle-r {
 	display: none;
 }
 /***********************************
@@ -317,10 +317,21 @@ display: flex;
 	flex-direction: row;
 	align-items: center;
 }
+.flex-1 {
+	flex: 1;
+}
 
+.bg-img {
+  img {
+    @include img-bg();
+  }
+}
 .bg-img-contain {
   img {
     @include img-bg();
     background-size: contain;
   }
+}
+.rounded {
+	@include radius(100%);
 }

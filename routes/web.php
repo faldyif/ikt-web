@@ -67,8 +67,11 @@ Route::get('clients', function () {
 Route::get('achivement', function () {
     return view('achivement');
 });
-Route::get('press', function () {
-    return view('press');
+Route::get('press-release', function () {
+    return view('press-release-list');
+});
+Route::get('press-release/detail', function () {
+    return view('press-release-detail');
 });
 
 // for tabs-layout template
