@@ -98,7 +98,7 @@
           <li class="has-children has-children-right"><a href="#">PUSAT INFORMASI</a>
             <ul class="dropdown-menu dropdown-menu-opacity">
               <li><a href="{{ route('news') }}">News</a></li>
-              <li><a href="#">Press Release</a></li>
+              <li><a href="{{ route('press-release') }}">Press Release</a></li>
               <li><a href="#">Annual Report</a></li>
               <li><a href="#">Statistic &amp Data</a></li>
               <li><a href="{{ route('company.clients') }}">Our Customer</a></li>

@@ -7,6 +7,7 @@ return [
     'photo' => 'foto',
     'home' => 'beranda',
     'gallery' => 'galeri',
+    'press-release' => 'press-release',
     'service.stevedoring' => 'stevedoring',
     'service.receiving' => 'receiving',
     'service.vas' => 'value-added-service',

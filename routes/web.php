@@ -104,6 +104,13 @@ Route::get(trans('routes.news'), 'NewsController@index')->name('news');
 // News detail
 Route::get(trans('routes.news').'/{news}', 'NewsController@show')->name('news.detail');
 
+// Press Release
+Route::get(trans('routes.press-release'), function () {
+    return view('press-release-list');
+})->name('press-release');
+Route::get(trans('routes.press-release').'/{$press_release}', function ($press_release) {
+    return view('press-release-detail');
+})->name('press-release.detail');
 
 /*
  * Temporary/testing routes

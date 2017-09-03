@@ -6,52 +6,48 @@
   <!--FULLPAGE.JS-->
   <div id="fullpage">
     <!--HERO-->
-<section id="hero" class="pagecontent section">
-  <section class="">
-    <div>
-      <figure class="figSlider">
-        <img src="{{ url('img/3.jpg') }}">
-        <div class="overlay"></div>
-        <section class="containerCenter alignCenter">
-          <section class="row">
-            <div class="col-md-4 col-md-offset-4 col-sm-4 col-sm-offset-4 col-xs-6 col-xs-offset-3">
-                
-            </div>
-          </section>
-          <img id="logo"
-               data-init-position="random"
-               data-init-direction="random"
-               data-particle-gap="1"
-               data-noise="10"
-               data-mouse-force="-10"
-               data-height="400"
-               src="{{ url('img/ikt.png') }}">
-        </section>
-      </figure>
-    </div>
-    <!-- <div>
-      <figure class="figSlider">
-        <img src="./img/4.jpg">
-        <div class="overlay"></div>
-        <section class="containerCenter alignCenter">
-          <p class="roboRegular bigger wow fadeInLeft or">Indonesia Kendaraan Terminal</p>
-          <h2 class="upper wh wow fadeInLeft bigTitle">Lebih dari Sekedar Kendaraan Terminal</h2>
-        </section>
-      </figure>
-    </div> -->
-    <!-- <div>
-      <figure class="figSlider">
-        <img src="./img/3.jpg">
-        <div class="overlay"></div>
-        <section class="containerCenter alignCenter">
-          <p class="roboRegular bigger wow fadeInLeft or">Fast and Reliable</p>
-          <h2 class="upper wh wow fadeInLeft bigTitle">IPC - Tanjung Priok Car Terminal</h2>
-        </section>
-      </figure>
-    </div> -->
-  </section>
-</section>
-<!--/HERO-->
+    <section id="hero" class="pagecontent">
+      <section class="slider">
+        <div>
+          <figure class="figSlider">
+            <img src="./img/2.jpg">
+            <div class="overlay"></div>
+            <section class="containerCenter alignCenter">
+              <section class="row">
+                <div class="col-md-4 col-md-offset-4 col-sm-4 col-sm-offset-4 col-xs-6 col-xs-offset-3">
+                  <figure>
+                    <img class="wow fadeInLeftBig beWhite" src="./img/ikt-logo.png">
+                  </figure>
+                </div>
+              </section>
+              <h2 class="roboBlack wow fadeInLeft or" data-wow-delay="0.4s">Indonesia Kendaraan Terminal</h2>
+              <p class="big wow fadeInLeft" data-wow-delay="0.5s">Lebih dari Sekedar Kendaraan Terminal</p>
+            </section>
+          </figure>
+        </div>
+        <div>
+          <figure class="figSlider">
+            <img src="./img/4.jpg">
+            <div class="overlay"></div>
+            <section class="containerCenter alignCenter">
+              <p class="roboRegular bigger wow fadeInLeft or">Indonesia Kendaraan Terminal</p>
+              <h2 class="upper wh wow fadeInLeft bigTitle">Lebih dari Sekedar Kendaraan Terminal</h2>
+            </section>
+          </figure>
+        </div>
+        <div>
+          <figure class="figSlider">
+            <img src="./img/3.jpg">
+            <div class="overlay"></div>
+            <section class="containerCenter alignCenter">
+              <p class="roboRegular bigger wow fadeInLeft or">Fast and Reliable</p>
+              <h2 class="upper wh wow fadeInLeft bigTitle">IPC - Tanjung Priok Car Terminal</h2>
+            </section>
+          </figure>
+        </div>
+      </section>
+    </section>
+    <!--/HERO-->
     <!--ABOUT-->
     <section id="about" class="pagecontent">
       <div class="container-fluid">
@@ -59,28 +55,28 @@
           <div class="about col-md-6 wow fadeInUpBig">
             <hr class="hrSpec hrSpecOrange">
             <h3 class="mg-b-30 roboBold">Tentang Kami</h3>
-            <p class="big">Indonesia Kendaraan Terminal Merupakan Perusahaan Kendaraan Terminal yang Beroperasi Tanjung Priok Jakarta Indonesia, memberikan pelayanan Cargodooring, Stevedoring, Receiving & delevering serta berbagai Pelayanan Terbaik untuk Pelanggan Kami.</p>
+            <p class="big">Aliquam principes deterruisset cum et, vel an eius equidem. Id quando legimus inermis eum, cibo consul democritum cum te, cu cum suas laudem graeci. Bonorum gloriatur signiferumque an pro.</p>
             <p><a href="#" class="roboMedium">Selengkapnya</a></p>
           </div>
           <div class="col-md-6 col-sm-6 figAbout wow fadeInRightBig" data-wow-delay="0.5s">
             <section class="row">
               <div class="col-md-6 col-sm-6 col-xs-6">
                 <figure>
-                  <img src="{{ url('img/bg-img-por.png') }}" style="background-image: url('./img/4.jpg');">
+                  <img src="./img/bg-img-por.png" style="background-image: url('./img/4.jpg');">
                 </figure>
               </div>
               <div class="col-md-6 col-sm-6 col-xs-6">
                 <section class="row">
                   <div class="col-md-12">
                     <figure>
-                      <img src="{{ url('img/bg-img.png') }}" style="background-image: url('./img/1.jpg');">
+                      <img src="./img/bg-img.png" style="background-image: url('./img/1.jpg');">
                     </figure>
                   </div>
                 </section>
                 <section class="row">
                   <div class="col-md-12">
                     <figure>
-                      <img src="{{ url('img/bg-img.png') }}" style="background-image: url('./img/2.jpg');">
+                      <img src="./img/bg-img.png" style="background-image: url('./img/2.jpg');">
                     </figure>
                   </div>
                 </section>
@@ -104,7 +100,7 @@
             </div>
           </div>
           <figure class="btFig-half">
-            <img src="{{ url('img/3.jpg') }}">
+            <img src="./img/3.jpg">
           </figure>
         </div>
 
@@ -187,7 +183,7 @@
           <div>
             <section class="newsList">
               <figure>
-                <img src="{{ url('img/bg-img.png') }}" style="background-image: url('./img/port02.jpg');">
+                <img src="./img/bg-img.png" style="background-image: url('./img/port02.jpg');">
                 <div class="overlay"></div>
                 <a href="#">
                   <figcaption>Selengkapnya</figcaption>
@@ -201,7 +197,7 @@
           <div>
             <section class="newsList">
               <figure>
-                <img src="{{ url('img/bg-img.png') }}" style="background-image: url('./img/port01.jpg');">
+                <img src="./img/bg-img.png" style="background-image: url('./img/port01.jpg');">
                 <div class="overlay"></div>
                 <a href="#">
                   <figcaption>Selengkapnya</figcaption>
@@ -215,7 +211,7 @@
           <div>
             <section class="newsList">
               <figure>
-                <img src="{{ url('img/bg-img.png') }}" style="background-image: url('./img/blog04.jpg');">
+                <img src="./img/bg-img.png" style="background-image: url('./img/blog04.jpg');">
                 <div class="overlay"></div>
                 <a href="#">
                   <figcaption>Selengkapnya</figcaption>
@@ -229,7 +225,7 @@
           <div>
             <section class="newsList">
               <figure>
-                <img src="{{ url('img/bg-img.png') }}" style="background-image: url('./img/blog01.jpg');">
+                <img src="./img/bg-img.png" style="background-image: url('./img/blog01.jpg');">
                 <div class="overlay"></div>
                 <a href="#">
                   <figcaption>Selengkapnya</figcaption>
@@ -243,7 +239,7 @@
           <div>
             <section class="newsList">
               <figure>
-                <img src="{{ url('img/bg-img.png') }}" style="background-image: url('./img/blog02.jpg');">
+                <img src="./img/bg-img.png" style="background-image: url('./img/blog02.jpg');">
                 <div class="overlay"></div>
                 <a href="#">
                   <figcaption>Selengkapnya</figcaption>
@@ -257,7 +253,7 @@
           <div>
             <section class="newsList">
               <figure>
-                <img src="{{ url('img/bg-img.png') }}" style="background-image: url('./img/blog03.jpg');">
+                <img src="./img/bg-img.png" style="background-image: url('./img/blog03.jpg');">
                 <div class="overlay"></div>
                 <a href="#">
                   <figcaption>Selengkapnya</figcaption>
@@ -271,7 +267,7 @@
           <div>
             <section class="newsList">
               <figure>
-                <img src="{{ url('img/bg-img.png') }}" style="background-image: url('./img/blog03.jpg');">
+                <img src="./img/bg-img.png" style="background-image: url('./img/blog03.jpg');">
                 <div class="overlay"></div>
                 <a href="#">
                   <figcaption>Selengkapnya</figcaption>
@@ -285,7 +281,7 @@
           <div>
             <section class="newsList">
               <figure>
-                <img src="{{ url('img/bg-img.png') }}" style="background-image: url('./img/blog03.jpg');">
+                <img src="./img/bg-img.png" style="background-image: url('./img/blog03.jpg');">
                 <div class="overlay"></div>
                 <a href="#">
                   <figcaption>Selengkapnya</figcaption>
@@ -299,7 +295,7 @@
           <div>
             <section class="newsList">
               <figure>
-                <img src="{{ url('img/bg-img.png') }}" style="background-image: url('./img/blog03.jpg');">
+                <img src="./img/bg-img.png" style="background-image: url('./img/blog03.jpg');">
                 <div class="overlay"></div>
                 <a href="#">
                   <figcaption>Selengkapnya</figcaption>
@@ -313,7 +309,7 @@
           <div>
             <section class="newsList">
               <figure>
-                <img src="{{ url('img/bg-img.png') }}" style="background-image: url('./img/blog03.jpg');">
+                <img src="./img/bg-img.png" style="background-image: url('./img/blog03.jpg');">
                 <div class="overlay"></div>
                 <a href="#">
                   <figcaption>Selengkapnya</figcaption>
@@ -328,8 +324,8 @@
       </div>
     </section>
     <!--/RECENT NEWS-->
-    <!-- AGENDA-->
-    <!-- <section id="agenda" class="pagecontent">
+    <!--AGENDA-->
+    <section id="agenda" class="pagecontent">
       <div class="container-fluid">
         <section class="agendaSection">
           <section class="row">
@@ -363,8 +359,8 @@
           </section>
         </section>
       </div>
-    </section> -->
-    <!--/AGENDA -->
+    </section>
+    <!--/AGENDA-->
     <!--GALERRY-->
     <section id="gallery" class="wow fadeInUp pagecontent">
       <div class="container-fluid">
@@ -375,37 +371,53 @@
           <div class="pd-r-30">
             <div class="grid">
               <div class="grid-sizer"></div>
-              <div class="grid-item grid-item--width2">
-                <figure>
-                  <img src="{{ url('img/port02.jpg') }}">
-                  <a href="{{ url('img/port02.jpg') }}" data-rel="lightcase"><div class="overlay"></div></a>
-                  <figcaption class="figcaptionTop hidden-768"><i class="fa fa-camera-retro fa-2x"></i></figcaption>
-                  <figcaption class="figcaptionBottom"><a href="#">Delenit utroque vivendo est ea</a><br>12 July 2017</figcaption>
-                </figure>
-              </div>
-              <div class="grid-item grid-item--height2">
-                <figure>
-                  <img src="{{ url('img/blog02.jpg') }}">
-                  <a href="{{ url('img/blog02.jpg') }}" data-rel="lightcase"><div class="overlay"></div></a>
-                  <figcaption class="figcaptionTop hidden-768"><i class="fa fa-camera-retro fa-2x"></i></figcaption>
-                  <figcaption class="figcaptionBottom"><a href="#">Delenit utroque vivendo est ea</a><br>12 July 2017</figcaption>
-                </figure>
+              <div class="grid-item">
+                  <figure>
+                    <img src="{{ url('img/port02.jpg') }}">
+                    <a href="{{ url('gallery/detail') }}"><div class="overlay"></div></a>
+                    <figcaption class="figcaptionTop hidden-768"><i class="fa fa-camera-retro fa-2x"></i></figcaption>
+                    <figcaption class="figcaptionBottom"><a href="{{ url('gallery/detail') }}">Delenit utroque vivendo est ea</a><br>12 July 2017</figcaption>
+                  </figure>
               </div>
               <div class="grid-item">
-                <figure>
-                  <img src="{{ url('img/blog01.jpg') }}">
-                  <a href="{{ url('img/blog01.jpg') }}" data-rel="lightcase"><div class="overlay"></div></a>
-                  <figcaption class="figcaptionTop hidden-768"><i class="fa fa-camera-retro fa-2x"></i></figcaption>
-                  <figcaption class="figcaptionBottom"><a href="#">Delenit utroque vivendo est ea</a><br>12 July 2017</figcaption>
-                </figure>
+                  <figure>
+                    <img src="{{ url('img/blog02.jpg') }}">
+                    <a href="{{ url('gallery/detail') }}"><div class="overlay"></div></a>
+                    <figcaption class="figcaptionTop hidden-768"><i class="fa fa-camera-retro fa-2x"></i></figcaption>
+                    <figcaption class="figcaptionBottom"><a href="{{ url('gallery/detail') }}">Delenit utroque vivendo est ea</a><br>12 July 2017</figcaption>
+                  </figure>
               </div>
               <div class="grid-item">
-                <figure>
-                  <img src="{{ url('img/blog04.jpg') }}">
-                  <a href="{{ url('img/blog04.jpg') }}" data-rel="lightcase"><div class="overlay"></div></a>
-                  <figcaption class="figcaptionTop hidden-768"><i class="fa fa-camera-retro fa-2x"></i></figcaption>
-                  <figcaption class="figcaptionBottom"><a href="#">Delenit utroque vivendo est ea</a><br>12 July 2017</figcaption>
-                </figure>
+                  <figure>
+                    <img src="{{ url('img/blog01.jpg') }}">
+                    <a href="{{ url('gallery/detail') }}"><div class="overlay"></div></a>
+                    <figcaption class="figcaptionTop hidden-768"><i class="fa fa-camera-retro fa-2x"></i></figcaption>
+                    <figcaption class="figcaptionBottom"><a href="{{ url('gallery/detail') }}">Delenit utroque vivendo est ea</a><br>12 July 2017</figcaption>
+                  </figure>
+              </div>
+              <div class="grid-item">
+                  <figure>
+                    <img src="{{ url('img/port02.jpg') }}">
+                    <a href="{{ url('gallery/detail') }}"><div class="overlay"></div></a>
+                    <figcaption class="figcaptionTop hidden-768"><i class="fa fa-camera-retro fa-2x"></i></figcaption>
+                    <figcaption class="figcaptionBottom"><a href="{{ url('gallery/detail') }}">Delenit utroque vivendo est ea</a><br>12 July 2017</figcaption>
+                  </figure>
+              </div>
+              <div class="grid-item">
+                  <figure>
+                    <img src="{{ url('img/blog02.jpg') }}">
+                    <a href="{{ url('gallery/detail') }}"><div class="overlay"></div></a>
+                    <figcaption class="figcaptionTop hidden-768"><i class="fa fa-camera-retro fa-2x"></i></figcaption>
+                    <figcaption class="figcaptionBottom"><a href="{{ url('gallery/detail') }}">Delenit utroque vivendo est ea</a><br>12 July 2017</figcaption>
+                  </figure>
+              </div>
+              <div class="grid-item">
+                  <figure>
+                    <img src="{{ url('img/blog01.jpg') }}">
+                    <a href="{{ url('gallery/detail') }}"><div class="overlay"></div></a>
+                    <figcaption class="figcaptionTop hidden-768"><i class="fa fa-camera-retro fa-2x"></i></figcaption>
+                    <figcaption class="figcaptionBottom"><a href="{{ url('gallery/detail') }}">Delenit utroque vivendo est ea</a><br>12 July 2017</figcaption>
+                  </figure>
               </div>
             </div>
           </div>
@@ -434,7 +446,7 @@
                   <div class="row mg-t-20">
                     <div class="col-md-3 col-sm-3 col-xs-3">
                       <figure class="roundImage">
-                        <img src="{{ url('img/bg-square.png') }}" style="background-image: url('./img/thumb.png');">
+                        <img src="./img/bg-square.png" style="background-image: url('./img/thumb.png');">
                       </figure>
                     </div>
                     <div class="col-md-9 col-sm-9">
@@ -455,7 +467,7 @@
                   <div class="row mg-t-20">
                     <div class="col-md-3 col-sm-3 col-xs-3">
                       <figure class="roundImage">
-                        <img src="{{ url('img/bg-square.png') }}" style="background-image: url('./img/thumb.png');">
+                        <img src="./img/bg-square.png" style="background-image: url('./img/thumb.png');">
                       </figure>
                     </div>
                     <div class="col-md-9 col-sm-9">
@@ -476,7 +488,7 @@
                   <div class="row mg-t-20">
                     <div class="col-md-3 col-sm-3 col-xs-3">
                       <figure class="roundImage">
-                        <img src="{{ url('img/bg-square.png') }}" style="background-image: url('./img/thumb.png');">
+                        <img src="./img/bg-square.png" style="background-image: url('./img/thumb.png');">
                       </figure>
                     </div>
                     <div class="col-md-9 col-sm-9">
@@ -497,7 +509,7 @@
                   <div class="row mg-t-20">
                     <div class="col-md-3 col-sm-3 col-xs-3">
                       <figure class="roundImage">
-                        <img src="{{ url('img/bg-square.png') }}" style="background-image: url('./img/thumb.png');">
+                        <img src="./img/bg-square.png" style="background-image: url('./img/thumb.png');">
                       </figure>
                     </div>
                     <div class="col-md-9 col-sm-9">
@@ -518,7 +530,7 @@
                   <div class="row mg-t-20">
                     <div class="col-md-3 col-sm-3 col-xs-3">
                       <figure class="roundImage">
-                        <img src="{{ url('img/bg-square.png') }}" style="background-image: url('./img/thumb.png');">
+                        <img src="./img/bg-square.png" style="background-image: url('./img/thumb.png');">
                       </figure>
                     </div>
                     <div class="col-md-9 col-sm-9">
@@ -539,7 +551,7 @@
                   <div class="row mg-t-20">
                     <div class="col-md-3 col-sm-3 col-xs-3">
                       <figure class="roundImage">
-                        <img src="{{ url('img/bg-square.png') }}" style="background-image: url('./img/thumb.png');">
+                        <img src="./img/bg-square.png" style="background-image: url('./img/thumb.png');">
                       </figure>
                     </div>
                     <div class="col-md-9 col-sm-9">
@@ -560,7 +572,7 @@
         <section class="row noMag">
           <div class="col-md-4">
             <section class="contactInfo">
-              <h4 class="roboBold">Kontak Kami</h4>
+              <h4 class="roboBold">Information</h4>
               <section class="row mg-lr-15 mg-t-30">
                 <i class="fa fa-map-marker fa-2x or floatLeft mg-r-20"></i>
                 <p class="small">JL Sindang Laut, Cilincing Jakarta Utara, 14110</p>
@@ -592,26 +604,38 @@
           </div>
         </section>
       </section>
-      </section>
+    </section>
     <!--/CONTACT-->
     <!--footer-->
     <!-- <div class="hiddenSec"></div> -->
-    <!--CONTACT-->
+    <footer class="pagecontent">
+      <div class="containerCenter alignCenter">
+        <figure class="">
+          <img src="./img/ikt-logo.png">
+        </figure>
+        <h4 class="roboMedium mg-b-25">Lebih dari Sekedar Kendaraan Terminal</h4>
+        <h5>Design and Develop by</h5>
+      </div>
+    </footer>
+    <!--/footer-->
 @endsection
 
 
 @section('bottom')
-  <script src="{{ url('js/custom.fullpage.js') }}"></script>
-  <script src="https://nextparticle.nextco.de/nextparticle.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/dat-gui/0.6.4/dat.gui.min.js"></script>
-  <script type="text/javascript">
-      var nextParticle = new NextParticle(document.all.logo);
 
-      window.onclick = function() {
-          nextParticle.stop();
-      };
-      nextParticle.on('stopped', function() {
-          nextParticle.start();
+  <script type="javascript">
+      $(document).ready(function() {
+          $('#fullpage').fullpage({
+              anchors: ['Hero', 'About Us', 'Vision and Mission', 'News', 'Agenda', 'Gallery', 'Testimonial', 'Contact Us'],
+              navigation: true,
+              navigationPosition: 'right',
+              navigationTooltips: ['Hero', 'About Us', 'Vision and Mission', 'News', 'Agenda', 'Gallery', 'Testimonial', 'Contact Us'],
+              scrollBar: true,
+              afterRender: function(){
+                  new WOW().init();
+              }
+          });
       });
   </script>
+
 @endsection
