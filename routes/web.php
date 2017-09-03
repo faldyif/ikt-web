@@ -32,7 +32,7 @@ Auth::routes();
 // Home route
 Route::get('/', function () {
     return view('index');
-});
+})->name('welcome');
 // Route for redirection from /home to /admin if logged in
 Route::get(trans('routes.home'), 'HomeController@index')->name('home');
 
@@ -43,42 +43,42 @@ Route::get(trans('routes.about'), function () {
     return view('about');
 })->name('company.about');
 
-Route::get(trans('routes.company-culture'), function () {
+Route::get(trans('routes.company.culture'), function () {
     return view('company-culture');
 })->name('company.culture');
 
-Route::get(trans('routes.company-history'), function () {
+Route::get(trans('routes.company.history'), function () {
     return view('company-history');
 })->name('company.history');
 
-Route::get(trans('routes.company-profile'), function () {
+Route::get(trans('routes.company.profile'), function () {
     return view('profile');
 })->name('company.profile');
 
-Route::get(trans('routes.company-vision-mission'), function () {
+Route::get(trans('routes.company.vision-mission'), function () {
     return view('vission-mission');
 })->name('company.vision-mission');
 
-Route::get(trans('routes.achievement'), function () {
+Route::get(trans('routes.company.achievements'), function () {
     return view('achievement');
 })->name('company.achievements');
 
-Route::get(trans('routes.our-customers'), function () {
+Route::get(trans('routes.company.clients'), function () {
     return view('clients');
 })->name('company.clients');
 
 /*
  * Services route groups
  */
-Route::get(trans('routes.stevedoring'), function () {
+Route::get(trans('routes.service.stevedoring'), function () {
     return view('stevedoring');
 })->name('service.stevedoring');
 
-Route::get(trans('routes.receiving'), function () {
+Route::get(trans('routes.service.receiving'), function () {
     return view('receiving');
 })->name('service.receiving');
 
-Route::get(trans('routes.value-added-service'), function () {
+Route::get(trans('routes.service.vas'), function () {
     return view('vas');
 })->name('service.vas');
 
@@ -86,6 +86,9 @@ Route::get(trans('routes.value-added-service'), function () {
  * Dynamic route groups
  * Contains: Gallery, News, Press Release
  */
+
+// Language changer
+Route::get('lang/{language}', 'LanguageController@switchLang')->name('lang.switch');
 
 // Gallery detail
 Route::get(trans('routes.gallery'), function () {

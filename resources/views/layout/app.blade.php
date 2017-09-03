@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>@yield('title')</title>
-  <meta name="description" content="Trucking is transportation and Logistics website template">
+  <meta name="description" content="@yield('description')">
   <meta name="author" content="pixel-industry">
   <meta name="keywords" content="transportation, logistics, transportation template, logistics template, cargo, business">
 
@@ -31,14 +31,14 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand" href="{{ url('/') }}">
+        <a class="navbar-brand" href="{{ route('welcome') }}">
           <img class="" src="{{ url('img/ikt-logo.gif') }}">
         </a>
       </div>
 
       <div class="collapse navbar-collapse" id="Navbar">
         <ul class="nav navbar-nav navbar-nav-dropdown navbar-right">
-          <li class="active"><a href="{{ url('/') }}">BERANDA</a></li>
+          <li class="active"><a href="{{ url('/') }}">{{ strtoupper('beranda') }}</a></li>
           <li class="has-children"><a>TENTANG KAMI</a>
             <ul class="dropdown-menu dropdown-menu-opacity">
               <li><a href="{{ route('company.profile') }}">Profil</a></li>
@@ -90,15 +90,7 @@
           </li>
           <li class="has-children"><a href="#">FASILITAS</a>
             <ul class="dropdown-menu dropdown-menu-opacity">
-              <li class="has-children dropdown-submenu"><a href="#">Utama</a>
-                <ul class="dropdown-menu dropdown-menu-opacity level-2">
-                  <li><a href="#">Minor Repair</a></li>
-                  <li><a href="#">Washing</a></li>
-                  <li><a href="#">Accessories Installation</a></li>
-                  <li><a href="#">Port Stock</a></li>
-                  <li><a href="#">Roro Transfer Services</a></li>
-                </ul>
-              </li>
+              <li><a href="#">Utama</a>
               <li><a href="#">Penunjang</a></li>
               <li><a href="#">Peralatan</a></li>
             </ul>
@@ -112,29 +104,31 @@
               <li><a href="{{ route('company.clients') }}">Our Customer</a></li>
               <li><a href="#">Procurement</a></li>
               <li><a href="#">Majalah Limouzine</a></li>
-              <li><a href="{{ route('gallery') }}">Gallery</a></li>
+              <li><a href="{{ route('gallery') }}">Gallery{{app()->getLocale()}}</a></li>
             </ul>
           </li>
           <li class="has-children-onClick has-children-right"><a><i class="fa fa-language fa-lg"></i></a>
             <ul class="dropdown-menu dropdown-menu-opacity">
-              <li>
-                <a href="{{ url('welcome/en') }}">
+              <li {{ (app()->getLocale() == 'en' ? 'class=active' : '') }}>
+                <a href="{{ route('lang.switch', 'en') }}">
                 <div class="flex-row-center">
-                  <img src="./img/english.png" class="mg-r-10" width="20" alt="">
+                  <img src="{{ url('img/english.png') }}" class="mg-r-10" width="20" alt="">
                   <span>English</span>
                 </div>
                 </a>
               </li>
-              <li class="active"><a href="{{ url('welcome/id') }}">
+              <li {{ (app()->getLocale() == 'id' ? 'class=active' : '') }}>
+                <a href="{{ route('lang.switch', 'id') }}">
                 <div class="flex-row-center">
-                  <img src="./img/indonesian.png" class="mg-r-10" width="20" alt="">
+                  <img src="{{ url('img/indonesian.png') }}" class="mg-r-10" width="20" alt="">
                   <span>Bahasa Indonesia</span>
                 </div>
                 </a>
               </li>
-              <li><a href="{{ url('welcome/jp') }}">
+              <li {{ (app()->getLocale() == 'jp' ? 'class=active' : '') }}>
+                <a href="{{ route('lang.switch', 'jp') }}">
                 <div class="flex-row-center">
-                  <img src="./img/japan.png" class="mg-r-10" width="20" alt="">
+                  <img src="{{ url('img/japan.png') }}" class="mg-r-10" width="20" alt="">
                   <span>Japanese</span>
                 </div>
                 </a>
