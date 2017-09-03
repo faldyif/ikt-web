@@ -29,7 +29,7 @@
                 <div class="timeline-heading">
                   <p><span class="roboMedium"><span class="bigTitle or">4</span> Agustus 2017</span></p>
                   <figure class="mg-b-20">
-                    <img src="./img/1.jpg">
+                    <img src="{{ url('img/1.jpg') }}">
                   </figure>
                   <h4 class="timeline-title">Mussum ipsum cacilds</h4>
                 </div>
@@ -58,7 +58,7 @@
                 <div class="timeline-heading">
                   <p><span class="roboMedium"><span class="bigTitle or">2</span> Agustus 2017</span></p>
                   <figure class="mg-b-20">
-                    <img src="./img/3.jpg">
+                    <img src="{{ url('img/3.jpg') }}">
                   </figure>
                   <h4 class="timeline-title">Mussum ipsum cacilds</h4>
                 </div>
@@ -99,7 +99,7 @@
                 <div class="timeline-heading">
                   <p><span class="roboMedium"><span class="bigTitle or">30</span> Juli 2017</span></p>
                   <figure class="mg-b-20">
-                    <img src="./img/3.jpg">
+                    <img src="{{ url('img/3.jpg') }}">
                   </figure>
                   <h4 class="timeline-title">Mussum ipsum cacilds</h4>
                 </div>
@@ -122,7 +122,7 @@
       <section class="row">
         <div class="col-md-3 col-sm-3">
           <figure class="logoFooter">
-            <img src="./img/ikt-logo.png">
+            <img src="{{ url('img/ikt-logo.png') }}">
           </figure>
           <p class="small">Vix eu etiam mediocrem. Qui debet essent omnium ut. Ne qui recusabo temporibus, in eum singulis posidonium. Nec reque saepe ea, esse veniam definitionem est ei.</p>
         </div>

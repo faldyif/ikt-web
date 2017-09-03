@@ -69,8 +69,8 @@
       <section class="row mg-lr-0 img-ikt">
         <div class="col-md-4 col-sm-4 pd-0">
           <figure class="noMag">
-            <img src="./img/bg-img.png" style="background-image: url('./img/4.jpg')">
-            <a href="./img/4.jpg" data-rel="lightcase:aboutCollection" title="Vix eu etiam mediocrem">
+            <img src="{{ url('img/bg-img.png') }}" style="background-image: url('./img/4.jpg')">
+            <a href="{{ url('img/4.jpg') }}" data-rel="lightcase:aboutCollection" title="Vix eu etiam mediocrem">
               <div class="overlay"></div>
               <figcaption><i class="fa fa-plus fa-2x"></i></figcaption>
             </a>
@@ -78,8 +78,8 @@
         </div>
         <div class="col-md-4 col-sm-4 pd-0">
           <figure class="noMag">
-            <img src="./img/bg-img.png" style="background-image: url('./img/2.JPG')">
-            <a href="./img/2.JPG" data-rel="lightcase:aboutCollection" title="Vix eu etiam mediocrem">
+            <img src="{{ url('img/bg-img.png') }}" style="background-image: url('./img/2.JPG')">
+            <a href="{{ url('img/2.JPG') }}" data-rel="lightcase:aboutCollection" title="Vix eu etiam mediocrem">
               <div class="overlay"></div>
               <figcaption><i class="fa fa-plus fa-2x"></i></figcaption>
             </a>
@@ -87,8 +87,8 @@
         </div>
         <div class="col-md-4 col-sm-4 pd-0">
           <figure class="noMag">
-            <img src="./img/bg-img.png" style="background-image: url('./img/3.jpg')">
-            <a href="./img/3.jpg" data-rel="lightcase:aboutCollection" title="Vix eu etiam mediocrem">
+            <img src="{{ url('img/bg-img.png') }}" style="background-image: url('./img/3.jpg')">
+            <a href="{{ url('img/3.jpg') }}" data-rel="lightcase:aboutCollection" title="Vix eu etiam mediocrem">
               <div class="overlay"></div>
               <figcaption><i class="fa fa-plus fa-2x"></i></figcaption>
             </a>
@@ -199,7 +199,7 @@
               </div>
               <div class="col-md-5">
                 <figure class="pd-30">
-                  <img src="./img/logo.png" class="pd-30" alt="PT. Indonesia Kendaraan Terminal">
+                  <img src="{{ url('img/logo.png') }}" class="pd-30" alt="PT. Indonesia Kendaraan Terminal">
                   <figcaption class="caption">
                     Logo PT. Indonesia Kendaraan Terminal bermakna friendly, sprit, energy dan agility.
                   </figcaption>
@@ -217,7 +217,7 @@
       <section class="row">
         <div class="col-md-3 col-sm-3">
           <figure class="logoFooter">
-            <img src="./img/ikt-logo.png">
+            <img src="{{ url('img/ikt-logo.png') }}">
           </figure>
           <p class="small">Vix eu etiam mediocrem. Qui debet essent omnium ut. Ne qui recusabo temporibus, in eum singulis posidonium. Nec reque saepe ea, esse veniam definitionem est ei.</p>
         </div>
