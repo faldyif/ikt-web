@@ -10,7 +10,7 @@
   <section class="">
     <div>
       <figure class="figSlider">
-        <img src="./img/3.jpg">
+        <img src="{{ url('img/3.jpg') }}">
         <div class="overlay"></div>
         <section class="containerCenter alignCenter">
           <section class="row">
@@ -66,21 +66,21 @@
             <section class="row">
               <div class="col-md-6 col-sm-6 col-xs-6">
                 <figure>
-                  <img src="./img/bg-img-por.png" style="background-image: url('./img/4.jpg');">
+                  <img src="{{ url('img/bg-img-por.png') }}" style="background-image: url('./img/4.jpg');">
                 </figure>
               </div>
               <div class="col-md-6 col-sm-6 col-xs-6">
                 <section class="row">
                   <div class="col-md-12">
                     <figure>
-                      <img src="./img/bg-img.png" style="background-image: url('./img/1.jpg');">
+                      <img src="{{ url('img/bg-img.png') }}" style="background-image: url('./img/1.jpg');">
                     </figure>
                   </div>
                 </section>
                 <section class="row">
                   <div class="col-md-12">
                     <figure>
-                      <img src="./img/bg-img.png" style="background-image: url('./img/2.jpg');">
+                      <img src="{{ url('img/bg-img.png') }}" style="background-image: url('./img/2.jpg');">
                     </figure>
                   </div>
                 </section>
@@ -104,7 +104,7 @@
             </div>
           </div>
           <figure class="btFig-half">
-            <img src="./img/3.jpg">
+            <img src="{{ url('img/3.jpg') }}">
           </figure>
         </div>
 
@@ -187,7 +187,7 @@
           <div>
             <section class="newsList">
               <figure>
-                <img src="./img/bg-img.png" style="background-image: url('./img/port02.jpg');">
+                <img src="{{ url('img/bg-img.png') }}" style="background-image: url('./img/port02.jpg');">
                 <div class="overlay"></div>
                 <a href="#">
                   <figcaption>Selengkapnya</figcaption>
@@ -201,7 +201,7 @@
           <div>
             <section class="newsList">
               <figure>
-                <img src="./img/bg-img.png" style="background-image: url('./img/port01.jpg');">
+                <img src="{{ url('img/bg-img.png') }}" style="background-image: url('./img/port01.jpg');">
                 <div class="overlay"></div>
                 <a href="#">
                   <figcaption>Selengkapnya</figcaption>
@@ -215,7 +215,7 @@
           <div>
             <section class="newsList">
               <figure>
-                <img src="./img/bg-img.png" style="background-image: url('./img/blog04.jpg');">
+                <img src="{{ url('img/bg-img.png') }}" style="background-image: url('./img/blog04.jpg');">
                 <div class="overlay"></div>
                 <a href="#">
                   <figcaption>Selengkapnya</figcaption>
@@ -229,7 +229,7 @@
           <div>
             <section class="newsList">
               <figure>
-                <img src="./img/bg-img.png" style="background-image: url('./img/blog01.jpg');">
+                <img src="{{ url('img/bg-img.png') }}" style="background-image: url('./img/blog01.jpg');">
                 <div class="overlay"></div>
                 <a href="#">
                   <figcaption>Selengkapnya</figcaption>
@@ -243,7 +243,7 @@
           <div>
             <section class="newsList">
               <figure>
-                <img src="./img/bg-img.png" style="background-image: url('./img/blog02.jpg');">
+                <img src="{{ url('img/bg-img.png') }}" style="background-image: url('./img/blog02.jpg');">
                 <div class="overlay"></div>
                 <a href="#">
                   <figcaption>Selengkapnya</figcaption>
@@ -257,7 +257,7 @@
           <div>
             <section class="newsList">
               <figure>
-                <img src="./img/bg-img.png" style="background-image: url('./img/blog03.jpg');">
+                <img src="{{ url('img/bg-img.png') }}" style="background-image: url('./img/blog03.jpg');">
                 <div class="overlay"></div>
                 <a href="#">
                   <figcaption>Selengkapnya</figcaption>
@@ -271,7 +271,7 @@
           <div>
             <section class="newsList">
               <figure>
-                <img src="./img/bg-img.png" style="background-image: url('./img/blog03.jpg');">
+                <img src="{{ url('img/bg-img.png') }}" style="background-image: url('./img/blog03.jpg');">
                 <div class="overlay"></div>
                 <a href="#">
                   <figcaption>Selengkapnya</figcaption>
@@ -285,7 +285,7 @@
           <div>
             <section class="newsList">
               <figure>
-                <img src="./img/bg-img.png" style="background-image: url('./img/blog03.jpg');">
+                <img src="{{ url('img/bg-img.png') }}" style="background-image: url('./img/blog03.jpg');">
                 <div class="overlay"></div>
                 <a href="#">
                   <figcaption>Selengkapnya</figcaption>
@@ -299,7 +299,7 @@
           <div>
             <section class="newsList">
               <figure>
-                <img src="./img/bg-img.png" style="background-image: url('./img/blog03.jpg');">
+                <img src="{{ url('img/bg-img.png') }}" style="background-image: url('./img/blog03.jpg');">
                 <div class="overlay"></div>
                 <a href="#">
                   <figcaption>Selengkapnya</figcaption>
@@ -313,7 +313,7 @@
           <div>
             <section class="newsList">
               <figure>
-                <img src="./img/bg-img.png" style="background-image: url('./img/blog03.jpg');">
+                <img src="{{ url('img/bg-img.png') }}" style="background-image: url('./img/blog03.jpg');">
                 <div class="overlay"></div>
                 <a href="#">
                   <figcaption>Selengkapnya</figcaption>
@@ -377,32 +377,32 @@
               <div class="grid-sizer"></div>
               <div class="grid-item grid-item--width2">
                 <figure>
-                  <img src="./img/port02.jpg">
-                  <a href="./img/port02.jpg" data-rel="lightcase"><div class="overlay"></div></a>
+                  <img src="{{ url('img/port02.jpg') }}">
+                  <a href="{{ url('img/port02.jpg') }}" data-rel="lightcase"><div class="overlay"></div></a>
                   <figcaption class="figcaptionTop hidden-768"><i class="fa fa-camera-retro fa-2x"></i></figcaption>
                   <figcaption class="figcaptionBottom"><a href="#">Delenit utroque vivendo est ea</a><br>12 July 2017</figcaption>
                 </figure>
               </div>
               <div class="grid-item grid-item--height2">
                 <figure>
-                  <img src="./img/blog02.jpg">
-                  <a href="./img/blog02.jpg" data-rel="lightcase"><div class="overlay"></div></a>
+                  <img src="{{ url('img/blog02.jpg') }}">
+                  <a href="{{ url('img/blog02.jpg') }}" data-rel="lightcase"><div class="overlay"></div></a>
                   <figcaption class="figcaptionTop hidden-768"><i class="fa fa-camera-retro fa-2x"></i></figcaption>
                   <figcaption class="figcaptionBottom"><a href="#">Delenit utroque vivendo est ea</a><br>12 July 2017</figcaption>
                 </figure>
               </div>
               <div class="grid-item">
                 <figure>
-                  <img src="./img/blog01.jpg">
-                  <a href="./img/blog01.jpg" data-rel="lightcase"><div class="overlay"></div></a>
+                  <img src="{{ url('img/blog01.jpg') }}">
+                  <a href="{{ url('img/blog01.jpg') }}" data-rel="lightcase"><div class="overlay"></div></a>
                   <figcaption class="figcaptionTop hidden-768"><i class="fa fa-camera-retro fa-2x"></i></figcaption>
                   <figcaption class="figcaptionBottom"><a href="#">Delenit utroque vivendo est ea</a><br>12 July 2017</figcaption>
                 </figure>
               </div>
               <div class="grid-item">
                 <figure>
-                  <img src="./img/blog04.jpg">
-                  <a href="./img/blog04.jpg" data-rel="lightcase"><div class="overlay"></div></a>
+                  <img src="{{ url('img/blog04.jpg') }}">
+                  <a href="{{ url('img/blog04.jpg') }}" data-rel="lightcase"><div class="overlay"></div></a>
                   <figcaption class="figcaptionTop hidden-768"><i class="fa fa-camera-retro fa-2x"></i></figcaption>
                   <figcaption class="figcaptionBottom"><a href="#">Delenit utroque vivendo est ea</a><br>12 July 2017</figcaption>
                 </figure>
@@ -434,7 +434,7 @@
                   <div class="row mg-t-20">
                     <div class="col-md-3 col-sm-3 col-xs-3">
                       <figure class="roundImage">
-                        <img src="./img/bg-square.png" style="background-image: url('./img/thumb.png');">
+                        <img src="{{ url('img/bg-square.png') }}" style="background-image: url('./img/thumb.png');">
                       </figure>
                     </div>
                     <div class="col-md-9 col-sm-9">
@@ -455,7 +455,7 @@
                   <div class="row mg-t-20">
                     <div class="col-md-3 col-sm-3 col-xs-3">
                       <figure class="roundImage">
-                        <img src="./img/bg-square.png" style="background-image: url('./img/thumb.png');">
+                        <img src="{{ url('img/bg-square.png') }}" style="background-image: url('./img/thumb.png');">
                       </figure>
                     </div>
                     <div class="col-md-9 col-sm-9">
@@ -476,7 +476,7 @@
                   <div class="row mg-t-20">
                     <div class="col-md-3 col-sm-3 col-xs-3">
                       <figure class="roundImage">
-                        <img src="./img/bg-square.png" style="background-image: url('./img/thumb.png');">
+                        <img src="{{ url('img/bg-square.png') }}" style="background-image: url('./img/thumb.png');">
                       </figure>
                     </div>
                     <div class="col-md-9 col-sm-9">
@@ -497,7 +497,7 @@
                   <div class="row mg-t-20">
                     <div class="col-md-3 col-sm-3 col-xs-3">
                       <figure class="roundImage">
-                        <img src="./img/bg-square.png" style="background-image: url('./img/thumb.png');">
+                        <img src="{{ url('img/bg-square.png') }}" style="background-image: url('./img/thumb.png');">
                       </figure>
                     </div>
                     <div class="col-md-9 col-sm-9">
@@ -518,7 +518,7 @@
                   <div class="row mg-t-20">
                     <div class="col-md-3 col-sm-3 col-xs-3">
                       <figure class="roundImage">
-                        <img src="./img/bg-square.png" style="background-image: url('./img/thumb.png');">
+                        <img src="{{ url('img/bg-square.png') }}" style="background-image: url('./img/thumb.png');">
                       </figure>
                     </div>
                     <div class="col-md-9 col-sm-9">
@@ -539,7 +539,7 @@
                   <div class="row mg-t-20">
                     <div class="col-md-3 col-sm-3 col-xs-3">
                       <figure class="roundImage">
-                        <img src="./img/bg-square.png" style="background-image: url('./img/thumb.png');">
+                        <img src="{{ url('img/bg-square.png') }}" style="background-image: url('./img/thumb.png');">
                       </figure>
                     </div>
                     <div class="col-md-9 col-sm-9">

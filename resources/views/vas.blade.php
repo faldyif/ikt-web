@@ -22,10 +22,11 @@
             <div class="col-md-12">
             <hr class="hrSpec hrSpecOrange">
             <h3 class="mg-b-30 roboBold">Value Added Service</h3>
-            <img src="{{url('img/vas.png')}}" class="service-media-1">
+              <h2>Coming Soon...</h2>
             </div>
             
             <section class="col-md-12 row mg-lr-10 mg-t-30">
+              <center>
               <h4 class="roboMedium text-center">Share this post : </h4>
               <div class="socialMedia text-center">
                 <ul class="noPad">
@@ -34,6 +35,7 @@
                   <li><a class="ig" href="#"><i class="fa fa-lg fa-instagram"></i></a></li>
                 </ul>
               </div>
+              </center>
             </section>
           </div>
         </section>
@@ -46,7 +48,7 @@
       <section class="row">
         <div class="col-md-3 col-sm-3">
           <figure class="logoFooter">
-            <img src="./img/ikt-logo.png">
+            <img src="{{ url('img/ikt-logo.png') }}">
           </figure>
           <p class="small">Vix eu etiam mediocrem. Qui debet essent omnium ut. Ne qui recusabo temporibus, in eum singulis posidonium. Nec reque saepe ea, esse veniam definitionem est ei.</p>
         </div>

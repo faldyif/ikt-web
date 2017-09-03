@@ -28,7 +28,7 @@
               <div>
                 <a href="./img/history01.JPG" data-rel="lightcase">
                   <figure class="">
-                    <img src="./img/history01.JPG">
+                    <img src="{{ url('img/history01.JPG') }}">
                   </figure>
                 </a>
               </div>
@@ -72,7 +72,7 @@
       <section class="row">
         <div class="col-md-3 col-sm-3">
           <figure class="logoFooter">
-            <img src="./img/ikt-logo.png">
+            <img src="{{ url('img/ikt-logo.png') }}">
           </figure>
           <p class="small">Vix eu etiam mediocrem. Qui debet essent omnium ut. Ne qui recusabo temporibus, in eum singulis posidonium. Nec reque saepe ea, esse veniam definitionem est ei.</p>
         </div>
