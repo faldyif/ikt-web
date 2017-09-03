@@ -73,6 +73,9 @@ Route::get('press-release', function () {
 Route::get('press-release/detail', function () {
     return view('press-release-detail');
 });
+Route::get('search', function () {
+    return view('search-view');
+});
 
 // for tabs-layout template
 Route::get('tabs', function () {
