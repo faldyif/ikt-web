@@ -5,7 +5,7 @@
 @section('content')
 <!--HERO-->
     <section id="heroTitle">
-      <div class="heroTitle" style="background-image: url('./img/2.jpg');">
+      <div class="heroTitle" style="background-image: url('{{ url('img/2.jpg') }}');">
         <div class="overlay"></div>
         <section class="container-fluid pd-30">
           <h2 class="roboBold wh alignCenter" data-wow-delay="0.4s">IPC - Terminal Kendaraan Indonesia Memimpin di Asia.</h2>
@@ -69,7 +69,7 @@
       <section class="row mg-lr-0 img-ikt">
         <div class="col-md-4 col-sm-4 pd-0">
           <figure class="noMag">
-            <img src="{{ url('img/bg-img.png') }}" style="background-image: url('./img/4.jpg')">
+            <img src="{{ url('img/bg-img.png') }}" style="background-image: url('{{ url('img/4.jpg') }}')">
             <a href="{{ url('img/4.jpg') }}" data-rel="lightcase:aboutCollection" title="Vix eu etiam mediocrem">
               <div class="overlay"></div>
               <figcaption><i class="fa fa-plus fa-2x"></i></figcaption>
@@ -78,7 +78,7 @@
         </div>
         <div class="col-md-4 col-sm-4 pd-0">
           <figure class="noMag">
-            <img src="{{ url('img/bg-img.png') }}" style="background-image: url('./img/2.JPG')">
+            <img src="{{ url('img/bg-img.png') }}" style="background-image: url('{{ url('img/2.jpg') }}')">
             <a href="{{ url('img/2.JPG') }}" data-rel="lightcase:aboutCollection" title="Vix eu etiam mediocrem">
               <div class="overlay"></div>
               <figcaption><i class="fa fa-plus fa-2x"></i></figcaption>
@@ -87,7 +87,7 @@
         </div>
         <div class="col-md-4 col-sm-4 pd-0">
           <figure class="noMag">
-            <img src="{{ url('img/bg-img.png') }}" style="background-image: url('./img/3.jpg')">
+            <img src="{{ url('img/bg-img.png') }}" style="background-image: url('{{ url('img/3.jpg') }}')">
             <a href="{{ url('img/3.jpg') }}" data-rel="lightcase:aboutCollection" title="Vix eu etiam mediocrem">
               <div class="overlay"></div>
               <figcaption><i class="fa fa-plus fa-2x"></i></figcaption>
@@ -199,7 +199,7 @@
               </div>
               <div class="col-md-5">
                 <figure class="pd-30">
-                  <img src="{{ url('img/logo.png') }}" class="pd-30" alt="PT. Indonesia Kendaraan Terminal">
+                  <img src="{{ url('img/ikt-logo.png') }}" class="pd-30" alt="PT. Indonesia Kendaraan Terminal">
                   <figcaption class="caption">
                     Logo PT. Indonesia Kendaraan Terminal bermakna friendly, sprit, energy dan agility.
                   </figcaption>

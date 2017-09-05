@@ -5,7 +5,7 @@
 @section('content')
 <!--HERO-->
     <section id="heroTitle">
-      <div class="heroTitle" style="background-image: url('./img/2.jpg');">
+      <div class="heroTitle" style="background-image: url('{{ url('img/2.jpg') }}');">
         <div class="overlay"></div>
         <section class="container-fluid pd-30">
           <h2 class="roboBold wh alignCenter" data-wow-delay="0.4s">Sejarah Perusahaan</h2>
@@ -30,9 +30,9 @@
             </p>
             <section class="slider mg-bt-30">
               <div>
-                <a href="{{ url('img/history01.JPG')" data-rel="lightcase">
+                <a href="{{ url('img/history01.jpg') }}" data-rel="lightcase">
                   <figure class="">
-                    <img src="{{ url('img/history01.JPG') }}">
+                    <img src="{{ url('img/history01.jpg') }}">
                   </figure>
                 </a>
               </div>

@@ -22,9 +22,7 @@
                data-init-position="random"
                data-init-direction="random"
                data-particle-gap="1"
-               data-noise="10"
-               data-mouse-force="-10"
-               data-height="400"
+               data-height="800"
                src="{{ url('img/ikt.png') }}">
         </section>
       </figure>

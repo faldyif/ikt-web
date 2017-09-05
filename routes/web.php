@@ -39,7 +39,7 @@ Route::get(trans('routes.home'), 'HomeController@index')->name('home');
 /*
  * About company route group
  */
-Route::get(trans('routes.about'), function () {
+Route::get(trans('routes.company.about'), function () {
     return view('about');
 })->name('company.about');
 
@@ -86,7 +86,6 @@ Route::get(trans('routes.service.vas'), function () {
  * Dynamic route groups
  * Contains: Gallery, News, Press Release
  */
-
 // Language changer
 Route::get('lang/{language}', 'LanguageController@switchLang')->name('lang.switch');
 

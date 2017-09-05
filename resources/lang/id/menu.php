@@ -22,7 +22,7 @@ return [
     'youth-entrepreneurship' => 'Pemuda & Wirausaha',
     'health-social-environment' => 'Kesehatan, Sosial & Lingkungan',
     // End CSR sub-submenu
-    'achivements' => 'Pencapaian',
+    'achievements' => 'Pencapaian',
     'subsidiary' => 'Anak Perusahaan',
     // End about us submenu
 
@@ -49,4 +49,8 @@ return [
     'limouzine-magazine' => 'Majalah Limouzine',
     'gallery' => 'Galeri',
     // End facilities submenu
+
+    // Search bar
+    'search' => 'Pencarian...',
+    // End search bar
 ];
