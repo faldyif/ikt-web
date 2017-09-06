@@ -248,6 +248,64 @@
             "time": "2017-06-18 13:58:59"
         },
         {
+            "name": "dimsav/laravel-translatable",
+            "version": "v7.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/dimsav/laravel-translatable.git",
+                "reference": "f4da0765040ed450a177008d48e48508c2b4f6cd"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/dimsav/laravel-translatable/zipball/f4da0765040ed450a177008d48e48508c2b4f6cd",
+                "reference": "f4da0765040ed450a177008d48e48508c2b4f6cd",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/support": "5.4.*",
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "orchestra/testbench": "3.4.*",
+                "phpunit/phpunit": "~5.7"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Dimsav\\Translatable\\TranslatableServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Dimsav\\Translatable\\": "src/Translatable/"
+                },
+                "classmap": [
+                    "tests"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Dimitrios Savvopoulos",
+                    "email": "ds@dimsav.com",
+                    "homepage": "http://dimsav.com"
+                }
+            ],
+            "description": "A Laravel package for multilingual models",
+            "keywords": [
+                "database",
+                "language",
+                "laravel",
+                "translation"
+            ],
+            "time": "2017-06-18T13:58:59+00:00"
+        },
+        {
             "name": "dnoegel/php-xdg-base-dir",
             "version": "0.1",
             "source": {
@@ -1681,6 +1739,52 @@
                 "tinymce"
             ],
             "time": "2016-11-01 08:52:37"
+        },
+        {
+            "name": "petehouston/laravel-tinymce-simple-imageupload",
+            "version": "1.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/petehouston/laravel-tinymce-simple-imageupload.git",
+                "reference": "0f65b8e9619dc4e24313ce5fdcf4053dd099d178"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/petehouston/laravel-tinymce-simple-imageupload/zipball/0f65b8e9619dc4e24313ce5fdcf4053dd099d178",
+                "reference": "0f65b8e9619dc4e24313ce5fdcf4053dd099d178",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/support": "~5.1",
+                "php": "~5.5|~7.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Petehouston\\Tinymce\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Pete Houston",
+                    "email": "contact@petehouston.com",
+                    "homepage": "http://petehouston.com"
+                }
+            ],
+            "description": "Simple image upload for TinyMCE in Laravel.",
+            "homepage": "https://github.com/petehouston/laravel-tinymce-simple-imageupload",
+            "keywords": [
+                "Image upload",
+                "laravel",
+                "laravel 5",
+                "php",
+                "tinymce"
+            ],
+            "time": "2016-11-01T08:52:37+00:00"
         },
         {
             "name": "psr/log",

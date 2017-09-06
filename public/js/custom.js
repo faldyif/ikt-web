@@ -100,6 +100,9 @@ $(document).ready(function(){
     $("#showToggle").click(function(){
         $("#thisToggle").slideToggle("slow");
     });
+    $("#showToggle-r").click(function(){
+        $("#thisToggle-r").slideToggle("slow");
+    });
 
     //mansory
     $('.grid').masonry({

@@ -110,7 +110,34 @@
                   </a>
                 </figure>
             </div>
-            <div class="grid-item grid-item--height2 grid-item--width2">
+            <div class="grid-item grid-item--width2">
+                <figure>
+                  <img src="{{ url('img/port01.jpg') }}">
+                  <a href="{{ url('img/port01.jpg') }}" data-rel="lightcase:galleryCollection" title="Vix eu etiam mediocrem">
+                    <div class="overlay"></div>
+                    <figcaption><i class="fa fa-plus fa-2x"></i></figcaption>
+                  </a>
+                </figure>
+            </div>
+            <div class="grid-item">
+                <figure>
+                  <img src="{{ url('img/port01.jpg') }}">
+                  <a href="{{ url('img/port01.jpg') }}" data-rel="lightcase:galleryCollection" title="Vix eu etiam mediocrem">
+                    <div class="overlay"></div>
+                    <figcaption><i class="fa fa-plus fa-2x"></i></figcaption>
+                  </a>
+                </figure>
+            </div>
+            <div class="grid-item grid-item--height2">
+                <figure>
+                  <img src="{{ url('img/port01.jpg') }}">
+                  <a href="{{ url('img/port01.jpg') }}" data-rel="lightcase:galleryCollection" title="Vix eu etiam mediocrem">
+                    <div class="overlay"></div>
+                    <figcaption><i class="fa fa-plus fa-2x"></i></figcaption>
+                  </a>
+                </figure>
+            </div>
+            <div class="grid-item grid-item--width2">
                 <figure>
                   <img src="{{ url('img/port01.jpg') }}">
                   <a href="{{ url('img/port01.jpg') }}" data-rel="lightcase:galleryCollection" title="Vix eu etiam mediocrem">
@@ -121,9 +148,67 @@
             </div>
           </div>
         <!-- /masonry -->
-        <section class="row mg-t-30">
+        <section class="row mg-bt-30">
           <div class="alignCenter mg-t-20">
             <a href="#" class="btn btn-blue"><span>Load more</span></a>
+          </div>
+        </section>
+        <hr>
+        <section class="row">
+          <div class="col-md-8 col-md-offset-2">
+            <section class="mg-t-30">
+              <div id="showToggle-r" class="alignCenter mg-t-20">
+                <p class="btn btn-gray-full wd-100"><span>Leave a comment</span></p>
+              </div>
+              <div id="thisToggle-r">
+                <form method="" action="" class="mg-t-20">
+                  <div class="form-group">
+                    <textarea class="form-control" rows="5" id="" placeholder="Your comment ..."></textarea>
+                  </div>
+                  <div class="form-group">
+                    <input type="text" class="form-control" id="" placeholder="Full Name">
+                  </div>
+                  <div class="form-group">
+                    <input type="text" class="form-control" id="" placeholder="Email">
+                  </div>
+                  <div class="form-group">
+                    <button type="submit" class="btn btn-blue-full fullWidth">Sent</button>
+                  </div>
+                </form>
+              </div>
+            </section>
+            <section class="mg-bt-30">
+              <hr class="hrSpec hrSpecOrange">
+              <h4 class="roboBold fullWidth">Comments</h4>
+              <section class="row pd-t-10">
+                <figure class="col-md-1 col-md-1 col-sm-1 bg-img mg-t-10">
+                  <img src="{{ url('img/bg-square.png') }}" alt="user" style="background-image: url('{{ url('img/port02.jpg') }}');" class="rounded">
+                </figure>
+                <div class="col-md-9 col-sm-10 col-sm-10">
+                  <h5 class="big roboBold">Someone</h5>
+                  <p class="text-muted">15 Agustus 2017</p>
+                  <p>Aliquam principes deterruisset cum et, vel an eius equidem. Id quando legimus inermis eum, cibo consul democritum cum te, cu cum suas laudem graeci. Bonorum gloriatur signiferumque an pro.</p>
+                </div>
+                <div class=" alignRight col-md-2 col-sm-1 col-xs-1 mg-t-10">
+                  <a href="#" class="roboBold big"><i class="fa fa-reply mg-r-10"></i> Reply</a>
+                </div>
+              </section>
+              <hr>
+              <section class="row pd-t-10">
+                <figure class="col-md-1 col-md-1 col-sm-1 bg-img mg-t-10">
+                  <img src="{{ url('img/bg-square.png') }}" alt="user" style="background-image: url('{{ url('img/port02.jpg') }}');" class="rounded">
+                </figure>
+                <div class="col-md-9 col-sm-10 col-sm-10">
+                  <h5 class="big roboBold">Someone</h5>
+                  <p class="text-muted">15 Agustus 2017</p>
+                  <p>Aliquam principes deterruisset cum et, vel an eius equidem. Id quando legimus inermis eum, cibo consul democritum cum te, cu cum suas laudem graeci. Bonorum gloriatur signiferumque an pro.</p>
+                </div>
+                <div class=" alignRight col-md-2 col-sm-1 col-xs-1 mg-t-10">
+                  <a href="#" class="roboBold big"><i class="fa fa-reply mg-r-10"></i> Reply</a>
+                </div>
+              </section>
+              <hr>
+            </section>
           </div>
         </section>
       </div>
