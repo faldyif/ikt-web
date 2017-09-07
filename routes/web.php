@@ -119,8 +119,8 @@ Route::get(trans('routes.press-release').'/{$press_release}', function ($press_r
 Route::get('tabs', function () {
     return view('tabs-layout');
 });
-Route::get('/ye', function () {
-    return view('tabs-layout');
+Route::get('ye', function () {
+    return view('gcg');
 });
 // Search view
 Route::get('search', function () {
