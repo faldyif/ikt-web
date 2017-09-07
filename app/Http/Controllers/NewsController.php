@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\News;
+use App\NewsTranslation;
 use Illuminate\Http\Request;
 
 class NewsController extends Controller
@@ -14,7 +15,15 @@ class NewsController extends Controller
         return view('news-list')->with('news', $news)->with('newsPaginated', $newsPaginated)->with('popularPosts', $popularPosts);
     }
 
-    public function show(News $news) {
-        return view('news-detail')->with('news', $news);
+    public function show($slug) {
+        $news = News::whereTranslation('slug', $slug)->firstOrFail();
+
+        // New Code
+        if ($news->translate()->where('slug', $slug)->first()->locale != app()->getLocale()) {
+            return redirect()->route('news.show', $news->translate()->slug);
+        }
+
+        return view('news-detail')
+            ->with('news', $news);
     }
 }

@@ -103,7 +103,7 @@ Route::get(trans('routes.gallery').'/{gallery}', function ($gallery) {
 // News list
 Route::get(trans('routes.news'), 'NewsController@index')->name('news');
 // News detail
-Route::get(trans('routes.news').'/{news}', 'NewsController@show')->name('news.detail');
+Route::get(trans('routes.news').'/{slug}', 'NewsController@show')->name('news.detail');
 
 // Press Release
 Route::get(trans('routes.press-release'), function () {

@@ -27,12 +27,12 @@
                 <figure>
                   <img src="{{ url('storage') . '/' . $key->filename }}" style="background-image: url('{{ url('storage') . '/' . $key->filename }}');">
                   <div class="overlay"></div>
-                  <a href="{{ url('news') }}/{{ $key->slug }}">
+                  <a href="{{ route('news.detail', $key->slug) }}">
                     <figcaption>Selengkapnya</figcaption>
                   </a>
                 </figure>
                 <p class="black small mg-t-20"><span>{{ \Carbon\Carbon::parse($key->created_at)->toFormattedDateString() }}</span> / <span>{{ $key->view_count }} readers</span></p>
-                <a href="{{ url('news') }}/{{ $key->slug }}"><h4 class="roboMedium">{{ $key->title }}</h4></a>
+                <a href="{{ route('news.detail', $key->slug) }}"><h4 class="roboMedium">{{ $key->title }}</h4></a>
                 <p class="black">{!! substr(strip_tags($key->content), 0, 30) !!}</p>
             </section>
           </div>
@@ -57,7 +57,7 @@
                   <p class="black small mg-t-20"><span>{{ \Carbon\Carbon::parse($key->created_at)->toFormattedDateString() }}</span> / <span>{{ $key->view_count }} readers</span></p>
                   <h4 class="roboMedium">{{ $key->title }}</h4>
                   <p class="black">{!! substr(strip_tags($key->content), 0, 30) !!}</p>
-                  <a href="{{ url('news') }}/{{ $key->slug }}">Baca Selengkapnya</a>
+                  <a href="{{ route('news.detail', $key->slug) }}">Baca Selengkapnya</a>
                 </div>
               </section>
             @endforeach
@@ -72,7 +72,7 @@
               <section class="asideSec">
                 <h4 class="roboBold">Popular Post</h4>
                 @foreach($popularPosts as $key)
-                  <a href="{{ url('news') }}/{{ $key->slug }}">
+                  <a href="{{ route('news.detail', $key->slug) }}">
                   <section class="row mg-bt-20">
                       <div class="col-md-4 col-sm-2 col-xs-6">
                         <figure>
