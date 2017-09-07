@@ -1,4 +1,4 @@
-
+<input type="hidden" name="news_id" value="{{ $news->id }}">
 <div class="form-group col-md-2">
     <label>Bahasa <sup>*</sup></label>
     {{ Form::select('locale', array(

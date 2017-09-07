@@ -167,3 +167,9 @@
     </footer>
     <!--/footer-->
 @endsection
+
+@section('bottom')
+    <script src="{{ url('js/masonry.js') }}"></script>
+    <script src="{{ url('js/imagesloaded.js') }}"></script>
+    <script src="{{ url('js/custom.gallery.js') }}"></script>
+@endsection

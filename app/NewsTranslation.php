@@ -10,7 +10,7 @@ class NewsTranslation extends Model
     use Sluggable;
 
     public $timestamps = false;
-    protected $fillable = ['title', 'user_id', 'filename', 'content'];
+    protected $fillable = ['title', 'filename', 'content'];
 
     /**
      * Return the sluggable configuration array for this model.
@@ -24,15 +24,5 @@ class NewsTranslation extends Model
                 'source' => 'title'
             ]
         ];
-    }
-
-    /**
-     * Get the route key for the model.
-     *
-     * @return string
-     */
-    public function getRouteKeyName()
-    {
-        return 'slug';
     }
 }

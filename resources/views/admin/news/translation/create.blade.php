@@ -1,11 +1,10 @@
 @extends('layouts.admin.app')
 
-@section('title', 'Edit Berita')
+@section('title', 'Terjemahkan Berita')
 
 @section('breadcrumb')
-    <li><a href="{{ url('admin/news') }}"><i class="fa fa-newspaper-o"></i> Berita</a></li>
-    <li><a href="{{ url('admin/news') }}/{{ $news->id }}">{{ \App\News::find($news->id)->title }}</a></li>
-    <li><a href="{{ url('admin/news') }}/{{ $news->id }}/edit">Edit</a></li>
+    <li><a href="{{ route('news.index') }}"><i class="fa fa-newspaper-o"></i> Berita</a></li>
+    <li><a href="{{ route('news.create') }}">Terjemahkan Berita</a></li>
 @endsection
 
 @section('content')
@@ -24,9 +23,9 @@
           <div class="box">
             <!-- /.box-header -->
             <div class="box-body">
-            {!! Form::model($news, array('route' => array('news.update', $news->id), 'method' => 'PUT', 'enctype' => 'multipart/form-data')) !!}
-              @include('admin.news.fields')
-            {!! Form::close() !!}
+            {!! Form::open(array('route' => 'news-translation.store', 'enctype' => 'multipart/form-data')) !!}
+              @include('admin.news.translation.fields')
+						{!! Form::close() !!}
             </div>
             <!-- /.box-body -->
           </div>
@@ -54,7 +53,6 @@
           toolbar1: 'newdocument | print preview searchreplace | undo redo | image | bullist numlist outdent indent |   visualblocks help',
           toolbar2: 'styleselect | fontselect | fontsizeselect | bold italic underline  | alignleft aligncenter alignright alignjustify | forecolor backcolor | removeformat',
           image_advtab: true,
-          media_poster: false,
           relative_urls: false,
           file_browser_callback: function(field_name, url, type, win) {
               // trigger file upload form

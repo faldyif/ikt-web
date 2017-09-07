@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers\Admin;
 
+use App\NewsTranslation;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 
@@ -48,19 +49,20 @@ class NewsController extends Controller
         $this->validate($request, [
             'title' => 'required',
             'thumbnail' => 'required|image',
-            'content' => 'required'
+            'content' => 'required',
+            'locale' => 'required'
         ]);
 
-        $news = new News;
-        $news->title = $request->title;
-        $news->content = $request->content;
-        $news->user_id = Auth::user()->id;
-        $news->filename = $request->file('thumbnail')->store('news_thumbs');
+        $news = News::create();
+
+        $news->translateOrNew($request->locale)->title = $request->title;
+        $news->translateOrNew($request->locale)->filename = $request->file('thumbnail')->store('news_thumbs');
+        $news->translateOrNew($request->locale)->content = $request->content;
         Storage::move($news->filename, 'public/' . $news->filename);
         $news->save();
 
-        Session::flash('message', 'Berita berhasil diposkan! Anda dapat mempublikasikannya langsung ke sosial media melalui <a>link ini</a>');
-        return redirect('admin/news');
+        Session::flash('message', 'Berita berhasil diposkan! Anda dapat mentranslatenya melalui <a>link ini</a>');
+        return redirect(route('news.index'));
     }
 
     /**
@@ -71,7 +73,9 @@ class NewsController extends Controller
      */
     public function show($id)
     {
-        return view('admin.news.show');
+        $news = News::where('id', $id)->first();
+        $newsTranslation = NewsTranslation::where('news_id', $id)->get();
+        return view('admin.news.translation.index')->with('newsTranslation', $newsTranslation)->with('news', $news);
     }
 
     /**

@@ -20,38 +20,38 @@
       <ul class="sidebar-menu" data-widget="tree">
         <li class="header">MENU</li>
         <!-- Optionally, you can add icons to the links -->
-        <li {{{ (Request::is('admin') ? 'class=active' : '') }}}><a href="{{ url('admin') }}"><i class="fa fa-home"></i> <span>Dasbor</span></a></li>
-        <li class="treeview {{{ ((Request::is('admin/news/create') || Request::is('admin/news')) ? 'active' : '') }}}">
+        <li {{{ (Request::is('*/admin') ? 'class=active' : '') }}}><a href="{{ url('admin') }}"><i class="fa fa-home"></i> <span>Dasbor</span></a></li>
+        <li class="treeview {{{ ((Request::is('*/admin/news/create') || Request::is('*/admin/news')) ? 'active' : '') }}}">
           <a href="#"><i class="fa fa-newspaper-o"></i> <span>Berita</span>
             <span class="pull-right-container">
                 <i class="fa fa-angle-left pull-right"></i>
               </span>
           </a>
           <ul class="treeview-menu">
-            <li {{{ (Request::is('admin/news/create') ? 'class=active' : '') }}}><a href="{{ url('admin/news/create') }}"><i class="fa fa-plus"></i> Buat Berita Baru</a></li>
-            <li {{{ (Request::is('admin/news') ? 'class=active' : '') }}}><a href="{{ url('admin/news') }}"><i class="fa fa-list"></i> List Berita</a></li>
+            <li {{{ (Request::is('*/admin/news/create') ? 'class=active' : '') }}}><a href="{{ route('news.create') }}"><i class="fa fa-plus"></i> Buat Berita Baru</a></li>
+            <li {{{ (Request::is('*/admin/news') ? 'class=active' : '') }}}><a href="{{ route('news.index') }}"><i class="fa fa-list"></i> List Berita</a></li>
           </ul>
         </li>
-        <li class="treeview {{{ ((Request::is('admin/album/create') || Request::is('admin/album')) ? 'active' : '') }}}">
+        <li class="treeview {{{ ((Request::is('*/admin/album/create') || Request::is('*/admin/album')) ? 'active' : '') }}}">
           <a href="#"><i class="fa fa-photo"></i> <span>Album</span>
             <span class="pull-right-container">
                 <i class="fa fa-angle-left pull-right"></i>
               </span>
           </a>
           <ul class="treeview-menu">
-            <li {{{ (Request::is('admin/album/create') ? 'class=active' : '') }}}><a href="{{ url('admin/album/create') }}"><i class="fa fa-plus"></i> Buat Album Baru</a></li>
-            <li {{{ (Request::is('admin/album') ? 'class=active' : '') }}}><a href="{{ url('admin/album') }}"><i class="fa fa-list"></i> List Album</a></li>
+            <li {{{ (Request::is('*/admin/album/create') ? 'class=active' : '') }}}><a href="{{ route('album.create') }}"><i class="fa fa-plus"></i> Buat Album Baru</a></li>
+            <li {{{ (Request::is('*/admin/album') ? 'class=active' : '') }}}><a href="{{ route('album.index') }}"><i class="fa fa-list"></i> List Album</a></li>
           </ul>
         </li>
-        <li class="treeview {{{ ((Request::is('admin/berthing/create') || Request::is('admin/berthing')) ? 'active' : '') }}}">
+        <li class="treeview {{{ ((Request::is('*/admin/berthing/create') || Request::is('*/admin/berthing')) ? 'active' : '') }}}">
           <a href="#"><i class="fa fa-ship"></i> <span>Berthing Plan</span>
             <span class="pull-right-container">
                 <i class="fa fa-angle-left pull-right"></i>
               </span>
           </a>
           <ul class="treeview-menu">
-            <li {{{ (Request::is('admin/berthing/create') ? 'class=active' : '') }}}><a href="{{ url('admin/berthing/create') }}"><i class="fa fa-plus"></i> Buat Berthing Plan Baru</a></li>
-            <li {{{ (Request::is('admin/berthing') ? 'class=active' : '') }}}><a href="{{ url('admin/berthing') }}"><i class="fa fa-list"></i> List Berthing Plan</a></li>
+            <li {{{ (Request::is('*/admin/berthing/create') ? 'class=active' : '') }}}><a href="{{ route('berthing.create') }}"><i class="fa fa-plus"></i> Buat Berthing Plan Baru</a></li>
+            <li {{{ (Request::is('*/admin/berthing') ? 'class=active' : '') }}}><a href="{{ route('berthing.index') }}"><i class="fa fa-list"></i> List Berthing Plan</a></li>
           </ul>
         </li>
       </ul>

@@ -15,12 +15,7 @@ class CreateNewsTable extends Migration
     {
         Schema::create('news', function (Blueprint $table) {
             $table->increments('id'); // id berita
-            $table->string('title'); // judul berita
-            $table->string('slug'); // slug berita (untuk url)
-            $table->integer('user_id')->unsigned(); // user id pembuat berita
-            $table->foreign('user_id')->references('id')->on('users');
-            $table->string('filename'); // untuk thumbnail foto -> folder news_thumbs
-            $table->text('content'); // isi berita
+            $table->boolean('active')->default(1); // untuk memisahkan berita yang aktif dan tidak
             $table->integer('view_count')->default(0); // jumlah page view
             $table->timestamps();
         });
