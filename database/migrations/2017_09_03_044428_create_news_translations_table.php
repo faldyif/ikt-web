@@ -15,7 +15,16 @@ class CreateNewsTranslationsTable extends Migration
     {
         Schema::create('news_translations', function (Blueprint $table) {
             $table->increments('id');
-            $table->timestamps();
+            $table->integer('news_id')->unsigned();
+            $table->string('locale')->index();
+
+            $table->string('title'); // judul berita
+            $table->string('slug'); // slug berita (untuk url)
+            $table->string('filename'); // untuk thumbnail foto -> folder news_thumbs
+            $table->text('content'); // isi berita
+
+            $table->unique(['news_id', 'locale']);
+            $table->foreign('news_id')->references('id')->on('news')->onDelete('cascade');
         });
     }
 

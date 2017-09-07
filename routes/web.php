@@ -21,6 +21,8 @@ Route::group(array('namespace'=>'Admin', 'prefix'=>'admin', 'middleware'=>'auth'
     Route::resource('berthing', 'BerthingPlanController');
     Route::resource('event', 'EventController');
     Route::resource('news', 'NewsController');
+    Route::resource('news-translation', 'NewsTranslationController', ['only' => ['store', 'edit', 'update', 'destroy']]);
+    Route::get('news-translation/create/{id}', 'NewsTranslationController@create')->name('news-translation.create');
     Route::resource('photo', 'PhotoController');
 });
 
