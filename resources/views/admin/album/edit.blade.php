@@ -3,9 +3,9 @@
 @section('title', 'Edit Album')
 
 @section('breadcrumb')
-    <li><a href="{{ url('admin/album') }}"><i class="fa fa-newspaper-o"></i> Album</a></li>
-    <li><a href="{{ url('admin/album') }}/{{ $album->id }}">{{ \App\Album::find($album->id)->title }}</a></li>
-    <li><a href="{{ url('admin/album') }}/{{ $album->id }}/edit">Edit</a></li>
+    <li><a href="{{ route('album.index') }}"><i class="fa fa-newspaper-o"></i> Album</a></li>
+    <li><a href="{{ route('gallery.detail', $album->slug) }}" target="_blank">{{ \App\Album::find($album->id)->title }}</a></li>
+    <li><a href="{{ route('album.edit', $album->id) }}">Edit</a></li>
 @endsection
 
 @section('content')

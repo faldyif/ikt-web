@@ -1,13 +1,14 @@
 @extends('layout.app')
 
+@php
+    $news->view_count++;
+    $news->save();
+@endphp
+ß
 @section('title', $news->title . ' | Indonesia Car Terminal')
 
 @section('content')
-<!--HERO-->
-@php
-$news->view_count++;
-$news->save();
-@endphp
+    <!--HERO-->
 <section id="heroTitle">
   <div class="heroTitle" style="background-image: url('{{ url('storage') . '/' . $news->filename }}');">
     <div class="overlay"></div>
@@ -34,57 +35,55 @@ $news->save();
               </div>
           </section>
           <section class="mg-t-30">
+              @if (count($errors) > 0)
+                  <div class="callout callout-warning">
+                      <ul>
+                          @foreach ($errors->all() as $error)
+                              <li>{{ $error }}</li>
+                          @endforeach
+                      </ul>
+                  </div>
+              @endif
               <div id="showToggle-r" class="alignCenter mg-t-20">
                   <p class="btn btn-gray-full wd-100"><span>Leave a comment</span></p>
               </div>
               <div id="thisToggle-r">
-                  <form method="" action="">
+                  {!! Form::open(array('route' => 'news-comment.post', 'enctype' => 'multipart/form-data')) !!}
+                      <input type="hidden" name="news_id" value="{{ $news->id }}">
                       <div class="form-group">
-                          <textarea class="form-control" rows="5" id="" placeholder="Your comment ..."></textarea>
+                          <textarea name="comment" class="form-control" rows="5" id="" placeholder="Your comment ..."></textarea>
                       </div>
                       <div class="form-group">
-                          <input type="text" class="form-control" id="" placeholder="Full Name">
+                          <input name="name" type="text" class="form-control" id="" placeholder="Full Name">
                       </div>
                       <div class="form-group">
-                          <input type="text" class="form-control" id="" placeholder="Email">
+                          <input name="email" type="text" class="form-control" id="" placeholder="Email">
                       </div>
                       <div class="form-group">
                           <button type="submit" class="btn btn-blue-full fullWidth">Sent</button>
                       </div>
-                  </form>
+                  {!! Form::close() !!}
               </div>
           </section>
           <section class="mg-bt-30">
               <hr class="hrSpec hrSpecOrange">
               <h4 class="roboBold fullWidth">Comments</h4>
+              @foreach($newsComment as $key)
               <section class="row pd-t-10">
                   <figure class="col-md-1 col-md-1 col-sm-1 bg-img mg-t-10">
                       <img src="{{ url('img/bg-square.png') }}" alt="user" style="background-image: url('{{ url('img/port02.jpg') }}');" class="rounded">
                   </figure>
                   <div class="col-md-9 col-sm-10 col-sm-10">
-                      <h5 class="big roboBold">Someone</h5>
-                      <p class="text-muted">15 Agustus 2017</p>
-                      <p>Aliquam principes deterruisset cum et, vel an eius equidem. Id quando legimus inermis eum, cibo consul democritum cum te, cu cum suas laudem graeci. Bonorum gloriatur signiferumque an pro.</p>
+                      <h5 class="big roboBold">{{ $key->name }}</h5>
+                      <p class="text-muted">{{ $key->created_at }}</p>
+                      <p>{{ $key->comment }}</p>
                   </div>
                   <div class=" alignRight col-md-2 col-sm-1 col-xs-1 mg-t-10">
                       <a href="#" class="roboBold big"><i class="fa fa-reply mg-r-10"></i> Reply</a>
                   </div>
               </section>
               <hr>
-              <section class="row pd-t-10">
-                  <figure class="col-md-1 col-md-1 col-sm-1 bg-img mg-t-10">
-                      <img src="{{ url('img/bg-square.png') }}" alt="user" style="background-image: url('{{ url('img/port02.jpg') }}');" class="rounded">
-                  </figure>
-                  <div class="col-md-9 col-sm-10 col-sm-10">
-                      <h5 class="big roboBold">Someone</h5>
-                      <p class="text-muted">15 Agustus 2017</p>
-                      <p>Aliquam principes deterruisset cum et, vel an eius equidem. Id quando legimus inermis eum, cibo consul democritum cum te, cu cum suas laudem graeci. Bonorum gloriatur signiferumque an pro.</p>
-                  </div>
-                  <div class=" alignRight col-md-2 col-sm-1 col-xs-1 mg-t-10">
-                      <a href="#" class="roboBold big"><i class="fa fa-reply mg-r-10"></i> Reply</a>
-                  </div>
-              </section>
-              <hr>
+              @endforeach
           </section>
       </div>
     </section>

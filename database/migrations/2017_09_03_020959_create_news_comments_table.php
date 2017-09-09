@@ -15,6 +15,11 @@ class CreateNewsCommentsTable extends Migration
     {
         Schema::create('news_comments', function (Blueprint $table) {
             $table->increments('id');
+            $table->string('name');
+            $table->string('email');
+            $table->text('comment');
+            $table->integer('news_id')->unsigned();
+            $table->foreign('news_id')->references('id')->on('news')->onDelete('cascade');
             $table->timestamps();
         });
     }

@@ -45,8 +45,8 @@
                   <td>
                     <div class="btn-group">
                       <a class="btn btn-default btn-xs"><i class="fa fa-photo"></i></a>
-                      <a href="{{ route('gallery.detail', $key->slug) }}" class="btn btn-default btn-xs" target="_blank"><i class="fa fa-eye"></i></a>
-                      <a href="{{ route('album.edit', $key->id) }}" class="btn btn-default btn-xs"><i class="fa fa-edit"></i></a>
+                      <a class="btn btn-default btn-xs"><i class="fa fa-eye"></i></a>
+                      <a href="{{ url('admin/album') }}/{{ $key->id }}/edit" class="btn btn-default btn-xs"><i class="fa fa-edit"></i></a>
                       <a href="#" onclick="deleteConfirmation({{ $key->id }})" class="btn btn-danger btn-xs"><i class="fa fa-trash"></i></a>
                       {!! Form::open(['route' => ['album.destroy',$key->id], 'method' => 'delete', 'id' => 'delete_form_'.$key->id]) !!}
                       {!! Form::close() !!}

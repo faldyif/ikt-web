@@ -66,77 +66,21 @@
         <!-- masonry -->
           <div class="grid">
             <div class="grid-sizer"></div>
+            @foreach($albums as $key)
+            @php
+            $firstPhoto = \App\AlbumPhoto::where('album_id', $key->id)->first();
+            @endphp
             <div class="grid-item">
                 <figure>
-                  <img src="{{ url('img/port02.jpg') }}">
-                  <a href="{{ url('gallery/detail') }}"><div class="overlay"></div></a>
+                  <img src="{{ url('storage/' . $firstPhoto->filename) }}">
+                  <a href="{{ route('gallery.detail', $key->slug) }}"><div class="overlay"></div></a>
                   <figcaption class="figcaptionTop hidden-768"><i class="fa fa-camera-retro fa-2x"></i></figcaption>
-                  <figcaption class="figcaptionBottom"><a href="{{ url('gallery/detail') }}">Delenit utroque vivendo est ea</a><br>12 July 2017</figcaption>
+                  <figcaption class="figcaptionBottom"><a href="{{ route('gallery.detail', $key->slug) }}">Delenit utroque vivendo est ea</a><br>12 July 2017</figcaption>
                 </figure>
             </div>
-            <div class="grid-item">
-                <figure>
-                  <img src="{{ url('img/blog02.jpg') }}">
-                  <a href="{{ url('gallery/detail') }}"><div class="overlay"></div></a>
-                  <figcaption class="figcaptionTop hidden-768"><i class="fa fa-camera-retro fa-2x"></i></figcaption>
-                  <figcaption class="figcaptionBottom"><a href="{{ url('gallery/detail') }}">Delenit utroque vivendo est ea</a><br>12 July 2017</figcaption>
-                </figure>
-            </div>
-            <div class="grid-item">
-                <figure>
-                  <img src="{{ url('img/blog01.jpg') }}">
-                  <a href="{{ url('gallery/detail') }}"><div class="overlay"></div></a>
-                  <figcaption class="figcaptionTop hidden-768"><i class="fa fa-camera-retro fa-2x"></i></figcaption>
-                  <figcaption class="figcaptionBottom"><a href="{{ url('gallery/detail') }}">Delenit utroque vivendo est ea</a><br>12 July 2017</figcaption>
-                </figure>
-            </div>
-            <div class="grid-item">
-                <figure>
-                  <img src="{{ url('img/blog04.jpg') }}">
-                  <a href="{{ url('gallery/detail') }}"><div class="overlay"></div></a>
-                  <figcaption class="figcaptionTop hidden-768"><i class="fa fa-camera-retro fa-2x"></i></figcaption>
-                  <figcaption class="figcaptionBottom"><a href="{{ url('gallery/detail') }}">Delenit utroque vivendo est ea</a><br>12 July 2017</figcaption>
-                </figure>
-            </div>
-            <div class="grid-item">
-                <figure>
-                  <img src="{{ url('img/port01.jpg') }}">
-                  <a href="{{ url('gallery/detail') }}"><div class="overlay"></div></a>
-                  <figcaption class="figcaptionTop hidden-768"><i class="fa fa-camera-retro fa-2x"></i></figcaption>
-                  <figcaption class="figcaptionBottom"><a href="{{ url('gallery/detail') }}">Delenit utroque vivendo est ea</a><br>12 July 2017</figcaption>
-                </figure>
-            </div>
-            <div class="grid-item">
-                <figure>
-                  <img src="{{ url('img/port01.jpg') }}">
-                  <a href="{{ url('gallery/detail') }}"><div class="overlay"></div></a>
-                  <figcaption class="figcaptionTop hidden-768"><i class="fa fa-camera-retro fa-2x"></i></figcaption>
-                  <figcaption class="figcaptionBottom"><a href="{{ url('gallery/detail') }}">Delenit utroque vivendo est ea</a><br>12 July 2017</figcaption>
-                </figure>
-            </div>
-            <div class="grid-item">
-                <figure>
-                  <img src="{{ url('img/port01.jpg') }}">
-                  <a href="{{ url('gallery/detail') }}"><div class="overlay"></div></a>
-                  <figcaption class="figcaptionTop hidden-768"><i class="fa fa-camera-retro fa-2x"></i></figcaption>
-                  <figcaption class="figcaptionBottom"><a href="{{ url('gallery/detail') }}">Delenit utroque vivendo est ea</a><br>12 July 2017</figcaption>
-                </figure>
-            </div>
-            <div class="grid-item">
-                <figure>
-                  <img src="{{ url('img/port01.jpg') }}">
-                  <a href="{{ url('gallery/detail') }}"><div class="overlay"></div></a>
-                  <figcaption class="figcaptionTop hidden-768"><i class="fa fa-camera-retro fa-2x"></i></figcaption>
-                  <figcaption class="figcaptionBottom"><a href="{{ url('gallery/detail') }}">Delenit utroque vivendo est ea</a><br>12 July 2017</figcaption>
-                </figure>
-            </div>
+            @endforeach
           </div>
         <!-- /masonry -->
-        <section class="row mg-t-30">
-          <div class="alignCenter mg-t-20">
-            <a href="#" class="btn btn-blue"><span>Load more</span></a>
-          </div>
-        </section>
       </div>
     </section>
     <!--/GALLERY-->

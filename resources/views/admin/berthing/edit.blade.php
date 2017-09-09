@@ -3,9 +3,9 @@
 @section('title', 'Edit Berthing Plan')
 
 @section('breadcrumb')
-    <li><a href="{{ url('admin/berthing') }}"><i class="fa fa-calendar"></i> Berthing Plan</a></li>
-    <li><a href="{{ url('admin/berthing') }}/{{ $berthing->id }}">{{ \App\BerthingPlan::find($berthing->id)->title }}</a></li>
-    <li><a href="{{ url('admin/berthing') }}/{{ $berthing->id }}/edit">Edit</a></li>
+    <li><a href="{{ route('berthing.index') }}"><i class="fa fa-newspaper-o"></i> Album</a></li>
+    <li><a href="{{ route('berthing.show', $berthing->id) }}">{{ \App\BerthingPlan::find($berthing->id)->title }}</a></li>
+    <li><a href="{{ route('berthing.edit', $bertbing->id) }}">Edit</a></li>
 @endsection
 
 @section('content')

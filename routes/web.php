@@ -24,6 +24,7 @@ Route::group(array('namespace'=>'Admin', 'prefix'=>'admin', 'middleware'=>'auth'
     Route::resource('news-translation', 'NewsTranslationController', ['only' => ['store', 'edit', 'update', 'destroy']]);
     Route::get('news-translation/create/{id}', 'NewsTranslationController@create')->name('news-translation.create');
     Route::resource('photo', 'PhotoController');
+    Route::resource('press-release', 'PressReleaseController');
 });
 
 /*
@@ -92,24 +93,24 @@ Route::get(trans('routes.service.vas'), function () {
 Route::get('lang/{language}', 'LanguageController@switchLang')->name('lang.switch');
 
 // Gallery detail
-Route::get(trans('routes.gallery'), function () {
-    return view('gallery-list');
-})->name('gallery');
+Route::get(trans('routes.gallery'), 'GalleryController@index')->name('gallery');
 // Gallery list
-Route::get(trans('routes.gallery').'/{gallery}', function ($gallery) {
-    return view('gallery-detail');
-})->name('gallery.detail');
+Route::get(trans('routes.gallery').'/{slug}', 'GalleryController@show')->name('gallery.detail');
+// Gallery album comment
+Route::post(trans('routes.gallery'), 'AlbumCommentController@comment')->name('album-comment.post');
 
 // News list
 Route::get(trans('routes.news'), 'NewsController@index')->name('news');
 // News detail
 Route::get(trans('routes.news').'/{slug}', 'NewsController@show')->name('news.detail');
+// News post comment
+Route::post(trans('routes.news'), 'NewsCommentController@comment')->name('news-comment.post');
 
 // Press Release
 Route::get(trans('routes.press-release'), function () {
     return view('press-release-list');
 })->name('press-release');
-Route::get(trans('routes.press-release').'/{$press_release}', function ($press_release) {
+Route::get(trans('routes.press-release').'/{press_release}', function ($press_release) {
     return view('press-release-detail');
 })->name('press-release.detail');
 

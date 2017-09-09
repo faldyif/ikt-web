@@ -601,9 +601,6 @@ h2 {
   background-color: #d0d0d0; }
 
 /* ---- grid ---- */
-.grid {
-  background: #DDD; }
-
 /* clear fix */
 .grid:after {
   content: '';

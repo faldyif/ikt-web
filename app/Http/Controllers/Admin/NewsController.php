@@ -91,34 +91,6 @@ class NewsController extends Controller
     }
 
     /**
-     * Update the specified resource in storage.
-     *
-     * @param  \Illuminate\Http\Request  $request
-     * @param  int  $id
-     * @return \Illuminate\Http\Response
-     */
-    public function update(Request $request, $id)
-    {
-        $this->validate($request, [
-            'title' => 'required',
-            'content' => 'required',
-            'thumbnail' => 'image|mimes:jpeg,bmp,png|max:2000'
-        ]);
-
-        $news = News::find($id);
-        $news->title = $request->title;
-        $news->content = $request->content;
-        if($request->hasFile('thumbnail')) {
-            $news->filename = $request->file('thumbnail')->store('news_thumbs');
-            Storage::move($news->filename, 'public/' . $news->filename);
-        }
-        $news->touch();
-
-        Session::flash('message', 'Berita berhasil diedit!');
-        return redirect('admin/news');
-    }
-
-    /**
      * Remove the specified resource from storage.
      *
      * @param  int  $id
