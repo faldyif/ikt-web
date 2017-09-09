@@ -1,10 +1,11 @@
 @extends('layouts.admin.app')
 
-@section('title', 'Buat Album Baru')
+@section('title', 'List Foto Dalam Album')
 
 @section('breadcrumb')
     <li><a href="{{ route('album.index') }}"><i class="fa fa-newspaper-o"></i> Album</a></li>
-    <li><a href="{{ route('album.create') }}">Buat Album Baru</a></li>
+    <li><a href="{{ route('gallery.detail', $album->id) }}" target="_blank"><i class="fa fa-newspaper-o"></i> {{ \App\Album::find($album->id)->name }}</a></li>
+    <li><a href="{{ route('photo.create', $album->id) }}"><i class="fa fa-newspaper-o"></i> Tambahkan Foto</a></li>
 @endsection
 
 @section('content')
@@ -23,9 +24,9 @@
           <div class="box">
             <!-- /.box-header -->
             <div class="box-body">
-            {!! Form::open(array('route' => 'album.store', 'enctype' => 'multipart/form-data')) !!}
-              @include('admin.album.fields')
-						{!! Form::close() !!}
+            {!! Form::open(array('route' => ['photo.store', $album->id], 'enctype' => 'multipart/form-data')) !!}
+              @include('admin.album.photo.fields')
+            {!! Form::close() !!}
             </div>
             <!-- /.box-body -->
           </div>

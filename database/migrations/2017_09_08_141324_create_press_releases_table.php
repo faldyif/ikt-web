@@ -17,7 +17,7 @@ class CreatePressReleasesTable extends Migration
             $table->increments('id');
 
             $table->string('title');
-            $table->string('description');
+            $table->text('description');
             $table->dateTime('date_time');
             $table->string('location');
 

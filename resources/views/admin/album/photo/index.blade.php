@@ -1,9 +1,11 @@
 @extends('layouts.admin.app')
 
-@section('title', 'List Album')
+@section('title', 'List Gambar Album')
 
 @section('breadcrumb')
-    <li><a href="{{ route('album.index') }}"><i class="fa fa-newspaper-o"></i> Album</a></li>
+  <li><a href="{{ route('album.index') }}"><i class="fa fa-newspaper-o"></i> Album</a></li>
+  <li><a href="{{ route('gallery.detail', $album->id) }}" target="_blank"><i class="fa fa-newspaper-o"></i> {{ \App\Album::find($album->id)->name }}</a></li>
+  <li><a href="{{ route('photo.index', $album->id) }}"><i class="fa fa-newspaper-o"></i> List Photos</a></li>
 @endsection
 
 @section('content')
@@ -20,7 +22,7 @@
           <div class="box">
             <div class="box-header">
               <div class="col-md-2 pull-right">
-              <a href="{{ route('album.create') }}" class="btn btn-block btn-primary">
+              <a href="{{ route('photo.create', $album->id) }}" class="btn btn-block btn-primary">
                 Buat Baru
               </a>
               </div>
@@ -30,25 +32,22 @@
               <table id="example1" class="table table-bordered table-striped">
                 <thead>
                 <tr>
-                  <th>Judul Album</th>
-                  <th>Dibuat Oleh</th>
-                  <th>Tanggal Pembuatan</th>
+                  <th>Nomor</th>
+                  <th>File Gambar</th>
+                  <th>Caption</th>
                   <th>Aksi</th>
                 </tr>
                 </thead>
                 <tbody>
-                @foreach($album as $key)
+                @foreach($albumPhotos as $key)
                 <tr>
-                  <td>{{ $key->title }}</td>
-                  <td>{{ \App\User::find($key->user_id)->name }}</td>
-                  <td>{{ \Carbon\Carbon::parse($key->created_at)->diffForHumans() }}</td>
+                  <td>{{ $loop->iteration }}</td>
+                  <td><img height="100vh" src="{{ url('storage/' . $key->filename) }}"></td>
+                  <td>{{ $key->caption }}</td>
                   <td>
                     <div class="btn-group">
-                      <a class="btn btn-default btn-xs"><i class="fa fa-photo"></i></a>
-                      <a class="btn btn-default btn-xs"><i class="fa fa-eye"></i></a>
-                      <a href="{{ url('admin/album') }}/{{ $key->id }}/edit" class="btn btn-default btn-xs"><i class="fa fa-edit"></i></a>
                       <a href="#" onclick="deleteConfirmation({{ $key->id }})" class="btn btn-danger btn-xs"><i class="fa fa-trash"></i></a>
-                      {!! Form::open(['route' => ['album.destroy',$key->id], 'method' => 'delete', 'id' => 'delete_form_'.$key->id]) !!}
+                      {!! Form::open(['route' => ['photo.destroy',$key->id,$album->id], 'method' => 'delete', 'id' => 'delete_form_'.$key->id]) !!}
                       {!! Form::close() !!}
                     </div>
                   </td>
@@ -57,9 +56,9 @@
                 </tbody>
                 <tfoot>
                 <tr>
-                  <th>Judul Album</th>
-                  <th>Dibuat Oleh</th>
-                  <th>Tanggal Pembuatan</th>
+                  <th>Nomor</th>
+                  <th>File Gambar</th>
+                  <th>Caption</th>
                   <th>Aksi</th>
                 </tr>
                 </tfoot>

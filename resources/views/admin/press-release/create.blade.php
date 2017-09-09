@@ -1,10 +1,10 @@
 @extends('layouts.admin.app')
 
-@section('title', 'Buat Berita Baru')
+@section('title', 'Buat Press Release Baru')
 
 @section('breadcrumb')
-    <li><a href="{{ url('admin/news') }}"><i class="fa fa-newspaper-o"></i> Berita</a></li>
-    <li><a href="{{ url('admin/news/create') }}">Buat Berita Baru</a></li>
+    <li><a href="{{ route('press-release.index') }}"><i class="fa fa-newspaper-o"></i> Press Release</a></li>
+    <li><a href="{{ route('press-release.create') }}">Buat Press Release Baru</a></li>
 @endsection
 
 @section('content')
@@ -23,8 +23,8 @@
           <div class="box">
             <!-- /.box-header -->
             <div class="box-body">
-            {!! Form::open(array('route' => 'news.store', 'enctype' => 'multipart/form-data')) !!}
-              @include('admin.news.fields')
+            {!! Form::open(array('route' => 'press-release.store', 'enctype' => 'multipart/form-data')) !!}
+              @include('admin.press-release.fields')
 						{!! Form::close() !!}
             </div>
             <!-- /.box-body -->
@@ -35,32 +35,4 @@
       </div>
       <!-- /.row -->
       @include('mceImageUpload::upload_form')
-@endsection
-
-
-@section('page-style')
-  <script src="{{ url('assets/dist/js/tinymce/tinymce.min.js') }}"></script>
-  <script>
-      tinymce.init({
-          selector:'textarea',
-          theme: 'modern',
-          plugins: [
-              'advlist autolink lists link image charmap print preview hr anchor pagebreak',
-              'searchreplace wordcount visualblocks visualchars code fullscreen',
-              'insertdatetime media nonbreaking save table contextmenu directionality',
-              'template paste textcolor colorpicker textpattern imagetools codesample toc help emoticons hr'
-          ],
-          toolbar1: 'newdocument | print preview searchreplace | undo redo | image | bullist numlist outdent indent |   visualblocks help',
-          toolbar2: 'styleselect | fontselect | fontsizeselect | bold italic underline  | alignleft aligncenter alignright alignjustify | forecolor backcolor | removeformat',
-          image_advtab: true,
-          relative_urls: false,
-          file_browser_callback: function(field_name, url, type, win) {
-              // trigger file upload form
-              if (type == 'image') $('#formUpload input').click();
-          }
-      });
-  </script>
-@endsection
-
-@section('page-script')
 @endsection

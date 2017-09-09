@@ -2,8 +2,14 @@
 
 namespace App\Http\Controllers\Admin;
 
+use App\Album;
+use App\AlbumPhoto;
+use App\Http\Requests\UploadOnlyPhotoRequest;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
+use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\Session;
+use Illuminate\Support\Facades\Storage;
 
 class PhotoController extends Controller
 {
@@ -12,9 +18,13 @@ class PhotoController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function index()
+    public function index($id)
     {
-        //
+        $album = Album::find($id);
+        $albumPhotos = AlbumPhoto::where('album_id', $id)->get();
+        return view('admin.album.photo.index')
+            ->with('album', $album)
+            ->with('albumPhotos', $albumPhotos);
     }
 
     /**
@@ -22,20 +32,34 @@ class PhotoController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function create()
+    public function create($id)
     {
-        //
+        $album = Album::find($id);
+        return view('admin.album.photo.create')
+            ->with('album', $album);
     }
 
     /**
      * Store a newly created resource in storage.
      *
-     * @param  \Illuminate\Http\Request  $request
+     * @param UploadOnlyPhotoRequest|Request $request
+     * @param $id
      * @return \Illuminate\Http\Response
      */
-    public function store(Request $request)
+    public function store(UploadOnlyPhotoRequest $request, $id)
     {
-        //
+        foreach ($request->photos as $photo) {
+            $filename = $photo->store('album_photos');
+            Storage::move($filename, 'public/' . $filename);
+            AlbumPhoto::create([
+                'album_id' => $id,
+                'user_id' => Auth::user()->id,
+                'filename' => $filename
+            ]);
+        }
+
+        Session::flash('message', 'Foto berhasil ditambahkan!');
+        return redirect(route('photo.index', $id));
     }
 
     /**
@@ -78,8 +102,10 @@ class PhotoController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function destroy($id)
+    public function destroy($id, $idPhoto)
     {
-        //
+        AlbumPhoto::destroy($id);
+        Session::flash('message', 'Foto berhasil dihapus!');
+        return redirect(route('photo.index', $idPhoto));
     }
 }

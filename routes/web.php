@@ -17,14 +17,19 @@
 Route::group(array('namespace'=>'Admin', 'prefix'=>'admin', 'middleware'=>'auth'), function()
 {
     Route::get('/', array('as' => 'dashboard', 'uses' => 'DashboardController@index'));
-    Route::resource('album', 'AlbumController');
+    Route::resource('album', 'AlbumController', ['except' => ['show']]);
     Route::resource('berthing', 'BerthingPlanController');
     Route::resource('event', 'EventController');
     Route::resource('news', 'NewsController');
     Route::resource('news-translation', 'NewsTranslationController', ['only' => ['store', 'edit', 'update', 'destroy']]);
     Route::get('news-translation/create/{id}', 'NewsTranslationController@create')->name('news-translation.create');
-    Route::resource('photo', 'PhotoController');
+    Route::get('album/{id}/photo', 'PhotoController@index')->name('photo.index');
+    Route::get('album/{id}/create', 'PhotoController@create')->name('photo.create');
+    Route::post('album/{id}', 'PhotoController@store')->name('photo.store');
+    Route::delete('album/{id}/destroy/{idAlbum}', 'PhotoController@destroy')->name('photo.destroy');
     Route::resource('press-release', 'PressReleaseController');
+    Route::resource('album-comment', 'AlbumCommentController', ['only' => ['index', 'destroy']]);
+    Route::resource('news-comment', 'NewsCommentController', ['only' => ['index', 'destroy']]);
 });
 
 /*

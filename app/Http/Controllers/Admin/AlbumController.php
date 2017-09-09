@@ -120,7 +120,7 @@ class AlbumController extends Controller
      */
     public function destroy($id)
     {
-        album::destroy($id);
+        Album::destroy($id);
         Session::flash('message', 'Album berhasil dihapus!');
         return redirect(route('album.index'));
     }
