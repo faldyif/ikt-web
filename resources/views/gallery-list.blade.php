@@ -60,8 +60,7 @@
       <div class="container-fluid wow fadeInUpBig">
         <section class="mg-lr-20">
           <hr class="hrSpec hrSpecOrange">
-          <h3 class="roboBold">Gallery Terbaru</h3>
-          <p class="">Vix eu etiam mediocrem. Qui debet essent omnium ut. Ne qui recusabo temporibus</p>
+          <h3 class="roboBold">Company Gallery List</h3>
         </section>
         <!-- masonry -->
           <div class="grid">
@@ -75,7 +74,7 @@
                   <img src="{{ url('storage/' . $firstPhoto->filename) }}">
                   <a href="{{ route('gallery.detail', $key->slug) }}"><div class="overlay"></div></a>
                   <figcaption class="figcaptionTop hidden-768"><i class="fa fa-camera-retro fa-2x"></i></figcaption>
-                  <figcaption class="figcaptionBottom"><a href="{{ route('gallery.detail', $key->slug) }}">Delenit utroque vivendo est ea</a><br>12 July 2017</figcaption>
+                  <figcaption class="figcaptionBottom"><a href="{{ route('gallery.detail', $key->slug) }}">{{ $key->title }}</a><br>{{ \Carbon\Carbon::parse($key->created_at)->toFormattedDateString() }}</figcaption>
                 </figure>
             </div>
             @endforeach

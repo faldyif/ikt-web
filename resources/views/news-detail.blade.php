@@ -4,7 +4,7 @@
     $news->view_count++;
     $news->save();
 @endphp
-ß
+
 @section('title', $news->title . ' | Indonesia Car Terminal')
 
 @section('content')
