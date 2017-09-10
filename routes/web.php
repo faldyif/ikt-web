@@ -126,6 +126,6 @@ Route::get('search', 'SearchController@search')->name('search');
 Route::get('tabs', function () {
     return view('tabs-layout');
 });
-Route::get('/ye', function () {
-    return view('tabs-layout');
+Route::get('ye', function () {
+    return view('gcg');
 });
