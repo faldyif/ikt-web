@@ -30,6 +30,7 @@
               <table id="example1" class="table table-bordered table-striped">
                 <thead>
                 <tr>
+                  <th>Nomor</th>
                   <th>Judul Album</th>
                   <th>Dibuat Oleh</th>
                   <th>Tanggal Pembuatan</th>
@@ -39,6 +40,7 @@
                 <tbody>
                 @foreach($album as $key)
                 <tr>
+                  <td>{{ $loop->iteration }}</td>
                   <td>{{ $key->title }}</td>
                   <td>{{ \App\User::find($key->user_id)->name }}</td>
                   <td>{{ \Carbon\Carbon::parse($key->created_at)->diffForHumans() }}</td>
@@ -57,6 +59,7 @@
                 </tbody>
                 <tfoot>
                 <tr>
+                  <th>Nomor</th>
                   <th>Judul Album</th>
                   <th>Dibuat Oleh</th>
                   <th>Tanggal Pembuatan</th>

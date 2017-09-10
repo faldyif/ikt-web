@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\PressRelease;
 use Illuminate\Http\Request;
 
 class PressReleaseController extends Controller
@@ -13,7 +14,9 @@ class PressReleaseController extends Controller
      */
     public function index()
     {
-        //
+        $pressReleases = PressRelease::latest()->paginate(10);
+        return view('press-release-list')
+            ->with('pressReleases', $pressReleases);
     }
 
     /**

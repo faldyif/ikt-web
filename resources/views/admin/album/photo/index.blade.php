@@ -4,7 +4,7 @@
 
 @section('breadcrumb')
   <li><a href="{{ route('album.index') }}"><i class="fa fa-newspaper-o"></i> Album</a></li>
-  <li><a href="{{ route('gallery.detail', $album->id) }}" target="_blank"><i class="fa fa-newspaper-o"></i> {{ \App\Album::find($album->id)->name }}</a></li>
+  <li><a href="{{ route('gallery.detail', $album->slug) }}" target="_blank"><i class="fa fa-newspaper-o"></i> {{ \App\Album::find($album->id)->title }}</a></li>
   <li><a href="{{ route('photo.index', $album->id) }}"><i class="fa fa-newspaper-o"></i> List Photos</a></li>
 @endsection
 

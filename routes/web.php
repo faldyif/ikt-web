@@ -38,9 +38,7 @@ Route::group(array('namespace'=>'Admin', 'prefix'=>'admin', 'middleware'=>'auth'
 Auth::routes();
 
 // Home route
-Route::get('/', function () {
-    return view('index');
-})->name('welcome');
+Route::get('/', 'IndexController@index')->name('welcome');
 // Route for redirection from /home to /admin if logged in
 Route::get(trans('routes.home'), 'HomeController@index')->name('home');
 
@@ -112,9 +110,7 @@ Route::get(trans('routes.news').'/{slug}', 'NewsController@show')->name('news.de
 Route::post(trans('routes.news'), 'NewsCommentController@comment')->name('news-comment.post');
 
 // Press Release
-Route::get(trans('routes.press-release'), function () {
-    return view('press-release-list');
-})->name('press-release');
+Route::get(trans('routes.press-release'), 'PressReleaseController@index')->name('press-release');
 Route::get(trans('routes.press-release').'/{press_release}', function ($press_release) {
     return view('press-release-detail');
 })->name('press-release.detail');
