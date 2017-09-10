@@ -53,7 +53,7 @@ class NewsController extends Controller
             'locale' => 'required'
         ]);
 
-        $news = News::create();
+        $news = new News;
 
         $news->translateOrNew($request->locale)->title = $request->title;
         $news->translateOrNew($request->locale)->filename = $request->file('thumbnail')->store('news_thumbs');

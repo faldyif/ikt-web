@@ -140,9 +140,9 @@
       </div>
     </div>
     <div id="thisToggle" class="search-field pd-bt-10">
-      <form method="POST" action="">
+      <form method="GET" action="{{ route('search') }}">
         <div class="input-group">
-          <input type="text" class="form-control col-xs-3" id="" placeholder="{{ trans('menu.search') }}">
+          <input name="q" type="text" class="form-control col-xs-3" id="" placeholder="{{ trans('menu.search') }}">
           <div class="input-group-btn">
             <button type="submit" class="btn btn-primary"><i class="fa fa-search"></i></button>
           </div>
