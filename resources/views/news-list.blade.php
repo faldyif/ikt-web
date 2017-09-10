@@ -33,7 +33,7 @@
                 </figure>
                 <p class="black small mg-t-20"><span>{{ \Carbon\Carbon::parse($key->created_at)->toFormattedDateString() }}</span> / <span>{{ $key->view_count }} readers</span></p>
                 <a href="{{ route('news.detail', $key->slug) }}"><h4 class="roboMedium">{{ $key->title }}</h4></a>
-                <p class="black">{!! substr(strip_tags($key->content), 0, 30) !!}</p>
+                <p class="black">{!! substr(strip_tags($key->content), 0, 500) !!}</p>
             </section>
           </div>
           @endforeach
@@ -56,7 +56,7 @@
                 <div class="col-md-6 col-sm-6 textForNewsList">
                   <p class="black small mg-t-20"><span>{{ \Carbon\Carbon::parse($key->created_at)->toFormattedDateString() }}</span> / <span>{{ $key->view_count }} readers</span></p>
                   <h4 class="roboMedium">{{ $key->title }}</h4>
-                  <p class="black">{!! substr(strip_tags($key->content), 0, 30) !!}</p>
+                  <p class="black">{!! substr(strip_tags($key->content), 0, 500) !!}</p>
                   <a href="{{ route('news.detail', $key->slug) }}">Baca Selengkapnya</a>
                 </div>
               </section>

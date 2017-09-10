@@ -19,14 +19,25 @@ class SearchController extends Controller
         $newsResults = NewsTranslation::where('locale', App::getLocale())
             ->where('content', 'LIKE', '%' . $request->q . '%')
             ->orWhere('title', 'LIKE', '%' . $request->q . '%')
-            ->paginate(5);
+            ->get();
         $pressReleaseResults = PressRelease::where('description', 'LIKE', '%' . $request->q . '%')
             ->orWhere('title', 'LIKE', '%' . $request->q . '%')
             ->orWhere('location', 'LIKE', '%' . $request->q . '%')
-            ->paginate(5);
+            ->get();
+
+        $newsResultsCount = NewsTranslation::where('locale', App::getLocale())
+            ->where('content', 'LIKE', '%' . $request->q . '%')
+            ->orWhere('title', 'LIKE', '%' . $request->q . '%')
+            ->get()->count();
+        $pressReleaseResultsCount = PressRelease::where('description', 'LIKE', '%' . $request->q . '%')
+            ->orWhere('title', 'LIKE', '%' . $request->q . '%')
+            ->orWhere('location', 'LIKE', '%' . $request->q . '%')
+            ->get()->count();
         return view('search-view')
             ->with('q', $request->q)
             ->with('newsResults', $newsResults)
-            ->with('pressReleaseResults', $pressReleaseResults);
+            ->with('pressReleaseResults', $pressReleaseResults)
+            ->with('newsResultsCount', $newsResultsCount)
+            ->with('pressReleaseResultsCount', $pressReleaseResultsCount);
     }
 }
