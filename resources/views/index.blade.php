@@ -246,13 +246,12 @@
         <h3 class="roboBold">Gallery</h3>
         <!-- mansory -->
         <section class="row">
-          <div class="pd-r-30">
-            <div class="grid">
-              <div class="grid-sizer"></div>
-              @foreach($latestAlbums as $key)
-                @php
-                  $firstPhoto = \App\AlbumPhoto::where('album_id', $key->id)->first();
-                @endphp
+          <div class="grid">
+            <div class="grid-sizer"></div>
+            @foreach($latestAlbums as $key)
+              @php
+                $firstPhoto = \App\AlbumPhoto::where('album_id', $key->id)->first();
+              @endphp
               <div class="grid-item">
                 <figure>
                   <img src="{{ url('storage/' . $firstPhoto->filename) }}">
@@ -261,8 +260,7 @@
                   <figcaption class="figcaptionBottom"><a href="{{ route('gallery.detail', $key->slug) }}">{{ $key->title }}</a><br>{{ \Carbon\Carbon::parse($key->created_at)->toFormattedDateString() }}</figcaption>
                 </figure>
               </div>
-              @endforeach
-            </div>
+            @endforeach
           </div>
         </section>
 
@@ -456,6 +454,9 @@
 
 
 @section('bottom')
+  <script src="{{ url('js/masonry.js') }}"></script>
+  <script src="{{ url('js/imagesloaded.js') }}"></script>
+  <script src="{{ url('js/custom.index.js') }}"></script>
   <script src="{{ url('js/custom.fullpage.js') }}"></script>
   <script src="https://nextparticle.nextco.de/nextparticle.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/dat-gui/0.6.4/dat.gui.min.js"></script>
