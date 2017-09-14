@@ -36,7 +36,7 @@
     </section>
     <!--/ABOUT-->
     <!-- VISION -->
-    <section>
+    <!-- <section>
       <div class="container-fluid lightWhiteSec wow fadeInUpBig">
         <section class="row pd-bt-30">
           <div class="col-md-6 col-md-offset-3">
@@ -68,7 +68,7 @@
     <section>
       <section class="row mg-lr-0 img-ikt">
         <div class="col-md-4 col-sm-4 pd-0">
-          <figure class="noMag">
+          <figure class="noMag fig-img-bg">
             <img src="{{ url('img/bg-img.png') }}" style="background-image: url('{{ url('img/4.jpg') }}')">
             <a href="{{ url('img/4.jpg') }}" data-rel="lightcase:aboutCollection" title="Vix eu etiam mediocrem">
               <div class="overlay"></div>
@@ -77,7 +77,7 @@
           </figure>
         </div>
         <div class="col-md-4 col-sm-4 pd-0">
-          <figure class="noMag">
+          <figure class="noMag fig-img-bg">
             <img src="{{ url('img/bg-img.png') }}" style="background-image: url('{{ url('img/2.jpg') }}')">
             <a href="{{ url('img/2.JPG') }}" data-rel="lightcase:aboutCollection" title="Vix eu etiam mediocrem">
               <div class="overlay"></div>
@@ -86,7 +86,7 @@
           </figure>
         </div>
         <div class="col-md-4 col-sm-4 pd-0">
-          <figure class="noMag">
+          <figure class="noMag fig-img-bg">
             <img src="{{ url('img/bg-img.png') }}" style="background-image: url('{{ url('img/3.jpg') }}')">
             <a href="{{ url('img/3.jpg') }}" data-rel="lightcase:aboutCollection" title="Vix eu etiam mediocrem">
               <div class="overlay"></div>
@@ -95,10 +95,10 @@
           </figure>
         </div>
       </section>
-    </section>
+    </section> -->
     <!-- /VISION -->
     <!-- MISSION -->
-    <section>
+    <!-- <section>
       <div class="container-fluid wow fadeInUpBig pd-t-30">
         <h2 class="roboBold text-center">MISI</h2>
         <section class="row pd-bt-30">
@@ -128,7 +128,7 @@
           </div>
         </section>
       </div>
-    </section>
+    </section> -->
     <!-- /MISSION -->
     <!-- ROLE MODEL -->
     <section class="lightWhiteSec">

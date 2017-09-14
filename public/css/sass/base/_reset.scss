@@ -190,6 +190,11 @@ h2 {
 		@include img-bg();
 	}
 }
+.fig-img-bg {
+	img {
+		@include img-bg();
+	}
+}
 
 .top-nav-collapse{
 	margin : 0px ;

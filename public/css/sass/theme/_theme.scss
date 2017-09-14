@@ -85,7 +85,7 @@ figure {
 		&>a {
 			padding: 20px 30px;
 
-			&:hover {
+			&:hover,&:active,&:focus {
 				color: $white;
 			}
 		}
