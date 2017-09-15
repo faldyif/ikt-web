@@ -8,8 +8,8 @@
       <div class="heroTitle" style="background-image: url('./img/2.jpg');">
         <div class="overlay"></div>
         <section class="container-fluid pd-30">
-          <h2 class="roboBold wh alignCenter" data-wow-delay="0.4s">Layanan Receiving dan Delivering</h2>
-          <h4 class="alignCenter wh mg-t-20">PT. Indonesia Kendaraan Terminal</h4>
+          <h2 class="roboBold wh alignCenter" data-wow-delay="0.4s">{{ trans('receiving.head-title') }}</h2>
+          <h4 class="alignCenter wh mg-t-20">{{ trans('receiving.sub-title') }}</h4>
         </section>
       </div>
     </section>
@@ -21,10 +21,8 @@
           <div class="col-md-8 col-sm-10 col-sm-offset-1 pd-bt-30">
             <div class="col-md-8">
             <hr class="hrSpec hrSpecOrange">
-            <h3 class="mg-b-30 roboBold">Receiving &amp Delivering</h3>
-            <p>
-              Dengan kapasitas areal penyimpanan untuk mobil sebanyak 410.189 unit, termasuk penyimpanan tertutup untuk 45.000 unit kendaraan di dalam ruangan. Terminal Kendaraan ini tidak hanya sekadar memuat dan menampung debit kendaraan kami juga menawarkan finishing, perbaikan dan layanan retrofitting, menginstal peralatan khusus individu atau hadir untuk perakitan akhir yang semuanya akan dikerjakan di Ruang VPC.
-            </p>
+            <h3 class="mg-b-30 roboBold">{{ trans('receiving.title') }}</h3>
+            {!! trans('receiving.content') !!}
             </div>
             <div class="col-md-4">
               <img src="{{url('img/receiving-delivery-01.jpg')}}" class="service-media">
