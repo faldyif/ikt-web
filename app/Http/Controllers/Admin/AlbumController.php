@@ -10,6 +10,7 @@ use App\Http\Controllers\Controller;
 use App\User;
 use App\Album;
 use App\AlbumPhoto;
+use Illuminate\Support\Facades\Storage;
 use Session;
 use Carbon\Carbon;
 use Illuminate\Support\Facades\Auth;
@@ -53,6 +54,7 @@ class AlbumController extends Controller
         ]);
         foreach ($request->photos as $photo) {
             $filename = $photo->store('album_photos');
+            Storage::move($filename, 'public/' . $filename);
             AlbumPhoto::create([
                 'album_id' => $album->id,
                 'user_id' => Auth::user()->id,
@@ -61,7 +63,7 @@ class AlbumController extends Controller
         }
 
         Session::flash('message', 'Album berhasil dibuat! Anda dapat menambah maupun mengedit isi fotonya melalui <a>link ini</a>');
-        return redirect('admin/album');
+        return redirect(route('album.index'));
     }
 
     /**
@@ -107,7 +109,7 @@ class AlbumController extends Controller
         $album->touch();
 
         Session::flash('message', 'Album berhasil diedit!');
-        return redirect('admin/album');
+        return redirect(route('album.index'));
     }
 
     /**
@@ -118,8 +120,8 @@ class AlbumController extends Controller
      */
     public function destroy($id)
     {
-        album::destroy($id);
+        Album::destroy($id);
         Session::flash('message', 'Album berhasil dihapus!');
-        return redirect('admin/album');
+        return redirect(route('album.index'));
     }
 }

@@ -3,7 +3,7 @@
 @section('title', 'List Berthing Plan')
 
 @section('breadcrumb')
-    <li><a href="{{ url('admin/berthing') }}"><i class="fa fa-calendar"></i> Berthing Plan</a></li>
+    <li><a href="{{ route('berthing.index') }}"><i class="fa fa-calendar"></i> Berthing Plan</a></li>
 @endsection
 
 @section('content')
@@ -20,7 +20,7 @@
           <div class="box">
             <div class="box-header">
               <div class="col-md-2 pull-right">
-              <a href="{{ url('admin/berthing/create') }}" class="btn btn-block btn-primary">
+              <a href="{{ route('berthing.create') }}" class="btn btn-block btn-primary">
                 Buat Baru
               </a>
               </div>
@@ -30,25 +30,27 @@
               <table id="example1" class="table table-bordered table-striped">
                 <thead>
                 <tr>
-                  <th>Nama Berthing Plan</th>
-                  <th>Tempat</th>
-                  <th>Tanggal Berthing Plan</th>
-                  <th>Dibuat Pada</th>
+                  <th>Nomor</th>
+                  <th>Tipe</th>
+                  <th>Vessel</th>
+                  <th>Agent</th>
+                  <th>VOY</th>
+                  <th>ETA</th>
                   <th>Aksi</th>
                 </tr>
                 </thead>
                 <tbody>
                 @foreach($berthing as $key)
                 <tr>
-                  <td>{{ $key->berthing }}</td>
-                  <td>{{ $key->place }}</td>
-                  <td>{{ \Carbon\Carbon::parse($key->berthing_date_time)->toFormattedDateString() }}</td>
-                  <td>{{ \Carbon\Carbon::parse($key->created_at)->diffForHumans() }}</td>
+                  <td>{{ $loop->iteration }}</td>
+                  <td>{{ $key->type }}</td>
+                  <td>{{ $key->vessel }}</td>
+                  <td>{{ $key->agent }}</td>
+                  <td>{{ $key->voy }}</td>
+                  <td>{{ \Carbon\Carbon::parse($key->eta )->toDateString() }}</td>
                   <td>
                     <div class="btn-group">
-                      <a class="btn btn-default btn-xs"><i class="fa fa-bullhorn"></i></a>
-                      <a class="btn btn-default btn-xs"><i class="fa fa-eye"></i></a>
-                      <a href="{{ url('admin/berthing') }}/{{ $key->id }}/edit" class="btn btn-default btn-xs"><i class="fa fa-edit"></i></a>
+                      <a href="{{ route('berthing.edit', $key->id) }}" class="btn btn-default btn-xs"><i class="fa fa-edit"></i></a>
                       <a href="#" onclick="deleteConfirmation({{ $key->id }})" class="btn btn-danger btn-xs"><i class="fa fa-trash"></i></a>
                       {!! Form::open(['route' => ['berthing.destroy',$key->id], 'method' => 'delete', 'id' => 'delete_form_'.$key->id]) !!}
                       {!! Form::close() !!}
@@ -59,10 +61,12 @@
                 </tbody>
                 <tfoot>
                 <tr>
-                  <th>Judul Berthing Plan</th>
-                  <th>Penulis</th>
-                  <th>Ditulis Pada</th>
-                  <th>Terakhir Diedit</th>
+                  <th>Nomor</th>
+                  <th>Tipe</th>
+                  <th>Vessel</th>
+                  <th>Agent</th>
+                  <th>VOY</th>
+                  <th>ETA</th>
                   <th>Aksi</th>
                 </tr>
                 </tfoot>

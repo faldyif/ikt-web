@@ -1,9 +1,9 @@
 @extends('layouts.admin.app')
 
-@section('title', 'List Album')
+@section('title', 'List Press Release')
 
 @section('breadcrumb')
-    <li><a href="{{ route('album.index') }}"><i class="fa fa-newspaper-o"></i> Album</a></li>
+    <li><a href="{{ route('press-release.index') }}"><i class="fa fa-newspaper-o"></i> Press Release</a></li>
 @endsection
 
 @section('content')
@@ -20,7 +20,7 @@
           <div class="box">
             <div class="box-header">
               <div class="col-md-2 pull-right">
-              <a href="{{ route('album.create') }}" class="btn btn-block btn-primary">
+              <a href="{{ route('press-release.create') }}" class="btn btn-block btn-primary">
                 Buat Baru
               </a>
               </div>
@@ -31,26 +31,24 @@
                 <thead>
                 <tr>
                   <th>Nomor</th>
-                  <th>Judul Album</th>
-                  <th>Dibuat Oleh</th>
-                  <th>Tanggal Pembuatan</th>
+                  <th>Judul</th>
+                  <th>Waktu</th>
+                  <th>Lokasi</th>
                   <th>Aksi</th>
                 </tr>
                 </thead>
                 <tbody>
-                @foreach($album as $key)
+                @foreach($pressReleases as $key)
                 <tr>
                   <td>{{ $loop->iteration }}</td>
                   <td>{{ $key->title }}</td>
-                  <td>{{ \App\User::find($key->user_id)->name }}</td>
-                  <td>{{ \Carbon\Carbon::parse($key->created_at)->diffForHumans() }}</td>
+                  <td>{{ $key->date_time }}</td>
+                  <td>{{ $key->location }}</td>
                   <td>
                     <div class="btn-group">
-                      <a href="{{ route('photo.index', $key->id) }}" class="btn btn-default btn-xs"><i class="fa fa-photo"></i></a>
-                      <a href="{{ route('gallery.detail', $key->slug) }}" class="btn btn-default btn-xs" target="_blank"><i class="fa fa-eye"></i></a>
-                      <a href="{{ route('album.edit', $key->id) }}" class="btn btn-default btn-xs"><i class="fa fa-edit"></i></a>
+                      <a href="{{ route('press-release.edit', $key->id) }}" class="btn btn-default btn-xs"><i class="fa fa-edit"></i></a>
                       <a href="#" onclick="deleteConfirmation({{ $key->id }})" class="btn btn-danger btn-xs"><i class="fa fa-trash"></i></a>
-                      {!! Form::open(['route' => ['album.destroy',$key->id], 'method' => 'delete', 'id' => 'delete_form_'.$key->id]) !!}
+                      {!! Form::open(['route' => ['press-release.destroy',$key->id], 'method' => 'delete', 'id' => 'delete_form_'.$key->id]) !!}
                       {!! Form::close() !!}
                     </div>
                   </td>
@@ -60,9 +58,9 @@
                 <tfoot>
                 <tr>
                   <th>Nomor</th>
-                  <th>Judul Album</th>
-                  <th>Dibuat Oleh</th>
-                  <th>Tanggal Pembuatan</th>
+                  <th>Judul</th>
+                  <th>Waktu</th>
+                  <th>Lokasi</th>
                   <th>Aksi</th>
                 </tr>
                 </tfoot>
@@ -109,7 +107,7 @@
   function deleteConfirmation(id) {
     swal({
       title: 'Apakah anda yakin?',
-      text: 'Anda tidak akan dapat mengembalikan Album yang sudah dihapus!',
+      text: 'Anda tidak akan dapat mengembalikan press release yang sudah dihapus!',
       type: 'warning',
       showCancelButton: true,
       confirmButtonText: 'Ya, hapus!',
@@ -117,7 +115,7 @@
     }).then(function() {
       swal(
         'Terhapus!',
-        'Album yang anda pilih berhasil terhapus. Reload otomatis dalam 2 detik..',
+        'Press Release yang anda pilih berhasil terhapus. Reload otomatis dalam 2 detik..',
         'success'
       )
       setTimeout(function() {
@@ -129,7 +127,7 @@
       if (dismiss === 'cancel') {
         swal(
           'Dibatalkan',
-          'Album yang anda pilih aman di database :)',
+          'Press Release yang anda pilih aman di database :)',
           'error'
         )
       }

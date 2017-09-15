@@ -20,41 +20,23 @@
           <div class="container-fluid wow fadeInUpBig pd-bt-30">
             <section class="row mg-lr-20">
               <div class="col-md-12">
+                @foreach($pressReleases as $key)
                 <div class="row mg-t-10 mg-bt-20">
-                  <p class="col-md-2 col-sm-3 col-xs-2 black roboMedium mg-t-10"><span class="bigger">20 June </span> <br>2017</p>
+                  <p class="col-md-2 col-sm-3 col-xs-2 black roboMedium mg-t-10"><span class="bigger">{{ \Carbon\Carbon::parse($key->date_time)->toFormattedDateString() }} </span> <br>{{ \Carbon\Carbon::parse($key->date_time)->toTimeString() }}</p>
                  <section class="col-md-7 col-sm-6 col-xs-10">
-                    <h4 class="roboMedium">Delenit utroque vivendo est ea</h4>
-                    <a href="{{ url('press-release/detail')}}">Baca Selengkapnya</a>
+                    <h4 class="roboMedium">{{ $key->title }}</h4>
+                    {!! $key->description !!}
                   </section>
                   <section class="col-md-3 col-sm-3">
-                    <p class="roboMedium hidden-768 mg-t-5 or">Yogyakarta</p>
+                    <p class="roboMedium hidden-768 mg-t-5 or">{{ $key->location }}</p>
                   </section>
                 </div>
-                <div class="row mg-t-10 mg-bt-20">
-                  <p class="col-md-2 col-sm-3 col-xs-2 black roboMedium mg-t-10"><span class="bigger">20 June </span> <br>2017</p>
-                  <section class="col-md-7 col-sm-6 col-xs-10">
-                    <h4 class="roboMedium">Egyptian Ministerial event drives new consensus on Africa and Middle East aviation security</h4>
-                    <a href="{{ url('press-release/detail')}}">Baca Selengkapnya</a>
+                @endforeach
+                  <section class="row mg-t-30">
+                      <div class="alignCenter mg-t-20">
+                          {{ $pressReleases->links() }}
+                      </div>
                   </section>
-                  <section class="col-md-3 col-sm-3">
-                    <p class="roboMedium hidden-768 mg-t-5 or">Yogyakarta, Indonesia</p>
-                  </section>
-                </div>
-                <div class="row mg-t-10 mg-bt-20">
-                  <p class="col-md-2 col-sm-3 col-xs-2 black roboMedium mg-t-10"><span class="bigger">20 Agt </span> <br>2017</p>
-                  <section class="col-md-7 col-sm-6 col-xs-10">
-                    <h4 class="roboMedium">Egyptian Ministerial event drives new consensus on Africa and Middle East aviation security</h4>
-                    <a href="{{ url('press-release/detail')}}">Baca Selengkapnya</a>
-                  </section>
-                  <section class="col-md-3 col-sm-3">
-                    <p class="roboMedium hidden-768 mg-t-5 or">Tanjung Priok, Indonesia </p>
-                  </section>
-                </div>
-                <section class="row mg-t-30">
-                  <div class="alignCenter mg-t-20">
-                    <a href="#" class="btn btn-blue"><span>Load more</span></a>
-                  </div>
-                </section>
               </div>
             </section>
           </div>

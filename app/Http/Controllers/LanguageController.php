@@ -49,6 +49,6 @@ class LanguageController extends Controller
             return redirect()->to(implode('/', $segments));
         }
 
-        return redirect()->back();
+        return redirect()->to('/');
     }
 }

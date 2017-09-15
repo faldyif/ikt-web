@@ -1,10 +1,11 @@
 @extends('layouts.admin.app')
 
-@section('title', 'Edit Berthing Plan')
+@section('title', 'List Foto Dalam Album')
 
 @section('breadcrumb')
-    <li><a href="{{ route('berthing.index') }}"><i class="fa fa-newspaper-o"></i> Berthing Plan</a></li>
-    <li><a href="{{ route('berthing.edit', $berthing->id) }}">Edit Berthing Plan</a></li>
+    <li><a href="{{ route('album.index') }}"><i class="fa fa-newspaper-o"></i> Album</a></li>
+    <li><a href="{{ route('gallery.detail', $album->id) }}" target="_blank"><i class="fa fa-newspaper-o"></i> {{ \App\Album::find($album->id)->name }}</a></li>
+    <li><a href="{{ route('photo.create', $album->id) }}"><i class="fa fa-newspaper-o"></i> Tambahkan Foto</a></li>
 @endsection
 
 @section('content')
@@ -23,8 +24,8 @@
           <div class="box">
             <!-- /.box-header -->
             <div class="box-body">
-            {!! Form::model($berthing, array('route' => array('berthing.update', $berthing->id), 'method' => 'PUT', 'enctype' => 'multipart/form-data')) !!}
-              @include('admin.berthing.fields')
+            {!! Form::open(array('route' => ['photo.store', $album->id], 'enctype' => 'multipart/form-data')) !!}
+              @include('admin.album.photo.fields')
             {!! Form::close() !!}
             </div>
             <!-- /.box-body -->

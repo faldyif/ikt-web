@@ -3,8 +3,8 @@
 @section('title', 'Buat Berthing Plan Baru')
 
 @section('breadcrumb')
-    <li><a href="{{ url('admin/berthing') }}"><i class="fa fa-calendar"></i> Berthing Plan</a></li>
-    <li><a href="{{ url('admin/berthing/create') }}">Buat Berthing Plan Baru</a></li>
+    <li><a href="{{ route('berthing.index') }}"><i class="fa fa-calendar"></i> Berthing Plan</a></li>
+    <li><a href="{{ route('berthing.create') }}">Buat Berthing Plan Baru</a></li>
 @endsection
 
 @section('content')

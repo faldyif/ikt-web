@@ -17,13 +17,19 @@
 Route::group(array('namespace'=>'Admin', 'prefix'=>'admin', 'middleware'=>'auth'), function()
 {
     Route::get('/', array('as' => 'dashboard', 'uses' => 'DashboardController@index'));
-    Route::resource('album', 'AlbumController');
+    Route::resource('album', 'AlbumController', ['except' => ['show']]);
     Route::resource('berthing', 'BerthingPlanController');
     Route::resource('event', 'EventController');
     Route::resource('news', 'NewsController');
     Route::resource('news-translation', 'NewsTranslationController', ['only' => ['store', 'edit', 'update', 'destroy']]);
     Route::get('news-translation/create/{id}', 'NewsTranslationController@create')->name('news-translation.create');
-    Route::resource('photo', 'PhotoController');
+    Route::get('album/{id}/photo', 'PhotoController@index')->name('photo.index');
+    Route::get('album/{id}/create', 'PhotoController@create')->name('photo.create');
+    Route::post('album/{id}', 'PhotoController@store')->name('photo.store');
+    Route::delete('album/{id}/destroy/{idAlbum}', 'PhotoController@destroy')->name('photo.destroy');
+    Route::resource('press-release', 'PressReleaseController');
+    Route::resource('album-comment', 'AlbumCommentController', ['only' => ['index', 'destroy']]);
+    Route::resource('news-comment', 'NewsCommentController', ['only' => ['index', 'destroy']]);
 });
 
 /*
@@ -32,9 +38,7 @@ Route::group(array('namespace'=>'Admin', 'prefix'=>'admin', 'middleware'=>'auth'
 Auth::routes();
 
 // Home route
-Route::get('/', function () {
-    return view('index');
-})->name('welcome');
+Route::get('/', 'IndexController@index')->name('welcome');
 // Route for redirection from /home to /admin if logged in
 Route::get(trans('routes.home'), 'HomeController@index')->name('home');
 
@@ -92,26 +96,27 @@ Route::get(trans('routes.service.vas'), function () {
 Route::get('lang/{language}', 'LanguageController@switchLang')->name('lang.switch');
 
 // Gallery detail
-Route::get(trans('routes.gallery'), function () {
-    return view('gallery-list');
-})->name('gallery');
+Route::get(trans('routes.gallery'), 'GalleryController@index')->name('gallery');
 // Gallery list
-Route::get(trans('routes.gallery').'/{gallery}', function ($gallery) {
-    return view('gallery-detail');
-})->name('gallery.detail');
+Route::get(trans('routes.gallery').'/{slug}', 'GalleryController@show')->name('gallery.detail');
+// Gallery album comment
+Route::post(trans('routes.gallery'), 'AlbumCommentController@comment')->name('album-comment.post');
 
 // News list
 Route::get(trans('routes.news'), 'NewsController@index')->name('news');
 // News detail
 Route::get(trans('routes.news').'/{slug}', 'NewsController@show')->name('news.detail');
+// News post comment
+Route::post(trans('routes.news'), 'NewsCommentController@comment')->name('news-comment.post');
 
 // Press Release
-Route::get(trans('routes.press-release'), function () {
-    return view('press-release-list');
-})->name('press-release');
-Route::get(trans('routes.press-release').'/{$press_release}', function ($press_release) {
+Route::get(trans('routes.press-release'), 'PressReleaseController@index')->name('press-release');
+Route::get(trans('routes.press-release').'/{press_release}', function ($press_release) {
     return view('press-release-detail');
 })->name('press-release.detail');
+
+// Search
+Route::get('search', 'SearchController@search')->name('search');
 
 
 /*
@@ -123,8 +128,4 @@ Route::get('tabs', function () {
 });
 Route::get('ye', function () {
     return view('gcg');
-});
-// Search view
-Route::get('search', function () {
-    return view('search-view');
 });

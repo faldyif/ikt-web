@@ -40,21 +40,18 @@ class BerthingPlanController extends Controller
      */
     public function store(Request $request)
     {
+        $this->validate($request, [
+            'vessel' => 'required',
+            'agent' => 'required',
+            'voy' => 'required',
+            'eta' => 'required',
+            'type' => 'required'
+        ]);
+
         $berthing = BerthingPlan::create($request->all());
 
         Session::flash('message', 'Berthing plan berhasil dibuat!');
-        return redirect('admin/berthing');
-    }
-
-    /**
-     * Display the specified resource.
-     *
-     * @param  int  $id
-     * @return \Illuminate\Http\Response
-     */
-    public function show($id)
-    {
-        //
+        return redirect(route('berthing.index'));
     }
 
     /**
@@ -87,7 +84,7 @@ class BerthingPlanController extends Controller
         $berthing->touch();
 
         Session::flash('message', 'Berthing plan berhasil diupdate!');
-        return redirect('admin/berthing');
+        return redirect(route('berthing.index'));
     }
 
     /**
@@ -100,6 +97,6 @@ class BerthingPlanController extends Controller
     {
         BerthingPlan::destroy($id);
         Session::flash('message', 'Berthing plan berhasil dihapus!');
-        return redirect('admin/berthing');
+        return redirect(route('berthing.index'));
     }
 }

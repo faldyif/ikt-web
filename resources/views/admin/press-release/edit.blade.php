@@ -1,10 +1,10 @@
 @extends('layouts.admin.app')
 
-@section('title', 'Edit Berthing Plan')
+@section('title', 'Edit Press Release')
 
 @section('breadcrumb')
-    <li><a href="{{ route('berthing.index') }}"><i class="fa fa-newspaper-o"></i> Berthing Plan</a></li>
-    <li><a href="{{ route('berthing.edit', $berthing->id) }}">Edit Berthing Plan</a></li>
+    <li><a href="{{ route('press-release.index') }}"><i class="fa fa-newspaper-o"></i> Press Release</a></li>
+    <li><a href="{{ route('press-release.edit', $pressRelease->id) }}">Edit Press Release</a></li>
 @endsection
 
 @section('content')
@@ -23,8 +23,8 @@
           <div class="box">
             <!-- /.box-header -->
             <div class="box-body">
-            {!! Form::model($berthing, array('route' => array('berthing.update', $berthing->id), 'method' => 'PUT', 'enctype' => 'multipart/form-data')) !!}
-              @include('admin.berthing.fields')
+            {!! Form::model($pressRelease, array('route' => array('press-release.update', $pressRelease->id), 'method' => 'PUT', 'enctype' => 'multipart/form-data')) !!}
+              @include('admin.press-release.fields')
             {!! Form::close() !!}
             </div>
             <!-- /.box-body -->
@@ -34,13 +34,5 @@
         <!-- /.col -->
       </div>
       <!-- /.row -->
-@endsection
-
-
-@section('page-style')
-  <script src="{{ url('assets/dist/js/tinymce/tinymce.min.js') }}"></script>
-  <script>tinymce.init({ selector:'textarea' });</script>
-@endsection
-
-@section('page-script')
+      @include('mceImageUpload::upload_form')
 @endsection

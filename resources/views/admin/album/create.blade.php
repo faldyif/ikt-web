@@ -3,8 +3,8 @@
 @section('title', 'Buat Album Baru')
 
 @section('breadcrumb')
-    <li><a href="{{ url('admin/album') }}"><i class="fa fa-newspaper-o"></i> Album</a></li>
-    <li><a href="{{ url('admin/album/create') }}">Buat Album Baru</a></li>
+    <li><a href="{{ route('album.index') }}"><i class="fa fa-newspaper-o"></i> Album</a></li>
+    <li><a href="{{ route('album.create') }}">Buat Album Baru</a></li>
 @endsection
 
 @section('content')

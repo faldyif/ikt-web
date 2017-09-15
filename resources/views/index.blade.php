@@ -187,146 +187,22 @@
           <h3 class="mg-b-30 roboBold">Berita Terbaru</h3>
         </section>
         <div class="multiple-items pd-t-20">
+          @foreach($latestNews as $key)
           <div>
             <section class="newsList">
               <figure>
-                <img src="{{ url('img/bg-img.png') }}" style="background-image: url('./img/port02.jpg');">
+                <img src="{{ url('storage') . '/' . $key->filename }}" style="background-image: url('{{ url('storage') . '/' . $key->filename }}');">
                 <div class="overlay"></div>
-                <a href="#">
+                <a href="{{ route('news.detail', $key->slug) }}">
                   <figcaption>Selengkapnya</figcaption>
                 </a>
               </figure>
-              <p class="black small mg-t-20"><span>20 June 2017</span> / <span>1k readers</span></p>
-              <a href="#"><h4 class="roboMedium">Eam no eripuit noluisse intellegebat</h4></a>
-              <p class="black">Eam no eripuit noluisse intellegebat. Nominavi mnesarchum ad eam, pro dico recteque id, cu dicant audiam mel. At eum mazim dolore aliquid, id sed quas saepe doming. </p>
+              <p class="black small mg-t-20"><span>{{ \Carbon\Carbon::parse($key->created_at)->toFormattedDateString() }}</span> / <span>{{ $key->view_count }} readers</span></p>
+              <a href="{{ route('news.detail', $key->slug) }}"><h4 class="roboMedium">{{ $key->title }}</h4></a>
+              <p class="black">{!! substr(strip_tags($key->content), 0, 300) !!}</p>
             </section>
           </div>
-          <div>
-            <section class="newsList">
-              <figure>
-                <img src="{{ url('img/bg-img.png') }}" style="background-image: url('./img/port01.jpg');">
-                <div class="overlay"></div>
-                <a href="#">
-                  <figcaption>Selengkapnya</figcaption>
-                </a>
-              </figure>
-              <p class="black small mg-t-20"><span>20 June 2017</span> / <span>1k readers</span></p>
-              <a href="#"><h4 class="roboMedium">Aliquam principes deterruisset cum et</h4></a>
-              <p class="black">Eam no eripuit noluisse intellegebat. Nominavi mnesarchum ad eam, pro dico recteque id, cu dicant audiam mel. At eum mazim dolore aliquid, id sed quas saepe doming. </p>
-            </section>
-          </div>
-          <div>
-            <section class="newsList">
-              <figure>
-                <img src="{{ url('img/bg-img.png') }}" style="background-image: url('./img/blog04.jpg');">
-                <div class="overlay"></div>
-                <a href="#">
-                  <figcaption>Selengkapnya</figcaption>
-                </a>
-              </figure>
-              <p class="black small mg-t-20"><span>20 June 2017</span> / <span>1k readers</span></p>
-              <a href="#"><h4 class="roboMedium">Eam no eripuit noluisse intellegebat</h4></a>
-              <p class="black">Eam no eripuit noluisse intellegebat. Nominavi mnesarchum ad eam, pro dico recteque id, cu dicant audiam mel. At eum mazim dolore aliquid, id sed quas saepe doming. </p>
-            </section>
-          </div>
-          <div>
-            <section class="newsList">
-              <figure>
-                <img src="{{ url('img/bg-img.png') }}" style="background-image: url('./img/blog01.jpg');">
-                <div class="overlay"></div>
-                <a href="#">
-                  <figcaption>Selengkapnya</figcaption>
-                </a>
-              </figure>
-              <p class="black small mg-t-20"><span>20 June 2017</span> / <span>1k readers</span></p>
-              <a href="#"><h4 class="roboMedium">Eam no eripuit noluisse intellegebat</h4></a>
-              <p class="black">Eam no eripuit noluisse intellegebat. Nominavi mnesarchum ad eam, pro dico recteque id, cu dicant audiam mel. At eum mazim dolore aliquid, id sed quas saepe doming. </p>
-            </section>
-          </div>
-          <div>
-            <section class="newsList">
-              <figure>
-                <img src="{{ url('img/bg-img.png') }}" style="background-image: url('./img/blog02.jpg');">
-                <div class="overlay"></div>
-                <a href="#">
-                  <figcaption>Selengkapnya</figcaption>
-                </a>
-              </figure>
-              <p class="black small mg-t-20"><span>20 June 2017</span> / <span>1k readers</span></p>
-              <a href="#"><h4 class="roboMedium">Eam no eripuit noluisse intellegebat</h4></a>
-              <p class="black">Eam no eripuit noluisse intellegebat. Nominavi mnesarchum ad eam, pro dico recteque id, cu dicant audiam mel. At eum mazim dolore aliquid, id sed quas saepe doming. </p>
-            </section>
-          </div>
-          <div>
-            <section class="newsList">
-              <figure>
-                <img src="{{ url('img/bg-img.png') }}" style="background-image: url('./img/blog03.jpg');">
-                <div class="overlay"></div>
-                <a href="#">
-                  <figcaption>Selengkapnya</figcaption>
-                </a>
-              </figure>
-              <p class="black small mg-t-20"><span>20 June 2017</span> / <span>1k readers</span></p>
-              <a href="#"><h4 class="roboMedium">Delenit utroque vivendo est ea</h4></a>
-              <p class="black">Eam no eripuit noluisse intellegebat. Nominavi mnesarchum ad eam, pro dico recteque id, cu dicant audiam mel. At eum mazim dolore aliquid, id sed quas saepe doming. </p>
-            </section>
-          </div>
-          <div>
-            <section class="newsList">
-              <figure>
-                <img src="{{ url('img/bg-img.png') }}" style="background-image: url('./img/blog03.jpg');">
-                <div class="overlay"></div>
-                <a href="#">
-                  <figcaption>Selengkapnya</figcaption>
-                </a>
-              </figure>
-              <p class="black small mg-t-20"><span>20 June 2017</span> / <span>1k readers</span></p>
-              <a href="#"><h4 class="roboMedium">Delenit utroque vivendo est ea</h4></a>
-              <p class="black">Eam no eripuit noluisse intellegebat. Nominavi mnesarchum ad eam, pro dico recteque id, cu dicant audiam mel. At eum mazim dolore aliquid, id sed quas saepe doming. </p>
-            </section>
-          </div>
-          <div>
-            <section class="newsList">
-              <figure>
-                <img src="{{ url('img/bg-img.png') }}" style="background-image: url('./img/blog03.jpg');">
-                <div class="overlay"></div>
-                <a href="#">
-                  <figcaption>Selengkapnya</figcaption>
-                </a>
-              </figure>
-              <p class="black small mg-t-20"><span>20 June 2017</span> / <span>1k readers</span></p>
-              <a href="#"><h4 class="roboMedium">Delenit utroque vivendo est ea</h4></a>
-              <p class="black">Eam no eripuit noluisse intellegebat. Nominavi mnesarchum ad eam, pro dico recteque id, cu dicant audiam mel. At eum mazim dolore aliquid, id sed quas saepe doming. </p>
-            </section>
-          </div>
-          <div>
-            <section class="newsList">
-              <figure>
-                <img src="{{ url('img/bg-img.png') }}" style="background-image: url('./img/blog03.jpg');">
-                <div class="overlay"></div>
-                <a href="#">
-                  <figcaption>Selengkapnya</figcaption>
-                </a>
-              </figure>
-              <p class="black small mg-t-20"><span>20 June 2017</span> / <span>1k readers</span></p>
-              <a href="#"><h4 class="roboMedium">Delenit utroque vivendo est ea</h4></a>
-              <p class="black">Eam no eripuit noluisse intellegebat. Nominavi mnesarchum ad eam, pro dico recteque id, cu dicant audiam mel. At eum mazim dolore aliquid, id sed quas saepe doming. </p>
-            </section>
-          </div>
-          <div>
-            <section class="newsList">
-              <figure>
-                <img src="{{ url('img/bg-img.png') }}" style="background-image: url('./img/blog03.jpg');">
-                <div class="overlay"></div>
-                <a href="#">
-                  <figcaption>Selengkapnya</figcaption>
-                </a>
-              </figure>
-              <p class="black small mg-t-20"><span>20 June 2017</span> / <span>1k readers</span></p>
-              <a href="#"><h4 class="roboMedium">Delenit utroque vivendo est ea</h4></a>
-              <p class="black">Eam no eripuit noluisse intellegebat. Nominavi mnesarchum ad eam, pro dico recteque id, cu dicant audiam mel. At eum mazim dolore aliquid, id sed quas saepe doming. </p>
-            </section>
-          </div>
+          @endforeach
         </div>
       </div>
     </section>
@@ -375,42 +251,21 @@
         <h3 class="roboBold">Gallery</h3>
         <!-- mansory -->
         <section class="row">
-          <div class="pd-r-30">
-            <div class="grid">
-              <div class="grid-sizer"></div>
-              <div class="grid-item grid-item--width2">
-                <figure>
-                  <img src="{{ url('img/port02.jpg') }}">
-                  <a href="{{ url('img/port02.jpg') }}" data-rel="lightcase"><div class="overlay"></div></a>
-                  <figcaption class="figcaptionTop hidden-768"><i class="fa fa-camera-retro fa-2x"></i></figcaption>
-                  <figcaption class="figcaptionBottom"><a href="#">Delenit utroque vivendo est ea</a><br>12 July 2017</figcaption>
-                </figure>
-              </div>
-              <div class="grid-item grid-item--height2">
-                <figure>
-                  <img src="{{ url('img/blog02.jpg') }}">
-                  <a href="{{ url('img/blog02.jpg') }}" data-rel="lightcase"><div class="overlay"></div></a>
-                  <figcaption class="figcaptionTop hidden-768"><i class="fa fa-camera-retro fa-2x"></i></figcaption>
-                  <figcaption class="figcaptionBottom"><a href="#">Delenit utroque vivendo est ea</a><br>12 July 2017</figcaption>
-                </figure>
-              </div>
+          <div class="grid">
+            <div class="grid-sizer"></div>
+            @foreach($latestAlbums as $key)
+              @php
+                $firstPhoto = \App\AlbumPhoto::where('album_id', $key->id)->first();
+              @endphp
               <div class="grid-item">
                 <figure>
-                  <img src="{{ url('img/blog01.jpg') }}">
-                  <a href="{{ url('img/blog01.jpg') }}" data-rel="lightcase"><div class="overlay"></div></a>
+                  <img src="{{ url('storage/' . $firstPhoto->filename) }}">
+                  <a href="{{ route('gallery.detail', $key->slug) }}" data-rel="lightcase"><div class="overlay"></div></a>
                   <figcaption class="figcaptionTop hidden-768"><i class="fa fa-camera-retro fa-2x"></i></figcaption>
-                  <figcaption class="figcaptionBottom"><a href="#">Delenit utroque vivendo est ea</a><br>12 July 2017</figcaption>
+                  <figcaption class="figcaptionBottom"><a href="{{ route('gallery.detail', $key->slug) }}">{{ $key->title }}</a><br>{{ \Carbon\Carbon::parse($key->created_at)->toFormattedDateString() }}</figcaption>
                 </figure>
               </div>
-              <div class="grid-item">
-                <figure>
-                  <img src="{{ url('img/blog04.jpg') }}">
-                  <a href="{{ url('img/blog04.jpg') }}" data-rel="lightcase"><div class="overlay"></div></a>
-                  <figcaption class="figcaptionTop hidden-768"><i class="fa fa-camera-retro fa-2x"></i></figcaption>
-                  <figcaption class="figcaptionBottom"><a href="#">Delenit utroque vivendo est ea</a><br>12 July 2017</figcaption>
-                </figure>
-              </div>
-            </div>
+            @endforeach
           </div>
         </section>
 
@@ -604,6 +459,9 @@
 
 
 @section('bottom')
+  <script src="{{ url('js/masonry.js') }}"></script>
+  <script src="{{ url('js/imagesloaded.js') }}"></script>
+  <script src="{{ url('js/custom.index.js') }}"></script>
   <script src="{{ url('js/custom.fullpage.js') }}"></script>
   <script src="https://nextparticle.nextco.de/nextparticle.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/dat-gui/0.6.4/dat.gui.min.js"></script>
