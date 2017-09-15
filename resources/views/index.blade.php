@@ -285,7 +285,7 @@
                   <div class="row mg-t-20">
                     <div class="col-md-3 col-sm-3 col-xs-3">
                       <figure class="roundImage">
-                        <img src="{{ url('img/bg-square.png') }}" style="background-image: url('./img/thumb.png');">
+                        <img src="{{ url('img/bg-square.png') }}" style="background-image: url('{{ url('img/thumb.png') }}');">
                       </figure>
                     </div>
                     <div class="col-md-9 col-sm-9">
@@ -306,7 +306,7 @@
                   <div class="row mg-t-20">
                     <div class="col-md-3 col-sm-3 col-xs-3">
                       <figure class="roundImage">
-                        <img src="{{ url('img/bg-square.png') }}" style="background-image: url('./img/thumb.png');">
+                        <img src="{{ url('img/bg-square.png') }}" style="background-image: url('{{ url('img/thumb.png') }}');">
                       </figure>
                     </div>
                     <div class="col-md-9 col-sm-9">
@@ -327,7 +327,7 @@
                   <div class="row mg-t-20">
                     <div class="col-md-3 col-sm-3 col-xs-3">
                       <figure class="roundImage">
-                        <img src="{{ url('img/bg-square.png') }}" style="background-image: url('./img/thumb.png');">
+                        <img src="{{ url('img/bg-square.png') }}" style="background-image: url('{{ url('img/thumb.png') }}');">
                       </figure>
                     </div>
                     <div class="col-md-9 col-sm-9">
@@ -348,7 +348,7 @@
                   <div class="row mg-t-20">
                     <div class="col-md-3 col-sm-3 col-xs-3">
                       <figure class="roundImage">
-                        <img src="{{ url('img/bg-square.png') }}" style="background-image: url('./img/thumb.png');">
+                        <img src="{{ url('img/bg-square.png') }}" style="background-image: url('{{ url('img/thumb.png') }}');">
                       </figure>
                     </div>
                     <div class="col-md-9 col-sm-9">
@@ -369,7 +369,7 @@
                   <div class="row mg-t-20">
                     <div class="col-md-3 col-sm-3 col-xs-3">
                       <figure class="roundImage">
-                        <img src="{{ url('img/bg-square.png') }}" style="background-image: url('./img/thumb.png');">
+                        <img src="{{ url('img/bg-square.png') }}" style="background-image: url('{{ url('img/thumb.png') }}');">
                       </figure>
                     </div>
                     <div class="col-md-9 col-sm-9">
@@ -390,7 +390,7 @@
                   <div class="row mg-t-20">
                     <div class="col-md-3 col-sm-3 col-xs-3">
                       <figure class="roundImage">
-                        <img src="{{ url('img/bg-square.png') }}" style="background-image: url('./img/thumb.png');">
+                        <img src="{{ url('img/bg-square.png') }}" style="background-image: url('{{ url('img/thumb.png') }}');">
                       </figure>
                     </div>
                     <div class="col-md-9 col-sm-9">
