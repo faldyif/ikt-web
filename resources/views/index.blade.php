@@ -199,7 +199,7 @@
               </figure>
               <p class="black small mg-t-20"><span>{{ \Carbon\Carbon::parse($key->created_at)->toFormattedDateString() }}</span> / <span>{{ $key->view_count }} readers</span></p>
               <a href="{{ route('news.detail', $key->slug) }}"><h4 class="roboMedium">{{ $key->title }}</h4></a>
-              <p class="black">{!! substr(strip_tags($key->content), 0, 300) !!}</p>
+              <p class="black">{!! substr(strip_tags($key->content), 0, 100) !!}</p>
             </section>
           </div>
           @endforeach
