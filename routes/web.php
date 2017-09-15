@@ -127,5 +127,5 @@ Route::get('tabs', function () {
     return view('tabs-layout');
 });
 Route::get('ye', function () {
-    return view('gcg');
+    return view('index-particle');
 });
