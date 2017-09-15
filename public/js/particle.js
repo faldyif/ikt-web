@@ -1,42 +1,42 @@
 var canvasInteractive = document.getElementById('canvas-interactive');
 var canvasReference = document.getElementById('canvas-reference');
-    
+ 
 var contextInteractive = canvasInteractive.getContext('2d');
 var contextReference = canvasReference.getContext('2d');
 
-var image = document.getElementById('img'); 
- 
+var image = document.getElementById('img');
+
 var width = canvasInteractive.width = canvasReference.width = window.innerWidth;
 var height = canvasInteractive.height = canvasReference.height = window.innerHeight;
- 
+
 var logoDimensions = {
-    x: 500,
-    y: 500
+   x: 500,
+   y: 500
 };
- 
+
 var center = {
-    x: width / 2,
-    y: height / 2
+   x: width / 2,
+   y: height / 2
 };
- 
+
 var logoLocation = {
-    x: center.x - logoDimensions.x / 2,
-    y: center.y - logoDimensions.y / 2
+   x: center.x - logoDimensions.x / 2,
+   y: center.y - logoDimensions.y / 2
 };
- 
+
 var mouse = {
-    radius: Math.pow(30, 2),
-    x: 0,
-    y: 0
+   radius: Math.pow(100, 1.75),
+   x: 0,
+   y: 0
 };
- 
+
 var particleArr = [];
 var particleAttributes = {
-    friction: 0.95,
-    ease: 0.19,
-    spacing: 3,
-    size: 2,
-    color: "#ffffff"
+   friction: 0.95,
+   ease: 0.19,
+   spacing: 3,
+   size: 2,
+   color: "#ffffff"
 };
 
 function Particle(x, y) {
@@ -81,19 +81,19 @@ function init() {
 init();
 
 function update() {
-     for(var i = 0; i < particleArr.length; i++) {
-         var p = particleArr[i];
-         p.update();
-     }
+    for(var i = 0; i < particleArr.length; i++) {
+        var p = particleArr[i];
+        p.update();
+    }
 };
 
 function render() {
-     contextInteractive.clearRect(0, 0, width, height);
-     for(var i = 0; i < particleArr.length; i++) {
-         var p = particleArr[i];
-         contextInteractive.fillStyle = particleAttributes.color;
-         contextInteractive.fillRect(p.x, p.y, particleAttributes.size, particleAttributes.size);
-     }
+    contextInteractive.clearRect(0, 0, width, height);
+    for(var i = 0; i < particleArr.length; i++) {
+        var p = particleArr[i];
+        contextInteractive.fillStyle = particleAttributes.color;
+        contextInteractive.fillRect(p.x, p.y, particleAttributes.size, particleAttributes.size);
+    }
 };
 
 function animate() {
