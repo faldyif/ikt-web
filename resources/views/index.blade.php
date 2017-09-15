@@ -107,7 +107,7 @@
           </figure>
         </div>
 
-        <div class="col-md-6 missionSection wow fadeInUpBig" data-wow-delay="0.5s">
+        <div class="col-md-6 missionSection wow fadeInUpBig bg-pattern">
           <div class="container-fluid">
             <hr class="hrSpec hrSpecOrange">
             <h3 class="mg-b-30 roboBold">Misi</h3>
