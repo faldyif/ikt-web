@@ -112,7 +112,7 @@
           </figure>
         </div>
 
-        <div class="col-md-6 missionSection wow fadeInUpBig" data-wow-delay="0.5s">
+        <div class="col-md-6 missionSection wow fadeInUpBig bg-pattern">
           <div class="container-fluid">
             <hr class="hrSpec hrSpecOrange">
             <h3 class="mg-b-30 roboBold">Misi</h3>
@@ -253,7 +253,7 @@
               <div class="grid-item">
                 <figure>
                   <img src="{{ url('storage/' . $firstPhoto->filename) }}">
-                  <a href="{{ route('gallery.detail', $key->slug) }}" data-rel="lightcase"><div class="overlay"></div></a>
+                  <a href="{{ route('gallery.detail', $key->slug) }}"><div class="overlay"></div></a>
                   <figcaption class="figcaptionTop hidden-768"><i class="fa fa-camera-retro fa-2x"></i></figcaption>
                   <figcaption class="figcaptionBottom"><a href="{{ route('gallery.detail', $key->slug) }}">{{ $key->title }}</a><br>{{ \Carbon\Carbon::parse($key->created_at)->toFormattedDateString() }}</figcaption>
                 </figure>
