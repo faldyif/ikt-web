@@ -8,10 +8,11 @@
       <div class="heroTitle" style="background-image: url('./img/2.jpg');">
         <div class="overlay"></div>
         <section class="container-fluid pd-30">
-          <h2 class="roboBold wh alignCenter" data-wow-delay="0.4s">Visi dan Misi Perusahaan</h2>
-          <h4 class="alignCenter wh mg-t-20">PT. Indonesia Kendaraan Terminal</h4>
+          <h2 class="roboBold wh alignCenter" data-wow-delay="0.4s">{{ trans('vission-mission.head-title') }}</h2>
+          <h4 class="alignCenter wh mg-t-20">{{ trans('vission-mission.sub-title') }}</h4>
         </section>
       </div>
+        
     </section>
     <!--/HERO-->
     <!-- -->
@@ -19,64 +20,7 @@
       <div class="container-fluid wow fadeInUpBig">
         <section class="row pd-t-20">
           <div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 pd-bt-30">
-          <hr class="hrSpec hrSpecOrange">
-            <h3 class="mg-b-30 roboBold">Visi Perusahaan</h3>
-            <p>
-              Menjadi Pengelola Terminal Kendaraan Kelass Dunia yang Unggul dalam Operasional dan Pelayanan
-            </p>
-            <section class="slider mg-bt-30">
-              <div>
-                  <figure class="">
-                    <img src="{{ url('img/image1.png') }}">
-                  </figure>
-              </div>
-            </section>
-            <hr class="hrSpec hrSpecOrange">
-            <h3 class="mg-b-30 roboBold">Misi Perusahaan</h3>
-            <div class="col-md-12">
-              <div class="col-md-2">
-                <img src="{{ url('img/1.png') }}" style="width: 80px; height: auto; margin: 10px">
-              </div>
-              <div class="col-md-10">
-                <p>
-                  <h4>1. Pelanggan dan Mitra<br></h4>
-                  Menyediakan, membangun, dan mengoperasikan pelayanan terminal dan logistik secara terintegrasi, berkualitas dan handal untuk memenuhi kepuasan pelanggan dan mitra.
-                </p>
-              </div>
-            </div>
-            <div class="col-md-12">
-              <div class="col-md-2">
-                <img src="{{ url('img/2.png') }}" style="width: 80px; height: auto; margin: 10px">
-              </div>
-              <div class="col-md-10">
-                <p>
-                  <h4>2. Pemegang Saham<br></h4>
-                  Memaksimlkan nilai perusahaan bagi pemegang saham dan meningkatkan kesehatan perusahaan secara profesional dengan memenuhi aspeol-aspek tatakelola perusahaan yang baik.
-                </p>
-              </div>
-            </div>
-            <div class="col-md-12">
-              <div class="col-md-2">
-                <img src="{{ url('img/3.png') }}" style="width: 80px; height: auto; margin: 10px">
-              </div>
-              <div class="col-md-10">
-                <p>
-                  <h4>3. Karyawan</h4>
-                  Menciptakan lingkungan tenaga kerja yang nyaman bagi karyawan, mewujudkan insan perusahaan yang fokus pada pelanggan, berintegrasi, bangga kepada perusahaan dan budayanya serta memberikan kesejahteraan dan kepuasan kepada karyawan.
-                </p>
-              </div>
-            </div>
-            <div class="col-md-12">
-              <div class="col-md-2">
-                <img src="{{ url('img/4.png') }}" style="width: 80px; height: auto; margin: 10px">
-              </div>
-              <div class="col-md-10">
-                <p>
-                  <h4>4. Masyarakat dan Negara<br></h4>
-                  Menjamin kelancaran dari keamanan arus barang untuk mewujudkan efisiensi biaya logistik dalam rangka memacu pertumbuhan ekonomi yang berdampak pada peningkatan kesejahteraan masyarakat.
-                </p>
-              </div>
-            </div>
+          {!! trans('vission-mission.content') !!}
             <section class="row mg-lr-10 mg-t-30">
               <h4 class="roboMedium text-center">Share this post : </h4>
               <div class="socialMedia text-center">

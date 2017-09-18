@@ -1,6 +1,6 @@
 @extends('layout.app')
 
-@section('title','IPC')
+@section('title','Agenda | IPC Car Terminal')
 
 @section('content')
 <!--HERO-->

@@ -1,6 +1,6 @@
 @extends('layout.app')
 
-@section('title','Press Release Detail')
+@section('title','Press Release Detail | IPC Car Terminal')
 
 @section('content')
 <!--HERO-->
