@@ -15,7 +15,7 @@
         <section class="containerCenter alignCenter">
           <section class="row">
             <div class="col-md-4 col-md-offset-4 col-sm-4 col-sm-offset-4 col-xs-6 col-xs-offset-3">
-                
+
             </div>
           </section>
           <div>
@@ -55,29 +55,30 @@
         <section class="row">
           <div class="about col-md-6 wow fadeInUpBig">
             <hr class="hrSpec hrSpecOrange">
-            <h3 class="mg-b-30 roboBold">Tentang Kami</h3>
+            <h3 class="mg-b-0 roboBlack">Tentang Kami</h3>
+            <h2 class="mg-b-30 mg-t-5 roboLight">Indonesia Kendaraan Terminal</h2>
             <p class="big">Indonesia Kendaraan Terminal Merupakan Perusahaan Kendaraan Terminal yang Beroperasi Tanjung Priok Jakarta Indonesia, memberikan pelayanan Cargodooring, Stevedoring, Receiving & delevering serta berbagai Pelayanan Terbaik untuk Pelanggan Kami.</p>
-            <p><a href="#" class="roboMedium">Selengkapnya</a></p>
+            <!-- <p><a href="#" class="roboMedium">Selengkapnya</a></p> -->
           </div>
           <div class="col-md-6 col-sm-6 figAbout wow fadeInRightBig" data-wow-delay="0.5s">
             <section class="row">
               <div class="col-md-6 col-sm-6 col-xs-6">
                 <figure>
-                  <img src="{{ url('img/bg-img-por.png') }}" style="background-image: url('./img/4.jpg');">
+                  <img src="{{ url('img/bg-img-por.png') }}" style="background-image: url('{{ url('img/4.jpg') }}');">
                 </figure>
               </div>
               <div class="col-md-6 col-sm-6 col-xs-6">
                 <section class="row">
                   <div class="col-md-12">
                     <figure>
-                      <img src="{{ url('img/bg-img.png') }}" style="background-image: url('./img/1.jpg');">
+                      <img src="{{ url('img/bg-img.png') }}" style="background-image: url('{{ url('img/1.jpg') }}');">
                     </figure>
                   </div>
                 </section>
                 <section class="row">
                   <div class="col-md-12">
                     <figure>
-                      <img src="{{ url('img/bg-img.png') }}" style="background-image: url('./img/2.jpg');">
+                      <img src="{{ url('img/bg-img.png') }}" style="background-image: url('{{ url('img/2.jpg') }}');">
                     </figure>
                   </div>
                 </section>
@@ -105,7 +106,7 @@
           </figure>
         </div>
 
-        <div class="col-md-6 missionSection wow fadeInUpBig" data-wow-delay="0.5s">
+        <div class="col-md-6 missionSection wow fadeInUpBig bg-pattern">
           <div class="container-fluid">
             <hr class="hrSpec hrSpecOrange">
             <h3 class="mg-b-30 roboBold">Misi</h3>
@@ -114,14 +115,12 @@
                 <div class="panel-heading">
                   <h4 class="panel-title">
                     <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">
-                      <h4><i class="fa fa-check-circle-o fa-2x hidden-400"></i> Pelanggan dan Mitra<i class="fa fa-chevron-down"></i></h4>
+                      <h4><i class="fa fa-check-circle-o fa-2x hidden-400"></i> Pelanggan dan Mitra</h4>
                     </a>
                   </h4>
                 </div>
                 <div id="collapse1" class="panel-collapse collapse">
-                  <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                  <div class="panel-body">Menyediakan, membangun, dan mengoperasikan pelayanan terminal dan logistik secara terintegrasi, berkualitas dan handal untuk memenuhi kepuasan pelanggan dan mitra.
                   </div>
                 </div>
               </div>
@@ -129,42 +128,36 @@
                 <div class="panel-heading">
                   <h4 class="panel-title">
                     <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">
-                      <h4><i class="fa fa-check-circle-o fa-2x hidden-400"></i> Pemegang Saham<i class="fa fa-chevron-down"></i></h4>
+                      <h4><i class="fa fa-check-circle-o fa-2x hidden-400"></i> Pemegang Saham</h4>
                     </a>
                   </h4>
                 </div>
                 <div id="collapse2" class="panel-collapse collapse">
-                  <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
+                  <div class="panel-body">Memaksimalkan nilai perusahaan bagi pemegang saham dan meningkatkan kesehatan perusahaan secara profesional dengan memenuhi aspeol-aspek tatakelola perusahaan yang baik.</div>
                 </div>
               </div>
               <div class="panel panel-default">
                 <div class="panel-heading">
                   <h4 class="panel-title">
                     <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">
-                      <h4><i class="fa fa-check-circle-o fa-2x hidden-400"></i> Karyawan<i class="fa fa-chevron-down"></i></h4>
+                      <h4><i class="fa fa-check-circle-o fa-2x hidden-400"></i> Karyawan</h4>
                     </a>
                   </h4>
                 </div>
                 <div id="collapse3" class="panel-collapse collapse">
-                  <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
+                  <div class="panel-body">Menciptakan lingkungan tenaga kerja yang nyaman bagi karyawan, mewujudkan insan perusahaan yang fokus pada pelanggan, berintegrasi, bangga kepada perusahaan dan budayanya serta memberikan kesejahteraan dan kepuasan kepada karyawan.</div>
                 </div>
               </div>
               <div class="panel panel-default">
                 <div class="panel-heading">
                   <h4 class="panel-title">
                     <a data-toggle="collapse" data-parent="#accordion" href="#collapse4">
-                      <h4><i class="fa fa-check-circle-o fa-2x hidden-400"></i> Masyarakat dan Negara <i class="fa fa-chevron-down"></i></h4>
+                      <h4><i class="fa fa-check-circle-o fa-2x hidden-400"></i> Masyarakat dan Negara </h4>
                     </a>
                   </h4>
                 </div>
                 <div id="collapse4" class="panel-collapse collapse">
-                  <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
+                  <div class="panel-body">Menjamin kelancaran dari keamanan arus barang untuk mewujudkan efisiensi biaya logistik dalam rangka memacu pertumbuhan ekonomi yang berdampak pada peningkatan kesejahteraan masyarakat.</div>
                 </div>
               </div>
             </div>
@@ -239,7 +232,7 @@
     </section> -->
     <!--/AGENDA -->
     <!--GALERRY-->
-    <section id="gallery" class="wow fadeInUp pagecontent">
+    <section id="gallery" class="wow fadeInUp pagecontent" style="margin: 0 auto;">
       <div class="container-fluid">
         <hr class="hrSpec hrSpecOrange">
         <h3 class="roboBold">Gallery</h3>
@@ -254,7 +247,7 @@
               <div class="grid-item">
                 <figure>
                   <img src="{{ url('storage/' . $firstPhoto->filename) }}">
-                  <a href="{{ route('gallery.detail', $key->slug) }}" data-rel="lightcase"><div class="overlay"></div></a>
+                  <a href="{{ route('gallery.detail', $key->slug) }}"><div class="overlay"></div></a>
                   <figcaption class="figcaptionTop hidden-768"><i class="fa fa-camera-retro fa-2x"></i></figcaption>
                   <figcaption class="figcaptionBottom"><a href="{{ route('gallery.detail', $key->slug) }}">{{ $key->title }}</a><br>{{ \Carbon\Carbon::parse($key->created_at)->toFormattedDateString() }}</figcaption>
                 </figure>
@@ -272,7 +265,7 @@
       <section id="testi" class="wow fadeInRight">
         <div class="container-fluid">
           <section class="pd-lr-30">
-            <hr class="hrSpec hrSpecWhite hidden-400">
+            <hr class="hrSpec hrSpecOrange hidden-400">
             <h3 class="mg-b-30 roboBold">Testimonial</h3>
           </section>
           <div class="multiple-items-3 pd-lr-30">
@@ -286,7 +279,7 @@
                   <div class="row mg-t-20">
                     <div class="col-md-3 col-sm-3 col-xs-3">
                       <figure class="roundImage">
-                        <img src="{{ url('img/bg-square.png') }}" style="background-image: url('./img/thumb.png');">
+                        <img src="{{ url('img/bg-square.png') }}" style="background-image: url('{{ url('img/thumb.png') }}');">
                       </figure>
                     </div>
                     <div class="col-md-9 col-sm-9">
@@ -307,7 +300,7 @@
                   <div class="row mg-t-20">
                     <div class="col-md-3 col-sm-3 col-xs-3">
                       <figure class="roundImage">
-                        <img src="{{ url('img/bg-square.png') }}" style="background-image: url('./img/thumb.png');">
+                        <img src="{{ url('img/bg-square.png') }}" style="background-image: url('{{ url('img/thumb.png') }}');">
                       </figure>
                     </div>
                     <div class="col-md-9 col-sm-9">
@@ -328,7 +321,7 @@
                   <div class="row mg-t-20">
                     <div class="col-md-3 col-sm-3 col-xs-3">
                       <figure class="roundImage">
-                        <img src="{{ url('img/bg-square.png') }}" style="background-image: url('./img/thumb.png');">
+                        <img src="{{ url('img/bg-square.png') }}" style="background-image: url('{{ url('img/thumb.png') }}');">
                       </figure>
                     </div>
                     <div class="col-md-9 col-sm-9">
@@ -349,7 +342,7 @@
                   <div class="row mg-t-20">
                     <div class="col-md-3 col-sm-3 col-xs-3">
                       <figure class="roundImage">
-                        <img src="{{ url('img/bg-square.png') }}" style="background-image: url('./img/thumb.png');">
+                        <img src="{{ url('img/bg-square.png') }}" style="background-image: url('{{ url('img/thumb.png') }}');">
                       </figure>
                     </div>
                     <div class="col-md-9 col-sm-9">
@@ -370,7 +363,7 @@
                   <div class="row mg-t-20">
                     <div class="col-md-3 col-sm-3 col-xs-3">
                       <figure class="roundImage">
-                        <img src="{{ url('img/bg-square.png') }}" style="background-image: url('./img/thumb.png');">
+                        <img src="{{ url('img/bg-square.png') }}" style="background-image: url('{{ url('img/thumb.png') }}');">
                       </figure>
                     </div>
                     <div class="col-md-9 col-sm-9">
@@ -391,7 +384,7 @@
                   <div class="row mg-t-20">
                     <div class="col-md-3 col-sm-3 col-xs-3">
                       <figure class="roundImage">
-                        <img src="{{ url('img/bg-square.png') }}" style="background-image: url('./img/thumb.png');">
+                        <img src="{{ url('img/bg-square.png') }}" style="background-image: url('{{ url('img/thumb.png') }}');">
                       </figure>
                     </div>
                     <div class="col-md-9 col-sm-9">

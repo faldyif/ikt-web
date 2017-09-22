@@ -11,7 +11,7 @@ class IndexController extends Controller
     public function index()
     {
         $latestNews = News::latest()->limit(10)->get();
-        $latestAlbums = Album::latest()->limit(6)->get();
+        $latestAlbums = Album::latest()->limit(3)->get();
         return view('index')
             ->with('latestNews', $latestNews)
             ->with('latestAlbums', $latestAlbums);
