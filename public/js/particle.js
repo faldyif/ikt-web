@@ -11,7 +11,7 @@ var height = canvasInteractive.height = canvasReference.height = window.innerHei
 
 var logoDimensions = {
    x: 500,
-   y: 500
+   y: 800
 };
 
 var center = {
@@ -21,7 +21,7 @@ var center = {
 
 var logoLocation = {
    x: center.x - logoDimensions.x / 2,
-   y: center.y - logoDimensions.y / 2
+   y: center.y - logoDimensions.y / 4
 };
 
 var mouse = {

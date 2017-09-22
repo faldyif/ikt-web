@@ -18,9 +18,11 @@
                 
             </div>
           </section>
-          <img src="{{ url('img/new-logo.png') }}" alt="..." id="img">
-          <canvas id="canvas-interactive"></canvas>
-          <canvas id="canvas-reference"></canvas>
+          <div>
+            <img src="{{ url('img/new-logo.png') }}" alt="..." id="img">
+            <canvas id="canvas-interactive"></canvas>
+            <canvas id="canvas-reference"></canvas>
+          </div>
         </section>
       </figure>
     </div>
