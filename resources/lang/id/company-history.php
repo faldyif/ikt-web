@@ -14,15 +14,6 @@ return [
                 <p>
                 PT. Pelabuhan Indonesia II segera melakukan kajian dengan mencari beberapa alternatif lokasi yang akan dibangun fasilitas terminal kendaraan.
                 </p>
-                <section class="slider mg-bt-30">
-                    <div>
-                    <a href="{{ url("img/history01.jpg") }}" data-rel="lightcase">
-                        <figure class="">
-                        <img src="{{ url("img/history01.jpg") }}">
-                        </figure>
-                    </a>
-                    </div>
-                </section>
                 <p>
                 Hasil kajian dan survey kemudian menetapkan Lahan HPL milik PT. Pelabuhan Indonesia II yang saat itu digunakan oleh PT. Dock &amp Perkapalan Kodja Bahari (DKB) dimungkinkan untuk dibangun fasilitas Terminal kendaraan dimaksud.
                 </p>

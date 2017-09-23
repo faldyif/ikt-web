@@ -18,5 +18,7 @@ return [
     'company.vision-mission' => 'company-vision-mission',
     'company.achievements' => 'achievements',
     'company.clients' => 'our-customers',
+    'company.subsidiary' => 'subsidiary',
+    'company.magazine' => 'limouzine-magazine',
     // other routes name here
 ];

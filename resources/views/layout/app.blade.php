@@ -32,7 +32,7 @@
           <span class="icon-bar"></span>
         </button>
         <a class="navbar-brand" href="{{ route('welcome') }}">
-          <img class="" src="{{ url('img/ikt-logo.gif') }}">
+          <img class="" src="{{ url('img/ikt-logo.png') }}">
         </a>
       </div>
 
@@ -68,7 +68,7 @@
                 </ul>
               </li>
               <li><a href="{{ route('company.achievements') }}">{{ trans('menu.achievements') }}</a></li>
-              <li><a href="#">{{ trans('menu.subsidiary') }}</a></li>
+              <li><a href="{{ route('company.subsidiary') }}">{{ trans('menu.subsidiary') }}</a></li>
             </ul>
           </li>
           <li class="has-children"><a href="#">{{ strtoupper(trans('menu.services')) }}</a>
@@ -103,7 +103,7 @@
               <li><a href="#">{{ trans('menu.statistic-data') }}</a></li>
               <li><a href="{{ route('company.clients') }}">{{ trans('menu.our-customer') }}</a></li>
               <li><a href="#">{{ trans('menu.procurement') }}</a></li>
-              <li><a href="#">{{ trans('menu.limouzine-magazine') }}</a></li>
+              <li><a href="{{ route('company.magazine') }}">{{ trans('menu.limouzine-magazine') }}</a></li>
               <li><a href="{{ route('gallery') }}">{{ trans('menu.gallery') }}</a></li>
             </ul>
           </li>

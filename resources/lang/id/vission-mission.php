@@ -13,7 +13,7 @@ return [
     <section class="slider mg-bt-30">
       <div>
           <figure class="">
-            <img src="{{ url("img/image1.png") }}">
+            <img src="' . url("img/image1.png") . '">
           </figure>
       </div>
     </section>
@@ -21,7 +21,7 @@ return [
     <h3 class="mg-b-30 roboBold">Misi Perusahaan</h3>
     <div class="col-md-12">
       <div class="col-md-2">
-        <img src="{{ url("img/1.png") }}" style="width: 80px; height: auto; margin: 10px">
+        <img src="' . url("img/1.png") . '" style="width: 80px; height: auto; margin: 10px">
       </div>
       <div class="col-md-10">
         <p>
@@ -32,7 +32,7 @@ return [
     </div>
     <div class="col-md-12">
       <div class="col-md-2">
-        <img src="{{ url("img/2.png") }}" style="width: 80px; height: auto; margin: 10px">
+        <img src="' . url("img/2.png") . '" style="width: 80px; height: auto; margin: 10px">
       </div>
       <div class="col-md-10">
         <p>
@@ -43,7 +43,7 @@ return [
     </div>
     <div class="col-md-12">
       <div class="col-md-2">
-        <img src="{{ url("img/3.png") }}" style="width: 80px; height: auto; margin: 10px">
+        <img src="' . url("img/3.png") . '" style="width: 80px; height: auto; margin: 10px">
       </div>
       <div class="col-md-10">
         <p>
@@ -54,7 +54,7 @@ return [
     </div>
     <div class="col-md-12">
       <div class="col-md-2">
-        <img src="{{ url("img/4.png") }}" style="width: 80px; height: auto; margin: 10px">
+        <img src="' . url("img/4.png") . '" style="width: 80px; height: auto; margin: 10px">
       </div>
       <div class="col-md-10">
         <p>
