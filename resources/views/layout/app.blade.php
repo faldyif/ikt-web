@@ -44,7 +44,7 @@
               <li><a href="{{ route('company.about') }}">{{ trans('menu.profile') }}</a></li>
               <li><a href="{{ route('company.vision-mission') }}">{{ trans('menu.vision-mission') }}</a></li>
               <li><a href="{{ route('company.history') }}">{{ trans('menu.company-history') }}</a></li>
-              <li><a href="#">{{ trans('menu.gcg-application') }}</a>
+              <li><a href="{{ route('company.gcg') }}">{{ trans('menu.gcg-application') }}</a>
                 <!--<ul class="dropdown-menu level-2">-->
                 <!--<li><a href="#">Tata Kelola Perusahaan Berkelanjutan</a></li>-->
                 <!--<li><a href="#">Pemegang Saham &amp RUPS</a></li>-->

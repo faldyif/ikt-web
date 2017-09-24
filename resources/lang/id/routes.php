@@ -20,5 +20,6 @@ return [
     'company.clients' => 'pelanggan-kami',
     'company.subsidiary' => 'anak-perusahaan',
     'company.magazine' => 'limouzine-magazine',
+    'company.gcg' => 'good-corporate-governance',
     // other routes name here
 ];
