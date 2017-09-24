@@ -222,6 +222,13 @@ footer {
 #thisToggle,#thisToggle-r {
 	display: none;
 }
+.img-ikt {
+	figure {
+		img {
+			@include img-bg();
+		}
+	}
+}
 /***********************************
 news-list page
 ***********************************/
