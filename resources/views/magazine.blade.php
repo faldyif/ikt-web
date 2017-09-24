@@ -22,7 +22,11 @@
                     <div class="col-md-12">
                         <hr class="hrSpec hrSpecOrange">
                         <h3 class="mg-b-30 roboBold">Limouzine Magazine</h3>
-                            <img class="center-block" src='http://online.fliphtml5.com/tlahn/ghxy/files/shot.jpg' data-rel='fh5-light-box-demo' data-href='http://online.fliphtml5.com/tlahn/ghxy/' data-width='900' data-height='500' data-title='Markir.in Smart Parking System'>
+                        <img src='http://online.fliphtml5.com/tlahn/xoee/files/shot.jpg' data-rel='fh5-light-box-demo' data-href='http://online.fliphtml5.com/tlahn/xoee/' data-width='700' data-height='400' data-title='Cover Edisi 1'>
+                        <img src='http://online.fliphtml5.com/tlahn/ydua/files/shot.jpg' data-rel='fh5-light-box-demo' data-href='http://online.fliphtml5.com/tlahn/ydua/' data-width='700' data-height='400' data-title='Cover Edisi 2'>
+                        <img src='http://online.fliphtml5.com/tlahn/ewgo/files/shot.jpg' data-rel='fh5-light-box-demo' data-href='http://online.fliphtml5.com/tlahn/ewgo/' data-width='700' data-height='400' data-title='Cover Edisi 3'>
+                        <img src='http://online.fliphtml5.com/tlahn/kwsu/files/shot.jpg' data-rel='fh5-light-box-demo' data-href='http://online.fliphtml5.com/tlahn/kwsu/' data-width='700' data-height='400' data-title='Cover Edisi 4'>
+                        <img src='http://online.fliphtml5.com/tlahn/hwjp/files/shot.jpg' data-rel='fh5-light-box-demo' data-href='http://online.fliphtml5.com/tlahn/hwjp/' data-width='700' data-height='400' data-title='Cover Edisi 5'>
                         </div>
                     </div>
                 </div>

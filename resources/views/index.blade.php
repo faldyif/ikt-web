@@ -10,7 +10,7 @@
   <section class="">
     <div>
       <figure class="figSlider">
-        <img src="{{ url('img/3.jpg') }}">
+        <img src="{{ url('img/depan.jpeg') }}">
         <div class="overlay"></div>
         <section class="containerCenter alignCenter">
           <section class="row">
@@ -18,11 +18,17 @@
 
             </div>
           </section>
-          <div>
-            <img src="{{ url('img/new-logo.png') }}" alt="..." id="img">
-            <canvas id="canvas-interactive"></canvas>
-            <canvas id="canvas-reference"></canvas>
-          </div>
+          <img id="logo"
+               data-init-position="random"
+               data-init-direction="random"
+               data-particle-gap="1"
+               data-width="400"
+               data-height="400"
+               data-max-width="1000"
+               data-max-height="1000"
+               data-gravity="0.2"
+               data-mouse-force="25"
+               src="{{ url('img/ikt.png') }}">
         </section>
       </figure>
     </div>
@@ -450,7 +456,7 @@
   <script src="{{ url('js/imagesloaded.js') }}"></script>
   <script src="{{ url('js/custom.index.js') }}"></script>
   <script src="{{ url('js/custom.fullpage.js') }}"></script>
-  <script src="{{ url('js/particle.js') }}"></script>
+  {{--<script src="{{ url('js/particle.js') }}"></script>--}}
   <script src="https://nextparticle.nextco.de/nextparticle.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/dat-gui/0.6.4/dat.gui.min.js"></script>
   <script type="text/javascript">
