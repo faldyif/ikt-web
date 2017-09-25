@@ -119,6 +119,16 @@ Route::get(trans('routes.press-release').'/{press_release}', function ($press_re
 Route::get('search', 'SearchController@search')->name('search');
 
 
+Route::get(trans('routes.facilities.fas'), function () {
+    return view('facilities-prim');
+})->name('facilities.fas');
+Route::get(trans('routes.facilities.fas-1'), function () {
+    return view('facilities-sec');
+})->name('facilities.fas-1');
+Route::get(trans('routes.facilities.fas-2'), function () {
+    return view('facilities-tools');
+})->name('facilities.fas-2');
+
 /*
  * Temporary/testing routes
  */
