@@ -5,7 +5,7 @@
 @section('content')
 <!--HERO-->
     <section id="heroTitle">
-      <div class="heroTitle" style="background-image: url('./img/2.jpg');">
+      <div class="heroTitle" style="background-image: url('{{ url('img/2.jpg') }}');">
         <div class="overlay"></div>
         <section class="container-fluid pd-30">
           <h2 class="roboBold wh alignCenter" data-wow-delay="0.4s">Value Added Service</h2>
@@ -24,19 +24,6 @@
             <h3 class="mg-b-30 roboBold">Value Added Service</h3>
               <h2>Coming Soon...</h2>
             </div>
-            
-            <section class="col-md-12 row mg-lr-10 mg-t-30">
-              <center>
-              <h4 class="roboMedium text-center">Share this post : </h4>
-              <div class="socialMedia text-center">
-                <ul class="noPad">
-                  <li><a class="fb" href="#"><i class="fa fa-lg fa-facebook"></i></a></li>
-                  <li><a class="tw" href="#"><i class="fa fa-lg fa-twitter"></i></a></li>
-                  <li><a class="ig" href="#"><i class="fa fa-lg fa-instagram"></i></a></li>
-                </ul>
-              </div>
-              </center>
-            </section>
           </div>
         </section>
       </div>

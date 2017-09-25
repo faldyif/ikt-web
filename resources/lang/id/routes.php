@@ -18,5 +18,8 @@ return [
     'company.vision-mission' => 'visi-misi-perusahaan',
     'company.achievements' => 'penghargaan',
     'company.clients' => 'pelanggan-kami',
+    'company.subsidiary' => 'anak-perusahaan',
+    'company.magazine' => 'limouzine-magazine',
+    'company.gcg' => 'good-corporate-governance',
     // other routes name here
 ];

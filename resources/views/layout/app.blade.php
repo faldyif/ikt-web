@@ -32,7 +32,7 @@
           <span class="icon-bar"></span>
         </button>
         <a class="navbar-brand" href="{{ route('welcome') }}">
-          <img class="" src="{{ url('img/ikt-logo.gif') }}">
+          <img class="" src="{{ url('img/ikt-logo.png') }}">
         </a>
       </div>
 
@@ -44,7 +44,7 @@
               <li><a href="{{ route('company.about') }}">{{ trans('menu.profile') }}</a></li>
               <li><a href="{{ route('company.vision-mission') }}">{{ trans('menu.vision-mission') }}</a></li>
               <li><a href="{{ route('company.history') }}">{{ trans('menu.company-history') }}</a></li>
-              <li><a href="#">{{ trans('menu.gcg-application') }}</a>
+              <li><a href="{{ route('company.gcg') }}">{{ trans('menu.gcg-application') }}</a>
                 <!--<ul class="dropdown-menu level-2">-->
                 <!--<li><a href="#">Tata Kelola Perusahaan Berkelanjutan</a></li>-->
                 <!--<li><a href="#">Pemegang Saham &amp RUPS</a></li>-->
@@ -68,7 +68,7 @@
                 </ul>
               </li>
               <li><a href="{{ route('company.achievements') }}">{{ trans('menu.achievements') }}</a></li>
-              <li><a href="#">{{ trans('menu.subsidiary') }}</a></li>
+              <li><a href="{{ route('company.subsidiary') }}">{{ trans('menu.subsidiary') }}</a></li>
             </ul>
           </li>
           <li class="has-children"><a href="#">{{ strtoupper(trans('menu.services')) }}</a>
@@ -103,7 +103,7 @@
               <li><a href="#">{{ trans('menu.statistic-data') }}</a></li>
               <li><a href="{{ route('company.clients') }}">{{ trans('menu.our-customer') }}</a></li>
               <li><a href="#">{{ trans('menu.procurement') }}</a></li>
-              <li><a href="#">{{ trans('menu.limouzine-magazine') }}</a></li>
+              <li><a href="{{ route('company.magazine') }}">{{ trans('menu.limouzine-magazine') }}</a></li>
               <li><a href="{{ route('gallery') }}">{{ trans('menu.gallery') }}</a></li>
             </ul>
           </li>

@@ -73,6 +73,18 @@ Route::get(trans('routes.company.clients'), function () {
     return view('clients');
 })->name('company.clients');
 
+Route::get(trans('routes.company.subsidiary'), function () {
+    return view('subcompany');
+})->name('company.subsidiary');
+
+Route::get(trans('routes.company.magazine'), function () {
+    return view('magazine');
+})->name('company.magazine');
+
+Route::get(trans('routes.company.gcg'), function () {
+    return view('gcg');
+})->name('company.gcg');
+
 /*
  * Services route groups
  */
