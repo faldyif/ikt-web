@@ -90,7 +90,7 @@
           </li>
           <li class="has-children"><a href="#">{{ strtoupper(trans('menu.facilities')) }}</a>
             <ul class="dropdown-menu dropdown-menu-opacity">
-              <li><a href="{{ route('facilities') }}">{{ trans('menu.main-facilities') }}</a>
+              <li><a href="#">{{ trans('menu.main-facilities') }}</a>
               <li><a href="#">{{ trans('menu.support-facilities') }}</a></li>
               <li><a href="#">{{ trans('menu.equipment-facilities') }}</a></li>
             </ul>
