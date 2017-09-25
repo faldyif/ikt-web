@@ -1,3 +1,4 @@
+window.onload = function(){
 var canvasInteractive = document.getElementById('canvas-interactive');
 var canvasReference = document.getElementById('canvas-reference');
  
@@ -53,7 +54,7 @@ function Particle(x, y) {
  
 Particle.prototype.update = function() {
     this.rx = mouse.x - this.x;
-    this.ry = mouse.y - this.y;
+    this.ry = mouse.y - this.y + 80;
     this.distance = this.rx * this.rx + this.ry * this.ry;
     this.force = -mouse.radius / this.distance;
     if(this.distance < mouse.radius) {
@@ -124,3 +125,4 @@ document.body.addEventListener("touchend", function(event) {
     mouse.x = 0;
     mouse.y = 0;
 }, false);
+};

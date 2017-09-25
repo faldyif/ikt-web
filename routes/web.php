@@ -119,6 +119,7 @@ Route::get(trans('routes.press-release').'/{press_release}', function ($press_re
 Route::get('search', 'SearchController@search')->name('search');
 
 
+
 /*
  * Temporary/testing routes
  */
