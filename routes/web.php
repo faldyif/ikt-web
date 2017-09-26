@@ -130,7 +130,7 @@ Route::get(trans('routes.press-release').'/{press_release}', function ($press_re
 // Search
 Route::get('search', 'SearchController@search')->name('search');
 
-
+// Facilities
 Route::get(trans('routes.facilities.fas'), function () {
     return view('facilities-prim');
 })->name('facilities.fas');
@@ -140,6 +140,30 @@ Route::get(trans('routes.facilities.fas-1'), function () {
 Route::get(trans('routes.facilities.fas-2'), function () {
     return view('facilities-tools');
 })->name('facilities.fas-2');
+
+// CSR
+Route::get(trans('routes.csr.education'), function () {
+    return view('education');
+})->name('csr.education');
+Route::get(trans('routes.csr.youth'), function () {
+    return view('youth');
+})->name('csr.youth');
+Route::get(trans('routes.csr.health'), function () {
+    return view('health');
+})->name('csr.health');
+Route::get(trans('routes.csr.sport'), function () {
+    return view('sport');
+})->name('csr.sport');
+
+// Annual Report
+Route::get(trans('routes.annual'), function () {
+    return view('annual-report');
+})->name('annual');
+
+// Statistic Data
+Route::get(trans('routes.statistic'), function () {
+    return view('statistic');
+})->name('statistic');
 
 /*
  * Temporary/testing routes
