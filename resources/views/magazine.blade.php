@@ -20,13 +20,61 @@
             <section class="row pd-t-20">
                 <div class="col-md-10 col-sm-10 col-sm-offset-1 pd-bt-30">
                     <div class="col-md-12">
-                        <hr class="hrSpec hrSpecOrange">
-                        <h3 class="mg-b-30 roboBold">Limouzine Magazine</h3>
-                        <img src='http://online.fliphtml5.com/tlahn/xoee/files/shot.jpg' data-rel='fh5-light-box-demo' data-href='http://online.fliphtml5.com/tlahn/xoee/' data-width='700' data-height='400' data-title='Cover Edisi 1'>
-                        <img src='http://online.fliphtml5.com/tlahn/ydua/files/shot.jpg' data-rel='fh5-light-box-demo' data-href='http://online.fliphtml5.com/tlahn/ydua/' data-width='700' data-height='400' data-title='Cover Edisi 2'>
-                        <img src='http://online.fliphtml5.com/tlahn/ewgo/files/shot.jpg' data-rel='fh5-light-box-demo' data-href='http://online.fliphtml5.com/tlahn/ewgo/' data-width='700' data-height='400' data-title='Cover Edisi 3'>
-                        <img src='http://online.fliphtml5.com/tlahn/kwsu/files/shot.jpg' data-rel='fh5-light-box-demo' data-href='http://online.fliphtml5.com/tlahn/kwsu/' data-width='700' data-height='400' data-title='Cover Edisi 4'>
-                        <img src='http://online.fliphtml5.com/tlahn/hwjp/files/shot.jpg' data-rel='fh5-light-box-demo' data-href='http://online.fliphtml5.com/tlahn/hwjp/' data-width='700' data-height='400' data-title='Cover Edisi 5'>
+                        <div class="row book-shelf">
+                            <div class="col-xs-4 col-md-2">
+                                <img src='http://online.fliphtml5.com/tlahn/xoee/files/shot.jpg' data-rel='fh5-light-box-demo' data-href='http://online.fliphtml5.com/tlahn/xoee/' data-width='700' data-height='400' data-title='Cover Edisi 1' class="img-responsive book">
+                                <p class="text-center text-caption">Edisi 1</p>
+                            </div>
+                            <div class="col-xs-4 col-md-2">
+                                <img src='http://online.fliphtml5.com/tlahn/ydua/files/shot.jpg' data-rel='fh5-light-box-demo' data-href='http://online.fliphtml5.com/tlahn/ydua/' data-width='700' data-height='400' data-title='Cover Edisi 2' class="img-responsive book">
+                                <p class="text-center text-caption">Edisi 2</p>
+                            </div>
+                            <div class="col-xs-4 col-md-2">
+                                <img src='http://online.fliphtml5.com/tlahn/ewgo/files/shot.jpg' data-rel='fh5-light-box-demo' data-href='http://online.fliphtml5.com/tlahn/ewgo/' data-width='700' data-height='400' data-title='Cover Edisi 3' class="img-responsive book">
+                                <p class="text-center text-caption">Edisi 3</p>
+                            </div>
+                            <div class="col-xs-12 shelf hidden-md hidden-lg"></div>
+                            <div class="col-xs-4 col-md-2">
+                                <img src='http://online.fliphtml5.com/tlahn/kwsu/files/shot.jpg' data-rel='fh5-light-box-demo' data-href='http://online.fliphtml5.com/tlahn/kwsu/' data-width='700' data-height='400' data-title='Cover Edisi 4' class="img-responsive book">
+                                <p class="text-center text-caption">Edisi 4</p>
+                            </div>
+                            <div class="col-xs-4 col-md-2">
+                                <img src='http://online.fliphtml5.com/tlahn/hwjp/files/shot.jpg' data-rel='fh5-light-box-demo' data-href='http://online.fliphtml5.com/tlahn/hwjp/' data-width='700' data-height='400' data-title='Cover Edisi 5' class="img-responsive book">
+                                <p class="text-center text-caption">Edisi 5</p>
+                            </div>
+                            <div class="col-xs-4 col-md-2">
+                                <img src='http://online.fliphtml5.com/tlahn/qzaa/files/shot.jpg' data-rel='fh5-light-box-demo' data-href='http://online.fliphtml5.com/tlahn/qzaa/' data-width='700' data-height='400' data-title='Cover Edisi 6' class="img-responsive book">
+                                <p class="text-center text-caption">Edisi 6</p>
+                            </div>
+                            <div class="col-xs-12 shelf"></div>
+                            <div class="col-xs-4 col-md-2">
+                                <img src='http://online.fliphtml5.com/tlahn/wmrg/files/shot.jpg' data-rel='fh5-light-box-demo' data-href='http://online.fliphtml5.com/tlahn/wmrg/' data-width='700' data-height='400' data-title='Cover OK' class="img-responsive book">
+                                <p class="text-center text-caption">Edisi OK</p>
+                            </div>
+                            <div class="col-xs-4 col-md-2">
+                                <img src="http://placehold.it/165x241" class="img-responsive book"/>
+                                <p class="text-center text-caption">Coming Soon</p>
+                            </div>
+                            <div class="col-xs-4 col-md-2">
+                                <img src="http://placehold.it/165x241" class="img-responsive book"/>
+                                <p class="text-center text-caption">Coming Soon</p>
+                            </div>
+                            <div class="col-xs-12 shelf hidden-md hidden-lg"></div>
+                            <div class="col-xs-4 col-md-2">
+                                <img src="http://placehold.it/165x241" class="img-responsive book"/>
+                                <p class="text-center text-caption">Coming Soon</p>
+                            </div>
+                            <div class="col-xs-4 col-md-2">
+                                <img src="http://placehold.it/165x241" class="img-responsive book"/>
+                                <p class="text-center text-caption">Coming Soon</p>
+                            </div>
+                            <div class="col-xs-4 col-md-2">
+                                <img src="http://placehold.it/165x241" class="img-responsive book"/>
+                                <p class="text-center text-caption">Coming Soon</p>
+                            </div>
+                            <div class="col-xs-12 shelf"></div>
+                        </div>
+
                         </div>
                     </div>
                 </div>
