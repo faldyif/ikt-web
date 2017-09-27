@@ -59,14 +59,15 @@
                 <!--</ul>-->
               </li>
               <li><a href="{{ route('company.culture') }}">{{ trans('menu.company-culture') }}</a></li>
-              <li class="has-children dropdown-submenu"><a href="#">{{ trans('menu.csr') }}</a>
+              <li><a href="{{ route('csr') }}">{{ trans('menu.csr') }}</a></li>
+              <!-- <li class="has-children dropdown-submenu"><a href="#">{{ trans('menu.csr') }}</a>
                 <ul class="dropdown-menu dropdown-menu-opacity level-2">
                   <li><a href="{{ route('csr.education') }}">{{ trans('menu.education-religion') }}</a></li>
                   <li><a href="{{ route('csr.sport') }}">{{ trans('menu.sport-art-culture') }}</a></li>
                   <li><a href="{{ route('csr.youth') }}">{{ trans('menu.youth-entrepreneurship') }}</a></li>
                   <li><a href="{{ route('csr.health') }}">{{ trans('menu.health-social-environment') }}</a></li>
                 </ul>
-              </li>
+              </li> -->
               <li><a href="{{ route('company.achievements') }}">{{ trans('menu.achievements') }}</a></li>
               <li><a href="{{ route('company.subsidiary') }}">{{ trans('menu.subsidiary') }}</a></li>
             </ul>
@@ -77,7 +78,7 @@
               <li><a href="{{ route('service.receiving') }}">{{ trans('menu.receiving-delivering') }}</a></li>
               <li><a href="#">{{ trans('menu.pre-delivery-inspection') }}</a></li>
               <li><a href="{{ route('service.vas') }}">{{ trans('menu.value-added-services') }}</a></li>
-              <li class="has-children dropdown-submenu"><a href="#">Value Added Services</a>
+              <!-- <li class="has-children dropdown-submenu"><a href="#">Value Added Services</a>
                 <ul class="dropdown-menu dropdown-menu-opacity level-2">
                   <li><a href="#">Minor Repair</a></li>
                   <li><a href="#">Washing</a></li>
@@ -85,7 +86,7 @@
                   <li><a href="#">Port Stock</a></li>
                   <li><a href="#">Roro Transfer Services</a></li>
                 </ul>
-              </li>
+              </li> -->
             </ul>
           </li>
           <li class="has-children"><a href="#">{{ strtoupper(trans('menu.facilities')) }}</a>

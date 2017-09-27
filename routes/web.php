@@ -50,7 +50,7 @@ Route::get(trans('routes.company.about'), function () {
 })->name('company.about');
 
 Route::get(trans('routes.company.culture'), function () {
-    return view('company-culture');
+    return view('company-culture-1');
 })->name('company.culture');
 
 Route::get(trans('routes.company.history'), function () {
@@ -142,6 +142,9 @@ Route::get(trans('routes.facilities.fas-2'), function () {
 })->name('facilities.fas-2');
 
 // CSR
+Route::get(trans('routes.csr'), function () {
+    return view('csr');
+})->name('csr');
 Route::get(trans('routes.csr.education'), function () {
     return view('education');
 })->name('csr.education');

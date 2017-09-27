@@ -23,17 +23,17 @@
                     <figure class="pd-30">
                         <img src="{{ url('img/maspion_car_terminal.jpg') }}" class="pd-30" alt="Maspion Car Terminal">
                         <figcaption class="caption">
-                            Maspion Car Terminal
+                            Anak Perusahaan IPC Car Terminal
                         </figcaption>
                     </figure>
                 </div>
               <div class="col-md-7">
                 <hr class="hrSpec hrSpecOrange">
-                <h3 class="mg-b-30 roboBold">Maspion Car Terminal</h3>
+                <h3 class="mg-b-30 roboBold">Anak Perusahaan IPC Car Terminal</h3>
                 <p>Sejalan dengan program yang dicanangkan oleh pemerintah yaitu program Tol Laut di Indonesia untuk meningkatkan kapasitas pelabuhan dan juga sejalan dengan program kerja IPC yaitu Pendulum Nusantara, maka PT Indonesia Kendaraan Terminal bekerjasama dengan PT Maspion Group turut serta dalam mengembangkan infrastruktur kepelabuhanan dengan melakukan pengembangan ke wilayah timur Indonesia.</p>
                 <p>Atas dasar itulah, pada tanggal 2 Desember 2014 telah dilakukan kesepakatan kerjasama antara IPC dalam hal ini diwakili oleh PT Indonesia Kendaraan Terminal dengan PT Maspion Industrial Estate untuk menyiapkan pembangunan dan pengoperasian terminal kendaraan di Maspion Industrial Estate yang berlokasi di Gresik yang akan menjadi terminal kendaraan pertama dan modern di Jawa Timur.</p>
                 
-                <a href="http://maspioncarterminal.co.id" target="_blank">Website Maspion Car Terminal</a>
+                <a href="http://maspioncarterminal.co.id" target="_blank">Website Anak Perusahaan IPC Car Terminal</a>
               </div>
             </section>
           </div>
