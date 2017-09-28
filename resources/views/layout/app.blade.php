@@ -38,7 +38,7 @@
 
       <div class="collapse navbar-collapse" id="Navbar">
         <ul class="nav navbar-nav navbar-nav-dropdown navbar-right">
-          <li class="active"><a href="{{ url('/') }}">{{ strtoupper(trans('menu.home')) }}</a></li>
+          <li class=""><a href="{{ url('/') }}">{{ strtoupper(trans('menu.home')) }}</a></li>
           <li class="has-children"><a>{{ strtoupper(trans('menu.about-us')) }}</a>
             <ul class="dropdown-menu dropdown-menu-opacity">
               <li><a href="{{ route('company.about') }}">{{ trans('menu.profile') }}</a></li>

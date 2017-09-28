@@ -41,18 +41,13 @@ class PressReleaseController extends Controller
     {
         $this->validate($request, [
             'title' => 'required',
-            'location' => 'required',
-            'date' => 'required',
-            'time' => 'required',
-            'description' => 'required'
+            'content' => 'required'
         ]);
 
         $pressRelease = new PressRelease;
 
         $pressRelease->title = $request->title;
-        $pressRelease->location = $request->location;
-        $pressRelease->description = $request->description;
-        $pressRelease->date_time = $request->date . ' ' . $request->time;
+        $pressRelease->content = $request->content;
         $pressRelease->save();
 
         Session::flash('message', 'Press Release berhasil diposkan!');
@@ -83,18 +78,13 @@ class PressReleaseController extends Controller
     {
         $this->validate($request, [
             'title' => 'required',
-            'location' => 'required',
-            'date' => 'required',
-            'time' => 'required',
-            'description' => 'required'
+            'content' => 'required'
         ]);
 
         $pressRelease = PressRelease::find($id);
 
         $pressRelease->title = $request->title;
-        $pressRelease->location = $request->location;
-        $pressRelease->description = $request->description;
-        $pressRelease->date_time = $request->date . ' ' . $request->time;
+        $pressRelease->content = $request->content;
         $pressRelease->touch();
 
         Session::flash('message', 'Press Release berhasil diedit!');

@@ -32,8 +32,7 @@
                 <tr>
                   <th>Nomor</th>
                   <th>Judul</th>
-                  <th>Waktu</th>
-                  <th>Lokasi</th>
+                  <th>Waktu Pembuatan</th>
                   <th>Aksi</th>
                 </tr>
                 </thead>
@@ -42,8 +41,7 @@
                 <tr>
                   <td>{{ $loop->iteration }}</td>
                   <td>{{ $key->title }}</td>
-                  <td>{{ $key->date_time }}</td>
-                  <td>{{ $key->location }}</td>
+                  <td>{{ $key->created_at }}</td>
                   <td>
                     <div class="btn-group">
                       <a href="{{ route('press-release.edit', $key->id) }}" class="btn btn-default btn-xs"><i class="fa fa-edit"></i></a>
@@ -59,8 +57,7 @@
                 <tr>
                   <th>Nomor</th>
                   <th>Judul</th>
-                  <th>Waktu</th>
-                  <th>Lokasi</th>
+                  <th>Waktu Pembuatan</th>
                   <th>Aksi</th>
                 </tr>
                 </tfoot>
