@@ -5,42 +5,62 @@ return [
     'sub-title' => 'PT. Indonesia Kendaraan Terminal',
     'title' => 'Stevedoring & Cargodoring',
     'content' => '
+                
+                        <!-- START CAROUSEL -->
+                        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                            <!-- Indicators -->
+                            <ol class="carousel-indicators">
+                                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                                <li data-target="#myCarousel" data-slide-to="1"></li>
+                                <li data-target="#myCarousel" data-slide-to="2"></li>
+                                <li data-target="#myCarousel" data-slide-to="3"></li>
+                            </ol>
+
+                            <!-- Wrapper for slides -->
+                            <div class="carousel-inner">
+                                <div class="item active">
+                                    <img class="img-responsive center-block" src="'.url("img/1_history.jpg").'">
+                                </div>
+
+                                <div class="item">
+                                    <img class="img-responsive center-block" src="'.url("img/2_history.jpg").'">
+                                </div>
+
+                                <div class="item">
+                                    <img class="img-responsive center-block" src="'.url("img/3_history.jpg").'">
+                                </div>
+
+                                <div class="item">
+                                    <img class="img-responsive center-block" src="'.url("img/4_history.jpg").'">
+                                </div>
+                            </div>
+
+                            <!-- Left and right controls -->
+                            <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                                <span class="glyphicon glyphicon-chevron-left"></span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                                <span class="glyphicon glyphicon-chevron-right"></span>
+                                <span class="sr-only">Next</span>
+                            </a>
+                        </div>
+                        <!-- END CAROUSEL -->
+                        <br>
                 <p>
-                Perkembangan yang cukup pesat dari industri otomotif nasional terutama untuk kegiatan export &amp import pada tahun 2005, 2006, 2007 sedangkan fasilitas kepelabuhanan yang tersedia untuk melayani ke giatan bongkar dan muat dimaksud masih sangat terbatas (selama ini dilayani di beberapa dermaga dan lapangan di terminal konvensional Tanjung Priok).
+                Industri otomotif nasional mengalami pertumbuhan yang cukup pesat dalam satu dekade terkahir ini. Hal ini dikarenakan semakin tingginya daya beli masyarakat dan meningkatnya kepercayaan produsen produk otomotif global untuk menjadi Indonesia sebagai basis produksi dengan mendirikan pabrik otomotif di negara ini. Kesempatan ini tentu harus didukung pemerintah dengan meningkatkan pertumbuhan infrastruktur yang mendukung industri otomotif nasional. Oleh karena itu, pada tahun 2006 Wakil Presiden Republik Indoesia pada saat itu, yaitu Bp. Muhammad Jusuf Kalla mengusulkan untuk didirikan pelabuhan khusus untuk kegiatan bongkar muat kargo-kargo yang dimuat melalui kapal Ro-Ro (Roll on Roll Off). Selama ini kegiatan ekspor dan impor kendaraan masih terkendala karena tidak adanya fasilitas dermaga khusus di pelabuhan yang mampu menangani kargo kendaraan dengan standar yang lebih baik. Untuk menindak lanjuti usul dari Bapak Wakil Presiden tersebut, pada tanggal 14 Maret 2006 dimulai pembuatan desain awal terminal oleh Konsultan LAPI ITB yang ditunjuk oleh PT Pelabuhan Indonesia II (Persero) untuk membuat rancangan terminal kendaraan di Tanjung Priok.
                 </p>
                 <p>
-                Perminataan dari kalangan industri otomotif Jepang ini disambut baik oleh Pemerintah RI dan melalui Wapres RI pada waktu itu Jusuf Kalla meminta pada PT. Pelabuhan Indonesia II untuk segera menindak lanjutinya.
+                Pada Bulan Agustus tahun 2006, Ground Breaking pembangunan Car Terminal di Tanjung Priok dilaksanakan dan dibuka oleh Menteri BUMN dan Menteri Perhubungan Republik Indonesia, sedangkan pelaksanaan pembangunan dilakukan oleh PT Wijaya Karya. Pembangunannya sendiri berlangsung selama 1 tahun. Pada akhirnya pada tahun 2007, tepatnya di bulan Juni, Car Terminal Tanjung Priok sebagai bagian unit kerja dari PT Pelabuhan Indonesia II (Persero) Cabang Tanjung Priok lahir yang diresmikan sendiri secara langsung oleh Bp. Muhammad Jusuf Kalla sebagai Wakil Presiden Republik Indonesia yang kemudian terminal tersebut diberi nama unit Tanjung Priok Car Terminal (TPT).
+                </p>
+                        
+                <p>
+                Dalam perjalanannya, seiring dengan perkembangan perusahaan yang semakin pesat dan semakin besarnya fungsi serta posisi Car Terminal sebagai salah satu mata rantai berkembangnya industri otomotif di Indonesia maka diperlukan sebuah entitas yang dapat berjalan secara lincah sehingga dapat bersaing secara global. Untuk kebutuhan tersebut maka pada bulan November tahun 2012 melalui Akta Nomor 10 Tahun 2012 unit Tanjung Priok Car Terminal berubah menjadi entitas yang memiliki badan hukum sendiri yaitu PT Indonesia Kendaraan Terminal (PT IKT) yang merupakan anak perusahaan PT Pelabuhan Indonesia II (Persero).
                 </p>
                 <p>
-                PT. Pelabuhan Indonesia II segera melakukan kajian dengan mencari beberapa alternatif lokasi yang akan dibangun fasilitas terminal kendaraan.
+                PT IKT hadir dalam rangka melayani kebutuhan customer akan tempat dan fasilitas yang khusus disediakan untuk melayani bongkar muat kapal Ro-Ro dengan kargo berupa CBU, truk, bus, alat-alat berat dan kargo lain yang dapat ditangani dengan cara roll-on roll-of. Semakin pesatnya kebutuhan dan permintaan akan kendaraan beserta semua pendukungnya secara global, maka hal tersebut menjadikan alasan bagi PT IKT dalam meningkatkan pelayanan dan fasilitas guna menyongsong iklim kompetisi antar pelabuhan skala global, diantaranya adalah penyediaan fasilitas yang berstandar international, peningkatan kecepatan bongkar-muat, penyediaan sumber daya manusia yang kompeten dan terampil.
                 </p>
                 <p>
-                Hasil kajian dan survey kemudian menetapkan Lahan HPL milik PT. Pelabuhan Indonesia II yang saat itu digunakan oleh PT. Dock &amp Perkapalan Kodja Bahari (DKB) dimungkinkan untuk dibangun fasilitas Terminal kendaraan dimaksud.
-                </p>
-                <p>
-                Setelah melalui perundingan dan pembahasan yang cukup panjang dengan PT. DKB termasuk melibatkan Kementerian BUMN, maka disepakati pembangunan fasilitas kendaraan menggunakan lahan HPL milik PT. Pelabuhan Indonesia II yang digunakan oleh PT. DKB pada lahan yang tidak digunakan secara optimal.
-                </p>
-                <p>
-                Pada bulan September 2006 dimulailah pembangunan tahap pertama fasilitas terminal kendaraan menggunakan lahan seluas 12 HA. Pada saat itu dibangun dermaga sepanjang 220 M kedalaman -12 LWS dan 88 M ke dalaman -7 LWS, gedung parkir 3 lantai seluas 3 HA dan lapangan parkir seluas 7,5 HA.
-                </p>
-                <p>
-                Pembangunan selesai bulan November 2007 dan pada tanggal 28 November 2007 diresmikan oleh wakil presiden RI saat itu Jusuf Kalla dan sekaligus dimulai beroperasinya pertama kali layanan kegiatan bongkar muat di Terminal Kendaraan Tanjung Priok.
-                </p>
-                <p>
-                Sejak peresmian tahun 2007 Terminal Kendaraan Tanjung Priok mengalami peningkatan cukup pesat seiring dengan meningkatnya arus kendaraan yang keluar masuk terminal ini, sehingga menyebabkan dilakukan penambahan kapasitas terpasang terminal mulai dengan penambahan lahan seluas 1,7 HA tahun 2011, penambahan gedung parkir 2 lantai seluas 2 HA tahun 2012 dan sudah dioperasikan pada akhir tahun 2012, kemudian dilakukan pembangunan dermaga sepanjang 304 M kedalaman -12 LWS, 148 M kedalaman -7 LWS, panjang 42 M kedalaman -7 LWS, pembangunan lapangan penumpukan seluas 10,5 HA pada tahun 2012 dan diharapkan dapat dioperasikan pada bulan Maret 2014. Pada tahun 2014 dan 2015 akan dibangun gedung parkir 5 lantai seluas 10 HA. Disamping penambahan Dermaga dan Lapangan Penumpukan juga dilakukan pengadaan alat bantu bongkar muat berupa 2 unit Tug Master, 4 Unit Head Truck, 4 Unit Chasiss dan pengadaan Alat penunjang Operasi seperti 3 unit Yard Sweeper, 1 Unit Mobil Pemadam Kebakaran, 6 Unit Taxi Car dan 2 Unit Shuttle Service.
-                </p>
-                <p>
-                Dengan penambahan kapasitas dimaksud maka sekaligus juga dapat menambah kapasitas daya tampung terminal diperkirakan pada tahun 2014 ini daya tampung terminal kendaraan tanjung priok meningkat menjadi 750.000 kendaraan/tahun dan diharapkan dengan bertambahnya kapasitas ini dapat mendorong berkembangnya industri otomotif nasional.
-                </p>
-                <p>
-                Sejalan dengan penambahan kapasitas dan dengan tujuan agar terminal ini dapat meningkatkan layanan dan bisa berkembang lebih cepat lagi maka manajemen PT. Pelabuhan Indonesia II melakukan peningkatan sta tus hukum Terminal Kendaraan Tanjung Priok dari Strategis Business Unit menjadi Subsidarry Company dan Subsidarry Company ini diberi nama PT. INDONESIA KENDARAAN TERMINAL (PT.IKT) telah didirikan pada tanggal 5 November 2012 dan telah beroperasi secara penuh pada tanggal 1 Desember 2012.
-                </p>
-                <p>
-                PT. IKT telah menyiapkan berbagai rencana kerja untuk tahun-tahun mendatang dengan visi menjadikan Terminal Kendaraan Tanjung Priok menjadi terminal kendaraan terkemuka dan modern di Indonesia,telah disusun rencana jangka pendek, menengah dan panjang, salah satu rencana kerja tersebut adalah mengintegrasikan layanan bongkar muat kendaraan Domestik dan Internasional di Terminal Kendaraan Tanjung Priok.
-                </p>
-                <p>
-                Disamping hal tersebut PT. IKT juga ingin menjadikan Terminal Tanjung Priok sebagai bagian dari industri otomotif nasional, sehingga dengan demikian PT. IKT ingin mendorong agar industri otomotif nasional dapat memiliki daya saing dan berkiprah dipasar internasional.
-                </p>
-                <p>
-                Bantu kami untuk mewujudkanya dan jayalah Indonesia.</p>',
+                Seiring dengan transformasi yang dilakukan oleh PT Pelabuhan Indonesia II (Persero) yang dimulai pada tahun 2012, maka PT Indonesia Kendaraan Terminal yang merupakan salah satu dari anak perusahaan juga harus ikut bertransformasi mengingat sukses tidaknya proses transformasi perusahaan induk salah satunya juga berkaitan dengan suksesnya transformasi anak perusahaan yang ada di dalamnya. Untuk itu pada tahun 2012 PT Pelabuhan Indonesia II (Persero) membuat blue print yang ditujukan sebagai pedoman pengelolaan PT Indonesia Kendraan Terminal. Pengelolaan anak perusahaan kembali ditata ulang, ditingkatkan, dan diperkuat landasannya pada tahun 2016 yang sejalan dengan corporate roadmap PT Pelabuhan Indonesia II (Persero). Dengan dilandasi platform yang kuat dan efektif, PT Indonesia Kendaraan Terminal dituntut untuk dapat menjadi perusahaan world class sejalan dengan visi PT Pelabuhan Indonesia II (Persero).
+                </p>'
 ];

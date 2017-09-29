@@ -26,6 +26,7 @@
               <div class="timeline-badge"><i class="fa fa-trophy"></i></div>
               <div class="timeline-panel">
                 <div class="timeline-heading">
+                  <img class="img-responsive" src="{{ url('img/ach_pelayanan_prima_2014.jpg')}}">
                   <p><span class="roboMedium normalTitle or">2014</span></p>
                   <h4 class="timeline-title">Prima Utama "Operation Excelent"</h4>
                 </div>
