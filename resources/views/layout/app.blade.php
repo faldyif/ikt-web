@@ -59,6 +59,7 @@
                 <!--</ul>-->
               </li>
               <li><a href="{{ route('company.culture') }}">{{ trans('menu.company-culture') }}</a></li>
+              <li><a href="{{ route('company.corporate-roadmap') }}">{{ trans('menu.corporate-roadmap') }}</a></li>
               <li><a href="{{ route('csr') }}">{{ trans('menu.csr') }}</a></li>
               <!-- <li class="has-children dropdown-submenu"><a href="#">{{ trans('menu.csr') }}</a>
                 <ul class="dropdown-menu dropdown-menu-opacity level-2">
@@ -103,7 +104,7 @@
               <li><a href="{{ route('annual') }}">{{ trans('menu.annual-report') }}</a></li>
               <li><a href="{{ route('statistic') }}">{{ trans('menu.statistic-data') }}</a></li>
               <li><a href="{{ route('company.clients') }}">{{ trans('menu.our-customer') }}</a></li>
-              <li><a href="#">{{ trans('menu.procurement') }}</a></li>
+              <li><a href="{{ route('company.procurement') }}">{{ trans('menu.procurement') }}</a></li>
               <li><a href="{{ route('company.magazine') }}">{{ trans('menu.limouzine-magazine') }}</a></li>
               <li><a href="{{ route('gallery') }}">{{ trans('menu.gallery') }}</a></li>
             </ul>
