@@ -77,7 +77,7 @@
             <ul class="dropdown-menu dropdown-menu-opacity">
               <li><a href="{{ route('service.stevedoring') }}">{{ trans('menu.stevedoring-cargodoring') }}</a></li>
               <li><a href="{{ route('service.receiving') }}">{{ trans('menu.receiving-delivering') }}</a></li>
-              <li><a href="#">{{ trans('menu.pre-delivery-inspection') }}</a></li>
+              <li><a href="{{ route('service.pdi') }}">{{ trans('menu.pre-delivery-inspection') }}</a></li>
               <li><a href="{{ route('service.vas') }}">{{ trans('menu.value-added-services') }}</a></li>
               <!-- <li class="has-children dropdown-submenu"><a href="#">Value Added Services</a>
                 <ul class="dropdown-menu dropdown-menu-opacity level-2">

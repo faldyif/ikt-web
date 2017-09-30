@@ -1,6 +1,6 @@
 @extends('layout.app')
 
-@section('title','Achivement')
+@section('title', trans('achievements.title') . ' | IPC Car Terminal')
 
 @section('content')
     <!--HERO-->
@@ -8,7 +8,8 @@
         <div class="heroTitle" style="background-image: url('{{ url('img/2.jpg') }}');">
             <div class="overlay"></div>
             <section class="container-fluid pd-30">
-                <h2 class="roboBold wh alignCenter" data-wow-delay="0.4s">IPC - Our Achivements</h2>
+                <h2 class="roboBold wh alignCenter" data-wow-delay="0.4s">{{ trans('achievements.head-title') }}</h2>
+                <h4 class="alignCenter wh mg-t-20">{{ trans('achievements.sub-title') }}</h4>
             </section>
         </div>
     </section>
@@ -28,10 +29,10 @@
                 <div class="timeline-heading">
                   <img class="img-responsive" src="{{ url('img/ach_pelayanan_prima_2014.jpg')}}">
                   <p><span class="roboMedium normalTitle or">2014</span></p>
-                  <h4 class="timeline-title">Prima Utama "Operation Excelent"</h4>
+                  <h4 class="timeline-title">{{ trans('achievements.2014-1-title') }}</h4>
                 </div>
                 <div class="timeline-body">
-                  <p class="roboMedium">Ministry of Transportation - Republic Of Indonesia</p>
+                  <p class="roboMedium">{{ trans('achievements.2014-1-from') }}</p>
                 </div>
               </div>
             </li>

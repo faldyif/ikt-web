@@ -5,7 +5,7 @@
 @section('content')
     <!--HERO-->
     <section id="heroTitle">
-        <div class="heroTitle" style="background-image: url('./img/2.jpg');">
+        <div class="heroTitle" style="background-image: url('{{ url('img/2.jpg') }}');">
             <div class="overlay"></div>
             <section class="container-fluid pd-30">
                 <h2 class="roboBold wh alignCenter" data-wow-delay="0.4s">CSR IPC Car Terminal - Rangkul Warga</h2>
@@ -104,7 +104,7 @@
         <section class="row">
             <div class="col-md-3 col-sm-3">
                 <figure class="logoFooter">
-                    <img src="./img/ikt-logo.png">
+                    <img src="{{ url('img/ikt-logo.png') }}">
                 </figure>
                 <p class="small">Vix eu etiam mediocrem. Qui debet essent omnium ut. Ne qui recusabo temporibus, in eum singulis posidonium. Nec reque saepe ea, esse veniam definitionem est ei.</p>
             </div>

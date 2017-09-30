@@ -5,7 +5,7 @@
 @section('content')
     <!--HERO-->
     <section id="heroTitle">
-        <div class="heroTitle" style="background-image: url('./img/2.jpg');">
+        <div class="heroTitle" style="background-image: url('{{ url('img/2.jpg') }}');">
             <div class="overlay"></div>
             <section class="container-fluid pd-30">
                 <h2 class="roboBold wh alignCenter" data-wow-delay="0.4s">{{ trans('company-culture.head-title') }}</h2>
@@ -20,19 +20,24 @@
           <section class="row pd-bt-30 mg-bt-20">
             <div class="col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1">
             <div class="col-md-offset-3">
-                <h3 class="mg-b-30 roboBold">Tagline</h3>
-                <h4>Dengan CINTA, satukan langkah mewujudkan kerja nyata IPC Car Terminal berkelas dunia.</h4>
               </div>
               <section class="row be-block-768">
                 <div class="col-md-3">
                   <ul class="nav nav-pills nav-stacked">
-                    <li class="active">
-                      <a data-toggle="pill" href="#home">
-                        <div class="be-flex">
-                          <i class="fa fa-th mg-r-15 mg-t-5"></i> <span>Nilai-Nilai Perusahaan</span>
-                        </div>
-                      </a>
-                    </li>
+                      <li class="active">
+                          <a data-toggle="pill" href="#tagline">
+                              <div class="be-flex">
+                                  <i class="fa fa-th mg-r-15 mg-t-5"></i> <span>Tagline</span>
+                              </div>
+                          </a>
+                      </li>
+                      <li class="">
+                          <a data-toggle="pill" href="#home">
+                              <div class="be-flex">
+                                  <i class="fa fa-th mg-r-15 mg-t-5"></i> <span>Karakter Perusahaan</span>
+                              </div>
+                          </a>
+                      </li>
                     <li class="">
                       <a data-toggle="pill" href="#menu1">
                         <div class="be-flex">
@@ -51,7 +56,12 @@
                 </div>
                 <div class="col-md-9">
                   <div class="tab-content">
-                    <div id="home" class="tab-pane fade in active">
+                    <div id="tagline" class="tab-pane fade in active">
+
+                        <h3 class="mg-b-30 roboBold">Tagline</h3>
+                        <h4>Dengan CINTA, satukan langkah mewujudkan kerja nyata IPC Car Terminal berkelas dunia.</h4>
+                    </div>
+                    <div id="home" class="tab-pane fade in">
                     <h3 class="mg-b-30 roboBold">Nilai-Nilai Perusahaan</h3>
                     <p>
                     <h4>1. Customer Cetric<br><small>Meet Customer Expectation</small></h4>
@@ -137,7 +147,7 @@
         <section class="row">
             <div class="col-md-3 col-sm-3">
                 <figure class="logoFooter">
-                    <img src="./img/ikt-logo.png">
+                    <img src="{{ url('img/ikt-logo.png') }}">
                 </figure>
                 <p class="small">Vix eu etiam mediocrem. Qui debet essent omnium ut. Ne qui recusabo temporibus, in eum singulis posidonium. Nec reque saepe ea, esse veniam definitionem est ei.</p>
             </div>

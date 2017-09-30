@@ -1,6 +1,6 @@
 @extends('layout.app')
 
-@section('title','Kesehatan, Sosial & Lingkungan | IPC Car Terminal')
+@section('title','Pre-Delivery Inspection | IPC Car Terminal')
 
 @section('content')
     <!--HERO-->
