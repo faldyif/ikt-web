@@ -85,6 +85,14 @@ Route::get(trans('routes.company.gcg'), function () {
     return view('gcg');
 })->name('company.gcg');
 
+Route::get(trans('routes.company.procurement'), function () {
+    return view('procurement');
+})->name('company.procurement');
+
+Route::get(trans('routes.company.corporate-roadmap'), function () {
+    return view('corporate-roadmap');
+})->name('company.corporate-roadmap');
+
 /*
  * Services route groups
  */
@@ -95,6 +103,10 @@ Route::get(trans('routes.service.stevedoring'), function () {
 Route::get(trans('routes.service.receiving'), function () {
     return view('receiving');
 })->name('service.receiving');
+
+Route::get(trans('routes.service.pdi'), function () {
+    return view('pdi');
+})->name('service.pdi');
 
 Route::get(trans('routes.service.vas'), function () {
     return view('vas');

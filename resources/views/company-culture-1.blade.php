@@ -22,13 +22,20 @@
               <section class="row be-block-768">
                 <div class="col-md-3">
                   <ul class="nav nav-pills nav-stacked">
-                    <li class="active">
-                      <a data-toggle="pill" href="#home">
-                        <div class="be-flex">
-                          <i class="fa fa-th mg-r-15 mg-t-5"></i> <span>Nilai-Nilai Perusahaan</span>
-                        </div>
-                      </a>
-                    </li>
+                      <li class="active">
+                          <a data-toggle="pill" href="#tagline">
+                              <div class="be-flex">
+                                  <i class="fa fa-th mg-r-15 mg-t-5"></i> <span>Tagline</span>
+                              </div>
+                          </a>
+                      </li>
+                      <li class="">
+                          <a data-toggle="pill" href="#home">
+                              <div class="be-flex">
+                                  <i class="fa fa-th mg-r-15 mg-t-5"></i> <span>Karakter Perusahaan</span>
+                              </div>
+                          </a>
+                      </li>
                     <li class="">
                       <a data-toggle="pill" href="#menu1">
                         <div class="be-flex">
@@ -164,7 +171,7 @@
         <section class="row">
             <div class="col-md-3 col-sm-3">
                 <figure class="logoFooter">
-                    <img src="{{url('img/ikt-logo.png')}}">
+                    <img src="{{ url('img/ikt-logo.png') }}">
                 </figure>
                 <p class="small">Vix eu etiam mediocrem. Qui debet essent omnium ut. Ne qui recusabo temporibus, in eum singulis posidonium. Nec reque saepe ea, esse veniam definitionem est ei.</p>
             </div>

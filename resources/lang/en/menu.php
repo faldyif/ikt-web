@@ -15,6 +15,7 @@ return [
     'company-history' => 'Company History',
     'gcg-application' => 'GCG Application',
     'company-culture' => 'Company Culture',
+    'corporate-roadmap' => 'Corporate Roadmap',
     'csr' => 'CSR',
     // CSR sub-submenu
     'education-religion' => 'Education & Religion',

@@ -15,6 +15,7 @@ return [
     'company-history' => 'Sejarah Perusahaan',
     'gcg-application' => 'Penerapan GCG',
     'company-culture' => 'Budaya Perusahaan',
+    'corporate-roadmap' => 'Corporate Roadmap',
     'csr' => 'Rangkul Warga (CSR)',
     // CSR sub-submenu
     'education-religion' => 'Pendidikan & Keagamaan',
