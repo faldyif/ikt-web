@@ -53,8 +53,11 @@ class AlbumController extends Controller
             'description' => $request->description
         ]);
         foreach ($request->photos as $photo) {
-            $filename = $photo->store('album_photos');
-            Storage::move($filename, 'public/' . $filename);
+            $image = $photo;
+            $filename = 'image_'.time().'_'.$image->hashName();
+            $image->move(public_path('storage/album_photos'), $filename);
+            $filename = 'album_photos/' . $filename;
+            
             AlbumPhoto::create([
                 'album_id' => $album->id,
                 'user_id' => Auth::user()->id,

@@ -42,9 +42,11 @@ class NewsTranslationController extends Controller
 
         $news = News::find($request->news_id);
 
+        $image = $request->file('thumbnail');
+        $filename = 'image_'.time().'_'.$image->hashName();
         $news->translateOrNew($request->locale)->title = $request->title;
-        $news->translateOrNew($request->locale)->filename = $request->file('thumbnail')->store('news_thumbs_trans');
-        Storage::move($news->translateOrNew($request->locale)->filename, 'public/' . $news->translateOrNew($request->locale)->filename);
+        $image->move(public_path('storage/news_thumbs'), $filename);
+        $news->translateOrNew($request->locale)->filename = 'news_thumbs/' . $filename;
         $news->translateOrNew($request->locale)->content = $request->content;
         $news->save();
 
@@ -89,8 +91,10 @@ class NewsTranslationController extends Controller
 
         $news->title = $request->title;
         if($request->hasFile('thumbnail') && $request->file('thumbnail')->isValid()) {
-            $news->filename = $request->file('thumbnail')->store('news_thumbs_trans');
-            Storage::move($news->filename, 'public/' . $news->filename);
+            $image = $request->file('thumbnail');
+            $filename = 'image_'.time().'_'.$image->hashName();
+            $image->move(public_path('storage/news_thumbs'), $filename);
+            $news->filename = 'news_thumbs/' . $filename;
         }
         $news->content = $request->content;
         $news->save();
