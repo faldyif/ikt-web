@@ -22,6 +22,10 @@
         </section>
         <section class="recent-news row pd-t-20">
           @foreach($news as $key)
+          @php
+          $readers = $key->view_count;
+          $key = $key->translate($currentLocale);
+          @endphp
           <div class="col-md-4 col-sm-4">
             <section class="newsList">
                 <figure>
@@ -31,7 +35,7 @@
                     <figcaption>Selengkapnya</figcaption>
                   </a>
                 </figure>
-                <p class="black small mg-t-20"><span>{{ \Carbon\Carbon::parse($key->created_at)->toFormattedDateString() }}</span> / <span>{{ $key->view_count }} readers</span></p>
+                <p class="black small mg-t-20"><span>{{ \Carbon\Carbon::parse($key->created_at)->toFormattedDateString() }}</span> / <span>{{ $readers }} readers</span></p>
                 <a href="{{ route('news.detail', $key->slug) }}"><h4 class="roboMedium">{{ $key->title }}</h4></a>
                 <p class="black">{!! substr(strip_tags($key->content), 0, 500) !!}</p>
             </section>
@@ -47,6 +51,10 @@
         <section class="row mg-lr-20">
           <div class="col-md-9">
             @foreach($newsPaginated as $key)
+              @php
+                  $readers = $key->view_count;
+                  $key = $key->translate($currentLocale);
+              @endphp
               <section class="row newsListSec">
                 <div class="col-md-6 col-sm-6">
                   <figure>
@@ -54,7 +62,7 @@
                   </figure>
                 </div>
                 <div class="col-md-6 col-sm-6 textForNewsList">
-                  <p class="black small mg-t-20"><span>{{ \Carbon\Carbon::parse($key->created_at)->toFormattedDateString() }}</span> / <span>{{ $key->view_count }} readers</span></p>
+                  <p class="black small mg-t-20"><span>{{ \Carbon\Carbon::parse($key->created_at)->toFormattedDateString() }}</span> / <span>{{ $readers }} readers</span></p>
                   <h4 class="roboMedium">{{ $key->title }}</h4>
                   <p class="black">{!! substr(strip_tags($key->content), 0, 500) !!}</p>
                   <a href="{{ route('news.detail', $key->slug) }}">Baca Selengkapnya</a>
@@ -72,6 +80,10 @@
               <section class="asideSec">
                 <h4 class="roboBold">Popular Post</h4>
                 @foreach($popularPosts as $key)
+                  @php
+                      $readers = $key->view_count;
+                      $key = $key->translate($currentLocale);
+                  @endphp
                   <a href="{{ route('news.detail', $key->slug) }}">
                   <section class="row mg-bt-20">
                       <div class="col-md-4 col-sm-2 col-xs-6">

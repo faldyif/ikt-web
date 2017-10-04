@@ -18,6 +18,22 @@
   <link rel="stylesheet" type="text/css" href="{{ url('css/slick.css') }}">
   <link rel="stylesheet" type="text/css" href="{{ url('css/jquery.fullpage.min.css') }}">
   <link rel="stylesheet" type="text/css" href="{{ url('css/ikt-style.css') }}">
+  <style>
+    ul.nav li.has-children > ul.dropdown-menu{
+        visibility:hidden;
+        display:block;
+        opacity:0;
+        -webkit-transition: opacity 0.5s ease-in-out;
+        -moz-transition: opacity 0.5s ease-in-out;
+        -o-transition: opacity 0.5s ease-in-out;
+        transition: opacity 0.5s ease-in-out;
+        }
+        ul.nav li.has-children:hover > ul.dropdown-menu{
+        visibility:visible;
+        opacity:1;
+        display: block;
+        }
+  </style>
   @yield('head')
 </head>
 <body>

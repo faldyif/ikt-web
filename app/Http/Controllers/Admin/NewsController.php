@@ -55,10 +55,12 @@ class NewsController extends Controller
 
         $news = new News;
 
+        $image = $request->file('thumbnail');
+        $filename = 'image_'.time().'_'.$image->hashName();
         $news->translateOrNew($request->locale)->title = $request->title;
-        $news->translateOrNew($request->locale)->filename = $request->file('thumbnail')->store('news_thumbs');
+        $image->move(public_path('storage/news_thumbs'), $filename);
+        $news->translateOrNew($request->locale)->filename = 'news_thumbs/' . $filename;
         $news->translateOrNew($request->locale)->content = $request->content;
-        Storage::move($news->filename, 'public/' . $news->filename);
         $news->save();
 
         Session::flash('message', 'Berita berhasil diposkan! Anda dapat mentranslatenya melalui <a>link ini</a>');

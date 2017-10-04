@@ -3,6 +3,8 @@
 @php
     $news->view_count++;
     $news->save();
+    $readers = $news->view_count;
+    $news = $news->translate($currentLocale);
 @endphp
 
 @section('title', $news->title . ' | Indonesia Car Terminal')
@@ -14,7 +16,7 @@
     <div class="overlay"></div>
     <section class="container-fluid pd-30">
       <h2 class="roboBold wh alignCenter" data-wow-delay="0.4s">{{ $news->title }}</h2>
-      <p class="alignCenter wh mg-t-20"><span>{{ \Carbon\Carbon::parse($news->created_at)->toFormattedDateString() }}</span> / <span>{{ $news->view_count }} readers</span></p>
+      <p class="alignCenter wh mg-t-20"><span>{{ \Carbon\Carbon::parse($news->created_at)->toFormattedDateString() }}</span> / <span>{{ $readers }} readers</span></p>
     </section>
   </div>
 </section>
