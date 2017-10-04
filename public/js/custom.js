@@ -4,12 +4,13 @@ $(document).ready(function(){
     var w = window.innerWidth;
 
     if(w > 768) {
+        $navbar_visible =$('ul.dropdown-menu:hover');
         $('.navbar-nav-dropdown li.has-children').hover(function(){
-            $(this).children('ul').stop(true,false,true).slideToggle(400);
+          if (!$navbar_visible) $(this).children('ul').stop(true,false,true).slideToggle(400);
         });
     } else if(w <= 768) {
         $('.navbar-nav-dropdown li.has-children > a').click(function(){
-            $(this).parent().children('ul').stop(true,false,true).slideToggle(400);
+              $(this).parent().children('ul').stop(true,false,true).slideToggle(400); 
         });
     };
 
@@ -116,15 +117,25 @@ $(document).ready(function(){
       transition: 'fade'
     });
 
-    $('#accordion .panel').hover(function() {
-      $(this).find(".accordion-toggle .indicator").removeClass("glyphicon-chevron-down").addClass("glyphicon-chevron-up");
-      $(this).find(".panel-collapse").collapse("show");
-    }, function() {
-      var $collapse = $(this).find(".panel-collapse");
-      $(this).find(".accordion-toggle .indicator").addClass("glyphicon-chevron-down").removeClass("glyphicon-chevron-up");
-      setTimeout(function(){
-        $collapse.collapse("hide");
-      },400);
-    });
+    // $('#accordion .panel').hover(function() {
+    //   $(this).find(".accordion-toggle .indicator").removeClass("glyphicon-chevron-down").addClass("glyphicon-chevron-up");
+    //   alert("yes");
+    //   $(this).find(".panel-collapse").collapse("show");
+    // }, function() {
+    //   var $collapse = $(this).find(".panel-collapse");
+    //   $(this).find(".accordion-toggle .indicator").addClass("glyphicon-chevron-down").removeClass("glyphicon-chevron-up");
+    //   setTimeout(function(){
+    //     $collapse.collapse("hide");
+    //   },400);
+    // });
 
+    $('#accordion .panel').hover(function() { 
+      $(this).find(".accordion-toggle .indicator").not('.in .dropdown-menu').stop(true,true).slideDown("400");
+      $(this).toggleClass('open');       
+    },
+      function() {
+        $(this).find(".accordion-toggle .indicator").not('.in .dropdown-menu').stop(true,true).slideUp("400");
+          $(this).toggleClass('open');       
+      }
+    );
 });
