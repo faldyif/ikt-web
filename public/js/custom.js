@@ -4,7 +4,10 @@ var w = window.innerWidth;
 if(w > 768) {
     $('.navbar-nav-dropdown li.has-children').hover(function(){
         if ($('.navbar-nav-dropdown:hover li.has-children').length > 0) {
-            $(this).children('ul').stop(true,false,true).slideToggle(400);
+            $(this).children('ul').stop(true, false, true).slideDown(400);
+            $(this).siblings().find('ul').slideUp(400);
+        } else {
+            $(this).children('ul').stop(true, false, true).slideUp(400);
         }
     });
 } else if(w <= 768) {
