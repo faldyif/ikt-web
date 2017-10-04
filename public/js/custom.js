@@ -1,17 +1,21 @@
+
+// dropdown-menu
+var w = window.innerWidth;
+if(w > 768) {
+    $('.navbar-nav-dropdown li.has-children').hover(function(){
+        if ($('.navbar-nav-dropdown:hover li.has-children').length > 0) {
+            $(this).children('ul').stop(true,false,true).slideToggle(400);
+        }
+    });
+} else if(w <= 768) {
+    $('.navbar-nav-dropdown li.has-children > a').click(function(){
+        $(this).parent().children('ul').stop(true,false,true).slideToggle(400);
+    });
+};
+
 $(document).ready(function(){
 
-    // dropdown-menu
-    var w = window.innerWidth;
 
-    if(w > 768) {
-        $('.navbar-nav-dropdown li.has-children').hover(function(){
-            $(this).children('ul').stop(true,false,true).slideToggle(400);
-        });
-    } else if(w <= 768) {
-        $('.navbar-nav-dropdown li.has-children > a').click(function(){
-            $(this).parent().children('ul').stop(true,false,true).slideToggle(400);
-        });
-    };
 
     $('.navbar-nav-dropdown li.has-children-onClick > a').click(function(){
       $(this).parent().children('ul').stop(true,false,true).fadeToggle(400);
