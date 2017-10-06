@@ -44,9 +44,9 @@
                   <td>{{ \Carbon\Carbon::parse($key->created_at)->diffForHumans() }}</td>
                   <td>
                     <div class="btn-group">
-                      <a href="{{ url('id/berita') . '/' . $key->slug }}" class="btn btn-default btn-xs" target="_blank"><i class="fa fa-eye"></i></a>
-                      <a href="{{ route('news.show', $key->id) }}" class="btn btn-default btn-xs"><i class="fa fa-language"></i></a>
-                      <a href="#" onclick="deleteConfirmation({{ $key->id }})" class="btn btn-danger btn-xs"><i class="fa fa-trash"></i></a>
+                      <a href="{{ url('id/berita') . '/' . $key->slug }}" title="Lihat" class="btn btn-default btn-xs" target="_blank"><i class="fa fa-eye"></i></a>
+                      <a href="{{ route('news.show', $key->id) }}" title="Daftar Terjemahan" class="btn btn-default btn-xs"><i class="fa fa-language"></i></a>
+                      <a href="#" onclick="deleteConfirmation({{ $key->id }})" title="Hapus" class="btn btn-danger btn-xs"><i class="fa fa-trash"></i></a>
                       {!! Form::open(['route' => ['news.destroy',$key->id], 'method' => 'delete', 'id' => 'delete_form_'.$key->id]) !!}
                       {!! Form::close() !!}
                     </div>

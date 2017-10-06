@@ -44,7 +44,7 @@
                                 <td><a href="{{ route('gallery.detail', \App\Album::find($key->album_id)->slug) }}" target="_blank">{{ \App\Album::find($key->album_id)->title }}</a></td>
                                 <td>
                                     <div class="btn-group">
-                                        <a href="#" onclick="deleteConfirmation({{ $key->id }})" class="btn btn-danger btn-xs"><i class="fa fa-trash"></i></a>
+                                        <a href="#" onclick="deleteConfirmation({{ $key->id }})" title="Hapus" class="btn btn-danger btn-xs"><i class="fa fa-trash"></i></a>
                                         {!! Form::open(['route' => ['album-comment.destroy', $key->id], 'method' => 'delete', 'id' => 'delete_form_'.$key->id]) !!}
                                         {!! Form::close() !!}
                                     </div>

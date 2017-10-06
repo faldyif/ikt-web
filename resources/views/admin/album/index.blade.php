@@ -46,10 +46,10 @@
                   <td>{{ \Carbon\Carbon::parse($key->created_at)->diffForHumans() }}</td>
                   <td>
                     <div class="btn-group">
-                      <a href="{{ route('photo.index', $key->id) }}" class="btn btn-default btn-xs"><i class="fa fa-photo"></i></a>
-                      <a href="{{ route('gallery.detail', $key->slug) }}" class="btn btn-default btn-xs" target="_blank"><i class="fa fa-eye"></i></a>
-                      <a href="{{ route('album.edit', $key->id) }}" class="btn btn-default btn-xs"><i class="fa fa-edit"></i></a>
-                      <a href="#" onclick="deleteConfirmation({{ $key->id }})" class="btn btn-danger btn-xs"><i class="fa fa-trash"></i></a>
+                      <a href="{{ route('photo.index', $key->id) }}" title="List Gambar" class="btn btn-default btn-xs"><i class="fa fa-photo"></i></a>
+                      <a href="{{ route('gallery.detail', $key->slug) }}" title="Lihat Gambar" class="btn btn-default btn-xs" target="_blank"><i class="fa fa-eye"></i></a>
+                      <a href="{{ route('album.edit', $key->id) }}" title="Edit" class="btn btn-default btn-xs"><i class="fa fa-edit"></i></a>
+                      <a href="#" onclick="deleteConfirmation({{ $key->id }})" title="Hapus" class="btn btn-danger btn-xs"><i class="fa fa-trash"></i></a>
                       {!! Form::open(['route' => ['album.destroy',$key->id], 'method' => 'delete', 'id' => 'delete_form_'.$key->id]) !!}
                       {!! Form::close() !!}
                     </div>
