@@ -263,6 +263,61 @@
         </section>
 
         <!-- /mansory -->
+        <!-- newAlbumList -->
+        <section class="row mg-bt-20 img-ikt img-ikt-top">
+          <div class="col-md-4 mg-b-20">
+            <section>
+              <div class="card">
+                <figure>
+                  <img class="card-img-top" src="{{ url('img/bg-img.png') }}" style="background-image: url(' {{ url('img/port01.jpg') }} ')" alt="Card image cap">
+                  <a href="...">
+                    <div class="overlay"></div>
+                    <figcaption><i class="fa fa-search-plus fa-2x"></i></figcaption>
+                  </a>
+                </figure>
+                <div class="card-body">
+                  <h4 class="card-title roboBold">Lorem ipsum dolor sit amet</h4>
+                  <p>10 Oktober 2017</p>
+                </div>
+              </div>
+            </section>
+          </div>
+          <div class="col-md-4 mg-b-20">
+            <section>
+              <div class="card">
+                <figure>
+                  <img class="card-img-top" src="{{ url('img/bg-img.png') }}" style="background-image: url(' {{ url('img/port01.jpg') }} ')" alt="Card image cap">
+                  <a href="...">
+                    <div class="overlay"></div>
+                    <figcaption><i class="fa fa-search-plus fa-2x"></i></figcaption>
+                  </a>
+                </figure>
+                <div class="card-body">
+                  <h4 class="card-title roboBold">Card title</h4>
+                  <p>10 Oktober 2017</p>
+                </div>
+              </div>
+            </section>
+          </div>
+          <div class="col-md-4 mg-b-20">
+            <section>
+              <div class="card">
+                <figure>
+                  <img class="card-img-top" src="{{ url('img/bg-img.png') }}" style="background-image: url(' {{ url('img/port01.jpg') }} ')" alt="Card image cap">
+                  <a href="...">
+                    <div class="overlay"></div>
+                    <figcaption><i class="fa fa-search-plus fa-2x"></i></figcaption>
+                  </a>
+                </figure>
+                <div class="card-body">
+                  <h4 class="card-title roboBold">Card title</h4>
+                  <p>10 Oktober 2017</p>
+                </div>
+              </div>
+            </section>
+          </div>
+        </section>
+        <!-- /newAlbumList -->
       </div>
     </section>
     <!--/GALERRY-->
