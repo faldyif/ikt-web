@@ -15,7 +15,7 @@ class User extends Authenticatable
      * @var array
      */
     protected $fillable = [
-        'name', 'email', 'password',
+        'name', 'email', 'password', 'type',
     ];
 
     /**
@@ -33,5 +33,24 @@ class User extends Authenticatable
     public function getIsAdminAttribute()
     {
         return true;
+    }
+
+    /**
+     * @return null|string
+     */
+    public function getUserType()
+    {
+        switch ($this->type)
+        {
+            case 1:
+                return 'sekper';
+                break;
+            case 2:
+                return 'operasional';
+                break;
+            default:
+                return null;
+                break;
+        }
     }
 }
