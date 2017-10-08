@@ -24,6 +24,11 @@ Route::group(array('namespace'=>'Admin', 'prefix'=>'admin', 'middleware'=>'auth'
     Route::resource('news-translation', 'NewsTranslationController', ['only' => ['store', 'edit', 'update', 'destroy']]);
     Route::get('news-translation/create/{id}', 'NewsTranslationController@create')->name('news-translation.create');
     Route::get('album/{id}/photo', 'PhotoController@index')->name('photo.index');
+
+    Route::resource('photo', 'PhotoController', ['only' => [
+        'edit', 'update'
+    ]]);
+
     Route::get('album/{id}/create', 'PhotoController@create')->name('photo.create');
     Route::post('album/{id}', 'PhotoController@store')->name('photo.store');
     Route::delete('album/{id}/destroy/{idAlbum}', 'PhotoController@destroy')->name('photo.destroy');
@@ -139,6 +144,9 @@ Route::get(trans('routes.press-release').'/{press_release}', function ($press_re
     return view('press-release-detail');
 })->name('press-release.detail');
 
+// Berthing plan
+Route::get('berthing', 'BerthingPlanController@index')->name('berthing-list');
+
 // Search
 Route::get('search', 'SearchController@search')->name('search');
 
@@ -189,4 +197,13 @@ Route::get('tabs', function () {
 });
 Route::get('ye', function () {
     return view('subcompany');
+});
+Route::get('/info', function () {
+    $news = \App\News::find(1);
+    $newsHasTranslation = array(
+        'id' => $news->hasTranslation('id'),
+        'en' => $news->hasTranslation('en'),
+        'jp' => $news->hasTranslation('jp'),
+    );
+    return var_dump($newsHasTranslation);
 });

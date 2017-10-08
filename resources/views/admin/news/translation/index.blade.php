@@ -4,7 +4,8 @@
 
 @section('breadcrumb')
   <li><a href="{{ route('news.index') }}"><i class="fa fa-newspaper-o"></i> Berita</a></li>
-  <li><a href="#"><i class="fa fa-newspaper-o"></i> Daftar Terjemahan "{{ $news->title }}"</a></li>
+  <li><a href="{{ url('id/berita') }}/{{ $news->getTranslation('id')->slug }}" target="_blank">{{ $news->title }}</a></li>
+  <li><a href="#">Daftar Terjemahan</a></li>
 @endsection
 
 @section('content')
@@ -19,6 +20,7 @@
       @endif
 
       <div class="box">
+        @if($translationCount < 3)
         <div class="box-header">
           <div class="col-md-2 pull-right">
             <a href="{{ route('news-translation.create', $news->id) }}" class="btn btn-block btn-primary">
@@ -26,6 +28,7 @@
             </a>
           </div>
         </div>
+        @endif
         <!-- /.box-header -->
         <div class="box-body">
           <table id="example1" class="table table-bordered table-striped">
@@ -39,14 +42,16 @@
             <tbody>
             @foreach($newsTranslation as $key)
               <tr>
-                <td>{{ ($key->locale == 'id' ? 'Bahasa Indonesia' : ($key->locale == 'en' ? 'English' : '日本語')) }}</td>
+                <td>{{ ($key->locale == 'id' ? 'Bahasa Indonesia (default)' : ($key->locale == 'en' ? 'English' : '日本語')) }}</td>
                 <td>{{ $key->title }}</td>
                 <td>
                   <div class="btn-group">
-                    <a href="{{ route('news-translation.edit', $key->id) }}" class="btn btn-default btn-xs"><i class="fa fa-edit"></i></a>
-                    <a href="#" onclick="deleteConfirmation({{ $key->id }})" class="btn btn-danger btn-xs"><i class="fa fa-trash"></i></a>
+                    <a href="{{ route('news-translation.edit', $key->id) }}" class="btn btn-default btn-xs"><i class="fa fa-edit"></i> Edit</a>
+                    @if($key->locale != 'id')
+                    <a href="#" onclick="deleteConfirmation({{ $key->id }})" class="btn btn-danger btn-xs"><i class="fa fa-trash"></i> Hapus</a>
                     {!! Form::open(['route' => ['news-translation.destroy',$key->id], 'method' => 'delete', 'id' => 'delete_form_'.$key->id]) !!}
                     {!! Form::close() !!}
+                    @endif
                   </div>
                 </td>
               </tr>

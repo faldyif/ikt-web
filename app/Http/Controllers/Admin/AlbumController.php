@@ -57,7 +57,7 @@ class AlbumController extends Controller
             $filename = 'image_'.time().'_'.$image->hashName();
             $image->move(public_path('storage/album_photos'), $filename);
             $filename = 'album_photos/' . $filename;
-            
+
             AlbumPhoto::create([
                 'album_id' => $album->id,
                 'user_id' => Auth::user()->id,
@@ -65,7 +65,8 @@ class AlbumController extends Controller
             ]);
         }
 
-        Session::flash('message', 'Album berhasil dibuat! Anda dapat menambah maupun mengedit isi fotonya melalui <a>link ini</a>');
+        $urlIsiAlbum = url('admin/album') . '/' . $album->id . '/photo';
+        Session::flash('message', 'Album berhasil dibuat! Anda dapat menambah maupun mengedit caption fotonya melalui <a href="'. $urlIsiAlbum .'">link ini</a>');
         return redirect(route('album.index'));
     }
 
@@ -108,7 +109,11 @@ class AlbumController extends Controller
 
         $album = Album::find($id);
         $album->title = $request->title;
+        $album->title_en = ($request->title_en == '' ? NULL : $request->title_en);
+        $album->title_jp = ($request->title_jp == '' ? NULL : $request->title_jp);
         $album->description = $request->description;
+        $album->description_en = ($request->description_en == '' ? NULL : $request->description_en);
+        $album->description_jp = ($request->description_jp == '' ? NULL : $request->description_jp);
         $album->touch();
 
         Session::flash('message', 'Album berhasil diedit!');

@@ -60,7 +60,7 @@
       <div class="container-fluid wow fadeInUpBig">
         <section class="mg-lr-20">
           <hr class="hrSpec hrSpecOrange">
-          <h3 class="roboBold">Company Gallery List</h3>
+          <h3 class="roboBold">Company Album</h3>
         </section>
         <!-- masonry -->
           <div class="grid">

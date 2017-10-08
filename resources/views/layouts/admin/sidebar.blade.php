@@ -45,17 +45,17 @@
             <li {{{ (Request::is('*/admin/album-comment') ? 'class=active' : '') }}}><a href="{{ route('album-comment.index') }}"><i class="fa fa-comment"></i> List Komentar Album</a></li>
           </ul>
         </li>
-        <li class="treeview {{{ ((Request::is('*/admin/berthing/create') || Request::is('*/admin/berthing')) ? 'active' : '') }}}">
-          <a href="#"><i class="fa fa-ship"></i> <span>Berthing Plan</span>
-            <span class="pull-right-container">
-                <i class="fa fa-angle-left pull-right"></i>
-              </span>
-          </a>
-          <ul class="treeview-menu">
-            <li {{{ (Request::is('*/admin/berthing/create') ? 'class=active' : '') }}}><a href="{{ route('berthing.create') }}"><i class="fa fa-plus"></i> Buat Berthing Plan Baru</a></li>
-            <li {{{ (Request::is('*/admin/berthing') ? 'class=active' : '') }}}><a href="{{ route('berthing.index') }}"><i class="fa fa-list"></i> List Berthing Plan</a></li>
-          </ul>
-        </li>
+        {{--<li class="treeview {{{ ((Request::is('*/admin/berthing/create') || Request::is('*/admin/berthing')) ? 'active' : '') }}}">--}}
+          {{--<a href="#"><i class="fa fa-ship"></i> <span>Berthing Plan</span>--}}
+            {{--<span class="pull-right-container">--}}
+                {{--<i class="fa fa-angle-left pull-right"></i>--}}
+              {{--</span>--}}
+          {{--</a>--}}
+          {{--<ul class="treeview-menu">--}}
+            {{--<li {{{ (Request::is('*/admin/berthing/create') ? 'class=active' : '') }}}><a href="{{ route('berthing.create') }}"><i class="fa fa-plus"></i> Buat Berthing Plan Baru</a></li>--}}
+            {{--<li {{{ (Request::is('*/admin/berthing') ? 'class=active' : '') }}}><a href="{{ route('berthing.index') }}"><i class="fa fa-list"></i> List Berthing Plan</a></li>--}}
+          {{--</ul>--}}
+        {{--</li>--}}
         <li class="treeview {{{ ((Request::is('*/admin/press-release/create') || Request::is('*/admin/press-release')) ? 'active' : '') }}}">
           <a href="#"><i class="fa fa-bullhorn"></i> <span>Press Release</span>
             <span class="pull-right-container">

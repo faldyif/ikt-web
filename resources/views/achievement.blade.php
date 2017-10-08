@@ -105,14 +105,25 @@
                 </div>
               </div>
             </li>
-            <li class="timeline-inverted">
-              <div class="timeline-panel">
-                <div class="timeline-heading">
-                  <p><span class="roboMedium normalTitle or">2017</span></p>
-                  <h4 class="timeline-title">Speaker "Menyukseskan Tol Maritim, Roro Service Jakarta - Surabaya"</h4>
-                </div>
-              </div>
-            </li>
+              <li class="timeline-inverted">
+                  <div class="timeline-panel">
+                      <div class="timeline-heading">
+                          <p><span class="roboMedium normalTitle or">2017</span></p>
+                          <h4 class="timeline-title">Speaker "Menyukseskan Tol Maritim, Roro Service Jakarta - Surabaya"</h4>
+                      </div>
+                  </div>
+              </li>
+              <li class="timeline-inverted">
+                  <div class="timeline-panel">
+                      <div class="timeline-heading">
+                          <p><span class="roboMedium normalTitle or">2017</span></p>
+                          <h4 class="timeline-title">The Best Performance Subsidiary of IPC</h4>
+                      </div>
+                      <div class="timeline-body">
+                          <p class="roboMedium">PT Pelabuhan Indonesia II (Persero)</p>
+                      </div>
+                  </div>
+              </li>
           </ul>
         </div>
         <!-- /timeline -->

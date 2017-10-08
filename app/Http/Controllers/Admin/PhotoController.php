@@ -84,7 +84,9 @@ class PhotoController extends Controller
      */
     public function edit($id)
     {
-        //
+        $photo = AlbumPhoto::find($id);
+        $album = Album::find($photo->album_id);
+        return view('admin.album.photo.edit')->with('photo', $photo)->with('album', $album);
     }
 
     /**
@@ -96,7 +98,14 @@ class PhotoController extends Controller
      */
     public function update(Request $request, $id)
     {
-        //
+        $albumPhoto = AlbumPhoto::find($id);
+        $albumPhoto->caption = ($request->caption == '' ? NULL : $request->caption);
+        $albumPhoto->caption_en = ($request->caption_en == '' ? NULL : $request->caption_en);
+        $albumPhoto->caption_jp = ($request->caption_jp == '' ? NULL : $request->caption_jp);
+        $albumPhoto->touch();
+
+        Session::flash('message', 'Caption berhasil diedit!');
+        return redirect(route('photo.index', $id));
     }
 
     /**

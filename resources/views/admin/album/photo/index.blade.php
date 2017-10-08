@@ -4,8 +4,8 @@
 
 @section('breadcrumb')
   <li><a href="{{ route('album.index') }}"><i class="fa fa-newspaper-o"></i> Album</a></li>
-  <li><a href="{{ route('gallery.detail', $album->slug) }}" target="_blank"><i class="fa fa-newspaper-o"></i> {{ \App\Album::find($album->id)->title }}</a></li>
-  <li><a href="{{ route('photo.index', $album->id) }}"><i class="fa fa-newspaper-o"></i> List Photos</a></li>
+  <li><a href="{{ url('id/galeri') }}/{{ $album->slug }}" target="_blank"> {{ \App\Album::find($album->id)->title }}</a></li>
+  <li><a href="{{ route('photo.index', $album->id) }}"> List Foto Album</a></li>
 @endsection
 
 @section('content')
@@ -42,11 +42,26 @@
                 @foreach($albumPhotos as $key)
                 <tr>
                   <td>{{ $loop->iteration }}</td>
-                  <td><img height="100vh" src="{{ url('storage/' . $key->filename) }}"></td>
-                  <td>{{ $key->caption }}</td>
+                  <td><a href="{{ url('storage/' . $key->filename) }}" target="_blank"><img height="100vh" src="{{ url('storage/' . $key->filename) }}"></a></td>
+                  <td>
+                    @if($key->caption != NULL)
+                      Bahasa Indonesia: {{ $key->caption }}
+                    @else
+                      Bahasa Indonesia: -
+                    @endif
+                    @if($key->caption_en != NULL)
+                      <br>
+                      English: {{ $key->caption_en }}
+                    @endif
+                    @if($key->caption_jp != NULL)
+                      <br>
+                      日本語: {{ $key->caption_jp }}
+                    @endif
+                  </td>
                   <td>
                     <div class="btn-group">
-                      <a href="#" onclick="deleteConfirmation({{ $key->id }})" title="Hapus" class="btn btn-danger btn-xs"><i class="fa fa-trash"></i></a>
+                      <a href="{{ route('photo.edit', $key->id) }}" class="btn btn-default btn-xs"><i class="fa fa-edit"></i> Edit</a>
+                      <a href="#" onclick="deleteConfirmation({{ $key->id }})" class="btn btn-danger btn-xs"><i class="fa fa-trash"></i> Hapus</a>
                       {!! Form::open(['route' => ['photo.destroy',$key->id,$album->id], 'method' => 'delete', 'id' => 'delete_form_'.$key->id]) !!}
                       {!! Form::close() !!}
                     </div>

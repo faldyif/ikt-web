@@ -63,7 +63,8 @@ class NewsController extends Controller
         $news->translateOrNew($request->locale)->content = $request->content;
         $news->save();
 
-        Session::flash('message', 'Berita berhasil diposkan! Anda dapat mentranslatenya melalui <a>link ini</a>');
+        $urlTranslation = url('admin/news') . '/' . $news->id;
+        Session::flash('message', 'Berita berhasil diposkan! Anda dapat mentranslatenya melalui <a href="'.$urlTranslation.'">link ini</a>');
         return redirect(route('news.index'));
     }
 
@@ -76,8 +77,29 @@ class NewsController extends Controller
     public function show($id)
     {
         $news = News::where('id', $id)->first();
+
+        $newsHasTranslation = array(
+            'id' => $news->hasTranslation('id'),
+            'en' => $news->hasTranslation('en'),
+            'jp' => $news->hasTranslation('jp'),
+        );
+        $translationCount = 3;
+        $selectField = array();
+        if (!$newsHasTranslation['id']) {
+            $selectField['id'] = 'Bahasa Indonesia';
+            $translationCount--;
+        }
+        if (!$newsHasTranslation['en']) {
+            $selectField['en'] = 'English';
+            $translationCount--;
+        }
+        if (!$newsHasTranslation['jp']) {
+            $selectField['jp'] = '日本語';
+            $translationCount--;
+        }
+
         $newsTranslation = NewsTranslation::where('news_id', $id)->get();
-        return view('admin.news.translation.index')->with('newsTranslation', $newsTranslation)->with('news', $news);
+        return view('admin.news.translation.index')->with('newsTranslation', $newsTranslation)->with('news', $news)->with('translationCount', $translationCount);
     }
 
     /**
