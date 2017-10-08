@@ -25,21 +25,35 @@
                       <li class="active">
                           <a data-toggle="pill" href="#home">
                               <div class="be-flex">
-                                  <i class="fa fa-th mg-r-15 mg-t-5"></i> <span>Karakter Perusahaan</span>
+                                  <i class="fa fa-th mg-r-15 mg-t-5"></i> <span>Tagline</span>
                               </div>
                           </a>
                       </li>
                     <li class="">
                       <a data-toggle="pill" href="#menu1">
                         <div class="be-flex">
+                          <i class="fa fa-th mg-r-15 mg-t-5"></i> <span>Nilai-Nilai Perusahaan</span>
+                        </div>
+                       </a>
+                     </li>
+                     <li class="">
+                      <a data-toggle="pill" href="#menu2">
+                        <div class="be-flex">
                           <i class="fa fa-th mg-r-15 mg-t-5"></i> <span>Karakter Perusahaan</span>
                         </div>
                        </a>
                      </li>
                     <li class="">
-                      <a data-toggle="pill" href="#menu2">
+                      <a data-toggle="pill" href="#menu3">
                         <div class="be-flex">
                          <i class="fa fa-th mg-r-15 mg-t-5"></i> <span>Landasan/Dasar dalam Melaksanaan Tugas dan Kewajiban Perusahaan</span>
+                        </div>
+                       </a>
+                     </li>
+                     <li class="">
+                      <a data-toggle="pill" href="#menu4">
+                        <div class="be-flex">
+                         <i class="fa fa-th mg-r-15 mg-t-5"></i> <span>Signature</span>
                         </div>
                        </a>
                      </li>
@@ -47,9 +61,13 @@
                 </div>
                 <div class="col-md-9">
                   <div class="tab-content">
+                  <!-- home -->
                     <div id="home" class="tab-pane fade in active">
-                      <h3 class="mg-b-30 roboBold">Tagline</h3>
-                      <h4>Dengan CINTA, satukan langkah mewujudkan kerja nyata IPC Car Terminal berkelas dunia.</h4>
+                      <img src="{{ url('img/tagline.png') }}" class="img-responsive" style="width: 90%; height: auto">
+                    </div>
+                    <!-- //home -->
+                    <!-- menu1 -->
+                    <div id="menu1" class="tab-pane fade in">
                       <h3 class="mg-b-30 roboBold">Nilai-Nilai Perusahaan</h3>
                       <div class="col-md-12">
                         <div class="col-md-2">
@@ -117,9 +135,9 @@
                         </div>
                       </div>
                     </div>
-                    <div id="menu1" class="tab-pane fade">
-                    <h3 class="mg-b-30 roboBold">Tagline</h3>
-                    <h4>Dengan CINTA, satukan langkah mewujudkan kerja nyata IPC Car Terminal berkelas dunia.</h4>
+                    <!-- //menu1 -->
+                    <!-- menu2 -->
+                    <div id="menu2" class="tab-pane fade">
                     <h3 class="mg-b-30 roboBold">Karakter Perusahaan</h3>
                     <div class="col-md-12">
                       <div class="col-md-2">
@@ -166,9 +184,9 @@
                       </div>
                     </div>
                     </div>
-                    <div id="menu2" class="tab-pane fade">
-                    <h3 class="mg-b-30 roboBold">Tagline</h3>
-                    <h4>Dengan CINTA, satukan langkah mewujudkan kerja nyata IPC Car Terminal berkelas dunia.</h4>
+                    <!-- //menu2 -->
+                    <!-- menu3 -->
+                    <div id="menu3" class="tab-pane fade">
                     <h3 class="mg-b-30 roboBold">Landasan/Dasar dalam Melaksanaan Tugas dan Kewajiban Perusahaan</h3>
                     <p>
                     <h4>Going Concern<br></h4>
@@ -187,6 +205,13 @@
                     Mengembangkan bisnis perusahaan.
                     </p>
                     </div>
+                    <!-- //menu3 -->
+                    <!-- menu4 -->
+                    <div id="menu4" class="tab-pane fade">
+                    <img src="{{ url('img/signature.png')}}" class="img-responsive">
+                    </div>
+                    <!-- //menu4 -->
+                    
                     
                   </div>
                 </div>
