@@ -241,28 +241,81 @@
     <section id="gallery" class="wow fadeInUp pagecontent" style="margin: 0 auto;">
       <div class="container-fluid">
         <hr class="hrSpec hrSpecOrange">
-        <h3 class="roboBold">Gallery</h3>
-        <!-- mansory -->
-        <section class="row">
-          <div class="grid">
-            <div class="grid-sizer"></div>
-            @foreach($latestAlbums as $key)
-              @php
-                $firstPhoto = \App\AlbumPhoto::where('album_id', $key->id)->first();
-              @endphp
-              <div class="grid-item">
-                <figure>
-                  <img src="{{ url('storage/' . $firstPhoto->filename) }}">
-                  <a href="{{ route('gallery.detail', $key->slug) }}"><div class="overlay"></div></a>
-                  <figcaption class="figcaptionTop hidden-768"><i class="fa fa-camera-retro fa-2x"></i></figcaption>
-                  <figcaption class="figcaptionBottom"><a href="{{ route('gallery.detail', $key->slug) }}">{{ $key->title }}</a><br>{{ \Carbon\Carbon::parse($key->created_at)->toFormattedDateString() }}</figcaption>
-                </figure>
-              </div>
-            @endforeach
-          </div>
-        </section>
+        <h3 class="roboBold">Featured Album</h3>
 
         <!-- /mansory -->
+        <!-- newAlbumList -->
+        <section class="row mg-bt-20 img-ikt img-ikt-top">
+          <div class="col-md-3 mg-b-20">
+            <section>
+              <div class="card">
+                <figure>
+                  <img class="card-img-top" src="{{ url('img/tmp/terminal_domestik.jpg') }}" style="background-image: url(' {{ url('img/tmp/terminal_domestik.jpg') }} ')" alt="Card image cap">
+                  <a href="...">
+                    <div class="overlay"></div>
+                    <figcaption><i class="fa fa-search-plus fa-2x"></i></figcaption>
+                  </a>
+                </figure>
+                <div class="card-body">
+                  <hr class="hrSpec hrSpecOrange" style="margin-top: 0">
+                  <h4 class="card-title roboBold">Terminal Domestic</h4>
+                </div>
+              </div>
+            </section>
+          </div>
+          <div class="col-md-3 mg-b-20">
+            <section>
+              <div class="card">
+                <figure>
+                  <img class="card-img-top" src="{{ url('img/tmp/terminal_internasional.jpg') }}" style="background-image: url(' {{ url('img/tmp/terminal_internasional.jpg') }} ')" alt="Card image cap">
+                  <a href="...">
+                    <div class="overlay"></div>
+                    <figcaption><i class="fa fa-search-plus fa-2x"></i></figcaption>
+                  </a>
+                </figure>
+                <div class="card-body">
+                  <hr class="hrSpec hrSpecOrange" style="margin-top: 0">
+                  <h4 class="card-title roboBold">Terminal Internasional</h4>
+                </div>
+              </div>
+            </section>
+          </div>
+          <div class="col-md-3 mg-b-20">
+            <section>
+              <div class="card">
+                <figure>
+                  <img class="card-img-top" src="{{ url('img/tmp/cartos.jpg') }}" style="background-image: url(' {{ url('img/tmp/cartos.jpg') }} ')" alt="Card image cap">
+                  <a href="...">
+                    <div class="overlay"></div>
+                    <figcaption><i class="fa fa-search-plus fa-2x"></i></figcaption>
+                  </a>
+                </figure>
+                <div class="card-body">
+                  <hr class="hrSpec hrSpecOrange" style="margin-top: 0">
+                  <h4 class="card-title roboBold">CarTOS</h4>
+                </div>
+              </div>
+            </section>
+          </div>
+          <div class="col-md-3 mg-b-20">
+            <section>
+              <div class="card">
+                <figure>
+                  <img class="card-img-top" src="{{ url('img/tmp/kerjasama.jpg') }}" style="background-image: url(' {{ url('img/tmp/kerjasama.jpg') }} ')" alt="Card image cap">
+                  <a href="...">
+                    <div class="overlay"></div>
+                    <figcaption><i class="fa fa-search-plus fa-2x"></i></figcaption>
+                  </a>
+                </figure>
+                <div class="card-body">
+                  <hr class="hrSpec hrSpecOrange" style="margin-top: 0">
+                  <h4 class="card-title roboBold">Kerjasama</h4>
+                </div>
+              </div>
+            </section>
+          </div>
+        </section>
+        <!-- /newAlbumList -->
       </div>
     </section>
     <!--/GALERRY-->

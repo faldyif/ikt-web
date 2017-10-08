@@ -103,7 +103,7 @@
                 </div>
                 <div class="col-md-9">
                   <div class="tab-content">
-                    <div id="menu0" class="tab-pane fade in active">
+                    <div id="home" class="tab-pane fade in active">
                       <p>PT Indonesia Kendaraan Terminal, atau yang kemudian disebut ‘Perusahaan’ atau ‘Perseroan’, senantiasa melandaskan setiap kegiatannya pada prinsip pengelolaan perusahaan yang baik atau Good Corporate Governance (GCG). Ketaatan pada prinsip-prinsip GCG ini diaplikasikan pada seluruh aktivitas Perusahaan untuk menegakkan visi Perusahaan menjadi perusahaan jasa kepelabuhanan yang profesional, independen, berintegritas dan berkelanjutan.</p>
                       <p>Sebagai perusahaan yang profesional, independen, berintegritas dan berkelanjutan isu anti Korupsi Kolusi dan Nepotisme (KKN) menjadi prioritas bagi manajemen Perusahaan. Dalam semangat tersebut, Manajemen Perseroan terus melakukan upaya-upaya untuk membersihkan diri dari praktek KKN, termasuk didalamnya upaya pengendalian praktek Gratifikasi.</p>
                       <p>Perusahaan menyadari bahwa dalam menjalin hubungan kerja dengan pihak ketiga, baik stakeholder maupun vendor, seringkali bersinggungan dengan praktek gratifikasi, sehingga dibutuhkan sebuah pedoman untuk mengendalikan praktek tersebut. Hal ini dilakukan agar seluruh Insan PT Indonesia Kendaraan Terminal  memiliki pemahaman yang sama tentang perlakuan terhadap gratifikasi serta membantu Insan PT Indonesia Kendaraan Terminal untuk tidak terjerat dalam praktek gratifikasi yang termasuk tindak pidana suap, sebagaimana diatur pada pasal 12 B Ayat (1) Undang-Undang Nomor 20 Tahun 2001 Tentang Perubahan Atas Undang-Undang Nomor 31 Tahun 1999 Tentang Pemberantasan Tindak Pidana Korupsi.</p>
@@ -119,54 +119,26 @@
 
                         <p>Konten sedang disiapkan...</p>
                     </div>
-                    <div id="menu3" class="tab-pane fade">
-                          <h3 class="roboBlack">4 Lorem ipsum dolor sit amet</h3>
-                          <p>Lorem ipsum dolor sit amet, quas integre sit no, mei velit virtute oportere cu. Aeque adipisci instructior sit ne, equidem imperdiet ullamcorper cum no. Cu est integre democritum, mediocrem democritum ullamcorper no sit. Minim latine vix ut.</p>
-                          <p>Vix eu etiam mediocrem. Qui debet essent omnium ut. Ne qui recusabo temporibus, in eum singulis posidonium. Nec reque saepe ea, esse veniam definitionem est ei.</p>
-                          <p>Eam no eripuit noluisse intellegebat. Nominavi mnesarchum ad eam, pro dico recteque id, cu dicant audiam mel. At eum mazim dolore aliquid, id sed quas saepe doming. Atomorum assentior ne pri, ut cum fugit facilis electram.</p>
-                          <p>Aliquam principes deterruisset cum et, vel an eius equidem. Id quando legimus inermis eum, cibo consul democritum cum te, cu cum suas laudem graeci. Bonorum gloriatur signiferumque an pro. Justo corpora suscipit quo et, vim te noluisse praesent scriptorem, pro ea incorrupte intellegam mediocritatem. Hinc laoreet mediocrem te nec, petentium iracundia ut cum. Fabulas ornatus iudicabit an pri, qui at decore legimus voluptatibus. Ei semper adipisci constituto eum, ad reque dicam nec.</p>
+                      <div id="menu3" class="tab-pane fade">
+                          <p>Konten sedang disiapkan...</p>
                       </div>
-                    <div id="menu4" class="tab-pane fade">
-                          <h3 class="roboBlack">4 Lorem ipsum dolor sit amet</h3>
-                          <p>Lorem ipsum dolor sit amet, quas integre sit no, mei velit virtute oportere cu. Aeque adipisci instructior sit ne, equidem imperdiet ullamcorper cum no. Cu est integre democritum, mediocrem democritum ullamcorper no sit. Minim latine vix ut.</p>
-                          <p>Vix eu etiam mediocrem. Qui debet essent omnium ut. Ne qui recusabo temporibus, in eum singulis posidonium. Nec reque saepe ea, esse veniam definitionem est ei.</p>
-                          <p>Eam no eripuit noluisse intellegebat. Nominavi mnesarchum ad eam, pro dico recteque id, cu dicant audiam mel. At eum mazim dolore aliquid, id sed quas saepe doming. Atomorum assentior ne pri, ut cum fugit facilis electram.</p>
-                          <p>Aliquam principes deterruisset cum et, vel an eius equidem. Id quando legimus inermis eum, cibo consul democritum cum te, cu cum suas laudem graeci. Bonorum gloriatur signiferumque an pro. Justo corpora suscipit quo et, vim te noluisse praesent scriptorem, pro ea incorrupte intellegam mediocritatem. Hinc laoreet mediocrem te nec, petentium iracundia ut cum. Fabulas ornatus iudicabit an pri, qui at decore legimus voluptatibus. Ei semper adipisci constituto eum, ad reque dicam nec.</p>
+                      <div id="menu4" class="tab-pane fade">
+                          <p>Konten sedang disiapkan...</p>
                       </div>
-                    <div id="menu5" class="tab-pane fade">
-                          <h3 class="roboBlack">4 Lorem ipsum dolor sit amet</h3>
-                          <p>Lorem ipsum dolor sit amet, quas integre sit no, mei velit virtute oportere cu. Aeque adipisci instructior sit ne, equidem imperdiet ullamcorper cum no. Cu est integre democritum, mediocrem democritum ullamcorper no sit. Minim latine vix ut.</p>
-                          <p>Vix eu etiam mediocrem. Qui debet essent omnium ut. Ne qui recusabo temporibus, in eum singulis posidonium. Nec reque saepe ea, esse veniam definitionem est ei.</p>
-                          <p>Eam no eripuit noluisse intellegebat. Nominavi mnesarchum ad eam, pro dico recteque id, cu dicant audiam mel. At eum mazim dolore aliquid, id sed quas saepe doming. Atomorum assentior ne pri, ut cum fugit facilis electram.</p>
-                          <p>Aliquam principes deterruisset cum et, vel an eius equidem. Id quando legimus inermis eum, cibo consul democritum cum te, cu cum suas laudem graeci. Bonorum gloriatur signiferumque an pro. Justo corpora suscipit quo et, vim te noluisse praesent scriptorem, pro ea incorrupte intellegam mediocritatem. Hinc laoreet mediocrem te nec, petentium iracundia ut cum. Fabulas ornatus iudicabit an pri, qui at decore legimus voluptatibus. Ei semper adipisci constituto eum, ad reque dicam nec.</p>
+                      <div id="menu5" class="tab-pane fade">
+                          <p>Konten sedang disiapkan...</p>
                       </div>
-                    <div id="menu6" class="tab-pane fade">
-                          <h3 class="roboBlack">4 Lorem ipsum dolor sit amet</h3>
-                          <p>Lorem ipsum dolor sit amet, quas integre sit no, mei velit virtute oportere cu. Aeque adipisci instructior sit ne, equidem imperdiet ullamcorper cum no. Cu est integre democritum, mediocrem democritum ullamcorper no sit. Minim latine vix ut.</p>
-                          <p>Vix eu etiam mediocrem. Qui debet essent omnium ut. Ne qui recusabo temporibus, in eum singulis posidonium. Nec reque saepe ea, esse veniam definitionem est ei.</p>
-                          <p>Eam no eripuit noluisse intellegebat. Nominavi mnesarchum ad eam, pro dico recteque id, cu dicant audiam mel. At eum mazim dolore aliquid, id sed quas saepe doming. Atomorum assentior ne pri, ut cum fugit facilis electram.</p>
-                          <p>Aliquam principes deterruisset cum et, vel an eius equidem. Id quando legimus inermis eum, cibo consul democritum cum te, cu cum suas laudem graeci. Bonorum gloriatur signiferumque an pro. Justo corpora suscipit quo et, vim te noluisse praesent scriptorem, pro ea incorrupte intellegam mediocritatem. Hinc laoreet mediocrem te nec, petentium iracundia ut cum. Fabulas ornatus iudicabit an pri, qui at decore legimus voluptatibus. Ei semper adipisci constituto eum, ad reque dicam nec.</p>
+                      <div id="menu6" class="tab-pane fade">
+                          <p>Konten sedang disiapkan...</p>
                       </div>
-                    <div id="menu7" class="tab-pane fade">
-                          <h3 class="roboBlack">4 Lorem ipsum dolor sit amet</h3>
-                          <p>Lorem ipsum dolor sit amet, quas integre sit no, mei velit virtute oportere cu. Aeque adipisci instructior sit ne, equidem imperdiet ullamcorper cum no. Cu est integre democritum, mediocrem democritum ullamcorper no sit. Minim latine vix ut.</p>
-                          <p>Vix eu etiam mediocrem. Qui debet essent omnium ut. Ne qui recusabo temporibus, in eum singulis posidonium. Nec reque saepe ea, esse veniam definitionem est ei.</p>
-                          <p>Eam no eripuit noluisse intellegebat. Nominavi mnesarchum ad eam, pro dico recteque id, cu dicant audiam mel. At eum mazim dolore aliquid, id sed quas saepe doming. Atomorum assentior ne pri, ut cum fugit facilis electram.</p>
-                          <p>Aliquam principes deterruisset cum et, vel an eius equidem. Id quando legimus inermis eum, cibo consul democritum cum te, cu cum suas laudem graeci. Bonorum gloriatur signiferumque an pro. Justo corpora suscipit quo et, vim te noluisse praesent scriptorem, pro ea incorrupte intellegam mediocritatem. Hinc laoreet mediocrem te nec, petentium iracundia ut cum. Fabulas ornatus iudicabit an pri, qui at decore legimus voluptatibus. Ei semper adipisci constituto eum, ad reque dicam nec.</p>
+                      <div id="menu7" class="tab-pane fade">
+                          <p>Konten sedang disiapkan...</p>
                       </div>
-                    <div id="menu8" class="tab-pane fade">
-                          <h3 class="roboBlack">4 Lorem ipsum dolor sit amet</h3>
-                          <p>Lorem ipsum dolor sit amet, quas integre sit no, mei velit virtute oportere cu. Aeque adipisci instructior sit ne, equidem imperdiet ullamcorper cum no. Cu est integre democritum, mediocrem democritum ullamcorper no sit. Minim latine vix ut.</p>
-                          <p>Vix eu etiam mediocrem. Qui debet essent omnium ut. Ne qui recusabo temporibus, in eum singulis posidonium. Nec reque saepe ea, esse veniam definitionem est ei.</p>
-                          <p>Eam no eripuit noluisse intellegebat. Nominavi mnesarchum ad eam, pro dico recteque id, cu dicant audiam mel. At eum mazim dolore aliquid, id sed quas saepe doming. Atomorum assentior ne pri, ut cum fugit facilis electram.</p>
-                          <p>Aliquam principes deterruisset cum et, vel an eius equidem. Id quando legimus inermis eum, cibo consul democritum cum te, cu cum suas laudem graeci. Bonorum gloriatur signiferumque an pro. Justo corpora suscipit quo et, vim te noluisse praesent scriptorem, pro ea incorrupte intellegam mediocritatem. Hinc laoreet mediocrem te nec, petentium iracundia ut cum. Fabulas ornatus iudicabit an pri, qui at decore legimus voluptatibus. Ei semper adipisci constituto eum, ad reque dicam nec.</p>
+                      <div id="menu8" class="tab-pane fade">
+                          <p>Konten sedang disiapkan...</p>
                       </div>
-                    <div id="menu9" class="tab-pane fade">
-                          <h3 class="roboBlack">4 Lorem ipsum dolor sit amet</h3>
-                          <p>Lorem ipsum dolor sit amet, quas integre sit no, mei velit virtute oportere cu. Aeque adipisci instructior sit ne, equidem imperdiet ullamcorper cum no. Cu est integre democritum, mediocrem democritum ullamcorper no sit. Minim latine vix ut.</p>
-                          <p>Vix eu etiam mediocrem. Qui debet essent omnium ut. Ne qui recusabo temporibus, in eum singulis posidonium. Nec reque saepe ea, esse veniam definitionem est ei.</p>
-                          <p>Eam no eripuit noluisse intellegebat. Nominavi mnesarchum ad eam, pro dico recteque id, cu dicant audiam mel. At eum mazim dolore aliquid, id sed quas saepe doming. Atomorum assentior ne pri, ut cum fugit facilis electram.</p>
-                          <p>Aliquam principes deterruisset cum et, vel an eius equidem. Id quando legimus inermis eum, cibo consul democritum cum te, cu cum suas laudem graeci. Bonorum gloriatur signiferumque an pro. Justo corpora suscipit quo et, vim te noluisse praesent scriptorem, pro ea incorrupte intellegam mediocritatem. Hinc laoreet mediocrem te nec, petentium iracundia ut cum. Fabulas ornatus iudicabit an pri, qui at decore legimus voluptatibus. Ei semper adipisci constituto eum, ad reque dicam nec.</p>
+                      <div id="menu9" class="tab-pane fade">
+                          <p>Konten sedang disiapkan...</p>
                       </div>
                   </div>
                 </div>

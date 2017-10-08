@@ -134,4 +134,12 @@ $(document).ready(function(){
       },400);
     });
 
+    // function
+    function giveLove(elmnt) {
+      // if(elmnt.className == "fa-heart-o"){
+      //   elmnt.removeClass("fa-heart-o");
+      //   elmnt.addClass("fa-heart");
+      // }
+      alert(elmnt.className);
+    }
 });

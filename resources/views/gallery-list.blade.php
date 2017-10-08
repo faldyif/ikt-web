@@ -62,24 +62,40 @@
           <hr class="hrSpec hrSpecOrange">
           <h3 class="roboBold">Company Album</h3>
         </section>
-        <!-- masonry -->
+        <section class="row mg-bt-20 mg-lr-10 img-ikt img-ikt-top">
+          <!-- masonry -->
           <div class="grid">
             <div class="grid-sizer"></div>
             @foreach($albums as $key)
-            @php
-            $firstPhoto = \App\AlbumPhoto::where('album_id', $key->id)->first();
-            @endphp
-            <div class="grid-item">
-                <figure>
-                  <img src="{{ url('storage/' . $firstPhoto->filename) }}">
-                  <a href="{{ route('gallery.detail', $key->slug) }}"><div class="overlay"></div></a>
-                  <figcaption class="figcaptionTop hidden-768"><i class="fa fa-camera-retro fa-2x"></i></figcaption>
-                  <figcaption class="figcaptionBottom"><a href="{{ route('gallery.detail', $key->slug) }}">{{ $key->title }}</a><br>{{ \Carbon\Carbon::parse($key->created_at)->toFormattedDateString() }}</figcaption>
-                </figure>
-            </div>
+              @php
+                $firstPhoto = \App\AlbumPhoto::where('album_id', $key->id)->first();
+              @endphp
+              <div class="grid-item">
+                <!-- newAlbumList -->
+                <div class="col-md-12 mg-b-20">
+                  <section>
+                    <div class="card">
+                      <figure>
+                        <img class="card-img-top" src="{{ url('storage/' . $firstPhoto->filename) }}" style="background-image: url('{{ url('storage/' . $firstPhoto->filename) }}')"  alt="Card image cap">
+                        <a href="{{ route('gallery.detail', $key->slug) }}">
+                          <div class="overlay"></div>
+                          <figcaption><i class="fa fa-search-plus fa-2x"></i></figcaption>
+                        </a>
+                      </figure>
+                      <div class="card-body">
+                        <hr class="hrSpec hrSpecOrange">
+                        <h4 class="card-title roboBold">{{ $key->title }}</h4>
+                      </div>
+                    </div>
+                  </section>
+                </div>
+                <!-- /newAlbumList -->
+              </div>
             @endforeach
           </div>
-        <!-- /masonry -->
+          <!-- /masonry -->
+        </section>
+
       </div>
     </section>
     <!--/GALLERY-->
