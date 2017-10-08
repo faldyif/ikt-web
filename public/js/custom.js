@@ -133,4 +133,13 @@ $(document).ready(function(){
         $collapse.collapse("hide");
       },50);
     });
+
+    // function
+    function giveLove(elmnt) {
+      // if(elmnt.className == "fa-heart-o"){
+      //   elmnt.removeClass("fa-heart-o");
+      //   elmnt.addClass("fa-heart");
+      // }
+      alert(elmnt.className);
+    }
 });
