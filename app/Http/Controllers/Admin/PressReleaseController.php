@@ -99,6 +99,8 @@ class PressReleaseController extends Controller
      */
     public function destroy($id)
     {
-        //
+        PressRelease::destroy($id);
+        Session::flash('message', 'Press Release berhasil dihapus!');
+        return redirect(route('press-release.index'));
     }
 }

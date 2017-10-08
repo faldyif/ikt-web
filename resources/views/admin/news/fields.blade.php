@@ -1,13 +1,6 @@
 
-<div class="form-group col-md-2">
-    <label>Bahasa <sup>*</sup></label>
-    {{ Form::select('locale', array(
-        'id' => 'Bahasa Indonesia',
-        'en' => 'English',
-        'jp' => '日本語',
-    ), null, array('class' => 'form-control')) }}
-</div>
-<div class="form-group col-md-6">
+<input type="hidden" value="id" name="locale">
+<div class="form-group col-md-8">
     <label>Judul Berita <sup>*</sup></label>
     {{ Form::text('title', null, array('class' => 'form-control', 'placeholder' => 'Masukkan judul berita')) }}
 </div>

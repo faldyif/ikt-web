@@ -21,7 +21,27 @@ class NewsTranslationController extends Controller
     public function create($id)
     {
         $news = News::find($id);
-        return view('admin.news.translation.create')->with('news', $news);
+        $newsHasTranslation = array(
+            'id' => $news->hasTranslation('id'),
+            'en' => $news->hasTranslation('en'),
+            'jp' => $news->hasTranslation('jp'),
+        );
+        $translationCount = 3;
+        $selectField = array();
+        if (!$newsHasTranslation['id']) {
+            $selectField['id'] = 'Bahasa Indonesia';
+            $translationCount--;
+        }
+        if (!$newsHasTranslation['en']) {
+            $selectField['en'] = 'English';
+            $translationCount--;
+        }
+        if (!$newsHasTranslation['jp']) {
+            $selectField['jp'] = '日本語';
+            $translationCount--;
+        }
+
+        return view('admin.news.translation.create')->with('news', $news)->with('selectField', $selectField);
     }
 
     /**

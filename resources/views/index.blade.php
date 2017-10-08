@@ -10,7 +10,7 @@
   <section class="">
     <div>
       <figure class="figSlider">
-        <img src="{{ url('img/depan.jpeg') }}">
+        <img src="{{ url('img/bg_beranda.jpg') }}">
         <div class="overlay"></div>
         <section class="containerCenter alignCenter">
           <section class="row">

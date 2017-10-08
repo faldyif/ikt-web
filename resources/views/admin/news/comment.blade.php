@@ -44,7 +44,7 @@
                                 <td><a href="{{ route('news.detail', \App\News::find($key->news_id)->slug) }}" target="_blank">{{ \App\News::find($key->news_id)->title }}</a></td>
                                 <td>
                                     <div class="btn-group">
-                                        <a href="#" onclick="deleteConfirmation({{ $key->id }})" class="btn btn-danger btn-xs"><i class="fa fa-trash"></i></a>
+                                        <a href="#" onclick="deleteConfirmation({{ $key->id }})" class="btn btn-danger btn-xs"><i class="fa fa-trash"></i> Hapus</a>
                                         {!! Form::open(['route' => ['news-comment.destroy', $key->id], 'method' => 'delete', 'id' => 'delete_form_'.$key->id]) !!}
                                         {!! Form::close() !!}
                                     </div>

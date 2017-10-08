@@ -44,8 +44,8 @@
                   <td>{{ $key->created_at }}</td>
                   <td>
                     <div class="btn-group">
-                      <a href="{{ route('press-release.edit', $key->id) }}" class="btn btn-default btn-xs"><i class="fa fa-edit"></i></a>
-                      <a href="#" onclick="deleteConfirmation({{ $key->id }})" class="btn btn-danger btn-xs"><i class="fa fa-trash"></i></a>
+                      <a href="{{ route('press-release.edit', $key->id) }}" class="btn btn-default btn-xs"><i class="fa fa-edit"></i> Edit</a>
+                      <a href="#" onclick="deleteConfirmation({{ $key->id }})" class="btn btn-danger btn-xs"><i class="fa fa-trash"></i> Hapus</a>
                       {!! Form::open(['route' => ['press-release.destroy',$key->id], 'method' => 'delete', 'id' => 'delete_form_'.$key->id]) !!}
                       {!! Form::close() !!}
                     </div>

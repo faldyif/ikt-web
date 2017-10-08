@@ -24,6 +24,10 @@
             <!-- /.box-header -->
             <div class="box-body">
             {!! Form::open(array('route' => 'news-translation.store', 'enctype' => 'multipart/form-data')) !!}
+                <div class="form-group col-md-2">
+                    <label>Bahasa <sup>*</sup></label>
+                    {{ Form::select('locale', $selectField, null, array('class' => 'form-control')) }}
+                </div>
               @include('admin.news.translation.fields')
 						{!! Form::close() !!}
             </div>
