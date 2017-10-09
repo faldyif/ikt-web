@@ -218,12 +218,4 @@ Route::get('tabs', function () {
 Route::get('ye', function () {
     return view('subcompany');
 });
-Route::get('/info', function () {
-    $news = \App\News::find(1);
-    $newsHasTranslation = array(
-        'id' => $news->hasTranslation('id'),
-        'en' => $news->hasTranslation('en'),
-        'jp' => $news->hasTranslation('jp'),
-    );
-    return var_dump($newsHasTranslation);
-});
+Route::get('/info', 'TestController@test');

@@ -183,6 +183,7 @@ return [
         Cviebrock\EloquentSluggable\ServiceProvider::class,
         \Petehouston\Tinymce\TinymceServiceProvider::class,
         Dimsav\Translatable\TranslatableServiceProvider::class,
+        SammyK\LaravelFacebookSdk\LaravelFacebookSdkServiceProvider::class,
     ],
 
     /*
@@ -234,6 +235,7 @@ return [
         // LaravelCollective
         'Form' => Collective\Html\FormFacade::class,
         'Html' => Collective\Html\HtmlFacade::class,
+        'Facebook' => SammyK\LaravelFacebookSdk\FacebookFacade::class,
 
     ],
 
