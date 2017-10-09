@@ -22,7 +22,7 @@
             <div class="col-md-12">
             <hr class="hrSpec hrSpecOrange">
             <h3 class="mg-b-30 roboBold">Annual Report</h3>
-              <h2>Coming Soon...</h2>
+              <h2>Sedang menunggu konten...</h2>
             </div>
           </div>
         </section>

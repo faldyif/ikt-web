@@ -21,27 +21,40 @@ $album->save();
     <!--/HERO-->
     <!--GALLERY-->
     <section id="gallery-list">
-        <div class="container-fluid wow fadeInUpBig pd-30">
-            <!-- masonry -->
-            <div class="grid">
-                <div class="grid-sizer"></div>
-                @foreach($albumPhotos as $key)
-                <div class="grid-item">
-                    <figure>
-                        <a href="{{ url('storage/' . $key->filename) }}" data-rel="lightcase:galleryCollection"
-                           title="{{ $album->title }}">
-                            <img src="{{ url('storage/' . $key->filename) }}">
-                        </a>
-                    </figure>
-                </div>
-                @endforeach
-            </div>
-            <!-- /masonry -->
+        <div class="container-fluid wow fadeInUpBig">
             <section class="row mg-bt-30">
                 <div class="alignCenter mg-t-20">
                     {!! $album->description !!}
                 </div>
             </section>
+            <!-- masonry -->
+            <div class="grid">
+                <div class="grid-sizer"></div>
+                @foreach($albumPhotos as $key)
+                <div class="grid-item">
+                    <!-- newAlbumList -->
+                    <div class="col-md-12 mg-b-20">
+                        <section>
+                            <div class="card">
+                                <figure>
+                                    <img class="card-img-top" src="{{ url('storage/' . $key->filename) }}" style="background-image: url('{{ url('storage/' . $key->filename) }}')"  alt="Card image cap">
+                                    <a href="{{ url('storage/' . $key->filename) }}" data-rel="lightcase:galleryCollection" title="{{ $key->getCaption() }}">
+                                        <div class="overlay"></div>
+                                        <figcaption><i class="fa fa-plus fa-2x"></i></figcaption>
+                                    </a>
+                                </figure>
+                                <div class="card-body">
+                                    <hr class="hrSpec hrSpecOrange">
+                                    <p>{{ $key->getCaption() }}</p>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                    <!-- /newAlbumList -->
+                </div>
+                @endforeach
+            </div>
+            <!-- /masonry -->
             <hr>
             <section class="row">
                 <div class="col-md-8 col-md-offset-2">
@@ -55,10 +68,10 @@ $album->save();
                                 </ul>
                             </div>
                         @endif
-                        <div id="showToggle-r" class="alignCenter mg-t-20">
+                        <div id="showToggle-r" class="alignCenter">
                             <p class="btn btn-gray-full wd-100"><span>Leave a comment</span></p>
                         </div>
-                        <div id="thisToggle-r">
+                        <div id="thisToggle-r" class="mg-t-20">
                             {!! Form::open(array('route' => 'album-comment.post', 'enctype' => 'multipart/form-data')) !!}
                             <input type="hidden" name="album_id" value="{{ $album->id }}">
                             <div class="form-group">

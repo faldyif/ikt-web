@@ -29,7 +29,7 @@ return [
 
     // Services submenu
     'stevedoring-cargodoring' => 'Stevedoring & cargodoring',
-    'receiving-delivering' => 'Receiving & Delivering',
+    'receiving-delivering' => 'Receiving & Delivery',
     'pre-delivery-inspection' => 'Pre Delivery Inspection',
     'value-added-services' => 'Value Added Services',
     // End services submenu
@@ -46,7 +46,7 @@ return [
     'annual-report' => 'Annual Report',
     'statistic-data' => 'Statistic & Data',
     'our-customer' => 'Our Customer',
-    'procurement' => 'Procurement',
+    'procurement' => 'e-Procurement',
     'limouzine-magazine' => 'Limouzine Magazine',
     'gallery' => 'Gallery',
     // End facilities submenu

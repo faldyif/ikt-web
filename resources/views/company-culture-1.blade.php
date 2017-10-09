@@ -54,9 +54,11 @@
                 </div>
                 <div class="col-md-9">
                   <div class="tab-content">
-                    <div id="home" class="tab-pane fade in active">
-                      <h3 class="mg-b-30 roboBold">Tagline</h3>
-                      <h4>Dengan CINTA, satukan langkah mewujudkan kerja nyata IPC Car Terminal berkelas dunia.</h4>
+                      <div id="tagline" class="tab-pane fade in active">
+                          <h3 class="mg-b-30 roboBold">Tagline</h3>
+                          <h4>Dengan CINTA, satukan langkah mewujudkan kerja nyata IPC Car Terminal berkelas dunia.</h4>
+                      </div>
+                    <div id="home" class="tab-pane fade in">
                       <h3 class="mg-b-30 roboBold">Nilai-Nilai Perusahaan</h3>
                       <div class="col-md-4">
                         <img src="{{ url('img/1_corporate_culture.png') }}" class="img-responsive" style="width: 130px; height: auto; margin: 10px 0">
@@ -115,8 +117,6 @@
                       </div>
                     </div>
                     <div id="menu1" class="tab-pane fade">
-                    <h3 class="mg-b-30 roboBold">Tagline</h3>
-                    <h4>Dengan CINTA, satukan langkah mewujudkan kerja nyata IPC Car Terminal berkelas dunia.</h4>
                     <h3 class="mg-b-30 roboBold">Karakter Perusahaan</h3>
                     <p>
                     <h4>Less Bureaucratic<br><small>Decision Making Process</small></h4>
@@ -136,8 +136,6 @@
                     </p>
                     </div>
                     <div id="menu2" class="tab-pane fade">
-                    <h3 class="mg-b-30 roboBold">Tagline</h3>
-                    <h4>Dengan CINTA, satukan langkah mewujudkan kerja nyata IPC Car Terminal berkelas dunia.</h4>
                     <h3 class="mg-b-30 roboBold">Landasan/Dasar dalam Melaksanaan Tugas dan Kewajiban Perusahaan</h3>
                     <p>
                     <h4>Going Concern<br></h4>

@@ -6,7 +6,7 @@ return [
     'title' => 'Stevedoring & Cargodoring',
     'content' => '
             <p>
-              Jasa bongkar muat kapal RORO(Roll On Roll Out) dalam proses loading dan unloading bebagai jenis kendararaan pabrikan ternama luar dan dalam negeri. Cargodooring adalah kegiatan mengangsur Cargo dari dermaga ke lapangan / gudang penumpukan ke penumpukan lainnya dan / atau sebaliknya Dengan bongkar muat membentuk inti dari bisnis kami, PTB telah membuat investasi strategis banyak yang meliputi:
+              Jasa bongkar muat kapal RORO (Roll On Roll Off) dalam proses loading dan unloading bebagai jenis kendararaan pabrikan ternama luar dan dalam negeri. Cargodooring adalah kegiatan mengangsur Cargo dari dermaga ke lapangan / gudang penumpukan ke penumpukan lainnya dan / atau sebaliknya Dengan bongkar muat membentuk inti dari bisnis kami, PTB telah membuat investasi strategis banyak yang meliputi:
             </p>
             <ul class="pd-0">
               <li class="be-flex mg-b-10"><i class="fa fa-arrow-right bl mg-r-10"></i>Parkir kendaraan yang luas</li>

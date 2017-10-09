@@ -50,8 +50,8 @@
                   <td>{{ \Carbon\Carbon::parse($key->eta )->toDateString() }}</td>
                   <td>
                     <div class="btn-group">
-                      <a href="{{ route('berthing.edit', $key->id) }}" class="btn btn-default btn-xs"><i class="fa fa-edit"></i></a>
-                      <a href="#" onclick="deleteConfirmation({{ $key->id }})" class="btn btn-danger btn-xs"><i class="fa fa-trash"></i></a>
+                      <a href="{{ route('berthing.edit', $key->id) }}" class="btn btn-default btn-xs"><i class="fa fa-edit"></i> Edit</a>
+                      <a href="#" onclick="deleteConfirmation({{ $key->id }})" class="btn btn-danger btn-xs"><i class="fa fa-trash"></i> Hapus</a>
                       {!! Form::open(['route' => ['berthing.destroy',$key->id], 'method' => 'delete', 'id' => 'delete_form_'.$key->id]) !!}
                       {!! Form::close() !!}
                     </div>

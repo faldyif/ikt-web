@@ -4,7 +4,7 @@
 
 @section('breadcrumb')
     <li><a href="{{ route('album.index') }}"><i class="fa fa-newspaper-o"></i> Album</a></li>
-    <li><a href="{{ route('gallery.detail', $album->slug) }}" target="_blank">{{ \App\Album::find($album->id)->title }}</a></li>
+    <li><a href="{{ url('id/galeri') }}/{{ $album->slug }}" target="_blank">{{ \App\Album::find($album->id)->title }}</a></li>
     <li><a href="{{ route('album.edit', $album->id) }}">Edit</a></li>
 @endsection
 
@@ -32,6 +32,22 @@
                 <div class="form-group col-md-12">
                     <label for="inputKonten">Deskripsi Album <sup>*</sup></label>
                     {{ Form::textarea('description', null, array('class' => 'tinymce')) }}
+                </div>
+                <div class="form-group col-md-12">
+                    <label>Judul Album (English)</label>
+                    {{ Form::text('title_en', null, array('class' => 'form-control', 'placeholder' => 'Masukkan judul album (english)')) }}
+                </div>
+                <div class="form-group col-md-12">
+                    <label for="inputKonten">Deskripsi Album (English)</label>
+                    {{ Form::textarea('description_en', null, array('class' => 'tinymce')) }}
+                </div>
+                <div class="form-group col-md-12">
+                    <label>Judul Album (日本語)</label>
+                    {{ Form::text('title_jp', null, array('class' => 'form-control', 'placeholder' => 'Masukkan judul album (japanese)')) }}
+                </div>
+                <div class="form-group col-md-12">
+                    <label for="inputKonten">Deskripsi Album (日本語)</label>
+                    {{ Form::textarea('description_jp', null, array('class' => 'tinymce')) }}
                 </div>
                 <div class="col-md-2 pull-right">
                     <button type="submit" class="btn btn-block btn-primary">

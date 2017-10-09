@@ -17,19 +17,32 @@
 Route::group(array('namespace'=>'Admin', 'prefix'=>'admin', 'middleware'=>'auth'), function()
 {
     Route::get('/', array('as' => 'dashboard', 'uses' => 'DashboardController@index'));
-    Route::resource('album', 'AlbumController', ['except' => ['show']]);
-    Route::resource('berthing', 'BerthingPlanController');
-    Route::resource('event', 'EventController');
-    Route::resource('news', 'NewsController');
-    Route::resource('news-translation', 'NewsTranslationController', ['only' => ['store', 'edit', 'update', 'destroy']]);
-    Route::get('news-translation/create/{id}', 'NewsTranslationController@create')->name('news-translation.create');
-    Route::get('album/{id}/photo', 'PhotoController@index')->name('photo.index');
-    Route::get('album/{id}/create', 'PhotoController@create')->name('photo.create');
-    Route::post('album/{id}', 'PhotoController@store')->name('photo.store');
-    Route::delete('album/{id}/destroy/{idAlbum}', 'PhotoController@destroy')->name('photo.destroy');
-    Route::resource('press-release', 'PressReleaseController');
-    Route::resource('album-comment', 'AlbumCommentController', ['only' => ['index', 'destroy']]);
-    Route::resource('news-comment', 'NewsCommentController', ['only' => ['index', 'destroy']]);
+
+    Route::group(array('middleware'=>'admin.operasional'), function()
+    {
+        Route::resource('berthing', 'BerthingPlanController');
+    });
+
+    Route::group(array('middleware'=>'admin.sekper'), function()
+    {
+        Route::resource('album', 'AlbumController', ['except' => ['show']]);
+        Route::resource('event', 'EventController');
+        Route::resource('news', 'NewsController');
+        Route::resource('news-translation', 'NewsTranslationController', ['only' => ['store', 'edit', 'update', 'destroy']]);
+        Route::get('news-translation/create/{id}', 'NewsTranslationController@create')->name('news-translation.create');
+        Route::get('album/{id}/photo', 'PhotoController@index')->name('photo.index');
+
+        Route::resource('photo', 'PhotoController', ['only' => [
+            'edit', 'update'
+        ]]);
+
+        Route::get('album/{id}/create', 'PhotoController@create')->name('photo.create');
+        Route::post('album/{id}', 'PhotoController@store')->name('photo.store');
+        Route::delete('album/{id}/destroy/{idAlbum}', 'PhotoController@destroy')->name('photo.destroy');
+        Route::resource('press-release', 'PressReleaseController');
+        Route::resource('album-comment', 'AlbumCommentController', ['only' => ['index', 'destroy']]);
+        Route::resource('news-comment', 'NewsCommentController', ['only' => ['index', 'destroy']]);
+    });
 });
 
 /*
@@ -139,6 +152,9 @@ Route::get(trans('routes.press-release').'/{press_release}', function ($press_re
     return view('press-release-detail');
 })->name('press-release.detail');
 
+// Berthing plan
+Route::get('berthing', 'BerthingPlanController@index')->name('berthing-list');
+
 // Search
 Route::get('search', 'SearchController@search')->name('search');
 
@@ -177,7 +193,19 @@ Route::get(trans('routes.annual'), function () {
 
 // Statistic Data
 Route::get(trans('routes.statistic'), function () {
-    return view('statistic');
+    $berthing = App\BerthingPlan::latest()->get();
+    $international = array();
+    $domestic = array();
+
+    foreach ($berthing as $key) {
+        if ($key->type == 'International') {
+            $international[] = $key;
+        } else {
+            $domestic[] = $key;
+        }
+    }
+
+    return view('statistic')->with('berthing', $berthing)->with('international', $international)->with('domestic', $domestic);
 })->name('statistic');
 
 /*
@@ -189,4 +217,13 @@ Route::get('tabs', function () {
 });
 Route::get('ye', function () {
     return view('subcompany');
+});
+Route::get('/info', function () {
+    $news = \App\News::find(1);
+    $newsHasTranslation = array(
+        'id' => $news->hasTranslation('id'),
+        'en' => $news->hasTranslation('en'),
+        'jp' => $news->hasTranslation('jp'),
+    );
+    return var_dump($newsHasTranslation);
 });

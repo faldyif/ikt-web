@@ -20,18 +20,16 @@ class SearchController extends Controller
             ->where('content', 'LIKE', '%' . $request->q . '%')
             ->orWhere('title', 'LIKE', '%' . $request->q . '%')
             ->get();
-        $pressReleaseResults = PressRelease::where('description', 'LIKE', '%' . $request->q . '%')
+        $pressReleaseResults = PressRelease::where('content', 'LIKE', '%' . $request->q . '%')
             ->orWhere('title', 'LIKE', '%' . $request->q . '%')
-            ->orWhere('location', 'LIKE', '%' . $request->q . '%')
             ->get();
 
         $newsResultsCount = NewsTranslation::where('locale', App::getLocale())
             ->where('content', 'LIKE', '%' . $request->q . '%')
             ->orWhere('title', 'LIKE', '%' . $request->q . '%')
             ->get()->count();
-        $pressReleaseResultsCount = PressRelease::where('description', 'LIKE', '%' . $request->q . '%')
+        $pressReleaseResultsCount = PressRelease::where('content', 'LIKE', '%' . $request->q . '%')
             ->orWhere('title', 'LIKE', '%' . $request->q . '%')
-            ->orWhere('location', 'LIKE', '%' . $request->q . '%')
             ->get()->count();
         return view('search-view')
             ->with('q', $request->q)

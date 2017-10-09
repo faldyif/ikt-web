@@ -29,7 +29,7 @@ return [
 
     // Services submenu
     'stevedoring-cargodoring' => 'Stevedoring & Cargodoring',
-    'receiving-delivering' => 'Receiving & Delivering',
+    'receiving-delivering' => 'Receiving & Delivery',
     'pre-delivery-inspection' => 'Pre Delivery Inspection',
     'value-added-services' => 'Value Added Services',
     // End services submenu
@@ -44,9 +44,9 @@ return [
     'news' => 'Berita',
     'press-release' => 'Press Release',
     'annual-report' => 'Annual Report',
-    'statistic-data' => 'Statistic & Data',
-    'our-customer' => 'Our Customer',
-    'procurement' => 'Procurement',
+    'statistic-data' => 'Data & Statistik',
+    'our-customer' => 'Pelanggan Kami',
+    'procurement' => 'e-Procurement',
     'limouzine-magazine' => 'Majalah Limouzine',
     'gallery' => 'Galeri',
     // End facilities submenu
