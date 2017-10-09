@@ -63,7 +63,7 @@
                   <div class="tab-content">
                   <!-- home -->
                     <div id="home" class="tab-pane fade in active">
-                      <img src="{{ url('img/tagline.png') }}" class="img-responsive" style="width: 90%; height: auto">
+                      <img src="{{ url('img/tagline.png') }}" class="img-responsive" style="width: 50%; height: auto">
                     </div>
                     <!-- //home -->
                     <!-- menu1 -->
@@ -188,22 +188,7 @@
                     <!-- menu3 -->
                     <div id="menu3" class="tab-pane fade">
                     <h3 class="mg-b-30 roboBold">Landasan/Dasar dalam Melaksanaan Tugas dan Kewajiban Perusahaan</h3>
-                    <p>
-                    <h4>Going Concern<br></h4>
-                    Melanjukan rogram-program perusahaan yang sudah baik.
-                    </p>
-                    <p>
-                    <h4>Governance<br></h4>
-                    Mengutamakan tata kelola yang baik dalam menjalankan program pemerintah.
-                    </p>
-                    <p>
-                    <h4>Pending Matters</h4>
-                    Menyelesaikan program-program perusahaan yang belum selesai.
-                    </p>
-                    <p>
-                    <h4>Business Development</h4>
-                    Mengembangkan bisnis perusahaan.
-                    </p>
+                    <img src="{{ url('img/landasan_pelaksanaan.png')}}" class="img-responsive">
                     </div>
                     <!-- //menu3 -->
                     <!-- menu4 -->
