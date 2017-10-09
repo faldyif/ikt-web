@@ -7,5 +7,5 @@
 @endsection
 
 @section('content')
-    <p>This is my body content.</p>
+    <p>Selamat datang {{ \Illuminate\Support\Facades\Auth::user()->name }}!</p>
 @endsection

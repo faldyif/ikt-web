@@ -33,6 +33,16 @@ class BerthingPlanController extends Controller
     }
 
     /**
+     * Show the form for exporting mass resource.
+     *
+     * @return \Illuminate\Http\Response
+     */
+    public function export()
+    {
+        return view('admin.berthing.export');
+    }
+
+    /**
      * Store a newly created resource in storage.
      *
      * @param  \Illuminate\Http\Request  $request
