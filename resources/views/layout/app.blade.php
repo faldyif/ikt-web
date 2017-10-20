@@ -42,22 +42,11 @@
           <li class="has-children"><a>{{ strtoupper(trans('menu.about-us')) }}</a>
             <ul class="dropdown-menu dropdown-menu-opacity">
               <li><a href="{{ route('company.about') }}">{{ trans('menu.profile') }}</a></li>
-              <li><a href="{{ route('company.vision-mission') }}">{{ trans('menu.vision-mission') }}</a></li>
+              <!-- <li><a href="{{ route('company.vision-mission') }}">{{ trans('menu.vision-mission') }}</a></li> -->
               <li><a href="{{ route('company.history') }}">{{ trans('menu.company-history') }}</a></li>
-              <li><a href="{{ route('company.gcg') }}">{{ trans('menu.gcg-application') }}</a>
-                <!--<ul class="dropdown-menu level-2">-->
-                <!--<li><a href="#">Tata Kelola Perusahaan Berkelanjutan</a></li>-->
-                <!--<li><a href="#">Pemegang Saham &amp RUPS</a></li>-->
-                <!--<li><a href="#">BOD</a></li>-->
-                <!--<li><a href="#">BOC</a></li>-->
-                <!--<li><a href="#">Keterbukaan Informasi</a></li>-->
-                <!--<li><a href="#">Board Manual</a></li>-->
-                <!--<li><a href="#">Code of Conduct</a></li>-->
-                <!--<li><a href="#">Whistle Blower</a></li>-->
-                <!--<li><a href="#">Pengelolaan Gratifikasi</a></li>-->
-                <!--<li><a href="#">LHKPN</a></li>-->
-                <!--</ul>-->
-              </li>
+              <li><a href="{{ route('company.gcg') }}">{{ trans('menu.gcg-application') }}</a></li>
+                
+              
               <li><a href="{{ route('company.culture') }}">{{ trans('menu.company-culture') }}</a></li>
               <li><a href="{{ route('company.corporate-roadmap') }}">{{ trans('menu.corporate-roadmap') }}</a></li>
               <li><a href="{{ route('csr') }}">{{ trans('menu.csr') }}</a></li>
@@ -92,7 +81,7 @@
           </li>
           <li class="has-children"><a href="#">{{ strtoupper(trans('menu.facilities')) }}</a>
             <ul class="dropdown-menu dropdown-menu-opacity">
-              <li><a href="{{ route('facilities.fas') }}">{{ trans('menu.main-facilities') }}</a>
+              <li><a href="{{ route('facilities.fas') }}">{{ trans('menu.main-facilities') }}</a></li>
               <li><a href="{{ route('facilities.fas-1') }}">{{ trans('menu.support-facilities') }}</a></li>
               <li><a href="{{ route('facilities.fas-2') }}">{{ trans('menu.equipment-facilities') }}</a></li>
             </ul>

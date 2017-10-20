@@ -129,9 +129,9 @@ $(document).ready(function(){
     }, function() {
       var $collapse = $(this).find(".panel-collapse");
       $(this).find(".accordion-toggle .indicator").addClass("glyphicon-chevron-down").removeClass("glyphicon-chevron-up");
-      setTimeout(function(){
+        setTimeout(function(){
         $collapse.collapse("hide");
-      },400);
+      },50);
     });
 
     // function
