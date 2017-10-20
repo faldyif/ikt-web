@@ -22,14 +22,13 @@ Route::group(array('namespace'=>'Admin', 'prefix'=>'admin', 'middleware'=>'auth'
     Route::get('/facebook/login', function(SammyK\LaravelFacebookSdk\LaravelFacebookSdk $fb)
     {
         $login_link = $fb
-            ->getRedirectLoginHelper()
-            ->getLoginUrl('http://localhost:8000/admin/facebook/callback', ['email']);
+            ->getLoginUrl(['email', 'user_events']);
 
         echo '<a href="' . $login_link . '">Log in with Facebook</a>';
     });
 
-// Endpoint that is redirected to after an authentication attempt
-    Route::get('/facebook/callback', function(SammyK\LaravelFacebookSdk\LaravelFacebookSdk $fb)
+    // Endpoint that is redirected to after an authentication attempt
+    Route::get('facebook/callback', function(SammyK\LaravelFacebookSdk\LaravelFacebookSdk $fb)
     {
         // Obtain an access token.
         try {
@@ -86,12 +85,14 @@ Route::group(array('namespace'=>'Admin', 'prefix'=>'admin', 'middleware'=>'auth'
 
         // Create the user if it does not exist or update the existing entry.
         // This will only work if you've added the SyncableGraphNodeTrait to your User model.
-        $user = App\User::createOrUpdateGraphNode($facebook_user);
+        return var_dump($token);
 
-        // Log the user into Laravel
-        Auth::login($user);
-
-        return redirect('/')->with('message', 'Successfully logged in with Facebook');
+//        $user = App\User::createOrUpdateGraphNode($facebook_user);
+//
+//        // Log the user into Laravel
+//        Auth::login($user);
+//
+//        return redirect('/')->with('message', 'Successfully logged in with Facebook');
     });
 
     Route::group(array('middleware'=>'admin.operasional'), function()
