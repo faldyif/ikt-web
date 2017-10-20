@@ -14,7 +14,7 @@ class PressReleaseController extends Controller
      */
     public function index()
     {
-        $pressReleases = PressRelease::latest()->paginate(10);
+        $pressReleases = PressRelease::latest()->limit(10);
         return view('press-release-list')
             ->with('pressReleases', $pressReleases);
     }
