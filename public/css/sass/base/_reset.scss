@@ -173,11 +173,16 @@ h2 {
     &>.panel-heading {
 		color: inherit;
 	    border: none;
-	    background: none;
+	    background: rgba(255, 255, 255, 0.2);
+			@include transition(0.3);
 
 	    a:active,a:focus {
 	    	text-decoration: none;
 	    }
+
+			&:hover {
+				background: rgba(255, 255, 255, 0);
+			}
 	}
 }
 .panel-default>.panel-heading+.panel-collapse>.panel-body {

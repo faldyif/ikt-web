@@ -119,50 +119,50 @@
             <div class="panel-group" id="accordion">
               <div class="panel panel-default">
                 <div class="panel-heading">
-                  <h4 class="panel-title">
+                  <div class="panel-title">
                     <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">
-                      <h4><i class="fa fa-check-circle-o fa-2x hidden-400"></i> Pelanggan dan Mitra</h4>
+                      <h4 class="flex-row-center"><i class="fa fa-check-circle-o fa-2x hidden-400"></i> <span>Pelanggan dan Mitra</span></h4>
                     </a>
-                  </h4>
+                  </div>
                 </div>
-                <div id="collapse1" class="panel-collapse collapse">
+                <div id="collapse1" class="pd-bt-5 panel-collapse collapse">
                   <div class="panel-body">Menyediakan, membangun, dan mengoperasikan pelayanan terminal dan logistik secara terintegrasi, berkualitas dan handal untuk memenuhi kepuasan pelanggan dan mitra.
                   </div>
                 </div>
               </div>
               <div class="panel panel-default">
                 <div class="panel-heading">
-                  <h4 class="panel-title">
+                  <div class="panel-title">
                     <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">
-                      <h4><i class="fa fa-check-circle-o fa-2x hidden-400"></i> Pemegang Saham</h4>
+                      <h4 class="flex-row-center"><i class="fa fa-check-circle-o fa-2x hidden-400"></i> <span>Pemegang Saham</span></h4>
                     </a>
-                  </h4>
+                  </div>
                 </div>
-                <div id="collapse2" class="panel-collapse collapse">
+                <div id="collapse2" class="pd-bt-5 panel-collapse collapse">
                   <div class="panel-body">Memaksimalkan nilai perusahaan bagi pemegang saham dan meningkatkan kesehatan perusahaan secara profesional dengan memenuhi aspeol-aspek tatakelola perusahaan yang baik.</div>
                 </div>
               </div>
               <div class="panel panel-default">
                 <div class="panel-heading">
-                  <h4 class="panel-title">
+                  <div class="panel-title">
                     <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">
-                      <h4><i class="fa fa-check-circle-o fa-2x hidden-400"></i> Karyawan</h4>
+                      <h4 class="flex-row-center"><i class="fa fa-check-circle-o fa-2x hidden-400"></i> <span>Karyawan</span></h4>
                     </a>
-                  </h4>
+                  </div>
                 </div>
-                <div id="collapse3" class="panel-collapse collapse">
+                <div id="collapse3" class="pd-bt-5 panel-collapse collapse">
                   <div class="panel-body">Menciptakan lingkungan tenaga kerja yang nyaman bagi karyawan, mewujudkan insan perusahaan yang fokus pada pelanggan, berintegrasi, bangga kepada perusahaan dan budayanya serta memberikan kesejahteraan dan kepuasan kepada karyawan.</div>
                 </div>
               </div>
               <div class="panel panel-default">
                 <div class="panel-heading">
-                  <h4 class="panel-title">
+                  <div class="panel-title">
                     <a data-toggle="collapse" data-parent="#accordion" href="#collapse4">
-                      <h4><i class="fa fa-check-circle-o fa-2x hidden-400"></i> Masyarakat dan Negara </h4>
+                      <h4 class="flex-row-center"><i class="fa fa-check-circle-o fa-2x hidden-400"></i> <span>Masyarakat dan Negara</span></h4>
                     </a>
-                  </h4>
+                  </div>
                 </div>
-                <div id="collapse4" class="panel-collapse collapse">
+                <div id="collapse4" class="pd-bt-5 panel-collapse collapse">
                   <div class="panel-body">Menjamin kelancaran dari keamanan arus barang untuk mewujudkan efisiensi biaya logistik dalam rangka memacu pertumbuhan ekonomi yang berdampak pada peningkatan kesejahteraan masyarakat.</div>
                 </div>
               </div>
