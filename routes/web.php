@@ -21,6 +21,7 @@ Route::group(array('namespace'=>'Admin', 'prefix'=>'admin', 'middleware'=>'auth'
     Route::group(array('middleware'=>'admin.operasional'), function()
     {
         Route::resource('berthing', 'BerthingPlanController');
+        Route::resource('berthing/upload', 'BerthingUploadController', ['only' => ['create', 'store']]);
     });
 
     Route::group(array('middleware'=>'admin.sekper'), function()
