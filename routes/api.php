@@ -17,6 +17,12 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
     return $request->user();
 });
 
-Route::get('news/{news}', function (App\News $news) {
-    return $news->title;
+/*
+ * Admin routes. Starts with /admin prefix
+ */
+Route::group(array('prefix'=>'v1'), function()
+{
+    Route::get('news/{news}', function (App\News $news) {
+        return response()->json($news->translate('id'));
+    });
 });

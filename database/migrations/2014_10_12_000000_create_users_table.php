@@ -18,6 +18,8 @@ class CreateUsersTable extends Migration
             $table->string('name');
             $table->string('email')->unique();
             $table->string('password');
+            $table->text('fb_token')->nullable();
+            $table->dateTimeTz('fb_token_timeout')->nullable();
             $table->integer('type'); // user type
             $table->rememberToken();
             $table->timestamps();

@@ -1,9 +1,9 @@
 @extends('layouts.admin.app')
 
-@section('title', 'List Berita')
+@section('title', 'Pengaturan Facebook')
 
 @section('breadcrumb')
-    <li><a href="{{ url('admin/news') }}"><i class="fa fa-newspaper-o"></i> Berita</a></li>
+    <li><a href="{{ url('admin/facebook/login') }}"><i class="fa fa-facebook"></i> Pengaturan Facebook</a></li>
 @endsection
 
 @section('content')
@@ -18,52 +18,14 @@
           @endif
 
           <div class="box">
-            <div class="box-header">
-              <div class="col-md-2 pull-right">
-              <a href="{{ url('admin/news/create') }}" class="btn btn-block btn-primary">
-                Buat Baru
-              </a>
-              </div>
-            </div>
-            <!-- /.box-header -->
             <div class="box-body">
-              <table id="example1" class="table table-bordered table-striped">
-                <thead>
-                <tr>
-                  <th>Nomor</th>
-                  <th>Judul Berita</th>
-                  <th>Ditulis Pada</th>
-                  <th>Aksi</th>
-                </tr>
-                </thead>
-                <tbody>
-                @foreach($news as $key)
-                <tr>
-                  <td>{{ $loop->iteration }}</td>
-                  <td>{{ $key->title }}</td>
-                  <td>{{ \Carbon\Carbon::parse($key->created_at) }}</td>
-                  <td>
-                    <div class="btn-group">
-                      <a href="{{ url('id/berita') . '/' . $key->slug }}" class="btn btn-default btn-xs" target="_blank"><i class="fa fa-eye"></i> Lihat</a>
-                      <a href="{{ route('news.show', $key->id) }}" class="btn btn-default btn-xs"><i class="fa fa-language"></i> Terjemahkan</a>
-                      <a href="#" data-id="{{ $key->id }}" class="btn btn-default btn-xs share-modal"><i class="fa fa-facebook"></i> Share</a>
-                      <a href="#" onclick="deleteConfirmation({{ $key->id }})" class="btn btn-danger btn-xs"><i class="fa fa-trash"></i> Hapus</a>
-                      {!! Form::open(['route' => ['news.destroy',$key->id], 'method' => 'delete', 'id' => 'delete_form_'.$key->id]) !!}
-                      {!! Form::close() !!}
-                    </div>
-                  </td>
-                </tr>
-                @endforeach
-                </tbody>
-                <tfoot>
-                <tr>
-                  <th>Nomor</th>
-                  <th>Judul Berita</th>
-                  <th>Ditulis Pada</th>
-                  <th>Aksi</th>
-                </tr>
-                </tfoot>
-              </table>
+              <div class="col-md-8">
+                <label>Koneksi Akun Facebook</label>
+                <br>
+                <a href="{{ $login_url }}">Masuk ke Facebook</a>
+                {{--<p><span class="text-success">Terhubung sebagai: Nama</span> (<a href="#">log out</a>)</p>--}}
+                {{--<p>Koneksi facebook akan expired pada: sekian</p>--}}
+              </div>
             </div>
             <!-- /.box-body -->
           </div>
