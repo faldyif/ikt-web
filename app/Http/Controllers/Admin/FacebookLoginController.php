@@ -14,10 +14,23 @@ class FacebookLoginController extends Controller
 {
     public function showLogin(LaravelFacebookSdk $fb)
     {
-        $login_url = $fb
-            ->getLoginUrl(['email', 'user_events']);
+        if(Auth::user()->fb_token_timeout != NULL && Auth::user()->fb_token_timeout > \Carbon\Carbon::now()) {
+            try {
+                $response = $fb->get('/me?fields=id,name,email', Auth::user()->fb_token);
+            } catch(\Facebook\Exceptions\FacebookSDKException $e) {
+                dd($e->getMessage());
+            }
 
-        return view('admin.facebook.login')->with('login_url', $login_url);
+            $userNode = $response->getGraphUser();
+            $name = $userNode->getName();
+
+            return view('admin.facebook.login')->with('name', $name);
+        } else {
+            $login_url = $fb
+                ->getLoginUrl(['email', 'user_events']);
+
+            return view('admin.facebook.login')->with('login_url', $login_url);
+        }
     }
 
     public function callback(LaravelFacebookSdk $fb)
@@ -62,9 +75,6 @@ class FacebookLoginController extends Controller
 
         $fb->setDefaultAccessToken($token);
 
-        // Save for later
-        Session::put('fb_user_access_token', (string) $token);
-
         // Get basic info on the user from Facebook.
         try {
             $response = $fb->get('/me?fields=id,name,email');
@@ -80,14 +90,25 @@ class FacebookLoginController extends Controller
         $user->fb_token = $token->getValue();
         $user->fb_token_timeout = $token->getExpiresAt();
         $user->touch();
-
-        return var_dump($user);
+//
+//        return var_dump($user);
 
 //        $user = App\User::createOrUpdateGraphNode($facebook_user);
 //
 //        // Log the user into Laravel
 //        Auth::login($user);
 //
-//        return redirect('/')->with('message', 'Successfully logged in with Facebook');
+        return redirect('/admin/facebook/login')->with('message', 'Sukses mengkoneksikan akun Facebook');
+    }
+
+    public function signOut()
+    {
+        // Update user token settings
+        $user = User::find(Auth::user()->id);
+        $user->fb_token = NULL;
+        $user->fb_token_timeout = NULL;
+        $user->touch();
+
+        return redirect('/admin/facebook/login')->with('message', 'Sukses menghapus koneksi akun Facebook');
     }
 }

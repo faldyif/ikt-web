@@ -23,6 +23,7 @@ Route::group(array('namespace'=>'Admin', 'prefix'=>'admin', 'middleware'=>'auth'
 
     // Endpoint that is redirected to after an authentication attempt
     Route::get('facebook/callback', 'FacebookLoginController@callback');
+    Route::get('facebook/logout', 'FacebookLoginController@signOut');
 
     Route::group(array('middleware'=>'admin.operasional'), function()
     {
