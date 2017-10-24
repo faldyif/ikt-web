@@ -648,6 +648,9 @@ h2 {
     z-index: 1;
     margin: 0 -20px; }
 
+.fp-tableCell {
+  display: relative; }
+
 /* ---- grid ---- */
 /* clear fix */
 .grid:after {
