@@ -58,6 +58,7 @@
           </ul>
         </li>
         <li {{{ (Request::is('*/facebook/login') ? 'class=active' : '') }}}><a href="{{ url('admin/facebook/login') }}"><i class="fa fa-facebook"></i> <span>Pengaturan Facebook</span></a></li>
+        <li {{{ (Request::is('*/twitter/login') ? 'class=active' : '') }}}><a href="{{ url('admin/twitter/login') }}"><i class="fa fa-twitter"></i> <span>Pengaturan Twitter</span></a></li>
         @elseif(Auth::user()->getUserType() == 'operasional')
         <li class="treeview {{{ ((Request::is('*/admin/berthing/create') || Request::is('*/admin/berthing')) ? 'active' : '') }}}">
           <a href="#"><i class="fa fa-ship"></i> <span>Berthing Plan</span>
