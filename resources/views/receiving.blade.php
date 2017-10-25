@@ -18,15 +18,9 @@
     <section>
       <div class="container-fluid wow fadeInUpBig">
         <section class="row pd-t-20">
-          <div class="col-md-8 col-sm-10 col-sm-offset-1 pd-bt-30">
-            <div class="col-md-8">
-            <hr class="hrSpec hrSpecOrange">
-            <h3 class="mg-b-30 roboBold">{{ trans('receiving.title') }}</h3>
+          <div class="col-md-9 col-sm-10 col-sm-offset-1 pd-bt-30">
             {!! trans('receiving.content') !!}
-            </div>
-            <div class="col-md-4">
-              <img src="{{url('img/receiving-delivery-01.jpg')}}" class="service-media">
-            </div>
+            
           </div>
         </section>
       </div>
