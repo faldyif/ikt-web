@@ -1,22 +1,22 @@
 <?php
 
-namespace App\Http\Controllers;
+namespace App\Http\Controllers\Admin;
 
-use App\PressRelease;
 use Illuminate\Http\Request;
+use App\Http\Controllers\Controller;
+use SammyK\LaravelFacebookSdk\LaravelFacebookSdk;
 
-class PressReleaseController extends Controller
+class ShareNewsController extends Controller
 {
     /**
      * Display a listing of the resource.
      *
+     * @param LaravelFacebookSdk $fb
      * @return \Illuminate\Http\Response
      */
-    public function index()
+    public function index(LaravelFacebookSdk $fb)
     {
-        $pressReleases = PressRelease::latest()->limit(10);
-        return view('press-release-list')
-            ->with('pressReleases', $pressReleases);
+        //
     }
 
     /**

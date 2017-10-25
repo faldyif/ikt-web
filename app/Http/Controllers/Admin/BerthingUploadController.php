@@ -1,11 +1,14 @@
 <?php
 
-namespace App\Http\Controllers;
+namespace App\Http\Controllers\Admin;
 
-use App\PressRelease;
+use App\BerthingPlan;
 use Illuminate\Http\Request;
+use App\Http\Controllers\Controller;
+use Illuminate\Support\Facades\Session;
+use Maatwebsite\Excel\Facades\Excel;
 
-class PressReleaseController extends Controller
+class BerthingUploadController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -14,9 +17,7 @@ class PressReleaseController extends Controller
      */
     public function index()
     {
-        $pressReleases = PressRelease::latest()->limit(10);
-        return view('press-release-list')
-            ->with('pressReleases', $pressReleases);
+        //
     }
 
     /**
@@ -26,7 +27,7 @@ class PressReleaseController extends Controller
      */
     public function create()
     {
-        //
+        return view('admin.berthing.upload.create');
     }
 
     /**
@@ -37,7 +38,26 @@ class PressReleaseController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $this->validate($request, [
+            'type' => 'required',
+            'berthing' => 'required|file' // xls file
+        ]);
+
+        $results = Excel::load($request->berthing, function($reader) {
+        })->get();
+
+        foreach ($results as $key) {
+            $berthing = BerthingPlan::create([
+                'type' => $request->type,
+                'eta' => $key->e_t_a,
+                'vessel' => $key->kapal,
+                'agent' => $key->shipping_line_agen,
+                'voy' => $key->voy
+            ]);
+        }
+
+        Session::flash('message', 'Berthing plan berhasil dibuat!');
+        return redirect(route('berthing.index'));
     }
 
     /**

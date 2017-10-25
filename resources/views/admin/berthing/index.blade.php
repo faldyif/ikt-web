@@ -20,9 +20,14 @@
           <div class="box">
             <div class="box-header">
               <div class="col-md-2 pull-right">
-              <a href="{{ route('berthing.create') }}" class="btn btn-block btn-primary">
-                Buat Baru
-              </a>
+                <a href="{{ route('berthing.create') }}" class="btn btn-block btn-primary">
+                  Buat Baru
+                </a>
+              </div>
+              <div class="col-md-2 pull-right">
+                <a href="{{ route('upload.create') }}" class="btn btn-block btn-primary">
+                  Upload XLS Bulanan
+                </a>
               </div>
             </div>
             <!-- /.box-header -->
