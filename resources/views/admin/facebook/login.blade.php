@@ -22,9 +22,12 @@
               <div class="col-md-8">
                 <label>Koneksi Akun Facebook</label>
                 <br>
+                @if(Auth::user()->fb_token_timeout != NULL && Auth::user()->fb_token_timeout > \Carbon\Carbon::now())
+                <p><span class="text-success">Terhubung sebagai: {{ $name }}</span> (<a href="{{ url('admin/facebook/logout') }}">log out</a>)</p>
+                <p>Koneksi facebook akan expired pada: {{ Auth::user()->fb_token_timeout }}</p>
+                @else
                 <a href="{{ $login_url }}">Masuk ke Facebook</a>
-                {{--<p><span class="text-success">Terhubung sebagai: Nama</span> (<a href="#">log out</a>)</p>--}}
-                {{--<p>Koneksi facebook akan expired pada: sekian</p>--}}
+                @endif
               </div>
             </div>
             <!-- /.box-body -->
