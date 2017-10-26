@@ -649,6 +649,9 @@ h2 {
     z-index: 1;
     margin: 0 -20px; }
 
+.fp-tableCell {
+  display: relative; }
+
 /* ---- grid ---- */
 /* clear fix */
 .grid:after {
@@ -1703,7 +1706,8 @@ figure figcaption {
   .dropdown-menu > li > a {
     padding: 20px 30px; }
     .dropdown-menu > li > a:hover {
-      color: #ffffff; }
+      color: #ffffff;
+      background-color: #f9c853; }
 
 .dropdown-menu-opacity {
   background-color: rgba(0, 0, 0, 0.5) !important;

@@ -7,7 +7,7 @@
   <div id="fullpage">
     <!--HERO-->
 <section id="hero" class="pagecontent section">
-  <section class="">
+  <section class="slider">
     <div>
       <figure class="figSlider">
         <img src="{{ url('img/bg_beranda.jpg') }}">
@@ -18,7 +18,7 @@
 
             </div>
           </section>
-          <img id="logo"
+          <!-- <img id="logo"
                data-init-position="random"
                data-init-direction="random"
                data-particle-gap="1"
@@ -28,30 +28,53 @@
                data-max-height="1000"
                data-gravity="0.2"
                data-mouse-force="25"
-               src="{{ url('img/ikt.png') }}">
+               src="{{ url('img/ikt.png') }}"> -->
         </section>
       </figure>
     </div>
-    <!-- <div>
+    <div>
       <figure class="figSlider">
-        <img src="./img/4.jpg">
+        <img src="{{ url('img/4.jpg') }}">
         <div class="overlay"></div>
-        <section class="containerCenter alignCenter">
-          <p class="roboRegular bigger wow fadeInLeft or">Indonesia Kendaraan Terminal</p>
-          <h2 class="upper wh wow fadeInLeft bigTitle">Lebih dari Sekedar Kendaraan Terminal</h2>
-        </section>
       </figure>
-    </div> -->
-    <!-- <div>
+    </div>
+    <div>
       <figure class="figSlider">
-        <img src="./img/3.jpg">
+        <img src="{{ url('img/3.jpg') }}">
         <div class="overlay"></div>
-        <section class="containerCenter alignCenter">
-          <p class="roboRegular bigger wow fadeInLeft or">Fast and Reliable</p>
-          <h2 class="upper wh wow fadeInLeft bigTitle">IPC - Tanjung Priok Car Terminal</h2>
-        </section>
       </figure>
-    </div> -->
+    </div>
+    <div>
+      <figure class="figSlider">
+        <img src="{{ url('img/port01.jpg') }}">
+        <div class="overlay"></div>
+      </figure>
+    </div>
+    <div>
+      <figure class="figSlider">
+        <img src="{{ url('img/port02.jpg') }}">
+        <div class="overlay"></div>
+      </figure>
+    </div>
+  </section>
+
+  <section class="containerCenter alignCenter">
+    <section class="row">
+      <div class="col-md-4 col-md-offset-4 col-sm-4 col-sm-offset-4 col-xs-6 col-xs-offset-3">
+
+      </div>
+    </section>
+    <img id="logo"
+         data-init-position="random"
+         data-init-direction="random"
+         data-particle-gap="1"
+         data-width="400"
+         data-height="400"
+         data-max-width="1000"
+         data-max-height="1000"
+         data-gravity="0.2"
+         data-mouse-force="25"
+         src="{{ url('img/ikt.png') }}">
   </section>
 </section>
 <!--/HERO-->
@@ -515,9 +538,6 @@
   <script type="text/javascript">
       var nextParticle = new NextParticle(document.all.logo);
 
-      window.onclick = function() {
-          nextParticle.stop();
-      };
       nextParticle.on('stopped', function() {
           nextParticle.start();
       });

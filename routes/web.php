@@ -121,6 +121,7 @@ Route::group(array('namespace'=>'Admin', 'prefix'=>'admin', 'middleware'=>'auth'
     Route::get('facebook/callback', 'FacebookLoginController@callback');
     Route::get('facebook/logout', 'FacebookLoginController@signOut');
     Route::get('facebook/post', 'FacebookLoginController@postPhoto');
+    Route::post('facebook/post', 'FacebookLoginController@postStatus');
 
     Route::group(array('middleware'=>'admin.operasional'), function()
     {

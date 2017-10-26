@@ -116,9 +116,45 @@ class FacebookLoginController extends Controller
     public function postPhoto(Request $request, LaravelFacebookSdk $fb)
     {
         if(Auth::user()->fb_token_timeout != NULL && Auth::user()->fb_token_timeout > \Carbon\Carbon::now()) {
-            $news = News::find($request->id);
             $data = [
                 'source' => $fb->fileToUpload('img/1.jpg'),
+                'published' => false,
+            ];
+
+            try {
+                $response = $fb->post('/me/photos', $data, Auth::user()->fb_token);
+            } catch(\Facebook\Exceptions\FacebookSDKException $e) {
+                dd($e->getMessage());
+            }
+
+            $photoNode = $response->getGraphNode();
+
+            $data = [
+                'message' => 'Testing multi-photo post!',
+                'attached_media[0]' => '{"media_fbid":"'.$photoNode['id'].'"}',
+            ];
+
+            try {
+                $response = $fb->post('/me/feed', $data, Auth::user()->fb_token);
+            } catch(\Facebook\Exceptions\FacebookSDKException $e) {
+                dd($e->getMessage());
+            }
+
+            $postNode = $response->getGraphNode();
+
+            echo var_dump($postNode);
+        } else {
+            return redirect('admin/facebook/login')->with('message', 'Anda harus login terlebih dahulu');
+        }
+    }
+
+    public function postStatus(Request $request, LaravelFacebookSdk $fb)
+    {
+        if(Auth::user()->fb_token_timeout != NULL && Auth::user()->fb_token_timeout > \Carbon\Carbon::now()) {
+            $news = News::find($request->id)->translate('id');
+
+            $data = [
+                'source' => $fb->fileToUpload($news->filename),
                 'published' => false,
             ];
 
