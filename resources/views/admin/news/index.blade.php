@@ -46,7 +46,7 @@
                     <div class="btn-group">
                       <a href="{{ url('id/berita') . '/' . $key->slug }}" class="btn btn-default btn-xs" target="_blank"><i class="fa fa-eye"></i> Lihat</a>
                       <a href="{{ route('news.show', $key->id) }}" class="btn btn-default btn-xs"><i class="fa fa-language"></i> Terjemahkan</a>
-                      <a href="#" data-id="{{ $key->id }}" class="btn btn-default btn-xs share-modal"><i class="fa fa-facebook"></i> Share</a>
+                      <a href="#" data-id="{{ $key->id }}" class="btn btn-default btn-xs share-modal"><i class="fa fa-share"></i> Share</a>
                       <a href="#" onclick="deleteConfirmation({{ $key->id }})" class="btn btn-danger btn-xs"><i class="fa fa-trash"></i> Hapus</a>
                       {!! Form::open(['route' => ['news.destroy',$key->id], 'method' => 'delete', 'id' => 'delete_form_'.$key->id]) !!}
                       {!! Form::close() !!}
@@ -79,20 +79,29 @@
 
             <div class="modal-header">
               <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-              <h4 class="modal-title">Dynamic Content</h4>
+              <h4 class="modal-title">Publikasikan Berita di Media Sosial</h4>
             </div>
 
             <div class="modal-body">
-              <img src="" class="img-responsive gambar-berita">
+              <img src="" class="img-responsive gambar-berita"><br>
+              <div id="image-list">
+              </div>
               <br>
               <p class="judul-berita">Judul Berita</p>
               <p class="konten-berita">Konten berita</p>
+              <br><br><p>Salam CINTA</p><p>Salam Merah Putih</p><p>Bangga Berkarya Bangga Indonesia</p><br><p>IPC Car Terminal</p><p>We Will Shine With You</p>
             </div>
 
             <div class="modal-footer">
               <button type="button" class="btn btn-white" data-dismiss="modal">Close</button>
-              <button type="button" class="btn btn-info" style="background-color: #00aced; border-color: #00aced"><i class="fa fa-twitter"></i> Tweet</button>
-              <button type="button" class="btn btn-info" style="background-color: #3b5998; border-color: #3b5998"><i class="fa fa-facebook"></i> Publish</button>
+              {!! Form::open(array('route' => 'twitter.news.post', 'enctype' => 'multipart/form-data')) !!}
+              <input name="id" class="id-berita" type="hidden" value="">
+              <button type="submit" class="btn btn-info" style="background-color: #00aced; border-color: #00aced"><i class="fa fa-twitter"></i> Tweet</button>
+              {!! Form::close() !!}
+              {!! Form::open(array('route' => 'facebook.news.post', 'enctype' => 'multipart/form-data')) !!}
+              <input name="id" class="id-berita" type="hidden" value="">
+              <button type="submit" class="btn btn-info" style="background-color: #3b5998; border-color: #3b5998"><i class="fa fa-facebook-official"></i> Publish</button>
+              {!! Form::close() !!}
             </div>
           </div>
         </div>
@@ -126,8 +135,16 @@
                 $('#modal-7 .gambar-berita').attr('src', '{{ url('storage') }}/' + html.filename);
                 $('#modal-7 .judul-berita').html(html.title);
                 $('#modal-7 .konten-berita').html(html.content);
+                $('#modal-7 .id-berita').attr('value', uid);
+                for (var i = 0; i < html.imgs.length; i++) {
+                    $(html.imgs[i] + '<br>').appendTo("#image-list");
+                }
             });
         });
+        $('#modal-7').on('hidden.bs.modal', function () {
+            console.log('closed');
+            $('#image-list').html('');
+        })
     });
   $(function () {
     $('#example1').DataTable()

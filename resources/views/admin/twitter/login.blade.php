@@ -9,22 +9,31 @@
 @section('content')
       <div class="row">
         <div class="col-xs-12">
-          @if(Session::has('message'))
-            <div class="alert alert-success alert-dismissible">
-              <button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button>
-              <h4><i class="icon fa fa-check"></i> Sukses</h4>
-              {!! Session::get('message') !!}
-            </div>
-          @endif
+            @if(Session::has('message'))
+                <div class="alert alert-success alert-dismissible">
+                    <button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button>
+                    <h4><i class="icon fa fa-check"></i> Sukses</h4>
+                    {!! Session::get('message') !!}
+                </div>
+            @endif
+            @if(Session::has('error'))
+                <div class="alert alert-error alert-dismissible">
+                    <button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button>
+                    <h4><i class="icon fa fa-times"></i> Gagal</h4>
+                    {!! Session::get('error') !!}
+                </div>
+            @endif
 
           <div class="box">
             <div class="box-body">
               <div class="col-md-8">
                 <label>Koneksi Akun Twitter</label>
                 <br>
-                <a href="#">Masuk ke Twitter</a>
-                {{--<p><span class="text-success">Terhubung sebagai: Nama</span> (<a href="#">log out</a>)</p>--}}
-                {{--<p>Koneksi facebook akan expired pada: sekian</p>--}}
+                  @if(Auth::user()->twitter_oauth_token != NULL && Auth::user()->twitter_oauth_token_secret != NULL)
+                      <p><span class="text-success">Terhubung sebagai: {{ '@' . $name }}</span> (<a href="{{ url('admin/twitter/logout') }}">log out</a>)</p>
+                  @else
+                      <a href="{{ url('admin/twitter/login') }}">Masuk ke Twitter</a>
+                  @endif
               </div>
             </div>
             <!-- /.box-body -->
@@ -34,30 +43,6 @@
         <!-- /.col -->
       </div>
       <!-- /.row -->
-
-      <div class="modal fade" id="modal-7">
-        <div class="modal-dialog">
-          <div class="modal-content">
-
-            <div class="modal-header">
-              <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-              <h4 class="modal-title">Dynamic Content</h4>
-            </div>
-
-            <div class="modal-body">
-              <img src="" class="img-responsive gambar-berita">
-              <br>
-              <p class="judul-berita">Judul Berita</p>
-              <p class="konten-berita">Konten berita</p>
-            </div>
-
-            <div class="modal-footer">
-              <button type="button" class="btn btn-white" data-dismiss="modal">Close</button>
-              <button type="button" class="btn btn-info">Post to Facebook</button>
-            </div>
-          </div>
-        </div>
-      </div>
 @endsection
 
 

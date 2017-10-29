@@ -16,6 +16,13 @@
               {!! Session::get('message') !!}
             </div>
           @endif
+            @if(Session::has('error'))
+                <div class="alert alert-error alert-dismissible">
+                    <button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button>
+                    <h4><i class="icon fa fa-times"></i> Gagal</h4>
+                    {!! Session::get('error') !!}
+                </div>
+            @endif
 
           <div class="box">
             <div class="box-body">
@@ -26,7 +33,7 @@
                 <p><span class="text-success">Terhubung sebagai: {{ $name }}</span> (<a href="{{ url('admin/facebook/logout') }}">log out</a>)</p>
                 <p>Koneksi facebook akan expired pada: {{ Auth::user()->fb_token_timeout }}</p>
                 @else
-                <a href="{{ $login_url }}">Masuk ke Facebook</a>
+                <a href="{{ $login_url }}" class="btn btn-lg btn-info" style="background-color: #3b5998; border-color: #3b5998"><i class="fa fa-facebook-official"></i> Masuk ke Facebook</a>
                 @endif
               </div>
             </div>
@@ -37,30 +44,6 @@
         <!-- /.col -->
       </div>
       <!-- /.row -->
-
-      <div class="modal fade" id="modal-7">
-        <div class="modal-dialog">
-          <div class="modal-content">
-
-            <div class="modal-header">
-              <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-              <h4 class="modal-title">Dynamic Content</h4>
-            </div>
-
-            <div class="modal-body">
-              <img src="" class="img-responsive gambar-berita">
-              <br>
-              <p class="judul-berita">Judul Berita</p>
-              <p class="konten-berita">Konten berita</p>
-            </div>
-
-            <div class="modal-footer">
-              <button type="button" class="btn btn-white" data-dismiss="modal">Close</button>
-              <button type="button" class="btn btn-info">Post to Facebook</button>
-            </div>
-          </div>
-        </div>
-      </div>
 @endsection
 
 
