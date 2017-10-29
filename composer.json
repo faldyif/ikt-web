@@ -15,7 +15,8 @@
         "laravelcollective/html": "^5.4.0",
         "maatwebsite/excel": "~2.1.0",
         "petehouston/laravel-tinymce-simple-imageupload": "^1.1",
-        "sammyk/laravel-facebook-sdk": "^3.5"
+        "sammyk/laravel-facebook-sdk": "^3.5",
+        "thujohn/twitter": "~2.0"
     },
     "require-dev": {
         "fzaninotto/faker": "~1.4",

@@ -16,6 +16,15 @@ if(w > 768) {
     });
 };
 
+$(document).click(function(e) {
+    var target = $(e.target);
+
+    if( !target.is('.navbar-nav-dropdown') && target.closest('.navbar-nav-dropdown').length === 0 ) {
+        // click was not on or inside #panel
+        $('.navbar-nav-dropdown li.has-children').children('ul').stop(true, false, true).slideUp(400);
+    }
+});
+
 $(document).ready(function(){
 
 

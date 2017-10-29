@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\News;
 use Illuminate\Http\Request;
 use Maatwebsite\Excel\Facades\Excel;
 
@@ -10,9 +11,8 @@ class TestController extends Controller
     public function test()
     {
         global $results;
-        $results = Excel::load('test_1.xls', function($reader) {
-        })->get();
+        $results = News::find(1)->translate('id');
 
-        return json_encode($results);
+        return strip_tags($results->content);
     }
 }
