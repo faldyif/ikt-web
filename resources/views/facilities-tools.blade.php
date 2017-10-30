@@ -18,107 +18,25 @@
     <section>
         <div class="container-fluid wow fadeInUpBig">
           <section class="row pd-bt-30 mg-bt-20">
-            <div class="col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1">
-              <section class="row be-block-768">
-                <div class="col-md-3">
-                  <ul class="nav nav-pills nav-stacked">
-                    <li class="active">
-                      <a data-toggle="pill" href="#home">
-                        <div class="be-flex">
-                          <i class="fa fa-th mg-r-15 mg-t-5"></i> <span>Dermaga</span>
-                        </div>
-                      </a>
-                    </li>
-                    <li class="">
-                      <a data-toggle="pill" href="#menu1">
-                        <div class="be-flex">
-                          <i class="fa fa-th mg-r-15 mg-t-5"></i> <span>Lapangan</span>
-                        </div>
-                       </a>
-                     </li>
-                    <li class="">
-                      <a data-toggle="pill" href="#menu2">
-                        <div class="be-flex">
-                         <i class="fa fa-th mg-r-15 mg-t-5"></i> <span>Gedung Parkir 5 Lantai</span>
-                        </div>
-                       </a>
-                     </li>
-                    <!-- <li class="">
-                      <a data-toggle="pill" href="#menu3">
-                        <div class="be-flex">
-                          <i class="fa fa-th mg-r-15 mg-t-5"></i> <span>Kesehatan Sosial dan Lingkungan</span>
-                        </div>
-
-                       </a>
-                     </li> -->
-                  </ul>
-                </div>
-                <div class="col-md-9">
+            <div class="col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2">
+            
+              <hr class="hrSpec hrSpecOrange">
+                <h3 class="mg-b-30 roboBold">Peralatan</h3>
+                <div class="col-md-12">
                   <div class="tab-content">
                     <div id="home" class="tab-pane fade in active">
                       <!-- <h3 class="roboBlack">Lorem ipsum dolor sit amet</h3> -->
-                      <h3 class="roboBlack">Dermaga 1</h3>
-                      <p>Panjang : 88 m'</p>
-                      <p>Kedalaman : -6 LWS</p>
-                      <p>Delenit utroque vivendo est ea. Vim autem virtute concludaturque id. Cu ferri oblique has. At sed impedit apeirian ullamcorper, eum cu amet viris. Duo alia causae vituperatoribus ea, salutatus adolescens conclusionemque qui an. Illum euripidis eu vix.</p>
-                      <p>Aliquam principes deterruisset cum et, vel an eius equidem. Id quando legimus inermis eum, cibo consul democritum cum te, cu cum suas laudem graeci. Bonorum gloriatur signiferumque an pro. Justo corpora suscipit quo et, vim te noluisse praesent scriptorem, pro ea incorrupte intellegam mediocritatem. Hinc laoreet mediocrem te nec, petentium iracundia ut cum. Fabulas ornatus iudicabit an pri, qui at decore legimus voluptatibus. Ei semper adipisci constituto eum, ad reque dicam nec.</p>
-
-                      <h3 class="roboBlack">Dermaga 2</h3>
-                      <p>Panjang : 220 m'</p>
-                      <p>Kedalaman : -11 LWS</p>
-                      
-                      <p>Delenit utroque vivendo est ea. Vim autem virtute concludaturque id. Cu ferri oblique has. At sed impedit apeirian ullamcorper, eum cu amet viris. Duo alia causae vituperatoribus ea, salutatus adolescens conclusionemque qui an. Illum euripidis eu vix.</p>
-                      <p>Aliquam principes deterruisset cum et, vel an eius equidem. Id quando legimus inermis eum, cibo consul democritum cum te, cu cum suas laudem graeci. Bonorum gloriatur signiferumque an pro. Justo corpora suscipit quo et, vim te noluisse praesent scriptorem, pro ea incorrupte intellegam mediocritatem. Hinc laoreet mediocrem te nec, petentium iracundia ut cum. Fabulas ornatus iudicabit an pri, qui at decore legimus voluptatibus. Ei semper adipisci constituto eum, ad reque dicam nec.</p>
+                      <ul>
+                      <li>4 Unit Head Truck</li>
+                      <li>2 Unit Car Carrier Trailer untuk Pengangkutan CBU</li>
+                      <li>4 Roll Units untuk Pengangkutan Cargo Statistik</li>
+                      <li>2 Unit Chassis</li>
+                      <li>3 Unit Forklift</li>
+                      <li>2 Unit Tug Master</li>
+                      </ul>
                     </div>
-                    <div id="menu1" class="tab-pane fade">
-                      <!-- <h3 class="roboBlack">Lorem ipsum dolor sit amet</h3> -->
-                      <h3 class="roboBlack">Ekspor</h3>
-                      <h3 class="roboBlack">Lapangan A</h3>
-                      <p>Kapasitas : 1.036 Slot</p>
-                      
-                      <p>Delenit utroque vivendo est ea. Vim autem virtute concludaturque id. Cu ferri oblique has. At sed impedit apeirian ullamcorper, eum cu amet viris. Duo alia causae vituperatoribus ea, salutatus adolescens conclusionemque qui an. Illum euripidis eu vix.</p>
-                      
-                      <h3 class="roboBlack">Lapangan B</h3>
-                      <p>Kapasitas : 240 Slot</p>
-                      
-                      <p>Delenit utroque vivendo est ea. Vim autem virtute concludaturque id. Cu ferri oblique has. At sed impedit apeirian ullamcorper, eum cu amet viris. Duo alia causae vituperatoribus ea, salutatus adolescens conclusionemque qui an. Illum euripidis eu vix.</p>
-
-                      <h3 class="roboBlack">Lapangan C (Buffer)</h3>
-                      <p>Kapasitas : 250 Slot</p>
-                      
-                      <p>Delenit utroque vivendo est ea. Vim autem virtute concludaturque id. Cu ferri oblique has. At sed impedit apeirian ullamcorper, eum cu amet viris. Duo alia causae vituperatoribus ea, salutatus adolescens conclusionemque qui an. Illum euripidis eu vix.</p>
-
-                      <h3 class="roboBlack">Lapangan H</h3>
-                      <p>Kapasitas : 1.120 Slot</p>
-                      
-                      <p>Delenit utroque vivendo est ea. Vim autem virtute concludaturque id. Cu ferri oblique has. At sed impedit apeirian ullamcorper, eum cu amet viris. Duo alia causae vituperatoribus ea, salutatus adolescens conclusionemque qui an. Illum euripidis eu vix.</p>
-
-                      <h3 class="roboBlack">Lapangan O</h3>
-                      <p>Kapasitas : 166 Slot</p>
-                      
-                      <p>Delenit utroque vivendo est ea. Vim autem virtute concludaturque id. Cu ferri oblique has. At sed impedit apeirian ullamcorper, eum cu amet viris. Duo alia causae vituperatoribus ea, salutatus adolescens conclusionemque qui an. Illum euripidis eu vix.</p>
-
-                      <h3 class="roboBlack">Impor</h3>
-                      <h3 class="roboBlack">Lapangan E</h3>
-                      <p>Kapasitas : 3.489 Slot</p>
-                      
-                      <p>Delenit utroque vivendo est ea. Vim autem virtute concludaturque id. Cu ferri oblique has. At sed impedit apeirian ullamcorper, eum cu amet viris. Duo alia causae vituperatoribus ea, salutatus adolescens conclusionemque qui an. Illum euripidis eu vix.</p>
-
-                    </div>
-                    <div id="menu2" class="tab-pane fade">
-                      <!-- <h3 class="roboBlack">3 Lorem ipsum dolor sit amet</h3> -->
-                      <!-- <h3 class="roboBlack">Lapangan O</h3> -->
-                      <p>Kapasitas : 2.766 Slot</p>
-                      
-                      <p>Delenit utroque vivendo est ea. Vim autem virtute concludaturque id. Cu ferri oblique has. At sed impedit apeirian ullamcorper, eum cu amet viris. Duo alia causae vituperatoribus ea, salutatus adolescens conclusionemque qui an. Illum euripidis eu vix.</p>
-                    </div>
-                    <div id="menu3" class="tab-pane fade">
-                      <h3 class="roboBlack">4 Lorem ipsum dolor sit amet</h3>
-                      <p>Lorem ipsum dolor sit amet, quas integre sit no, mei velit virtute oportere cu. Aeque adipisci instructior sit ne, equidem imperdiet ullamcorper cum no. Cu est integre democritum, mediocrem democritum ullamcorper no sit. Minim latine vix ut.</p>
-                      <p>Vix eu etiam mediocrem. Qui debet essent omnium ut. Ne qui recusabo temporibus, in eum singulis posidonium. Nec reque saepe ea, esse veniam definitionem est ei.</p>
-                      <p>Eam no eripuit noluisse intellegebat. Nominavi mnesarchum ad eam, pro dico recteque id, cu dicant audiam mel. At eum mazim dolore aliquid, id sed quas saepe doming. Atomorum assentior ne pri, ut cum fugit facilis electram.</p>
-                      <p>Aliquam principes deterruisset cum et, vel an eius equidem. Id quando legimus inermis eum, cibo consul democritum cum te, cu cum suas laudem graeci. Bonorum gloriatur signiferumque an pro. Justo corpora suscipit quo et, vim te noluisse praesent scriptorem, pro ea incorrupte intellegam mediocritatem. Hinc laoreet mediocrem te nec, petentium iracundia ut cum. Fabulas ornatus iudicabit an pri, qui at decore legimus voluptatibus. Ei semper adipisci constituto eum, ad reque dicam nec.</p>
-                    </div>
+                    
+                    
                   </div>
                 </div>
               </section>
