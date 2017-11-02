@@ -67,7 +67,7 @@
               <li><a href="{{ route('service.stevedoring') }}">{{ trans('menu.stevedoring-cargodoring') }}</a></li>
               <li><a href="{{ route('service.receiving') }}">{{ trans('menu.receiving-delivering') }}</a></li>
               <li><a href="{{ route('service.pdi') }}">Storages</a></li>
-              <li><a href="#">Value Added Services</a>
+              <li><a href="{{ route('service.vas') }}">Value Added Services</a>
               <!-- <li class="has-children dropdown-submenu"><a href="#">Value Added Services</a>
                 <ul class="dropdown-menu dropdown-menu-opacity level-2">
                   <li><a href="#">Minor Repair</a></li>

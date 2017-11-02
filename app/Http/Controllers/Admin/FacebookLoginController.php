@@ -4,6 +4,7 @@ namespace App\Http\Controllers\Admin;
 
 use App\News;
 use App\User;
+use DOMDocument;
 use Facebook\Exceptions\FacebookSDKException;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
@@ -144,7 +145,7 @@ class FacebookLoginController extends Controller
 
             echo var_dump($postNode);
         } else {
-            return redirect('admin/facebook/login')->with('message', 'Anda harus login terlebih dahulu');
+            return redirect('admin/facebook/login')->with('error', 'Anda harus login terlebih dahulu');
         }
     }
 
@@ -154,7 +155,7 @@ class FacebookLoginController extends Controller
             $news = News::find($request->id)->translate('id');
 
             $data = [
-                'source' => $fb->fileToUpload($news->filename),
+                'source' => $fb->fileToUpload('storage/' . $news->filename),
                 'published' => false,
             ];
 
@@ -166,9 +167,40 @@ class FacebookLoginController extends Controller
 
             $photoNode = $response->getGraphNode();
 
+            $photos = array();
+            $photos[] = '{"media_fbid":"'.$photoNode['id'].'"}';
+
+            $doc = new DOMDocument();
+            $doc->loadHTML($news->content);
+            $imageTags = $doc->getElementsByTagName('img');
+
+            foreach($imageTags as $tag) {
+                $source = substr($tag->getAttribute('src'), 1);
+
+                $data = [
+                    'source' => $fb->fileToUpload($source),
+                    'published' => false,
+                ];
+
+                try {
+                    $response = $fb->post('/me/photos', $data, Auth::user()->fb_token);
+                } catch(\Facebook\Exceptions\FacebookSDKException $e) {
+                    dd($e->getMessage());
+                }
+
+                $subPhotoNode = $response->getGraphNode();
+                $photos[] = '{"media_fbid":"'.$subPhotoNode['id'].'"}';
+            }
+
+            $contentForPost = $news->title . '<br><br>' . $news->content . '<br><br><p>Salam CINTA</p><p>Salam Merah Putih</p><p>Bangga Berkarya Bangga Indonesia</p><br><p>IPC Car Terminal</p><p>We Will Shine With You</p>';
+
+            $tags = array('</p>','<br />','<br>','<hr />','<hr>','</h1>','</h2>','</h3>','</h4>','</h5>','</h6>');
+            $contentForPost = str_replace($tags,"\n",$contentForPost);
+            echo var_dump(strip_tags($contentForPost));
+
             $data = [
-                'message' => 'Testing multi-photo post!',
-                'attached_media[0]' => '{"media_fbid":"'.$photoNode['id'].'"}',
+                'message' => strip_tags($contentForPost),
+                'attached_media' => $photos,
             ];
 
             try {
@@ -179,9 +211,9 @@ class FacebookLoginController extends Controller
 
             $postNode = $response->getGraphNode();
 
-            echo var_dump($postNode);
+            return redirect('admin/news')->with('message', 'Berhasil mempublikasikan di Facebook!');
         } else {
-            return redirect('admin/facebook/login')->with('message', 'Anda harus login terlebih dahulu');
+            return redirect('admin/facebook/login')->with('error', 'Anda harus login terlebih dahulu');
         }
     }
 
