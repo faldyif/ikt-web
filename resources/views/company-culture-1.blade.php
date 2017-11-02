@@ -59,62 +59,82 @@
                           <h4>Dengan CINTA, satukan langkah mewujudkan kerja nyata IPC Car Terminal berkelas dunia.</h4>
                       </div>
                     <div id="home" class="tab-pane fade in">
-                      <h3 class="mg-b-30 roboBold">Nilai-Nilai Perusahaan</h3>
-                      <div class="col-md-4">
-                        <img src="{{ url('img/1_corporate_culture.png') }}" class="img-responsive" style="width: 130px; height: auto; margin: 10px 0">
-                      </div>
-                      <div class="col-md-8">
-                        <p>
-                          <h4>1. Customer Cetric<br><small>Meet Customer Expectation</small></h4>
-                          Secara proaktif mencari tahu serta memahami kebutuhan pelanggan untuk memberikan solusi-solusi yang inovatif.<br>
-                          Membangun hubungan jangka panjang yang baik dengan para pelanggan.<br>
-                          Secara konsisten memberikan pelayanan terbaik dan berkualitas untuk membantu para pelanggan tumbuh dan berkembang.<br>
-                        </p>
-                      </div>
-                      <div class="col-md-4">
-                        <img src="{{ url('img/2_corporate_culture.png') }}" class="img-responsive" style="width: 130px; height: auto; margin: 20px 0">
-                      </div>
-                      <div class="col-md-8">
-                        <p>
-                        <h4>2. Integrity<br><small>Walk the Talk</small></h4>
-                        Menumbuhkan rasa percaya dengan mengatakan apa yang kita rasakan serta melakukan apa yang kita ucapkan.<br>
-                        Menunjukkan sikap profesional dan jujur dalam berinterasi dengan pihak internal maupun eksternal.<br>
-                        Berperilaku disiplin dan patuh terhadap kode etik bisnis di dalam melakukan pelkerjaan kita sehari-hari.<br>
-                        </p>
-                      </div>
-                      <div class="col-md-4">
-                        <img src="{{ url('img/3_corporate_culture.png') }}" class="img-responsive" style="width: 130px; height: auto; margin: 10px 0">
-                      </div>
-                      <div class="col-md-8">
-                        <p>
-                        <h4>3. Nationalism<br><small>National Pride</small></h4>
-                        Menumbuhkan semangat dan ikut berperan mensukseskan program pemerintah dalam pembangunan nasional.<br>
-                        Menumbuhkan rasa bangga dan semangat masionalisme dalam berkarya.<br>
-                        Terus berkembang dan mampu bersaing dengan perusahaan pengelola pelabuhan kelas dunia.<br>
-                        </p>
-                      </div>
-                      <div class="col-md-4">
-                        <img src="{{ url('img/4_corporate_culture.png') }}" class="img-responsive" style="width: 130px; height: auto; margin: 5px 0">
-                      </div>
-                      <div class="col-md-8">
-                        <p>
-                        <h4>4. Team Work<br><small>Together We Can</small></h4>
-                        Berkolaborasi dalam tim untuk mendapatkan hasil yang terbaik<br>
-                        Bekerja bersama-sama menghasilkan ide-ide implementatif untuk solusi kebutuhan pengguna jasa pelabuhan.<br>
-                        Semangat kebersamaan dan menghargai orang lain.<br>
-                        </p>
-                      </div>
-                      <div class="col-md-4">
-                        <img src="{{ url('img/5_corporate_culture.png') }}" class="img-responsive" style="width: 130px; height: auto; margin: 10px 0">
-                      </div>
-                      <div class="col-md-8">
-                        <p>
-                        <h4>5. Action<br><small>Make It Happy</small></h4>
-                        Berani bermimpi dan berusaha mewujudkannya.<br>
-                        Proaktif untuk mencari cara dalam mewujudkan visi perusahaan.<br>
-                        Melakukan terobosan-terobosan dan langkat nyata dalam mendorong perkembangan perusahaan.<br>
-                        </p>
-                      </div>
+                      <h3 class="mg-b-30 roboBold">Nilai-Nilai Perusahaan CINTA</h3>
+                      <section class="row mg-b-20">
+                        <div class="col-md-3">
+                          <img src="{{ url('img/1_corporate_culture.png') }}" class="img-responsive" style="width: 130px; height: auto; margin: 10px 0">
+                        </div>
+                        <div class="col-md-9">
+                          <p>
+                            <h4>
+                              <!-- 1.  -->
+                              <span class="bigger"><strong>C</strong></span>ustomer Cetric<br><small>Meet Customer Expectation</small></h4>
+                            Secara proaktif mencari tahu serta memahami kebutuhan pelanggan untuk memberikan solusi-solusi yang inovatif.<br>
+                            Membangun hubungan jangka panjang yang baik dengan para pelanggan.<br>
+                            Secara konsisten memberikan pelayanan terbaik dan berkualitas untuk membantu para pelanggan tumbuh dan berkembang.<br>
+                          </p>
+                        </div>
+                      </section>
+                      <section class="row mg-b-20">
+                        <div class="col-md-3">
+                          <img src="{{ url('img/2_corporate_culture.png') }}" class="img-responsive" style="width: 130px; height: auto; margin: 20px 0">
+                        </div>
+                        <div class="col-md-9">
+                          <p>
+                          <h4>
+                            <!-- 2.  -->
+                            <span class="bigger"><strong>I</strong></span>ntegrity<br><small>Walk the Talk</small></h4>
+                          Menumbuhkan rasa percaya dengan mengatakan apa yang kita rasakan serta melakukan apa yang kita ucapkan.<br>
+                          Menunjukkan sikap profesional dan jujur dalam berinterasi dengan pihak internal maupun eksternal.<br>
+                          Berperilaku disiplin dan patuh terhadap kode etik bisnis di dalam melakukan pelkerjaan kita sehari-hari.<br>
+                          </p>
+                        </div>
+                      </section>
+                      <section class="row mg-b-20">
+                        <div class="col-md-3">
+                          <img src="{{ url('img/3_corporate_culture.png') }}" class="img-responsive" style="width: 130px; height: auto; margin: 10px 0">
+                        </div>
+                        <div class="col-md-9">
+                          <p>
+                          <h4>
+                            <!-- 3.  -->
+                            <span class="bigger"><strong>N</strong></span>ationalism<br><small>National Pride</small></h4>
+                          Menumbuhkan semangat dan ikut berperan mensukseskan program pemerintah dalam pembangunan nasional.<br>
+                          Menumbuhkan rasa bangga dan semangat masionalisme dalam berkarya.<br>
+                          Terus berkembang dan mampu bersaing dengan perusahaan pengelola pelabuhan kelas dunia.<br>
+                          </p>
+                        </div>
+                      </section>
+                      <section class="row mg-b-20">
+                        <div class="col-md-3">
+                          <img src="{{ url('img/4_corporate_culture.png') }}" class="img-responsive" style="width: 130px; height: auto; margin: 5px 0">
+                        </div>
+                        <div class="col-md-9">
+                          <p>
+                          <h4>
+                            <!-- 4.  -->
+                            <span class="bigger"><strong>T</strong></span>eam Work<br><small>Together We Can</small></h4>
+                          Berkolaborasi dalam tim untuk mendapatkan hasil yang terbaik<br>
+                          Bekerja bersama-sama menghasilkan ide-ide implementatif untuk solusi kebutuhan pengguna jasa pelabuhan.<br>
+                          Semangat kebersamaan dan menghargai orang lain.<br>
+                          </p>
+                        </div>
+                      </section>
+                      <section class="row mg-b-20">
+                        <div class="col-md-3">
+                          <img src="{{ url('img/5_corporate_culture.png') }}" class="img-responsive" style="width: 130px; height: auto; margin: 10px 0">
+                        </div>
+                        <div class="col-md-9">
+                          <p>
+                          <h4>
+                            <!-- 5.  -->
+                            <span class="bigger"><strong>A</strong></span>ction<br><small>Make It Happy</small></h4>
+                          Berani bermimpi dan berusaha mewujudkannya.<br>
+                          Proaktif untuk mencari cara dalam mewujudkan visi perusahaan.<br>
+                          Melakukan terobosan-terobosan dan langkat nyata dalam mendorong perkembangan perusahaan.<br>
+                          </p>
+                        </div>
+                      </section>
                     </div>
                     <div id="menu1" class="tab-pane fade">
                     <h3 class="mg-b-30 roboBold">Karakter Perusahaan</h3>
@@ -154,7 +174,7 @@
                     Mengembangkan bisnis perusahaan.
                     </p>
                     </div>
-                    
+
                   </div>
                 </div>
               </section>
