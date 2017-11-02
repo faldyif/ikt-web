@@ -19,18 +19,16 @@
       <div class="container-fluid wow fadeInUpBig">
         <section class="row pd-bt-30">
           <div class="col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1">
-            <section class="row flex-row-center be-block-768">
-              <div class="col-md-5">
-                <h3 class="roboLight" style="line-height: 1.4em">Indonesia Kendaraan Terminal Merupakan Perusahaan Kendaraan Terminal yang Beroperasi Tanjung Priok Jakarta Indonesia, memberikan pelayanan Cargodooring, Stevedoring, Receiving & delevering serta berbagai Pelayanan Terbaik untuk Pelanggan Kami.</h3>
-              </div>
-              <div class="col-md-7">
+            <div class="col-md-5 col-sm-12">
+              <h3 class="roboLight" style="line-height: 1.4em">Indonesia Kendaraan Terminal Merupakan Perusahaan Kendaraan Terminal yang Beroperasi Tanjung Priok Jakarta Indonesia, memberikan pelayanan Cargodooring, Stevedoring, Receiving & delevering serta berbagai Pelayanan Terbaik untuk Pelanggan Kami.</h3>
+            </div>
+            <div class="col-md-7 col-sm-12">
                 <hr class="hrSpec hrSpecOrange">
                 <h3 class="mg-b-30 roboBold">Tentang Kami</h3>
                 <p>Terminal kendaraan Tanjung Priok adalah Terminal yang melayani kegiatan jasa kepelabuhanan dibidang bongkar muat kendaraan, alat berat dan suku cadang</p>
                 <p>Terminal kendaraan Tanjung Priok merupakan salah satu terminal dari terminal yang lainnya yang melayani kegiatan jasa bongkar muat barang pelabuhan Tanjung Priok seperti terminal peti kemas, terminal penumpang terminal multi purpose, terminal curah.</p>
                 <p>Terminal kendaraan Tanjung Priok adalah terminal kendaran terbesar dan pertama di Indonesia.</p>
               </div>
-            </section>
           </div>
         </section>
       </div>
@@ -130,21 +128,22 @@
       <div class="container-fluid wow fadeInUpBig">
         <section class="row pd-bt-30 mg-bt-10">
           <div class="col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1">
-            <section class="row flex-row-center be-block-768">
-              <div class="col-md-5">
+            <!-- <section class="row flex-row-center be-block-768"> -->
+              <div class="col-md-5 col-sm-12">
                 <div class="col-md-12">
                   <hr class="hrSpec hrSpecOrange">
                   <h3 class="mg-b-20 roboBold">Role Model</h3>
                   <h5 class="lh-15em">Role Model adalah seluruh pegawai dijabatan struktural PT Indonesia Kendaraan Terminal yaitu Direksi, Manager/Setingkat, Tranformation Management Officer dan Supervisor/Setingkat.</h5>
                 </div>
-                <div class="col-md-12">
+                <div class="col-md-12 mg-b-20">
                   <hr class="hrSpec hrSpecOrange">
                   <h3 class="mg-b-20 roboBold">Change Agent</h3>
                   <h5 class="lh-15em">Sedang disiapkan</h5>
                 </div>
               </div>
-              <div class="col-md-7">
-                <section class="row">
+              <div class="col-md-7 col-sm-12">
+                <!-- <section class="row"> -->
+                <div class="col-md-12">
                   <hr class="hrSpec hrSpecOrange">
                   <h3 class="mg-b-20 roboBold">Representasi Filosofi</h3>
                   <div class="col-md-12">
@@ -174,9 +173,10 @@
                       </section>
                     </section>
                   </div>
-                </section>
+                </div>
+                <!-- </section> -->
               </div>
-            </section>
+            <!-- </section> -->
           </div>
         </section>
       </div>
