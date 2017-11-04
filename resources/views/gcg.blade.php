@@ -95,7 +95,21 @@
                       <li class="">
                           <a data-toggle="pill" href="#menu9">
                               <div class="be-flex">
-                                  <i class="fa fa-th mg-r-15 mg-t-5"></i> <span>LHKPN</span>
+                                  <i class="fa fa-th mg-r-15 mg-t-5"></i> <span>Pedoman Kepatuhan LHKPN</span>
+                              </div>
+                          </a>
+                      </li>
+                      <li class="">
+                          <a data-toggle="pill" href="#menu10">
+                              <div class="be-flex">
+                                  <i class="fa fa-th mg-r-15 mg-t-5"></i> <span>Interenal Auditor</span>
+                              </div>
+                          </a>
+                      </li>
+                      <li class="">
+                          <a data-toggle="pill" href="#menu11">
+                              <div class="be-flex">
+                                  <i class="fa fa-th mg-r-15 mg-t-5"></i> <span>Auditor Independent</span>
                               </div>
                           </a>
                       </li>
