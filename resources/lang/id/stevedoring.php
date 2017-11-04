@@ -1,7 +1,7 @@
 <?php
 
 return [
-    'head-title' => 'Layanan Stevedoring & Cargodoring',
+    'head-title' => 'Stevedoring & Cargodoring',
     'sub-title' => 'PT. Indonesia Kendaraan Terminal',
     'title' => 'Stevedoring & Cargodoring',
     'content' => '

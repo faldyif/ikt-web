@@ -81,7 +81,7 @@
                       <li class="">
                           <a data-toggle="pill" href="#menu7">
                               <div class="be-flex">
-                                  <i class="fa fa-th mg-r-15 mg-t-5"></i> <span>Whistle Blower</span>
+                                  <i class="fa fa-th mg-r-15 mg-t-5"></i> <span>Whistleblowing System</span>
                               </div>
                           </a>
                       </li>

@@ -1526,7 +1526,7 @@ figcaption.caption {
   position: relative;
   overflow: hidden;
   min-height: 120px;
-  border-left: 5px solid blue; }
+  border-left: 5px solid #0078FF; }
 
 .quote-card h3 {
   line-height: 1.5;
