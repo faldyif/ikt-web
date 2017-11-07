@@ -8,9 +8,10 @@
     <!--HERO-->
 <section id="hero" class="pagecontent section">
   <section class="slider">
+    <!-- slide 1  -->
     <div>
       <figure class="figSlider">
-        <img src="{{ url('img/bg_beranda.jpg') }}">
+        <img src="{{ url('img/slide1.jpg') }}">
         <div class="overlay"></div>
         <section class="containerCenter alignCenter">
           <section class="row">
@@ -32,30 +33,39 @@
         </section>
       </figure>
     </div>
+    <!-- /slide1 -->
+    <!-- slide2 -->
     <div>
       <figure class="figSlider">
         <img src="./img/4.jpg">
         <div class="overlay"></div>
       </figure>
     </div>
+    <!-- /slide2 -->
+    <!-- slide3 -->
     <div>
       <figure class="figSlider">
         <img src="./img/3.jpg">
         <div class="overlay"></div>
       </figure>
     </div>
+    <!-- /slide3 -->
+    <!-- slide4 -->
     <div>
       <figure class="figSlider">
-        <img src="./img/port01.jpg">
+        <img src="./img/slide4.jpg">
         <div class="overlay"></div>
       </figure>
     </div>
+    <!-- /slide4 -->
+    <!-- slide5 -->
     <div>
       <figure class="figSlider">
-        <img src="./img/port02.jpg">
+        <img src="./img/slide5.jpg">
         <div class="overlay"></div>
       </figure>
     </div>
+    <!-- /slide5 -->
   </section>
 
   <section class="containerCenter alignCenter">
