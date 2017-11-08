@@ -129,22 +129,27 @@ class TwitterLoginController extends Controller
         if(Auth::user()->twitter_oauth_token != NULL && Auth::user()->twitter_oauth_token_secret != NULL) {
             $news = News::find($request->id)->translate('id');
 
-            $uploaded_media = array();
-            $uploaded_media[] = Twitter::uploadMedia(['media' => File::get(public_path(str_replace('/', '\\', 'storage\\' . $news->filename)))])->media_id_string;
+            $medias[] = array(
+                public_path('storage/' . $news->filename),
+            );
 
             $doc = new DOMDocument();
             $doc->loadHTML($news->content);
             $imageTags = $doc->getElementsByTagName('img');
 
-            $i = 1;
             foreach($imageTags as $tag) {
-                if($i == 4) break;
                 $source = substr($tag->getAttribute('src'), 1);
-                $uploaded_media[] = Twitter::uploadMedia(['media' => File::get(public_path(str_replace('/', '\\', $source)))])->media_id_string;
-                $i++;
+                $medias[] = public_path($source);
             }
 
-            $status = Twitter::postTweet(['status' => $news->title . ' ' . url('id/berita') . '/' . $news->slug, 'media_ids' => $uploaded_media]);
+            $uploaded_media = array();
+            if(isset($request->twitter_images)) {
+                foreach ($request->twitter_images as $key) {
+                    $uploaded_media[] = Twitter::uploadMedia(['media' => File::get(str_replace('\\', '/', $medias[$key][0]))])->media_id_string;
+                }
+            }
+
+            $status = Twitter::postTweet(['status' => $request->content, 'media_ids' => $uploaded_media]);
             return redirect('admin/news')->with('message', 'Berhasil mempublikasikan di Twitter!');
         } else {
             return redirect('admin/twitter')->with('error', 'Anda harus login terlebih dahulu');
