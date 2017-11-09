@@ -8,9 +8,10 @@
     <!--HERO-->
 <section id="hero" class="pagecontent section">
   <section class="slider">
+    <!-- slide 1  -->
     <div>
       <figure class="figSlider">
-        <img src="{{ url('img/bg_beranda.jpg') }}">
+        <img src="{{ url('img/slide1.jpg') }}">
         <div class="overlay"></div>
         <section class="containerCenter alignCenter">
           <section class="row">
@@ -32,30 +33,39 @@
         </section>
       </figure>
     </div>
+    <!-- /slide1 -->
+    <!-- slide2 -->
     <div>
       <figure class="figSlider">
-        <img src="{{ url('img/4.jpg') }}">
+        <img src="./img/4.jpg">
         <div class="overlay"></div>
       </figure>
     </div>
+    <!-- /slide2 -->
+    <!-- slide3 -->
     <div>
       <figure class="figSlider">
-        <img src="{{ url('img/3.jpg') }}">
+        <img src="./img/3.jpg">
         <div class="overlay"></div>
       </figure>
     </div>
+    <!-- /slide3 -->
+    <!-- slide4 -->
     <div>
       <figure class="figSlider">
-        <img src="{{ url('img/port01.jpg') }}">
+        <img src="./img/slide4.jpg">
         <div class="overlay"></div>
       </figure>
     </div>
+    <!-- /slide4 -->
+    <!-- slide5 -->
     <div>
       <figure class="figSlider">
-        <img src="{{ url('img/port02.jpg') }}">
+        <img src="./img/slide5.jpg">
         <div class="overlay"></div>
       </figure>
     </div>
+    <!-- /slide5 -->
   </section>
 
   <section class="containerCenter alignCenter">
@@ -357,16 +367,16 @@
                   <i class="fa fa-quote-left fa-lg hidden-400"></i>
                 </div>
                 <div class="floatLeft mg-lr-20 rightWidth">
-                  <p>Saya sangat merasakan layanan Indonesia Kendaraan Terminal (IKT) lebih baik dari waktu yang lalu.</p>
+                  <p>Vix eu etiam mediocrem. Qui debet essent omnium ut. Ne qui recusabo temporibus, in eum singulis posidonium. Nec reque saepe ea, esse veniam definitionem est ei.</p>
                   <div class="row mg-t-20">
                     <div class="col-md-3 col-sm-3 col-xs-3">
                       <figure class="roundImage">
-                        <img src="{{ url('img/bg-square.png') }}" style="background-image: url('{{ url('img/test_1.png') }}');">
+                        <img src="{{ url('img/bg-square.png') }}" style="background-image: url('{{ url('img/thumb.png') }}');">
                       </figure>
                     </div>
                     <div class="col-md-9 col-sm-9">
-                      <p class="roboBold mg-0 mg-t-5">Fahrizal</p>
-                      <span class="lg-gray">ECC</span>
+                      <p class="roboBold mg-0 mg-t-5">Aliquam principes deterruisset</p>
+                      <span class="lg-gray">Designer</span>
                     </div>
                   </div>
                 </div>
@@ -378,16 +388,16 @@
                   <i class="fa fa-quote-left fa-lg hidden-400"></i>
                 </div>
                 <div class="floatLeft mg-lr-20 rightWidth">
-                  <p>Pelayanannya baik, komunikasinya bagus dan sudah sesuai dengan keinginan customer. Selalu ada perubahan dan perbaikan yang lebih bagus.</p>
+                  <p>Vix eu etiam mediocrem. Qui debet essent omnium ut. Ne qui recusabo temporibus, in eum singulis posidonium. Nec reque saepe ea, esse veniam definitionem est ei.</p>
                   <div class="row mg-t-20">
                     <div class="col-md-3 col-sm-3 col-xs-3">
                       <figure class="roundImage">
-                        <img src="{{ url('img/bg-square.png') }}" style="background-image: url('{{ url('img/test_2.png') }}');">
+                        <img src="{{ url('img/bg-square.png') }}" style="background-image: url('{{ url('img/thumb.png') }}');">
                       </figure>
                     </div>
                     <div class="col-md-9 col-sm-9">
-                      <p class="roboBold mg-0 mg-t-5">Ferawati</p>
-                      <span class="lg-gray">PT. Samudera Raya Semesta</span>
+                      <p class="roboBold mg-0 mg-t-5">Aliquam principes deterruisset</p>
+                      <span class="lg-gray">Designer</span>
                     </div>
                   </div>
                 </div>
@@ -399,16 +409,16 @@
                   <i class="fa fa-quote-left fa-lg hidden-400"></i>
                 </div>
                 <div class="floatLeft mg-lr-20 rightWidth">
-                  <p>Cukup baik dalam mengakomodasi keinginan dan kebutuhan pelanggan. Namun akan lebih baik jika "less Bureaucratic" terutama untuk pengadaan/ perbaikan sarana yang terkait dengan security & Safety Operation.</p>
+                  <p>Duo alia causae vituperatoribus ea, salutatus adolescens conclusionemque qui an. Illum euripidis eu vix.</p>
                   <div class="row mg-t-20">
                     <div class="col-md-3 col-sm-3 col-xs-3">
                       <figure class="roundImage">
-                        <img src="{{ url('img/bg-square.png') }}" style="background-image: url('{{ url('img/test_3.png') }}');">
+                        <img src="{{ url('img/bg-square.png') }}" style="background-image: url('{{ url('img/thumb.png') }}');">
                       </figure>
                     </div>
                     <div class="col-md-9 col-sm-9">
-                      <p class="roboBold mg-0 mg-t-5">Handayani A.</p>
-                      <span class="lg-gray">TMMIN</span>
+                      <p class="roboBold mg-0 mg-t-5">Aliquam principes deterruisset</p>
+                      <span class="lg-gray">Designer</span>
                     </div>
                   </div>
                 </div>
@@ -420,16 +430,16 @@
                   <i class="fa fa-quote-left fa-lg hidden-400"></i>
                 </div>
                 <div class="floatLeft mg-lr-20 rightWidth">
-                  <p>Saya sangat merasakan layanan Indonesia Kendaraan Terminal (IKT) lebih baik dari waktu yang lalu.</p>
+                  <p>Aliquam principes deterruisset cum et, vel an eius equidem. Id quando legimus inermis eum, cibo consul democritum cum te, cu cum suas laudem graeci.</p>
                   <div class="row mg-t-20">
                     <div class="col-md-3 col-sm-3 col-xs-3">
                       <figure class="roundImage">
-                        <img src="{{ url('img/bg-square.png') }}" style="background-image: url('{{ url('img/test_1.png') }}');">
+                        <img src="{{ url('img/bg-square.png') }}" style="background-image: url('{{ url('img/thumb.png') }}');">
                       </figure>
                     </div>
                     <div class="col-md-9 col-sm-9">
-                      <p class="roboBold mg-0 mg-t-5">Fahrizal</p>
-                      <span class="lg-gray">ECC</span>
+                      <p class="roboBold mg-0 mg-t-5">Aliquam principes deterruisset</p>
+                      <span class="lg-gray">Designer</span>
                     </div>
                   </div>
                 </div>
@@ -441,16 +451,16 @@
                   <i class="fa fa-quote-left fa-lg hidden-400"></i>
                 </div>
                 <div class="floatLeft mg-lr-20 rightWidth">
-                  <p>Pelayanannya baik, komunikasinya bagus dan sudah sesuai dengan keinginan customer. Selalu ada perubahan dan perbaikan yang lebih bagus.</p>
+                  <p>At eum mazim dolore aliquid, id sed quas saepe doming. Atomorum assentior ne pri, ut cum fugit facilis electram.</p>
                   <div class="row mg-t-20">
                     <div class="col-md-3 col-sm-3 col-xs-3">
                       <figure class="roundImage">
-                        <img src="{{ url('img/bg-square.png') }}" style="background-image: url('{{ url('img/test_2.png') }}');">
+                        <img src="{{ url('img/bg-square.png') }}" style="background-image: url('{{ url('img/thumb.png') }}');">
                       </figure>
                     </div>
                     <div class="col-md-9 col-sm-9">
-                      <p class="roboBold mg-0 mg-t-5">Ferawati</p>
-                      <span class="lg-gray">PT. Samudera Raya Semesta</span>
+                      <p class="roboBold mg-0 mg-t-5">Aliquam principes deterruisset</p>
+                      <span class="lg-gray">Designer</span>
                     </div>
                   </div>
                 </div>
@@ -462,16 +472,16 @@
                   <i class="fa fa-quote-left fa-lg hidden-400"></i>
                 </div>
                 <div class="floatLeft mg-lr-20 rightWidth">
-                  <p>Cukup baik dalam mengakomodasi keinginan dan kebutuhan pelanggan. Namun akan lebih baik jika "less Bureaucratic" terutama untuk pengadaan/ perbaikan sarana yang terkait dengan security & Safety Operation.</p>
+                  <p>Eam no eripuit noluisse intellegebat. Nominavi mnesarchum ad eam, pro dico recteque id, cu dicant audiam mel.</p>
                   <div class="row mg-t-20">
                     <div class="col-md-3 col-sm-3 col-xs-3">
                       <figure class="roundImage">
-                        <img src="{{ url('img/bg-square.png') }}" style="background-image: url('{{ url('img/test_3.png') }}');">
+                        <img src="{{ url('img/bg-square.png') }}" style="background-image: url('{{ url('img/thumb.png') }}');">
                       </figure>
                     </div>
                     <div class="col-md-9 col-sm-9">
-                      <p class="roboBold mg-0 mg-t-5">Handayani A.</p>
-                      <span class="lg-gray">TMMIN</span>
+                      <p class="roboBold mg-0 mg-t-5">Aliquam principes deterruisset</p>
+                      <span class="lg-gray">Designer</span>
                     </div>
                   </div>
                 </div>
@@ -538,6 +548,9 @@
   <script type="text/javascript">
       var nextParticle = new NextParticle(document.all.logo);
 
+      window.onclick = function() {
+          nextParticle.stop();
+      };
       nextParticle.on('stopped', function() {
           nextParticle.start();
       });
