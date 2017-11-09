@@ -116,22 +116,25 @@ class TwitterLoginController extends Controller
     }
 
     public function testUploadMedia() {
+        Twitter::reconfig(['token' => Auth::user()->twitter_oauth_token, 'secret' => Auth::user()->twitter_oauth_token_secret]);
+
         $uploaded_media = array();
-        $uploaded_media[] = Twitter::uploadMedia(['media' => File::get(public_path('img\ikt-logo.png'))])->media_id_string;
-        $uploaded_media[] = Twitter::uploadMedia(['media' => File::get(public_path('img\ikt-logo.png'))])->media_id_string;
-        $uploaded_media[] = Twitter::uploadMedia(['media' => File::get(public_path('img\ikt-logo.png'))])->media_id_string;
-        $uploaded_media[] = Twitter::uploadMedia(['media' => File::get(public_path('img\ikt-logo.png'))])->media_id_string;
+        $uploaded_media[] = Twitter::uploadMedia(['media' => File::get(public_path('img/ikt-logo.png'))])->media_id_string;
+        $uploaded_media[] = Twitter::uploadMedia(['media' => File::get(public_path('img/ikt-logo.png'))])->media_id_string;
+        $uploaded_media[] = Twitter::uploadMedia(['media' => File::get(public_path('img/ikt-logo.png'))])->media_id_string;
+        $uploaded_media[] = Twitter::uploadMedia(['media' => File::get(public_path('img/ikt-logo.png'))])->media_id_string;
         return Twitter::postTweet(['status' => 'Laravel is beautiful', 'media_ids' => $uploaded_media]);
     }
 
     public function postStatus(Request $request)
     {
         if(Auth::user()->twitter_oauth_token != NULL && Auth::user()->twitter_oauth_token_secret != NULL) {
+            Twitter::reconfig(['token' => Auth::user()->twitter_oauth_token, 'secret' => Auth::user()->twitter_oauth_token_secret]);
+
             $news = News::find($request->id)->translate('id');
 
-            $medias[] = array(
-                public_path('storage/' . $news->filename),
-            );
+            $medias = array();
+            $medias[] = public_path('storage/' . $news->filename);
 
             $doc = new DOMDocument();
             $doc->loadHTML($news->content);
@@ -145,7 +148,7 @@ class TwitterLoginController extends Controller
             $uploaded_media = array();
             if(isset($request->twitter_images)) {
                 foreach ($request->twitter_images as $key) {
-                    $uploaded_media[] = Twitter::uploadMedia(['media' => File::get(str_replace('\\', '/', $medias[$key][0]))])->media_id_string;
+                    $uploaded_media[] = Twitter::uploadMedia(['media' => File::get(str_replace('\\', '/', $medias[$key]))])->media_id_string;
                 }
             }
 
