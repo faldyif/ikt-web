@@ -11,7 +11,7 @@
           <h4 class="roboBold">Kontak Kami</h4>
           <section class="row mg-lr-15 mg-t-30">
             <i class="fa fa-map-marker fa-2x or floatLeft mg-r-20"></i>
-            <p class="small">JL Sindang Laut, Cilincing Jakarta Utara, 14110</p>
+            <p class="small">JL Sindang Laut No. 101, Cilincing Jakarta Utara, 14110</p>
           </section>
           <section class="row mg-lr-15 mg-t-10">
             <i class="fa fa-envelope-o fa-lg or floatLeft mg-r-20"></i>
@@ -24,9 +24,9 @@
           <section class="row">
             <div class="socialMedia text-center">
               <ul class="noPad">
-                <li><a class="fb" href="#"><i class="fa fa-facebook"></i></a></li>
-                <li><a class="tw" href="#"><i class="fa fa-twitter"></i></a></li>
-                <li><a class="ig" href="#"><i class="fa fa-instagram"></i></a></li>
+                <li><a class="fb" href="https://www.facebook.com/ipccarterminal"><i class="fa fa-facebook"></i></a></li>
+                <li><a class="tw" href="https://www.twitter.com/pt_ikt"><i class="fa fa-twitter"></i></a></li>
+                <li><a class="ig" href="htpps://www.instagram.com/ipccarterminal"><i class="fa fa-instagram"></i></a></li>
               </ul>
             </div>
           </section>
