@@ -22,6 +22,7 @@ class CreateUsersTable extends Migration
             $table->dateTimeTz('fb_token_timeout')->nullable();
             $table->text('twitter_oauth_token')->nullable();
             $table->text('twitter_oauth_token_secret')->nullable();
+            $table->text('news_signature')->nullable();
             $table->integer('type'); // user type
             $table->rememberToken();
             $table->timestamps();

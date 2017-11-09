@@ -47,6 +47,7 @@ Route::group(array('namespace'=>'Admin', 'prefix'=>'admin', 'middleware'=>'auth'
         Route::get('facebook/logout', 'FacebookLoginController@signOut');
         Route::get('facebook/post', 'FacebookLoginController@postPhoto');
         Route::post('facebook/post', 'FacebookLoginController@postStatus')->name('facebook.news.post');
+        Route::post('facebook/signature', 'FacebookLoginController@changeSignature')->name('facebook.signature');
 
 
         Route::resource('album', 'AlbumController', ['except' => ['show']]);

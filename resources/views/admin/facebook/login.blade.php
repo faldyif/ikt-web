@@ -26,7 +26,8 @@
 
           <div class="box">
             <div class="box-body">
-              <div class="col-md-8">
+              <div class="row">
+                  <div class="col-md-12">
                 <label>Koneksi Akun Facebook</label>
                 <br>
                 @if(Auth::user()->fb_token_timeout != NULL && Auth::user()->fb_token_timeout > \Carbon\Carbon::now())
@@ -36,6 +37,25 @@
                 <a href="{{ $login_url }}" class="btn btn-lg btn-info" style="background-color: #3b5998; border-color: #3b5998"><i class="fa fa-facebook-official"></i> Masuk ke Facebook</a>
                 @endif
               </div>
+              </div>
+              <div class="row">
+                  <div class="col-md-12">
+
+                  {!! Form::model(null, array('route' => array('facebook.signature', 'method' => 'POST', 'enctype' => 'multipart/form-data'))) !!}
+
+                      <div class="form-group col-md-12">
+                          <label for="inputKonten">Signature <sup>*</sup></label>
+                          {{ Form::textarea('signature', Auth::user()->news_signature, array('class' => 'tinymce mce-facebook', 'id' => 'mce-facebook-content')) }}
+                      </div>
+
+                      <div class="col-md-12">
+                          <button type="submit" class="btn btn-success"><i class="fa fa-check"></i> Simpan Signature</button>
+                      </div>
+
+                  {!! Form::close() !!}
+                  </div>
+              </div>
+
             </div>
             <!-- /.box-body -->
           </div>
@@ -59,62 +79,23 @@
 @endsection
 
 @section('page-script')
-<!-- DataTables -->
-<script src="{{ url('assets/bower_components/datatables.net/js/jquery.dataTables.min.js') }}"></script>
-<script src="{{ url('assets/bower_components/datatables.net-bs/js/dataTables.bootstrap.min.js') }}"></script>
-<!-- page script -->
-<script>
-    jQuery(function($){
-        $('a.share-modal').click(function(ev){
-            ev.preventDefault();
-            var uid = $(this).data('id');
-            $('#modal-7').modal('show', {backdrop: 'static'});
-            $.get('{{ url('api/v1/news') }}/' + uid, function(html){
-                $('#modal-7 .gambar-berita').attr('src', '{{ url('storage') }}/' + html.filename);
-                $('#modal-7 .judul-berita').html(html.title);
-                $('#modal-7 .konten-berita').html(html.content);
-            });
+    <script src="{{ url('assets/dist/js/tinymce/tinymce.min.js') }}"></script>
+    <script>
+        tinymce.init({
+            height: 200,
+            selector:'#mce-facebook-content',
+            theme: 'modern',
+            plugins: [
+                'image searchreplace'
+            ],
+            toolbar1: 'undo redo | image | bold italic underline | searchreplace',
+            image_advtab: true,
+            media_poster: false,
+            relative_urls: false,
+            file_browser_callback: function(field_name, url, type, win) {
+                // trigger file upload form
+                if (type == 'image') $('#formUpload input').click();
+            }
         });
-    });
-  $(function () {
-    $('#example1').DataTable()
-    $('#example2').DataTable({
-      'paging'      : true,
-      'lengthChange': false,
-      'searching'   : false,
-      'ordering'    : true,
-      'info'        : true,
-      'autoWidth'   : false
-    })
-  })
-  function deleteConfirmation(id) {
-    swal({
-      title: 'Apakah anda yakin?',
-      text: 'Anda tidak akan dapat mengembalikan berita yang sudah dihapus!',
-      type: 'warning',
-      showCancelButton: true,
-      confirmButtonText: 'Ya, hapus!',
-      cancelButtonText: 'Tidak, batalkan'
-    }).then(function() {
-      swal(
-        'Terhapus!',
-        'Berita yang anda pilih berhasil terhapus. Reload otomatis dalam 2 detik..',
-        'success'
-      )
-      setTimeout(function() {
-        document.getElementById('delete_form_' + id).submit();
-      }, 2000); //2 second delay (2000 milliseconds = 2 seconds)
-      
-    }, function(dismiss) {
-      // dismiss can be 'overlay', 'cancel', 'close', 'esc', 'timer'
-      if (dismiss === 'cancel') {
-        swal(
-          'Dibatalkan',
-          'Berita yang anda pilih aman di database :)',
-          'error'
-        )
-      }
-    })
-  }
-</script>
+    </script>
 @endsection

@@ -151,58 +151,65 @@ class FacebookLoginController extends Controller
 
     public function postStatus(Request $request, LaravelFacebookSdk $fb)
     {
-        if(Auth::user()->fb_token_timeout != NULL && Auth::user()->fb_token_timeout > \Carbon\Carbon::now()) {
-            $news = News::find($request->id)->translate('id');
+        if(Auth::user()->fb_token_timeout != NULL && Auth::user()->fb_token_timeout > \Carbon\Carbon::now())
+        {
+            // Init for photo list for parameter facebook post
+            $photos[] = array();
 
-            $data = [
-                'source' => $fb->fileToUpload('storage/' . $news->filename),
-                'published' => false,
-            ];
+            // Check is the signature checkbox ticked
+            $isSignatureEnabled = $request->signature;
 
-            try {
-                $response = $fb->post('/me/photos', $data, Auth::user()->fb_token);
-            } catch(\Facebook\Exceptions\FacebookSDKException $e) {
-                dd($e->getMessage());
-            }
+            // Get the content from post request
+            $contentFromRequest = $request->content;
 
-            $photoNode = $response->getGraphNode();
+            // Define image list array
+            $imageFromContent = array();
 
-            $photos = array();
-            $photos[] = '{"media_fbid":"'.$photoNode['id'].'"}';
-
+            // Load the HTML with dom document
             $doc = new DOMDocument();
-            $doc->loadHTML($news->content);
-            $imageTags = $doc->getElementsByTagName('img');
+            $doc->loadHTML($contentFromRequest);
 
-            foreach($imageTags as $tag) {
+            // Parse all the img tag from the html loaded before
+            $imgs = $doc->getElementsByTagName('img');
+
+            // Loop through elements array
+            foreach($imgs as $tag)
+            {
+                // Get the source attribute
                 $source = substr($tag->getAttribute('src'), 1);
 
+                // Prepare parameters for facebook photo upload
                 $data = [
                     'source' => $fb->fileToUpload($source),
                     'published' => false,
                 ];
 
+                // Upload the photo to facebook
                 try {
                     $response = $fb->post('/me/photos', $data, Auth::user()->fb_token);
                 } catch(\Facebook\Exceptions\FacebookSDKException $e) {
                     dd($e->getMessage());
                 }
 
+                // Get the response and save it to array
                 $subPhotoNode = $response->getGraphNode();
                 $photos[] = '{"media_fbid":"'.$subPhotoNode['id'].'"}';
             }
 
-            $contentForPost = $news->title . '<br><br>' . $news->content . '<br><br><p>Salam CINTA</p><p>Salam Merah Putih</p><p>Bangga Berkarya Bangga Indonesia</p><br><p>IPC Car Terminal</p><p>We Will Shine With You</p>';
+            // Remove all the image tag from the content
+            $contentForPost = preg_replace("/<img[^>]+>/", "", $contentFromRequest) . ($isSignatureEnabled ? Auth::user()->news_signature : ''); // TODO: This
 
+            // Replace all the defined tags to newline
             $tags = array('</p>','<br />','<br>','<hr />','<hr>','</h1>','</h2>','</h3>','</h4>','</h5>','</h6>');
             $contentForPost = str_replace($tags,"\n",$contentForPost);
-            echo var_dump(strip_tags($contentForPost));
 
+            // Prepare parameter for facebook post
             $data = [
                 'message' => strip_tags($contentForPost),
                 'attached_media' => $photos,
             ];
 
+            // Post the content
             try {
                 $response = $fb->post('/me/feed', $data, Auth::user()->fb_token);
             } catch(\Facebook\Exceptions\FacebookSDKException $e) {
@@ -215,6 +222,20 @@ class FacebookLoginController extends Controller
         } else {
             return redirect('admin/facebook/login')->with('error', 'Anda harus login terlebih dahulu');
         }
+    }
+
+    public function changeSignature(Request $request)
+    {
+        $this->validate($request, [
+            'signature' => 'required'
+        ]);
+
+        $user = Auth::user();
+        $user->news_signature = $request->signature;
+        $user->touch();
+
+        Session::flash('message', 'Berhasil mengubah signature berita facebook!');
+        return redirect('admin/facebook/login');
     }
 
 }
