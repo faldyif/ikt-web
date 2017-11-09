@@ -357,16 +357,16 @@
                   <i class="fa fa-quote-left fa-lg hidden-400"></i>
                 </div>
                 <div class="floatLeft mg-lr-20 rightWidth">
-                  <p>Vix eu etiam mediocrem. Qui debet essent omnium ut. Ne qui recusabo temporibus, in eum singulis posidonium. Nec reque saepe ea, esse veniam definitionem est ei.</p>
+                  <p>Saya sangat merasakan layanan Indonesia Kendaraan Terminal (IKT) lebih baik dari waktu yang lalu.</p>
                   <div class="row mg-t-20">
                     <div class="col-md-3 col-sm-3 col-xs-3">
                       <figure class="roundImage">
-                        <img src="{{ url('img/bg-square.png') }}" style="background-image: url('{{ url('img/thumb.png') }}');">
+                        <img src="{{ url('img/bg-square.png') }}" style="background-image: url('{{ url('img/test_1.png') }}');">
                       </figure>
                     </div>
                     <div class="col-md-9 col-sm-9">
-                      <p class="roboBold mg-0 mg-t-5">Aliquam principes deterruisset</p>
-                      <span class="lg-gray">Designer</span>
+                      <p class="roboBold mg-0 mg-t-5">Fahrizal</p>
+                      <span class="lg-gray">ECC</span>
                     </div>
                   </div>
                 </div>
@@ -378,16 +378,16 @@
                   <i class="fa fa-quote-left fa-lg hidden-400"></i>
                 </div>
                 <div class="floatLeft mg-lr-20 rightWidth">
-                  <p>Vix eu etiam mediocrem. Qui debet essent omnium ut. Ne qui recusabo temporibus, in eum singulis posidonium. Nec reque saepe ea, esse veniam definitionem est ei.</p>
+                  <p>Pelayanannya baik, komunikasinya bagus dan sudah sesuai dengan keinginan customer. Selalu ada perubahan dan perbaikan yang lebih bagus.</p>
                   <div class="row mg-t-20">
                     <div class="col-md-3 col-sm-3 col-xs-3">
                       <figure class="roundImage">
-                        <img src="{{ url('img/bg-square.png') }}" style="background-image: url('{{ url('img/thumb.png') }}');">
+                        <img src="{{ url('img/bg-square.png') }}" style="background-image: url('{{ url('img/test_2.png') }}');">
                       </figure>
                     </div>
                     <div class="col-md-9 col-sm-9">
-                      <p class="roboBold mg-0 mg-t-5">Aliquam principes deterruisset</p>
-                      <span class="lg-gray">Designer</span>
+                      <p class="roboBold mg-0 mg-t-5">Ferawati</p>
+                      <span class="lg-gray">PT. Samudera Raya Semesta</span>
                     </div>
                   </div>
                 </div>
@@ -399,16 +399,16 @@
                   <i class="fa fa-quote-left fa-lg hidden-400"></i>
                 </div>
                 <div class="floatLeft mg-lr-20 rightWidth">
-                  <p>Duo alia causae vituperatoribus ea, salutatus adolescens conclusionemque qui an. Illum euripidis eu vix.</p>
+                  <p>Cukup baik dalam mengakomodasi keinginan dan kebutuhan pelanggan. Namun akan lebih baik jika "less Bureaucratic" terutama untuk pengadaan/ perbaikan sarana yang terkait dengan security & Safety Operation.</p>
                   <div class="row mg-t-20">
                     <div class="col-md-3 col-sm-3 col-xs-3">
                       <figure class="roundImage">
-                        <img src="{{ url('img/bg-square.png') }}" style="background-image: url('{{ url('img/thumb.png') }}');">
+                        <img src="{{ url('img/bg-square.png') }}" style="background-image: url('{{ url('img/test_3.png') }}');">
                       </figure>
                     </div>
                     <div class="col-md-9 col-sm-9">
-                      <p class="roboBold mg-0 mg-t-5">Aliquam principes deterruisset</p>
-                      <span class="lg-gray">Designer</span>
+                      <p class="roboBold mg-0 mg-t-5">Handayani A.</p>
+                      <span class="lg-gray">TMMIN</span>
                     </div>
                   </div>
                 </div>
@@ -420,16 +420,16 @@
                   <i class="fa fa-quote-left fa-lg hidden-400"></i>
                 </div>
                 <div class="floatLeft mg-lr-20 rightWidth">
-                  <p>Aliquam principes deterruisset cum et, vel an eius equidem. Id quando legimus inermis eum, cibo consul democritum cum te, cu cum suas laudem graeci.</p>
+                  <p>Saya sangat merasakan layanan Indonesia Kendaraan Terminal (IKT) lebih baik dari waktu yang lalu.</p>
                   <div class="row mg-t-20">
                     <div class="col-md-3 col-sm-3 col-xs-3">
                       <figure class="roundImage">
-                        <img src="{{ url('img/bg-square.png') }}" style="background-image: url('{{ url('img/thumb.png') }}');">
+                        <img src="{{ url('img/bg-square.png') }}" style="background-image: url('{{ url('img/test_1.png') }}');">
                       </figure>
                     </div>
                     <div class="col-md-9 col-sm-9">
-                      <p class="roboBold mg-0 mg-t-5">Aliquam principes deterruisset</p>
-                      <span class="lg-gray">Designer</span>
+                      <p class="roboBold mg-0 mg-t-5">Fahrizal</p>
+                      <span class="lg-gray">ECC</span>
                     </div>
                   </div>
                 </div>
@@ -441,16 +441,16 @@
                   <i class="fa fa-quote-left fa-lg hidden-400"></i>
                 </div>
                 <div class="floatLeft mg-lr-20 rightWidth">
-                  <p>At eum mazim dolore aliquid, id sed quas saepe doming. Atomorum assentior ne pri, ut cum fugit facilis electram.</p>
+                  <p>Pelayanannya baik, komunikasinya bagus dan sudah sesuai dengan keinginan customer. Selalu ada perubahan dan perbaikan yang lebih bagus.</p>
                   <div class="row mg-t-20">
                     <div class="col-md-3 col-sm-3 col-xs-3">
                       <figure class="roundImage">
-                        <img src="{{ url('img/bg-square.png') }}" style="background-image: url('{{ url('img/thumb.png') }}');">
+                        <img src="{{ url('img/bg-square.png') }}" style="background-image: url('{{ url('img/test_2.png') }}');">
                       </figure>
                     </div>
                     <div class="col-md-9 col-sm-9">
-                      <p class="roboBold mg-0 mg-t-5">Aliquam principes deterruisset</p>
-                      <span class="lg-gray">Designer</span>
+                      <p class="roboBold mg-0 mg-t-5">Ferawati</p>
+                      <span class="lg-gray">PT. Samudera Raya Semesta</span>
                     </div>
                   </div>
                 </div>
@@ -462,16 +462,16 @@
                   <i class="fa fa-quote-left fa-lg hidden-400"></i>
                 </div>
                 <div class="floatLeft mg-lr-20 rightWidth">
-                  <p>Eam no eripuit noluisse intellegebat. Nominavi mnesarchum ad eam, pro dico recteque id, cu dicant audiam mel.</p>
+                  <p>Cukup baik dalam mengakomodasi keinginan dan kebutuhan pelanggan. Namun akan lebih baik jika "less Bureaucratic" terutama untuk pengadaan/ perbaikan sarana yang terkait dengan security & Safety Operation.</p>
                   <div class="row mg-t-20">
                     <div class="col-md-3 col-sm-3 col-xs-3">
                       <figure class="roundImage">
-                        <img src="{{ url('img/bg-square.png') }}" style="background-image: url('{{ url('img/thumb.png') }}');">
+                        <img src="{{ url('img/bg-square.png') }}" style="background-image: url('{{ url('img/test_3.png') }}');">
                       </figure>
                     </div>
                     <div class="col-md-9 col-sm-9">
-                      <p class="roboBold mg-0 mg-t-5">Aliquam principes deterruisset</p>
-                      <span class="lg-gray">Designer</span>
+                      <p class="roboBold mg-0 mg-t-5">Handayani A.</p>
+                      <span class="lg-gray">TMMIN</span>
                     </div>
                   </div>
                 </div>

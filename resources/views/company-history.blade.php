@@ -20,7 +20,7 @@
         <section class="row pd-t-20">
           <div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 pd-bt-30">
           {!! trans('company-history.content') !!}
-            <section class="row mg-lr-10 mg-t-30">
+            <!-- <section class="row mg-lr-10 mg-t-30">
               <h4 class="roboMedium text-center">Share this post : </h4>
               <div class="socialMedia text-center">
                 <ul class="noPad">
@@ -29,7 +29,7 @@
                   <li><a class="ig" href="#"><i class="fa fa-lg fa-instagram"></i></a></li>
                 </ul>
               </div>
-            </section>
+            </section> -->
           </div>
         </section>
       </div>
