@@ -513,9 +513,9 @@
               <section class="row">
                 <div class="socialMedia text-center">
                   <ul class="noPad">
-                    <li><a class="fb" href="#"><i class="fa fa-facebook"></i></a></li>
-                    <li><a class="tw" href="#"><i class="fa fa-twitter"></i></a></li>
-                    <li><a class="ig" href="#"><i class="fa fa-instagram"></i></a></li>
+                    <li><a class="fb" href="htpps://www.facebook.com/ipccarterminal"><i class="fa fa-facebook"></i></a></li>
+                    <li><a class="tw" href="https://www.twitter.com/pt_ikt"><i class="fa fa-twitter"></i></a></li>
+                    <li><a class="ig" href="https://www.instagram.com/ipccarterminal"><i class="fa fa-instagram"></i></a></li>
                   </ul>
                 </div>
               </section>
