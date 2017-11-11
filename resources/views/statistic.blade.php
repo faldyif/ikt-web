@@ -3,175 +3,179 @@
 @section('title','Statistic & Data | IPC Car Terminal')
 
 @section('content')
-<!--HERO-->
+    <!--HERO-->
     <section id="heroTitle">
-      <div class="heroTitle" style="background-image: url('{{ url('img/2.jpg') }}');">
-        <div class="overlay"></div>
-        <section class="container-fluid pd-30">
-          <h2 class="roboBold wh alignCenter" data-wow-delay="0.4s">Statistik & Data</h2>
-          <h4 class="alignCenter wh mg-t-20">PT. Indonesia Kendaraan Terminal</h4>
-        </section>
-      </div>
+        <div class="heroTitle" style="background-image: url('{{ url('img/2.jpg') }}');">
+            <div class="overlay"></div>
+            <section class="container-fluid pd-30">
+                <h2 class="roboBold wh alignCenter" data-wow-delay="0.4s">Statistik & Data</h2>
+                <h4 class="alignCenter wh mg-t-20">PT. Indonesia Kendaraan Terminal</h4>
+            </section>
+        </div>
     </section>
     <!--/HERO-->
     <!-- -->
-<section>
-    <div class="container-fluid wow fadeInUpBig">
-        <section class="row pd-bt-30 mg-bt-20">
-            <div class="col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1">
-                <section class="row be-block-768">
-                    <div class="col-md-3">
-                        <ul class="nav nav-pills nav-stacked">
-                            <li class="active">
-                                <a id="statistic-tab-a" data-toggle="pill" href="#statistic">
-                                    <div class="be-flex">
-                                        <i class="fa fa-th mg-r-15 mg-t-5"></i> <span>Statistik</span>
+    <section>
+        <div class="container-fluid wow fadeInUpBig">
+            <section class="row pd-bt-30 mg-bt-20">
+                <div class="col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1">
+                    <section class="row be-block-768">
+                        <div class="col-md-3">
+                            <ul class="nav nav-pills nav-stacked">
+                                <li class="active">
+                                    <a id="statistic-tab-a" data-toggle="pill" href="#statistic">
+                                        <div class="be-flex">
+                                            <i class="fa fa-th mg-r-15 mg-t-5"></i> <span>Statistik</span>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="">
+                                    <a data-toggle="pill" href="#international">
+                                        <div class="be-flex">
+                                            <i class="fa fa-th mg-r-15 mg-t-5"></i> <span>Berthing International</span>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="">
+                                    <a data-toggle="pill" href="#domestic">
+                                        <div class="be-flex">
+                                            <i class="fa fa-th mg-r-15 mg-t-5"></i> <span>Berthing Domestic</span>
+                                        </div>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-md-9">
+                            <div class="tab-content">
+                                <div id="statistic" class="tab-pane fade in active">
+                                    <hr class="hrSpec hrSpecOrange">
+                                    <h4 class="card-title roboBold">International Ship Call</h4>
+                                    <div id="ship-call-international" class="row mg-b-30">
+                                        <div class="col-md-6">
+                                            <canvas id="line-chart-international-ship-call-unit" width="800" height="450"></canvas>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <canvas id="line-chart-international-ship-call-gt" width="800" height="450"></canvas>
+                                        </div>
                                     </div>
-                                </a>
-                            </li>
-                            <li class="">
-                                <a data-toggle="pill" href="#international">
-                                    <div class="be-flex">
-                                        <i class="fa fa-th mg-r-15 mg-t-5"></i> <span>Berthing International</span>
+                                    <hr class="hrSpec hrSpecOrange">
+                                    <h4 class="card-title roboBold">Throughput International</h4>
+                                    <div id="throughput-international" class="row">
+                                        <div class="col-md-12">
+                                            <canvas id="line-chart-throughput-international-car" width="800" height="450"></canvas>
+                                        </div>
+                                        <div class="col-md-12 mg-bt-20">
+                                            <canvas id="line-chart-throughput-international" width="800" height="450"></canvas>
+                                        </div>
                                     </div>
-                                </a>
-                            </li>
-                            <li class="">
-                                <a data-toggle="pill" href="#domestic">
-                                    <div class="be-flex">
-                                        <i class="fa fa-th mg-r-15 mg-t-5"></i> <span>Berthing Domestic</span>
+                                    <hr class="hrSpec hrSpecOrange">
+                                    <h4 class="card-title roboBold">Ship Call Domestic</h4>
+                                    <div id="ship-call-domestic" class="row mg-b-30">
+                                        <div class="col-md-6">
+                                            <canvas id="line-chart-domestic-ship-call-unit" width="800" height="450"></canvas>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <canvas id="line-chart-domestic-ship-call-gt" width="800" height="450"></canvas>
+                                        </div>
                                     </div>
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="col-md-9">
-                        <div class="tab-content">
-                            <div id="statistic" class="tab-pane fade in active">
-                                <hr class="hrSpec hrSpecOrange">
-                                <h4 class="card-title roboBold">International Ship Call</h4>
-                                <div id="ship-call-international" class="row mg-b-30">
-                                    <div class="col-md-6">
-                                        <canvas id="line-chart-international-ship-call-unit" width="800" height="450"></canvas>
+                                    <hr class="hrSpec hrSpecOrange">
+                                    <h4 class="card-title roboBold">Throughput Domestic</h4>
+                                    <div id="throughput-domestic" class="row">
+                                        <div class="col-md-12">
+                                            <canvas id="line-chart-throughput-domestic-car" width="800" height="450"></canvas>
+                                        </div>
+                                        <div class="col-md-12 mg-bt-20">
+                                            <canvas id="line-chart-throughput-domestic" width="800" height="450"></canvas>
+                                        </div>
                                     </div>
-                                    <div class="col-md-6">
-                                        <canvas id="line-chart-international-ship-call-gt" width="800" height="450"></canvas>
+                                    <hr class="hrSpec hrSpecOrange">
+                                    <h4 class="card-title roboBold">Market Share Cargo Import</h4>
+                                    <div id="market-share-cargo-import" class="row mg-b-20">
+                                        <div class="col-md-6 mg-b-10">
+                                            <canvas id="pie-chart-market-share-cargo-import-2014" width="800" height="600"></canvas>
+                                        </div>
+                                        <div class="col-md-6 mg-b-10">
+                                            <canvas id="pie-chart-market-share-cargo-import-2015" width="800" height="600"></canvas>
+                                        </div>
+                                        <div class="col-md-6 mg-b-10">
+                                            <canvas id="pie-chart-market-share-cargo-import-2016" width="800" height="600"></canvas>
+                                        </div>
+                                        <div class="col-md-6 mg-b-10">
+                                            <canvas id="pie-chart-market-share-cargo-import-2017" width="800" height="600"></canvas>
+                                        </div>
+                                    </div>
+                                    <hr class="hrSpec hrSpecOrange">
+                                    <h4 class="card-title roboBold">Market Share Cargo Export</h4>
+                                    <div id="market-share-cargo-export" class="row mg-b-10">
+                                        <div class="col-md-6 mg-b-10">
+                                            <canvas id="pie-chart-market-share-cargo-export-2014" width="800" height="600"></canvas>
+                                        </div>
+                                        <div class="col-md-6 mg-b-10">
+                                            <canvas id="pie-chart-market-share-cargo-export-2015" width="800" height="600"></canvas>
+                                        </div>
+                                        <div class="col-md-6 mg-b-10">
+                                            <canvas id="pie-chart-market-share-cargo-export-2016" width="800" height="600"></canvas>
+                                        </div>
+                                        <div class="col-md-6 mg-b-10">
+                                            <canvas id="pie-chart-market-share-cargo-export-2017" width="800" height="600"></canvas>
+                                        </div>
                                     </div>
                                 </div>
-                                <hr class="hrSpec hrSpecOrange">
-                                <h4 class="card-title roboBold">Throughput International</h4>
-                                <div id="throughput-international" class="row">
-                                    <div class="col-md-12">
-                                        <canvas id="line-chart-throughput-international-car" width="800" height="450"></canvas>
-                                    </div>
-                                    <div class="col-md-12 mg-bt-20">
-                                        <canvas id="line-chart-throughput-international" width="800" height="450"></canvas>
-                                    </div>
-                                </div>
-                                <hr class="hrSpec hrSpecOrange">
-                                <h4 class="card-title roboBold">Ship Call Domestic</h4>
-                                <div id="ship-call-domestic" class="row mg-b-30">
-                                    <div class="col-md-6">
-                                        <canvas id="line-chart-domestic-ship-call-unit" width="800" height="450"></canvas>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <canvas id="line-chart-domestic-ship-call-gt" width="800" height="450"></canvas>
-                                    </div>
-                                </div>
-                                <hr class="hrSpec hrSpecOrange">
-                                <h4 class="card-title roboBold">Throughput Domestic</h4>
-                                <div id="throughput-domestic" class="row">
-                                    <div class="col-md-12">
-                                        <canvas id="line-chart-throughput-domestic-car" width="800" height="450"></canvas>
-                                    </div>
-                                    <div class="col-md-12 mg-bt-20">
-                                        <canvas id="line-chart-throughput-domestic" width="800" height="450"></canvas>
-                                    </div>
-                                </div>
-                                <hr class="hrSpec hrSpecOrange">
-                                <h4 class="card-title roboBold">Market Share Cargo Import</h4>
-                                <div id="market-share-cargo-import" class="row mg-b-20">
-                                    <div class="col-md-6 mg-b-10">
-                                        <canvas id="pie-chart-market-share-cargo-import-2014" width="800" height="600"></canvas>
-                                    </div>
-                                    <div class="col-md-6 mg-b-10">
-                                        <canvas id="pie-chart-market-share-cargo-import-2015" width="800" height="600"></canvas>
-                                    </div>
-                                    <div class="col-md-6 mg-b-10">
-                                        <canvas id="pie-chart-market-share-cargo-import-2016" width="800" height="600"></canvas>
-                                    </div>
-                                    <div class="col-md-6 mg-b-10">
-                                        <canvas id="pie-chart-market-share-cargo-import-2017" width="800" height="600"></canvas>
-                                    </div>
-                                </div>
-                                <hr class="hrSpec hrSpecOrange">
-                                <h4 class="card-title roboBold">Market Share Cargo Export</h4>
-                                <div id="market-share-cargo-export" class="row mg-b-10">
-                                    <div class="col-md-6 mg-b-10">
-                                        <canvas id="pie-chart-market-share-cargo-export-2014" width="800" height="600"></canvas>
-                                    </div>
-                                    <div class="col-md-6 mg-b-10">
-                                        <canvas id="pie-chart-market-share-cargo-export-2015" width="800" height="600"></canvas>
-                                    </div>
-                                    <div class="col-md-6 mg-b-10">
-                                        <canvas id="pie-chart-market-share-cargo-export-2016" width="800" height="600"></canvas>
-                                    </div>
-                                    <div class="col-md-6 mg-b-10">
-                                        <canvas id="pie-chart-market-share-cargo-export-2017" width="800" height="600"></canvas>
-                                    </div>
-                                </div>
-                            </div>
-                            <div id="international" class="tab-pane fade">
-                                <table class="table table-hover">
-                                    <thead>
-                                    <tr>
-                                        <th>ETA</th>
-                                        <th>Vessel</th>
-                                        <th>Agent</th>
-                                        <th>VOY</th>
-                                    </tr>
-                                    </thead>
-                                    <tbody>
-                                    <tr>
+                                <div id="international" class="tab-pane fade">
+                                    <hr class="hrSpec hrSpecOrange">
+                                    <h4 class="card-title roboBold">Rencana Kedatangan Kapal Internasional</h4>
+                                    <table class="table table-hover">
+                                        <thead>
+                                        <tr>
+                                            <th>ETA</th>
+                                            <th>Vessel</th>
+                                            <th>Agent</th>
+                                            <th>VOY</th>
+                                        </tr>
+                                        </thead>
+                                        <tbody>
                                         @foreach($international as $key)
-                                            <td>{{ \Carbon\Carbon::parse($key->eta)->toFormattedDateString() }}</td>
-                                            <td>{{ $key->vessel }}</td>
-                                            <td>{{ $key->agent }}</td>
-                                            <td>{{ $key->voy }}</td>
+                                            <tr>
+                                                <td>{{ \Carbon\Carbon::parse($key->eta)->toFormattedDateString() }}</td>
+                                                <td>{{ $key->vessel }}</td>
+                                                <td>{{ $key->agent }}</td>
+                                                <td>{{ $key->voy }}</td>
+                                            </tr>
                                         @endforeach
-                                    </tr>
-                                    </tbody>
-                                </table>
-                            </div>
-                            <div id="domestic" class="tab-pane fade">
-                                <table class="table table-hover">
-                                    <thead>
-                                    <tr>
-                                        <th>ETA</th>
-                                        <th>Vessel</th>
-                                        <th>Agent</th>
-                                        <th>VOY</th>
-                                    </tr>
-                                    </thead>
-                                    <tbody>
-                                    <tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                                <div id="domestic" class="tab-pane fade">
+                                    <hr class="hrSpec hrSpecOrange">
+                                    <h4 class="card-title roboBold">Rencana Kedatangan Kapal Domestik</h4>
+                                    <table class="table table-hover">
+                                        <thead>
+                                        <tr>
+                                            <th>ETA</th>
+                                            <th>Vessel</th>
+                                            <th>Agent</th>
+                                            <th>VOY</th>
+                                        </tr>
+                                        </thead>
+                                        <tbody>
                                         @foreach($domestic as $key)
-                                            <td>{{ \Carbon\Carbon::parse($key->eta)->toFormattedDateString() }}</td>
-                                            <td>{{ $key->vessel }}</td>
-                                            <td>{{ $key->agent }}</td>
-                                            <td>{{ $key->voy }}</td>
+                                            <tr>
+                                                <td>{{ \Carbon\Carbon::parse($key->eta)->toFormattedDateString() }}</td>
+                                                <td>{{ $key->vessel }}</td>
+                                                <td>{{ $key->agent }}</td>
+                                                <td>{{ $key->voy }}</td>
+                                            </tr>
                                         @endforeach
-                                    </tr>
-                                    </tbody>
-                                </table>
+                                        </tbody>
+                                    </table>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                </section>
-            </div>
-        </section>
-    </div>
-</section>
+                    </section>
+                </div>
+            </section>
+        </div>
+    </section>
     <!---->
 @endsection
 
@@ -239,20 +243,20 @@
                         fill: false,
                         lineTension: 0
                     },
-                    {
-                      data: [5226,3023,7907,10795,11071,8375,7243,5360,5481],
-                      label: "Alat Berat (Unit)",
-                      borderColor: "#a5a5a5",
-                      fill: false,
-                      lineTension: 0
-                    },
-                    {
-                      data: [2664,1159,4207,5304,6602,2978,2763,3693,4721],
-                      label: "Truck & Bus (Unit)",
-                      borderColor: "#ed7d31",
-                      fill: false,
-                      lineTension: 0
-                    }]
+                        {
+                            data: [5226,3023,7907,10795,11071,8375,7243,5360,5481],
+                            label: "Alat Berat (Unit)",
+                            borderColor: "#a5a5a5",
+                            fill: false,
+                            lineTension: 0
+                        },
+                        {
+                            data: [2664,1159,4207,5304,6602,2978,2763,3693,4721],
+                            label: "Truck & Bus (Unit)",
+                            borderColor: "#ed7d31",
+                            fill: false,
+                            lineTension: 0
+                        }]
                 },
                 options: {
                 }
@@ -317,20 +321,20 @@
                         fill: false,
                         lineTension: 0
                     },
-                    {
-                      data: [5942,9373,26437],
-                      label: 2015,
-                      borderColor: "#ed7d31",
-                      fill: false,
-                      lineTension: 0
-                    },
-                    {
-                      data: [6709,8645,23927],
-                      label: 2016,
-                      borderColor: "#c7c7c7",
-                      fill: false,
-                      lineTension: 0
-                    }]
+                        {
+                            data: [5942,9373,26437],
+                            label: 2015,
+                            borderColor: "#ed7d31",
+                            fill: false,
+                            lineTension: 0
+                        },
+                        {
+                            data: [6709,8645,23927],
+                            label: 2016,
+                            borderColor: "#c7c7c7",
+                            fill: false,
+                            lineTension: 0
+                        }]
                 },
                 options: {
                 }
@@ -347,30 +351,30 @@
                     }]
                 },
                 options: {
-                  title: {
-                     display: true,
-                     text: 'Import 2014'
-                  },
-                  legend: {
-                      display: true,
-                      position: 'left'
-                  },
-                  tooltips: {
-                      callbacks: {
-                          label: function(tooltipItem, data) {
-                              var allData = data.datasets[tooltipItem.datasetIndex].data;
-                              var tooltipLabel = data.labels[tooltipItem.index];
-                              var tooltipData = allData[tooltipItem.index];
-                              var total = 0;
-                              for (var i in allData) {
-                                  total += allData[i];
-                              }
-                              var tooltipPercentage = Math.round((tooltipData / total) * 100);
-                              return tooltipLabel + ': ' + tooltipPercentage + '%';
-                          }
-                      }
-                  }
-              }
+                    title: {
+                        display: true,
+                        text: 'Import 2014'
+                    },
+                    legend: {
+                        display: true,
+                        position: 'left'
+                    },
+                    tooltips: {
+                        callbacks: {
+                            label: function(tooltipItem, data) {
+                                var allData = data.datasets[tooltipItem.datasetIndex].data;
+                                var tooltipLabel = data.labels[tooltipItem.index];
+                                var tooltipData = allData[tooltipItem.index];
+                                var total = 0;
+                                for (var i in allData) {
+                                    total += allData[i];
+                                }
+                                var tooltipPercentage = Math.round((tooltipData / total) * 100);
+                                return tooltipLabel + ': ' + tooltipPercentage + '%';
+                            }
+                        }
+                    }
+                }
             });
 
             var market_share_cargo_import_2015 = new Chart(document.getElementById("pie-chart-market-share-cargo-import-2015"), {
@@ -383,30 +387,30 @@
                     }]
                 },
                 options: {
-                  title: {
-                     display: true,
-                     text: 'Import 2015'
-                  },
-                  legend: {
-                      display: true,
-                      position: 'left'
-                  },
-                  tooltips: {
-                      callbacks: {
-                          label: function(tooltipItem, data) {
-                              var allData = data.datasets[tooltipItem.datasetIndex].data;
-                              var tooltipLabel = data.labels[tooltipItem.index];
-                              var tooltipData = allData[tooltipItem.index];
-                              var total = 0;
-                              for (var i in allData) {
-                                  total += allData[i];
-                              }
-                              var tooltipPercentage = Math.round((tooltipData / total) * 100);
-                              return tooltipLabel + ': ' + tooltipPercentage + '%';
-                          }
-                      }
-                  }
-              }
+                    title: {
+                        display: true,
+                        text: 'Import 2015'
+                    },
+                    legend: {
+                        display: true,
+                        position: 'left'
+                    },
+                    tooltips: {
+                        callbacks: {
+                            label: function(tooltipItem, data) {
+                                var allData = data.datasets[tooltipItem.datasetIndex].data;
+                                var tooltipLabel = data.labels[tooltipItem.index];
+                                var tooltipData = allData[tooltipItem.index];
+                                var total = 0;
+                                for (var i in allData) {
+                                    total += allData[i];
+                                }
+                                var tooltipPercentage = Math.round((tooltipData / total) * 100);
+                                return tooltipLabel + ': ' + tooltipPercentage + '%';
+                            }
+                        }
+                    }
+                }
             });
 
             var market_share_cargo_import_2016 = new Chart(document.getElementById("pie-chart-market-share-cargo-import-2016"), {
@@ -419,30 +423,30 @@
                     }]
                 },
                 options: {
-                  title: {
-                     display: true,
-                     text: 'Import 2016'
-                  },
-                  legend: {
-                      display: true,
-                      position: 'left'
-                  },
-                  tooltips: {
-                      callbacks: {
-                          label: function(tooltipItem, data) {
-                              var allData = data.datasets[tooltipItem.datasetIndex].data;
-                              var tooltipLabel = data.labels[tooltipItem.index];
-                              var tooltipData = allData[tooltipItem.index];
-                              var total = 0;
-                              for (var i in allData) {
-                                  total += allData[i];
-                              }
-                              var tooltipPercentage = Math.round((tooltipData / total) * 100);
-                              return tooltipLabel + ': ' + tooltipPercentage + '%';
-                          }
-                      }
-                  }
-              }
+                    title: {
+                        display: true,
+                        text: 'Import 2016'
+                    },
+                    legend: {
+                        display: true,
+                        position: 'left'
+                    },
+                    tooltips: {
+                        callbacks: {
+                            label: function(tooltipItem, data) {
+                                var allData = data.datasets[tooltipItem.datasetIndex].data;
+                                var tooltipLabel = data.labels[tooltipItem.index];
+                                var tooltipData = allData[tooltipItem.index];
+                                var total = 0;
+                                for (var i in allData) {
+                                    total += allData[i];
+                                }
+                                var tooltipPercentage = Math.round((tooltipData / total) * 100);
+                                return tooltipLabel + ': ' + tooltipPercentage + '%';
+                            }
+                        }
+                    }
+                }
             });
 
             var market_share_cargo_import_2017 = new Chart(document.getElementById("pie-chart-market-share-cargo-import-2017"), {
@@ -455,30 +459,30 @@
                     }]
                 },
                 options: {
-                  title: {
-                     display: true,
-                     text: 'Import sampai dengan Mei 2017'
-                  },
-                  legend: {
-                      display: true,
-                      position: 'left'
-                  },
-                  tooltips: {
-                      callbacks: {
-                          label: function(tooltipItem, data) {
-                              var allData = data.datasets[tooltipItem.datasetIndex].data;
-                              var tooltipLabel = data.labels[tooltipItem.index];
-                              var tooltipData = allData[tooltipItem.index];
-                              var total = 0;
-                              for (var i in allData) {
-                                  total += allData[i];
-                              }
-                              var tooltipPercentage = Math.round((tooltipData / total) * 100);
-                              return tooltipLabel + ': ' + tooltipPercentage + '%';
-                          }
-                      }
-                  }
-              }
+                    title: {
+                        display: true,
+                        text: 'Import sampai dengan Mei 2017'
+                    },
+                    legend: {
+                        display: true,
+                        position: 'left'
+                    },
+                    tooltips: {
+                        callbacks: {
+                            label: function(tooltipItem, data) {
+                                var allData = data.datasets[tooltipItem.datasetIndex].data;
+                                var tooltipLabel = data.labels[tooltipItem.index];
+                                var tooltipData = allData[tooltipItem.index];
+                                var total = 0;
+                                for (var i in allData) {
+                                    total += allData[i];
+                                }
+                                var tooltipPercentage = Math.round((tooltipData / total) * 100);
+                                return tooltipLabel + ': ' + tooltipPercentage + '%';
+                            }
+                        }
+                    }
+                }
             });
 
             var market_share_cargo_export_2014 = new Chart(document.getElementById("pie-chart-market-share-cargo-export-2014"), {
@@ -491,30 +495,30 @@
                     }]
                 },
                 options: {
-                  title: {
-                     display: true,
-                     text: 'Export 2014'
-                  },
-                  legend: {
-                      display: true,
-                      position: 'left'
-                  },
-                  tooltips: {
-                      callbacks: {
-                          label: function(tooltipItem, data) {
-                              var allData = data.datasets[tooltipItem.datasetIndex].data;
-                              var tooltipLabel = data.labels[tooltipItem.index];
-                              var tooltipData = allData[tooltipItem.index];
-                              var total = 0;
-                              for (var i in allData) {
-                                  total += allData[i];
-                              }
-                              var tooltipPercentage = Math.round((tooltipData / total) * 100);
-                              return tooltipLabel + ': ' + tooltipPercentage + '%';
-                          }
-                      }
-                  }
-              }
+                    title: {
+                        display: true,
+                        text: 'Export 2014'
+                    },
+                    legend: {
+                        display: true,
+                        position: 'left'
+                    },
+                    tooltips: {
+                        callbacks: {
+                            label: function(tooltipItem, data) {
+                                var allData = data.datasets[tooltipItem.datasetIndex].data;
+                                var tooltipLabel = data.labels[tooltipItem.index];
+                                var tooltipData = allData[tooltipItem.index];
+                                var total = 0;
+                                for (var i in allData) {
+                                    total += allData[i];
+                                }
+                                var tooltipPercentage = Math.round((tooltipData / total) * 100);
+                                return tooltipLabel + ': ' + tooltipPercentage + '%';
+                            }
+                        }
+                    }
+                }
             });
 
             var market_share_cargo_export_2015 = new Chart(document.getElementById("pie-chart-market-share-cargo-export-2015"), {
@@ -527,30 +531,30 @@
                     }]
                 },
                 options: {
-                  title: {
-                     display: true,
-                     text: 'Export 2015'
-                  },
-                  legend: {
-                      display: true,
-                      position: 'left'
-                  },
-                  tooltips: {
-                      callbacks: {
-                          label: function(tooltipItem, data) {
-                              var allData = data.datasets[tooltipItem.datasetIndex].data;
-                              var tooltipLabel = data.labels[tooltipItem.index];
-                              var tooltipData = allData[tooltipItem.index];
-                              var total = 0;
-                              for (var i in allData) {
-                                  total += allData[i];
-                              }
-                              var tooltipPercentage = Math.round((tooltipData / total) * 100);
-                              return tooltipLabel + ': ' + tooltipPercentage + '%';
-                          }
-                      }
-                  }
-              }
+                    title: {
+                        display: true,
+                        text: 'Export 2015'
+                    },
+                    legend: {
+                        display: true,
+                        position: 'left'
+                    },
+                    tooltips: {
+                        callbacks: {
+                            label: function(tooltipItem, data) {
+                                var allData = data.datasets[tooltipItem.datasetIndex].data;
+                                var tooltipLabel = data.labels[tooltipItem.index];
+                                var tooltipData = allData[tooltipItem.index];
+                                var total = 0;
+                                for (var i in allData) {
+                                    total += allData[i];
+                                }
+                                var tooltipPercentage = Math.round((tooltipData / total) * 100);
+                                return tooltipLabel + ': ' + tooltipPercentage + '%';
+                            }
+                        }
+                    }
+                }
             });
 
             var market_share_cargo_export_2016 = new Chart(document.getElementById("pie-chart-market-share-cargo-export-2016"), {
@@ -563,30 +567,30 @@
                     }]
                 },
                 options: {
-                  title: {
-                     display: true,
-                     text: 'Export 2016'
-                  },
-                  legend: {
-                      display: true,
-                      position: 'left'
-                  },
-                  tooltips: {
-                      callbacks: {
-                          label: function(tooltipItem, data) {
-                              var allData = data.datasets[tooltipItem.datasetIndex].data;
-                              var tooltipLabel = data.labels[tooltipItem.index];
-                              var tooltipData = allData[tooltipItem.index];
-                              var total = 0;
-                              for (var i in allData) {
-                                  total += allData[i];
-                              }
-                              var tooltipPercentage = Math.round((tooltipData / total) * 100);
-                              return tooltipLabel + ': ' + tooltipPercentage + '%';
-                          }
-                      }
-                  }
-              }
+                    title: {
+                        display: true,
+                        text: 'Export 2016'
+                    },
+                    legend: {
+                        display: true,
+                        position: 'left'
+                    },
+                    tooltips: {
+                        callbacks: {
+                            label: function(tooltipItem, data) {
+                                var allData = data.datasets[tooltipItem.datasetIndex].data;
+                                var tooltipLabel = data.labels[tooltipItem.index];
+                                var tooltipData = allData[tooltipItem.index];
+                                var total = 0;
+                                for (var i in allData) {
+                                    total += allData[i];
+                                }
+                                var tooltipPercentage = Math.round((tooltipData / total) * 100);
+                                return tooltipLabel + ': ' + tooltipPercentage + '%';
+                            }
+                        }
+                    }
+                }
             });
 
             var market_share_cargo_export_2017 = new Chart(document.getElementById("pie-chart-market-share-cargo-export-2017"), {
@@ -599,30 +603,30 @@
                     }]
                 },
                 options: {
-                  title: {
-                     display: true,
-                     text: 'Export sampai dengan Mei 2017'
-                  },
-                  legend: {
-                      display: true,
-                      position: 'left'
-                  },
-                  tooltips: {
-                      callbacks: {
-                          label: function(tooltipItem, data) {
-                              var allData = data.datasets[tooltipItem.datasetIndex].data;
-                              var tooltipLabel = data.labels[tooltipItem.index];
-                              var tooltipData = allData[tooltipItem.index];
-                              var total = 0;
-                              for (var i in allData) {
-                                  total += allData[i];
-                              }
-                              var tooltipPercentage = Math.round((tooltipData / total) * 100);
-                              return tooltipLabel + ': ' + tooltipPercentage + '%';
-                          }
-                      }
-                  }
-              }
+                    title: {
+                        display: true,
+                        text: 'Export sampai dengan Mei 2017'
+                    },
+                    legend: {
+                        display: true,
+                        position: 'left'
+                    },
+                    tooltips: {
+                        callbacks: {
+                            label: function(tooltipItem, data) {
+                                var allData = data.datasets[tooltipItem.datasetIndex].data;
+                                var tooltipLabel = data.labels[tooltipItem.index];
+                                var tooltipData = allData[tooltipItem.index];
+                                var total = 0;
+                                for (var i in allData) {
+                                    total += allData[i];
+                                }
+                                var tooltipPercentage = Math.round((tooltipData / total) * 100);
+                                return tooltipLabel + ': ' + tooltipPercentage + '%';
+                            }
+                        }
+                    }
+                }
             });
 
         }
