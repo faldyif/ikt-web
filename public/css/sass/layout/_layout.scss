@@ -181,11 +181,11 @@
 	padding-top: 75px;
 }
 #contact {
-	height: 45vh;
+	min-height: 45vh;
 	overflow: hidden;
 }
 .contactInfo {
-	padding: 30px 70px;
+	padding: 30px 30px;
 
 	i {
 		min-width: 16px;

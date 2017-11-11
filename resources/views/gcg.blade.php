@@ -102,7 +102,7 @@
                       <li class="">
                           <a data-toggle="pill" href="#menu10">
                               <div class="be-flex">
-                                  <i class="fa fa-th mg-r-15 mg-t-5"></i> <span>Interenal Auditor</span>
+                                  <i class="fa fa-th mg-r-15 mg-t-5"></i> <span>Internal Auditor</span>
                               </div>
                           </a>
                       </li>
