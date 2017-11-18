@@ -16,33 +16,83 @@
     <!--/HERO-->
     <!-- -->
     <section>
-        <div class="container-fluid wow fadeInUpBig">
-          <section class="row pd-bt-30 mg-bt-20">
-            <div class="col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2">
-            
-              <hr class="hrSpec hrSpecOrange">
-                <h3 class="mg-b-30 roboBold">Peralatan</h3>
-                <div class="col-md-12">
-                  <div class="tab-content">
-                    <div id="home" class="tab-pane fade in active">
-                      <!-- <h3 class="roboBlack">Lorem ipsum dolor sit amet</h3> -->
-                      <ul>
-                      <li>4 Unit Head Truck</li>
-                      <li>2 Unit Car Carrier Trailer untuk Pengangkutan CBU</li>
-                      <li>4 Roll Units untuk Pengangkutan Cargo Statistik</li>
-                      <li>2 Unit Chassis</li>
-                      <li>3 Unit Forklift</li>
-                      <li>2 Unit Tug Master</li>
-                      </ul>
-                    </div>
-                    
-                    
+      <div class="container-fluid wow fadeInUpBig">
+        <section class="row pd-bt-30 mg-bt-20">
+          <div class="col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1">
+            <section class="row be-block-768">
+              <div class="col-md-3">
+                  <ul class="nav nav-pills nav-stacked">
+                      <li class="active">
+                          <a data-toggle="pill" href="#home">
+                              <div class="be-flex">
+                                  <i class="fa fa-th mg-r-15 mg-t-5"></i> <span>Head Truck</span>
+                              </div>
+                          </a>
+                      </li>
+                  <li class="">
+                    <a data-toggle="pill" href="#menu0">
+                      <div class="be-flex">
+                        <i class="fa fa-th mg-r-15 mg-t-5"></i> <span>Car Carrier Trailer</span>
+                      </div>
+                    </a>
+                  </li>
+                  <li class="">
+                    <a data-toggle="pill" href="#menu1">
+                      <div class="be-flex">
+                        <i class="fa fa-th mg-r-15 mg-t-5"></i> <span>Roll Pengangkutan Cargo Statistik</span>
+                      </div>
+                    </a>
+                  </li>
+                  <li class="">
+                    <a data-toggle="pill" href="#menu2">
+                      <div class="be-flex">
+                      <i class="fa fa-th mg-r-15 mg-t-5"></i> <span>Chassis</span>
+                      </div>
+                    </a>
+                  </li>
+                    <li class="">
+                        <a data-toggle="pill" href="#menu3">
+                            <div class="be-flex">
+                                <i class="fa fa-th mg-r-15 mg-t-5"></i> <span>Forklift</span>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="">
+                        <a data-toggle="pill" href="#menu4">
+                            <div class="be-flex">
+                                <i class="fa fa-th mg-r-15 mg-t-5"></i> <span>Tug Master</span>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+              </div>
+              <div class="col-md-9">
+                <div class="tab-content">
+                  <div id="home" class="tab-pane fade in active">
+                      <p>Deskripsi Konten: 4</p>
+                  </div>
+                  <div id="menu0" class="tab-pane fade">
+                      <p>Deskripsi Konten: 2</p>
+                  </div>
+                  <div id="menu1" class="tab-pane fade">
+                      <p>Deskripsi Konten: 4</p>
+                  </div>
+                  <div id="menu2" class="tab-pane fade">
+
+                      <p>Deskripsi Konten: 2</p>
+                  </div>
+                  <div id="menu3" class="tab-pane fade">
+                      <p>Deskripsi Konten: 3</p>
+                  </div>
+                  <div id="menu4" class="tab-pane fade">
+                      <p>Deskripsi Konten: 2</p>
                   </div>
                 </div>
-              </section>
-            </div>
-          </section>
-        </div>
+              </div>
+            </section>
+          </div>
+        </section>
+      </div>
     </section>
     <!---->
     
