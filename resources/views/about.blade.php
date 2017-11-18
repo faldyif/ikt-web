@@ -58,7 +58,7 @@
         <div class="col-md-4 col-sm-4 pd-0">
           <figure class="noMag">
             <img src="{{ url('img/bg-img.png') }}" style="background-image: url('{{ url('img/4.jpg') }}')">
-            <a href="{{ url('img/4.jpg') }}" data-rel="lightcase:aboutCollection" title="Vix eu etiam mediocrem">
+            <a href="{{ url('img/4.jpg') }}" data-rel="lightcase:aboutCollection">
               <div class="overlay"></div>
               <figcaption><i class="fa fa-plus fa-2x"></i></figcaption>
             </a>
@@ -67,7 +67,7 @@
         <div class="col-md-4 col-sm-4 pd-0">
           <figure class="noMag">
             <img src="{{ url('img/bg-img.png') }}" style="background-image: url('{{ url('img/2.jpg') }}')">
-            <a href="{{ url('img/2.JPG') }}" data-rel="lightcase:aboutCollection" title="Vix eu etiam mediocrem">
+            <a href="{{ url('img/2.jpg') }}" data-rel="lightcase:aboutCollection">
               <div class="overlay"></div>
               <figcaption><i class="fa fa-plus fa-2x"></i></figcaption>
             </a>
@@ -76,7 +76,7 @@
         <div class="col-md-4 col-sm-4 pd-0">
           <figure class="noMag">
             <img src="{{ url('img/bg-img.png') }}" style="background-image: url('{{ url('img/3.jpg') }}')">
-            <a href="{{ url('img/3.jpg') }}" data-rel="lightcase:aboutCollection" title="Vix eu etiam mediocrem">
+            <a href="{{ url('img/3.jpg') }}" data-rel="lightcase:aboutCollection">
               <div class="overlay"></div>
               <figcaption><i class="fa fa-plus fa-2x"></i></figcaption>
             </a>
