@@ -29,7 +29,7 @@
                     <div class="col-md-4 col-sm-4">
                         <section class="newsList">
                             <figure>
-                                <img src="{{ url('storage') . '/' . $key->filename }}" style="background-image: url('{{ url('storage') . '/' . $key->filename }}');">
+                                <img src="{{ url('img/bg-img.png') }}" style="background-image: url('{{ url('storage') . '/' . $key->filename }}');">
                                 <div class="overlay"></div>
                                 <a href="{{ route('news.detail', $key->slug) }}">
                                     <figcaption>Selengkapnya</figcaption>
@@ -58,7 +58,7 @@
                         <section class="row newsListSec">
                             <div class="col-md-6 col-sm-6">
                                 <figure>
-                                    <img src="{{ url('storage') . '/' . $key->filename }}" style="background-image: url('{{ url('storage') . '/' . $key->filename }}');">
+                                    <img src="{{ url('img/bg-img.png') }}" style="background-image: url('{{ url('storage') . '/' . $key->filename }}');">
                                 </figure>
                             </div>
                             <div class="col-md-6 col-sm-6 textForNewsList">
@@ -88,7 +88,7 @@
                                     <section class="row mg-bt-20">
                                         <div class="col-md-4 col-sm-2 col-xs-6">
                                             <figure>
-                                                <img src="{{ url('storage') . '/' . $key->filename }}" style="background-image: url('{{ url('storage') . '/' . $key->filename }}');">
+                                                <img src="{{ url('img/bg-img.png') }}" style="background-image: url('{{ url('storage') . '/' . $key->filename }}');">
                                             </figure>
                                         </div>
                                         <div class="col-md-8 col-sm-10 noPad">

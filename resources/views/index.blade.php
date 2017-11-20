@@ -217,7 +217,7 @@
           <div>
             <section class="newsList">
               <figure>
-                <img class="imgWidth" src="{{ url('storage') . '/' . $key->filename }}" style="background-image: url('{{ url('storage') . '/' . $key->filename }}'); background-size: contain; background-repeat: no-repeat; background-position: center center;">
+                <img class="imgWidth" src="{{ url('img/bg-img.png') }}" style="background-image: url('{{ url('storage') . '/' . $key->filename }}'); background-size: contain; background-repeat: no-repeat; background-position: center center;">
                 <div class="overlay"></div>
                 <a href="{{ route('news.detail', $key->slug) }}">
                   <figcaption>Selengkapnya</figcaption>
@@ -283,7 +283,7 @@
             <section>
               <div class="card">
                 <figure>
-                  <img class="card-img-top" src="{{ url('img/tmp/terminal_domestik.jpg') }}" style="background-image: url(' {{ url('img/tmp/terminal_domestik.jpg') }} ')" alt="Card image cap">
+                  <img class="card-img-top" src="{{ url('img/bg-img.png') }}" style="background-image: url(' {{ url('img/tmp/terminal_domestik.jpg') }} ')" alt="Card image cap">
                   <a href="...">
                     <div class="overlay"></div>
                     <figcaption><i class="fa fa-search-plus fa-2x"></i></figcaption>
@@ -300,7 +300,7 @@
             <section>
               <div class="card">
                 <figure>
-                  <img class="card-img-top" src="{{ url('img/tmp/terminal_internasional.jpg') }}" style="background-image: url(' {{ url('img/tmp/terminal_internasional.jpg') }} ')" alt="Card image cap">
+                  <img class="card-img-top" src="{{ url('img/bg-img.png') }}" style="background-image: url(' {{ url('img/tmp/terminal_internasional.jpg') }} ')" alt="Card image cap">
                   <a href="...">
                     <div class="overlay"></div>
                     <figcaption><i class="fa fa-search-plus fa-2x"></i></figcaption>
@@ -317,7 +317,7 @@
             <section>
               <div class="card">
                 <figure>
-                  <img class="card-img-top" src="{{ url('img/tmp/cartos.jpg') }}" style="background-image: url(' {{ url('img/tmp/cartos.jpg') }} ')" alt="Card image cap">
+                  <img class="card-img-top" src="{{ url('img/bg-img.png') }}" style="background-image: url(' {{ url('img/tmp/cartos.jpg') }} ')" alt="Card image cap">
                   <a href="...">
                     <div class="overlay"></div>
                     <figcaption><i class="fa fa-search-plus fa-2x"></i></figcaption>
@@ -334,7 +334,7 @@
             <section>
               <div class="card">
                 <figure>
-                  <img class="card-img-top" src="{{ url('img/tmp/kerjasama.jpg') }}" style="background-image: url(' {{ url('img/tmp/kerjasama.jpg') }} ')" alt="Card image cap">
+                  <img class="card-img-top" src="{{ url('img/bg-img.png') }}" style="background-image: url(' {{ url('img/tmp/kerjasama.jpg') }} ')" alt="Card image cap">
                   <a href="...">
                     <div class="overlay"></div>
                     <figcaption><i class="fa fa-search-plus fa-2x"></i></figcaption>
@@ -373,7 +373,7 @@
                 <div class="row mg-t-20">
                   <div class="col-md-3 col-sm-3 col-xs-3">
                     <figure class="roundImage">
-                      <img src="{{ url($key->filename) }}" style="background-image: url('{{ url($key->filename) }}');">
+                      <img src="{{ url('img/bg-square.png') }}" style="background-image: url('{{ url($key->filename) }}');">
                     </figure>
                   </div>
                   <div class="col-md-9 col-sm-9">
