@@ -65,6 +65,7 @@ Route::group(array('namespace'=>'Admin', 'prefix'=>'admin', 'middleware'=>'auth'
         Route::post('album/{id}', 'PhotoController@store')->name('photo.store');
         Route::delete('album/{id}/destroy/{idAlbum}', 'PhotoController@destroy')->name('photo.destroy');
         Route::resource('press-release', 'PressReleaseController');
+        Route::resource('testimonial', 'TestimonialController');
         Route::resource('album-comment', 'AlbumCommentController', ['only' => ['index', 'destroy']]);
         Route::resource('news-comment', 'NewsCommentController', ['only' => ['index', 'destroy']]);
     });
@@ -218,7 +219,7 @@ Route::get(trans('routes.annual'), function () {
 
 // Statistic Data
 Route::get(trans('routes.statistic'), function () {
-    $berthing = App\BerthingPlan::latest()->get();
+    $berthing = App\BerthingPlan::orderBy('eta', 'desc')->where('eta', '>=', date("Y-m-d"))->get();
     $international = array();
     $domestic = array();
 

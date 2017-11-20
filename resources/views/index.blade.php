@@ -217,7 +217,7 @@
           <div>
             <section class="newsList">
               <figure>
-                <img src="{{ url('storage') . '/' . $key->filename }}" style="background-image: url('{{ url('storage') . '/' . $key->filename }}');">
+                <img class="imgWidth" src="{{ url('storage') . '/' . $key->filename }}" style="background-image: url('{{ url('storage') . '/' . $key->filename }}'); background-size: contain; background-repeat: no-repeat; background-position: center center;">
                 <div class="overlay"></div>
                 <a href="{{ route('news.detail', $key->slug) }}">
                   <figcaption>Selengkapnya</figcaption>
@@ -361,132 +361,30 @@
           <h3 class="mg-b-30 roboBold">Testimonial</h3>
         </section>
         <div class="multiple-items-3 pd-lr-30">
+
+          @foreach($testimonials as $key)
           <div>
             <section class="row pd-lr-20">
               <div class="floatLeft">
                 <i class="fa fa-quote-left fa-lg hidden-400"></i>
               </div>
               <div class="floatLeft mg-lr-20 rightWidth">
-                <p>Saya sangat merasakan layanan Indonesia Kendaraan Terminal (IKT) lebih baik dari waktu yang lalu.</p>
+                <p>{{ $key->testimonial }}</p>
                 <div class="row mg-t-20">
                   <div class="col-md-3 col-sm-3 col-xs-3">
                     <figure class="roundImage">
-                      <img src="{{ url('img/bg-square.png') }}" style="background-image: url('{{ url('img/test_1.png') }}');">
+                      <img src="{{ url($key->filename) }}" style="background-image: url('{{ url($key->filename) }}');">
                     </figure>
                   </div>
                   <div class="col-md-9 col-sm-9">
-                    <p class="roboBold mg-0 mg-t-5">Fahrizal</p>
-                    <span class="lg-gray">ECL</span>
+                    <p class="roboBold mg-0 mg-t-5">{{ $key->nama }}</p>
+                    <span class="lg-gray">{{ $key->instansi }}</span>
                   </div>
                 </div>
               </div>
             </section>
           </div>
-          <div>
-            <section class="row pd-lr-20">
-              <div class="floatLeft">
-                <i class="fa fa-quote-left fa-lg hidden-400"></i>
-              </div>
-              <div class="floatLeft mg-lr-20 rightWidth">
-                <p>Pelayanannya baik, komunikasinya bagus dan sudah sesuai dengan keinginan customer. Selalu ada perubahan dan perbaikan yang lebih bagus.</p>
-                <div class="row mg-t-20">
-                  <div class="col-md-3 col-sm-3 col-xs-3">
-                    <figure class="roundImage">
-                      <img src="{{ url('img/bg-square.png') }}" style="background-image: url('{{ url('img/test_2.png') }}');">
-                    </figure>
-                  </div>
-                  <div class="col-md-9 col-sm-9">
-                    <p class="roboBold mg-0 mg-t-5">Ferawati</p>
-                    <span class="lg-gray">PT. Samudera Raya Semesta</span>
-                  </div>
-                </div>
-              </div>
-            </section>
-          </div>
-          <div>
-            <section class="row pd-lr-20">
-              <div class="floatLeft">
-                <i class="fa fa-quote-left fa-lg hidden-400"></i>
-              </div>
-              <div class="floatLeft mg-lr-20 rightWidth">
-                <p>Cukup baik dalam mengakomodasi keinginan dan kebutuhan pelanggan. Namun akan lebih baik jika "less Bureaucratic" terutama untuk pengadaan/ perbaikan sarana yang terkait dengan security & Safety Operation.</p>
-                <div class="row mg-t-20">
-                  <div class="col-md-3 col-sm-3 col-xs-3">
-                    <figure class="roundImage">
-                      <img src="{{ url('img/bg-square.png') }}" style="background-image: url('{{ url('img/test_3.png') }}');">
-                    </figure>
-                  </div>
-                  <div class="col-md-9 col-sm-9">
-                    <p class="roboBold mg-0 mg-t-5">Handayani A.</p>
-                    <span class="lg-gray">TMMIN</span>
-                  </div>
-                </div>
-              </div>
-            </section>
-          </div>
-          <div>
-            <section class="row pd-lr-20">
-              <div class="floatLeft">
-                <i class="fa fa-quote-left fa-lg hidden-400"></i>
-              </div>
-              <div class="floatLeft mg-lr-20 rightWidth">
-                <p>Saya sangat merasakan layanan Indonesia Kendaraan Terminal (IKT) lebih baik dari waktu yang lalu.</p>
-                <div class="row mg-t-20">
-                  <div class="col-md-3 col-sm-3 col-xs-3">
-                    <figure class="roundImage">
-                      <img src="{{ url('img/bg-square.png') }}" style="background-image: url('{{ url('img/test_1.png') }}');">
-                    </figure>
-                  </div>
-                  <div class="col-md-9 col-sm-9">
-                    <p class="roboBold mg-0 mg-t-5">Fahrizal</p>
-                    <span class="lg-gray">ECL</span>
-                  </div>
-                </div>
-              </div>
-            </section>
-          </div>
-          <div>
-            <section class="row pd-lr-20">
-              <div class="floatLeft">
-                <i class="fa fa-quote-left fa-lg hidden-400"></i>
-              </div>
-              <div class="floatLeft mg-lr-20 rightWidth">
-                <p>Pelayanannya baik, komunikasinya bagus dan sudah sesuai dengan keinginan customer. Selalu ada perubahan dan perbaikan yang lebih bagus.</p>
-                <div class="row mg-t-20">
-                  <div class="col-md-3 col-sm-3 col-xs-3">
-                    <figure class="roundImage">
-                      <img src="{{ url('img/bg-square.png') }}" style="background-image: url('{{ url('img/test_2.png') }}');">
-                    </figure>
-                  </div>
-                  <div class="col-md-9 col-sm-9">
-                    <p class="roboBold mg-0 mg-t-5">Ferawati</p>
-                    <span class="lg-gray">PT. Samudera Raya Semesta</span>
-                  </div>
-                </div>
-              </div>
-            </section>
-          </div>
-          <div>
-            <section class="row pd-lr-20">
-              <div class="floatLeft">
-                <i class="fa fa-quote-left fa-lg hidden-400"></i>
-              </div>
-              <div class="floatLeft mg-lr-20 rightWidth">
-                <p>Cukup baik dalam mengakomodasi keinginan dan kebutuhan pelanggan. Namun akan lebih baik jika "less Bureaucratic" terutama untuk pengadaan/ perbaikan sarana yang terkait dengan security & Safety Operation.</p>
-                <div class="row mg-t-20">
-                  <div class="col-md-3 col-sm-3 col-xs-3">
-                    <figure class="roundImage">
-                      <img src="{{ url('img/bg-square.png') }}" style="background-image: url('{{ url('img/test_3.png') }}');">
-                    </figure>
-                  </div>
-                  <div class="col-md-9 col-sm-9">
-                    <p class="roboBold mg-0 mg-t-5">Handayani A.</p>
-                    <span class="lg-gray">TMMIN</span>
-                  </div>
-                </div>
-              </div>
-            </section>
-          </div>
+          @endforeach
 
         </div>
       </div>
@@ -495,66 +393,38 @@
       <!--CONTACT-->
       <section id="contact" class="wow fadeInLeft">
         <section class="row noMag">
-        <div class="pd-lr-0 col-md-6 col-sm-12">
-        <section class="contactInfo">
-          <div class="col-sm-12">
-            <h4 class="roboBold">Kontak Kami</h4>
-          </div>
-          <div class="col-md-8 col-sm-12"> 
-            <section class="row mg-lr-15 mg-t-30">
-              <i class="fa fa-map-marker fa-2x or floatLeft mg-r-20"></i>
-              <p class="small">JL Sindang Laut No. 101, Cilincing Jakarta Utara, 14110</p>
-            </section>
-            <section class="row mg-lr-15 mg-t-10">
-              <i class="fa fa-envelope-o fa-lg or floatLeft mg-r-20"></i>
-              <p class="small">info@indonesiacarterminal.co.id</p>
-            </section>
-            <section class="row mg-lr-15 mg-t-10">
-              <i class="fa fa-phone fa-lg or floatLeft mg-r-20"></i>
-              <p class="small">Customer Care : +62 811 933 9930</p>
-            </section>
-            <section class="row mg-lr-15 mg-t-10">
-              <i class="fa fa-phone fa-lg or floatLeft mg-r-20"></i>
-              <p class="small">+62 21 4393 2251</p>
-            </section>
-          </div>
-          <div class="col-md-4 col-sm-12">
+          <div class="col-md-4">
+            <section class="contactInfo">
+              <h4 class="roboBold">Kontak Kami</h4>
               <section class="row mg-lr-15 mg-t-30">
-                <i class="fa fa-fax fa-lg or floatLeft mg-r-20"></i>
-                <p class="small">+62 21 4393 2250</p>
+                <i class="fa fa-map-marker fa-2x or floatLeft mg-r-20"></i>
+                <p class="small">JL Sindang Laut, Cilincing Jakarta Utara, 14110</p>
               </section>
               <section class="row mg-lr-15 mg-t-10">
-                <i class="fa fa-facebook-square fa-lg floatLeft mg-r-20" style="color: #3b5999"></i>
-                <p class="small">IPC Car Terminal</p>
+                <i class="fa fa-envelope-o fa-lg or floatLeft mg-r-20"></i>
+                <p class="small">info@indonesiacarterminal.co.id</p>
               </section>
               <section class="row mg-lr-15 mg-t-10">
-                <i class="fa fa-twitter-square fa-lg floatLeft mg-r-20" style="color: #2ac6f7"></i>
-                <p class="small">@pt_ikt</p>
+                <i class="fa fa-phone fa-lg or floatLeft mg-r-20"></i>
+                <p class="small">+62 21 4393 2251</p>
               </section>
-              <section class="row mg-lr-15 mg-t-10">
-                <i class="fa fa-instagram fa-lg floatLeft mg-r-20" style="color: #fb3958"></i>
-                <p class="small">IPC Car Terminal</p>
+              <section class="row">
+                <div class="socialMedia text-center">
+                  <ul class="noPad">
+                    <li><a class="fb" href="htpps://www.facebook.com/ipccarterminal"><i class="fa fa-facebook"></i></a></li>
+                    <li><a class="tw" href="https://www.twitter.com/pt_ikt"><i class="fa fa-twitter"></i></a></li>
+                    <li><a class="ig" href="https://www.instagram.com/ipccarterminal"><i class="fa fa-instagram"></i></a></li>
+                  </ul>
+                </div>
               </section>
-          </div>
-          <div class="col-sm-12">
-            <section class="row">
-              <div class="socialMedia text-center">
-                <ul class="noPad">
-                  <li><a class="fb" href="https://www.facebook.com/ipccarterminal"><i class="fa fa-facebook"></i></a></li>
-                  <li><a class="tw" href="https://www.twitter.com/pt_ikt"><i class="fa fa-twitter"></i></a></li>
-                  <li><a class="ig" href="https://www.instagram.com/ipccarterminal"><i class="fa fa-instagram"></i></a></li>
-                </ul>
-              </div>
             </section>
           </div>
-        </section>
-      </div>
-      <div class="col-md-6 noPad hidden-sm">
-        <div class="map">
-          <div class="overlay-map"></div>
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3967.1833851621095!2d106.91224451476846!3d-6.105991995578615!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xe329d8258290e493!2sTanjung+Priok+Car+Terminal+(TPT)!5e0!3m2!1sen!2sid!4v1501491377262" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-        </div>
-      </div>
+          <div class="col-md-8 noPad hidden-400">
+            <div class="map">
+              <div class="overlay-map"></div>
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3967.1833851621095!2d106.91224451476846!3d-6.105991995578615!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xe329d8258290e493!2sTanjung+Priok+Car+Terminal+(TPT)!5e0!3m2!1sen!2sid!4v1501491377262" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+            </div>
+          </div>
         </section>
       </section>
       </section>

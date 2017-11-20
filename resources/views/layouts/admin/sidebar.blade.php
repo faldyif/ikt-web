@@ -46,17 +46,28 @@
             <li {{{ (Request::is('*/admin/album-comment') ? 'class=active' : '') }}}><a href="{{ route('album-comment.index') }}"><i class="fa fa-comment"></i> List Komentar Album</a></li>
           </ul>
         </li>
-        <li class="treeview {{{ ((Request::is('*/admin/press-release/create') || Request::is('*/admin/press-release')) ? 'active' : '') }}}">
-          <a href="#"><i class="fa fa-bullhorn"></i> <span>Press Release</span>
-            <span class="pull-right-container">
+          <li class="treeview {{{ ((Request::is('*/admin/press-release/create') || Request::is('*/admin/press-release')) ? 'active' : '') }}}">
+            <a href="#"><i class="fa fa-bullhorn"></i> <span>Press Release</span>
+              <span class="pull-right-container">
                 <i class="fa fa-angle-left pull-right"></i>
               </span>
-          </a>
-          <ul class="treeview-menu">
-            <li {{{ (Request::is('*/admin/press-release/create') ? 'class=active' : '') }}}><a href="{{ route('press-release.create') }}"><i class="fa fa-plus"></i> Buat Press Release Baru</a></li>
-            <li {{{ (Request::is('*/admin/press-release') ? 'class=active' : '') }}}><a href="{{ route('press-release.index') }}"><i class="fa fa-list"></i> List Press Release</a></li>
-          </ul>
-        </li>
+            </a>
+            <ul class="treeview-menu">
+              <li {{{ (Request::is('*/admin/press-release/create') ? 'class=active' : '') }}}><a href="{{ route('press-release.create') }}"><i class="fa fa-plus"></i> Buat Press Release Baru</a></li>
+              <li {{{ (Request::is('*/admin/press-release') ? 'class=active' : '') }}}><a href="{{ route('press-release.index') }}"><i class="fa fa-list"></i> List Press Release</a></li>
+            </ul>
+          </li>
+          <li class="treeview {{{ ((Request::is('*/admin/testimonial/create') || Request::is('*/admin/testimonial')) ? 'active' : '') }}}">
+            <a href="#"><i class="fa fa-star"></i> <span>Testimonial</span>
+              <span class="pull-right-container">
+                <i class="fa fa-angle-left pull-right"></i>
+              </span>
+            </a>
+            <ul class="treeview-menu">
+              <li {{{ (Request::is('*/admin/testimonial/create') ? 'class=active' : '') }}}><a href="{{ route('testimonial.create') }}"><i class="fa fa-plus"></i> Buat Testimonial Baru</a></li>
+              <li {{{ (Request::is('*/admin/testimonial') ? 'class=active' : '') }}}><a href="{{ route('testimonial.index') }}"><i class="fa fa-list"></i> List Testimonial</a></li>
+            </ul>
+          </li>
         <li {{{ (Request::is('*/facebook/login') ? 'class=active' : '') }}}><a href="{{ url('admin/facebook/login') }}"><i class="fa fa-facebook"></i> <span>Pengaturan Facebook</span></a></li>
         <li {{{ (Request::is('*/twitter') ? 'class=active' : '') }}}><a href="{{ url('admin/twitter') }}"><i class="fa fa-twitter"></i> <span>Pengaturan Twitter</span></a></li>
         @elseif(Auth::user()->getUserType() == 'operasional')
