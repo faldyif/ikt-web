@@ -1,4 +1,4 @@
-@extends('layout.app')
+@extends('layout.app-with-footer')
 
 @section('title','CSR | IPC Car Terminal')
 
@@ -81,15 +81,71 @@
                       </div>
                       <div id="menu0" class="tab-pane fade in">
                           <p>Konten sedang disiapkan...</p>
+                          <div class="col-md-12">
+                            <div class="col-md-4" style="margin-bottom: 5%">
+                                <img src="{{ url('img/thumb.jpg') }}" class="img-responsive">
+                            </div>
+                            <div class="col-md-4" style="margin-bottom: 5%">
+                                <img src="{{ url('img/thumb.jpg') }}" class="img-responsive">
+                            </div>
+                            <div class="col-md-4" style="margin-bottom: 5%">
+                                <img src="{{ url('img/thumb.jpg') }}" class="img-responsive">
+                            </div>
+                          </div>
+                          <div class="col-md-12">
+                            <button class="btn btn-primary center-block">Lihat lainnya</button>
+                          </div>
                       </div>
                     <div id="menu1" class="tab-pane fade">
                         <p>Konten sedang disiapkan...</p>
+                        <div class="col-md-12">
+                            <div class="col-md-4" style="margin-bottom: 5%">
+                                <img src="{{ url('img/thumb.jpg') }}" class="img-responsive">
+                            </div>
+                            <div class="col-md-4" style="margin-bottom: 5%">
+                                <img src="{{ url('img/thumb.jpg') }}" class="img-responsive">
+                            </div>
+                            <div class="col-md-4" style="margin-bottom: 5%">
+                                <img src="{{ url('img/thumb.jpg') }}" class="img-responsive">
+                            </div>
+                          </div>
+                          <div class="col-md-12">
+                            <button class="btn btn-primary center-block">Lihat lainnya</button>
+                          </div>
                     </div>
                     <div id="menu2" class="tab-pane fade">
                         <p>Konten sedang disiapkan...</p>
+                        <div class="col-md-12">
+                            <div class="col-md-4" style="margin-bottom: 5%">
+                                <img src="{{ url('img/thumb.jpg') }}" class="img-responsive">
+                            </div>
+                            <div class="col-md-4" style="margin-bottom: 5%">
+                                <img src="{{ url('img/thumb.jpg') }}" class="img-responsive">
+                            </div>
+                            <div class="col-md-4" style="margin-bottom: 5%">
+                                <img src="{{ url('img/thumb.jpg') }}" class="img-responsive">
+                            </div>
+                          </div>
+                          <div class="col-md-12">
+                            <button class="btn btn-primary center-block">Lihat lainnya</button>
+                          </div>
                     </div>
                     <div id="menu3" class="tab-pane fade">
                         <p>Konten sedang disiapkan...</p>
+                        <div class="col-md-12">
+                            <div class="col-md-4" style="margin-bottom: 5%">
+                                <img src="{{ url('img/thumb.jpg') }}" class="img-responsive">
+                            </div>
+                            <div class="col-md-4" style="margin-bottom: 5%">
+                                <img src="{{ url('img/thumb.jpg') }}" class="img-responsive">
+                            </div>
+                            <div class="col-md-4" style="margin-bottom: 5%">
+                                <img src="{{ url('img/thumb.jpg') }}" class="img-responsive">
+                            </div>
+                          </div>
+                          <div class="col-md-12">
+                            <button class="btn btn-primary center-block">Lihat lainnya</button>
+                          </div>
                     </div>
                   </div>
                 </div>
@@ -99,30 +155,4 @@
         </div>
     </section>
     <!---->
-    <!--footer-->
-    <!-- <div class="hiddenSec"></div> -->
-    <footer class="footer-1">
-        <section class="row">
-            <div class="col-md-3 col-sm-3">
-                <figure class="logoFooter">
-                    <img src="{{ url('img/ikt-logo.png') }}">
-                </figure>
-                <p class="small">Vix eu etiam mediocrem. Qui debet essent omnium ut. Ne qui recusabo temporibus, in eum singulis posidonium. Nec reque saepe ea, esse veniam definitionem est ei.</p>
-            </div>
-            <div class="col-md-2 col-md-offset-4 col-sm-3 col-sm-offset-3 mg-t-30">
-                <h5 class="roboBold mg-b-30">Useful Links</h5>
-                <ul class="noPad">
-                    <li><a href="#">Tentang</a></li>
-                    <li><a href="#">Helpdesk</a></li>
-                    <li><a href="#">Storages</a></li>
-                </ul>
-            </div>
-            <div class="col-md-3 col-sm-3 mg-t-30">
-                <h5 class="roboBold mg-b-30">Locate Us</h5>
-                <p class="small">JL Sindang Laut, Cilincing Jakarta Utara, 14110</p>
-                <p class="small">+62 21 4393 2251<br>info@indonesiacarterminal.co.id</p>
-            </div>
-        </section>
-    </footer>
-    <!--/footer-->
 @endsection

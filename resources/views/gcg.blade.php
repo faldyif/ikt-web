@@ -1,4 +1,4 @@
-@extends('layout.app')
+@extends('layout.app-with-footer')
 
 @section('title','IPC')
 
@@ -81,7 +81,7 @@
                       <li class="">
                           <a data-toggle="pill" href="#menu7">
                               <div class="be-flex">
-                                  <i class="fa fa-th mg-r-15 mg-t-5"></i> <span>Whistle Blower</span>
+                                  <i class="fa fa-th mg-r-15 mg-t-5"></i> <span>Whistleblowing System</span>
                               </div>
                           </a>
                       </li>
@@ -118,10 +118,10 @@
                 <div class="col-md-9">
                   <div class="tab-content">
                     <div id="home" class="tab-pane fade in active">
-                      <p>PT Indonesia Kendaraan Terminal, atau yang kemudian disebut ‘Perusahaan’ atau ‘Perseroan’, senantiasa melandaskan setiap kegiatannya pada prinsip pengelolaan perusahaan yang baik atau Good Corporate Governance (GCG). Ketaatan pada prinsip-prinsip GCG ini diaplikasikan pada seluruh aktivitas Perusahaan untuk menegakkan visi Perusahaan menjadi perusahaan jasa kepelabuhanan yang profesional, independen, berintegritas dan berkelanjutan.</p>
-                      <p>Sebagai perusahaan yang profesional, independen, berintegritas dan berkelanjutan isu anti Korupsi Kolusi dan Nepotisme (KKN) menjadi prioritas bagi manajemen Perusahaan. Dalam semangat tersebut, Manajemen Perseroan terus melakukan upaya-upaya untuk membersihkan diri dari praktek KKN, termasuk didalamnya upaya pengendalian praktek Gratifikasi.</p>
-                      <p>Perusahaan menyadari bahwa dalam menjalin hubungan kerja dengan pihak ketiga, baik stakeholder maupun vendor, seringkali bersinggungan dengan praktek gratifikasi, sehingga dibutuhkan sebuah pedoman untuk mengendalikan praktek tersebut. Hal ini dilakukan agar seluruh Insan PT Indonesia Kendaraan Terminal  memiliki pemahaman yang sama tentang perlakuan terhadap gratifikasi serta membantu Insan PT Indonesia Kendaraan Terminal untuk tidak terjerat dalam praktek gratifikasi yang termasuk tindak pidana suap, sebagaimana diatur pada pasal 12 B Ayat (1) Undang-Undang Nomor 20 Tahun 2001 Tentang Perubahan Atas Undang-Undang Nomor 31 Tahun 1999 Tentang Pemberantasan Tindak Pidana Korupsi.</p>
-                      <p>Pedoman Pengelolaan Gratifikasi ini diharapkan akan memperkokoh penegakan GCG Perusahaan dan menjadi acuan bagi seluruh Insan PT Indonesia Kendaraan Terminal dalam menyikapi gratifikasi ketika berhubungan dengan pihak ketiga Perusahaan. Pedoman ini merupakan salah satu rangkaian dokumen penegakan GCG Perusahaan dimana konten dalam pedoman ini selaras dengan Pedoman GCG, Kode Etik Bisnis dan juga Tata laksana Kinerja Direksi dan Dewan Komisaris PT Indonesia Kendaraan Terminal.</p>
+                      <p class="text-justify">PT Indonesia Kendaraan Terminal, atau yang kemudian disebut ‘Perusahaan’ atau ‘Perseroan’, senantiasa melandaskan setiap kegiatannya pada prinsip pengelolaan perusahaan yang baik atau Good Corporate Governance (GCG). Ketaatan pada prinsip-prinsip GCG ini diaplikasikan pada seluruh aktivitas Perusahaan untuk menegakkan visi Perusahaan menjadi perusahaan jasa kepelabuhanan yang profesional, independen, berintegritas dan berkelanjutan.</p>
+                      <p class="text-justify">Sebagai perusahaan yang profesional, independen, berintegritas dan berkelanjutan isu anti Korupsi Kolusi dan Nepotisme (KKN) menjadi prioritas bagi manajemen Perusahaan. Dalam semangat tersebut, Manajemen Perseroan terus melakukan upaya-upaya untuk membersihkan diri dari praktek KKN, termasuk didalamnya upaya pengendalian praktek Gratifikasi.</p>
+                      <p class="text-justify">Perusahaan menyadari bahwa dalam menjalin hubungan kerja dengan pihak ketiga, baik stakeholder maupun vendor, seringkali bersinggungan dengan praktek gratifikasi, sehingga dibutuhkan sebuah pedoman untuk mengendalikan praktek tersebut. Hal ini dilakukan agar seluruh Insan PT Indonesia Kendaraan Terminal  memiliki pemahaman yang sama tentang perlakuan terhadap gratifikasi serta membantu Insan PT Indonesia Kendaraan Terminal untuk tidak terjerat dalam praktek gratifikasi yang termasuk tindak pidana suap, sebagaimana diatur pada pasal 12 B Ayat (1) Undang-Undang Nomor 20 Tahun 2001 Tentang Perubahan Atas Undang-Undang Nomor 31 Tahun 1999 Tentang Pemberantasan Tindak Pidana Korupsi.</p>
+                      <p class="text-justify">Pedoman Pengelolaan Gratifikasi ini diharapkan akan memperkokoh penegakan GCG Perusahaan dan menjadi acuan bagi seluruh Insan PT Indonesia Kendaraan Terminal dalam menyikapi gratifikasi ketika berhubungan dengan pihak ketiga Perusahaan. Pedoman ini merupakan salah satu rangkaian dokumen penegakan GCG Perusahaan dimana konten dalam pedoman ini selaras dengan Pedoman GCG, Kode Etik Bisnis dan juga Tata laksana Kinerja Direksi dan Dewan Komisaris PT Indonesia Kendaraan Terminal.</p>
                     </div>
                       <div id="menu0" class="tab-pane fade">
                           <p>Konten sedang disiapkan...</p>
@@ -162,30 +162,4 @@
         </div>
     </section>
     <!---->
-    <!--footer-->
-    <!-- <div class="hiddenSec"></div> -->
-    <footer class="footer-1">
-        <section class="row">
-            <div class="col-md-3 col-sm-3">
-                <figure class="logoFooter">
-                    <img src="{{ url('img/ikt-logo.png') }}">
-                </figure>
-                <p class="small">Vix eu etiam mediocrem. Qui debet essent omnium ut. Ne qui recusabo temporibus, in eum singulis posidonium. Nec reque saepe ea, esse veniam definitionem est ei.</p>
-            </div>
-            <div class="col-md-2 col-md-offset-4 col-sm-3 col-sm-offset-3 mg-t-30">
-                <h5 class="roboBold mg-b-30">Useful Links</h5>
-                <ul class="noPad">
-                    <li><a href="#">Tentang</a></li>
-                    <li><a href="#">Helpdesk</a></li>
-                    <li><a href="#">Storages</a></li>
-                </ul>
-            </div>
-            <div class="col-md-3 col-sm-3 mg-t-30">
-                <h5 class="roboBold mg-b-30">Locate Us</h5>
-                <p class="small">JL Sindang Laut, Cilincing Jakarta Utara, 14110</p>
-                <p class="small">+62 21 4393 2251<br>info@indonesiacarterminal.co.id</p>
-            </div>
-        </section>
-    </footer>
-    <!--/footer-->
 @endsection

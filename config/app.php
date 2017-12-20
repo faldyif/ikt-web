@@ -183,6 +183,9 @@ return [
         Cviebrock\EloquentSluggable\ServiceProvider::class,
         \Petehouston\Tinymce\TinymceServiceProvider::class,
         Dimsav\Translatable\TranslatableServiceProvider::class,
+        SammyK\LaravelFacebookSdk\LaravelFacebookSdkServiceProvider::class,
+        Maatwebsite\Excel\ExcelServiceProvider::class,
+        Thujohn\Twitter\TwitterServiceProvider::class,
     ],
 
     /*
@@ -214,6 +217,7 @@ return [
         'File' => Illuminate\Support\Facades\File::class,
         'Gate' => Illuminate\Support\Facades\Gate::class,
         'Hash' => Illuminate\Support\Facades\Hash::class,
+        'Input' => Illuminate\Support\Facades\Input::class,
         'Lang' => Illuminate\Support\Facades\Lang::class,
         'Log' => Illuminate\Support\Facades\Log::class,
         'Mail' => Illuminate\Support\Facades\Mail::class,
@@ -234,7 +238,9 @@ return [
         // LaravelCollective
         'Form' => Collective\Html\FormFacade::class,
         'Html' => Collective\Html\HtmlFacade::class,
-
+        'Facebook' => SammyK\LaravelFacebookSdk\FacebookFacade::class,
+        'Excel' => Maatwebsite\Excel\Facades\Excel::class,
+        'Twitter' => Thujohn\Twitter\Facades\Twitter::class,
     ],
 
 ];

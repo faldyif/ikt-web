@@ -1,4 +1,4 @@
-@extends('layout.app')
+@extends('layout.app-with-footer')
 
 @section('title','Anak Perusahaan | IPC Car Terminal')
 
@@ -20,22 +20,31 @@
         <section class="row pd-bt-30">
           <div class="col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1">
             <section class="row flex-row-center be-block-768">
-                <div class="col-md-5">
-                    <figure class="pd-30">
-                        <img src="{{ url('img/maspion_car_terminal.jpg') }}" class="pd-30" alt="Maspion Car Terminal">
-                        <figcaption class="caption">
-                            Terminal MKO - MTKI
-                        </figcaption>
-                    </figure>
-                </div>
-              <div class="col-md-7">
-                <hr class="hrSpec hrSpecOrange">
-                <h3 class="mg-b-30 roboBold">Manajemen Kerjasama Operasi -
-                    <br>Maspion Terminal Kendaraan Indonesia</h3>
-                <p>Sejalan dengan program yang dicanangkan oleh pemerintah yaitu program Tol Laut di Indonesia untuk meningkatkan kapasitas pelabuhan dan juga sejalan dengan program kerja IPC yaitu Pendulum Nusantara, maka PT Indonesia Kendaraan Terminal bekerjasama dengan PT Maspion Group turut serta dalam mengembangkan infrastruktur kepelabuhanan dengan melakukan pengembangan ke wilayah timur Indonesia.</p>
-                <p>Atas dasar itulah, pada tanggal 2 Desember 2014 telah dilakukan kesepakatan kerjasama antara IPC dalam hal ini diwakili oleh PT Indonesia Kendaraan Terminal dengan PT Maspion Industrial Estate untuk menyiapkan pembangunan dan pengoperasian terminal kendaraan di Maspion Industrial Estate yang berlokasi di Gresik yang akan menjadi terminal kendaraan pertama dan modern di Jawa Timur.</p>
                 
-                <a href="http://maspioncarterminal.co.id" target="_blank">Website MKO - MTKI</a>
+              <div class="col-md-12">
+                <hr class="hrSpec hrSpecOrange">
+                <h3 class="mg-b-30 roboBold">Manajemen Kerjasama Operasi - Maspion Terminal Kendaraan Indonesia</h3>
+                <p class="text-justify">Sejalan dengan program yang dicanangkan oleh pemerintah yaitu program Tol Laut di Indonesia untuk meningkatkan kapasitas pelabuhan dan juga sejalan dengan program kerja IPC yaitu Pendulum Nusantara, maka PT Indonesia Kendaraan Terminal bekerjasama dengan PT Maspion Group turut serta dalam mengembangkan infrastruktur kepelabuhanan dengan melakukan pengembangan ke wilayah timur Indonesia.</p>
+                <p class="text-justify">Atas dasar itulah, pada tanggal 2 Desember 2014 telah dilakukan kesepakatan kerjasama antara IPC dalam hal ini diwakili oleh PT Indonesia Kendaraan Terminal dengan PT Maspion Industrial Estate untuk menyiapkan pembangunan dan pengoperasian terminal kendaraan di Maspion Industrial Estate yang berlokasi di Gresik yang akan menjadi terminal kendaraan pertama dan modern di Jawa Timur.</p>
+                <div class="col-md-12 pd-bt-10">
+                  <div class="col-md-4" style="margin-bottom: 5%">
+                      <img src="{{ url('img/thumb.jpg') }}" class="img-responsive">
+                  </div>
+                  <div class="col-md-4" style="margin-bottom: 5%">
+                      <img src="{{ url('img/thumb.jpg') }}" class="img-responsive">
+                  </div>
+                  <div class="col-md-4" style="margin-bottom: 5%">
+                      <img src="{{ url('img/thumb.jpg') }}" class="img-responsive">
+                  </div>
+                </div>
+                <div class="col-md-12">
+                  <button class="btn btn-primary center-block">Lihat lainnya</button>
+                </div>
+                <div class="col-md-12 pd-bt-20">
+                <center>
+                  <a href="http://maspioncarterminal.co.id" target="_blank">Website MKO - MTKI</a>
+                </center>
+                </div>
               </div>
             </section>
           </div>
@@ -43,30 +52,4 @@
       </div>
     </section>
     <!--/ABOUT-->
-    <!--footer-->
-    <!-- <div class="hiddenSec"></div> -->
-    <footer class="footer-1">
-      <section class="row">
-        <div class="col-md-3 col-sm-3">
-          <figure class="logoFooter">
-            <img src="{{ url('img/ikt-logo.png') }}">
-          </figure>
-          <p class="small">Vix eu etiam mediocrem. Qui debet essent omnium ut. Ne qui recusabo temporibus, in eum singulis posidonium. Nec reque saepe ea, esse veniam definitionem est ei.</p>
-        </div>
-        <div class="col-md-2 col-md-offset-4 col-sm-3 col-sm-offset-3 mg-t-30">
-          <h5 class="roboBold mg-b-30">Useful Links</h5>
-          <ul class="noPad">
-            <li><a href="#">Tentang</a></li>
-            <li><a href="#">Helpdesk</a></li>
-            <li><a href="#">Storages</a></li>
-          </ul>
-        </div>
-        <div class="col-md-3 col-sm-3 mg-t-30">
-          <h5 class="roboBold mg-b-30">Locate Us</h5>
-          <p class="small">JL Sindang Laut, Cilincing Jakarta Utara, 14110</p>
-          <p class="small">+62 21 4393 2251<br>info@indonesiacarterminal.co.id</p>
-        </div>
-      </section>
-    </footer>
-    <!--/footer-->
 @endsection

@@ -1,4 +1,4 @@
-@extends('layout.app')
+@extends('layout.app-with-footer')
 
 @section('title','About | IPC Car Terminal')
 
@@ -8,7 +8,8 @@
       <div class="heroTitle" style="background-image: url('{{ url('img/2.jpg') }}');">
         <div class="overlay"></div>
         <section class="container-fluid pd-30">
-          <h2 class="roboBold wh alignCenter" data-wow-delay="0.4s">IPC - Terminal Kendaraan Indonesia Memimpin di Asia.</h2>
+          <h2 class="roboBold wh alignCenter" data-wow-delay="0.4s">Profil Perusahaan</h2>
+          <h4 class="alignCenter wh mg-t-20">PT Indonesia Kendaraan Terminal</h4>
         </section>
       </div>
     </section>
@@ -18,18 +19,16 @@
       <div class="container-fluid wow fadeInUpBig">
         <section class="row pd-bt-30">
           <div class="col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1">
-            <section class="row flex-row-center be-block-768">
-              <div class="col-md-5">
-                <h3 class="roboLight" style="line-height: 1.4em">Indonesia Kendaraan Terminal Merupakan Perusahaan Kendaraan Terminal yang Beroperasi Tanjung Priok Jakarta Indonesia, memberikan pelayanan Cargodooring, Stevedoring, Receiving & delevering serta berbagai Pelayanan Terbaik untuk Pelanggan Kami.</h3>
-              </div>
-              <div class="col-md-7">
+            <div class="col-md-5 col-sm-12">
+              <h3 class="roboLight" style="line-height: 1.4em">Indonesia Kendaraan Terminal Merupakan Perusahaan Kendaraan Terminal yang Beroperasi Tanjung Priok Jakarta Indonesia, memberikan pelayanan Cargodooring, Stevedoring, Receiving & delevering serta berbagai Pelayanan Terbaik untuk Pelanggan Kami.</h3>
+            </div>
+            <div class="col-md-7 col-sm-12">
                 <hr class="hrSpec hrSpecOrange">
                 <h3 class="mg-b-30 roboBold">Tentang Kami</h3>
                 <p>Terminal kendaraan Tanjung Priok adalah Terminal yang melayani kegiatan jasa kepelabuhanan dibidang bongkar muat kendaraan, alat berat dan suku cadang</p>
                 <p>Terminal kendaraan Tanjung Priok merupakan salah satu terminal dari terminal yang lainnya yang melayani kegiatan jasa bongkar muat barang pelabuhan Tanjung Priok seperti terminal peti kemas, terminal penumpang terminal multi purpose, terminal curah.</p>
                 <p>Terminal kendaraan Tanjung Priok adalah terminal kendaran terbesar dan pertama di Indonesia.</p>
               </div>
-            </section>
           </div>
         </section>
       </div>
@@ -39,28 +38,17 @@
     <section>
       <div class="container-fluid lightWhiteSec wow fadeInUpBig">
         <section class="row pd-bt-30">
-          <div class="col-md-6 col-md-offset-3">
-            <h2 class="text-center mg-b-20 or">VISI</h2>
-            <h4 class="text-center lh-15em">Menjadi Terminal Kendaraan Kelas Dunia yang Unggul <br> dalam Operasional dan Pelayanan</h4>
-            <section class="mg-bt-30">
-              <h5 class="roboBold">TERMINAL KENDARAAN KELAS DUNIA</h5>
-              <p class="lh-15em">PT IKT mampu menjadi perusahaan pengelola terminal kendaraan profesional &amp dapat disejajarkan serta bersaing dengan penyedia layanan terminal kendaraan terbaik di dunia. Komponen untuk menjadi pengelola terminal kendaraan berkelas dunia adalah sebagai berikut :</p>
-              <ul class="pd-0">
-                <li class="be-flex mg-b-10"><i class="fa fa-arrow-right bl mg-r-10"></i>Image perusahaan yang baik</li>
-                <li class="be-flex mg-b-10"><i class="fa fa-arrow-right bl mg-r-10"></i>Fasilitas infrastruktur yang modern</li>
-                <li class="be-flex mg-b-10"><i class="fa fa-arrow-right bl mg-r-10"></i>Sistem yang terintegrasi</li>
-              </ul>
-            </section>
-            <section class="mg-bt-30">
-              <h5 class="roboBold">TERMINAL KENDARAAN YANG UNGGUL DALAM OPERASIONAL</h5>
-              <p class="lh-15em">PT IKT mampu menarik pengguna jasa terminal kendaraan baik domestik maupun internasional untuk bekerjasama dengan PT IKT. Komponen untuk menjadi terminal kendaraan yang unggul dalam operasional adalah sebagai berikut :</p>
-              <ul class="pd-0">
-                <li class="be-flex mg-b-10"><i class="fa fa-arrow-right bl mg-r-10"></i>Menerapkan standar operasional terbaik di dunia</li>
-                <li class="be-flex mg-b-10"><i class="fa fa-arrow-right bl mg-r-10"></i>Memiliki produktivitas yang tinggi</li>
-                <li class="be-flex mg-b-10"><i class="fa fa-arrow-right bl mg-r-10"></i>Bekerja secara efektif dan efisien, menerapkan “international best practice”</li>
-                <li class="be-flex mg-b-10"><i class="fa fa-arrow-right bl mg-r-10"></i>Mengimplementasikan kebijakan “zero accident”, serta mampu memenuhi SLA/SLG yang disepakati dengan pengguna jasa.</li>
-              </ul>
-            </section>
+          <div class="col-md-8 col-lg-6 col-md-offset-2 col-lg-offset-3">  
+            <div class="col-md-offset-5 col-md-offset-right-5">
+            <div class="col-md-offset-4">
+              <hr class="hrSpec hrSpecOrange">
+            </div>
+            <h2 class="text-center mg-b-20">VISI</h2>
+            </div>
+            <blockquote class="quote-card blue-card">
+              <h3 class="text-center lh-15em">Menjadi Terminal Kendaraan Kelas Dunia yang Unggul <br> dalam Operasional dan Pelayanan</h3>
+            </blockquote>
+            <img class="img-responsive" src="{{ url('img/image1.png') }}">
           </div>
         </section>
       </div>
@@ -100,27 +88,32 @@
     <!-- MISSION -->
     <section>
       <div class="container-fluid wow fadeInUpBig pd-t-30">
-        <h2 class="roboBold text-center">MISI</h2>
+      <div class="col-md-offset-5 col-md-offset-right-5">
+            <div class="col-md-offset-5">
+              <hr class="hrSpec hrSpecOrange">
+            </div>
+            <h2 class="roboBold text-center">MISI</h2>
+            </div>
         <section class="row pd-bt-30">
           <div class="col-md-8 col-md-offset-2">
             <section class="row">
               <div class="col-md-6 text-center mg-b-30">
-                <i class="fa fa-users fa-3x bl"></i>
+                <center><img class="img-responsive" src="{{ url('img/1_corporate_culture.png') }}" style="width: 80px; height: auto; margin: 10px"></center>
                 <h3 class="mg-b-20">Pelanggan &amp Mitra</h3>
                 <p>Menyediakan, membangun dan mengoperasikan pelayanan terminal dan logistik secara terintegrasi, berkualitas dan handal untuk memenuhi kepuasan pelanggan dan mitra</p>
               </div>
               <div class="col-md-6 text-center mg-b-30">
-                <i class="fa fa-handshake-o fa-3x or"></i>
+              <center><img class="img-responsive" src="{{ url('img/2.png') }}" style="width: 80px; height: auto; margin: 10px"></center>
                 <h3 class="mg-b-20">Pemegang Saham</h3>
                 <p>Memaksimalkan nilai perusahaan bagi pemegang saham dan meningkatkan kesehatan perusahaan secara profesional dengan memenuhi aspek-aspek tatakelola perusahaan yang baik</p>
               </div>
               <div class="col-md-6 text-center mg-b-30">
-                <i class="fa fa-id-badge fa-3x or"></i>
+              <center><img class="img-responsive" src="{{ url('img/3.png') }}" style="width: 80px; height: auto; margin: 10px"></center>
                 <h3 class="mg-b-20">Karyawan</h3>
                 <p>Menciptakan lingkungan kerja yang nyaman bagi karyawan, mewujudkan insan perusahaan yang fokus pada pelanggan, bertintegritas, bangga kepada perusahaan dan budayanya, serta memberikan kesejahteraan dan kepuasan kepada karyawan</p>
               </div>
               <div class="col-md-6 text-center mg-b-30">
-                <i class="fa fa-building fa-3x bl"></i>
+              <center><img class="img-responsive" src="{{ url('img/4.png') }}" style="width: 80px; height: auto; margin: 10px"></center>
                 <h3 class="mg-b-20">Masyarakat &amp Negara</h3>
                 <p>Menciptakan lingkungan kerja yang nyaman bagi karyawan, mewujudkan insan perusahaan yang fokus pada pelanggan, bertintegritas, bangga kepada perusahaan dan budayanya, serta memberikan kesejahteraan dan kepuasan kepada karyawan</p>
               </div>
@@ -135,14 +128,24 @@
       <div class="container-fluid wow fadeInUpBig">
         <section class="row pd-bt-30 mg-bt-10">
           <div class="col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1">
-            <section class="row flex-row-center be-block-768">
-              <div class="col-md-5">
-                <hr class="hrSpec hrSpecOrange">
-                <h3 class="mg-b-20 roboBold">Role Model</h3>
-                <h5 class="lh-15em">Role Model adalah seluruh pegawai dijabatan struktural PT Indonesia Kendaraan Terminal yaitu Direksi, Manager/Setingkat, Tranformation Management Officer (TMO) dan Supervisor/Setingkat.</h5>
+            <!-- <section class="row flex-row-center be-block-768"> -->
+              <div class="col-md-5 col-sm-12">
+                <div class="col-md-12">
+                  <hr class="hrSpec hrSpecOrange">
+                  <h3 class="mg-b-20 roboBold">Role Model</h3>
+                  <h5 class="lh-15em">Role Model adalah individu di PT IKT yang dapat mempengaruhi lingkungannya untuk bergerak melakukan perubahan positif yang membantu manajemen dalam mencapai visi dan misi perusahaan.</h5>
+                </div>
+                <div class="col-md-12 mg-b-20">
+                  <hr class="hrSpec hrSpecOrange">
+                  <h3 class="mg-b-20 roboBold">Change Agent</h3>
+                  <h5 class="lh-15em">Change Agent adalah pribadi yang menjadi pengubah lingkungan dan merestorasi mental serta membantu percepatan proses bisnis di IKT.</h5>
+                </div>
               </div>
-              <div class="col-md-7">
-                <section class="row">
+              <div class="col-md-7 col-sm-12">
+                <!-- <section class="row"> -->
+                <div class="col-md-12">
+                  <hr class="hrSpec hrSpecOrange">
+                  <h3 class="mg-b-20 roboBold">Representasi Filosofis</h3>
                   <div class="col-md-12">
                     <section class="be-flex">
                       <i class="fa fa-check-circle mg-t-10 bl fa-lg mg-r-10"></i>
@@ -170,9 +173,10 @@
                       </section>
                     </section>
                   </div>
-                </section>
+                </div>
+                <!-- </section> -->
               </div>
-            </section>
+            <!-- </section> -->
           </div>
         </section>
       </div>
@@ -211,30 +215,4 @@
       </div>
     </section>
     <!-- /LOGO -->
-    <!--footer-->
-    <!-- <div class="hiddenSec"></div> -->
-    <footer class="footer-1">
-      <section class="row">
-        <div class="col-md-3 col-sm-3">
-          <figure class="logoFooter">
-            <img src="{{ url('img/ikt-logo.png') }}">
-          </figure>
-          <p class="small">Vix eu etiam mediocrem. Qui debet essent omnium ut. Ne qui recusabo temporibus, in eum singulis posidonium. Nec reque saepe ea, esse veniam definitionem est ei.</p>
-        </div>
-        <div class="col-md-2 col-md-offset-4 col-sm-3 col-sm-offset-3 mg-t-30">
-          <h5 class="roboBold mg-b-30">Useful Links</h5>
-          <ul class="noPad">
-            <li><a href="#">Tentang</a></li>
-            <li><a href="#">Helpdesk</a></li>
-            <li><a href="#">Storages</a></li>
-          </ul>
-        </div>
-        <div class="col-md-3 col-sm-3 mg-t-30">
-          <h5 class="roboBold mg-b-30">Locate Us</h5>
-          <p class="small">JL Sindang Laut, Cilincing Jakarta Utara, 14110</p>
-          <p class="small">+62 21 4393 2251<br>info@indonesiacarterminal.co.id</p>
-        </div>
-      </section>
-    </footer>
-    <!--/footer-->
 @endsection

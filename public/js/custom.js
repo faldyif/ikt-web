@@ -16,6 +16,15 @@ if(w > 768) {
     });
 };
 
+$(document).click(function(e) {
+    var target = $(e.target);
+
+    if( !target.is('.navbar-nav-dropdown') && target.closest('.navbar-nav-dropdown').length === 0 ) {
+        // click was not on or inside #panel
+        $('.navbar-nav-dropdown li.has-children').children('ul').stop(true, false, true).slideUp(400);
+    }
+});
+
 $(document).ready(function(){
 
 
@@ -129,9 +138,9 @@ $(document).ready(function(){
     }, function() {
       var $collapse = $(this).find(".panel-collapse");
       $(this).find(".accordion-toggle .indicator").addClass("glyphicon-chevron-down").removeClass("glyphicon-chevron-up");
-      setTimeout(function(){
+        setTimeout(function(){
         $collapse.collapse("hide");
-      },400);
+      },50);
     });
 
     // function

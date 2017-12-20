@@ -18,13 +18,38 @@ Route::group(array('namespace'=>'Admin', 'prefix'=>'admin', 'middleware'=>'auth'
 {
     Route::get('/', array('as' => 'dashboard', 'uses' => 'DashboardController@index'));
 
+
     Route::group(array('middleware'=>'admin.operasional'), function()
     {
         Route::resource('berthing', 'BerthingPlanController');
+        Route::resource('berthing/upload', 'BerthingUploadController', ['only' => ['create', 'store']]);
     });
 
     Route::group(array('middleware'=>'admin.sekper'), function()
     {
+        /*
+         * Twitter Routes
+         */
+        Route::get('/twitter', 'TwitterLoginController@index'); // Index route
+        Route::get('twitter/login', 'TwitterLoginController@login')->name('twitter.login');
+        Route::get('twitter/callback', 'TwitterLoginController@callback')->name('twitter.callback');
+        Route::get('twitter/error', 'TwitterLoginController@error')->name('twitter.error');
+        Route::get('twitter/logout', 'TwitterLoginController@logout')->name('twitter.logout');
+        Route::get('twitter/test', 'TwitterLoginController@testUploadMedia');
+        Route::post('twitter/post', 'TwitterLoginController@postStatus')->name('twitter.news.post');
+
+        /*
+         * Facebook Routes
+         */
+        Route::get('/facebook/login', 'FacebookLoginController@showLogin');
+        // Endpoint that is redirected to after an authentication attempt
+        Route::get('facebook/callback', 'FacebookLoginController@callback');
+        Route::get('facebook/logout', 'FacebookLoginController@signOut');
+        Route::get('facebook/post', 'FacebookLoginController@postPhoto');
+        Route::post('facebook/post', 'FacebookLoginController@postStatus')->name('facebook.news.post');
+        Route::post('facebook/signature', 'FacebookLoginController@changeSignature')->name('facebook.signature');
+
+
         Route::resource('album', 'AlbumController', ['except' => ['show']]);
         Route::resource('event', 'EventController');
         Route::resource('news', 'NewsController');
@@ -218,12 +243,4 @@ Route::get('tabs', function () {
 Route::get('ye', function () {
     return view('subcompany');
 });
-Route::get('/info', function () {
-    $news = \App\News::find(1);
-    $newsHasTranslation = array(
-        'id' => $news->hasTranslation('id'),
-        'en' => $news->hasTranslation('en'),
-        'jp' => $news->hasTranslation('jp'),
-    );
-    return var_dump($newsHasTranslation);
-});
+Route::get('/info', 'TestController@test');

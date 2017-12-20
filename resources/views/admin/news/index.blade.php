@@ -46,6 +46,8 @@
                     <div class="btn-group">
                       <a href="{{ url('id/berita') . '/' . $key->slug }}" class="btn btn-default btn-xs" target="_blank"><i class="fa fa-eye"></i> Lihat</a>
                       <a href="{{ route('news.show', $key->id) }}" class="btn btn-default btn-xs"><i class="fa fa-language"></i> Terjemahkan</a>
+                        <a href="#" data-id="{{ $key->id }}" class="btn btn-default btn-xs share-modal-facebook"><i class="fa fa-facebook-official"></i> Publish</a>
+                        <a href="#" data-id="{{ $key->id }}" class="btn btn-default btn-xs share-modal-twitter"><i class="fa fa-twitter"></i> Tweet</a>
                       <a href="#" onclick="deleteConfirmation({{ $key->id }})" class="btn btn-danger btn-xs"><i class="fa fa-trash"></i> Hapus</a>
                       {!! Form::open(['route' => ['news.destroy',$key->id], 'method' => 'delete', 'id' => 'delete_form_'.$key->id]) !!}
                       {!! Form::close() !!}
@@ -71,6 +73,80 @@
         <!-- /.col -->
       </div>
       <!-- /.row -->
+
+      <div class="modal fade" id="modal-7">
+          {!! Form::model($news, array('route' => array('facebook.news.post', 'method' => 'POST', 'enctype' => 'multipart/form-data'))) !!}
+          <div class="modal-dialog modal-lg">
+              <div class="modal-content">
+
+                  <div class="modal-header">
+                      <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                      <h4 class="modal-title">Publikasikan Berita di Facebook</h4>
+                  </div>
+
+                  <div class="modal-body">
+                      <div class="form-group col-md-12">
+                          <label for="inputKonten">Konten <sup>*</sup></label>
+                          {{ Form::textarea('content', null, array('class' => 'tinymce mce-facebook', 'id' => 'mce-facebook-content')) }}
+                      </div>
+                      <div class="form-group col-md-12">
+                          <label for="signature"><input type="checkbox" name="signature"> Enable Signature (<a href="{{ url('admin/facebook/login') }}">edit</a>)</label>
+                          {!! Auth::user()->news_signature !!}
+                      </div>
+                  </div>
+
+                  <div class="modal-footer">
+                      <div class="col-md-12 pull-right" style="display: inline-block;">
+                          <button type="button" class="btn btn-white" data-dismiss="modal">Close</button>
+                          <button type="submit" class="btn btn-info" style="background-color: #3b5998; border-color: #3b5998"><i class="fa fa-facebook-official"></i> Publish</button>
+                      </div>
+                  </div>
+
+              </div>
+          </div>
+          {!! Form::close() !!}
+      </div>
+
+      <div class="modal fade" id="modal-8">
+          <div class="modal-dialog modal-lg">
+              <div class="modal-content">
+                  {!! Form::model($news, array('route' => array('twitter.news.post', 'method' => 'POST', 'enctype' => 'multipart/form-data'))) !!}
+
+                  <div class="modal-header">
+                      <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                      <h4 class="modal-title">Share di Twitter</h4>
+                      <input id="uid-berita" name="id" type="hidden">
+                  </div>
+
+                  <div class="modal-body">
+                      <div class="form-group col-md-12">
+                          <label for="inputKonten">Konten <sup>*</sup></label>
+                          <span id="rchars">160</span> Character(s) Remaining
+                          {{ Form::textarea('content', null, array('class' => 'form-control', 'id' => 'twitter-content', 'maxlength' => 160, 'rows' => 2)) }}
+                      </div>
+                      <div class="form-group col-md-12">
+                          <label for="inputKonten">Gambar (maksimal 4)</label>
+                          <div class="well" id="image-selector-twitter" style="overflow-y: auto; height: 40vh;">
+                              <select name="twitter_images[]" id="twitter-image-select" class="image-picker masonry show-html" data-limit="4" multiple="multiple">
+
+                              </select>
+                          </div>
+                      </div>
+                  </div>
+
+                  <div class="modal-footer">
+                      <div class="col-md-12 pull-right" style="display: inline-block;">
+                          <button type="button" class="btn btn-white" data-dismiss="modal">Close</button>
+                          <button type="submit" class="btn btn-info" style="background-color: #0084b4; border-color: #0084b4"><i class="fa fa-twitter"></i> Tweet</button>
+                      </div>
+                  </div>
+                  {!! Form::close() !!}
+
+              </div>
+          </div>
+
+      </div>
+      @include('mceImageUpload::upload_form')
 @endsection
 
 
@@ -83,16 +159,106 @@
 
 <!-- DataTables -->
 <link rel="stylesheet" href="{{ url('assets/bower_components/datatables.net-bs/css/dataTables.bootstrap.min.css') }}">
+<link rel="stylesheet" href="{{ url('css/image-picker.css') }}">
 @endsection
 
 @section('page-script')
 <!-- DataTables -->
+<script src="{{ url('js/image-picker.min.js') }}"></script>
 <script src="{{ url('assets/bower_components/datatables.net/js/jquery.dataTables.min.js') }}"></script>
 <script src="{{ url('assets/bower_components/datatables.net-bs/js/dataTables.bootstrap.min.js') }}"></script>
+<script src="{{ url('assets/dist/js/tinymce/tinymce.min.js') }}"></script>
+<script src="{{ url('js/jquery.masonry.min.js') }}"></script>
+
+<script>
+    tinymce.init({
+        height: 200,
+        selector:'#mce-facebook-content',
+        theme: 'modern',
+        plugins: [
+            'image searchreplace'
+        ],
+        toolbar1: 'undo redo | image | bold italic underline | searchreplace',
+        image_advtab: true,
+        media_poster: false,
+        relative_urls: false,
+        file_browser_callback: function(field_name, url, type, win) {
+            // trigger file upload form
+            if (type == 'image') $('#formUpload input').click();
+        }
+    });
+</script>
 <!-- page script -->
 <script>
+    jQuery(function($){
+        $('a.share-modal-facebook').click(function(ev){
+            ev.preventDefault();
+            var uid = $(this).data('id');
+            $('#modal-7').modal('show', {backdrop: 'static'});
+            $.get('{{ url('api/v1/news') }}/' + uid, function(html){
+
+                $('#modal-7 .id-berita').attr('value', uid);
+
+                var tmp = html.title + html.content;
+                tmp += '<img src="' + '{{ url('storage') }}/' + html.filename + '" />';
+                for (var i = 0; i < html.imgs.length; i++) {
+                    $(html.imgs[i] + '<br>').appendTo("#image-list");
+                    tmp += html.imgs[i] + '<br>';
+                }
+                tinyMCE.activeEditor.setContent(tmp);
+            });
+        });
+        $('a.share-modal-twitter').click(function(ev){
+            ev.preventDefault();
+            var uid = $(this).data('id');
+            $('#modal-8').modal('show', {backdrop: 'static'});
+            $.get('{{ url('api/v1/news') }}/' + uid, function(html) {
+                $('#uid-berita').attr('value', uid);
+                var content = html.title + ' {{ url('id/berita') }}/' + html.slug;
+
+                var maxLength = 160;
+                $('#rchars').text(maxLength - content.length);
+                $('#twitter-content').keyup(function() {
+                    var textlen = maxLength - $(this).val().length;
+                    $('#rchars').text(textlen);
+                });
+
+                $('#twitter-content').val(content);
+
+                // <option data-img-src="http://placekitten.com/280/300" value="1">Cute Kitten 1</option>
+                var imgListTwitter = [];
+                imgListTwitter.push('{{ url('storage') }}/' + html.filename);
+                for (var i = 0; i < html.imgs_url.length; i++) {
+                    console.log(html.imgs_url[i]);
+                    imgListTwitter.push(html.imgs_url[i]);
+                }
+
+                // loop through item
+                $.each(imgListTwitter, function (i, item) {
+                    $('#twitter-image-select').append('<option value="'+i+'" data-img-src="'+item+'">'+'Option '+i+'</option>');
+                });
+
+                // Initialize the object
+                $("select#twitter-image-select").imagepicker();
+
+                var container = jQuery("select.image-picker.masonry").next("ul.thumbnails");
+                container.imagesLoaded(function(){
+                    container.masonry({
+                        itemSelector: "li",
+                    });
+                });
+            });
+        });
+        $('#modal-7').on('hidden.bs.modal', function () {
+            console.log('closed');
+        });
+        $('#modal-8').on('hidden.bs.modal', function () {
+            console.log('closed');
+            $('#twitter-image-select').html('');
+        });
+    });
   $(function () {
-    $('#example1').DataTable()
+    $('#example1').DataTable();
     $('#example2').DataTable({
       'paging'      : true,
       'lengthChange': false,
@@ -132,4 +298,5 @@
     })
   }
 </script>
+</head>
 @endsection
