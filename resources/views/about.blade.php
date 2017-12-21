@@ -38,7 +38,7 @@
     <section>
       <div class="container-fluid lightWhiteSec wow fadeInUpBig">
         <section class="row pd-bt-30">
-          <div class="col-md-8 col-lg-6 col-md-offset-2 col-lg-offset-3">  
+          <div class="col-md-8 col-lg-6 col-md-offset-2 col-lg-offset-3">
             <div class="col-md-offset-5 col-md-offset-right-5">
             <div class="col-md-offset-4">
               <hr class="hrSpec hrSpecOrange">
@@ -114,7 +114,7 @@
               </div>
               <div class="col-md-6 text-center mg-b-30">
               <center><img class="img-responsive" src="{{ url('img/4.png') }}" style="width: 80px; height: auto; margin: 10px"></center>
-                <h3 class="mg-b-20">Masyarakat &amp Negara</h3>
+                <h3 class="mg-b-20">Masyarakat & Negara</h3>
                 <p>Menciptakan lingkungan kerja yang nyaman bagi karyawan, mewujudkan insan perusahaan yang fokus pada pelanggan, bertintegritas, bangga kepada perusahaan dan budayanya, serta memberikan kesejahteraan dan kepuasan kepada karyawan</p>
               </div>
             </section>
@@ -215,4 +215,61 @@
       </div>
     </section>
     <!-- /LOGO -->
+    <!-- SERTIFIKASI -->
+    <section class="lightWhiteSec">
+      <div class="container-fluid wow fadeInUpBig">
+        <section class="row pd-bt-30 mg-bt-10">
+          <div class="col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1">
+            <h2 class="roboBlack alignCenter">SERTIFIKASI</h2>
+            <section class="row">
+              <div class="col-md-3 col-sm-6">
+                <section class="pd-5">
+                  <figure class="bg-img-contain">
+                    <img src="{{ url('img/bg-square.png') }}" alt="" style="background-image: url(' {{ url('img/blog01.jpg') }} ')" class="">
+                  </figure>
+                  <div class="alignCenter pd-t-10">
+                    <h4 class="roboBold">Lorem ipsum dolor sit.</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis, repellendus?</p>
+                  </div>
+                </section>
+              </div>
+              <div class="col-md-3 col-sm-6">
+                <section class="pd-5">
+                  <figure class="bg-img-contain">
+                    <img src="{{ url('img/bg-square.png') }}" alt="" style="background-image: url(' {{ url('img/4.jpg') }} ')" class="">
+                  </figure>
+                  <div class="alignCenter pd-t-10">
+                    <h4 class="roboBold">Lorem ipsum dolor sit.</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis, repellendus?</p>
+                  </div>
+                </section>
+              </div>
+              <div class="col-md-3 col-sm-6">
+                <section class="pd-5">
+                  <figure class="bg-img-contain">
+                    <img src="{{ url('img/bg-square.png') }}" alt="" style="background-image: url(' {{ url('img/slide1.jpg') }} ')" class="">
+                  </figure>
+                  <div class="alignCenter pd-t-10">
+                    <h4 class="roboBold">Lorem ipsum dolor sit.</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis, repellendus?</p>
+                  </div>
+                </section>
+              </div>
+              <div class="col-md-3 col-sm-6">
+                <section class="pd-5">
+                  <figure class="bg-img-contain">
+                    <img src="{{ url('img/bg-square.png') }}" alt="" style="background-image: url(' {{ url('img/stevedooring-argodooring-01.jpg') }} ')" class="">
+                  </figure>
+                  <div class="alignCenter pd-t-10">
+                    <h4 class="roboBold">Lorem ipsum dolor sit.</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis, repellendus?</p>
+                  </div>
+                </section>
+              </div>
+            </section>
+          </div>
+        </section>
+      </div>
+    </section>
+    <!-- /SERTIFIKASI -->
 @endsection
