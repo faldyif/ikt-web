@@ -15,9 +15,9 @@ class CreateNewsTable extends Migration
     {
         Schema::create('news', function (Blueprint $table) {
             $table->increments('id'); // id berita
-            $table->boolean('active')->default(1); // untuk memisahkan berita yang aktif dan tidak
             $table->integer('view_count')->default(0); // jumlah page view
             $table->timestamps();
+            $table->softDeletes();
         });
     }
 

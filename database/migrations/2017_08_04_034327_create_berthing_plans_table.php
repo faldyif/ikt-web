@@ -21,6 +21,7 @@ class CreateBerthingPlansTable extends Migration
             $table->string('agent'); // shipping line/agent
             $table->string('voy'); // VOY
             $table->timestamps();
+            $table->softDeletes();
         });
     }
 

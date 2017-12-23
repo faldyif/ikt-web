@@ -26,6 +26,7 @@ class CreateAlbumsTable extends Migration
             $table->text('description_jp')->nullable(); // deskripsi album japan
             $table->integer('view_count')->default(0); // jumlah page view
             $table->timestamps();
+            $table->softDeletes();
         });
     }
 
