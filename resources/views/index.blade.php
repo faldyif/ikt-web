@@ -87,6 +87,30 @@
          src="{{ url('img/ikt.png') }}">
   </section>
 </section>
+
+<!-- Puisi -->
+<section id="puisi" class="pagecontent">
+  <div class="container-fluid">
+    <center>
+      <div class="quote"><i class="fa fa-quote-left fa-4x"></i></div>
+        <blockquote class="blockquote puisi">
+          <p class="mb-0">
+            <i>
+              Tujuan hidup manusia, salah satunya adalah memberikan manfaat bagi sesama.<br/>
+              Begitu pula sebuah perusahaan, dari awal didirikan agar bisa tumbuh dan bermanfaat bagi kehidupan lingkungan di sekitarnya, bangsa dan negara.<br/>
+              <br/>
+              Kendati peran yang diamanatkan ke kita bisa berbeda.<br/>
+              Namun tujuan kita adalah satu.<br/>
+              Yaitu kontribusi pada kemajuan ibu pertiwi, kejayaan negeri ini, kebangkitan bangsa ini, tegaknya merah putih ini dan kemakmuran rakyat serta nusantara ini.<br/>
+              <br/>
+              Demikian pula, PT Indoensia Kendaraan Terminal yang merupakan salah satu anak perusahaan PT Pelabuhan Indonesia II (Persero) memiliki komitmen untuk dapat berbagi melalui <strong>pengelolaan terminal kendaraan berkelas dunia yang unggul dalam operasional dan pelayanan.</strong> Yang pada akhirnya dapat menjadikan salah satu karya kebanggaan Bangsa Indonesia. </p>
+            <small>Indonesia Kendaraan Terminal</small>
+            </i>
+        </blockquote>
+    </center>
+  </div>
+</section>
+
 <!--/HERO-->
     <!--ABOUT-->
     <section id="about" class="pagecontent">
@@ -96,7 +120,7 @@
             <hr class="hrSpec hrSpecOrange">
             <h3 class="mg-b-0 roboBlack">Tentang Kami</h3>
             <h2 class="mg-b-30 mg-t-5 roboLight">Indonesia Kendaraan Terminal</h2>
-            <p class="big">Indonesia Kendaraan Terminal Merupakan Perusahaan Kendaraan Terminal yang Beroperasi Tanjung Priok Jakarta Indonesia, memberikan pelayanan Cargodooring, Stevedoring, Receiving & delevering serta berbagai Pelayanan Terbaik untuk Pelanggan Kami.</p>
+            <p class="big">Indonesia Kendaraan Terminal Merupakan Perusahaan Kendaraan Terminal yang Beroperasi Tanjung Priok Jakarta Indonesia, memberikan pelayanan Cargodooring, Stevedoring, Receiving & Delivering serta berbagai Pelayanan Terbaik untuk Pelanggan Kami.</p>
             <!-- <p><a href="#" class="roboMedium">Selengkapnya</a></p> -->
           </div>
           <div class="col-md-6 col-sm-6 figAbout wow fadeInRightBig" data-wow-delay="0.5s">
