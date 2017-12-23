@@ -470,7 +470,6 @@
   {{--<script src="{{ url('js/particle.js') }}"></script>--}}
   <script src="https://nextparticle.nextco.de/nextparticle.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/dat-gui/0.6.4/dat.gui.min.js"></script>
-  <link href="{{ url('css/font-awesome.css') }}" rel="stylesheet"></link>
   <script type="text/javascript">
       var nextParticle = new NextParticle(document.all.logo);
 
@@ -481,7 +480,7 @@
           nextParticle.start();
       });
   </script>
-  <script type="text/javascript">
+  <script>
     // ===== Scroll to Top ==== 
     $(window).scroll(function() {
         if ($(this).scrollTop() >= 50) {        // If page is scrolled more than 50px

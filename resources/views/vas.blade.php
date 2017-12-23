@@ -4,6 +4,7 @@
 
 @section('content')
 <!--HERO-->
+<link href="{{ url('css/circle-vas.css') }}" rel="stylesheet"></link>
 <section id="heroTitle">
 <div class="heroTitle" style="background-image: url('{{ url('img/2.jpg') }}');">
     <div class="overlay"></div>
@@ -91,7 +92,47 @@
         <div class="col-md-9">
           <div class="tab-content">
             <div id="home" class="tab-pane fade in active">
-                <p>Deskripsi Konten:</p>
+            <section class="main">
+			
+				<ul class="ch-grid">
+                <li>
+                    <div class="ch-item">
+                        <div class="ch-info">
+                            <div class="ch-info-front ch-img-2"></div>
+                            <div class="ch-info-back">
+                                <h3>You</h3>
+                                <p>by Zoe Ingram <a href="http://drbl.in/eCcV">View on Dribbble</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+					<li>
+						<div class="ch-item">
+							<div class="ch-info">
+								<div class="ch-info-front ch-img-2"></div>
+								<div class="ch-info-back">
+									<h3>You</h3>
+									<p>by Zoe Ingram <a href="http://drbl.in/eCcV">View on Dribbble</a></p>
+								</div>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="ch-item">
+							<div class="ch-info">
+								<div class="ch-info-front ch-img-3"></div>
+								<div class="ch-info-back">
+									<h3>Love</h3>
+									<p>by Eileen Tjan <a href="http://drbl.in/ewTL">View on Dribbble</a></p>
+								</div>
+							</div>
+						</div>
+					</li>
+				</ul>
+				
+			</section>    
+
+
             </div>
             <div id="menu0" class="tab-pane fade">
                 <p>Deskripsi Konten:</p>
@@ -124,3 +165,5 @@
 </section>
 <!---->
 @endsection
+
+<script type="text/javascript" src="{{ url('js/circle-vas.js') }}"></script>
