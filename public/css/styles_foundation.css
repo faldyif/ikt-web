@@ -88,7 +88,7 @@ a {
   a:hover {
     color: #fac312; }
 
-.row {
+.rows {
   max-width: 74em; }
 
 hr {
@@ -973,8 +973,11 @@ blockquote footer {
     padding: 30px 30px;
     background-color: #f8f8f8;
     position: relative;
-    -webkit-transition: background-color 0.5s ease-in-out;
-    transition: background-color 0.5s ease-in-out;
+    -moz-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    /*-webkit-transition: background-color 0.5s ease-in-out;
+    transition: background-color 0.5s ease-in-out;*/
     overflow: hidden; }
     .block-service_item-title h3 {
       font-size: 20px;
@@ -996,7 +999,11 @@ blockquote footer {
     .block-service_item .button {
       letter-spacing: 0; }
     .block-service_item:hover, .block-service_item.active {
-      background: #fac312; }
+      background: #fac312; 
+      -moz-transform: scale(1.1);
+      -webkit-transform: scale(1.1);
+      transform: scale(1.1);
+    }
       .block-service_item:hover .block-service_item-desc, .block-service_item.active .block-service_item-desc {
         display: block;
         color: #FFFFFF;
