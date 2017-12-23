@@ -493,41 +493,41 @@ button {
 .is-hidden {
   display: none !important; }
 
-.row {
+.rows {
   max-width: 75rem;
   margin-right: auto;
   margin-left: auto; }
-  .row::before, .row::after {
+  .rows::before, .row::after {
     display: table;
     content: ' '; }
-  .row::after {
+  .rows::after {
     clear: both; }
-  .row.collapse > .column, .row.collapse > .columns {
+  .rows.collapse > .column, .rows.collapse > .columns {
     padding-right: 0;
     padding-left: 0; }
-  .row .row {
+  .rows .rows {
     margin-right: -0.625rem;
     margin-left: -0.625rem; }
     @media print, screen and (min-width: 40em) {
-      .row .row {
+      .rows .rows {
         margin-right: -0.9375rem;
         margin-left: -0.9375rem; } }
     @media print, screen and (min-width: 64em) {
-      .row .row {
+      .rows .rows {
         margin-right: -0.9375rem;
         margin-left: -0.9375rem; } }
-    .row .row.collapse {
+    .rows .rows.collapse {
       margin-right: 0;
       margin-left: 0; }
-  .row.expanded {
+  .rows.expanded {
     max-width: none; }
-    .row.expanded .row {
+    .rows.expanded .rows {
       margin-right: auto;
       margin-left: auto; }
-  .row.gutter-small > .column, .row.gutter-small > .columns {
+  .row.gutter-small > .column, .rows.gutter-small > .columns {
     padding-right: 0.625rem;
     padding-left: 0.625rem; }
-  .row.gutter-medium > .column, .row.gutter-medium > .columns {
+  .rows.gutter-medium > .column, .rows.gutter-medium > .columns {
     padding-right: 0.9375rem;
     padding-left: 0.9375rem; }
 
@@ -545,10 +545,10 @@ button {
   .column.end:last-child:last-child, .end.columns:last-child:last-child {
     float: left; }
 
-.column.row.row, .row.row.columns {
+.column.rows.rows, .rows.rows.columns {
   float: none; }
 
-.row .column.row.row, .row .row.row.columns {
+.rows .column.rows.rows, .rows .rows.rows.columns {
   margin-right: 0;
   margin-left: 0;
   padding-right: 0;
@@ -798,11 +798,11 @@ button {
   padding-right: 0;
   padding-left: 0; }
 
-.small-collapse .row {
+.small-collapse .rows {
   margin-right: 0;
   margin-left: 0; }
 
-.expanded.row .small-collapse.row {
+.expanded.rows .small-collapse.rows {
   margin-right: 0;
   margin-left: 0; }
 
@@ -1015,10 +1015,10 @@ button {
   .medium-collapse > .column, .medium-collapse > .columns {
     padding-right: 0;
     padding-left: 0; }
-  .medium-collapse .row {
+  .medium-collapse .rows {
     margin-right: 0;
     margin-left: 0; }
-  .expanded.row .medium-collapse.row {
+  .expanded.rows .medium-collapse.rows {
     margin-right: 0;
     margin-left: 0; }
   .medium-uncollapse > .column, .medium-uncollapse > .columns {
@@ -1228,10 +1228,10 @@ button {
   .large-collapse > .column, .large-collapse > .columns {
     padding-right: 0;
     padding-left: 0; }
-  .large-collapse .row {
+  .large-collapse .rows {
     margin-right: 0;
     margin-left: 0; }
-  .expanded.row .large-collapse.row {
+  .expanded.rows .large-collapse.rows {
     margin-right: 0;
     margin-left: 0; }
   .large-uncollapse > .column, .large-uncollapse > .columns {
@@ -4418,41 +4418,41 @@ button {
 .is-hidden {
   display: none !important; }
 
-.row {
+.rows {
   max-width: 75rem;
   margin-right: auto;
   margin-left: auto; }
-  .row::before, .row::after {
+  .rows::before, .rows::after {
     display: table;
     content: ' '; }
-  .row::after {
+  .rows::after {
     clear: both; }
-  .row.collapse > .column, .row.collapse > .columns {
+  .rows.collapse > .column, .rows.collapse > .columns {
     padding-right: 0;
     padding-left: 0; }
-  .row .row {
+  .rows .rows {
     margin-right: -0.625rem;
     margin-left: -0.625rem; }
     @media print, screen and (min-width: 40em) {
-      .row .row {
+      .rows .rows {
         margin-right: -0.9375rem;
         margin-left: -0.9375rem; } }
     @media print, screen and (min-width: 64em) {
-      .row .row {
+      .rows .rows {
         margin-right: -0.9375rem;
         margin-left: -0.9375rem; } }
-    .row .row.collapse {
+    .rows .rows.collapse {
       margin-right: 0;
       margin-left: 0; }
-  .row.expanded {
+  .rows.expanded {
     max-width: none; }
-    .row.expanded .row {
+    .rows.expanded .rows {
       margin-right: auto;
       margin-left: auto; }
-  .row.gutter-small > .column, .row.gutter-small > .columns {
+  .rows.gutter-small > .column, .rows.gutter-small > .columns {
     padding-right: 0.625rem;
     padding-left: 0.625rem; }
-  .row.gutter-medium > .column, .row.gutter-medium > .columns {
+  .rows.gutter-medium > .column, .rows.gutter-medium > .columns {
     padding-right: 0.9375rem;
     padding-left: 0.9375rem; }
 
@@ -4470,10 +4470,10 @@ button {
   .column.end:last-child:last-child, .end.columns:last-child:last-child {
     float: left; }
 
-.column.row.row, .row.row.columns {
+.column.rows.rows, .rows.rows.columns {
   float: none; }
 
-.row .column.row.row, .row .row.row.columns {
+.rows .column.rows.rows, .rows .rows.rows.columns {
   margin-right: 0;
   margin-left: 0;
   padding-right: 0;
@@ -4723,11 +4723,11 @@ button {
   padding-right: 0;
   padding-left: 0; }
 
-.small-collapse .row {
+.small-collapse .rows {
   margin-right: 0;
   margin-left: 0; }
 
-.expanded.row .small-collapse.row {
+.expanded.rows .small-collapse.rows {
   margin-right: 0;
   margin-left: 0; }
 
@@ -4940,10 +4940,10 @@ button {
   .medium-collapse > .column, .medium-collapse > .columns {
     padding-right: 0;
     padding-left: 0; }
-  .medium-collapse .row {
+  .medium-collapse .rows {
     margin-right: 0;
     margin-left: 0; }
-  .expanded.row .medium-collapse.row {
+  .expanded.rows .medium-collapse.rows {
     margin-right: 0;
     margin-left: 0; }
   .medium-uncollapse > .column, .medium-uncollapse > .columns {
@@ -5153,10 +5153,10 @@ button {
   .large-collapse > .column, .large-collapse > .columns {
     padding-right: 0;
     padding-left: 0; }
-  .large-collapse .row {
+  .large-collapse .rows {
     margin-right: 0;
     margin-left: 0; }
-  .expanded.row .large-collapse.row {
+  .expanded.rows .large-collapse.rows {
     margin-right: 0;
     margin-left: 0; }
   .large-uncollapse > .column, .large-uncollapse > .columns {

@@ -1,7 +1,7 @@
+<link rel="stylesheet" type="text/css" href="{{ url('css/foundation.css') }}">
+<link rel="stylesheet" type="text/css" href="{{ url('css/styles_foundation.css') }}"> 
 @extends('layout.app-with-footer')
 
-  <link rel="stylesheet" type="text/css" href="{{ url('css/foundation.css') }}">
-  <link rel="stylesheet" type="text/css" href="{{ url('css/styles_foundation.css') }}">
 @section('title', trans('stevedoring.head-title') . ' | IPC Car Terminal')
 
 @section('content')
@@ -20,7 +20,7 @@
   <section>
     <div class="container-fluid wow fadeInUpBig">
       <section class="row pd-t-20">
-        <div class="col-md-9 col-sm-10 col-sm-offset-3 pd-bt-30">
+        <div class="col-md-10 col-sm-10 col-sm-offset-1 pd-bt-30">
             <!-- Content starts here -->
             {!! trans('stevedoring.content') !!}
           <!-- End content -->

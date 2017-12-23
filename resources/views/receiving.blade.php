@@ -18,7 +18,7 @@
     <section>
       <div class="container-fluid wow fadeInUpBig">
         <section class="row pd-t-20">
-          <div class="col-md-9 col-sm-10 col-sm-offset-1 pd-bt-30">
+          <div class="col-md-10 col-sm-10 col-sm-offset-1 pd-bt-30">
             {!! trans('receiving.content') !!}
             
           </div>
