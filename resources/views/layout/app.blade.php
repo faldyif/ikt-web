@@ -89,13 +89,14 @@
           <li class="has-children has-children-right"><a href="#">{{ strtoupper(trans('menu.information-center')) }}</a>
             <ul class="dropdown-menu dropdown-menu-opacity">
               <li><a href="{{ route('news') }}">{{ trans('menu.news') }}</a></li>
+              <li><a href="{{ route('gallery') }}">{{ trans('menu.gallery') }}</a></li>
               <li><a href="{{ route('press-release') }}">{{ trans('menu.press-release') }}</a></li>
               <li><a href="{{ route('annual') }}">{{ trans('menu.annual-report') }}</a></li>
               <li><a href="{{ route('statistic') }}">{{ trans('menu.statistic-data') }}</a></li>
               <li><a href="{{ route('company.clients') }}">{{ trans('menu.our-customer') }}</a></li>
               <li><a href="{{ route('company.procurement') }}">{{ trans('menu.procurement') }}</a></li>
               <li><a href="{{ route('company.magazine') }}">{{ trans('menu.limouzine-magazine') }}</a></li>
-              <li><a href="{{ route('gallery') }}">{{ trans('menu.gallery') }}</a></li>
+              
             </ul>
           </li>
           <li class="has-children-onClick has-children-right"><a><i class="fa fa-language fa-lg"></i></a>

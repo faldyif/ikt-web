@@ -259,6 +259,7 @@ news-list page
 	figure {
 		img {
 			@include img-bg();
+			background-size: contain;
 		}
 	}
 	.newsListSec {

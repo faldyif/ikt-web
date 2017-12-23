@@ -1110,7 +1110,8 @@ news-list page
 #news-list figure img {
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center; }
+  background-position: center;
+  background-size: contain; }
 #news-list .newsListSec {
   margin-top: 30px;
   position: relative; }
