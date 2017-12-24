@@ -76,30 +76,6 @@
          src="{{ url('img/ikt.png') }}">
   </section>
 </section>
-
-<!-- Puisi -->
-<section id="puisi" class="pagecontent">
-  <div class="container-fluid">
-    <center>
-      <div class="quote"><i class="fa fa-quote-left fa-4x"></i></div>
-        <blockquote class="blockquote puisi">
-          <p class="mb-0">
-            <i>
-              Tujuan hidup manusia, salah satunya adalah memberikan manfaat bagi sesama.<br/>
-              Begitu pula sebuah perusahaan, dari awal didirikan agar bisa tumbuh dan bermanfaat bagi kehidupan lingkungan di sekitarnya, bangsa dan negara.<br/>
-              <br/>
-              Kendati peran yang diamanatkan ke kita bisa berbeda.<br/>
-              Namun tujuan kita adalah satu.<br/>
-              Yaitu kontribusi pada kemajuan ibu pertiwi, kejayaan negeri ini, kebangkitan bangsa ini, tegaknya merah putih ini dan kemakmuran rakyat serta nusantara ini.<br/>
-              <br/>
-              Demikian pula, PT Indoensia Kendaraan Terminal yang merupakan salah satu anak perusahaan PT Pelabuhan Indonesia II (Persero) memiliki komitmen untuk dapat berbagi melalui <strong>pengelolaan terminal kendaraan berkelas dunia yang unggul dalam operasional dan pelayanan.</strong> Yang pada akhirnya dapat menjadikan salah satu karya kebanggaan Bangsa Indonesia. </p>
-            <small>PT. Indonesia Kendaraan Terminal</small>
-            </i>
-        </blockquote>
-    </center>
-  </div>
-</section>
-
 <!--/HERO-->
     <!--ABOUT-->
     <section id="about" class="pagecontent">
@@ -406,9 +382,30 @@
       <!--CONTACT-->
       <section id="contact" class="wow fadeInLeft">
         <section class="row noMag">
-          <div class="col-md-4">
-            <section class="contactInfo">
-              <h4 class="roboBold">Kontak Kami</h4>
+        <div class="pd-lr-0 col-md-6 col-sm-12">
+        <section class="contactInfo">
+          <div class="col-sm-12">
+            <h4 class="roboBold">Kontak Kami</h4>
+          </div>
+          <div class="col-md-8 col-sm-12"> 
+            <section class="row mg-lr-15 mg-t-30">
+              <i class="fa fa-map-marker fa-2x or floatLeft mg-r-20"></i>
+              <p class="small">JL Sindang Laut No. 101, Cilincing Jakarta Utara, 14110</p>
+            </section>
+            <section class="row mg-lr-15 mg-t-10">
+              <i class="fa fa-envelope-o fa-lg or floatLeft mg-r-20"></i>
+              <p class="small">info@indonesiacarterminal.co.id</p>
+            </section>
+            <section class="row mg-lr-15 mg-t-10">
+              <i class="fa fa-phone fa-lg or floatLeft mg-r-20"></i>
+              <p class="small">Customer Care : +62 811 933 9930</p>
+            </section>
+            <section class="row mg-lr-15 mg-t-10">
+              <i class="fa fa-phone fa-lg or floatLeft mg-r-20"></i>
+              <p class="small">+62 21 4393 2251</p>
+            </section>
+          </div>
+          <div class="col-md-4 col-sm-12">
               <section class="row mg-lr-15 mg-t-30">
                 <i class="fa fa-map-marker fa-2x or floatLeft mg-r-20"></i>
                 <p class="small">JL Sindang Laut, Cilincing Jakarta Utara, 14110</p>
@@ -432,12 +429,14 @@
               </section>
             </section>
           </div>
-          <div class="col-md-8 noPad hidden-400">
-            <div class="map">
-              <div class="overlay-map"></div>
-              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3967.1833851621095!2d106.91224451476846!3d-6.105991995578615!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xe329d8258290e493!2sTanjung+Priok+Car+Terminal+(TPT)!5e0!3m2!1sen!2sid!4v1501491377262" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-            </div>
-          </div>
+        </section>
+      </div>
+      <div class="col-md-6 noPad hidden-sm">
+        <div class="map">
+          <div class="overlay-map"></div>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3967.1833851621095!2d106.91224451476846!3d-6.105991995578615!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xe329d8258290e493!2sTanjung+Priok+Car+Terminal+(TPT)!5e0!3m2!1sen!2sid!4v1501491377262" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+        </div>
+      </div>
         </section>
       </section>
       </section>

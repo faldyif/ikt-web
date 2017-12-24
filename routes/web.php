@@ -238,6 +238,8 @@ Route::get(trans('routes.statistic'), function () {
     return view('statistic')->with('berthing', $berthing)->with('international', $international)->with('domestic', $domestic);
 })->name('statistic');
 
+Route::post('send/whistle_blowing', 'WhistleBlowingController@sendMail')->name('whistle.send');
+
 /*
  * Temporary/testing routes
  */
