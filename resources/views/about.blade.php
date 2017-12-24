@@ -20,7 +20,7 @@
         <section class="row pd-bt-30">
           <div class="col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1">
             <div class="col-md-5 col-sm-12">
-              <h3 class="roboLight" style="line-height: 1.4em">Indonesia Kendaraan Terminal Merupakan Perusahaan Kendaraan Terminal yang Beroperasi Tanjung Priok Jakarta Indonesia, memberikan pelayanan Cargodooring, Stevedoring, Receiving & delevering serta berbagai Pelayanan Terbaik untuk Pelanggan Kami.</h3>
+              <h3 class="roboLight" style="line-height: 1.4em">Indonesia Kendaraan Terminal Merupakan Perusahaan Kendaraan Terminal yang Beroperasi Tanjung Priok Jakarta Indonesia, memberikan pelayanan Cargodooring, Stevedoring, Receiving & Delivering serta berbagai Pelayanan Terbaik untuk Pelanggan Kami.</h3>
             </div>
             <div class="col-md-7 col-sm-12">
                 <hr class="hrSpec hrSpecOrange">

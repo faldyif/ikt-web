@@ -65,7 +65,7 @@
           </li>
           <li class="has-children"><a href="#">{{ strtoupper(trans('menu.services')) }}</a>
             <ul class="dropdown-menu dropdown-menu-opacity">
-              <li><a href="{{ route('service.stevedoring') }}">{{ trans('menu.stevedoring-cargodoring') }}</a></li>
+              <li><a href="{{ route('service.stevedoring') }}">{{ trans('menu.stevedoring-cargohandling') }}</a></li>
               <li><a href="{{ route('service.receiving') }}">{{ trans('menu.receiving-delivering') }}</a></li>
               <li><a href="{{ route('service.pdi') }}">Storages</a></li>
               <li><a href="{{ route('service.vas') }}">Value Added Services</a>
