@@ -31,8 +31,8 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand shine" href="{{ route('welcome') }}">
-          <img src="{{ url('img/ikt_putih.png') }}">
+        <a class="navbar-brand" href="{{ route('welcome') }}">
+          <img class="" src="{{ url('img/ikt-logo.gif') }}">
         </a>
       </div>
 
@@ -42,7 +42,7 @@
           <li class="has-children"><a>{{ strtoupper(trans('menu.about-us')) }}</a>
             <ul class="dropdown-menu dropdown-menu-opacity">
               <li><a href="{{ route('company.about') }}">{{ trans('menu.profile') }}</a></li>
-              <!-- <li><a href="{{ route('company.vision-mission') }}">{{ trans('menu.vision-mission') }}</a></li> -->
+              <li><a href="{{ route('company.ceo-message') }}">{{ trans('menu.ceo-message') }}</a></li>
               <li><a href="{{ route('company.history') }}">{{ trans('menu.company-history') }}</a></li>
               <li><a href="{{ route('company.gcg') }}">{{ trans('menu.gcg-application') }}</a></li>
                 
@@ -64,7 +64,7 @@
           </li>
           <li class="has-children"><a href="#">{{ strtoupper(trans('menu.services')) }}</a>
             <ul class="dropdown-menu dropdown-menu-opacity">
-              <li><a href="{{ route('service.stevedoring') }}">{{ trans('menu.stevedoring-cargodoring') }}</a></li>
+              <li><a href="{{ route('service.stevedoring') }}">{{ trans('menu.stevedoring-cargohandling') }}</a></li>
               <li><a href="{{ route('service.receiving') }}">{{ trans('menu.receiving-delivering') }}</a></li>
               <li><a href="{{ route('service.pdi') }}">Storages</a></li>
               <li><a href="{{ route('service.vas') }}">Value Added Services</a>
@@ -89,13 +89,14 @@
           <li class="has-children has-children-right"><a href="#">{{ strtoupper(trans('menu.information-center')) }}</a>
             <ul class="dropdown-menu dropdown-menu-opacity">
               <li><a href="{{ route('news') }}">{{ trans('menu.news') }}</a></li>
+              <li><a href="{{ route('gallery') }}">{{ trans('menu.gallery') }}</a></li>
               <li><a href="{{ route('press-release') }}">{{ trans('menu.press-release') }}</a></li>
               <li><a href="{{ route('annual') }}">{{ trans('menu.annual-report') }}</a></li>
               <li><a href="{{ route('statistic') }}">{{ trans('menu.statistic-data') }}</a></li>
               <li><a href="{{ route('company.clients') }}">{{ trans('menu.our-customer') }}</a></li>
               <li><a href="{{ route('company.procurement') }}">{{ trans('menu.procurement') }}</a></li>
               <li><a href="{{ route('company.magazine') }}">{{ trans('menu.limouzine-magazine') }}</a></li>
-              <li><a href="{{ route('gallery') }}">{{ trans('menu.gallery') }}</a></li>
+              
             </ul>
           </li>
           <li class="has-children-onClick has-children-right"><a><i class="fa fa-language fa-lg"></i></a>
@@ -152,14 +153,6 @@
   <script src="{{ url('js/jquery.fullpage.min.js') }}"></script>
   <script src="{{ url('js/masonry.js') }}"></script>
   <script src="{{ url('js/custom.js') }}"></script>
-  <script type="text/javascript">
-    setInterval(function () {
-      $('#my_button_div').addClass('shine');
-      setTimeout(function () {
-          $('#my_button_div').removeClass('shine');
-      }, 2000);
-  }, 6000);
-  </script>
   @yield('bottom')
 </body>
 </html>

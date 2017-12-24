@@ -11,7 +11,7 @@ return [
 
     // About Us submenu
     'profile' => 'Profile',
-    'vision-mission' => 'Vision Mission',
+    'ceo-message' => 'CEO Message',
     'company-history' => 'Company History',
     'gcg-application' => 'GCG Application',
     'company-culture' => 'Company Culture',
@@ -28,7 +28,7 @@ return [
     // End about us submenu
 
     // Services submenu
-    'stevedoring-cargodoring' => 'Stevedoring & cargodoring',
+    'stevedoring-cargohandling' => 'Stevedoring & Cargo Handling',
     'receiving-delivering' => 'Receiving & Delivery',
     'pre-delivery-inspection' => 'Pre Delivery Inspection',
     'value-added-services' => 'Value Added Services',

@@ -4,11 +4,14 @@ namespace App;
 
 use Cviebrock\EloquentSluggable\Sluggable;
 use Illuminate\Database\Eloquent\Model;
+use Illuminate\Database\Eloquent\SoftDeletes;
 
 class Album extends Model
 {
     protected $fillable = ['title', 'user_id', 'description'];
+    protected $dates = ['deleted_at'];
 
+    use SoftDeletes;
     use Sluggable;
 
     /**

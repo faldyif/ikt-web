@@ -20,6 +20,7 @@ class CreateTestimonialsTable extends Migration
             $table->text('testimonial'); // konten dari testimonial
             $table->string('filename'); // untuk menyimpan foto pengirim testimoni (disimpan di folder testi_media)
             $table->timestamps();
+            $table->softDeletes();
         });
     }
 

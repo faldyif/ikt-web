@@ -88,6 +88,10 @@ Route::get(trans('routes.company.about'), function () {
     return view('about');
 })->name('company.about');
 
+Route::get(trans('routes.company.ceo-message'), function () {
+    return view('about');
+})->name('company.ceo-message');
+
 Route::get(trans('routes.company.culture'), function () {
     return view('company-culture-1');
 })->name('company.culture');
