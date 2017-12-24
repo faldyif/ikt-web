@@ -11,7 +11,7 @@ return [
 
     // About Us submenu
     'profile' => 'Profil',
-    'vision-mission' => 'Visi Misi',
+    'ceo-message' => 'Pesan Dirut',
     'company-history' => 'Sejarah Perusahaan',
     'gcg-application' => 'Penerapan GCG',
     'company-culture' => 'Budaya Perusahaan',

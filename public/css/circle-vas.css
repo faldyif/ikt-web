@@ -1,7 +1,7 @@
 .ch-item {
-	width: 20%;
-	height: 20%;
-	border-radius: 50%;
+	width: 30%;
+	height: 30%;
+	border-radius: 30%;
 	position: relative;
 	cursor: default;
 	-webkit-perspective: 900px;
@@ -39,10 +39,6 @@
 	transform-origin: 50% 0%;
 }
 
-.ch-info .ch-info-front {
-	box-shadow: inset 0 0 0 16px rgba(0,0,0,0.3);
-}
-
 .ch-info .ch-info-back {
 	-webkit-transform: translate3d(0,0,-220px) rotate3d(1,0,0,90deg);
 	-moz-transform: translate3d(0,0,-220px) rotate3d(1,0,0,90deg);
@@ -55,6 +51,8 @@
 
 .ch-img-1 { 
 	background-image: url(../img/sd_CP.png);
+	max-width:100%;
+	height: auto;
 }
 
 .ch-img-2 { 

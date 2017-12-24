@@ -42,7 +42,7 @@
           <li class="has-children"><a>{{ strtoupper(trans('menu.about-us')) }}</a>
             <ul class="dropdown-menu dropdown-menu-opacity">
               <li><a href="{{ route('company.about') }}">{{ trans('menu.profile') }}</a></li>
-              <!-- <li><a href="{{ route('company.vision-mission') }}">{{ trans('menu.vision-mission') }}</a></li> -->
+              <li><a href="{{ route('company.ceo-message') }}">{{ trans('menu.ceo-message') }}</a></li>
               <li><a href="{{ route('company.history') }}">{{ trans('menu.company-history') }}</a></li>
               <li><a href="{{ route('company.gcg') }}">{{ trans('menu.gcg-application') }}</a></li>
                 

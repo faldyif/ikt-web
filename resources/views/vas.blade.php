@@ -4,7 +4,6 @@
 
 @section('content')
 <!--HERO-->
-<link href="{{ url('css/circle-vas.css') }}" rel="stylesheet"></link>
 <section id="heroTitle">
 <div class="heroTitle" style="background-image: url('{{ url('img/2.jpg') }}');">
     <div class="overlay"></div>
@@ -18,152 +17,203 @@
 <!-- -->
 <section>
 <div class="container-fluid wow fadeInUpBig">
-  <section class="row pd-bt-30 mg-bt-20">
-    <div class="col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1">
-      <section class="row be-block-768">
-        <div class="col-md-3">
-            <ul class="nav nav-pills nav-stacked">
-                <li class="active">
-                    <a data-toggle="pill" href="#home">
-                        <div class="be-flex">
-                            <i class="fa fa-th mg-r-15 mg-t-5"></i> <span>Perbaikan Ringan</span>
-                        </div>
-                    </a>
-                </li>
-            <li class="">
-              <a data-toggle="pill" href="#menu0">
-                <div class="be-flex">
-                  <i class="fa fa-th mg-r-15 mg-t-5"></i> <span>Pengecatan</span>
-                </div>
-              </a>
-            </li>
-            <li class="">
-              <a data-toggle="pill" href="#menu1">
-                <div class="be-flex">
-                  <i class="fa fa-th mg-r-15 mg-t-5"></i> <span>Perbaikan Mesin</span>
-                </div>
-               </a>
-             </li>
-            <li class="">
-              <a data-toggle="pill" href="#menu2">
-                <div class="be-flex">
-                 <i class="fa fa-th mg-r-15 mg-t-5"></i> <span>Pemasangan Aksesoris</span>
-                </div>
-               </a>
-             </li>
-              <li class="">
-                  <a data-toggle="pill" href="#menu3">
-                      <div class="be-flex">
-                          <i class="fa fa-th mg-r-15 mg-t-5"></i> <span>Pencucian</span>
-                      </div>
-                  </a>
-              </li>
-              <li class="">
-                  <a data-toggle="pill" href="#menu4">
-                      <div class="be-flex">
-                          <i class="fa fa-th mg-r-15 mg-t-5"></i> <span>Manajemen Suku Cadang</span>
-                      </div>
-                  </a>
-              </li>
-              <li class="">
-                  <a data-toggle="pill" href="#menu5">
-                      <div class="be-flex">
-                          <i class="fa fa-th mg-r-15 mg-t-5"></i> <span>Marking & Labeling</span>
-                      </div>
-                  </a>
-              </li>
-              <li class="">
-                  <a data-toggle="pill" href="#menu6">
-                      <div class="be-flex">
-                          <i class="fa fa-th mg-r-15 mg-t-5"></i> <span>Inspeksi Jelang Pengiriman</span>
-                      </div>
-                  </a>
-              </li>
-              <li class="">
-                  <a data-toggle="pill" href="#menu7">
-                      <div class="be-flex">
-                          <i class="fa fa-th mg-r-15 mg-t-5"></i> <span>Port Stock</span>
-                      </div>
-                  </a>
-              </li>
-              
-          </ul>
-        </div>
-        <div class="col-md-9">
-          <div class="tab-content">
-            <div id="home" class="tab-pane fade in active">
-            <section class="main">
-			
-				<ul class="ch-grid">
-                <li>
-                    <div class="ch-item">
-                        <div class="ch-info">
-                            <div class="ch-info-front ch-img-2"></div>
-                            <div class="ch-info-back">
-                                <h3>You</h3>
-                                <p>by Zoe Ingram <a href="http://drbl.in/eCcV">View on Dribbble</a></p>
+  <!-- div st service -->
+                <div class="col-md-12 pd-bt-20">
+                  <!-- div col-12 -->
+                  <div class="col-md-12">
+                    <hr class="hrSpec hrSpecOrange">
+                    <h3 class="mg-b-30 roboBold">Value Added Services</h3>
+
+                    <!-- section-content -->
+                    <div class="section-content m-t-60">
+
+                      <!-- equalizer -->
+                      <div class="rows small-up-1 medium-up-2 large-up-3 block-service" data-equalizer data-equalize-by-row="true" style="padding-top:15px;">
+                        <!-- Loops through "images" array -->
+
+                        <!-- 1 -->
+                        <div class="column m-b-30">
+                          <div class="block-service_item " data-equalizer-watch>
+                            <div class="block-service_item-icon">
+                              <img class="img-responsive" src="{{ url("img/vas_mr.png") }}">
                             </div>
+                            <div class="block-service_item-title">
+                              <h3>Minor Repairing</h3>
+                            </div>
+                            <div class="block-service_item-desc">
+                              <p>Perbaikan Ringan</p>
+                            </div>
+                            <div class="block-service_item-bgicon">
+                              <img class="img-responsive" style="width: 200px; height: auto" src=" {{url("img/vas_mr.png") }}" aria-hidden="">
+                            </div>
+                          </div>
                         </div>
+                        <!-- //1 -->
+
+                        <!-- 2 -->
+                        <div class="column m-b-30">
+                          <div class="block-service_item " data-equalizer-watch>
+                            <div class="block-service_item-icon">
+                              <img class="img-responsive" src="{{url("img/vas_paint.png")}}">
+                            </div>
+                            <div class="block-service_item-title">
+                              <h3>Painting</h3>
+                            </div>
+                            <div class="block-service_item-desc">
+                              <p>Pengecatan</p>
+                            </div>
+                            <div class="block-service_item-bgicon">
+                              <img class="img-responsive" style="width: 200px; height: auto" src="{{url("img/vas_paint.png")}}" aria-hidden="">
+                            </div>
+                          </div>
+                        </div>
+                        <!-- //2 -->
+
+                        <!-- 3 -->
+                        <div class="column m-b-30">
+                          <div class="block-service_item " data-equalizer-watch>
+                            <div class="block-service_item-icon">
+                              <img class="img-responsive" src="{{ url("img/vas_er.png") }}">
+                            </div>
+                            <div class="block-service_item-title">
+                              <h3>Engine Repair</h3>
+                            </div>
+                            <div class="block-service_item-desc">
+                              <p>Perbaikan Mesin</p>
+                            </div>
+                            <div class="block-service_item-bgicon">
+                              <img class="img-responsive" style="width: 200px; height: auto" src="{{ url("img/vas_er.png") }}" aria-hidden="">
+                            </div>
+                          </div>
+                        </div>
+                        <!-- //3 -->
+
+                        <!-- 4 -->
+                        <div class="column m-b-30">
+                          <div class="block-service_item " data-equalizer-watch>
+                            <div class="block-service_item-icon">
+                              <img class="img-responsive" src="{{ url("img/vas_gear.png") }}">
+                            </div>
+                            <div class="block-service_item-title">
+                              <h3>Accessories Installation</h3>
+                            </div>
+                            <div class="block-service_item-desc">
+                              <p>Pemasangan Aksesoris</p>
+                            </div>
+                            <div class="block-service_item-bgicon">
+                              <img class="img-responsive" style="width: 200px; height: auto" src="{{ url("img/vas_gear.png") }}" aria-hidden="">
+                            </div>
+                          </div>
+                        </div>
+                        <!-- //4 -->
+
+                        <!-- 5 -->
+                        <div class="column m-b-30">
+                          <div class="block-service_item " data-equalizer-watch>
+                            <div class="block-service_item-icon">
+                              <img class="img-responsive" src="{{ url("img/vas_bus.png") }}">
+                            </div>
+                            <div class="block-service_item-title">
+                              <h3>Washing</h3>
+                            </div>
+                            <div class="block-service_item-desc">
+                              <p>Pencucian</p>
+                            </div>
+                            <div class="block-service_item-bgicon">
+                              <img class="img-responsive" style="width: 200px; height: auto" src="{{ url("img/vas_bus.png") }}" aria-hidden="">
+                            </div>
+                          </div>
+                        </div>
+                        <!-- //5 -->
+
+                        <!-- 6 -->
+                        <div class="column m-b-30">
+                          <div class="block-service_item " data-equalizer-watch>
+                            <div class="block-service_item-icon">
+                              <img class="img-responsive" src="{{ url("img/vas_lcd.png") }}">
+                            </div>
+                            <div class="block-service_item-title">
+                              <h3>Sparepart Management</h3>
+                            </div>
+                            <div class="block-service_item-desc">
+                              <p>Manajemen Suku Cadang</p>
+                            </div>
+                            <div class="block-service_item-bgicon">
+                              <img class="img-responsive" style="width: 200px; height: auto" src="{{ url("img/vas_lcd.png") }}" aria-hidden="">
+                            </div>
+                          </div>
+                        </div>
+                        <!-- //6 -->
+
+                        <!-- 7 -->
+                        <div class="column m-b-30">
+                          <div class="block-service_item " data-equalizer-watch>
+                            <div class="block-service_item-icon">
+                              <img class="img-responsive" src="{{ url("img/vas_bar.png") }}">
+                            </div>
+                            <div class="block-service_item-title">
+                              <h3>Marking & Labelling</h3>
+                            </div>
+                            <div class="block-service_item-desc">
+                              <p>Pemberian Marker dan Label</p>
+                            </div>
+                            <div class="block-service_item-bgicon">
+                              <img class="img-responsive" style="width: 200px; height: auto" src="{{ url("img/vas_bar.png") }}" aria-hidden="">
+                            </div>
+                          </div>
+                        </div>
+                        <!-- //7 -->
+
+                        <!-- 8 -->
+                        <div class="column m-b-30">
+                          <div class="block-service_item " data-equalizer-watch>
+                            <div class="block-service_item-icon">
+                              <img class="img-responsive" src="{{ url("img/vas_magnifier.png") }}">
+                            </div>
+                            <div class="block-service_item-title">
+                              <h3>Pre-Delivery Inspection</h3>
+                            </div>
+                            <div class="block-service_item-desc">
+                              <p>Inspeksi Jelang Pengiriman</p>
+                            </div>
+                            <div class="block-service_item-bgicon">
+                              <img class="img-responsive" style="width: 200px; height: auto" src="{{ url("img/vas_magnifier.png") }}" aria-hidden="">
+                            </div>
+                          </div>
+                        </div>
+                        <!-- //8 -->
+
+                        <!-- 9 -->
+                        <div class="column m-b-30">
+                          <div class="block-service_item " data-equalizer-watch>
+                            <div class="block-service_item-icon">
+                              <img class="img-responsive" src="{{ url("img/vas_car2.png") }}">
+                            </div>
+                            <div class="block-service_item-title">
+                              <h3>Pre-Port Stock, Port to Dear</h3>
+                            </div>
+                            <div class="block-service_item-desc">
+                              <p>Port Stock</p>
+                            </div>
+                            <div class="block-service_item-bgicon">
+                              <img class="img-responsive" style="width: 200px; height: auto" src="{{ url("img/vas_car2.png") }}" aria-hidden="">
+                            </div>
+                          </div>
+                        </div>
+                        <!-- //9 -->
+                      </div>
+                      <!-- //equalizer -->
                     </div>
-                </li>
-					<li>
-						<div class="ch-item">
-							<div class="ch-info">
-								<div class="ch-info-front ch-img-2"></div>
-								<div class="ch-info-back">
-									<h3>You</h3>
-									<p>by Zoe Ingram <a href="http://drbl.in/eCcV">View on Dribbble</a></p>
-								</div>
-							</div>
-						</div>
-					</li>
-					<li>
-						<div class="ch-item">
-							<div class="ch-info">
-								<div class="ch-info-front ch-img-3"></div>
-								<div class="ch-info-back">
-									<h3>Love</h3>
-									<p>by Eileen Tjan <a href="http://drbl.in/ewTL">View on Dribbble</a></p>
-								</div>
-							</div>
-						</div>
-					</li>
-				</ul>
-				
-			</section>    
-
-
-            </div>
-            <div id="menu0" class="tab-pane fade">
-                <p>Deskripsi Konten:</p>
-            </div>
-            <div id="menu1" class="tab-pane fade">
-                <p>Deskripsi Konten:</p>
-            </div>
-            <div id="menu2" class="tab-pane fade">
-
-                <p>Deskripsi Konten:</p>
-            </div>
-              <div id="menu3" class="tab-pane fade">
-                  <p>Deskripsi Konten:</p>
-              </div>
-              <div id="menu4" class="tab-pane fade">
-                  <p>Deskripsi Konten:</p>
-              </div>
-              <div id="menu5" class="tab-pane fade">
-                  <p>Deskripsi Konten:</p>
-              </div>
-              <div id="menu6" class="tab-pane fade">
-                  <p>Deskripsi Konten:</p>
-              </div>
-          </div>
-        </div>
-      </section>
-    </div>
-  </section>
+                    <!-- //section-content -->
+                  </div>
+                  <!-- //div col-12 -->
+                </div>
+                <!-- //div st service -->
 </div>
 </section>
 <!---->
 @endsection
 
-<script type="text/javascript" src="{{ url('js/circle-vas.js') }}"></script>
+@section('bottom')
+<link href="{{ url('css/foundation.css') }}" rel="stylesheet"></link>
+<link href="{{ url('css/styles_foundation2.css') }}" rel="stylesheet"></link>
