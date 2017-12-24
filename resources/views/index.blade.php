@@ -76,6 +76,33 @@
          src="{{ url('img/ikt.png') }}">
   </section>
 </section>
+<<<<<<< HEAD
+=======
+
+<!-- Puisi -->
+<section id="puisi" class="pagecontent">
+  <div class="container-fluid">
+    <center>
+      <div class="quote"><i class="fa fa-quote-left fa-4x"></i></div>
+        <blockquote class="blockquote puisi">
+          <p class="mb-0">
+            <i>
+              Tujuan hidup manusia, salah satunya adalah memberikan manfaat bagi sesama.<br/>
+              Begitu pula sebuah perusahaan, dari awal didirikan agar bisa tumbuh dan bermanfaat bagi kehidupan lingkungan di sekitarnya, bangsa dan negara.<br/>
+              <br/>
+              Kendati peran yang diamanatkan ke kita bisa berbeda.<br/>
+              Namun tujuan kita adalah satu.<br/>
+              Yaitu kontribusi pada kemajuan ibu pertiwi, kejayaan negeri ini, kebangkitan bangsa ini, tegaknya merah putih ini dan kemakmuran rakyat serta nusantara ini.<br/>
+              <br/>
+              Demikian pula, PT Indoensia Kendaraan Terminal yang merupakan salah satu anak perusahaan PT Pelabuhan Indonesia II (Persero) memiliki komitmen untuk dapat berbagi melalui <strong>pengelolaan terminal kendaraan berkelas dunia yang unggul dalam operasional dan pelayanan.</strong> Yang pada akhirnya dapat menjadikan salah satu karya kebanggaan Bangsa Indonesia. </p>
+            <small>PT. Indonesia Kendaraan Terminal</small>
+            </i>
+        </blockquote>
+    </center>
+  </div>
+</section>
+
+>>>>>>> origin/dev-den
 <!--/HERO-->
     <!--ABOUT-->
     <section id="about" class="pagecontent">
@@ -379,7 +406,7 @@
       </div>
     </section>
     <!--/TESTI-->
-      <!--CONTACT-->
+ <!--CONTACT-->
       <section id="contact" class="wow fadeInLeft">
         <section class="row noMag">
         <div class="pd-lr-0 col-md-6 col-sm-12">
@@ -434,16 +461,20 @@
       <div class="col-md-6 noPad hidden-sm">
         <div class="map">
           <div class="overlay-map"></div>
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3967.1833851621095!2d106.91224451476846!3d-6.105991995578615!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xe329d8258290e493!2sTanjung+Priok+Car+Terminal+(TPT)!5e0!3m2!1sen!2sid!4v1501491377262" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3967.1833851621095!2d106.91224451476846!3d-6.105991995578615!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xe329d8258290e493!2sTanjung+Priok+Car+Terminal+(TPT)!5e0!3m2!1sen!2sid!4v1501491377262" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
         </div>
       </div>
-        </section>
       </section>
+    </section>
       </section>
     <!--/CONTACT-->
     <!--footer-->
     <!-- <div class="hiddenSec"></div> -->
+<<<<<<< HEAD
     <!--CONTACT-->
+=======
+<!--CONTACT-->
+>>>>>>> origin/dev-den
 
     <!-- Return to Top -->
 <a href="javascript:" id="return-to-top"><i class="icon-chevron-up"></i></a>

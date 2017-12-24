@@ -89,7 +89,11 @@ Route::get(trans('routes.company.about'), function () {
 })->name('company.about');
 
 Route::get(trans('routes.company.ceo-message'), function () {
+<<<<<<< HEAD
     return view('about');
+=======
+    return view('ceo');
+>>>>>>> origin/dev-den
 })->name('company.ceo-message');
 
 Route::get(trans('routes.company.culture'), function () {
