@@ -10,13 +10,15 @@
         "dimsav/laravel-translatable": "7.*",
         "doctrine/dbal": "^2.5",
         "geoip2/geoip2": "~2.0",
+        "guzzlehttp/guzzle": "^6.3",
         "laravel/framework": "5.4.*",
         "laravel/tinker": "~1.0",
         "laravelcollective/html": "^5.4.0",
         "maatwebsite/excel": "~2.1.0",
         "petehouston/laravel-tinymce-simple-imageupload": "^1.1",
         "sammyk/laravel-facebook-sdk": "^3.5",
-        "thujohn/twitter": "~2.0"
+        "thujohn/twitter": "~2.0",
+        "greggilbert/recaptcha": "dev-master"
     },
     "require-dev": {
         "fzaninotto/faker": "~1.4",
