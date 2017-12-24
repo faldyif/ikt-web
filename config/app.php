@@ -186,6 +186,7 @@ return [
         SammyK\LaravelFacebookSdk\LaravelFacebookSdkServiceProvider::class,
         Maatwebsite\Excel\ExcelServiceProvider::class,
         Thujohn\Twitter\TwitterServiceProvider::class,
+        Greggilbert\Recaptcha\RecaptchaServiceProvider::class,
     ],
 
     /*
@@ -241,6 +242,7 @@ return [
         'Facebook' => SammyK\LaravelFacebookSdk\FacebookFacade::class,
         'Excel' => Maatwebsite\Excel\Facades\Excel::class,
         'Twitter' => Thujohn\Twitter\Facades\Twitter::class,
+        'Recaptcha' => Greggilbert\Recaptcha\Facades\Recaptcha::class,
     ],
 
 ];

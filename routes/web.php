@@ -89,7 +89,7 @@ Route::get(trans('routes.company.about'), function () {
 })->name('company.about');
 
 Route::get(trans('routes.company.ceo-message'), function () {
-    return view('about');
+    return view('ceo');
 })->name('company.ceo-message');
 
 Route::get(trans('routes.company.culture'), function () {
@@ -237,6 +237,8 @@ Route::get(trans('routes.statistic'), function () {
 
     return view('statistic')->with('berthing', $berthing)->with('international', $international)->with('domestic', $domestic);
 })->name('statistic');
+
+Route::post('send/whistle_blowing', 'WhistleBlowingController@sendMail')->name('whistle.send');
 
 /*
  * Temporary/testing routes
