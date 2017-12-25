@@ -5,7 +5,7 @@
 @section('content')
 <!--HERO-->
 <section id="heroTitle">
-  <div class="heroTitle" style="background-image: url('{{ url('img/dirut.jpg') }}');">
+  <div class="heroTitle" style="background-image: url('{{ url('img/1a.jpg') }}');">
     <div class="overlay"></div>
     <section class="container-fluid pd-30">
       <h2 class="roboBold wh alignCenter" data-wow-delay="0.4s">Pesan Dirut</h2>
@@ -133,7 +133,7 @@
       </p><br/><br/>
 
       <p style="font-size: 22px; font-family: helvetica;"><i>Karyawan adalah Modal Penting</i></p>
-      
+
         <div class="col-sm-7">
           <img src="{{ url('img/pdf/4.jpg') }}" class="img-responsive">
         </div>
