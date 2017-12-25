@@ -12,6 +12,7 @@ return [
     'service.receiving' => 'receiving',
     'service.vas' => 'value-added-service',
     'company.about' => 'tentang',
+    'company.ceo-message' => 'ceo-message',
     'company.culture' => 'budaya-perusahaan',
     'company.history' => 'sejarah-perusahaan',
     'company.profile' => 'profil-perusahaan',

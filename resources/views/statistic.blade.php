@@ -170,6 +170,20 @@
                                     </table>
                                 </div>
                             </div>
+                            <hr class="hrSpec hrSpecOrange">
+                            <h4 class="card-title roboBold">Domestic Cargo Flow</h4>
+                            <br/>
+                            <div class="img">
+                                <img src="{{ url('img/domestic_cargo.png') }}" class="img-responsive">
+                            </div>
+                            <br/>
+                            <hr class="hrSpec hrSpecOrange">
+                            <h4 class="card-title roboBold">International Cargo Flow</h4>
+                            <br/>
+                            <div class="img">
+                                <img src="{{ url('img/inter_cargo.png') }}" class="img-responsive">
+                            </div>
+                            <br/>
                         </div>
                     </section>
                 </div>

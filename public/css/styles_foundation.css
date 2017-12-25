@@ -59,7 +59,7 @@
   font-family: "Open Sans", sans-serif;
   font-weight: 300;
   color: #7ac8ff;
-  text-transform: uppercase; }
+  text-transform: uppercase;}
 
 .base-title, .el-title, .el-number, .el-banner h5, .el-banner-large h4, .el-pricing_price, .section-header_title h2, .section-header_title h3, .block-addr_item-city h3, .block-partner_list-item h4, .block-newsletter h4, .block-tab-v .tabs.vertical .tabs-title h5, .block-tab-v_content-title, .block-tab-v_cover h3,
 .block-tab-v_cover .block-tab-v_content-title, .block-tab-wizard .tab-wizard-nav li.tabs-title > a[aria-selected='true'] h3, .block-tab-wizard .tab-wizard-nav li.tabs-title > a h3, .block-card-simple_title, .block-item_title, .block-item_number, .career-item_header-title, .single-content_postnav .-title, .text-box a {
@@ -980,7 +980,7 @@ blockquote footer {
     transition: background-color 0.5s ease-in-out;*/
     overflow: hidden; }
     .block-service_item-title h3 {
-      font-size: 20px;
+      font-size: 25px;
       font-family: "Montserrat", sans-serif;
       font-weight: 800;
       line-height: 1.3em;
@@ -1003,6 +1003,7 @@ blockquote footer {
       -moz-transform: scale(1.1);
       -webkit-transform: scale(1.1);
       transform: scale(1.1);
+      border-bottom-color: white;
     }
       .block-service_item:hover .block-service_item-desc, .block-service_item.active .block-service_item-desc {
         display: block;
@@ -1011,7 +1012,7 @@ blockquote footer {
       .block-service_item:hover .block-service_item-icon, .block-service_item.active .block-service_item-icon {
         display: none; }
       .block-service_item:hover .block-service_item-bgicon, .block-service_item.active .block-service_item-bgicon {
-        opacity: 0.2; }
+        opacity: 0.3; }
       .block-service_item:hover h3, .block-service_item.active h3 {
         color: #FFFFFF; }
   .block-testimoni {

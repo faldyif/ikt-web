@@ -11,7 +11,7 @@ return [
 
     // About Us submenu
     'profile' => 'Profile',
-    'vision-mission' => 'Vision Mission',
+    'ceo-message' => 'CEO Message',
     'company-history' => 'Company History',
     'gcg-application' => 'GCG Application',
     'company-culture' => 'Company Culture',

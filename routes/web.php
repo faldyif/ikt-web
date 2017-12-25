@@ -80,13 +80,18 @@ Auth::routes();
 Route::get('/', 'IndexController@index')->name('welcome');
 // Route for redirection from /home to /admin if logged in
 Route::get(trans('routes.home'), 'HomeController@index')->name('home');
-
+// new home route
+Route::get('/newhome', 'IndexController@newhome')->name('welcome');
 /*
  * About company route group
  */
 Route::get(trans('routes.company.about'), function () {
     return view('about');
 })->name('company.about');
+
+Route::get(trans('routes.company.ceo-message'), function () {
+    return view('about');
+})->name('company.ceo-message');
 
 Route::get(trans('routes.company.culture'), function () {
     return view('company-culture-1');
@@ -233,6 +238,8 @@ Route::get(trans('routes.statistic'), function () {
 
     return view('statistic')->with('berthing', $berthing)->with('international', $international)->with('domestic', $domestic);
 })->name('statistic');
+
+Route::post('send/whistle_blowing', 'WhistleBlowingController@sendMail')->name('whistle.send');
 
 /*
  * Temporary/testing routes

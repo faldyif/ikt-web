@@ -12,6 +12,7 @@ return [
     'service.receiving' => 'receiving',
     'service.vas' => 'value-added-service',
     'company.about' => 'about',
+    'company.ceo-message' => 'ceo-message',
     'company.culture' => 'company-culture',
     'company.history' => 'company-history',
     'company.profile' => 'company-profile',
