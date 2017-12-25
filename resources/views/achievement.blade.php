@@ -27,6 +27,22 @@
               <div class="timeline-badge"><i class="fa fa-trophy"></i></div>
               <div class="timeline-panel">
                 <div class="timeline-heading">
+                  <p><span class="roboMedium normalTitle or">2014</span></p>
+                  <h4 class="timeline-title">Penilaian dengan kategori “PUAS” Audit Kepuasan Pelanggan (BPKP)</h4>
+                </div>
+              </div>
+            </li>
+            <li class="timeline-inverted">
+              <div class="timeline-panel">
+                <div class="timeline-heading">
+                  <p><span class="roboMedium normalTitle or">2014</span></p>
+                  <h4 class="timeline-title">Penilaian KAP dengan penilaian wajar terhadap semua hal yang materiil (EY)</h4>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="timeline-panel">
+                <div class="timeline-heading">
                   <img class="img-responsive" src="{{ url('img/ach_pelayanan_prima_2014.jpg')}}">
                   <p><span class="roboMedium normalTitle or">2014</span></p>
                   <h4 class="timeline-title">{{ trans('achievements.2014-1-title') }}</h4>
@@ -49,6 +65,14 @@
               </div>
             </li>
             <li>
+              <div class="timeline-panel">
+                <div class="timeline-heading">
+                  <p><span class="roboMedium normalTitle or">2015</span></p>
+                  <h4 class="timeline-title">Penilaian KAP dengan penilaian wajar terhadap semua hal yang materiil (EY)</h4>
+                </div>
+              </div>
+            </li>
+            <li class="timeline-inverted">
               <div class="timeline-badge"><i class="fa fa-trophy"></i></div>
               <div class="timeline-panel">
                 <div class="timeline-heading">
@@ -60,7 +84,7 @@
                 </div>
               </div>
             </li>
-            <li class="timeline">
+            <li>
               <div class="timeline-panel">
                 <div class="timeline-heading">
                   <p><span class="roboMedium normalTitle or">2016</span></p>
@@ -76,10 +100,34 @@
               <div class="timeline-panel">
                 <div class="timeline-heading">
                   <p><span class="roboMedium normalTitle or">2017</span></p>
+                  <h4 class="timeline-title">Implementasi sistem standar mutu operasional ISO 9001:2015</h4>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="timeline-panel">
+                <div class="timeline-heading">
+                  <p><span class="roboMedium normalTitle or">2017</span></p>
                   <h4 class="timeline-title">The Best Sales &amp Marketing in Sector : Subsidiary of BUMN Company</h4>
                 </div>
                 <div class="timeline-body">
                   <p class="roboMedium">Indonesia Sales Marketing Award 2017/ISMA 2017, Majalah Economic Review, Binus Business School, Indonesia-Asia Institute, Frontliner Services, Ideku Group</p>
+                </div>
+              </div>
+            </li>
+            <li class="timeline-inverted">
+              <div class="timeline-panel">
+                <div class="timeline-heading">
+                  <p><span class="roboMedium normalTitle or">2017</span></p>
+                  <h4 class="timeline-title">Implementasi sistem standar lingkungan ISO 14001:2015</h4>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="timeline-panel">
+                <div class="timeline-heading">
+                  <p><span class="roboMedium normalTitle or">2017</span></p>
+                  <h4 class="timeline-title">Implementasi sistem standar K3 OHSAS 18001:2007</h4>
                 </div>
               </div>
             </li>
@@ -94,7 +142,7 @@
                 </div>
               </div>
             </li>
-            <li class="timeline-inverted">
+            <li>
               <div class="timeline-panel">
                 <div class="timeline-heading">
                   <p><span class="roboMedium normalTitle or">2017</span></p>
@@ -105,25 +153,86 @@
                 </div>
               </div>
             </li>
-              <li class="timeline-inverted">
-                  <div class="timeline-panel">
-                      <div class="timeline-heading">
-                          <p><span class="roboMedium normalTitle or">2017</span></p>
-                          <h4 class="timeline-title">Speaker "Menyukseskan Tol Maritim, Roro Service Jakarta - Surabaya"</h4>
-                      </div>
-                  </div>
-              </li>
-              <li class="timeline-inverted">
-                  <div class="timeline-panel">
-                      <div class="timeline-heading">
-                          <p><span class="roboMedium normalTitle or">2017</span></p>
-                          <h4 class="timeline-title">The Best Performance Subsidiary of IPC</h4>
-                      </div>
-                      <div class="timeline-body">
-                          <p class="roboMedium">PT Pelabuhan Indonesia II (Persero)</p>
-                      </div>
-                  </div>
-              </li>
+            <li class="timeline-inverted">
+                <div class="timeline-panel">
+                    <div class="timeline-heading">
+                        <p><span class="roboMedium normalTitle or">2017</span></p>
+                        <h4 class="timeline-title">Speaker "Menyukseskan Tol Maritim, Roro Service Jakarta - Surabaya"</h4>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="timeline-panel">
+                    <div class="timeline-heading">
+                        <p><span class="roboMedium normalTitle or">2017</span></p>
+                        <h4 class="timeline-title">The Best Performance Subsidiary of IPC</h4>
+                    </div>
+                    <div class="timeline-body">
+                        <p class="roboMedium">PT Pelabuhan Indonesia II (Persero)</p>
+                    </div>
+                </div>
+            </li>
+            <li class="timeline-inverted">
+              <div class="timeline-panel">
+                <div class="timeline-heading">
+                  <img class="img-responsive" src="{{ url('img/achievement_2017.jpg')}}">
+                  <p><span class="roboMedium normalTitle or">2017</span></p>
+                  <h4 class="timeline-title">Dirut PT IKT sebagai The Best CMO Creative Branding & Marketing Initiative</h4>
+                </div>
+                <div class="timeline-body">
+                  <p class="roboMedium">– BUMN Subsidiary pada 5th BUMN Branding & Marketing Award 2017</p>
+          
+                </div>
+              </div>
+            </li>
+            <li>
+                <div class="timeline-panel">
+                    <div class="timeline-heading">
+                        <p><span class="roboMedium normalTitle or">2017</span></p>
+                        <h4 class="timeline-title">Gold Winner Brand Communcation of Corporate Branding</h4>
+                    </div>
+                    <div class="timeline-body">
+                      <p class="roboMedium">– BUMN Subsidiary pada 5th BUMN Branding & Marketing Award 2017</p>
+              
+                    </div>
+                </div>
+            </li>
+            <li class="timeline-inverted">
+                <div class="timeline-panel">
+                    <div class="timeline-heading">
+                        <p><span class="roboMedium normalTitle or">2017</span></p>
+                        <h4 class="timeline-title">The Best Branding</h4>
+                    </div>
+                    <div class="timeline-body">
+                      <p class="roboMedium">– BUMN Subsidiary pada 5th BUMN Branding & Marketing Award 2017</p>
+              
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="timeline-panel">
+                    <div class="timeline-heading">
+                        <p><span class="roboMedium normalTitle or">2017</span></p>
+                        <h4 class="timeline-title">Gold Winner Brand Strategy of Corporate Branding</h4>
+                    </div>
+                    <div class="timeline-body">
+                      <p class="roboMedium">– BUMN Subsidiary pada 5th BUMN Branding & Marketing Award 2017</p>
+              
+                    </div>
+                </div>
+            </li>
+            <li class="timeline-inverted">
+                <div class="timeline-panel">
+                    <div class="timeline-heading">
+                        <p><span class="roboMedium normalTitle or">2017</span></p>
+                        <h4 class="timeline-title">Pencapaian Survey Indeks Kepuasan Pelanggan</h4>
+                    </div>
+                    <div class="timeline-body">
+                      <p class="roboMedium">BPKP pada angka 4,48 skala likert dengan katagori puas, “Pertama kali BPKP mmemberikan nilai CSI Korporat sebesar 4,48 skala likert kepada suatu lembaga BUMN”</p>
+              
+                    </div>
+                </div>
+            </li>
           </ul>
         </div>
         <!-- /timeline -->
