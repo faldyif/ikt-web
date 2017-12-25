@@ -32,7 +32,7 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand" href="{{ route('welcome') }}">
+        <a class="navbar-brand shine" href="{{ route('welcome') }}">
           <img class="" src="{{ url('img/ikt_putih.png') }}">
         </a>
       </div>
