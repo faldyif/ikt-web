@@ -73,10 +73,10 @@
         </li>
       </ol>
       <br/>
-      <p style="font-size: 22px; font-family: helvetica;"><i>Passion, Love & Culture</i></p>
+      <p style="font-size: 22px; font-family: helvetica;"><i>Sinergi Itu Kunci</i></p>
       <p style="text-indent: 5em;" class="text-justify">Bekerja dengan cinta merupakan kunci kesuksesan. Sebab, cinta membuat kerja lebih intens, sehingga berpeluang besar mendatangkan hasil lebih maksimal. Demikian juga dengan pengelolaan sebuah perusahaan. Cinta diperlukan untuk menyuburkan iklim kreativitas dan produktivitas kerja. Tentu saja, konsep cinta ini harus diterjemahkan dalam langkah-langkah konkrit yang dapat diakses dan dirasakan semua pihak. “Kami sangat menyadari bahwa perusahaan ini akan menjadi besar apabila ada sinergi dan kerjasama yang kompak antara empat pihak: manajemen, serikat pekerja, koperasi karyawan beserta anak perusahaannya dan Persatuan Isteri Pegawai,” tutur Chiefy Adi Kusmargono, Direktur Utama IPC Car Terminal. “Namun, itu saja belum cukup. Harus ada kontrol dan evaluasi serta <i> feedback </i> setiap saat dari seluruh <i> Stakeholders </i> pengguna jasa; juga para <i> vendor </i> dan <i> supplier. </i> Kami melakukan pendekatan ke seluruh elemen tersebut. Kami ajak mereka semua untuk bekerja dengan sungguh-sungguh dan membangun bangsa ini menjadi lebih baik melalui perannya masing-masing dengan menghasilkan hasil kerja fisik dan jasa layanan terbaik,” jelasnya.</p>
       <br/><br/>
-      <p style="font-size: 22px; font-family: helvetica;"><i>Passion, Love & Culture</i></p>
+      <p style="font-size: 22px; font-family: helvetica;"><i>Membangun Bangsa</i></p>
       <p style="text-indent: 5em;" class="text-justify">Di mata Chiefy, mengelola IPC Car Terminal bukan semata-mata demi mencari nafkah. Akan tetapi, perusahaan dijadikannya sebagai tempat berkontribusi dan memberikan warna manfaat sebanyak-banyaknya. Tempatnya mengabdi dan membesarkan
         negara di mata dunia, melalui pengelolaan perusahaan secara baik, karena hasil karya
         kami adalah representasi dari bangsa Indonesia yang harus membuat bangga bangsa
@@ -89,21 +89,21 @@
         maupun luar negeri. Lebih jauh lagi, kita tidak dipandang sebelah mata oleh dunia,”
       tambahnya lebih lanjut.</p>
       <br/><br/>
-      <p style="font-size: 22px; font-family: helvetica;"><i>Passion, Love & Culture</i></p>
+      <p style="font-size: 22px; font-family: helvetica;"><i>Perhatikan Hal Kecil</i></p>
       <p style="text-indent: 5em;" class="text-justify">
         Di sela-sela kesibukannya mengurus masalah-masalah serius perusahaan, Chiefy masih menyempatkan turun mengontrol sendiri hal-hal “sepele”. Bagi dia, setiap unsur
         dalam perusahaannya harus terintegrasi dalam membangun citra perusahaan yang
         baik. Oleh karena itu, sesungguhnya, tidak ada istilah “sepele” baginya sepanjang itu
         memiliki andil bagi perusahaan yang dipimpinnya.
-        “Kami berusaha menerjemahkan IPC Car Terminal Values, IPC Car Terminal Characters dan IPC Car Terminal Ways. Misalnya, pada hari pertama mulai bertugas di sini,
+        “Kami berusaha menerjemahkan IPC Car Terminal Values, IPC Car Terminal <i> Characters </i> dan IPC Car Terminal <i> Ways. </i> Misalnya, pada hari pertama mulai bertugas di sini,
         kami meminta tolong agar tempat parkir yang selama ini diperuntukkan bagi Direksi
-        dan Manager, dialihkan untuk parkir para costumer. Sebab, parkiran itu yang paling
-        nyaman dan dekat dengan pintu lobby kantor. Hal ini sebagai implementasi dari salah
-        satu IPC Car Terminal values, yakni costumer centric. Selanjutnya, parkiran Direksi
-        dan Manajer menjadi satu dengan pegawai lainnya dengan nama employee parking.”
-        “Kami juga minta agar kamar mandi dan toilet costumer dibuat bersih, rapi, dan wangi. Sebab, toilet adalah cermin kepribadian kita. Bagaimana kita mau membuat besar perusahaan ini jika untuk hal kecil, semisal urusan toilet saja, kita masih belepotan.”
-        Direktur Utama yang sudah mengantongi sertifkat Human Capital Management,
-        Human Capital Audit, Port Expert, dan Modern Port Management ini juga memiliki
+        dan Manager, dialihkan untuk parkir para <i> customer. </i> Sebab, parkiran itu yang paling
+        nyaman dan dekat dengan pintu <i> lobby </i> kantor. Hal ini sebagai implementasi dari salah
+        satu IPC Car Terminal values, yakni <i> customer centric. </i> Selanjutnya, parkiran Direksi
+        dan Manajer menjadi satu dengan pegawai lainnya dengan nama <i> employee parking.”</i>
+        “Kami juga minta agar kamar mandi dan <i> toilet customer </i> dibuat bersih, rapi, dan wangi. Sebab, toilet adalah cermin kepribadian kita. Bagaimana kita mau membuat besar perusahaan ini jika untuk hal kecil, semisal urusan toilet saja, kita masih belepotan.”
+        Direktur Utama yang sudah mengantongi sertifkat <i> Human Capital Management,
+        Human Capital Audit, Port Expert, </i> dan <i> Modern Port Management </i> ini juga memiliki
         perhatian besar dalam soal kebersihan dan penghijauan lingkungan perusahaan. Ini
         tercermin dalam gerakan kampanye “Aksi Kecil Hidup Sehat” dan program CSR
         “Rangkul Warga“ yang sedang digiatkannya.
@@ -113,23 +113,23 @@
       <p style="text-indent: 5em;" class="text-justify">Chiefy mengidamkan sebuah perusahaan yang memiliki tim solid dan kokoh. Jelas, ini
         bukan perkara mudah. Perlu pendekatan yang efektif kepada seluruh komponen perusahaan untuk mewujudkan impian tersebut. Dalam hal ini, Chiefy memilih pendekatan humanistik.
         “Walaupun kami ditugaskan di anak perusahaan ini sebagai orang nomor satu, namun
-        kami memilih untuk banyak mendengar, mempelajari sistem, dan mempelajari lingkungan eksisting. Kami ingin membangun pola komunikasi saling percaya, menghargai dan menghormati, open mind, ada saatnya
+        kami memilih untuk banyak mendengar, mempelajari sistem, dan mempelajari lingkungan eksisting. Kami ingin membangun pola komunikasi saling percaya, menghargai dan menghormati, <i> open mind, </i> ada saatnya
         bicara informasi, santai, dan ada saatnya bicara
         dengan tegas, membuka ruang bertanya, mengusulkan ide dan berpendapat, juga mendengar
       dengan empati.”</p><br/><br/>
 
       <p style="font-size: 22px; font-family: helvetica;"><i>Budaya Kerja IPC Car Terminal</i></p>
       <p style="text-indent: 5em;" class="text-justify">IPC Car Terminal sudah menetapkan model
-        budaya kerja yang ingin dibangunnya, yakni
+        budaya kerja yang ingin dibangunnya, yakni <i>
         Customer Centric, Integrity, Nationalism, Team
-        work & Action. Membangun budaya seperti ini tidak mudah. Transformasi budaya
-        seperti ini tidak akan efektif jika dilakukan top down; dan lebih mustahil lagi dengan abrakadabra! Chiefy sadar betul akan hal ini. Untuk mewujudkan budaya kerja
-        IPC Car Terminal , Chiefy memilih langkah: lead by action; say what you do, do what
-        you say; membangun tim yang kokoh : Happy Employee, Happy Customer, Happy
-        Country ; penegakan disiplin; implementasi reward & punishment; menerjemahkan
-        dan mengimplementasikan IPC Car Terminal values, mulai dari tindakan dan aktivitas
+        work & Action. </i> Membangun budaya seperti ini tidak mudah. Transformasi budaya
+        seperti ini tidak akan efektif jika dilakukan <i> top down; </i> dan lebih mustahil lagi dengan abrakadabra! Chiefy sadar betul akan hal ini. Untuk mewujudkan budaya kerja
+        IPC Car Terminal , Chiefy memilih langkah: <i> lead by action; say what you do, do what
+        you say; </i> membangun tim yang kokoh : <i> Happy Employee, Happy Customer, Happy
+        Country ;</i> penegakan disiplin; implementasi <i> reward & punishment; </i> menerjemahkan
+        dan mengimplementasikan IPC Car Terminal <i> values, </i> mulai dari tindakan dan aktivitas
         yang sekecil mungkin hingga terbesar.Chiefy berharap, langkah-langkah tersebut dapat menjadi langkah bersama seluruh komponen IPC Car Terminal . Dengan demikian, kelak dapat terwujud SDM yang
-        lincah, energik, friendly, penuh inisiatif, responsif, asertif, cepat, inisiatif bekerja dengan sepenuh hati dan energi, jujur, serta dapat dipercaya.
+        lincah, energik, <i> friendly, </i> penuh inisiatif, responsif, asertif, cepat, inisiatif bekerja dengan sepenuh hati dan energi, jujur, serta dapat dipercaya.
       </p><br/><br/>
 
       <p style="font-size: 22px; font-family: helvetica;"><i>Karyawan adalah Modal Penting</i></p>
@@ -144,7 +144,7 @@
         integritas. Jika akar sebuah pohon baik, maka akan menghasilkan batang yang kokoh,
         yang dapat menghasilkan daun yang hijau, lebat, serta buah yang banyak, manis,
         segar, serta pohon itu akan dapat tumbuh rindang, bisa meneduhi dan enak dilihat,”
-        jelas Chiefy. Karyawan adalah modal penting yang harus dinomorsatukan dan diperhatikan peran, pengembangan, dan kebutuhannya, untuk meningkatkan produktivitas dan pelayanan terhadap stakeholders. Bagi Chiefy, kalimat ini tidak berhenti sebatas slogan yang sepi, tetapi ia berusaha wujudkan. Ketika IPC Car Terminal berhasil melampaui target pendapatan, Chiefy membuat program yang mendukung kebutuhan karyawan. “Kami bangun an exciting enterprise for our people dengan menyediakan dan membuat suasana, fasilitas kantor senyaman mungkin, menjadikan kantor sebagai our second lovely home. Juga, menyediakan dan meningkatkan fasilitas dan peralatan
+        jelas Chiefy. Karyawan adalah modal penting yang harus dinomorsatukan dan diperhatikan peran, pengembangan, dan kebutuhannya, untuk meningkatkan produktivitas dan pelayanan terhadap stakeholders. Bagi Chiefy, kalimat ini tidak berhenti sebatas slogan yang sepi, tetapi ia berusaha wujudkan. Ketika IPC Car Terminal berhasil melampaui target pendapatan, Chiefy membuat program yang mendukung kebutuhan karyawan. “Kami bangun <i> an exciting enterprise for our people </i> dengan menyediakan dan membuat suasana, fasilitas kantor senyaman mungkin, menjadikan kantor sebagai <i> our second lovely home. </i> Juga, menyediakan dan meningkatkan fasilitas dan peralatan
         untuk peningkatan pelayanan pelanggan. Hal semacam ini penting dilakukan. Sebab, dengan fasilitas, perlengkapan kerja dan peralatan, serta lingkungan yang nyaman, akan membuat pegawai dapat bekerja lebih produktif dengan senang hati; juga para pelanggan akan loyal kepada kita.” Chiefy sadar, setiap perubahan memerlukan adaptasi dan proses belajar. Bisa jadi, ada karyawan yang tidak dapat mengikuti irama kerja dengan mulus. “Kami akan lakukan coaching, mentoring, dan counseling. Kita dorong karyawan untuk melakukan sesuatu yang menjadi kelebihan diri dan dia sukai. Kita fasilitasi dan berikan ruang untuk menghasilkan suatu karya yang baik dan bermanfaat. Kita berikan contoh dan bimbingan. Yang penting, ada upaya, niat, usaha untuk  hal
         yang baik Insya Allah bisa,” ujarnya optimis.
       </p> <br/><br/>
@@ -154,13 +154,13 @@
         </div>      
 
       <p style="font-size: 22px; font-family: helvetica;"><i>Wajah IPC Car Terminal</i></p>
-      <p style="text-indent: 5em;" class="text-justify">IPC Car Terminal memang sedang giat berbenah. Wajah kantor IPC Indonesia CarTerminal saat ini pun terlihat lebih cerah. Ruang-ruang kerjanya terlihat semarak dan bergairah. Warna corporate identity -orange dan biru- dituangkannya ke dalam wallpaper
-        dengan berbagai hiasan yang menggugah semangat kreativitas, serasa humanizing port
-        industry.
+      <p style="text-indent: 5em;" class="text-justify">IPC Car Terminal memang sedang giat berbenah. Wajah kantor IPC Indonesia CarTerminal saat ini pun terlihat lebih cerah. Ruang-ruang kerjanya terlihat semarak dan bergairah. Warna <i> corporate identity </i> -orange dan biru- dituangkannya ke dalam wallpaper
+        dengan berbagai hiasan yang menggugah semangat kreativitas, serasa <i> humanizing port
+        industry. </i>
         Menggagas soal image perusahaan, Chiefy menyatakan ingin membuat lingkungan kerja
-        yang “waooow!”, keren, memiliki soul & energy, serta mengandung pesan dan makna
+        yang “waooow!”, keren, memiliki <i> soul & energy, </i> serta mengandung pesan dan makna
         yang disampaikan. Lingkungan kerja yang dinamis, lincah, mendorong inovasi, kreatif,
-        nyaman, dan menjadi benchmarked company. Lingkungan yang terbangun dari saling
+        nyaman, dan menjadi <i> benchmarked company. </i> Lingkungan yang terbangun dari saling
         percaya dan mendukung dalam kebersamaan dalam mencapai tujuan bersama.
         Masing-masing unsur dalam perusahaan harus memiliki satu visi untuk menegakkan
         kewibawaan perusahaan. Menurut Chiefy, kewibawaan terbangun dari sebuah rekam jejak dan reputasi, integritas, menjadi marwah perusahaan. Kewibawaan lahir dari sebuah
@@ -169,7 +169,7 @@
         negara. Bangga berkarya. Bangga Indonesia!,” pungkasnya.
         Tak akan ada buah yang indah dapat dipetik, jika benih disemai dan dirawat tanpa cinta.
         Sinergi kerja juga akan hampa, jika dilakukan tanpa cinta. Bagaimanapun, perusahaan
-      pada hakekatnya adalah kumpulan manusia yang saling bekerja sama, dan mestinya bersinergi pula dalam cinta untuk menggapai cita. “IKT Satoe Tjinta”</p>  
+      pada hakekatnya adalah kumpulan manusia yang saling bekerja sama, dan mestinya bersinergi pula dalam cinta untuk menggapai cita. “ <i> IKT Satoe Tjinta </i>” </p>  
     </div>
   </div>
 </section>
