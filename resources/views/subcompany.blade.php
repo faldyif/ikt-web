@@ -24,17 +24,18 @@
               <div class="col-md-12">
                 <hr class="hrSpec hrSpecOrange">
                 <h3 class="mg-b-30 roboBold">Manajemen Kerjasama Operasi - Maspion Terminal Kendaraan Indonesia</h3>
-                <p class="text-justify">Sejalan dengan program yang dicanangkan oleh pemerintah yaitu program Tol Laut di Indonesia untuk meningkatkan kapasitas pelabuhan dan juga sejalan dengan program kerja IPC yaitu Pendulum Nusantara, maka PT Indonesia Kendaraan Terminal bekerjasama dengan PT Maspion Group turut serta dalam mengembangkan infrastruktur kepelabuhanan dengan melakukan pengembangan ke wilayah timur Indonesia.</p>
-                <p class="text-justify">Atas dasar itulah, pada tanggal 2 Desember 2014 telah dilakukan kesepakatan kerjasama antara IPC dalam hal ini diwakili oleh PT Indonesia Kendaraan Terminal dengan PT Maspion Industrial Estate untuk menyiapkan pembangunan dan pengoperasian terminal kendaraan di Maspion Industrial Estate yang berlokasi di Gresik yang akan menjadi terminal kendaraan pertama dan modern di Jawa Timur.</p>
-                <div class="col-md-12 pd-bt-10">
-                  <div class="col-md-4" style="margin-bottom: 5%">
-                      <img src="{{ url('img/thumb.jpg') }}" class="img-responsive">
+
+                <div class="flex-row-center">
+                
+                  <div class="col-md-6 pd-bt-5">
+                    <div class="col-md-12" style="margin-bottom: 5%">
+                        <img src="{{ url('img/maspion.png') }}" class="img-responsive">
+                    </div>
                   </div>
-                  <div class="col-md-4" style="margin-bottom: 5%">
-                      <img src="{{ url('img/thumb.jpg') }}" class="img-responsive">
-                  </div>
-                  <div class="col-md-4" style="margin-bottom: 5%">
-                      <img src="{{ url('img/thumb.jpg') }}" class="img-responsive">
+
+                  <div class="col-md-6">
+                    <p class="text-justify" style="text-indent: 5em;">Sejalan dengan program yang dicanangkan oleh pemerintah yaitu program Tol Laut di Indonesia untuk meningkatkan kapasitas pelabuhan dan juga sejalan dengan program kerja IPC yaitu Pendulum Nusantara, maka PT Indonesia Kendaraan Terminal bekerjasama dengan PT Maspion Group turut serta dalam mengembangkan infrastruktur kepelabuhanan dengan melakukan pengembangan ke wilayah timur Indonesia.</p>
+                    <p class="text-justify" style="text-indent: 5em;">Atas dasar itulah, pada tanggal 2 Desember 2014 telah dilakukan kesepakatan kerjasama antara IPC dalam hal ini diwakili oleh PT Indonesia Kendaraan Terminal dengan PT Maspion Industrial Estate untuk menyiapkan pembangunan dan pengoperasian terminal kendaraan di Maspion Industrial Estate yang berlokasi di Gresik yang akan menjadi terminal kendaraan pertama dan modern di Jawa Timur.</p>  
                   </div>
                 </div>
                 <div class="col-md-12">
