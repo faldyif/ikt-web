@@ -1,6 +1,6 @@
 @extends('layout.app-with-footer')
 
-@section('title','Fasilitas Penunjang | IPC Car Terminal')
+@section('title','Fasilitas Domestik | IPC Car Terminal')
 
 @section('content')
     <!--HERO-->
@@ -8,7 +8,7 @@
         <div class="heroTitle" style="background-image: url('{{ url('img/2.jpg') }}');">
             <div class="overlay"></div>
             <section class="container-fluid pd-30">
-                <h2 class="roboBold wh alignCenter" data-wow-delay="0.4s">Fasilitas Penunjang</h2>
+                <h2 class="roboBold wh alignCenter" data-wow-delay="0.4s">Fasilitas Domestik</h2>
                 <h4 class="alignCenter wh mg-t-20">PT. Indonesia Kendaraan Terminal</h4>
             </section>
         </div>
