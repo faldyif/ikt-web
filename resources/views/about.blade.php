@@ -36,6 +36,12 @@
     <!--/ABOUT-->
     <!-- VISION -->
     <section>
+      <div class="col-md-12">
+          <h2 class="text-center mg-b-20">VISI</h2>
+        <img class="img-responsive" style="width:100%;" src="{{url('img/visi.png')}}">
+      </div>
+    </section>
+    <section>
       <div class="container-fluid lightWhiteSec wow fadeInUpBig">
         <section class="row pd-bt-30">
           <div class="col-md-8 col-lg-6 col-md-offset-2 col-lg-offset-3">  
@@ -43,11 +49,7 @@
             <div class="col-md-offset-4">
               <hr class="hrSpec hrSpecOrange">
             </div>
-            <h2 class="text-center mg-b-20">VISI</h2>
             </div>
-            <blockquote class="quote-card blue-card">
-              <h3 class="text-center lh-15em">Menjadi Terminal Kendaraan Kelas Dunia yang Unggul <br> dalam Operasional dan Pelayanan</h3>
-            </blockquote>
             <img class="img-responsive" src="{{ url('img/image1.png') }}">
           </div>
         </section>

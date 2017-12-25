@@ -1534,7 +1534,7 @@ figcaption.caption {
 
 .quote-card:before {
   font-family: Georgia, serif;
-  content: "ΓÇ£";
+  content: "“";
   position: absolute;
   top: 10px;
   left: 10px;
@@ -1544,7 +1544,7 @@ figcaption.caption {
 
 .quote-card:after {
   font-family: Georgia, serif;
-  content: "ΓÇ¥";
+  content: "”";
   position: absolute;
   bottom: -110px;
   line-height: 100px;
@@ -1725,6 +1725,63 @@ figure figcaption {
   transform: translate(-50%, -50%); }
 
 /* ------------------ Navbar ------------------------- */
+.shine {
+  display: inline-block;
+  position: relative;
+  overflow: hidden;
+  padding: 2px; }
+  .shine img {
+    height: 100%; }
+@-webkit-keyframes buzz {
+  50% {
+    -ms-transform: translateX(3px) rotate(2deg);
+    -webkit-transform: translateX(3px) rotate(2deg);
+    transform: translateX(3px) rotate(2deg); }
+  100% {
+    -ms-transform: translateX(-3px) rotate(-2deg);
+    -webkit-transform: translateX(-3px) rotate(-2deg);
+    transform: translateX(-3px) rotate(-2deg); } }
+@keyframes buzz {
+  50% {
+    -ms-transform: translateX(3px) rotate(2deg);
+    -webkit-transform: translateX(3px) rotate(2deg);
+    transform: translateX(3px) rotate(2deg); }
+  100% {
+    -ms-transform: translateX(-3px) rotate(-2deg);
+    -webkit-transform: translateX(-3px) rotate(-2deg);
+    transform: translateX(-3px) rotate(-2deg); } }
+  .shine img:hover,
+  .shine img:focus,
+  .shine img:active {
+    -webkit-animation-name: buzz;
+    animation-name: buzz;
+    -webkit-animation-duration: 0.15s;
+    animation-duration: 0.15s;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite; }
+
+.shine:before {
+  content: "";
+  z-index: 10;
+  position: absolute;
+  height: 200%;
+  width: 200%;
+  top: -120%;
+  left: -120%;
+  background: linear-gradient(transparent 0%, rgba(255, 255, 255, 0.1) 45%, rgba(255, 255, 255, 0.5) 50%, rgba(255, 255, 255, 0.1) 55%, transparent 100%);
+  transition: all 3s;
+  transform: rotate(-45deg);
+  animation: shine 3s infinite forwards; }
+
+@keyframes shine {
+  0% {
+    top: -120%;
+    left: -120%; }
+  100% {
+    left: 120%;
+    top: 120%; } }
 #navbar {
   transition: all 0.3s ease-in-out;
   -webkit-transition: all 0.3s ease-in-out;

@@ -15,6 +15,7 @@
 <link rel="stylesheet" type="text/css" href="{{ url('homepage/rs-plugin/css/settings.css')}}" media="screen" />
 
 <!-- StyleSheets -->
+<link rel="stylesheet" href="{{ url('css/custom-newhome.css')}}">
 <link rel="stylesheet" href="{{ url('homepage/css/ionicons.min.css')}}">
 <link rel="stylesheet" href="{{ url('homepage/css/bootstrap/bootstrap.min.css')}}">
 <link rel="stylesheet" href="{{ url('homepage/css/font-awesome.min.css')}}">
@@ -51,7 +52,7 @@
   <header class="header light">
     <div class="sticky">
       <div class="container">
-        <div class="logo" > <a href="index.html"><img style="max-width:50px;" src="{{url('homepage/images/ikt_putih.png')}}" alt=""></a> </div>
+        <div class="logo" > <a class="shine" href="index.html"><img style="max-width:50px;" src="{{url('homepage/images/ikt_putih.png')}}" alt=""></a> </div>
         
         <!-- Nav -->
         <nav class="navbar ownmenu">
@@ -270,7 +271,7 @@
                         data-endelementdelay="0.1" 
                         data-endspeed="300" 
                         data-scrolloffset="0"
-                        style="z-index: 8;"><a href="#." class="btn-normal">LEARN MORE</a> </div>
+                        style="z-index: 8;"><a href="#content" class="btn-normal">CARI TAHU</a> </div>
                     </li>
                 </ul>
           </div>

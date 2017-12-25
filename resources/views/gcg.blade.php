@@ -137,13 +137,262 @@
                     </div>
                     <div id="menu2" class="tab-pane fade">
                         <hr class="hrSpec hrSpecOrange">
-                        <h4 class="card-title roboBold">BOD</h4>
-                        <img src="{{ url('img/BOD.png') }}" class="img-responsive" style="width: 100%; height: auto">
+                        <h4 class="card-title roboBold">BOD 2017</h4>
+                        <div class="col-md-12">
+                            <div class="row">
+                                <div class="col-lg-4 col-sm-6 portfolio-item"></div>
+                                <div class="col-lg-4 col-sm-6 portfolio-item">
+                                    <div class="card h-100">
+                                    <a href="#"><img class="card-img-top img-responsive img-responsive" src="{{url('img/Chiefy Adi K.jpg')}}" alt=""></a>
+                                    <div class="card-body">
+                                        <h4 class="card-title">
+                                        <a href="#">Chiefy Adi K</a>
+                                        </h4>
+                                        <p class="card-text">Direktur Utama</p>
+                                    </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-sm-6 portfolio-item"></div>
+                            </div>
+                            <div class="row" style="height:30px;">
+
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-4 col-sm-6 portfolio-item">
+                                    <div class="card h-100">
+                                    <a href="#"><img class="card-img-top img-responsive img-responsive" src="{{url('img/PAK HUDADISOERJA DJANEGARA.jpg')}}" alt=""></a>
+                                    <div class="card-body">
+                                        <h4 class="card-title">
+                                        <a href="#">Hudadisoerja Djanegara</a>
+                                        </h4>
+                                        <p class="card-text">Direktur Komersial dan Pengembangan Bisnis
+                                            </p>
+                                    </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-sm-6 portfolio-item">
+                                    <div class="card h-100">
+                                    <a href="#"><img class="card-img-top img-responsive img-responsive" src="{{url('img/IndraHidayatSani.jpg')}}" alt=""></a>
+                                    <div class="card-body">
+                                        <h4 class="card-title">
+                                        <a href="#">Indra Hidayat Sani</a>
+                                        </h4>
+                                        <p class="card-text">Direktur Operasi</p>
+                                    </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-sm-6 portfolio-item">
+                                    <div class="card h-100">
+                                    <a href="#"><img class="card-img-top img-responsive img-responsive" src="{{url('img/Arman Badudu.jpg')}}" alt=""></a>
+                                    <div class="card-body">
+                                        <h4 class="card-title">
+                                        <a href="#">Arman Badudu</a>
+                                        </h4>
+                                        <p class="card-text">Direktur Keuangan dan SDM</p>
+                                    </div>
+                                    </div>
+                                </div>
+                            </div>
+                                      <!-- /.row -->
+                        </div>
+                        
+                        <div class="col-md-12" style="height:30px;">
+                        </div>
+                        <hr class="hrSpec hrSpecOrange">
+                        <h4 class="card-title roboBold">BOD 2016</h4>
+                        
+                        <div class="col-md-12">
+                                <div class="row">
+                                    <div class="col-lg-4 col-sm-6 portfolio-item"></div>
+                                    <div class="col-lg-4 col-sm-6 portfolio-item">
+                                        <div class="card h-100">
+                                        <a href="#"><img class="card-img-top img-responsive img-responsive" src="{{url('img/Armen Amir - Direktur Utama.jpg')}}" alt=""></a>
+                                        <div class="card-body">
+                                            <h4 class="card-title">
+                                            <a href="#">Armen Amir</a>
+                                            </h4>
+                                            <p class="card-text">Direktur Utama</p>
+                                        </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-sm-6 portfolio-item"></div>
+                                </div>
+                                <div class="row" style="height:30px;">
+    
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg-2 col-sm-6 portfolio-item"></div>
+                                    <div class="col-lg-4 col-sm-6 portfolio-item">
+                                        <div class="card h-100">
+                                        <a href="#"><img class="card-img-top img-responsive img-responsive" src="{{url('img/Indra Hidayat Sani - Direktur Operasional & Komersial .jpg')}}" alt=""></a>
+                                        <div class="card-body">
+                                            <h4 class="card-title">
+                                            <a href="#">Indra Hidayat Sani</a>
+                                            </h4>
+                                            <p class="card-text">Direktur Operasional dan Komersial
+                                                </p>
+                                        </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-sm-6 portfolio-item">
+                                        <div class="card h-100">
+                                        <a href="#"><img class="card-img-top img-responsive img-responsive" src="{{url('img/Arman Badudu.jpg')}}" alt=""></a>
+                                        <div class="card-body">
+                                            <h4 class="card-title">
+                                            <a href="#">Arman Badudu</a>
+                                            </h4>
+                                            <p class="card-text">Direktur Keuangan dan SDM</p>
+                                        </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-2 col-sm-6 portfolio-item"></div>
+                                </div>
+                                          <!-- /.row -->
+                            </div>
                     </div>
                     <div id="menu3" class="tab-pane fade">
                         <hr class="hrSpec hrSpecOrange">
-                        <h4 class="card-title roboBold">BOC</h4>
-                        <img src="{{ url('img/BOC.png') }}" class="img-responsive" style="width: 100%; height: auto">
+                        <h4 class="card-title roboBold">BOC 2017</h4>
+                        <div class="col-md-12">
+                                <div class="row">
+                                    <div class="col-lg-4 col-sm-6 portfolio-item"></div>
+                                    <div class="col-lg-4 col-sm-6 portfolio-item">
+                                        <div class="card h-100">
+                                        <a href="#"><img class="card-img-top img-responsive img-responsive" src="{{url('img/')}}" alt=""></a>
+                                        <div class="card-body">
+                                            <h4 class="card-title">
+                                            <a href="#">Nama</a>
+                                            </h4>
+                                            <p class="card-text">Komisaris Utama</p>
+                                        </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-sm-6 portfolio-item"></div>
+                                </div>
+                                <div class="row" style="height:30px;">
+    
+                                </div>
+                                <div class="row">
+                                        <div class="col-lg-3 col-md-4 col-sm-6 portfolio-item">
+                                          <div class="card h-100">
+                                            <a href="#"><img class="card-img-top img-responsive" src="{{url('img/')}}" alt=""></a>
+                                            <div class="card-body">
+                                              <h4 class="card-title">
+                                                <a href="#">Nama</a>
+                                              </h4>
+                                              <p class="card-text">Komisaris</p>
+                                            </div>
+                                          </div>
+                                        </div>
+                                        <div class="col-lg-3 col-md-4 col-sm-6 portfolio-item">
+                                                <div class="card h-100">
+                                                  <a href="#"><img class="card-img-top img-responsive" src="{{url('img/')}}" alt=""></a>
+                                                  <div class="card-body">
+                                                    <h4 class="card-title">
+                                                      <a href="#">Nama</a>
+                                                    </h4>
+                                                    <p class="card-text">Komisaris</p>
+                                                  </div>
+                                                </div>
+                                              </div>
+                                              <div class="col-lg-3 col-md-4 col-sm-6 portfolio-item">
+                                                    <div class="card h-100">
+                                                      <a href="#"><img class="card-img-top img-responsive" src="{{url('img/')}}" alt=""></a>
+                                                      <div class="card-body">
+                                                        <h4 class="card-title">
+                                                          <a href="#">Nama</a>
+                                                        </h4>
+                                                        <p class="card-text">Komisaris</p>
+                                                      </div>
+                                                    </div>
+                                                  </div>
+                                                  <div class="col-lg-3 col-md-4 col-sm-6 portfolio-item">
+                                                        <div class="card h-100">
+                                                          <a href="#"><img class="card-img-top img-responsive" src="{{url('img/')}}" alt=""></a>
+                                                          <div class="card-body">
+                                                            <h4 class="card-title">
+                                                              <a href="#">Nama</a>
+                                                            </h4>
+                                                            <p class="card-text">Komisaris</p>
+                                                          </div>
+                                                        </div>
+                                                      </div>
+                                                      
+                                      </div>
+                                      <!-- /.row -->
+                        </div>
+                        <div class="col-md-12" style="height:30px;">
+                            </div>
+                            <hr class="hrSpec hrSpecOrange">
+                            <h4 class="card-title roboBold">BOC 2016</h4>
+                        <div class="col-md-12">
+                                <div class="row">
+                                    <div class="col-lg-4 col-sm-6 portfolio-item"></div>
+                                    <div class="col-lg-4 col-sm-6 portfolio-item">
+                                        <div class="card h-100">
+                                        <a href="#"><img class="card-img-top img-responsive img-responsive" src="{{url('img/Dede R. Martin - Komisaris Utama.jpg')}}" alt=""></a>
+                                        <div class="card-body">
+                                            <h4 class="card-title">
+                                            <a href="#">Dede R. Martin</a>
+                                            </h4>
+                                            <p class="card-text">Komisaris Utama</p>
+                                        </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-sm-6 portfolio-item"></div>
+                                </div>
+                                <div class="row" style="height:30px;">
+    
+                                </div>
+                                <div class="row">
+                                        <div class="col-lg-3 col-md-4 col-sm-6 portfolio-item">
+                                          <div class="card h-100">
+                                            <a href="#"><img class="card-img-top img-responsive" src="{{url('img/Abdul Hakam - Komisaris.jpg')}}" alt=""></a>
+                                            <div class="card-body">
+                                              <h4 class="card-title">
+                                                <a href="#">Abdul Hakam </a>
+                                              </h4>
+                                              <p class="card-text">Komisaris</p>
+                                            </div>
+                                          </div>
+                                        </div>
+                                        <div class="col-lg-3 col-md-4 col-sm-6 portfolio-item">
+                                                <div class="card h-100">
+                                                  <a href="#"><img class="card-img-top img-responsive" src="{{url('img/Fachry Ali - Komisaris.jpg')}}" alt=""></a>
+                                                  <div class="card-body">
+                                                    <h4 class="card-title">
+                                                      <a href="#">Fachry Ali </a>
+                                                    </h4>
+                                                    <p class="card-text">Komisaris</p>
+                                                  </div>
+                                                </div>
+                                              </div>
+                                              <div class="col-lg-3 col-md-4 col-sm-6 portfolio-item">
+                                                    <div class="card h-100">
+                                                      <a href="#"><img class="card-img-top img-responsive" src="{{url('img/Wahyu Hidayat - Komisaris.jpg')}}" alt=""></a>
+                                                      <div class="card-body">
+                                                        <h4 class="card-title">
+                                                          <a href="#">Wahyu Hidayat</a>
+                                                        </h4>
+                                                        <p class="card-text">Komisaris</p>
+                                                      </div>
+                                                    </div>
+                                                  </div>
+                                                  <div class="col-lg-3 col-md-4 col-sm-6 portfolio-item">
+                                                        <div class="card h-100">
+                                                          <a href="#"><img class="card-img-top img-responsive" src="{{url('img/Dian Lesmana - Komisaris.jpg')}}" alt=""></a>
+                                                          <div class="card-body">
+                                                            <h4 class="card-title">
+                                                              <a href="#">Dian Lesmana</a>
+                                                            </h4>
+                                                            <p class="card-text">Komisaris</p>
+                                                          </div>
+                                                        </div>
+                                                      </div>
+                                                      
+                                      </div>
+                                      <!-- /.row -->
+                        </div>
                     </div>
                     <div id="menu4" class="tab-pane fade">
                         <hr class="hrSpec hrSpecOrange">

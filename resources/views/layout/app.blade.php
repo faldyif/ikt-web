@@ -32,7 +32,7 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand" href="{{ route('welcome') }}">
+        <a class="navbar-brand shine" href="{{ route('welcome') }}">
           <img class="" src="{{ url('img/ikt_putih.png') }}">
         </a>
       </div>
@@ -275,14 +275,6 @@
               $('#modal-whistleblowing-loading').hide();
           })
       });
-  </script>
-  <script type="text/javascript">
-    setInterval(function () {
-      $('#my_button_div').addClass('shine');
-      setTimeout(function () {
-          $('#my_button_div').removeClass('shine');
-      }, 2000);
-  }, 6000);
   </script>
   @yield('bottom')
 
