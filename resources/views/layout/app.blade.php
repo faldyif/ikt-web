@@ -276,14 +276,6 @@
           })
       });
   </script>
-  <script type="text/javascript">
-    setInterval(function () {
-      $('#my_button_div').addClass('shine');
-      setTimeout(function () {
-          $('#my_button_div').removeClass('shine');
-      }, 2000);
-  }, 6000);
-  </script>
   @yield('bottom')
 
 </body>
