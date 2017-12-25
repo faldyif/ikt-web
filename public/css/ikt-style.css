@@ -1766,22 +1766,22 @@ figure figcaption {
   content: "";
   z-index: 10;
   position: absolute;
-  height: 200%;
+  height: 100%;
   width: 200%;
   top: -120%;
   left: -120%;
   background: linear-gradient(transparent 0%, rgba(255, 255, 255, 0.1) 45%, rgba(255, 255, 255, 0.5) 50%, rgba(255, 255, 255, 0.1) 55%, transparent 100%);
   transition: all 3s;
-  transform: rotate(-45deg);
+  transform: rotate(55deg);
   animation: shine 3s infinite forwards; }
 
 @keyframes shine {
   0% {
-    top: -120%;
+    top: 120%;
     left: -120%; }
   100% {
     left: 120%;
-    top: 120%; } }
+    top: -120%; } }
 #navbar {
   transition: all 0.3s ease-in-out;
   -webkit-transition: all 0.3s ease-in-out;
