@@ -5,7 +5,7 @@
 <meta http-equiv="content-type" content="text/html; charset=utf-8" />
 <meta name="author" content="M_Adnan" />
 <!-- Document Title -->
-<title>Me - Creative Portfolio &amp; Resume / CV HTML5 Template</title>
+<title>IPC Car Terminal</title>
 
 <!-- Favicon -->
 <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
@@ -301,7 +301,7 @@
           <h4 style="font-weight:bold; color:black;">Indonesia Kendaraan Terminal</h4>
           <div class="test-info">
             <p>Indonesia Kendaraan Terminal Merupakan Perusahaan Kendaraan Terminal yang Beroperasi Tanjung Priok Jakarta Indonesia, memberikan pelayanan Cargodooring, Stevedoring, Receiving & delevering serta berbagai Pelayanan Terbaik untuk Pelanggan Kami.</p>
-            <a href="#." class="btn-flat">lihat profile</a> </div>
+            <a href="#." class="btn-flat">lihat profil</a> </div>
         </div>
       </div>
       
@@ -314,7 +314,7 @@
       <div class="container"> 
         <!-- Heading Block -->
         <div class="heading-block">
-          <h6 class="animate fadeInRight" data-wow-delay="0.4s">what we do</h6>
+          <h6 class="animate fadeInRight" data-wow-delay="0.4s">galeri foto pilihan</h6>
           <span class="huge-tittle">Albums</span> </div>
         
         <!-- Liast Work -->
@@ -329,7 +329,7 @@
                 <div class="text-info text-right">
                   <h3 class="tittle">Enhancing Corporate Financial Management</h3>
                   <p>Expanding our reach ro a greater future, we aim high and always provide best-in-class port and other services to escalate the company's reputation</p>
-                  <div class="text-center"> <a href="#." class="btn-flat">Show Album</a> </div>
+                  <div class="text-center"> <a href="#." class="btn-flat">Lihat Album</a> </div>
                 </div>
               </li>
               
@@ -350,7 +350,7 @@
                 <div class="text-info text-left">
                   <h3 class="tittle">Implementing Human Capital Development</h3>
                   <p>Building highly capable human resources, we create superiority by developing high productivity organitation based on professionalism and expertise</p>
-                  <div class="text-center"> <a href="#." class="btn-flat">Show Album</a> </div>
+                  <div class="text-center"> <a href="#." class="btn-flat">Lihat Album</a> </div>
                 </div>
               </li>
             </ul>
@@ -365,7 +365,7 @@
                 <div class="text-info text-right">
                   <h3 class="tittle">Implementing Modern Operation Systems</h3>
                   <p>Continuous Optimizing of terminal system solution, we adopt cutting edge technology to deliver well performing operation system</p>
-                  <div class="text-center"> <a href="#." class="btn-flat">Show Album</a> </div>
+                  <div class="text-center"> <a href="#." class="btn-flat">Lihat Album</a> </div>
                 </div>
               </li>
               
@@ -386,14 +386,14 @@
                 <div class="text-info text-left">
                   <h3 class="tittle">Enhancing Corporate Business</h3>
                   <p>Developing bussiness through customer satisfication adn retention, we passionately seek to understand customer demands to maintain customer retention at the highest level</p>
-                  <div class="text-center"> <a href="#." class="btn-flat">Show Album</a> </div>
+                  <div class="text-center"> <a href="#." class="btn-flat">Lihat Album</a> </div>
                 </div>
               </li>
             </ul>
           </article>
           
           <!-- Load More Work -->
-          <div class="text-center"> <a href="{{ route('gallery') }}" class="btn-large">load more album</a> </div>
+          <div class="text-center"> <a href="{{ route('gallery') }}" class="btn-large">Selengkapnya</a> </div>
         </div>
       </div>
     </section>
@@ -469,13 +469,15 @@
         
         <!-- Heading Block -->
         <div class="heading-block">
-          <h6 class="animate fadeInRight" data-wow-delay="0.4s">newest information</h6>
-          <span class="huge-tittle">NEWS</span> </div>
+          <h6 class="animate fadeInRight" data-wow-delay="0.4s">informasi terbaru</h6>
+          <span class="huge-tittle">BERITA</span> </div>
         
         <!-- Blog -->
         <div class="blog-post">
-          <div class="row"> 
-            
+          @if(sizeof($latestNews) > 0)
+          <div class="row">
+
+            @if(sizeof($latestNews) >= 1)
             <!-- Big Post -->
             <div class="col-md-6">
               <article class="post-normal third-post"> 
@@ -487,10 +489,12 @@
                     <span class="comm">{{ \Carbon\Carbon::parse($latestNews[0]->created_at)->toFormattedDateString() }} / {{ $latestNews[0]->view_count }} Views</span> <a href="{{ route('news.detail',  $latestNews[0]->slug) }}" class="btn-flat margin-top-15">READ MORE</a> 
                 </article>
             </div>
-            
-            
+            @endif
+
+            @if(sizeof($latestNews) >= 2)
             <!-- Post -->
-            <div class="col-md-3"> 
+            <div class="col-md-3">
+              @if(sizeof($latestNews) >= 2)
               <!-- Post -->
               <article class="post-normal"> 
                 <!-- Imag --> 
@@ -499,8 +503,9 @@
                 <a href="{{ route('news.detail',  $latestNews[1]->slug) }}" class="post-tittle">{{ $latestNews[1]->title }}</a>
                 <p>{!! substr(strip_tags($latestNews[1]->content), 0, 100) !!}</p>
                 <span class="comm">{{ \Carbon\Carbon::parse($latestNews[1]->created_at)->toFormattedDateString() }} / {{ $latestNews[1]->view_count }} Views</span> <a href="{{ route('news.detail',  $latestNews[1]->slug) }}" class="btn-flat margin-top-15">READ MORE</a> </article>
+              @endif
 
-              
+              @if(sizeof($latestNews) >= 3)
               <!-- Post -->
               <article class="post-normal margin-top-30"> 
                 <!-- Imag --> 
@@ -509,8 +514,11 @@
                 <a href="{{ route('news.detail',  $latestNews[2]->slug) }}" class="post-tittle">{{ $latestNews[2]->title }}</a>
                 <p>{!! substr(strip_tags($latestNews[1]->content), 0, 100) !!}</p>
                 <span class="comm">{{ \Carbon\Carbon::parse($latestNews[2]->created_at)->toFormattedDateString() }} / {{ $latestNews[2]->view_count }} Views</span> <a href="{{ route('news.detail',  $latestNews[2]->slug) }}" class="btn-flat margin-top-15">READ MORE</a> </article>
+              @endif
             </div>
-            
+            @endif
+
+            @if(sizeof($latestNews) >= 4)
             <!-- Post -->
             <div class="col-md-3"> 
               <!-- Post -->
@@ -522,10 +530,17 @@
                 <p>{!! substr(strip_tags($latestNews[3]->content), 0, 100) !!}</p>
                 <span class="comm">{{ \Carbon\Carbon::parse($latestNews[3]->created_at)->toFormattedDateString() }} / {{ $latestNews[3]->view_count }} Views</span> <a href="{{ route('news.detail',  $latestNews[3]->slug) }}" class="btn-flat margin-top-15">READ MORE</a> </article>
             </div>
+            @endif
+
+
           </div>
-          
+
+          @endif
+
+          @if(sizeof($latestNews) > 4)
           <!-- Load More Work -->
-          <div class="text-center margin-top-100"> <a href="{{ route('news') }}" class="btn-large">more NEWS</a> </div>
+          <div class="text-center margin-top-100"> <a href="{{ route('news') }}" class="btn-large">Selengkapnya</a> </div>
+          @endif
         </div>
       </div>
     </section>
@@ -539,8 +554,8 @@
         
         <!-- Heading Block -->
         <div class="heading-block">
-          <h6 class="animate fadeInRight" data-wow-delay="0.4s">pencapaian dan</h6>
-          <span class="huge-tittle">Penghargaan</span> </div>
+          <h6 class="animate fadeInRight" data-wow-delay="0.4s">pencapaian dan penghargaan</h6>
+          <span class="huge-tittle">Achievements</span> </div>
         
         <!-- Profile Tabs -->
         <div class="profile-inn">
@@ -625,7 +640,7 @@
           </div>
           
           <!-- BTN -->
-          <div class="btn-part"> <a href="{{ route('company.achievements') }}" class="btn-large btn-large-1 ">Show More</a> </div>
+          <div class="btn-part"> <a href="{{ route('company.achievements') }}" class="btn-large btn-large-1 ">Selengkapnya</a> </div>
         </div>
       </div>
       
@@ -667,15 +682,6 @@
             
           </div>
         </div>
-        
-        <!-- Client Img -->
-        <ul class="client-img  animate fadeInDown" data-wow-delay="0.4s">
-          <li><img class="img-responsive" src="images/c-img-1.jpg" alt="" ></li>
-          <li><img class="img-responsive" src="images/c-img-2.jpg" alt="" ></li>
-          <li><img class="img-responsive" src="images/c-img-3.jpg" alt="" ></li>
-          <li><img class="img-responsive" src="images/c-img-4.jpg" alt="" ></li>
-          <li><img class="img-responsive" src="images/c-img-5.jpg" alt="" ></li>
-        </ul>
       </div>
     </section>
   </div>
