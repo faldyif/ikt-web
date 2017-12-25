@@ -1110,8 +1110,7 @@ news-list page
 #news-list figure img {
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center;
-  background-size: contain; }
+  background-position: center; }
 #news-list .newsListSec {
   margin-top: 30px;
   position: relative; }
@@ -1534,7 +1533,7 @@ figcaption.caption {
 
 .quote-card:before {
   font-family: Georgia, serif;
-  content: "ΓÇ£";
+  content: "“";
   position: absolute;
   top: 10px;
   left: 10px;
@@ -1544,7 +1543,7 @@ figcaption.caption {
 
 .quote-card:after {
   font-family: Georgia, serif;
-  content: "ΓÇ¥";
+  content: "”";
   position: absolute;
   bottom: -110px;
   line-height: 100px;
@@ -1566,26 +1565,6 @@ figcaption.caption {
   color: #5FAAFF; }
 
 /* //quote style "visi" */
-@media (min-width: 992px) {
-  #res-roro {
-    /*background-image: -webkit-linear-gradient(30deg, #f7f7f7 50%, transparent 50%);*/
-    background: -webkit-linear-gradient(30deg, #fff 61%, transparent 71%), url("../img/roro_jadi.png") right 20%;
-    min-height: 500px; }
-
-  #res {
-    /*background-image: -webkit-linear-gradient(30deg, #f7f7f7 50%, transparent 50%);*/
-    background: -webkit-linear-gradient(30deg, transparent 30%, #f7f7f7 40%), url("../img/worker_qual.png") left 20%;
-    min-height: 500px; } }
-@media (min-width: 1200px) {
-  #res-roro {
-    /*background-image: -webkit-linear-gradient(30deg, #f7f7f7 50%, transparent 50%);*/
-    background-color: #fff;
-    min-height: 500px; }
-
-  #res {
-    /*background-image: -webkit-linear-gradient(30deg, #f7f7f7 50%, transparent 50%);*/
-    background-color: #f7f7f7;
-    min-height: 500px; } }
 .btn {
   transition: all 0.3s ease-in-out;
   -webkit-transition: all 0.3s ease-in-out;
@@ -1671,40 +1650,6 @@ figure figcaption {
   transform: translate(-50%, -50%); }
 
 /* ------------------ Navbar ------------------------- */
-.shine {
-  display: inline-block;
-  position: relative;
-  overflow: hidden; }
-
-.shine img {
-  height: 100%; }
-
-.shine:before {
-  content: "";
-  z-index: 10;
-  position: absolute;
-  height: 200%;
-  width: 200%;
-  top: -120%;
-  left: -120%;
-  background: linear-gradient(transparent 0%, rgba(255, 255, 255, 0.1) 45%, rgba(255, 255, 255, 0.5) 50%, rgba(255, 255, 255, 0.1) 55%, transparent 100%);
-  transition: all 2s;
-  transform: rotate(-45deg);
-  animation: shine 8s infinite forwards; }
-
-@keyframes shine {
-  0% {
-    top: -120%;
-    left: -120%; }
-  10% {
-    left: 100%;
-    top: 100%; }
-  20% {
-    left: 100%;
-    top: 100%; }
-  100% {
-    left: 100%;
-    top: 100%; } }
 #navbar {
   transition: all 0.3s ease-in-out;
   -webkit-transition: all 0.3s ease-in-out;
@@ -2160,4 +2105,4 @@ figcaption.caption {
   #gallery .container-fluid.pd-30 {
     padding: 10px !important; } }
 
-/*# sourceMappingURL=ikt-style.css.map */
+/*# sourceMappingURL=main.css.map */

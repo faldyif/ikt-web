@@ -781,3 +781,28 @@ display: flex;
 	color: #5FAAFF;
 }
 /* //quote style "visi" */
+
+@media (min-width: 992px){
+    #res-roro{
+      /*background-image: -webkit-linear-gradient(30deg, #f7f7f7 50%, transparent 50%);*/
+      background: -webkit-linear-gradient(30deg, #fff 61%, transparent 71%), url("../img/roro_jadi.png") right 20%; 
+      min-height: 500px;
+    }
+    #res{
+      /*background-image: -webkit-linear-gradient(30deg, #f7f7f7 50%, transparent 50%);*/
+      background: -webkit-linear-gradient(30deg, transparent 30%, #f7f7f7 40%), url("../img/worker_qual.png") left 20%; 
+      min-height: 500px;
+    }
+  }
+  @media (min-width: 1200px){
+    #res-roro{
+      /*background-image: -webkit-linear-gradient(30deg, #f7f7f7 50%, transparent 50%);*/
+      background-color: #fff;
+      min-height: 500px;
+    }
+    #res{
+      /*background-image: -webkit-linear-gradient(30deg, #f7f7f7 50%, transparent 50%);*/
+      background-color: #f7f7f7;
+      min-height: 500px;
+    }
+  }

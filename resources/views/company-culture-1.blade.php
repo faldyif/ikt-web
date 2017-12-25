@@ -57,6 +57,13 @@
                         </div>
                        </a>
                      </li>
+                     <li class="">
+                      <a data-toggle="pill" href="#menu5">
+                        <div class="be-flex">
+                         <i class="fa fa-th mg-r-15 mg-t-5"></i> <span>Pesan Budaya</span>
+                        </div>
+                       </a>
+                     </li>
                   </ul>
                 </div>
                 <div class="col-md-9">
@@ -196,6 +203,55 @@
                     <img src="{{ url('img/signature.png')}}" class="img-responsive">
                     </div>
                     <!-- //menu4 -->
+                    <!-- menu5 -->
+                    <div id="menu5" class="tab-pane fade">
+                    <h3 class="mg-b-30 roboBold">Karakter Perusahaan</h3>
+                    <div class="col-md-12">
+                      <div class="col-md-2">
+                        <img src="{{ url('img/6_corporate_culture.png') }}" class="img-responsive" style="width: 100px; height: auto; margin: 5px 0">
+                      </div>
+                      <div class="col-md-10">
+                      <p>
+                      <h4>Less Bureaucratic<br><small>Decision Making Process</small></h4>
+                      PT. Indonesia Kendaraan Terminal memiliki karakter cepat, tepat dan akurat dalam proses pengambilan keputusan.
+                      </p>
+                      </div>
+                    </div>
+                    <div class="col-md-12">
+                      <div class="col-md-2">
+                          <img src="{{ url('img/7_corporate_culture.png') }}" class="img-responsive" style="width: 100px; height: auto; margin: 5px 0">
+                      </div>
+                      <div class="col-md-10">
+                      <p>
+                      <h4>Less Feudalism<br><small>Professional Intimacy</small></h4>
+                      PT. Indonesia Kendaraan Terminal memiliki karakter yakni hubungan komunikasi yang dibangun bedasarkan profesionalisme kerja.
+                      </p>
+                      </div>
+                    </div>
+                    <div class="col-md-12">
+                      <div class="col-md-2">
+                          <img src="{{ url('img/8_corporate_culture.png') }}" class="img-responsive" style="width: 100px; height: auto; margin: 5px 0">
+                      </div>
+                      <div class="col-md-10">
+                      <p>
+                      <h4>More Modern<br><small>Werld Class Company, Technology Based &amp Customer Centric</small></h4>
+                      PT. Indonesia Kendaraan Terminal memiliki karakter perusahaan berkelas dunia, yang berbasis IT dan fokus terhadap kepuasan pelanggan.
+                      </p>
+                      </div>
+                    </div>
+                    <div class="col-md-12">
+                      <div class="col-md-2">
+                          <img src="{{ url('img/9_corporate_culture.png') }}" class="img-responsive" style="width: 100px; height: auto; margin: 5px 0">
+                      </div>
+                      <div class="col-md-10">
+                      <p>
+                      <h4>More Friendly<br><small>World Class Service</small></h4>
+                      PT. Indonesia Kendaraan Terminal memiliki karakter pelayanan optimal, berkelas dunia dan memiliki hubungan yang dekat dengan pelanggan.
+                      </p>
+                      </div>
+                    </div>
+                    </div>
+                    <!-- //menu5 -->
                     
                     
                   </div>

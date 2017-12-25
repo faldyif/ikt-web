@@ -20,28 +20,30 @@ return [
 
                 <!-- div 3 -->
                 <div class="col-md-7">
+                  <div class="grid">
+                    <div class="grid-sizer"></div>
 
-                  <!-- div st part 1 -->
-                  <div class="col-md-6" style="margin-bottom: 5%">
-                    <img src="'.url("img/stevedoring_1.jpg").'" class="img-responsive">
+                    <!-- div st part 1 -->
+                    <div class="grid-item">
+                      <img src="'.url("img/stevedoring_1.jpg").'" class="img-responsive">
+                    </div>
+                    <div class="grid-item">
+                      <img src="'.url("img/stevedoring_2.jpg").'" class="img-responsive">
+                    </div>
+                    <div class="grid-item">
+                      <img src="'.url("img/stevedoring_3.jpg").'" class="img-responsive">
+                    </div>
+                    <div class="grid-item">
+                      <img src="'.url("img/stevedoring_4.jpg").'" class="img-responsive">
+                    </div>
+                    <div class="grid-item">
+                      <img src="'.url("img/stevedoring_5.jpg").'" class="img-responsive">
+                    </div>
+                    <div class="grid-item">
+                      <img src="'.url("img/stevedoring_6.jpg").'" class="img-responsive">
+                    </div>
+                    <!-- //div st part 1 -->
                   </div>
-                  <div class="col-md-6" style="margin-bottom: 5%">
-                    <img src="'.url("img/stevedoring_2.jpg").'" class="img-responsive">
-                  </div>
-                  <div class="col-md-6" style="margin-bottom: 5%">
-                    <img src="'.url("img/stevedoring_3.jpg").'" class="img-responsive">
-                  </div>
-                  <div class="col-md-6" style="margin-bottom: 5%">
-                    <img src="'.url("img/stevedoring_4.jpg").'" class="img-responsive">
-                  </div>
-                  <div class="col-md-6" style="margin-bottom: 5%">
-                    <img src="'.url("img/stevedoring_5.jpg").'" class="img-responsive">
-                  </div>
-                  <div class="col-md-6" style="margin-bottom: 5%">
-                    <img src="'.url("img/stevedoring_6.jpg").'" class="img-responsive">
-                  </div>
-                  <!-- //div st part 1 -->
-
                 </div>
                 <!-- //div 3 -->
 
@@ -233,29 +235,28 @@ return [
                   PT Indonesia Kendaraan Terminal juga melakukan operasi Cargo Handling dari lapangan penumpukan dan gedung parkir menuju dermaga atau sebaliknya baik di terminal Internasional maupun Domestik. Pelayanan Cargo Handling ini dilakukan di dalam terminal dengan didukung oleh sistem yang terintegrasi.
                   </p>
                 </div>
-                <div class="col-md-7 col-sm-pull-5">
-                  <div class="col-md-6" style="margin-bottom: 5%">
-                    <img src="'.url("img/cargodoring_4.jpg").'" class="img-responsive">
-                  </div>
                   <div class="col-md-7 col-sm-pull-5">
-                    <div class="col-md-6" style="margin-bottom: 5%">
-                      <img src="'.url("img/cargodoring_4.jpg").'" class="img-responsive">
-                    </div>
-                    <div class="col-md-6" style="margin-bottom: 5%">
-                      <img src="'.url("img/thumb.jpg").'" class="img-responsive">
-                    </div>
-                    <div class="col-md-6" style="margin-bottom: 5%">
-                      <img src="'.url("img/thumb.jpg").'" class="img-responsive">
-                    </div>
-                    <div class="col-md-6" style="margin-bottom: 5%">
-                      <img src="'.url("img/thumb.jpg").'" class="img-responsive">
-                    </div>
-                    <div class="col-md-6" style="margin-bottom: 5%">
-                      <img src="'.url("img/thumb.jpg").'" class="img-responsive">
-                    </div>
-                    <div class="col-md-6" style="margin-bottom: 5%">
-                      <img src="'.url("img/thumb.jpg").'" class="img-responsive">
-                    </div>
+                    <div class="grid">
+                      <div class="grid-sizer"></div>
+                      <div class="grid-item">
+                        <img src="'.url("img/cargodoring_4.jpg").'" class="img-responsive">
+                      </div>
+                      <div class="grid-item">
+                        <img src="'.url("img/thumb.jpg").'" class="img-responsive">
+                      </div>
+                      <div class="grid-item">
+                        <img src="'.url("img/thumb.jpg").'" class="img-responsive">
+                      </div>
+                      <div class="grid-item">
+                        <img src="'.url("img/thumb.jpg").'" class="img-responsive">
+                      </div>
+                      <div class="grid-item">
+                        <img src="'.url("img/thumb.jpg").'" class="img-responsive">
+                      </div>
+                      <div class="grid-item">
+                        <img src="'.url("img/thumb.jpg").'" class="img-responsive">
+                      </div>
+                    </div>  
                   </div>
                 </div>
                 ',

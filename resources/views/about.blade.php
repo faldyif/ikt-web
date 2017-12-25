@@ -215,4 +215,141 @@
       </div>
     </section>
     <!-- /LOGO -->
+    <!-- WORKER QUALIFICATION -->
+<section id="res" class="lightWhiteSec">
+  <div class="container-fluid wow fadeInUpBig">
+    <section class="row pd-bt-30 mg-bt-10">
+      <div class="col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1">
+        <section class="row">
+          <div class="col-md-5">
+            <!-- Untuk gambar -->
+
+          </div>
+          <div class="col-md-7">
+            <hr class="hrSpec hrSpecOrange">
+            <h2 class="roboBlack">Worker Qualification</h2>
+            <!-- Untuk tulisan -->
+            <div class="col-md-12">
+              <div class="col-md-12">
+                <section class="be-flex">
+                  <i class="fa fa-check-circle mg-t-10 bl fa-lg mg-r-10"></i>
+                  <section>
+                    <h4 class="roboBold">Experienced</h4>
+                    <p>Berpengalaman</p>
+                  </section>
+                </section>
+              </div>
+              <div class="col-md-12">
+                <section class="be-flex">
+                  <i class="fa fa-check-circle mg-t-10 bl fa-lg mg-r-10"></i>
+                  <section>
+                    <h4 class="roboBold">Certified</h4>
+                    <p>Tersertifikasi</p>
+                  </section>
+                </section>
+              </div>
+              <div class="col-md-12">
+                <section class="be-flex">
+                  <i class="fa fa-check-circle mg-t-10 bl fa-lg mg-r-10"></i>
+                  <section>
+                    <h4 class="roboBold">High Production</h4>
+                    <p>Produktivitas tinggi (120 unit/ship/hour)</p>
+                  </section>
+                </section>
+              </div>
+              <div class="col-md-12">
+                <section class="be-flex">
+                  <i class="fa fa-check-circle mg-t-10 bl fa-lg mg-r-10"></i>
+                  <section>
+                    <h4 class="roboBold">120 Proper & Educated Driver Available</h4>
+                    <p>Tersedia 120 driver yang terlatih dan terdidik dengan baik</p>
+                  </section>
+                </section>
+              </div>
+              <div class="col-md-12">
+                <section class="be-flex">
+                  <i class="fa fa-check-circle mg-t-10 bl fa-lg mg-r-10"></i>
+                  <section>
+                    <h4 class="roboBold">Zero Damage & Zero Accident</h4>
+                    <p>Tanpa Kerusakan & Kecelakaan</p>
+                  </section>
+                </section>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </section>
+  </div>
+</section>
+<!-- /WORKER QUALIFICTION -->
+ <!-- BENEFIT OF RORO -->
+<section id="res-roro" class="">
+  <div class="container-fluid wow fadeInUpBig">
+    <section class="row pd-bt-30 mg-bt-10">
+      <div class="col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1">
+        <section class="row">
+          <div class="col-md-7">
+            <hr class="hrSpec hrSpecOrange">
+            <h2 class="roboBlack">Benefit Roro</h2>
+            <!-- Untuk tulisan -->
+            <div class="col-md-12">
+              <div class="col-md-12">
+                <section class="be-flex">
+                  <i class="fa fa-check-circle mg-t-10 bl fa-lg mg-r-10"></i>
+                  <section>
+                    <h4 class="roboBold">Pemerintah</h4>
+                    <p>Mendukung konektifitas di pulau Jawa dan antar pulau</p>
+                    <p>Meringankan anggaran pemeliharaan dan perbaikan Jalur Pantura mencapai IDR 1 trilyun per tahun</p>
+                    <p>Menghindari kecelakaan maut akibat kecelakaan truk yang <i>overloaded</i> di jalan raya yang mengakibatkan kemacetan Jalur Pantura</p>
+                  </section>
+                </section>
+              </div>
+              <div class="col-md-12">
+                <section class="be-flex">
+                  <i class="fa fa-check-circle mg-t-10 bl fa-lg mg-r-10"></i>
+                  <section>
+                    <h4 class="roboBold">Cargo Owner</h4>
+                    <p>Mengurangi ekonomi biaya tinggi di Jalur Pantura</p>
+                    <p>Kepastian dan keamanan cargo terjamin</p>
+                    <p><b>Fastest lead time with regular service</b> Menciptakan efisiensi melalui <i>management</i> yang efektif</p>
+                  </section>
+                </section>
+              </div>
+              <div class="col-md-12">
+                <section class="be-flex">
+                  <i class="fa fa-check-circle mg-t-10 bl fa-lg mg-r-10"></i>
+                  <section>
+                    <h4 class="roboBold">Perusahaan Logistik</h4>
+                    <p>Supply chain management yang efisien mendorong inventory management yang efektif</p>
+                    <p>Kepastian dan keamanan caargo terjamin</p>
+                  </section>
+                </section>
+              </div>
+              <div class="col-md-12">
+                <section class="be-flex">
+                  <i class="fa fa-check-circle mg-t-10 bl fa-lg mg-r-10"></i>
+                  <section>
+                    <h4 class="roboBold">Perusahaan Trucking</h4>
+                    <p>Menghindari kemacetan yang mengakibatkan biaya operasional tinggi</p>
+                    <p>Menghindari biaya pengawalan dan pungli jalanan di banyak titik</p>
+                    <p>Mengurangi konsumsi bahan bakar truk</p>
+                    <p>Menghindari resiko kecelakaan di jalan raya</p>
+                    <p>Mengurangi biaya pemeliharaan armada truk (suku cadang, ban, dll)</p>
+                    <p>Meningkatkan produktifitas dan efektifitas pengemudi</p>
+                  </section>
+                </section>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-5">
+            <!-- Untuk gambar -->
+            
+          </div>
+        </section>
+      </div>
+    </section>
+  </div>
+</section>
+<!-- /BENEFIT OF RORO -->
 @endsection
