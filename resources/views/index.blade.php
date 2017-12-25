@@ -76,8 +76,6 @@
          src="{{ url('img/ikt.png') }}">
   </section>
 </section>
-<<<<<<< HEAD
-=======
 
 <!-- Puisi -->
 <section id="puisi" class="pagecontent">
@@ -102,7 +100,6 @@
   </div>
 </section>
 
->>>>>>> origin/dev-den
 <!--/HERO-->
     <!--ABOUT-->
     <section id="about" class="pagecontent">
@@ -470,11 +467,7 @@
     <!--/CONTACT-->
     <!--footer-->
     <!-- <div class="hiddenSec"></div> -->
-<<<<<<< HEAD
-    <!--CONTACT-->
-=======
 <!--CONTACT-->
->>>>>>> origin/dev-den
 
     <!-- Return to Top -->
 <a href="javascript:" id="return-to-top"><i class="icon-chevron-up"></i></a>
