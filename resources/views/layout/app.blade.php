@@ -32,8 +32,8 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand" href="{{ route('welcome') }}">
-          <img class="" src="{{ url('img/ikt-logo.gif') }}">
+        <a class="navbar-brand shine" href="{{ route('welcome') }}">
+          <img src="{{ url('img/ikt_putih.png') }}">
         </a>
       </div>
 
@@ -203,6 +203,7 @@
   <script src="{{ url('js/slick.min.js') }}"></script>
   <script src="{{ url('js/jquery.fullpage.min.js') }}"></script>
   <script src="{{ url('js/masonry.js') }}"></script>
+  <script src="{{ url('js/imagesloaded.js') }}"></script>
   <script src="{{ url('js/custom.js') }}"></script>
   <script src="{{ url('js/bootstrap-notify.min.js') }}"></script>
   <script type="text/javascript">
@@ -274,6 +275,14 @@
               $('#modal-whistleblowing-loading').hide();
           })
       });
+  </script>
+  <script type="text/javascript">
+    setInterval(function () {
+      $('#my_button_div').addClass('shine');
+      setTimeout(function () {
+          $('#my_button_div').removeClass('shine');
+      }, 2000);
+  }, 6000);
   </script>
   @yield('bottom')
 
