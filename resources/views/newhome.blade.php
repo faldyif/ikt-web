@@ -5,7 +5,7 @@
 <meta http-equiv="content-type" content="text/html; charset=utf-8" />
 <meta name="author" content="M_Adnan" />
 <!-- Document Title -->
-<title>Me - Creative Portfolio &amp; Resume / CV HTML5 Template</title>
+<title>Indonesia Car Terminal</title>
 
 <!-- Favicon -->
 <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
@@ -614,13 +614,7 @@
                 </div>
               </div>
               
-              <!-- Nav tabs -->
-              <ul class="nav nav-pills" role="tablist">
-                <li role="presentation" class="active"><a href="#awards" aria-controls="awards" role="tab" data-toggle="tab">2017 </a></li>
-                <li role="presentation"><a href="#awards1" aria-controls="awards1" role="tab" data-toggle="tab">2017</a></li>
-                <li role="presentation"><a href="#awards2" aria-controls="awards2" role="tab" data-toggle="tab">2016</a></li>
-                <li role="presentation"><a href="#" aria-controls="awards3" role="tab" data-toggle="tab">MORE</a></li>
-              </ul>
+              
             </div>
           </div>
           
