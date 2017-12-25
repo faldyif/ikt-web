@@ -1613,23 +1613,33 @@ figcaption.caption {
 @media (min-width: 992px) {
   #res-roro {
     /*background-image: -webkit-linear-gradient(30deg, #f7f7f7 50%, transparent 50%);*/
-    background: -webkit-linear-gradient(30deg, #fff 61%, transparent 71%), url("../img/roro_jadi.png") right 20%;
-    min-height: 500px; }
-
-  #res {
-    /*background-image: -webkit-linear-gradient(30deg, #f7f7f7 50%, transparent 50%);*/
-    background: -webkit-linear-gradient(30deg, transparent 30%, #f7f7f7 40%), url("../img/worker_qual.png") left 20%;
-    min-height: 500px; } }
-@media (min-width: 1200px) {
-  #res-roro {
-    /*background-image: -webkit-linear-gradient(30deg, #f7f7f7 50%, transparent 50%);*/
     background-color: #fff;
     min-height: 500px; }
 
   #res {
     /*background-image: -webkit-linear-gradient(30deg, #f7f7f7 50%, transparent 50%);*/
     background-color: #f7f7f7;
-    min-height: 500px; } }
+    min-height: 500px; }
+
+  #res-footer {
+    /*background-image: -webkit-linear-gradient(30deg, #f7f7f7 50%, transparent 50%);*/
+    background: black;
+    min-height: 350px; } }
+@media (min-width: 1200px) {
+  #res-roro {
+    /*background-image: -webkit-linear-gradient(30deg, #f7f7f7 50%, transparent 50%);*/
+    background: -webkit-linear-gradient(30deg, #fff 61%, transparent 71%), url("../img/roro_jadi.png") right 20%;
+    min-height: 500px; }
+
+  #res {
+    /*background-image: -webkit-linear-gradient(30deg, #f7f7f7 50%, transparent 50%);*/
+    background: -webkit-linear-gradient(30deg, transparent 30%, #f7f7f7 40%), url("../img/worker_qual.png") left 20%;
+    min-height: 500px; }
+
+  #res-footer {
+    /*background-image: -webkit-linear-gradient(30deg, #f7f7f7 50%, transparent 50%);*/
+    background: -webkit-linear-gradient(-30deg, black 60%, transparent 70%), url("../img/back_footer.jpg");
+    min-height: 350px; } }
 .btn {
   transition: all 0.3s ease-in-out;
   -webkit-transition: all 0.3s ease-in-out;
@@ -1719,7 +1729,7 @@ figure figcaption {
   display: inline-block;
   position: relative;
   overflow: hidden;
-  padding: 5px; }
+  padding: 2px; }
   .shine img {
     height: 100%; }
 @-webkit-keyframes buzz {

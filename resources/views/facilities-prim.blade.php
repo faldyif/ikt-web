@@ -69,7 +69,7 @@
                           <tbody>
                             <tr>
                               <td>1</td>
-                              <td>Alur</td>
+                              <td>Kanal</td>
                               <td></td>
                               <td>-14 m LWS</td>
                             </tr>
