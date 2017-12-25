@@ -352,4 +352,24 @@
   </div>
 </section>
 <!-- /BENEFIT OF RORO -->
+<!-- PETA LOKASI -->
+<section>
+  <div class="container-fluid wow fadeInUpBig">
+    <section class="row pd-bt-30 mg-bt-10">
+      <div class="col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1">
+        <section class="row">
+          <div class="col-md-12">
+            <hr class="hrSpec hrSpecOrange">
+            <h2 class="roboBlack">Peta Lokasi</h2>
+            <div class="map">
+              <div class="overlay-map"></div>
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3967.1833851621095!2d106.91224451476846!3d-6.105991995578615!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xe329d8258290e493!2sTanjung+Priok+Car+Terminal+(TPT)!5e0!3m2!1sen!2sid!4v1501491377262" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+            </div>
+          </div>
+        </section>
+      </div>
+    </section>
+  </div>
+</section>
+<!-- /PETA LOKASI -->
 @endsection
