@@ -30,6 +30,7 @@
 
 <!-- JavaScripts -->
 <script src="{{ url('homepage/js/vendors/modernizr.js')}}"></script>
+<meta name="csrf-token" content="{{ csrf_token() }}">
 <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
 <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
 <!--[if lt IE 9]>
@@ -698,12 +699,19 @@
       <div class="heading-block white">
         <h6>get in touch </h6>
         <span class="huge-tittle">contact</span> </div>
+        <div class="rights col-md-9 center-auto">
+          <a href="#" class="btn-normal" data-toggle="modal" data-target="#modal-whistleblowing">Aduan Pelanggaran</a>
+        </div>
+        <br>
       <!-- Rights -->
         <div class="rights col-md-9 center-auto"> <a href="#." class="mail-to">email :</a>
         <h3>info@indonesiacarterminal.co.id</h3>
         <div class="rights col-md-9 center-auto"> <a href="#." class="mail-to">customer care</a>
-        <h4 class="whitetext">+62 811 933 9930 / +62 21 4393 2251</h4> 
-        <div class="social-icons"> 
+        <h4 class="whitetext">+62 811 933 9930 / +62 21 4393 2251</h4>
+        <div class="rights col-md-9 center-auto"> <a href="#." class="mail-to">fax</a>
+        <h4 class="whitetext">+62 21 4393 2250</h4>
+
+        <div class="social-icons">
             <a href="https://www.facebook.com/IPCIKT"><i class="fa fa-facebook"></i></a> 
             <a href="https://twitter.com/pt_ikt"><i class="fa fa-twitter"></i></a> 
             <a href="https://www.instagram.com/ipccarterminal/"><i class="fa fa-instagram"></i></a> 
@@ -712,6 +720,8 @@
         <p class="margin-top-30"><small> Copyright © 2017 indonesiacarterminal.co.id </small></p>
       </div>
     </div>
+        </div>
+    </div>
   </footer>
   <!-- End Footer --> 
   
@@ -719,6 +729,56 @@
   <a href="#" class="cd-top"><i class="fa fa-angle-up"></i></a> 
   <!-- GO TO TOP End --> 
 </div>
+
+<!-- Modal -->
+
+<div id="modal-whistleblowing" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div id="modal-whistleblowing-display" class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Kirim Aduan Pelanggaran</h4>
+      </div>
+      <div class="modal-body">
+        <p>Kirimkan aduan pelanggaran melalui form di bawah ini:</p>
+        {!! Form::open(array('route' => 'whistle.send', 'enctype' => 'multipart/form-data', 'id' => 'form_send_whistleblowing')) !!}
+        {{ Form::textarea('content', null, array('id' => 'content_wb', 'required' => 'required', 'class' => 'form-control', 'style' => '-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box;width: 100%;')) }}
+        <hr>
+        {!! Recaptcha::render() !!}
+        {!! Form::close() !!}
+      </div>
+      <div class="modal-footer">
+        <a class="btn-normal" data-dismiss="modal">Tutup</a>
+        <a id="postbutton" class="btn btn-success"><i class="fa fa-send"></i> Kirim</a>
+      </div>
+    </div>
+
+    <!-- Modal content loading-->
+    <div id="modal-whistleblowing-loading" class="modal-content">
+      <div class="modal-body">
+        <img src="{{ url('img/loading-interactive.gif') }}" style="max-width: 100%">
+      </div>
+    </div>
+
+    <!-- Modal response -->
+    <div id="modal-whistleblowing-response" class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Kirim Aduan Pelanggaran</h4>
+      </div>
+      <div class="modal-body">
+        <p id="whistleblowing-response-text">Berhasil mengirimkan aduan pelanggaran!</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Tutup</button>
+      </div>
+    </div>
+
+  </div>
+</div>
+
 
 <!-- JavaScripts --> 
 <script src="{{ url('homepage/js/vendors/jquery/jquery.min.js')}}"></script> 
@@ -737,6 +797,77 @@
 <script type="text/javascript" src="{{ url('homepage/rs-plugin/js/jquery.tp.t.min.js')}}"></script> 
 <script type="text/javascript" src="{{ url('homepage/rs-plugin/js/jquery.tp.min.js')}}"></script> 
 <script src="{{ url('homepage/js/main.js')}}"></script>
+<script src="{{ url('js/bootstrap-notify.min.js') }}"></script>
+<script type="text/javascript">
+    // Modal functions
+    $(document).ready(function(){
+        $('#modal-whistleblowing-response').hide();
+        $('#modal-whistleblowing-loading').hide();
+
+        var CSRF_TOKEN = $('meta[name="csrf-token"]').attr('content');
+        $("#postbutton").click(function(){
+
+            var gresponse = grecaptcha.getResponse();
+            var content = $("#content_wb").val();
+
+            if(gresponse === null || gresponse === "" || content === null || content === "") {
+                if(gresponse === null || gresponse === "") {
+                    $.notify({
+                        message: 'Anda harus melakukan verifikasi captcha'
+                    },{
+                        z_index: 2000,
+                        type: 'danger'
+                    });
+                }
+                if(content === null || content === "") {
+                    $.notify({
+                        message: 'Konten harus terisi'
+                    },{
+                        z_index: 2000,
+                        type: 'danger'
+                    });
+                }
+            } else {
+                $('#modal-whistleblowing-display').hide();
+                $('#modal-whistleblowing-response').hide();
+                $('#modal-whistleblowing-loading').show();
+                $.ajax({
+                  /* the route pointing to the post function */
+                    url: '{{ route('whistle.send') }}',
+                    type: 'POST',
+                  /* send the csrf-token and the input to the controller */
+                    data: {_token: CSRF_TOKEN, content: content, 'g-recaptcha-response': gresponse},
+                    dataType: 'JSON',
+                  /* remind that 'data' is the response of the AjaxController */
+                    success: function (data) {
+                        $(".writeinfo").append(data.msg);
+
+                        $('#modal-whistleblowing-display').hide();
+                        $('#modal-whistleblowing-response').show();
+                        $('#modal-whistleblowing-loading').hide();
+
+                        grecaptcha.reset();
+                        $("#content_wb").val('');
+                    },
+                    error: function (request, status, error) {
+                        $('#modal-whistleblowing-display').hide();
+                        $('#modal-whistleblowing-response').show();
+                        $('#modal-whistleblowing-loading').hide();
+
+                        $('#whistleblowing-response-text').text(request.responseText);
+                        grecaptcha.reset();
+                    }
+                });
+            }
+        });
+
+        $('#modal-whistleblowing').on('hidden.bs.modal', function () {
+            $('#modal-whistleblowing-display').show();
+            $('#modal-whistleblowing-response').hide();
+            $('#modal-whistleblowing-loading').hide();
+        })
+    });
+</script>
 
 </body>
 </html>
