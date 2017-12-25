@@ -5,7 +5,7 @@
 <meta http-equiv="content-type" content="text/html; charset=utf-8" />
 <meta name="author" content="M_Adnan" />
 <!-- Document Title -->
-<title>Indonesia Car Terminal</title>
+<title>IPC Car Terminal</title>
 
 <!-- Favicon -->
 <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
@@ -15,6 +15,7 @@
 <link rel="stylesheet" type="text/css" href="{{ url('homepage/rs-plugin/css/settings.css')}}" media="screen" />
 
 <!-- StyleSheets -->
+<link rel="stylesheet" href="{{ url('css/custom-newhome.css')}}">
 <link rel="stylesheet" href="{{ url('homepage/css/ionicons.min.css')}}">
 <link rel="stylesheet" href="{{ url('homepage/css/bootstrap/bootstrap.min.css')}}">
 <link rel="stylesheet" href="{{ url('homepage/css/font-awesome.min.css')}}">
@@ -30,6 +31,7 @@
 
 <!-- JavaScripts -->
 <script src="{{ url('homepage/js/vendors/modernizr.js')}}"></script>
+<meta name="csrf-token" content="{{ csrf_token() }}">
 <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
 <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
 <!--[if lt IE 9]>
@@ -50,7 +52,7 @@
   <header class="header light">
     <div class="sticky">
       <div class="container">
-        <div class="logo" > <a href="index.html"><img style="max-width:50px;" src="{{url('homepage/images/ikt_putih.png')}}" alt=""></a> </div>
+        <div class="logo" > <a class="shine" href="index.html"><img style="max-width:50px;" src="{{url('homepage/images/ikt_putih.png')}}" alt=""></a> </div>
         
         <!-- Nav -->
         <nav class="navbar ownmenu">
@@ -88,7 +90,7 @@
                   <ul class="dropdown-menu">
                     <li><a href="{{ route('facilities.fas') }}">{{ trans('menu.main-facilities') }}</a></li>
                     <li><a href="{{ route('facilities.fas-1') }}">{{ trans('menu.support-facilities') }}</a></li>
-                    <li><a href="{{ route('facilities.fas-2') }}">{{ trans('menu.equipment-facilities') }}</a></li>
+                    <!-- <li><a href="{{ route('facilities.fas-2') }}">{{ trans('menu.equipment-facilities') }}</a></li> -->
                   </ul>
                 </li>
                 <li class="dropdown"> <a href="blog.html" class="dropdown-toggle" data-toggle="dropdown">{{ strtoupper(trans('menu.information-center')) }}</a>
@@ -269,7 +271,7 @@
                         data-endelementdelay="0.1" 
                         data-endspeed="300" 
                         data-scrolloffset="0"
-                        style="z-index: 8;"><a href="#." class="btn-normal">LEARN MORE</a> </div>
+                        style="z-index: 8;"><a href="#content" class="btn-normal">CARI TAHU</a> </div>
                     </li>
                 </ul>
           </div>
@@ -301,7 +303,7 @@
           <h4 style="font-weight:bold; color:black;">Indonesia Kendaraan Terminal</h4>
           <div class="test-info">
             <p>Indonesia Kendaraan Terminal Merupakan Perusahaan Kendaraan Terminal yang Beroperasi Tanjung Priok Jakarta Indonesia, memberikan pelayanan Cargodooring, Stevedoring, Receiving & delevering serta berbagai Pelayanan Terbaik untuk Pelanggan Kami.</p>
-            <a href="#." class="btn-flat">lihat profile</a> </div>
+            <a href="#." class="btn-flat">lihat profil</a> </div>
         </div>
       </div>
       
@@ -314,7 +316,7 @@
       <div class="container"> 
         <!-- Heading Block -->
         <div class="heading-block">
-          <h6 class="animate fadeInRight" data-wow-delay="0.4s">what we do</h6>
+          <h6 class="animate fadeInRight" data-wow-delay="0.4s">galeri foto pilihan</h6>
           <span class="huge-tittle">Albums</span> </div>
         
         <!-- Liast Work -->
@@ -329,7 +331,7 @@
                 <div class="text-info text-right">
                   <h3 class="tittle">Enhancing Corporate Financial Management</h3>
                   <p>Expanding our reach ro a greater future, we aim high and always provide best-in-class port and other services to escalate the company's reputation</p>
-                  <div class="text-center"> <a href="#." class="btn-flat">Show Album</a> </div>
+                  <div class="text-center"> <a href="#." class="btn-flat">Lihat Album</a> </div>
                 </div>
               </li>
               
@@ -350,7 +352,7 @@
                 <div class="text-info text-left">
                   <h3 class="tittle">Implementing Human Capital Development</h3>
                   <p>Building highly capable human resources, we create superiority by developing high productivity organitation based on professionalism and expertise</p>
-                  <div class="text-center"> <a href="#." class="btn-flat">Show Album</a> </div>
+                  <div class="text-center"> <a href="#." class="btn-flat">Lihat Album</a> </div>
                 </div>
               </li>
             </ul>
@@ -365,7 +367,7 @@
                 <div class="text-info text-right">
                   <h3 class="tittle">Implementing Modern Operation Systems</h3>
                   <p>Continuous Optimizing of terminal system solution, we adopt cutting edge technology to deliver well performing operation system</p>
-                  <div class="text-center"> <a href="#." class="btn-flat">Show Album</a> </div>
+                  <div class="text-center"> <a href="#." class="btn-flat">Lihat Album</a> </div>
                 </div>
               </li>
               
@@ -386,14 +388,14 @@
                 <div class="text-info text-left">
                   <h3 class="tittle">Enhancing Corporate Business</h3>
                   <p>Developing bussiness through customer satisfication adn retention, we passionately seek to understand customer demands to maintain customer retention at the highest level</p>
-                  <div class="text-center"> <a href="#." class="btn-flat">Show Album</a> </div>
+                  <div class="text-center"> <a href="#." class="btn-flat">Lihat Album</a> </div>
                 </div>
               </li>
             </ul>
           </article>
           
           <!-- Load More Work -->
-          <div class="text-center"> <a href="{{ route('gallery') }}" class="btn-large">load more album</a> </div>
+          <div class="text-center"> <a href="{{ route('gallery') }}" class="btn-large">Selengkapnya</a> </div>
         </div>
       </div>
     </section>
@@ -469,13 +471,15 @@
         
         <!-- Heading Block -->
         <div class="heading-block">
-          <h6 class="animate fadeInRight" data-wow-delay="0.4s">newest information</h6>
-          <span class="huge-tittle">NEWS</span> </div>
+          <h6 class="animate fadeInRight" data-wow-delay="0.4s">informasi terbaru</h6>
+          <span class="huge-tittle">BERITA</span> </div>
         
         <!-- Blog -->
         <div class="blog-post">
-          <div class="row"> 
-            
+          @if(sizeof($latestNews) > 0)
+          <div class="row">
+
+            @if(sizeof($latestNews) >= 1)
             <!-- Big Post -->
             <div class="col-md-6">
               <article class="post-normal third-post"> 
@@ -487,10 +491,12 @@
                     <span class="comm">{{ \Carbon\Carbon::parse($latestNews[0]->created_at)->toFormattedDateString() }} / {{ $latestNews[0]->view_count }} Views</span> <a href="{{ route('news.detail',  $latestNews[0]->slug) }}" class="btn-flat margin-top-15">READ MORE</a> 
                 </article>
             </div>
-            
-            
+            @endif
+
+            @if(sizeof($latestNews) >= 2)
             <!-- Post -->
-            <div class="col-md-3"> 
+            <div class="col-md-3">
+              @if(sizeof($latestNews) >= 2)
               <!-- Post -->
               <article class="post-normal"> 
                 <!-- Imag --> 
@@ -499,8 +505,9 @@
                 <a href="{{ route('news.detail',  $latestNews[1]->slug) }}" class="post-tittle">{{ $latestNews[1]->title }}</a>
                 <p>{!! substr(strip_tags($latestNews[1]->content), 0, 100) !!}</p>
                 <span class="comm">{{ \Carbon\Carbon::parse($latestNews[1]->created_at)->toFormattedDateString() }} / {{ $latestNews[1]->view_count }} Views</span> <a href="{{ route('news.detail',  $latestNews[1]->slug) }}" class="btn-flat margin-top-15">READ MORE</a> </article>
+              @endif
 
-              
+              @if(sizeof($latestNews) >= 3)
               <!-- Post -->
               <article class="post-normal margin-top-30"> 
                 <!-- Imag --> 
@@ -509,8 +516,11 @@
                 <a href="{{ route('news.detail',  $latestNews[2]->slug) }}" class="post-tittle">{{ $latestNews[2]->title }}</a>
                 <p>{!! substr(strip_tags($latestNews[1]->content), 0, 100) !!}</p>
                 <span class="comm">{{ \Carbon\Carbon::parse($latestNews[2]->created_at)->toFormattedDateString() }} / {{ $latestNews[2]->view_count }} Views</span> <a href="{{ route('news.detail',  $latestNews[2]->slug) }}" class="btn-flat margin-top-15">READ MORE</a> </article>
+              @endif
             </div>
-            
+            @endif
+
+            @if(sizeof($latestNews) >= 4)
             <!-- Post -->
             <div class="col-md-3"> 
               <!-- Post -->
@@ -522,10 +532,17 @@
                 <p>{!! substr(strip_tags($latestNews[3]->content), 0, 100) !!}</p>
                 <span class="comm">{{ \Carbon\Carbon::parse($latestNews[3]->created_at)->toFormattedDateString() }} / {{ $latestNews[3]->view_count }} Views</span> <a href="{{ route('news.detail',  $latestNews[3]->slug) }}" class="btn-flat margin-top-15">READ MORE</a> </article>
             </div>
+            @endif
+
+
           </div>
-          
+
+          @endif
+
+          @if(sizeof($latestNews) > 4)
           <!-- Load More Work -->
-          <div class="text-center margin-top-100"> <a href="{{ route('news') }}" class="btn-large">more NEWS</a> </div>
+          <div class="text-center margin-top-100"> <a href="{{ route('news') }}" class="btn-large">Selengkapnya</a> </div>
+          @endif
         </div>
       </div>
     </section>
@@ -539,8 +556,8 @@
         
         <!-- Heading Block -->
         <div class="heading-block">
-          <h6 class="animate fadeInRight" data-wow-delay="0.4s">pencapaian dan</h6>
-          <span class="huge-tittle">Penghargaan</span> </div>
+          <h6 class="animate fadeInRight" data-wow-delay="0.4s">pencapaian dan penghargaan</h6>
+          <span class="huge-tittle">Achievements</span> </div>
         
         <!-- Profile Tabs -->
         <div class="profile-inn">
@@ -614,12 +631,18 @@
                 </div>
               </div>
               
-              
+              <!-- Nav tabs -->
+              <ul class="nav nav-pills" role="tablist">
+                <li role="presentation" class="active"><a href="#awards" aria-controls="awards" role="tab" data-toggle="tab">2017 </a></li>
+                <li role="presentation"><a href="#awards1" aria-controls="awards1" role="tab" data-toggle="tab">2017</a></li>
+                <li role="presentation"><a href="#awards2" aria-controls="awards2" role="tab" data-toggle="tab">2016</a></li>
+                <li role="presentation"><a href="#" aria-controls="awards3" role="tab" data-toggle="tab">MORE</a></li>
+              </ul>
             </div>
           </div>
           
           <!-- BTN -->
-          <div class="btn-part"> <a href="{{ route('company.achievements') }}" class="btn-large btn-large-1 ">Show More</a> </div>
+          <div class="btn-part"> <a href="{{ route('company.achievements') }}" class="btn-large btn-large-1 ">Selengkapnya</a> </div>
         </div>
       </div>
       
@@ -661,15 +684,6 @@
             
           </div>
         </div>
-        
-        <!-- Client Img -->
-        <ul class="client-img  animate fadeInDown" data-wow-delay="0.4s">
-          <li><img class="img-responsive" src="images/c-img-1.jpg" alt="" ></li>
-          <li><img class="img-responsive" src="images/c-img-2.jpg" alt="" ></li>
-          <li><img class="img-responsive" src="images/c-img-3.jpg" alt="" ></li>
-          <li><img class="img-responsive" src="images/c-img-4.jpg" alt="" ></li>
-          <li><img class="img-responsive" src="images/c-img-5.jpg" alt="" ></li>
-        </ul>
       </div>
     </section>
   </div>
@@ -686,12 +700,19 @@
       <div class="heading-block white">
         <h6>get in touch </h6>
         <span class="huge-tittle">contact</span> </div>
+        <div class="rights col-md-9 center-auto">
+          <a href="#" class="btn-normal" data-toggle="modal" data-target="#modal-whistleblowing">Aduan Pelanggaran</a>
+        </div>
+        <br>
       <!-- Rights -->
         <div class="rights col-md-9 center-auto"> <a href="#." class="mail-to">email :</a>
         <h3>info@indonesiacarterminal.co.id</h3>
         <div class="rights col-md-9 center-auto"> <a href="#." class="mail-to">customer care</a>
-        <h4 class="whitetext">+62 811 933 9930 / +62 21 4393 2251</h4> 
-        <div class="social-icons"> 
+        <h4 class="whitetext">+62 811 933 9930 / +62 21 4393 2251</h4>
+        <div class="rights col-md-9 center-auto"> <a href="#." class="mail-to">fax</a>
+        <h4 class="whitetext">+62 21 4393 2250</h4>
+
+        <div class="social-icons">
             <a href="https://www.facebook.com/IPCIKT"><i class="fa fa-facebook"></i></a> 
             <a href="https://twitter.com/pt_ikt"><i class="fa fa-twitter"></i></a> 
             <a href="https://www.instagram.com/ipccarterminal/"><i class="fa fa-instagram"></i></a> 
@@ -700,6 +721,8 @@
         <p class="margin-top-30"><small> Copyright © 2017 indonesiacarterminal.co.id </small></p>
       </div>
     </div>
+        </div>
+    </div>
   </footer>
   <!-- End Footer --> 
   
@@ -707,6 +730,56 @@
   <a href="#" class="cd-top"><i class="fa fa-angle-up"></i></a> 
   <!-- GO TO TOP End --> 
 </div>
+
+<!-- Modal -->
+
+<div id="modal-whistleblowing" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div id="modal-whistleblowing-display" class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Kirim Aduan Pelanggaran</h4>
+      </div>
+      <div class="modal-body">
+        <p>Kirimkan aduan pelanggaran melalui form di bawah ini:</p>
+        {!! Form::open(array('route' => 'whistle.send', 'enctype' => 'multipart/form-data', 'id' => 'form_send_whistleblowing')) !!}
+        {{ Form::textarea('content', null, array('id' => 'content_wb', 'required' => 'required', 'class' => 'form-control', 'style' => '-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box;width: 100%;')) }}
+        <hr>
+        {!! Recaptcha::render() !!}
+        {!! Form::close() !!}
+      </div>
+      <div class="modal-footer">
+        <a class="btn-normal" data-dismiss="modal">Tutup</a>
+        <a id="postbutton" class="btn btn-success"><i class="fa fa-send"></i> Kirim</a>
+      </div>
+    </div>
+
+    <!-- Modal content loading-->
+    <div id="modal-whistleblowing-loading" class="modal-content">
+      <div class="modal-body">
+        <img src="{{ url('img/loading-interactive.gif') }}" style="max-width: 100%">
+      </div>
+    </div>
+
+    <!-- Modal response -->
+    <div id="modal-whistleblowing-response" class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Kirim Aduan Pelanggaran</h4>
+      </div>
+      <div class="modal-body">
+        <p id="whistleblowing-response-text">Berhasil mengirimkan aduan pelanggaran!</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Tutup</button>
+      </div>
+    </div>
+
+  </div>
+</div>
+
 
 <!-- JavaScripts --> 
 <script src="{{ url('homepage/js/vendors/jquery/jquery.min.js')}}"></script> 
@@ -725,6 +798,77 @@
 <script type="text/javascript" src="{{ url('homepage/rs-plugin/js/jquery.tp.t.min.js')}}"></script> 
 <script type="text/javascript" src="{{ url('homepage/rs-plugin/js/jquery.tp.min.js')}}"></script> 
 <script src="{{ url('homepage/js/main.js')}}"></script>
+<script src="{{ url('js/bootstrap-notify.min.js') }}"></script>
+<script type="text/javascript">
+    // Modal functions
+    $(document).ready(function(){
+        $('#modal-whistleblowing-response').hide();
+        $('#modal-whistleblowing-loading').hide();
+
+        var CSRF_TOKEN = $('meta[name="csrf-token"]').attr('content');
+        $("#postbutton").click(function(){
+
+            var gresponse = grecaptcha.getResponse();
+            var content = $("#content_wb").val();
+
+            if(gresponse === null || gresponse === "" || content === null || content === "") {
+                if(gresponse === null || gresponse === "") {
+                    $.notify({
+                        message: 'Anda harus melakukan verifikasi captcha'
+                    },{
+                        z_index: 2000,
+                        type: 'danger'
+                    });
+                }
+                if(content === null || content === "") {
+                    $.notify({
+                        message: 'Konten harus terisi'
+                    },{
+                        z_index: 2000,
+                        type: 'danger'
+                    });
+                }
+            } else {
+                $('#modal-whistleblowing-display').hide();
+                $('#modal-whistleblowing-response').hide();
+                $('#modal-whistleblowing-loading').show();
+                $.ajax({
+                  /* the route pointing to the post function */
+                    url: '{{ route('whistle.send') }}',
+                    type: 'POST',
+                  /* send the csrf-token and the input to the controller */
+                    data: {_token: CSRF_TOKEN, content: content, 'g-recaptcha-response': gresponse},
+                    dataType: 'JSON',
+                  /* remind that 'data' is the response of the AjaxController */
+                    success: function (data) {
+                        $(".writeinfo").append(data.msg);
+
+                        $('#modal-whistleblowing-display').hide();
+                        $('#modal-whistleblowing-response').show();
+                        $('#modal-whistleblowing-loading').hide();
+
+                        grecaptcha.reset();
+                        $("#content_wb").val('');
+                    },
+                    error: function (request, status, error) {
+                        $('#modal-whistleblowing-display').hide();
+                        $('#modal-whistleblowing-response').show();
+                        $('#modal-whistleblowing-loading').hide();
+
+                        $('#whistleblowing-response-text').text(request.responseText);
+                        grecaptcha.reset();
+                    }
+                });
+            }
+        });
+
+        $('#modal-whistleblowing').on('hidden.bs.modal', function () {
+            $('#modal-whistleblowing-display').show();
+            $('#modal-whistleblowing-response').hide();
+            $('#modal-whistleblowing-loading').hide();
+        })
+    });
+</script>
 
 </body>
 </html>

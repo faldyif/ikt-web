@@ -832,6 +832,23 @@ display: flex;
 @media (min-width: 992px){
     #res-roro{
       /*background-image: -webkit-linear-gradient(30deg, #f7f7f7 50%, transparent 50%);*/
+      background-color: #fff;
+      min-height: 500px;
+    }
+    #res{
+      /*background-image: -webkit-linear-gradient(30deg, #f7f7f7 50%, transparent 50%);*/
+      background-color: #f7f7f7;
+      min-height: 500px;
+    }
+    #res-footer{
+      /*background-image: -webkit-linear-gradient(30deg, #f7f7f7 50%, transparent 50%);*/
+      background: black; 
+      min-height: 350px;
+    }
+  }
+  @media (min-width: 1200px){
+    #res-roro{
+      /*background-image: -webkit-linear-gradient(30deg, #f7f7f7 50%, transparent 50%);*/
       background: -webkit-linear-gradient(30deg, #fff 61%, transparent 71%), url("../img/roro_jadi.png") right 20%; 
       min-height: 500px;
     }
@@ -840,16 +857,9 @@ display: flex;
       background: -webkit-linear-gradient(30deg, transparent 30%, #f7f7f7 40%), url("../img/worker_qual.png") left 20%; 
       min-height: 500px;
     }
-  }
-  @media (min-width: 1200px){
-    #res-roro{
+    #res-footer{
       /*background-image: -webkit-linear-gradient(30deg, #f7f7f7 50%, transparent 50%);*/
-      background-color: #fff;
-      min-height: 500px;
-    }
-    #res{
-      /*background-image: -webkit-linear-gradient(30deg, #f7f7f7 50%, transparent 50%);*/
-      background-color: #f7f7f7;
-      min-height: 500px;
+      background: -webkit-linear-gradient(-30deg, black 60%, transparent 70%), url("../img/back_footer.jpg"); 
+      min-height: 350px;
     }
   }

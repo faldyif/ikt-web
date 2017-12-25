@@ -1613,23 +1613,33 @@ figcaption.caption {
 @media (min-width: 992px) {
   #res-roro {
     /*background-image: -webkit-linear-gradient(30deg, #f7f7f7 50%, transparent 50%);*/
-    background: -webkit-linear-gradient(30deg, #fff 61%, transparent 71%), url("../img/roro_jadi.png") right 20%;
-    min-height: 500px; }
-
-  #res {
-    /*background-image: -webkit-linear-gradient(30deg, #f7f7f7 50%, transparent 50%);*/
-    background: -webkit-linear-gradient(30deg, transparent 30%, #f7f7f7 40%), url("../img/worker_qual.png") left 20%;
-    min-height: 500px; } }
-@media (min-width: 1200px) {
-  #res-roro {
-    /*background-image: -webkit-linear-gradient(30deg, #f7f7f7 50%, transparent 50%);*/
     background-color: #fff;
     min-height: 500px; }
 
   #res {
     /*background-image: -webkit-linear-gradient(30deg, #f7f7f7 50%, transparent 50%);*/
     background-color: #f7f7f7;
-    min-height: 500px; } }
+    min-height: 500px; }
+
+  #res-footer {
+    /*background-image: -webkit-linear-gradient(30deg, #f7f7f7 50%, transparent 50%);*/
+    background: black;
+    min-height: 350px; } }
+@media (min-width: 1200px) {
+  #res-roro {
+    /*background-image: -webkit-linear-gradient(30deg, #f7f7f7 50%, transparent 50%);*/
+    background: -webkit-linear-gradient(30deg, #fff 61%, transparent 71%), url("../img/roro_jadi.png") right 20%;
+    min-height: 500px; }
+
+  #res {
+    /*background-image: -webkit-linear-gradient(30deg, #f7f7f7 50%, transparent 50%);*/
+    background: -webkit-linear-gradient(30deg, transparent 30%, #f7f7f7 40%), url("../img/worker_qual.png") left 20%;
+    min-height: 500px; }
+
+  #res-footer {
+    /*background-image: -webkit-linear-gradient(30deg, #f7f7f7 50%, transparent 50%);*/
+    background: -webkit-linear-gradient(-30deg, black 60%, transparent 70%), url("../img/back_footer.jpg");
+    min-height: 350px; } }
 .btn {
   transition: all 0.3s ease-in-out;
   -webkit-transition: all 0.3s ease-in-out;
@@ -1715,6 +1725,63 @@ figure figcaption {
   transform: translate(-50%, -50%); }
 
 /* ------------------ Navbar ------------------------- */
+.shine {
+  display: inline-block;
+  position: relative;
+  overflow: hidden;
+  padding: 2px; }
+  .shine img {
+    height: 100%; }
+@-webkit-keyframes buzz {
+  50% {
+    -ms-transform: translateX(3px) rotate(2deg);
+    -webkit-transform: translateX(3px) rotate(2deg);
+    transform: translateX(3px) rotate(2deg); }
+  100% {
+    -ms-transform: translateX(-3px) rotate(-2deg);
+    -webkit-transform: translateX(-3px) rotate(-2deg);
+    transform: translateX(-3px) rotate(-2deg); } }
+@keyframes buzz {
+  50% {
+    -ms-transform: translateX(3px) rotate(2deg);
+    -webkit-transform: translateX(3px) rotate(2deg);
+    transform: translateX(3px) rotate(2deg); }
+  100% {
+    -ms-transform: translateX(-3px) rotate(-2deg);
+    -webkit-transform: translateX(-3px) rotate(-2deg);
+    transform: translateX(-3px) rotate(-2deg); } }
+  .shine img:hover,
+  .shine img:focus,
+  .shine img:active {
+    -webkit-animation-name: buzz;
+    animation-name: buzz;
+    -webkit-animation-duration: 0.15s;
+    animation-duration: 0.15s;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite; }
+
+.shine:before {
+  content: "";
+  z-index: 10;
+  position: absolute;
+  height: 200%;
+  width: 200%;
+  top: -120%;
+  left: -120%;
+  background: linear-gradient(transparent 0%, rgba(255, 255, 255, 0.1) 45%, rgba(255, 255, 255, 0.5) 50%, rgba(255, 255, 255, 0.1) 55%, transparent 100%);
+  transition: all 3s;
+  transform: rotate(-45deg);
+  animation: shine 3s infinite forwards; }
+
+@keyframes shine {
+  0% {
+    top: -120%;
+    left: -120%; }
+  100% {
+    left: 120%;
+    top: 120%; } }
 #navbar {
   transition: all 0.3s ease-in-out;
   -webkit-transition: all 0.3s ease-in-out;

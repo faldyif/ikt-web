@@ -1,6 +1,6 @@
 @extends('layout.app-with-footer')
 
-@section('title','Fasilitas Utama | IPC Car Terminal')
+@section('title','Fasilitas Internasional | IPC Car Terminal')
 
 @section('content')
     <!--HERO-->
@@ -8,7 +8,7 @@
         <div class="heroTitle" style="background-image: url('{{ url('img/2.jpg') }}');">
             <div class="overlay"></div>
             <section class="container-fluid pd-30">
-                <h2 class="roboBold wh alignCenter" data-wow-delay="0.4s">Fasilitas Utama</h2>
+                <h2 class="roboBold wh alignCenter" data-wow-delay="0.4s">Fasilitas Internasional</h2>
                 <h4 class="alignCenter wh mg-t-20">PT. Indonesia Kendaraan Terminal</h4>
             </section>
         </div>
@@ -32,14 +32,14 @@
                     <li class="">
                       <a data-toggle="pill" href="#menu1">
                         <div class="be-flex">
-                          <i class="fa fa-th mg-r-15 mg-t-5"></i> <span>Lapangan</span>
+                          <i class="fa fa-th mg-r-15 mg-t-5"></i> <span>Penumpukan</span>
                         </div>
                        </a>
                      </li>
                     <li class="">
                       <a data-toggle="pill" href="#menu2">
                         <div class="be-flex">
-                         <i class="fa fa-th mg-r-15 mg-t-5"></i> <span>Gedung Parkir 5 Lantai</span>
+                         <i class="fa fa-th mg-r-15 mg-t-5"></i> <span>Sistem Informasi dan Lain-Lain</span>
                         </div>
                        </a>
                      </li>
@@ -56,62 +56,179 @@
                 <div class="col-md-9">
                   <div class="tab-content">
                     <div id="home" class="tab-pane fade in active">
-                      <!-- <h3 class="roboBlack">Lorem ipsum dolor sit amet</h3> -->
-                      <h3 class="roboBlack">Dermaga 1</h3>
-                      <p>Panjang : 88 m'</p>
-                      <p>Kedalaman : -6 LWS</p>
-                        <p>Konten sedang disiapkan...</p>
-
-                        <h3 class="roboBlack">Dermaga 2</h3>
-                      <p>Panjang : 220 m'</p>
-                      <p>Kedalaman : -11 LWS</p>
-
-                        <p>Konten sedang disiapkan...</p>
+                      <div class="table-responsive">
+                        <table class="table table-striped table-hover">
+                          <thead>
+                            <tr>
+                              <th>No</th>
+                              <th>Nama</th>
+                              <th>Panjang</th>
+                              <th>Kedalaman</th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            <tr>
+                              <td>1</td>
+                              <td>Kanal</td>
+                              <td></td>
+                              <td>-14 m LWS</td>
+                            </tr>
+                            <tr>
+                              <td>2</td>
+                              <td>Dermaga 1</td>
+                              <td>88 m'</td>
+                              <td>-6 m LWS</td>
+                            </tr>
+                            <tr>
+                              <td>3</td>
+                              <td>Dermaga 2</td>
+                              <td>220 m'</td>
+                              <td>-11 m LWS</td>
+                            </tr> 
+                          </tbody>
+                        </table>
+                      </div>
                     </div>
                     <div id="menu1" class="tab-pane fade">
-                      <!-- <h3 class="roboBlack">Lorem ipsum dolor sit amet</h3> -->
-                      <h3 class="roboBlack">Ekspor</h3>
-                      <h3 class="roboBlack">Lapangan A</h3>
-                      <p>Kapasitas : 1.036 Slot</p>
+                      <hr class="hrSpec hrSpecOrange">
+                      <h4>Ekspor</h4>
+                      <div class="table-responsive">
+                        <table class="table table-striped table-hover">
+                          <thead>
+                            <tr>
+                              <th>No</th>
+                              <th>Nama</th>
+                              <th>Kapasitas</th>
+                            </tr>
+                          </thead>  
+                          <tbody>
+                            <tr>
+                              <td>1</td>
+                              <td>Lapangan A</td>
+                              <td>1.036 Slot</td>
+                            </tr>
+                            <tr>
+                              <td>2</td>
+                              <td>Lapangan B</td>
+                              <td>240 Slot</td>
+                            </tr>
+                            <tr>
+                              <td>3</td>
+                              <td>Lapangan C (Buffer)</td>
+                              <td>250 Slot</td>
+                            </tr> 
+                            <tr>
+                              <td>4</td>
+                              <td>Lapangan H</td>
+                              <td>1.120 Slot</td>
+                            </tr>
+                            <tr>
+                              <td>5</td>
+                              <td>Lapangan O</td>
+                              <td>166 Slot</td>
+                            </tr>
+                            <tr>
+                              <td>6</td>
+                              <td>Gedung Parkir 5 Lantai</td>
+                              <td>2.766 Slot</td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
 
-                        <p>Konten sedang disiapkan...</p>
-
-                        <h3 class="roboBlack">Lapangan B</h3>
-                      <p>Kapasitas : 240 Slot</p>
-
-                        <p>Konten sedang disiapkan...</p>
-
-                        <h3 class="roboBlack">Lapangan C (Buffer)</h3>
-                      <p>Kapasitas : 250 Slot</p>
-
-                        <p>Konten sedang disiapkan...</p>
-
-                        <h3 class="roboBlack">Lapangan H</h3>
-                      <p>Kapasitas : 1.120 Slot</p>
-
-                        <p>Konten sedang disiapkan...</p>
-
-                        <h3 class="roboBlack">Lapangan O</h3>
-                      <p>Kapasitas : 166 Slot</p>
-
-                        <p>Konten sedang disiapkan...</p>
-
-                        <h3 class="roboBlack">Impor</h3>
-                      <h3 class="roboBlack">Lapangan E</h3>
-                      <p>Kapasitas : 3.489 Slot</p>
-
-                        <p>Konten sedang disiapkan...</p>
+                      <hr class="hrSpec hrSpecOrange">
+                      <h4>Impor</h4>
+                      <div class="table-responsive">
+                        <table class="table table-striped table-hover">
+                          <thead>
+                            <tr>
+                              <th>No</th>
+                              <th>Nama</th>
+                              <th>Kapasitas</th>
+                            </tr>
+                          </thead>  
+                          <tbody>
+                            <tr>
+                              <td>1</td>
+                              <td>Lapangan E</td>
+                              <td>3.489 Slot</td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
 
                     </div>
                     <div id="menu2" class="tab-pane fade">
                       <!-- <h3 class="roboBlack">3 Lorem ipsum dolor sit amet</h3> -->
                       <!-- <h3 class="roboBlack">Lapangan O</h3> -->
-                      <p>Kapasitas : 2.766 Slot</p>
-
-                        <p>Konten sedang disiapkan...</p>
-                    </div>
-                    <div id="menu3" class="tab-pane fade">
-                        <p>Konten sedang disiapkan...</p>
+                      <div class="table-responsive">
+                        <table class="table table-striped table-hover">
+                          <thead>
+                            <tr>
+                              <th>No</th>
+                              <th>Nama</th>
+                              <th>Jumlah</th>
+                            </tr>
+                          </thead>  
+                          <tbody>
+                            <tr>
+                              <td>1</td>
+                              <td>Warehouse (Gudang)</td>
+                              <td></td>
+                            </tr>
+                            <tr>
+                              <td>2</td>
+                              <td>Car Wash</td>
+                              <td></td>
+                            </tr>
+                            <tr>
+                              <td>3</td>
+                              <td>Office & Workshop</td>
+                              <td></td>
+                            </tr>
+                            <tr>
+                              <td>4</td>
+                              <td>Gate In/Out</td>
+                              <td></td>
+                            </tr>
+                            <tr>
+                              <td>5</td>
+                              <td>Yard Sweeper</td>
+                              <td>3 Unit</td>
+                            </tr>
+                            <tr>
+                              <td>6</td>
+                              <td>Tug Master</td>
+                              <td>2 Unit</td>
+                            </tr>
+                            <tr>
+                              <td>7</td>
+                              <td>Chasis</td>
+                              <td>4 Unit</td>
+                            </tr>
+                            <tr>
+                              <td>8</td>
+                              <td>Taxi Car</td>
+                              <td>8 Unit</td>
+                            </tr>
+                            <tr>
+                              <td>9</td>
+                              <td>Fire Resque Truck</td>
+                              <td>1 Unit</td>
+                            </tr>
+                            <tr>
+                              <td>10</td>
+                              <td>Shuttle Service</td>
+                              <td>2 Unit</td>
+                            </tr>
+                            <tr>
+                              <td>11</td>
+                              <td>Car Terminal Operating System</td>
+                              <td></td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
                     </div>
                   </div>
                 </div>

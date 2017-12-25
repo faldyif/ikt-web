@@ -14,7 +14,7 @@ class IndexController extends Controller
         $testimonials = Testimonial::latest()->get();
         $latestNews = News::latest()->limit(10)->get();
         $latestAlbums = Album::latest()->limit(3)->get();
-        return view('index')
+        return view('newhome')
             ->with('latestNews', $latestNews)
             ->with('latestAlbums', $latestAlbums)
             ->with('testimonials', $testimonials);
