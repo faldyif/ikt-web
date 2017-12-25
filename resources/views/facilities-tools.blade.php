@@ -1,6 +1,6 @@
 @extends('layout.app-with-footer')
 
-@section('title','Fasilitas Utama | IPC Car Terminal')
+@section('title','Peralatan | IPC Car Terminal')
 
 @section('content')
     <!--HERO-->
@@ -21,7 +21,7 @@
           <div class="col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1">
             <section class="row be-block-768">
               <hr class="hrSpec hrSpecOrange">
-                <h3 class="mg-b-30 roboBold">Perlengkapan</h3> 
+                <h3 class="mg-b-30 roboBold">Peralatan</h3> 
               <!-- <div class="col-md-3">
                   <ul class="nav nav-pills nav-stacked">
                       <li class="active">
