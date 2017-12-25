@@ -244,7 +244,7 @@
                         data-elementdelay="0.07" 
                         data-endelementdelay="0.1" 
                         data-endspeed="300" 
-                        style="z-index: 6; font-size:120px; color:#fff; text-transform:uppercase; font-weight:bold; white-space: nowrap;">CAR</div>
+                        style="z-index: 6; font-size:120px; color:#fff; text-transform:uppercase; font-weight:bold; white-space: nowrap;">Kendaraan</div>
                       
                       <!-- LAYER NR. 3 -->
                       <div class="tp-caption sfb tp-resizeme" 
@@ -271,7 +271,7 @@
                         data-endelementdelay="0.1" 
                         data-endspeed="300" 
                         data-scrolloffset="0"
-                        style="z-index: 8;"><a href="#content" class="btn-normal">CARI TAHU</a> </div>
+                        style="z-index: 8;"><a href="#content" class="btn-normal">SELENGKAPNYA</a> </div>
                     </li>
                 </ul>
           </div>
@@ -303,7 +303,7 @@
           <h4 style="font-weight:bold; color:black;">Indonesia Kendaraan Terminal</h4>
           <div class="test-info">
             <p>Indonesia Kendaraan Terminal Merupakan Perusahaan Kendaraan Terminal yang Beroperasi Tanjung Priok Jakarta Indonesia, memberikan pelayanan Cargodooring, Stevedoring, Receiving & delevering serta berbagai Pelayanan Terbaik untuk Pelanggan Kami.</p>
-            <a href="#." class="btn-flat">lihat profil</a> </div>
+            <a href="{{ route('company.about') }}" class="btn-flat">lihat profil</a> </div>
         </div>
       </div>
       
@@ -752,7 +752,7 @@
       </div>
       <div class="modal-footer">
         <a class="btn-normal" data-dismiss="modal">Tutup</a>
-        <a id="postbutton" class="btn btn-success"><i class="fa fa-send"></i> Kirim</a>
+        <a id="postbutton" class="btn-normal"><i class="fa fa-send"></i> Kirim</a>
       </div>
     </div>
 
