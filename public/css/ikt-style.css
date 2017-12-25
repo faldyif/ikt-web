@@ -1534,7 +1534,7 @@ figcaption.caption {
 
 .quote-card:before {
   font-family: Georgia, serif;
-  content: "ΓÇ£";
+  content: "“";
   position: absolute;
   top: 10px;
   left: 10px;
@@ -1544,7 +1544,7 @@ figcaption.caption {
 
 .quote-card:after {
   font-family: Georgia, serif;
-  content: "ΓÇ¥";
+  content: "”";
   position: absolute;
   bottom: -110px;
   line-height: 100px;
@@ -1610,6 +1610,26 @@ figcaption.caption {
   top: 3px; }
 
 /* //quote style "visi" */
+@media (min-width: 992px) {
+  #res-roro {
+    /*background-image: -webkit-linear-gradient(30deg, #f7f7f7 50%, transparent 50%);*/
+    background: -webkit-linear-gradient(30deg, #fff 61%, transparent 71%), url("../img/roro_jadi.png") right 20%;
+    min-height: 500px; }
+
+  #res {
+    /*background-image: -webkit-linear-gradient(30deg, #f7f7f7 50%, transparent 50%);*/
+    background: -webkit-linear-gradient(30deg, transparent 30%, #f7f7f7 40%), url("../img/worker_qual.png") left 20%;
+    min-height: 500px; } }
+@media (min-width: 1200px) {
+  #res-roro {
+    /*background-image: -webkit-linear-gradient(30deg, #f7f7f7 50%, transparent 50%);*/
+    background-color: #fff;
+    min-height: 500px; }
+
+  #res {
+    /*background-image: -webkit-linear-gradient(30deg, #f7f7f7 50%, transparent 50%);*/
+    background-color: #f7f7f7;
+    min-height: 500px; } }
 .btn {
   transition: all 0.3s ease-in-out;
   -webkit-transition: all 0.3s ease-in-out;

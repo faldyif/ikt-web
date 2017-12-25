@@ -80,7 +80,8 @@ Auth::routes();
 Route::get('/', 'IndexController@index')->name('welcome');
 // Route for redirection from /home to /admin if logged in
 Route::get(trans('routes.home'), 'HomeController@index')->name('home');
-
+// new home route
+Route::get('/newhome', 'IndexController@newhome')->name('welcome');
 /*
  * About company route group
  */
@@ -89,7 +90,7 @@ Route::get(trans('routes.company.about'), function () {
 })->name('company.about');
 
 Route::get(trans('routes.company.ceo-message'), function () {
-    return view('ceo');
+    return view('about');
 })->name('company.ceo-message');
 
 Route::get(trans('routes.company.culture'), function () {
