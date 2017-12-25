@@ -5,7 +5,7 @@
 @section('content')
     <!--HERO-->
     <section id="heroTitle">
-        <div class="heroTitle" style="background-image: url('{{ url('img/receiving_2.jpg') }}');">
+        <div class="heroTitle" style="background-image: url('{{ url('img/csr6.jpg') }}');">
             <div class="overlay"></div>
             <section class="container-fluid pd-30">
                 <h2 class="roboBold wh alignCenter" data-wow-delay="0.4s">CSR IPC Car Terminal - Rangkul Warga</h2>
@@ -80,17 +80,12 @@
                           </ol>
                       </div>
                       <div id="menu0" class="tab-pane fade in">
-                          <p>Konten sedang disiapkan...</p>
                           <div class="col-md-12">
-                            <div class="col-md-4" style="margin-bottom: 5%">
-                                <img src="{{ url('img/thumb.jpg') }}" class="img-responsive">
+                            
+                            <div class="col-md-9" style="margin-bottom: 5%">
+                                <img src="{{ url('img/csrpk.png') }}" class="img-responsive">
                             </div>
-                            <div class="col-md-4" style="margin-bottom: 5%">
-                                <img src="{{ url('img/thumb.jpg') }}" class="img-responsive">
-                            </div>
-                            <div class="col-md-4" style="margin-bottom: 5%">
-                                <img src="{{ url('img/thumb.jpg') }}" class="img-responsive">
-                            </div>
+                            
                           </div>
                           <div class="col-md-12">
                             <button class="btn btn-primary center-block">Lihat lainnya</button>
@@ -131,17 +126,12 @@
                           </div>
                     </div>
                     <div id="menu3" class="tab-pane fade">
-                        <p>Konten sedang disiapkan...</p>
                         <div class="col-md-12">
-                            <div class="col-md-4" style="margin-bottom: 5%">
-                                <img src="{{ url('img/thumb.jpg') }}" class="img-responsive">
+                            
+                            <div class="col-md-11" style="margin-bottom: 5%">
+                                <img src="{{ url('img/csrksl.png') }}" class="img-responsive">
                             </div>
-                            <div class="col-md-4" style="margin-bottom: 5%">
-                                <img src="{{ url('img/thumb.jpg') }}" class="img-responsive">
-                            </div>
-                            <div class="col-md-4" style="margin-bottom: 5%">
-                                <img src="{{ url('img/thumb.jpg') }}" class="img-responsive">
-                            </div>
+                            
                           </div>
                           <div class="col-md-12">
                             <button class="btn btn-primary center-block">Lihat lainnya</button>

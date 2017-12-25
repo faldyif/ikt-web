@@ -20,7 +20,9 @@
         <section class="row pd-bt-30 mg-bt-20">
           <div class="col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1">
             <section class="row be-block-768">
-              <div class="col-md-3">
+              <hr class="hrSpec hrSpecOrange">
+                <h3 class="mg-b-30 roboBold">Perlengkapan</h3> 
+              <!-- <div class="col-md-3">
                   <ul class="nav nav-pills nav-stacked">
                       <li class="active">
                           <a data-toggle="pill" href="#home">
@@ -86,6 +88,44 @@
                   </div>
                   <div id="menu4" class="tab-pane fade">
                       <p>Deskripsi Konten: 2</p>
+                  </div>
+                </div>
+              </div> -->
+              <div class="col-md-8 col-md-offset-2">
+                <div class="grid">
+                  <div class="grid-sizer"></div>
+                  <div class="grid-item">
+                    <img class="" style="width: 150%; height: auto;" src="{{ url('img/tool_tug.jpg') }}">
+                  </div>
+                  <div class="grid-item">
+                    <img class="" style="width: 150%; height: auto;" src="{{ url('img/tool_truck.jpg') }}">
+                  </div>
+                  <div class="grid-item">
+                    <img class="" style="width: 150%; height: auto;" src="{{ url('img/tool_roll_trailers.jpg') }}">
+                  </div>
+                  <div class="grid-item">
+                    <img class="" style="width: 150%; height: auto;" src="{{ url('img/tool_taxi.jpg') }}">
+                  </div>
+                  <div class="grid-item">
+                    <img class="" style="width: 150%; height: auto;" src="{{ url('img/tool_doly.jpg') }}">
+                  </div>
+                  <div class="grid-item">
+                    <img class="" style="width: 150%; height: auto;" src="{{ url('img/tool_forklift.jpg') }}">
+                  </div>
+                  <div class="grid-item">
+                    <img class="" style="width: 150%; height: auto;" src="{{ url('img/tool_shuttle.jpg') }}">
+                  </div>
+                  <div class="grid-item">
+                    <img class="" style="width: 150%; height: auto;" src="{{ url('img/tool_golf.jpg') }}">
+                  </div>
+                  <div class="grid-item">
+                    <img class="" style="width: 150%; height: auto;" src="{{ url('img/tool_fire_resque.jpg') }}">
+                  </div>
+                  <div class="grid-item">
+                    <img class="" style="width: 150%; height: auto;" src="{{ url('img/tool_yard.jpg') }}">
+                  </div>
+                  <div class="grid-item">
+                    <img class="" style="width: 150%; height: auto;" src="{{ url('img/tool_road.jpg') }}">
                   </div>
                 </div>
               </div>

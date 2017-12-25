@@ -51,6 +51,31 @@
                         <p><strong>5. WORLD</strong><strong><span> <em>CLASS</em></span></strong></p>
                         <p><span>Strategi <em>World Class</em> dilakukan pada tahun 2020 dan merupakan tahapan terakhir untuk mencapai visi perusahaan dimana PT Indonesia Kendaraan Terminal dapat disejajar dengan terminal kendaraan terbaik di dunia. Pada tahap ini PT Indonesia Kendaraan Terminal telah mengimplementasikan segala aktivitas organisasi dengan professional dan sesuai dengan standar internasional.</span></p>
                     </section>
+
+                    <!-- Roadmap 2022 -->
+                    <section>
+                        <div class="col-sm-12 mg-t-30">
+                            <hr class="hrSpec hrSpecOrange">
+                            <h3 class="mg-b-30 roboBold">2022 Ultimate Staging Plan</h3>             
+                        </div>
+                        <div class="col-md-12" style="margin-bottom: 5%">
+                            <img src="{{ url('img/2022.png') }}" class="img-responsive">
+                        </div>
+                    </section>
+                    <!-- //roadmap 2022 -->
+
+                    <!-- Roadmap roro -->
+                    <section>
+                        <div class="col-sm-12 mg-t-30">
+                            <hr class="hrSpec hrSpecOrange">
+                            <h3 class="mg-b-30 roboBold">RORO Domestic Corridor</h3>             
+                        </div>
+                        <div class="col-md-12" style="margin-bottom: 5%">
+                            <img src="{{ url('img/rorostg.png') }}" class="img-responsive">
+                        </div>
+                    </section>
+                    <!-- //roadmap roro -->
+
                     <section class="row mg-lr-10 mg-t-30">
                         <h4 class="roboMedium text-center">Share this post : </h4>
                         <div class="socialMedia text-center">
