@@ -382,16 +382,10 @@
           </div>
           <div class="col-md-2 col-sm-3">
             <figure class="pd-15">
-              <img src="{{ url('img/bg-img.png') }}" alt="" style="background-image: url('{{ url('img/clients/hes22.jpg') }}')">
+              <img src="{{ url('img/bg-img.png') }}" alt="" style="background-image: url('{{ url('img/clients/hes22.png') }}')">
             </figure>
           </div>
-          <div class="col-md-2 col-sm-3">
-            <figure class="pd-15">
-              <img src="{{ url('img/bg-img.png') }}" alt="" style="background-image: url('{{ url('img/clients/hes22.jpg') }}')">
-            </figure>
-          </div>
-
-
+        </section>
         </div>
       </div>
     </section>
