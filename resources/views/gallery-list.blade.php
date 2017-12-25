@@ -8,7 +8,8 @@
       <div class="heroTitle" style="background-image: url('{{ url('img/2.jpg') }}');">
         <div class="overlay"></div>
         <section class="container-fluid pd-30">
-          <h2 class="roboBold wh" data-wow-delay="0.4s">Gallery</h2>
+          <h2 class="roboBold wh alignCenter" data-wow-delay="0.4s">Gallery</h2>
+          <h4 class="alignCenter wh mg-t-20">PT. Indonesia Kendaraan Terminal</h4>
         </section>
       </div>
     </section>
