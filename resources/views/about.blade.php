@@ -207,7 +207,7 @@
                   <figcaption class="caption" style="margin: 0;">
                     Logo PT. Indonesia Kendaraan Terminal bermakna friendly, sprit, energy dan agility.
                   </figcaption>
-                  <img src="{{ url('img/ikt.png') }}" class="pd-30" alt="PT. Indonesia Kendaraan Terminal">
+                  <img src="{{ url('img/ikt-profil.png') }}" class="pd-30" alt="PT. Indonesia Kendaraan Terminal">
                 </figure>
               </div>
             </section>

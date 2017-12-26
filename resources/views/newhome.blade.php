@@ -328,7 +328,7 @@
               <li class="col-md-5">
                 <div class="text-info text-right">
                   <h3 class="tittle">Enhancing Corporate Financial Management</h3>
-                  <p>Expanding our reach ro a greater future, we aim high and always provide best-in-class port and other services to escalate the company's reputation</p>
+                  <p>Expanding our reach to a greater future, we aim high and always provide best-in-class port and other services to escalate the company's reputation</p>
                   <div class="text-center"> <a href="#." class="btn-flat">Lihat Album</a> </div>
                 </div>
               </li>
@@ -385,7 +385,7 @@
               <li class="col-md-5">
                 <div class="text-info text-left">
                   <h3 class="tittle">Enhancing Corporate Business</h3>
-                  <p>Developing bussiness through customer satisfication adn retention, we passionately seek to understand customer demands to maintain customer retention at the highest level</p>
+                  <p>Developing business through customer satisfication and retention, we passionately seek to understand customer demands to maintain customer retention at the highest level</p>
                   <div class="text-center"> <a href="#." class="btn-flat">Lihat Album</a> </div>
                 </div>
               </li>
@@ -425,7 +425,7 @@
             <div class="col-md-4 pull-right step-2 animate fadeInLeft" data-wow-delay="0.6s"> <span class="tittle-back">3</span>
               <div class="media-left media-middle"> <i class="icon-magnifier"></i> </div>
               <div class="media-body">
-                <h4>Misi untuk Pelanggan dan Mitra</h4>
+                <h4>Untuk Pelanggan dan Mitra</h4>
                 <p class="whitetext">Menyediakan, membangun, dan mengoperasikan pelayanan terminal dan logistik secara terintegrasi, berkualitas dan handal untuk memenuhi kepuasan pelanggan dan mitra.</p>
               </div>
             </div>
@@ -433,7 +433,7 @@
             <!-- Steps 4 -->
             <div class="col-md-4 pull-left text-right step-4 animate fadeInRight" data-wow-delay="0.6s">
               <div class="media-body"> <span class="tittle-back">2</span>
-                <h4>Misi untuk Pemegang Saham</h4>
+                <h4>Untuk Pemegang Saham</h4>
                 <p class="whitetext">Memaksimalkan nilai perusahaan bagi pemegang saham dan meningkatkan kesehatan perusahaan secara profesional dengan memenuhi aspeol-aspek tatakelola perusahaan yang baik.</p>
               </div>
               <div class="media-right media-middle"> <i class="icon-rocket"></i> </div>
@@ -445,13 +445,13 @@
           
           <!-- Steps 3 -->
           <div class="step-3 animate fadeInDown" data-wow-delay="0.6s"> <span class="tittle-back">4</span> <i class="icon-vector"></i>
-            <h4>Misi untuk Karyawan</h4>
+            <h4>Untuk Karyawan</h4>
             <div class="col-md-4 center-auto">
               <p class="whitetext">Menciptakan lingkungan tenaga kerja yang nyaman bagi karyawan, mewujudkan insan perusahaan yang fokus pada pelanggan, berintegrasi, bangga kepada perusahaan dan budayanya serta memberikan kesejahteraan dan kepuasan kepada karyawan.</p>
             </div>
           </div>
           <div class="step-3 animate fadeInDown" data-wow-delay="0.6s"> <span class="tittle-back">5</span> <i class="icon-vector"></i>
-            <h4>Misi untuk Masyarakat Negara</h4>
+            <h4>Untuk Masyarakat Negara</h4>
             <div class="col-md-4 center-auto">
               <p class="whitetext">Menjamin kelancaran dari keamanan arus barang untuk mewujudkan efisiensi biaya logistik dalam rangka memacu pertumbuhan ekonomi yang berdampak pada peningkatan kesejahteraan masyarakat.</p>
             </div>
@@ -712,13 +712,13 @@
         <p class="margin-top-30"><small> Copyright © 2017 indonesiacarterminal.co.id </small></p>
       </div>
     </div>
+    </div>
   </footer>
   <!-- End Footer --> 
   
   <!-- GO TO TOP  --> 
   <a href="#" class="cd-top"><i class="fa fa-angle-up"></i></a> 
   <!-- GO TO TOP End --> 
-</div>
 
 <!-- JavaScripts --> 
 <script src="{{ url('homepage/js/vendors/jquery/jquery.min.js')}}"></script> 
