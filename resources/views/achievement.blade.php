@@ -57,7 +57,7 @@
               <div class="timeline-panel">
                 <div class="timeline-heading">
                   <p><span class="roboMedium normalTitle or">2015</span></p>
-                  <h4 class="timeline-title">Prima Utama "Operation Excelent"</h4>
+                  <h4 class="timeline-title">Prima Utama "Operation Excellent"</h4>
                 </div>
                 <div class="timeline-body">
                   <p class="roboMedium">Ministry of Transportation - Republic Of Indonesia</p>
@@ -225,10 +225,10 @@
                 <div class="timeline-panel">
                     <div class="timeline-heading">
                         <p><span class="roboMedium normalTitle or">2017</span></p>
-                        <h4 class="timeline-title">Pencapaian Survey Indeks Kepuasan Pelanggan</h4>
+                        <h4 class="timeline-title">Indeks Kepuasan Pelanggan</h4>
                     </div>
                     <div class="timeline-body">
-                      <p class="roboMedium">BPKP pada angka 4,48 skala likert dengan katagori puas, “Pertama kali BPKP mmemberikan nilai CSI Korporat sebesar 4,48 skala likert kepada suatu lembaga BUMN”</p>
+                      <p class="roboMedium">Survey Kepuasan Pelanggan dilakukan BPKP Perwakilan DKI Jakarta. Adapun hasil dari survey tersebut diperoleh indeks Kepuasan Pelanggan sebesar 4,48 (Skala 5) dengan kategori puas.</p>
               
                     </div>
                 </div>

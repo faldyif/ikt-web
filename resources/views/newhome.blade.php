@@ -99,7 +99,7 @@
                     <li><a href="{{ route('annual') }}">{{ trans('menu.annual-report') }}</a></li>
                     <li><a href="{{ route('statistic') }}">{{ trans('menu.statistic-data') }}</a></li>
                     <li><a href="{{ route('company.clients') }}">{{ trans('menu.our-customer') }}</a></li>
-                    <li><a href="{{ route('company.procurement') }}">{{ trans('menu.procurement') }}</a></li>
+                    <li><a href="http://www.eproc-ikt.com">{{ trans('menu.procurement') }}</a></li>
                     <li><a href="{{ route('company.magazine') }}">{{ trans('menu.limouzine-magazine') }}</a></li>
                   </ul>
                 </li>
