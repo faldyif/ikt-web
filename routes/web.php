@@ -90,7 +90,7 @@ Route::get(trans('routes.company.about'), function () {
 })->name('company.about');
 
 Route::get(trans('routes.company.ceo-message'), function () {
-    return view('about');
+    return view('ceo');
 })->name('company.ceo-message');
 
 Route::get(trans('routes.company.culture'), function () {

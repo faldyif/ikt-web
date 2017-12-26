@@ -38,21 +38,21 @@
   content: "";
   z-index: 10;
   position: absolute;
-  height: 200%;
+  height: 50%;
   width: 200%;
   top: -120%;
   left: -120%;
   background: linear-gradient(transparent 0%, rgba(255, 255, 255, 0.1) 45%, rgba(255, 255, 255, 0.5) 50%, rgba(255, 255, 255, 0.1) 55%, transparent 100%);
   transition: all 3s;
-  transform: rotate(-45deg);
+  transform: rotate(55deg);
   animation: shine 3s infinite forwards; }
 
 @keyframes shine {
   0% {
-    top: -120%;
+    top: 120%;
     left: -120%; }
   100% {
     left: 120%;
-    top: 120%; } }
+    top: -120%; } }
 
 /*# sourceMappingURL=custom-newhome.css.map */

@@ -827,7 +827,7 @@ header .navbar li a:hover {
 header .navbar li a:before {
 	position: absolute;
 	left: 0px;
-	top: 24px;
+	top: 5px;
 	height: 2px;
 	width: 0px;
 	background: #ff8349;
@@ -947,7 +947,7 @@ header.header-3d{
   }
 
 .layerblue{
-	background-color: rgba(19, 123, 221, 0.7);
+	background-color: rgba(19, 123, 221, 0.5);
     position: absolute;
     top: 0;
     left: 0;
