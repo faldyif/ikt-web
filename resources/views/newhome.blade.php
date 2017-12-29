@@ -62,76 +62,76 @@
           <!-- NAV -->
           <div class="collapse navbar-collapse" id="nav-open-btn">
             <ul class="nav">
-              <li class=""><a href="{{ url('/') }}" class="" data-toggle="">{{ strtoupper(trans('menu.home')) }}</a>
-              </li>
-              <li class="dropdown"> <a href="#." class="dropdown-toggle" data-toggle="dropdown">{{ strtoupper(trans('menu.about-us')) }}</a>
-                <ul class="dropdown-menu">
-                  <li><a href="{{ route('company.about') }}">{{ trans('menu.profile') }}</a></li>
-                  <li><a href="{{ route('company.ceo-message') }}">{{ trans('menu.ceo-message') }}</a></li>
-                  <li><a href="{{ route('company.history') }}">{{ trans('menu.company-history') }}</a></li>
-                  <li><a href="{{ route('company.gcg') }}">{{ trans('menu.gcg-application') }}</a></li>
-                  <li><a href="{{ route('company.culture') }}">{{ trans('menu.company-culture') }}</a></li>
-                  <li><a href="{{ route('company.corporate-roadmap') }}">{{ trans('menu.corporate-roadmap') }}</a></li>
-                  <li><a href="{{ route('csr')}}">{{ trans('menu.csr') }}</a></li>
-                  <li><a href="{{ route('company.achievements') }}">{{ trans('menu.achievements') }}</a></li>
-                  <li><a href="{{ route('company.subsidiary') }}">{{ trans('menu.subsidiary') }}</a></li>
-                </ul>
-              </li>
-              <li class="dropdown"> <a href="services-1.html" class="dropdown-toggle" data-toggle="dropdown">{{ strtoupper(trans('menu.services')) }}</a>
-                <ul class="dropdown-menu">
-                  <li><a href="{{ route('service.stevedoring') }}">{{ trans('menu.stevedoring-cargohandling') }}</a></li>
-                  <li><a href="{{ route('service.receiving') }}">{{ trans('menu.receiving-delivering') }}</a></li>
-                  <li><a href="{{ route('service.vas') }}">Value Added Services</a>
-                </ul>
-              </li>
-              <li class="dropdown"> <a href="index_mp-3a.html" class="dropdown-toggle" data-toggle="dropdown">{{ strtoupper(trans('menu.facilities')) }}</a>
-                <ul class="dropdown-menu">
-                  <li><a href="{{ route('facilities.fas') }}">{{ trans('menu.main-facilities') }}</a></li>
-                  <li><a href="{{ route('facilities.fas-1') }}">{{ trans('menu.support-facilities') }}</a></li>
-                <!-- <li><a href="{{ route('facilities.fas-2') }}">{{ trans('menu.equipment-facilities') }}</a></li> -->
-                </ul>
-              </li>
-              <li class="dropdown"> <a href="blog.html" class="dropdown-toggle" data-toggle="dropdown">{{ strtoupper(trans('menu.information-center')) }}</a>
-                <ul class="dropdown-menu">
-                  <li><a href="{{ route('news') }}">{{ trans('menu.news') }}</a></li>
-                  <li><a href="{{ route('gallery') }}">{{ trans('menu.gallery') }}</a></li>
-                  <li><a href="{{ route('press-release') }}">{{ trans('menu.press-release') }}</a></li>
-                  <li><a href="{{ route('annual') }}">{{ trans('menu.annual-report') }}</a></li>
-                  <li><a href="{{ route('statistic') }}">{{ trans('menu.statistic-data') }}</a></li>
-                  <li><a href="{{ route('company.clients') }}">{{ trans('menu.our-customer') }}</a></li>
-                  <li><a href="{{ route('company.procurement') }}">{{ trans('menu.procurement') }}</a></li>
-                  <li><a href="{{ route('company.magazine') }}">{{ trans('menu.limouzine-magazine') }}</a></li>
-                </ul>
-              </li>
-              <li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown">language</a>
-                <ul class="dropdown-menu">
-                  <li {{ (app()->getLocale() == 'en' ? 'class=active' : '') }}>
-                    <a href="{{ route('lang.switch', 'en') }}">
-                      <div class="flex-row-center">
-                        <img src="{{ url('img/english.png') }}" class="mg-r-10" width="20" alt="">
-                        English
-                      </div>
-                    </a>
-                  </li>
-                  <li {{ (app()->getLocale() == 'id' ? 'class=active' : '') }}>
-                    <a href="{{ route('lang.switch', 'id') }}">
-                      <div class="flex-row-center">
-                        <img src="{{ url('img/indonesian.png') }}" class="mg-r-10" width="20" alt="">
-                        Bahasa Indonesia
-                      </div>
-                    </a>
-                  </li>
-                  <li {{ (app()->getLocale() == 'jp' ? 'class=active' : '') }}>
-                    <a href="{{ route('lang.switch', 'jp') }}">
-                      <div class="flex-row-center">
-                        <img src="{{ url('img/japan.png') }}" class="mg-r-10" width="20" alt="">
-                        日本語
-                      </div>
-                    </a>
-                  </li>
-                </ul>
-              </li>
-            </ul>
+                <li class=""><a href="{{ url('/') }}" class="" data-toggle="">{{ strtoupper(trans('menu.home')) }}</a>
+                </li>
+                <li class="dropdown"> <a href="#." class="dropdown-toggle" data-toggle="dropdown">{{ strtoupper(trans('menu.about-us')) }}</a>
+                  <ul class="dropdown-menu">
+                    <li><a href="{{ route('company.about') }}">{{ trans('menu.profile') }}</a></li>
+                    <li><a href="{{ route('company.ceo-message') }}">{{ trans('menu.ceo-message') }}</a></li>
+                    <li><a href="{{ route('company.history') }}">{{ trans('menu.company-history') }}</a></li>
+                    <li><a href="{{ route('company.gcg') }}">{{ trans('menu.gcg-application') }}</a></li>
+                    <li><a href="{{ route('company.culture') }}">{{ trans('menu.company-culture') }}</a></li>
+                    <li><a href="{{ route('company.corporate-roadmap') }}">{{ trans('menu.corporate-roadmap') }}</a></li>
+                    <li><a href="{{ route('csr')}}">{{ trans('menu.csr') }}</a></li>
+                    <li><a href="{{ route('company.achievements') }}">{{ trans('menu.achievements') }}</a></li>
+                    <li><a href="{{ route('company.subsidiary') }}">{{ trans('menu.subsidiary') }}</a></li>
+                  </ul>
+                </li>
+                <li class="dropdown"> <a href="services-1.html" class="dropdown-toggle" data-toggle="dropdown">{{ strtoupper(trans('menu.services')) }}</a>
+                  <ul class="dropdown-menu">
+                    <li><a href="{{ route('service.stevedoring') }}">{{ trans('menu.stevedoring-cargohandling') }}</a></li>
+                    <li><a href="{{ route('service.receiving') }}">{{ trans('menu.receiving-delivering') }}</a></li>
+                    <li><a href="{{ route('service.vas') }}">Value Added Services</a>
+                  </ul>
+                </li>
+                <li class="dropdown"> <a href="index_mp-3a.html" class="dropdown-toggle" data-toggle="dropdown">{{ strtoupper(trans('menu.facilities')) }}</a>
+                  <ul class="dropdown-menu">
+                    <li><a href="{{ route('facilities.fas') }}">{{ trans('menu.main-facilities') }}</a></li>
+                    <li><a href="{{ route('facilities.fas-1') }}">{{ trans('menu.support-facilities') }}</a></li>
+                  <!-- <li><a href="{{ route('facilities.fas-2') }}">{{ trans('menu.equipment-facilities') }}</a></li> -->
+                  </ul>
+                </li>
+                <li class="dropdown"> <a href="blog.html" class="dropdown-toggle" data-toggle="dropdown">{{ strtoupper(trans('menu.information-center')) }}</a>
+                  <ul class="dropdown-menu">
+                    <li><a href="{{ route('news') }}">{{ trans('menu.news') }}</a></li>
+                    <li><a href="{{ route('gallery') }}">{{ trans('menu.gallery') }}</a></li>
+                    <li><a href="{{ route('press-release') }}">{{ trans('menu.press-release') }}</a></li>
+                    <li><a href="{{ route('annual') }}">{{ trans('menu.annual-report') }}</a></li>
+                    <li><a href="{{ route('statistic') }}">{{ trans('menu.statistic-data') }}</a></li>
+                    <li><a href="{{ route('company.clients') }}">{{ trans('menu.our-customer') }}</a></li>
+                    <li><a href="http://www.eproc-ikt.com">{{ trans('menu.procurement') }}</a></li>
+                    <li><a href="{{ route('company.magazine') }}">{{ trans('menu.limouzine-magazine') }}</a></li>
+                  </ul>
+                </li>
+                <li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown">language</a>
+                    <ul class="dropdown-menu">
+                        <li {{ (app()->getLocale() == 'en' ? 'class=active' : '') }}>
+                            <a href="{{ route('lang.switch', 'en') }}">
+                            <div class="flex-row-center">
+                                <img src="{{ url('img/english.png') }}" class="mg-r-10" width="20" alt="">
+                                English
+                            </div>
+                            </a>
+                            </li>
+                            <li {{ (app()->getLocale() == 'id' ? 'class=active' : '') }}>
+                            <a href="{{ route('lang.switch', 'id') }}">
+                            <div class="flex-row-center">
+                                <img src="{{ url('img/indonesian.png') }}" class="mg-r-10" width="20" alt="">
+                                Bahasa Indonesia
+                            </div>
+                            </a>
+                            </li>
+                            <li {{ (app()->getLocale() == 'jp' ? 'class=active' : '') }}>
+                            <a href="{{ route('lang.switch', 'jp') }}">
+                            <div class="flex-row-center">
+                                <img src="{{ url('img/japan.png') }}" class="mg-r-10" width="20" alt="">
+                                日本語
+                            </div>
+                            </a>
+                        </li>
+                    </ul> 
+                </li>
+              </ul>
           </div>
         </nav>
       </div>
@@ -331,7 +331,7 @@
               <li class="col-md-5">
                 <div class="text-info text-right">
                   <h3 class="tittle">Enhancing Corporate Financial Management</h3>
-                  <p>Expanding our reach ro a greater future, we aim high and always provide best-in-class port and other services to escalate the company's reputation</p>
+                  <p>Expanding our reach to a greater future, we aim high and always provide best-in-class port and other services to escalate the company's reputation</p>
                   <div class="text-center"> <a href="#." class="btn-flat">Lihat Album</a> </div>
                 </div>
               </li>
@@ -388,7 +388,7 @@
               <li class="col-md-5">
                 <div class="text-info text-left">
                   <h3 class="tittle">Enhancing Corporate Business</h3>
-                  <p>Developing bussiness through customer satisfication adn retention, we passionately seek to understand customer demands to maintain customer retention at the highest level</p>
+                  <p>Developing business through customer satisfication and retention, we passionately seek to understand customer demands to maintain customer retention at the highest level</p>
                   <div class="text-center"> <a href="#." class="btn-flat">Lihat Album</a> </div>
                 </div>
               </li>
@@ -428,7 +428,7 @@
             <div class="col-md-4 pull-right step-2 animate fadeInLeft" data-wow-delay="0.6s"> <span class="tittle-back">3</span>
               <div class="media-left media-middle"> <i class="icon-magnifier"></i> </div>
               <div class="media-body">
-                <h4>Misi untuk Pelanggan dan Mitra</h4>
+                <h4>Untuk Pelanggan dan Mitra</h4>
                 <p class="whitetext">Menyediakan, membangun, dan mengoperasikan pelayanan terminal dan logistik secara terintegrasi, berkualitas dan handal untuk memenuhi kepuasan pelanggan dan mitra.</p>
               </div>
             </div>
@@ -436,7 +436,7 @@
             <!-- Steps 4 -->
             <div class="col-md-4 pull-left text-right step-4 animate fadeInRight" data-wow-delay="0.6s">
               <div class="media-body"> <span class="tittle-back">2</span>
-                <h4>Misi untuk Pemegang Saham</h4>
+                <h4>Untuk Pemegang Saham</h4>
                 <p class="whitetext">Memaksimalkan nilai perusahaan bagi pemegang saham dan meningkatkan kesehatan perusahaan secara profesional dengan memenuhi aspeol-aspek tatakelola perusahaan yang baik.</p>
               </div>
               <div class="media-right media-middle"> <i class="icon-rocket"></i> </div>
@@ -448,13 +448,13 @@
 
           <!-- Steps 3 -->
           <div class="step-3 animate fadeInDown" data-wow-delay="0.6s"> <span class="tittle-back">4</span> <i class="icon-vector"></i>
-            <h4>Misi untuk Karyawan</h4>
+            <h4>Untuk Karyawan</h4>
             <div class="col-md-4 center-auto">
               <p class="whitetext">Menciptakan lingkungan tenaga kerja yang nyaman bagi karyawan, mewujudkan insan perusahaan yang fokus pada pelanggan, berintegrasi, bangga kepada perusahaan dan budayanya serta memberikan kesejahteraan dan kepuasan kepada karyawan.</p>
             </div>
           </div>
           <div class="step-3 animate fadeInDown" data-wow-delay="0.6s"> <span class="tittle-back">5</span> <i class="icon-vector"></i>
-            <h4>Misi untuk Masyarakat Negara</h4>
+            <h4>Untuk Masyarakat Negara</h4>
             <div class="col-md-4 center-auto">
               <p class="whitetext">Menjamin kelancaran dari keamanan arus barang untuk mewujudkan efisiensi biaya logistik dalam rangka memacu pertumbuhan ekonomi yang berdampak pada peningkatan kesejahteraan masyarakat.</p>
             </div>
@@ -723,6 +723,7 @@
           </div>
         </div>
       </div>
+    </div>
     </div>
   </footer>
   <!-- End Footer -->
