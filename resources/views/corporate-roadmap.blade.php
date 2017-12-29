@@ -75,17 +75,6 @@
                         </div>
                     </section>
                     <!-- //roadmap roro -->
-
-                    <section class="row mg-lr-10 mg-t-30">
-                        <h4 class="roboMedium text-center">Share this post : </h4>
-                        <div class="socialMedia text-center">
-                            <ul class="noPad">
-                                <li><a class="fb" href="#"><i class="fa fa-lg fa-facebook"></i></a></li>
-                                <li><a class="tw" href="#"><i class="fa fa-lg fa-twitter"></i></a></li>
-                                <li><a class="ig" href="#"><i class="fa fa-lg fa-instagram"></i></a></li>
-                            </ul>
-                        </div>
-                    </section>
                 </div>
             </section>
         </div>
