@@ -40,10 +40,6 @@
 </head>
 <body>
 
-
-
-
-
 <!-- Page Wrapper -->
 <div id="wrap">
 
