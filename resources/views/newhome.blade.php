@@ -81,7 +81,6 @@
                 <ul class="dropdown-menu">
                   <li><a href="{{ route('service.stevedoring') }}">{{ trans('menu.stevedoring-cargohandling') }}</a></li>
                   <li><a href="{{ route('service.receiving') }}">{{ trans('menu.receiving-delivering') }}</a></li>
-                  <li><a href="{{ route('service.pdi') }}">Storages</a></li>
                   <li><a href="{{ route('service.vas') }}">Value Added Services</a>
                 </ul>
               </li>
@@ -301,7 +300,10 @@
         <div class="col-sm-7">
           <h4 style="font-weight:bold; color:black;">Indonesia Kendaraan Terminal</h4>
           <div class="test-info">
-            <p>Indonesia Kendaraan Terminal Merupakan Perusahaan Kendaraan Terminal yang Beroperasi Tanjung Priok Jakarta Indonesia, memberikan pelayanan Cargodooring, Stevedoring, Receiving & delevering serta berbagai Pelayanan Terbaik untuk Pelanggan Kami.</p>
+            <p>Tujuan hidup manusia, salah satunya adalah memberikan manfaat bagi sesama, begitu pula sebuah perusaahan, dari awal didirikan agar bias tumbuh dan bermanfaat bagi kehidupan lingkungan di sekitarnya, bangsa dan negara</p>
+            <p>
+              PT Indonesia Kendaraan Terminal salah satu anak perusahaan PT Pelabuhan Indonesia II (Persero) memiliki komitmen untuk dapat berbagi melalui pengelolaan terminal kendaraan kelas dunia yang unggul dalam operasional dan pelayanan
+            </p>
             <a href="{{ route('company.about') }}" class="btn-flat">lihat profil</a> </div>
         </div>
       </div>
