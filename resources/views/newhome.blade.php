@@ -447,7 +447,7 @@
             </div>
 
             <!-- Center Image -->
-            <div class="col-md-4 step-img img-responsive imgtrans text-center animate fadeIn" data-wow-delay="0.3s"> <img src="{{url('img/visimisi.png')}}" class="img-responsive" alt=""> </div>
+            <div class="col-md-4 step-img img-responsive imgtrans text-center animate fadeIn" data-wow-delay="0.3s"> <img src="{{url('img/circleikt.png')}}" class="img-responsive" alt=""> </div>
           </div>
 
           <!-- Steps 3 -->
@@ -455,6 +455,13 @@
             <h4>Untuk Karyawan</h4>
             <div class="col-md-4 center-auto">
               <p class="whitetext">Menciptakan lingkungan kerja yang nyaman bagi karyawan, mewujudkan insan perusahaan yang fokus pada pelanggan, berintegrasi, bangga kepada perusahaan dan budayanya serta memberikan kesejahteraan dan kepuasan kepada karyawan.</p>
+            </div>
+          </div>
+           <!-- Steps 3 -->
+           <div class="step-3 animate fadeInDown" data-wow-delay="0.6s"> <span class="tittle-back">5</span> <i class="icon-vector"></i>
+            <h4>Untuk Perekonomian Nasioanl</h4>
+            <div class="col-md-4 center-auto">
+              <p class="whitetext">Sebagai pengelola terminal kendaraan yang memaksimalkan nilai tambah bagi seluruh kepentingan (stakeholders) secara berkesinambungan dalam rangka meningkatkan perekonomian nasional</p>
             </div>
           </div>
 
