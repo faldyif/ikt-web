@@ -2,7 +2,7 @@
 
 return [
     'head-title' => 'Layanan',
-    'sub-title' => 'PT. Indonesia Kendaraan Terminal',
+    'sub-title' => 'PT Indonesia Kendaraan Terminal',
     'title' => 'Storage',
     'content' => '
               <div class="col-md-12 pd-bt-20">

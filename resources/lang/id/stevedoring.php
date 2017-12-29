@@ -2,7 +2,7 @@
 
 return [
     'head-title' => 'Stevedoring & Cargo Handing',
-    'sub-title' => 'PT. Indonesia Kendaraan Terminal',
+    'sub-title' => 'PT Indonesia Kendaraan Terminal',
     'title' => 'Stevedoring & Cargo Handling',
     'content' => '
               <!-- div 1-->

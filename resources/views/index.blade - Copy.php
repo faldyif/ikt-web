@@ -104,7 +104,7 @@
               Yaitu kontribusi pada kemajuan ibu pertiwi, kejayaan negeri ini, kebangkitan bangsa ini, tegaknya merah putih ini dan kemakmuran rakyat serta nusantara ini.<br/>
               <br/>
               Demikian pula, PT Indoensia Kendaraan Terminal yang merupakan salah satu anak perusahaan PT Pelabuhan Indonesia II (Persero) memiliki komitmen untuk dapat berbagi melalui <strong>pengelolaan terminal kendaraan berkelas dunia yang unggul dalam operasional dan pelayanan.</strong> Yang pada akhirnya dapat menjadikan salah satu karya kebanggaan Bangsa Indonesia. </p>
-            <small>PT. Indonesia Kendaraan Terminal</small>
+            <small>PT Indonesia Kendaraan Terminal</small>
             </i>
         </blockquote>
     </center>

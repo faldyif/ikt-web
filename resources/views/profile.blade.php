@@ -9,7 +9,7 @@
             <div class="overlay"></div>
             <section class="container-fluid pd-30">
                 <h2 class="roboBold wh alignCenter" data-wow-delay="0.4s">Sejarah Perusahaan</h2>
-                <h4 class="alignCenter wh mg-t-20">PT. Indonesia Kendaraan Terminal</h4>
+                <h4 class="alignCenter wh mg-t-20">PT Indonesia Kendaraan Terminal</h4>
             </section>
         </div>
     </section>
@@ -23,10 +23,10 @@
                         Perkembangan yang cukup pesat dari industri otomotif nasional terutama untuk kegiatan export &amp import pada tahun 2005, 2006, 2007 sedangkan fasilitas kepelabuhanan yang tersedia untuk melayani ke giatan bongkar dan muat dimaksud masih sangat terbatas (selama ini dilayani di beberapa dermaga dan lapangan di terminal konvensional Tanjung Priok).
                     </p>
                     <p>
-                        Perminataan dari kalangan industri otomotif Jepang ini disambut baik oleh Pemerintah RI dan melalui Wapres RI pada waktu itu Jusuf Kalla meminta pada PT. Pelabuhan Indonesia II untuk segera menindak lanjutinya.
+                        Perminataan dari kalangan industri otomotif Jepang ini disambut baik oleh Pemerintah RI dan melalui Wapres RI pada waktu itu Jusuf Kalla meminta pada PT Pelabuhan Indonesia II untuk segera menindak lanjutinya.
                     </p>
                     <p>
-                        PT. Pelabuhan Indonesia II segera melakukan kajian dengan mencari beberapa alternatif lokasi yang akan dibangun fasilitas terminal kendaraan.
+                        PT Pelabuhan Indonesia II segera melakukan kajian dengan mencari beberapa alternatif lokasi yang akan dibangun fasilitas terminal kendaraan.
                     </p>
                     <section class="slider mg-bt-30">
                         <div>
@@ -38,10 +38,10 @@
                         </div>
                     </section>
                     <p>
-                        Hasil kajian dan survey kemudian menetapkan Lahan HPL milik PT. Pelabuhan Indonesia II yang saat itu digunakan oleh PT. Dock &amp Perkapalan Kodja Bahari (DKB) dimungkinkan untuk dibangun fasilitas Terminal kendaraan dimaksud.
+                        Hasil kajian dan survey kemudian menetapkan Lahan HPL milik PT Pelabuhan Indonesia II yang saat itu digunakan oleh PT Dock &amp Perkapalan Kodja Bahari (DKB) dimungkinkan untuk dibangun fasilitas Terminal kendaraan dimaksud.
                     </p>
                     <p>
-                        Setelah melalui perundingan dan pembahasan yang cukup panjang dengan PT. DKB termasuk melibatkan Kementerian BUMN, maka disepakati pembangunan fasilitas kendaraan menggunakan lahan HPL milik PT. Pelabuhan Indonesia II yang digunakan oleh PT. DKB pada lahan yang tidak digunakan secara optimal.
+                        Setelah melalui perundingan dan pembahasan yang cukup panjang dengan PT DKB termasuk melibatkan Kementerian BUMN, maka disepakati pembangunan fasilitas kendaraan menggunakan lahan HPL milik PT Pelabuhan Indonesia II yang digunakan oleh PT DKB pada lahan yang tidak digunakan secara optimal.
                     </p>
                     <p>
                         Pada bulan September 2006 dimulailah pembangunan tahap pertama fasilitas terminal kendaraan menggunakan lahan seluas 12 HA. Pada saat itu dibangun dermaga sepanjang 220 M kedalaman -12 LWS dan 88 M ke dalaman -7 LWS, gedung parkir 3 lantai seluas 3 HA dan lapangan parkir seluas 7,5 HA.
@@ -56,13 +56,13 @@
                         Dengan penambahan kapasitas dimaksud maka sekaligus juga dapat menambah kapasitas daya tampung terminal diperkirakan pada tahun 2014 ini daya tampung terminal kendaraan tanjung priok meningkat menjadi 750.000 kendaraan/tahun dan diharapkan dengan bertambahnya kapasitas ini dapat mendorong berkembangnya industri otomotif nasional.
                     </p>
                     <p>
-                        Sejalan dengan penambahan kapasitas dan dengan tujuan agar terminal ini dapat meningkatkan layanan dan bisa berkembang lebih cepat lagi maka manajemen PT. Pelabuhan Indonesia II melakukan peningkatan sta tus hukum Terminal Kendaraan Tanjung Priok dari Strategis Business Unit menjadi Subsidarry Company dan Subsidarry Company ini diberi nama PT. INDONESIA KENDARAAN TERMINAL (PT.IKT) telah didirikan pada tanggal 5 November 2012 dan telah beroperasi secara penuh pada tanggal 1 Desember 2012.
+                        Sejalan dengan penambahan kapasitas dan dengan tujuan agar terminal ini dapat meningkatkan layanan dan bisa berkembang lebih cepat lagi maka manajemen PT Pelabuhan Indonesia II melakukan peningkatan sta tus hukum Terminal Kendaraan Tanjung Priok dari Strategis Business Unit menjadi Subsidarry Company dan Subsidarry Company ini diberi nama PT INDONESIA KENDARAAN TERMINAL (PT IKT) telah didirikan pada tanggal 5 November 2012 dan telah beroperasi secara penuh pada tanggal 1 Desember 2012.
                     </p>
                     <p>
-                        PT. IKT telah menyiapkan berbagai rencana kerja untuk tahun-tahun mendatang dengan visi menjadikan Terminal Kendaraan Tanjung Priok menjadi terminal kendaraan terkemuka dan modern di Indonesia,telah disusun rencana jangka pendek, menengah dan panjang, salah satu rencana kerja tersebut adalah mengintegrasikan layanan bongkar muat kendaraan Domestik dan Internasional di Terminal Kendaraan Tanjung Priok.
+                        PT IKT telah menyiapkan berbagai rencana kerja untuk tahun-tahun mendatang dengan visi menjadikan Terminal Kendaraan Tanjung Priok menjadi terminal kendaraan terkemuka dan modern di Indonesia,telah disusun rencana jangka pendek, menengah dan panjang, salah satu rencana kerja tersebut adalah mengintegrasikan layanan bongkar muat kendaraan Domestik dan Internasional di Terminal Kendaraan Tanjung Priok.
                     </p>
                     <p>
-                        Disamping hal tersebut PT. IKT juga ingin menjadikan Terminal Tanjung Priok sebagai bagian dari industri otomotif nasional, sehingga dengan demikian PT. IKT ingin mendorong agar industri otomotif nasional dapat memiliki daya saing dan berkiprah dipasar internasional.
+                        Disamping hal tersebut PT IKT juga ingin menjadikan Terminal Tanjung Priok sebagai bagian dari industri otomotif nasional, sehingga dengan demikian PT IKT ingin mendorong agar industri otomotif nasional dapat memiliki daya saing dan berkiprah dipasar internasional.
                     </p>
                     <p>
                         Bantu kami untuk mewujudkanya dan jayalah Indonesia.</p>

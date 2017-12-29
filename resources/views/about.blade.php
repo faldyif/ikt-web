@@ -193,7 +193,7 @@
               <div class="col-md-7">
                 <hr class="hrSpec hrSpecOrange">
                 <h2 class="roboBlack">Logo Perusahaan</h2>
-                <h3 class="roboBold mg-b-30 or">PT. Indonesia Kendaraan Terminal</h3>
+                <h3 class="roboBold mg-b-30 or">PT Indonesia Kendaraan Terminal</h3>
                 <h4 class="mg-t-20 roboBlack">Bentuk Logo</h4>
                 <p>Bentuk Logo perusahaan yang melengkung menandakan dinamis dan tangkas yang dirancang untuk mewakili ambisi perusahaan menjadi Operator Terminal Kendaraan yang berkelas Dunia.</p>
                 <h4 class="mg-t-20 roboBlack">Warna Abu-abu</h4>
@@ -205,11 +205,11 @@
               </div>
               <div class="col-md-5">
                 <figure class="pd-lr-30">
-                  <img src="{{ url('img/ikt-logo.png') }}" class="pd-lr-30" alt="PT. Indonesia Kendaraan Terminal">
+                  <img src="{{ url('img/ikt-logo.png') }}" class="pd-lr-30" alt="PT Indonesia Kendaraan Terminal">
                   <figcaption class="caption" style="margin: 0;">
-                    Logo PT. Indonesia Kendaraan Terminal bermakna friendly, sprit, energy dan agility.
+                    Logo PT Indonesia Kendaraan Terminal bermakna friendly, sprit, energy dan agility.
                   </figcaption>
-                  <img src="{{ url('img/ikt-profil.png') }}" class="pd-30" alt="PT. Indonesia Kendaraan Terminal">
+                  <img src="{{ url('img/ikt-profil.png') }}" class="pd-30" alt="PT Indonesia Kendaraan Terminal">
                 </figure>
               </div>
             </section>
