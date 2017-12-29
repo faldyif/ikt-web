@@ -26,30 +26,30 @@
                         <p><strong>1. FIT IN INFRASTRUCTURE</strong></p>
                         <p><span>Tahun 2017 Semester 1 merupakan tahapan <em>Fit in Infrastructure</em> yaitu membangun landasan yang kokoh sebagai PT Indonesia Kendaraan Terminal. Fokus pada Semester ini antara lain sebagai berikut: </span></p>
                         <ol style="list-style-type: lower-alpha;">
-                            <li>a. Governance : Business Process, SOP, Structure</li>
-                            <li>b. Culture </li>
-                            <li>c. Re-define Business</li>
-                            <li>d. Fine Tuning in Every Area</li>
+                            <li>a. <i> Governance </i> : Business Process, SOP, Structure</li>
+                            <li>b. <i> Culture </i></li>
+                            <li>c. <i> Re-define Business </i></li>
+                            <li>d. <i> Fine Tuning in Every Area</i></li>
                         </ol>
                         <p><strong>2. ENHANCEMENT</strong></p>
-                        <p><span>Strategi <em>Enhancement</em> dilakukan di Semester 2 tahun 2017 setelah pembangunan pondasi dan landasan selesai dilaksanakan di Semester 1 tahun 2017 dengan strategi <em>Fit-In Infrastructure</em>. Saat bangunan pendukung untuk proses bisnis telah dibuat, maka selanjutnya perlu mengembangkan dan menguatkan bisnis perusahaan yang terdiri dari kegiatan operasi dan layanan.&nbsp; Fokus pada tahun ini antara lain sebagai berikut: </span></p>
+                        <p class="text-justify"><span>Strategi <em>Enhancement</em> dilakukan di Semester 2 tahun 2017 setelah pembangunan pondasi dan landasan selesai dilaksanakan di Semester 1 tahun 2017 dengan strategi <em>Fit-In Infrastructure</em>. Saat bangunan pendukung untuk proses bisnis telah dibuat, maka selanjutnya perlu mengembangkan dan menguatkan bisnis perusahaan yang terdiri dari kegiatan operasi dan layanan.&nbsp; Fokus pada tahun ini antara lain sebagai berikut: </span></p>
                         <ol style="list-style-type: lower-alpha;">
-                            <li>a. Operational &amp; Service in Procurement<span> (Modernisasi Alat, Marketing Program, dan lain-lain)</span></li>
-                            <li>b. Infrastructure Development </li>
-                            <li>c. Strengthening/Enhancing Business</li>
+                            <li>a. <i> Operational &amp; Service in Procurement </i><span> (Modernisasi Alat, Marketing Program, dan lain-lain)</span></li>
+                            <li>b. <i> Infrastructure Development </i></li>
+                            <li>c. <i> Strengthening/Enhancing Business </i></li>
                         </ol>
                         <p><strong>3. ESTABLISHMENT</strong></p>
-                        <p><span>Strategi <em>Establishment</em> dilakukan pada tahun 2018 setelah&nbsp; PT Indonesia Kendaraan Terminal memiliki keadaan internal yang kuat (<em>fit in infrastructure</em>) dan peningkatan kualitas layanan dan operasi (<em>enhancement</em>), saatnya dimana PT Indonesia Kendaraan Terminal meningkatkan pertumbuhan volume dan profit dengan menjalin kerjasama dengan pihak ketiga dan mengoperasikan Terminal Kendaraan di luar Jakarta. Fokus pada tahun ini antara lain sebagai berikut: </span></p>
+                        <p class="text-justify"><span>Strategi <em>Establishment</em> dilakukan pada tahun 2018 setelah&nbsp; PT Indonesia Kendaraan Terminal memiliki keadaan internal yang kuat (<em>fit in infrastructure</em>) dan peningkatan kualitas layanan dan operasi (<em>enhancement </em> ), saatnya dimana PT Indonesia Kendaraan Terminal meningkatkan pertumbuhan volume dan profit dengan menjalin kerjasama dengan pihak ketiga dan mengoperasikan Terminal Kendaraan di luar Jakarta. Fokus pada tahun ini antara lain sebagai berikut: </span></p>
                         <ol style="list-style-type: lower-alpha;">
-                            <li>a. Volume Growth</li>
-                            <li>b. Profitability Growth</li>
-                            <li>c. Holding Establishment</li>
+                            <li>a. <i> Volume Growth </i></li>
+                            <li>b. <i> Profitability Growth </i></li>
+                            <li>c. <i> Holding Establishment </i></li>
                             <li>d. <span>Pengoperasian Terminal Kendaraan di luar Jakarta</span></li>
                         </ol>
                         <p><strong>4. SUSTAINABLE</strong></p>
-                        <p><span>Strategi <em>Sustainable</em> dilakukan pada tahun 2019 setelah&nbsp; PT Indonesia Kendaraan Terminal telah melakukan ekspansi dengan menjalin kerjasama dengan pihak ketiga dan mengoperasikan terminal kendaraan di luar Jakarta yang disertai dengan peningkatan pertumbuhan volume dan profit. PT Indonesia Kendaraan Terminal mengembangkan program-program strategis yang mampu menjaga perusahaan agar tetap berkesinambungan</span><span>.</span></p>
-                        <p><strong>5. WORLD</strong><strong><span> <em>CLASS</em></span></strong></p>
-                        <p><span>Strategi <em>World Class</em> dilakukan pada tahun 2020 dan merupakan tahapan terakhir untuk mencapai visi perusahaan dimana PT Indonesia Kendaraan Terminal dapat disejajar dengan terminal kendaraan terbaik di dunia. Pada tahap ini PT Indonesia Kendaraan Terminal telah mengimplementasikan segala aktivitas organisasi dengan professional dan sesuai dengan standar internasional.</span></p>
+                        <p class="text-justify"><span>Strategi <em>Sustainable</em> dilakukan pada tahun 2019 setelah&nbsp;PT Indonesia Kendaraan Terminal telah melakukan ekspansi dengan menjalin kerjasama dengan pihak ketiga dan mengoperasikan terminal kendaraan di luar Jakarta yang disertai dengan peningkatan pertumbuhan volume dan profit. PT Indonesia Kendaraan Terminal mengembangkan program-program strategis yang mampu menjaga perusahaan agar tetap berkesinambungan</span><span>.</span></p>
+                        <p><strong>5. WORLD CLASS</strong></p>
+                        <p class="text-justify"><span>Strategi <em>World Class</em> dilakukan pada tahun 2020 dan merupakan tahapan terakhir untuk mencapai visi perusahaan dimana PT Indonesia Kendaraan Terminal dapat disejajar dengan terminal kendaraan terbaik di dunia. Pada tahap ini PT Indonesia Kendaraan Terminal telah mengimplementasikan segala aktivitas organisasi dengan professional dan sesuai dengan standar internasional.</span></p>
                     </section>
 
                     <!-- Roadmap 2022 -->
