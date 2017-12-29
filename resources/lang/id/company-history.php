@@ -2,7 +2,7 @@
 
 return [
     'head-title' => 'Sejarah Perusahaan',
-    'sub-title' => 'PT. Indonesia Kendaraan Terminal',
+    'sub-title' => 'PT Indonesia Kendaraan Terminal',
     'title' => 'Stevedoring & Cargodoring',
     'content' => '
                 <p class="text-justify">

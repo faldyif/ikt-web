@@ -2,7 +2,7 @@
 
 return [
     'head-title' => 'Visi dan Misi Perusahaan',
-    'sub-title' => 'PT. Indonesia Kendaraan Terminal',
+    'sub-title' => 'PT Indonesia Kendaraan Terminal',
     'title' => 'Visi Misi',
     'content' => '
     <hr class="hrSpec hrSpecOrange">

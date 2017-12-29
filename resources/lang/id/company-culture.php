@@ -2,7 +2,7 @@
 
 return [
     'head-title' => 'Budaya Perusahaan',
-    'sub-title' => 'PT. Indonesia Kendaraan Terminal',
+    'sub-title' => 'PT Indonesia Kendaraan Terminal',
     //'title' => 'Stevedoring & Cargodoring',
     'content' => '
     <hr class="hrSpec hrSpecOrange">
@@ -46,19 +46,19 @@ return [
     <h3 class="mg-b-30 roboBold">Karakter Perusahaan</h3>
     <p>
       <h4>Less Bureaucratic<br><small>Decision Making Process</small></h4>
-      PT. Indonesia Kendaraan Terminal memiliki karakter cepat, tepat dan akurat dalam proses pengambilan keputusan.
+      PT Indonesia Kendaraan Terminal memiliki karakter cepat, tepat dan akurat dalam proses pengambilan keputusan.
     </p>
     <p>
       <h4>Less Feudalism<br><small>Professional Intimacy</small></h4>
-      PT. Indonesia Kendaraan Terminal memiliki karakter yakni hubungan komunikasi yang dibangun bedasarkan profesionalisme kerja.
+      PT Indonesia Kendaraan Terminal memiliki karakter yakni hubungan komunikasi yang dibangun bedasarkan profesionalisme kerja.
     </p>
     <p>
       <h4>More Modern<br><small>Werld Class Company, Technology Based &amp Customer Centric</small></h4>
-      PT. Indonesia Kendaraan Terminal memiliki karakter perusahaan berkelas dunia, yang berbasis IT dan fokus terhadap kepuasan pelanggan.
+      PT Indonesia Kendaraan Terminal memiliki karakter perusahaan berkelas dunia, yang berbasis IT dan fokus terhadap kepuasan pelanggan.
     </p>
     <p>
       <h4>More Friendly<br><small>World Class Service</small></h4>
-      PT. Indonesia Kendaraan Terminal memiliki karakter pelayanan optimal, berkelas dunia dan memiliki hubungan yang dekat dengan pelanggan.
+      PT Indonesia Kendaraan Terminal memiliki karakter pelayanan optimal, berkelas dunia dan memiliki hubungan yang dekat dengan pelanggan.
     </p>
 
     <hr class="hrSpec hrSpecOrange">

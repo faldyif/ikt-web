@@ -141,7 +141,7 @@
 
   <!--======= HOME AGENCY =========-->
   <div class="home-agency">
-    <div id="particles-js" class="layerblue">
+    <div id="particles-js">
 
       <!--======= HOME MAIN SLIDER =========-->
       <div class="home-slider">
@@ -300,7 +300,7 @@
         <div class="col-sm-7">
           <h4 style="font-weight:bold; color:black;">PT Indonesia Kendaraan Terminal</h4>
           <div class="test-info">
-            <p>Tujuan hidup manusia, salah satunya adalah memberikan manfaat bagi sesama, begitu pula sebuah perusaahan, dari awal didirikan agar bias tumbuh dan bermanfaat bagi kehidupan lingkungan di sekitarnya, bangsa dan negara</p>
+            <p>Tujuan hidup manusia, salah satunya adalah memberikan manfaat bagi sesama, begitu pula sebuah perusaahan, dari awal didirikan agar bisa tumbuh dan bermanfaat bagi kehidupan lingkungan di sekitarnya, bangsa dan negara</p>
             <p>
               PT Indonesia Kendaraan Terminal salah satu anak perusahaan PT Pelabuhan Indonesia II (Persero) memiliki komitmen untuk dapat berbagi melalui pengelolaan terminal kendaraan kelas dunia yang unggul dalam operasional dan pelayanan
             </p>
@@ -352,7 +352,7 @@
               <li class="col-md-5">
                 <div class="text-info text-left">
                   <h3 class="tittle">Implementing Human Capital Development</h3>
-                  <p>Building highly capable human resources, we create superiority by developing high productivity organitation based on professionalism and expertise</p>
+                  <p>Building highly capable human resources, we create superiority by developing high productivity organization based on professionalism and expertise</p>
                   <div class="text-center"> <a href="#." class="btn-flat">Lihat Album</a> </div>
                 </div>
               </li>
@@ -445,7 +445,7 @@
             <div class="col-md-4 pull-left text-right step-4 animate fadeInRight" data-wow-delay="0.6s">
               <div class="media-body"> <span class="tittle-back">2</span>
                 <h4>Untuk Pemegang Saham</h4>
-                <p class="whitetext">Memaksimalkan nilai perusahaan bagi pemegang saham dan meningkatkan kesehatan perusahaan secara profesional dengan memenuhi aspeol-aspek tatakelola perusahaan yang baik.</p>
+                <p class="whitetext">Memaksimalkan nilai perusahaan bagi pemegang saham dan meningkatkan kesehatan perusahaan secara profesional dengan memenuhi aspek-aspek tata kelola perusahaan yang baik.</p>
               </div>
               <div class="media-right media-middle"> <i class="icon-rocket"></i> </div>
             </div>
@@ -458,7 +458,7 @@
           <div class="step-3 animate fadeInDown" data-wow-delay="0.6s"> <span class="tittle-back">4</span> <i class="icon-vector"></i>
             <h4>Untuk Karyawan</h4>
             <div class="col-md-4 center-auto">
-              <p class="whitetext">Menciptakan lingkungan tenaga kerja yang nyaman bagi karyawan, mewujudkan insan perusahaan yang fokus pada pelanggan, berintegrasi, bangga kepada perusahaan dan budayanya serta memberikan kesejahteraan dan kepuasan kepada karyawan.</p>
+              <p class="whitetext">Menciptakan lingkungan kerja yang nyaman bagi karyawan, mewujudkan insan perusahaan yang fokus pada pelanggan, berintegrasi, bangga kepada perusahaan dan budayanya serta memberikan kesejahteraan dan kepuasan kepada karyawan.</p>
             </div>
           </div>
 
