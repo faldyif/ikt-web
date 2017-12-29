@@ -204,11 +204,12 @@
                 <p>Warna Biru pada gambar melengkung bagian bawah menggambarkan kesiapan memasuki era baru yang dinamis dan fleksibiltas setiap komponen dalam perusahaan menghadapi berbagai tantangan guna mencapai tujuan perusahaan sebagai world-class port operator.</p>
               </div>
               <div class="col-md-5">
-                <figure class="pd-30">
-                  <img src="{{ url('img/ikt-logo.png') }}" class="pd-30" alt="PT. Indonesia Kendaraan Terminal">
-                  <figcaption class="caption">
+                <figure class="pd-lr-30">
+                  <img src="{{ url('img/ikt-logo.png') }}" class="pd-lr-30" alt="PT. Indonesia Kendaraan Terminal">
+                  <figcaption class="caption" style="margin: 0;">
                     Logo PT. Indonesia Kendaraan Terminal bermakna friendly, sprit, energy dan agility.
                   </figcaption>
+                  <img src="{{ url('img/ikt-profil.png') }}" class="pd-30" alt="PT. Indonesia Kendaraan Terminal">
                 </figure>
               </div>
             </section>
