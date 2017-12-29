@@ -146,7 +146,7 @@
                       <div class="col-md-10">
                       <p>
                       <h4>Less Bureaucratic<br><small>Decision Making Process</small></h4>
-                      PT. Indonesia Kendaraan Terminal memiliki karakter cepat, tepat dan akurat dalam proses pengambilan keputusan.
+                      PT Indonesia Kendaraan Terminal memiliki karakter cepat, tepat dan akurat dalam proses pengambilan keputusan.
                       </p>
                       </div>
                     </div>
@@ -157,7 +157,7 @@
                       <div class="col-md-10">
                       <p>
                       <h4>Less Feudalism<br><small>Professional Intimacy</small></h4>
-                      PT. Indonesia Kendaraan Terminal memiliki karakter yakni hubungan komunikasi yang dibangun bedasarkan profesionalisme kerja.
+                      PT Indonesia Kendaraan Terminal memiliki karakter yakni hubungan komunikasi yang dibangun bedasarkan profesionalisme kerja.
                       </p>
                       </div>
                     </div>
@@ -168,7 +168,7 @@
                       <div class="col-md-10">
                       <p>
                       <h4>More Modern<br><small>Werld Class Company, Technology Based &amp Customer Centric</small></h4>
-                      PT. Indonesia Kendaraan Terminal memiliki karakter perusahaan berkelas dunia, yang berbasis IT dan fokus terhadap kepuasan pelanggan.
+                      PT Indonesia Kendaraan Terminal memiliki karakter perusahaan berkelas dunia, yang berbasis IT dan fokus terhadap kepuasan pelanggan.
                       </p>
                       </div>
                     </div>
@@ -179,7 +179,7 @@
                       <div class="col-md-10">
                       <p>
                       <h4>More Friendly<br><small>World Class Service</small></h4>
-                      PT. Indonesia Kendaraan Terminal memiliki karakter pelayanan optimal, berkelas dunia dan memiliki hubungan yang dekat dengan pelanggan.
+                      PT Indonesia Kendaraan Terminal memiliki karakter pelayanan optimal, berkelas dunia dan memiliki hubungan yang dekat dengan pelanggan.
                       </p>
                       </div>
                     </div>
