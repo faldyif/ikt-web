@@ -141,7 +141,7 @@
 
   <!--======= HOME AGENCY =========-->
   <div class="home-agency">
-    <div id="particles-js" class="layerblue">
+    <div id="particles-js">
 
       <!--======= HOME MAIN SLIDER =========-->
       <div class="home-slider">
