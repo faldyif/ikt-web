@@ -62,76 +62,76 @@
           <!-- NAV -->
           <div class="collapse navbar-collapse" id="nav-open-btn">
             <ul class="nav">
-                <li class=""><a href="{{ url('/') }}" class="" data-toggle="">{{ strtoupper(trans('menu.home')) }}</a>
-                </li>
-                <li class="dropdown"> <a href="#." class="dropdown-toggle" data-toggle="dropdown">{{ strtoupper(trans('menu.about-us')) }}</a>
-                  <ul class="dropdown-menu">
-                    <li><a href="{{ route('company.about') }}">{{ trans('menu.profile') }}</a></li>
-                    <li><a href="{{ route('company.ceo-message') }}">{{ trans('menu.ceo-message') }}</a></li>
-                    <li><a href="{{ route('company.history') }}">{{ trans('menu.company-history') }}</a></li>
-                    <li><a href="{{ route('company.gcg') }}">{{ trans('menu.gcg-application') }}</a></li>
-                    <li><a href="{{ route('company.culture') }}">{{ trans('menu.company-culture') }}</a></li>
-                    <li><a href="{{ route('company.corporate-roadmap') }}">{{ trans('menu.corporate-roadmap') }}</a></li>
-                    <li><a href="{{ route('csr')}}">{{ trans('menu.csr') }}</a></li>
-                    <li><a href="{{ route('company.achievements') }}">{{ trans('menu.achievements') }}</a></li>
-                    <li><a href="{{ route('company.subsidiary') }}">{{ trans('menu.subsidiary') }}</a></li>
-                  </ul>
-                </li>
-                <li class="dropdown"> <a href="services-1.html" class="dropdown-toggle" data-toggle="dropdown">{{ strtoupper(trans('menu.services')) }}</a>
-                  <ul class="dropdown-menu">
-                    <li><a href="{{ route('service.stevedoring') }}">{{ trans('menu.stevedoring-cargohandling') }}</a></li>
-                    <li><a href="{{ route('service.receiving') }}">{{ trans('menu.receiving-delivering') }}</a></li>
-                    <li><a href="{{ route('service.vas') }}">Value Added Services</a>
-                  </ul>
-                </li>
-                <li class="dropdown"> <a href="index_mp-3a.html" class="dropdown-toggle" data-toggle="dropdown">{{ strtoupper(trans('menu.facilities')) }}</a>
-                  <ul class="dropdown-menu">
-                    <li><a href="{{ route('facilities.fas') }}">{{ trans('menu.main-facilities') }}</a></li>
-                    <li><a href="{{ route('facilities.fas-1') }}">{{ trans('menu.support-facilities') }}</a></li>
-                  <!-- <li><a href="{{ route('facilities.fas-2') }}">{{ trans('menu.equipment-facilities') }}</a></li> -->
-                  </ul>
-                </li>
-                <li class="dropdown"> <a href="blog.html" class="dropdown-toggle" data-toggle="dropdown">{{ strtoupper(trans('menu.information-center')) }}</a>
-                  <ul class="dropdown-menu">
-                    <li><a href="{{ route('news') }}">{{ trans('menu.news') }}</a></li>
-                    <li><a href="{{ route('gallery') }}">{{ trans('menu.gallery') }}</a></li>
-                    <li><a href="{{ route('press-release') }}">{{ trans('menu.press-release') }}</a></li>
-                    <li><a href="{{ route('annual') }}">{{ trans('menu.annual-report') }}</a></li>
-                    <li><a href="{{ route('statistic') }}">{{ trans('menu.statistic-data') }}</a></li>
-                    <li><a href="{{ route('company.clients') }}">{{ trans('menu.our-customer') }}</a></li>
-                    <li><a href="http://www.eproc-ikt.com">{{ trans('menu.procurement') }}</a></li>
-                    <li><a href="{{ route('company.magazine') }}">{{ trans('menu.limouzine-magazine') }}</a></li>
-                  </ul>
-                </li>
-                <li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown">language</a>
-                    <ul class="dropdown-menu">
-                        <li {{ (app()->getLocale() == 'en' ? 'class=active' : '') }}>
-                            <a href="{{ route('lang.switch', 'en') }}">
-                            <div class="flex-row-center">
-                                <img src="{{ url('img/english.png') }}" class="mg-r-10" width="20" alt="">
-                                English
-                            </div>
-                            </a>
-                            </li>
-                            <li {{ (app()->getLocale() == 'id' ? 'class=active' : '') }}>
-                            <a href="{{ route('lang.switch', 'id') }}">
-                            <div class="flex-row-center">
-                                <img src="{{ url('img/indonesian.png') }}" class="mg-r-10" width="20" alt="">
-                                Bahasa Indonesia
-                            </div>
-                            </a>
-                            </li>
-                            <li {{ (app()->getLocale() == 'jp' ? 'class=active' : '') }}>
-                            <a href="{{ route('lang.switch', 'jp') }}">
-                            <div class="flex-row-center">
-                                <img src="{{ url('img/japan.png') }}" class="mg-r-10" width="20" alt="">
-                                日本語
-                            </div>
-                            </a>
-                        </li>
-                    </ul> 
-                </li>
-              </ul>
+              <li class=""><a href="{{ url('/') }}" class="" data-toggle="">{{ strtoupper(trans('menu.home')) }}</a>
+              </li>
+              <li class="dropdown"> <a href="#." class="dropdown-toggle" data-toggle="dropdown">{{ strtoupper(trans('menu.about-us')) }}</a>
+                <ul class="dropdown-menu">
+                  <li><a href="{{ route('company.about') }}">{{ trans('menu.profile') }}</a></li>
+                  <li><a href="{{ route('company.ceo-message') }}">{{ trans('menu.ceo-message') }}</a></li>
+                  <li><a href="{{ route('company.history') }}">{{ trans('menu.company-history') }}</a></li>
+                  <li><a href="{{ route('company.gcg') }}">{{ trans('menu.gcg-application') }}</a></li>
+                  <li><a href="{{ route('company.culture') }}">{{ trans('menu.company-culture') }}</a></li>
+                  <li><a href="{{ route('company.corporate-roadmap') }}">{{ trans('menu.corporate-roadmap') }}</a></li>
+                  <li><a href="{{ route('csr')}}">{{ trans('menu.csr') }}</a></li>
+                  <li><a href="{{ route('company.achievements') }}">{{ trans('menu.achievements') }}</a></li>
+                  <li><a href="{{ route('company.subsidiary') }}">{{ trans('menu.subsidiary') }}</a></li>
+                </ul>
+              </li>
+              <li class="dropdown"> <a href="services-1.html" class="dropdown-toggle" data-toggle="dropdown">{{ strtoupper(trans('menu.services')) }}</a>
+                <ul class="dropdown-menu">
+                  <li><a href="{{ route('service.stevedoring') }}">{{ trans('menu.stevedoring-cargohandling') }}</a></li>
+                  <li><a href="{{ route('service.receiving') }}">{{ trans('menu.receiving-delivering') }}</a></li>
+                  <li><a href="{{ route('service.vas') }}">Value Added Services</a>
+                </ul>
+              </li>
+              <li class="dropdown"> <a href="index_mp-3a.html" class="dropdown-toggle" data-toggle="dropdown">{{ strtoupper(trans('menu.facilities')) }}</a>
+                <ul class="dropdown-menu">
+                  <li><a href="{{ route('facilities.fas') }}">{{ trans('menu.main-facilities') }}</a></li>
+                  <li><a href="{{ route('facilities.fas-1') }}">{{ trans('menu.support-facilities') }}</a></li>
+                <!-- <li><a href="{{ route('facilities.fas-2') }}">{{ trans('menu.equipment-facilities') }}</a></li> -->
+                </ul>
+              </li>
+              <li class="dropdown"> <a href="blog.html" class="dropdown-toggle" data-toggle="dropdown">{{ strtoupper(trans('menu.information-center')) }}</a>
+                <ul class="dropdown-menu">
+                  <li><a href="{{ route('news') }}">{{ trans('menu.news') }}</a></li>
+                  <li><a href="{{ route('gallery') }}">{{ trans('menu.gallery') }}</a></li>
+                  <li><a href="{{ route('press-release') }}">{{ trans('menu.press-release') }}</a></li>
+                  <li><a href="{{ route('annual') }}">{{ trans('menu.annual-report') }}</a></li>
+                  <li><a href="{{ route('statistic') }}">{{ trans('menu.statistic-data') }}</a></li>
+                  <li><a href="{{ route('company.clients') }}">{{ trans('menu.our-customer') }}</a></li>
+                  <li><a href="{{ route('company.procurement') }}">{{ trans('menu.procurement') }}</a></li>
+                  <li><a href="{{ route('company.magazine') }}">{{ trans('menu.limouzine-magazine') }}</a></li>
+                </ul>
+              </li>
+              <li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown">language</a>
+                <ul class="dropdown-menu">
+                  <li {{ (app()->getLocale() == 'en' ? 'class=active' : '') }}>
+                    <a href="{{ route('lang.switch', 'en') }}">
+                      <div class="flex-row-center">
+                        <img src="{{ url('img/english.png') }}" class="mg-r-10" width="20" alt="">
+                        English
+                      </div>
+                    </a>
+                  </li>
+                  <li {{ (app()->getLocale() == 'id' ? 'class=active' : '') }}>
+                    <a href="{{ route('lang.switch', 'id') }}">
+                      <div class="flex-row-center">
+                        <img src="{{ url('img/indonesian.png') }}" class="mg-r-10" width="20" alt="">
+                        Bahasa Indonesia
+                      </div>
+                    </a>
+                  </li>
+                  <li {{ (app()->getLocale() == 'jp' ? 'class=active' : '') }}>
+                    <a href="{{ route('lang.switch', 'jp') }}">
+                      <div class="flex-row-center">
+                        <img src="{{ url('img/japan.png') }}" class="mg-r-10" width="20" alt="">
+                        日本語
+                      </div>
+                    </a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
           </div>
         </nav>
       </div>
@@ -298,7 +298,7 @@
         </div>
         <!-- CONTENT INFO -->
         <div class="col-sm-7">
-          <h4 style="font-weight:bold; color:black;">Indonesia Kendaraan Terminal</h4>
+          <h4 style="font-weight:bold; color:black;">PT Indonesia Kendaraan Terminal</h4>
           <div class="test-info">
             <p>Tujuan hidup manusia, salah satunya adalah memberikan manfaat bagi sesama, begitu pula sebuah perusaahan, dari awal didirikan agar bias tumbuh dan bermanfaat bagi kehidupan lingkungan di sekitarnya, bangsa dan negara</p>
             <p>
@@ -415,12 +415,20 @@
 
         <!-- Process Steps -->
         <div class="process-steps">
+          <!-- Steps 1 -->
+          <div class="step-1">
+            <div class="col-md-4 center-auto animate fadeInUp" data-wow-delay="0.6s"> <span class="tittle-back"></span>
+              <h2 style="color:orange;">VISI</h2>
+              <p class="whitetext">Menjadi Terminal Kendaraan Kelas Dunia yang Unggul dalam Operasional dan Pelayanan</p>
+              <i class="icon-note"></i> </div>
+          </div>
 
           <!-- Steps 1 -->
           <div class="step-1">
             <div class="col-md-4 center-auto animate fadeInUp" data-wow-delay="0.6s"> <span class="tittle-back">1</span>
-              <h4>VISI</h4>
-              <p class="whitetext">Menjadi Terminal Kendaraan Kelas Dunia yang Unggul dalam Operasional dan Pelayanan</p>
+              <h2 style="color:orange;">MISI</h2>
+              <h4>Untuk Masyarakat Negara</h4>
+              <p class="whitetext">Menjamin kelancaran dari keamanan arus barang untuk mewujudkan efisiensi biaya logistik dalam rangka memacu pertumbuhan ekonomi yang berdampak pada peningkatan kesejahteraan masyarakat</p>
               <i class="icon-note"></i> </div>
           </div>
           <div class="row">
@@ -453,284 +461,279 @@
               <p class="whitetext">Menciptakan lingkungan tenaga kerja yang nyaman bagi karyawan, mewujudkan insan perusahaan yang fokus pada pelanggan, berintegrasi, bangga kepada perusahaan dan budayanya serta memberikan kesejahteraan dan kepuasan kepada karyawan.</p>
             </div>
           </div>
-          <div class="step-3 animate fadeInDown" data-wow-delay="0.6s"> <span class="tittle-back">5</span> <i class="icon-vector"></i>
-            <h4>Untuk Masyarakat Negara</h4>
-            <div class="col-md-4 center-auto">
-              <p class="whitetext">Menjamin kelancaran dari keamanan arus barang untuk mewujudkan efisiensi biaya logistik dalam rangka memacu pertumbuhan ekonomi yang berdampak pada peningkatan kesejahteraan masyarakat.</p>
-            </div>
-          </div>
+
         </div>
       </div>
+  </div>
 
-      <!-- Bottom BG Style -->
-      <div class="cir-bottom-bg"></div>
-    </section>
+  <!-- Bottom BG Style -->
+  <div class="cir-bottom-bg"></div>
+  </section>
 
-    <!-- BLOG -->
-    <section class="blog padding-top-150 padding-bottom-100" data-stellar-background-ratio="0.5">
-      <div class="container">
+  <!-- BLOG -->
+  <section class="blog padding-top-150 padding-bottom-100" data-stellar-background-ratio="0.5">
+    <div class="container">
 
-        <!-- Heading Block -->
-        <div class="heading-block">
-          <h6 class="animate fadeInRight" data-wow-delay="0.4s">informasi terbaru</h6>
-          <span class="huge-tittle">BERITA</span> </div>
+      <!-- Heading Block -->
+      <div class="heading-block">
+        <h6 class="animate fadeInRight" data-wow-delay="0.4s">informasi terbaru</h6>
+        <span class="huge-tittle">BERITA</span> </div>
 
-        <!-- Blog -->
-        <div class="blog-post">
-          @if(sizeof($latestNews) > 0)
-            <div class="row">
+      <!-- Blog -->
+      <div class="blog-post">
+        @if(sizeof($latestNews) > 0)
+          <div class="row">
 
-            @if(sizeof($latestNews) >= 1)
-              <!-- Big Post -->
-                <div class="col-md-6">
-                  <article class="post-normal third-post">
+          @if(sizeof($latestNews) >= 1)
+            <!-- Big Post -->
+              <div class="col-md-6">
+                <article class="post-normal third-post">
+                  <!-- Imag -->
+                  <img class="img-responsive animate fadeIn" data-wow-delay="0.4s" src="{{ url('storage') . '/' . $latestNews[0]->filename }}" alt="" >
+                  <!-- Post -->
+                  <a href="{{ route('news.detail',  $latestNews[0]->slug) }}" class="post-tittle">{{ $latestNews[0]->title }}</a>
+                  <p>{!! substr(strip_tags($latestNews[0]->content), 0, 100) !!}</p>
+                  <span class="comm">{{ \Carbon\Carbon::parse($latestNews[0]->created_at)->toFormattedDateString() }} / {{ $latestNews[0]->view_count }} Views</span> <a href="{{ route('news.detail',  $latestNews[0]->slug) }}" class="btn-flat margin-top-15">READ MORE</a>
+                </article>
+              </div>
+          @endif
+
+          @if(sizeof($latestNews) >= 2)
+            <!-- Post -->
+              <div class="col-md-3">
+              @if(sizeof($latestNews) >= 2)
+                <!-- Post -->
+                  <article class="post-normal">
                     <!-- Imag -->
-                    <img class="img-responsive animate fadeIn" data-wow-delay="0.4s" src="{{ url('storage') . '/' . $latestNews[0]->filename }}" alt="" >
+                    <img class="img-responsive animate fadeIn" data-wow-delay="0.4s" src="{{ url('storage') . '/' . $latestNews[1]->filename }}" alt="" >
                     <!-- Post -->
-                    <a href="{{ route('news.detail',  $latestNews[0]->slug) }}" class="post-tittle">{{ $latestNews[0]->title }}</a>
-                    <p>{!! substr(strip_tags($latestNews[0]->content), 0, 100) !!}</p>
-                    <span class="comm">{{ \Carbon\Carbon::parse($latestNews[0]->created_at)->toFormattedDateString() }} / {{ $latestNews[0]->view_count }} Views</span> <a href="{{ route('news.detail',  $latestNews[0]->slug) }}" class="btn-flat margin-top-15">READ MORE</a>
-                  </article>
-                </div>
-            @endif
-
-            @if(sizeof($latestNews) >= 2)
-              <!-- Post -->
-                <div class="col-md-3">
-                @if(sizeof($latestNews) >= 2)
-                  <!-- Post -->
-                    <article class="post-normal">
-                      <!-- Imag -->
-                      <img class="img-responsive animate fadeIn" data-wow-delay="0.4s" src="{{ url('storage') . '/' . $latestNews[1]->filename }}" alt="" >
-                      <!-- Post -->
-                      <a href="{{ route('news.detail',  $latestNews[1]->slug) }}" class="post-tittle">{{ $latestNews[1]->title }}</a>
-                      <p>{!! substr(strip_tags($latestNews[1]->content), 0, 100) !!}</p>
-                      <span class="comm">{{ \Carbon\Carbon::parse($latestNews[1]->created_at)->toFormattedDateString() }} / {{ $latestNews[1]->view_count }} Views</span> <a href="{{ route('news.detail',  $latestNews[1]->slug) }}" class="btn-flat margin-top-15">READ MORE</a> </article>
-                @endif
-
-                @if(sizeof($latestNews) >= 3)
-                  <!-- Post -->
-                    <article class="post-normal margin-top-30">
-                      <!-- Imag -->
-                      <img class="img-responsive animate fadeIn" data-wow-delay="0.4s" src="{{ url('storage') . '/' . $latestNews[2]->filename }}" alt="" >
-                      <!-- Post -->
-                      <a href="{{ route('news.detail',  $latestNews[2]->slug) }}" class="post-tittle">{{ $latestNews[2]->title }}</a>
-                      <p>{!! substr(strip_tags($latestNews[1]->content), 0, 100) !!}</p>
-                      <span class="comm">{{ \Carbon\Carbon::parse($latestNews[2]->created_at)->toFormattedDateString() }} / {{ $latestNews[2]->view_count }} Views</span> <a href="{{ route('news.detail',  $latestNews[2]->slug) }}" class="btn-flat margin-top-15">READ MORE</a> </article>
-                  @endif
-                </div>
-            @endif
-
-            @if(sizeof($latestNews) >= 4)
-              <!-- Post -->
-                <div class="col-md-3">
-                  <!-- Post -->
-                  <article class="post-normal third-post">
-                    <!-- Imag -->
-                    <img class="img-responsive animate fadeIn" data-wow-delay="0.4s" src="{{ url('storage') . '/' . $latestNews[3]->filename }}" alt="" >
-                    <!-- Post -->
-                    <a href="{{ route('news.detail',  $latestNews[3]->slug) }}" class="post-tittle">{{ $latestNews[3]->title }}</a>
-                    <p>{!! substr(strip_tags($latestNews[3]->content), 0, 100) !!}</p>
-                    <span class="comm">{{ \Carbon\Carbon::parse($latestNews[3]->created_at)->toFormattedDateString() }} / {{ $latestNews[3]->view_count }} Views</span> <a href="{{ route('news.detail',  $latestNews[3]->slug) }}" class="btn-flat margin-top-15">READ MORE</a> </article>
-                </div>
+                    <a href="{{ route('news.detail',  $latestNews[1]->slug) }}" class="post-tittle">{{ $latestNews[1]->title }}</a>
+                    <p>{!! substr(strip_tags($latestNews[1]->content), 0, 100) !!}</p>
+                    <span class="comm">{{ \Carbon\Carbon::parse($latestNews[1]->created_at)->toFormattedDateString() }} / {{ $latestNews[1]->view_count }} Views</span> <a href="{{ route('news.detail',  $latestNews[1]->slug) }}" class="btn-flat margin-top-15">READ MORE</a> </article>
               @endif
 
-
-            </div>
-
+              @if(sizeof($latestNews) >= 3)
+                <!-- Post -->
+                  <article class="post-normal margin-top-30">
+                    <!-- Imag -->
+                    <img class="img-responsive animate fadeIn" data-wow-delay="0.4s" src="{{ url('storage') . '/' . $latestNews[2]->filename }}" alt="" >
+                    <!-- Post -->
+                    <a href="{{ route('news.detail',  $latestNews[2]->slug) }}" class="post-tittle">{{ $latestNews[2]->title }}</a>
+                    <p>{!! substr(strip_tags($latestNews[1]->content), 0, 100) !!}</p>
+                    <span class="comm">{{ \Carbon\Carbon::parse($latestNews[2]->created_at)->toFormattedDateString() }} / {{ $latestNews[2]->view_count }} Views</span> <a href="{{ route('news.detail',  $latestNews[2]->slug) }}" class="btn-flat margin-top-15">READ MORE</a> </article>
+                @endif
+              </div>
           @endif
 
-          @if(sizeof($latestNews) > 4)
-          <!-- Load More Work -->
-            <div class="text-center margin-top-100"> <a href="{{ route('news') }}" class="btn-large">Selengkapnya</a> </div>
-          @endif
-        </div>
-      </div>
-    </section>
-
-    <!-- Profile -->
-    <section class="profile-main" data-stellar-background-ratio="0.5">
-
-      <!-- TOP bg Style -->
-      <div class="cir-tri-bg"></div>
-      <div class="container">
-
-        <!-- Heading Block -->
-        <div class="heading-block">
-          <h6 class="animate fadeInRight" data-wow-delay="0.4s">pencapaian dan penghargaan</h6>
-          <span class="huge-tittle">Achievements</span> </div>
-
-        <!-- Profile Tabs -->
-        <div class="profile-inn">
-          <div class="row">
-            <div class="col-md-5 text-right test-sec animate fadeInLeft" data-wow-delay="0.4s">
-              <h3>ACHIEVEMENT AWARDS</h3>
-              <p>pencapaian dan penghargaan yang diterima oleh indonesia kendaraan terminal </p>
-            </div>
-            <div class="col-md-6">
-              <div class="tabs-sec  animate fadeIn" data-wow-delay="0.4s">
-
-                <!-- Tab panes -->
-                <div class="tab-content">
-
-                  <!-- Awwwards -->
-                  <div role="tabpanel" class="tab-pane fade in active" id="awards">
-                    <ul>
-                      <li>
-                        <h5>The Best Sales & Marketing in Sector : Subsidiary of BUMN Company</h5>
-                        <p>Indonesia Sales Marketing Award 2017/ISMA 2017, Majalah Economic Review, Binus Business School, Indonesia-Asia Institute, Frontliner Services, Ideku Group</p>
-                      </li>
-                      <li>
-                        <h5>The 1st Best 5 of Sales & Marketing Director in Sector : Subsidiary of Company</h5>
-                        <p>Indonesia Sales Marketing Award 2017/ISMA 2017, Majalah Economic Review, Binus Business School, Indonesia-Asia Institute, Frontliner Services, Ideku Group</p>
-                      </li>
-
-                    </ul>
-                    <i class="icon-trophy"></i> </div>
-
-                  <!-- Awwwards 2 -->
-                  <div role="tabpanel" class="tab-pane fade" id="awards1">
-                    <ul>
-                      <li>
-                        <h5>Speaker of Indonesia Sales Marketing Award 2017</h5>
-                        <p>ISMA 2017</p>
-                      </li>
-                      <li>
-                        <h5>Speaker "Menyukseskan Tol Maritim, Roro Service Jakarta - Surabaya"</h5>
-                        <p></p>
-                      </li>
-                      <li>
-                        <h5>The Best Performance Subsidiary of IPC</h5>
-                        <p>PT Pelabuhan Indonesia II (Persero)</p>
-                      </li>
-                    </ul>
-                    <i class="icon-trophy"></i> </div>
-
-                  <!-- Awwwards 2 -->
-                  <div role="tabpanel" class="tab-pane fade" id="awards2">
-                    <ul>
-                      <li>
-                        <h5>The Best CEO Marketing Leadership BUMN Award 2016</h5>
-                        <p>BUMN Track Magazine, Arrbey Consulting & Rumah Perubahan</p>
-                      </li>
-                      <li>
-                        <h5>The Best Subsidiary Company of BUMN in Marketing Award 2016</h5>
-                        <p>BUMN Track Magazine, Arrbey Consulting & Rumah Perubahan</p>
-                      </li>
-                    </ul>
-                    <i class="icon-trophy"></i> </div>
-
-                  <!-- Awwwards 2 -->
-                  <div role="tabpanel" class="tab-pane fade" id="awards3">
-                    <ul>
-                      <li>
-                        <h5>Prima Utama "Operation Excelent"</h5>
-                        <p>SMinistry of Transportation - Republic Of Indonesia</p>
-                      </li>
-                    </ul>
-                    <i class="icon-trophy"></i> </div>
-                </div>
+          @if(sizeof($latestNews) >= 4)
+            <!-- Post -->
+              <div class="col-md-3">
+                <!-- Post -->
+                <article class="post-normal third-post">
+                  <!-- Imag -->
+                  <img class="img-responsive animate fadeIn" data-wow-delay="0.4s" src="{{ url('storage') . '/' . $latestNews[3]->filename }}" alt="" >
+                  <!-- Post -->
+                  <a href="{{ route('news.detail',  $latestNews[3]->slug) }}" class="post-tittle">{{ $latestNews[3]->title }}</a>
+                  <p>{!! substr(strip_tags($latestNews[3]->content), 0, 100) !!}</p>
+                  <span class="comm">{{ \Carbon\Carbon::parse($latestNews[3]->created_at)->toFormattedDateString() }} / {{ $latestNews[3]->view_count }} Views</span> <a href="{{ route('news.detail',  $latestNews[3]->slug) }}" class="btn-flat margin-top-15">READ MORE</a> </article>
               </div>
+            @endif
 
-              <!-- Nav tabs -->
-              <ul class="nav nav-pills" role="tablist">
-                <li role="presentation" class="active"><a href="#awards" aria-controls="awards" role="tab" data-toggle="tab">2017 </a></li>
-                <li role="presentation"><a href="#awards1" aria-controls="awards1" role="tab" data-toggle="tab">2017</a></li>
-                <li role="presentation"><a href="#awards2" aria-controls="awards2" role="tab" data-toggle="tab">2016</a></li>
-                <li role="presentation"><a href="#" aria-controls="awards3" role="tab" data-toggle="tab">MORE</a></li>
-              </ul>
-            </div>
+
           </div>
 
-          <!-- BTN -->
-          <div class="btn-part"> <a href="{{ route('company.achievements') }}" class="btn-large btn-large-1 ">Selengkapnya</a> </div>
-        </div>
+        @endif
+
+        @if(sizeof($latestNews) > 4)
+        <!-- Load More Work -->
+          <div class="text-center margin-top-100"> <a href="{{ route('news') }}" class="btn-large">Selengkapnya</a> </div>
+        @endif
       </div>
+    </div>
+  </section>
 
-      <!-- Clients -->
-      <div class="cir-bottom-bg"></div>
-    </section>
-
-    <!-- Clients -->
-    <section class="testimonial padding-top-150 padding-bottom-150" data-stellar-background-ratio="0.5">
-      <div class="container">
-
-        <!-- Heading Block -->
-        <div class="heading-block">
-          <h6 class=" animate fadeInRight" data-wow-delay="0.4s">clients</h6>
-          <span class="huge-tittle">Testimoni</span> </div>
-
-        <!-- Slider -->
-        <div class="slider-sec">
-          <div id="testi-slide">
-
-
-          @foreach($testimonials as $key)
-            <!-- Slide -->
-              <div class="item">
-                <div class="media-body">
-                  <div class="tesi-text">
-                    <div class="icon"> <i class="icon-bubbles"></i> </div>
-                    <p>{{ $key->testimonial }} </p>
-                  </div>
-                </div>
-                <div class="media-right">
-                  <div class="avatar-sec"> <img class="img-responsive" style="width:120px;" src="{{ url($key->filename) }}" alt="" >
-                    <h4>{{ $key->nama }}</h4>
-                    <p>{{ $key->instansi }}</p>
-                  </div>
-                </div>
-              </div>
-            @endforeach
-
-          </div>
-        </div>
-      </div>
-    </section>
-  </div>
-  <!-- End Content -->
-
-  <!-- Footer -->
-  <footer class="footer">
+  <!-- Profile -->
+  <section class="profile-main" data-stellar-background-ratio="0.5">
 
     <!-- TOP bg Style -->
     <div class="cir-tri-bg"></div>
     <div class="container">
 
       <!-- Heading Block -->
-      <div class="heading-block white">
-        <h6>get in touch </h6>
-        <span class="huge-tittle">contact</span> </div>
-      <div class="rights col-md-9 center-auto">
-        <a href="#" class="btn-normal" data-toggle="modal" data-target="#modal-whistleblowing">Aduan Pelanggaran</a>
-      </div>
-      <br>
-      <!-- Rights -->
-      <div class="rights col-md-9 center-auto"> <a href="#." class="mail-to">email :</a>
-        <h3>info@indonesiacarterminal.co.id</h3>
-        <div class="rights col-md-9 center-auto"> <a href="#." class="mail-to">customer care</a>
-          <h4 class="whitetext">+62 811 933 9930 / +62 21 4393 2251</h4>
-          <div class="rights col-md-9 center-auto"> <a href="#." class="mail-to">fax</a>
-            <h4 class="whitetext">+62 21 4393 2250</h4>
+      <div class="heading-block">
+        <h6 class="animate fadeInRight" data-wow-delay="0.4s">pencapaian dan penghargaan</h6>
+        <span class="huge-tittle">Achievements</span> </div>
 
-            <div class="social-icons">
-              <a href="https://www.facebook.com/IPCIKT"><i class="fa fa-facebook"></i></a>
-              <a href="https://twitter.com/pt_ikt"><i class="fa fa-twitter"></i></a>
-              <a href="https://www.instagram.com/ipccarterminal/"><i class="fa fa-instagram"></i></a>
-            </div>
-            <p>JL Sindang Laut No. 101, Cilincing Jakarta Utara, 14110 </p>
-            <p class="margin-top-30"><small> Copyright © 2017 indonesiacarterminal.co.id </small></p>
+      <!-- Profile Tabs -->
+      <div class="profile-inn">
+        <div class="row">
+          <div class="col-md-5 text-right test-sec animate fadeInLeft" data-wow-delay="0.4s">
+            <h3>ACHIEVEMENT AWARDS</h3>
+            <p>pencapaian dan penghargaan yang diterima oleh indonesia kendaraan terminal </p>
           </div>
+          <div class="col-md-6">
+            <div class="tabs-sec  animate fadeIn" data-wow-delay="0.4s">
+
+              <!-- Tab panes -->
+              <div class="tab-content">
+
+                <!-- Awwwards -->
+                <div role="tabpanel" class="tab-pane fade in active" id="awards">
+                  <ul>
+                    <li>
+                      <h5>The Best Sales & Marketing in Sector : Subsidiary of BUMN Company</h5>
+                      <p>Indonesia Sales Marketing Award 2017/ISMA 2017, Majalah Economic Review, Binus Business School, Indonesia-Asia Institute, Frontliner Services, Ideku Group</p>
+                    </li>
+                    <li>
+                      <h5>The 1st Best 5 of Sales & Marketing Director in Sector : Subsidiary of Company</h5>
+                      <p>Indonesia Sales Marketing Award 2017/ISMA 2017, Majalah Economic Review, Binus Business School, Indonesia-Asia Institute, Frontliner Services, Ideku Group</p>
+                    </li>
+
+                  </ul>
+                  <i class="icon-trophy"></i> </div>
+
+                <!-- Awwwards 2 -->
+                <div role="tabpanel" class="tab-pane fade" id="awards1">
+                  <ul>
+                    <li>
+                      <h5>Speaker of Indonesia Sales Marketing Award 2017</h5>
+                      <p>ISMA 2017</p>
+                    </li>
+                    <li>
+                      <h5>Speaker "Menyukseskan Tol Maritim, Roro Service Jakarta - Surabaya"</h5>
+                      <p></p>
+                    </li>
+                    <li>
+                      <h5>The Best Performance Subsidiary of IPC</h5>
+                      <p>PT Pelabuhan Indonesia II (Persero)</p>
+                    </li>
+                  </ul>
+                  <i class="icon-trophy"></i> </div>
+
+                <!-- Awwwards 2 -->
+                <div role="tabpanel" class="tab-pane fade" id="awards2">
+                  <ul>
+                    <li>
+                      <h5>The Best CEO Marketing Leadership BUMN Award 2016</h5>
+                      <p>BUMN Track Magazine, Arrbey Consulting & Rumah Perubahan</p>
+                    </li>
+                    <li>
+                      <h5>The Best Subsidiary Company of BUMN in Marketing Award 2016</h5>
+                      <p>BUMN Track Magazine, Arrbey Consulting & Rumah Perubahan</p>
+                    </li>
+                  </ul>
+                  <i class="icon-trophy"></i> </div>
+
+                <!-- Awwwards 2 -->
+                <div role="tabpanel" class="tab-pane fade" id="awards3">
+                  <ul>
+                    <li>
+                      <h5>Prima Utama "Operation Excelent"</h5>
+                      <p>SMinistry of Transportation - Republic Of Indonesia</p>
+                    </li>
+                  </ul>
+                  <i class="icon-trophy"></i> </div>
+              </div>
+            </div>
+
+            <!-- Nav tabs -->
+            <ul class="nav nav-pills" role="tablist">
+              <li role="presentation" class="active"><a href="#awards" aria-controls="awards" role="tab" data-toggle="tab">2017 </a></li>
+              <li role="presentation"><a href="#awards1" aria-controls="awards1" role="tab" data-toggle="tab">2017</a></li>
+              <li role="presentation"><a href="#awards2" aria-controls="awards2" role="tab" data-toggle="tab">2016</a></li>
+              <li role="presentation"><a href="#" aria-controls="awards3" role="tab" data-toggle="tab">MORE</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- BTN -->
+        <div class="btn-part"> <a href="{{ route('company.achievements') }}" class="btn-large btn-large-1 ">Selengkapnya</a> </div>
+      </div>
+    </div>
+
+    <!-- Clients -->
+    <div class="cir-bottom-bg"></div>
+  </section>
+
+  <!-- Clients -->
+  <section class="testimonial padding-top-150 padding-bottom-150" data-stellar-background-ratio="0.5">
+    <div class="container">
+
+      <!-- Heading Block -->
+      <div class="heading-block">
+        <h6 class=" animate fadeInRight" data-wow-delay="0.4s">clients</h6>
+        <span class="huge-tittle">Testimoni</span> </div>
+
+      <!-- Slider -->
+      <div class="slider-sec">
+        <div id="testi-slide">
+
+
+        @foreach($testimonials as $key)
+          <!-- Slide -->
+            <div class="item">
+              <div class="media-body">
+                <div class="tesi-text">
+                  <div class="icon"> <i class="icon-bubbles"></i> </div>
+                  <p>{{ $key->testimonial }} </p>
+                </div>
+              </div>
+              <div class="media-right">
+                <div class="avatar-sec"> <img class="img-responsive" style="width:120px;" src="{{ url($key->filename) }}" alt="" >
+                  <h4>{{ $key->nama }}</h4>
+                  <p>{{ $key->instansi }}</p>
+                </div>
+              </div>
+            </div>
+          @endforeach
+
         </div>
       </div>
     </div>
-    </div>
-  </footer>
-  <!-- End Footer -->
+  </section>
+</div>
+<!-- End Content -->
 
-  <!-- GO TO TOP  -->
-  <a href="#" class="cd-top"><i class="fa fa-angle-up"></i></a>
-  <!-- GO TO TOP End -->
+<!-- Footer -->
+<footer class="footer">
+
+  <!-- TOP bg Style -->
+  <div class="cir-tri-bg"></div>
+  <div class="container">
+
+    <!-- Heading Block -->
+    <div class="heading-block white">
+      <h6>get in touch </h6>
+      <span class="huge-tittle">contact</span> </div>
+    <div class="rights col-md-9 center-auto">
+      <a href="#" class="btn-normal" data-toggle="modal" data-target="#modal-whistleblowing">Aduan Pelanggaran</a>
+    </div>
+    <br>
+    <!-- Rights -->
+    <div class="rights col-md-9 center-auto"> <a href="#." class="mail-to">email :</a>
+      <h3>info@indonesiacarterminal.co.id</h3>
+      <div class="rights col-md-9 center-auto"> <a href="#." class="mail-to">customer care</a>
+        <h4 class="whitetext">+62 811 933 9930 / +62 21 4393 2251</h4>
+        <div class="rights col-md-9 center-auto"> <a href="#." class="mail-to">fax</a>
+          <h4 class="whitetext">+62 21 4393 2250</h4>
+
+          <div class="social-icons">
+            <a href="https://www.facebook.com/IPCIKT"><i class="fa fa-facebook"></i></a>
+            <a href="https://twitter.com/pt_ikt"><i class="fa fa-twitter"></i></a>
+            <a href="https://www.instagram.com/ipccarterminal/"><i class="fa fa-instagram"></i></a>
+          </div>
+          <p>JL Sindang Laut No. 101, Cilincing Jakarta Utara, 14110 </p>
+          <p class="margin-top-30"><small> Copyright © 2017 indonesiacarterminal.co.id </small></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+<!-- End Footer -->
+
+<!-- GO TO TOP  -->
+<a href="#" class="cd-top"><i class="fa fa-angle-up"></i></a>
+<!-- GO TO TOP End -->
 </div>
 
 <!-- Modal -->
