@@ -35,9 +35,9 @@ return [
     // End services submenu
 
     // Facilities submenu
-    'main-facilities' => 'Utama',
-    'support-facilities' => 'Penunjang',
-    'equipment-facilities' => 'Peralatan',
+    'main-facilities' => 'Internasional',
+    'support-facilities' => 'Domestik',
+    // 'equipment-facilities' => 'Peralatan',
     // End facilities submenu
 
     // Information center submenu

@@ -242,19 +242,19 @@ return [
                         <img src="'.url("img/cargodoring_4.jpg").'" class="img-responsive">
                       </div>
                       <div class="grid-item">
-                        <img src="'.url("img/thumb.jpg").'" class="img-responsive">
+                        <img src="'.url("img/cargodoring_2.jpg").'" class="img-responsive">
                       </div>
                       <div class="grid-item">
-                        <img src="'.url("img/thumb.jpg").'" class="img-responsive">
+                        <img src="'.url("img/cargodoring_3.jpg").'" class="img-responsive">
                       </div>
                       <div class="grid-item">
-                        <img src="'.url("img/thumb.jpg").'" class="img-responsive">
+                        <img src="'.url("img/cargodoring_1.jpg").'" class="img-responsive">
                       </div>
                       <div class="grid-item">
-                        <img src="'.url("img/thumb.jpg").'" class="img-responsive">
+                        <img src="'.url("img/cargodoring_5.jpg").'" class="img-responsive">
                       </div>
                       <div class="grid-item">
-                        <img src="'.url("img/thumb.jpg").'" class="img-responsive">
+                        <img src="'.url("img/cargodoring_6.jpg").'" class="img-responsive">
                       </div>
                     </div>  
                   </div>

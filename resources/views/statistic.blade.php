@@ -43,6 +43,13 @@
                                         </div>
                                     </a>
                                 </li>
+                                <li class="">
+                                    <a data-toggle="pill" href="#cargo-flow">
+                                        <div class="be-flex">
+                                            <i class="fa fa-th mg-r-15 mg-t-5"></i> <span>Cargo Flow</span>
+                                        </div>
+                                    </a>
+                                </li>
                             </ul>
                         </div>
                         <div class="col-md-9">
@@ -169,21 +176,23 @@
                                         </tbody>
                                     </table>
                                 </div>
+                                <div id="cargo-flow" class="tab-pane fade">
+                                    <hr class="hrSpec hrSpecOrange">
+                                    <h4 class="card-title roboBold">Domestic Cargo Flow</h4>
+                                    <br/>
+                                    <div class="img">
+                                        <img src="{{ url('img/domestic_cargo.png') }}" class="img-responsive">
+                                    </div>
+                                    <br/>
+                                    <hr class="hrSpec hrSpecOrange">
+                                    <h4 class="card-title roboBold">International Cargo Flow</h4>
+                                    <br/>
+                                    <div class="img">
+                                        <img src="{{ url('img/inter_cargo.png') }}" class="img-responsive">
+                                    </div>
+                                    <br/>
+                                </div>
                             </div>
-                            <hr class="hrSpec hrSpecOrange">
-                            <h4 class="card-title roboBold">Domestic Cargo Flow</h4>
-                            <br/>
-                            <div class="img">
-                                <img src="{{ url('img/domestic_cargo.png') }}" class="img-responsive">
-                            </div>
-                            <br/>
-                            <hr class="hrSpec hrSpecOrange">
-                            <h4 class="card-title roboBold">International Cargo Flow</h4>
-                            <br/>
-                            <div class="img">
-                                <img src="{{ url('img/inter_cargo.png') }}" class="img-responsive">
-                            </div>
-                            <br/>
                         </div>
                     </section>
                 </div>

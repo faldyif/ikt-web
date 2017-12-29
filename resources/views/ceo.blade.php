@@ -1,6 +1,6 @@
 @extends('layout.app-with-footer')
 
-@section('title','About | IPC Car Terminal')
+@section('title','Pesan Dirut | IPC Car Terminal')
 
 @section('content')
 <!--HERO-->

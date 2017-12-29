@@ -22,5 +22,7 @@ return [
     'company.subsidiary' => 'anak-perusahaan',
     'company.magazine' => 'limouzine-magazine',
     'company.gcg' => 'good-corporate-governance',
+    'facilities.fas' => 'internasional',
+    'facilities.fas-1' => 'domestik',
     // other routes name here
 ];
