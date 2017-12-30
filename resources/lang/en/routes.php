@@ -10,7 +10,7 @@ return [
     'press-release' => 'press-release',
     'service.stevedoring' => 'stevedoring',
     'service.cargodoring' => 'cargodoring',
-    'service.receiving' => 'receiving',
+    'service.receiving' => 'receiving-and-delivery',
     'service.vas' => 'value-added-service',
     'company.about' => 'about',
     'company.ceo-message' => 'ceo-message',
