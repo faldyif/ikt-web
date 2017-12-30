@@ -40,10 +40,6 @@
 </head>
 <body>
 
-
-
-
-
 <!-- Page Wrapper -->
 <div id="wrap">
 
@@ -79,7 +75,8 @@
               </li>
               <li class="dropdown"> <a href="services-1.html" class="dropdown-toggle" data-toggle="dropdown">{{ strtoupper(trans('menu.services')) }}</a>
                 <ul class="dropdown-menu">
-                  <li><a href="{{ route('service.stevedoring') }}">{{ trans('menu.stevedoring-cargohandling') }}</a></li>
+                  <li><a href="{{ route('service.stevedoring') }}">{{ trans('menu.stevedoring') }}</a></li>
+                  <li><a href="{{ route('service.cargodoring') }}">{{ trans('menu.cargodoring') }}</a></li>
                   <li><a href="{{ route('service.receiving') }}">{{ trans('menu.receiving-delivering') }}</a></li>
                   <li><a href="{{ route('service.vas') }}">Value Added Services</a>
                 </ul>
@@ -99,7 +96,7 @@
                   <li><a href="{{ route('annual') }}">{{ trans('menu.annual-report') }}</a></li>
                   <li><a href="{{ route('statistic') }}">{{ trans('menu.statistic-data') }}</a></li>
                   <li><a href="{{ route('company.clients') }}">{{ trans('menu.our-customer') }}</a></li>
-                  <li><a href="{{ route('company.procurement') }}">{{ trans('menu.procurement') }}</a></li>
+                  <li><a href="http://www.eproc-ikt.com" target="_blank">{{ trans('menu.procurement') }}</></li>
                   <li><a href="{{ route('company.magazine') }}">{{ trans('menu.limouzine-magazine') }}</a></li>
                 </ul>
               </li>

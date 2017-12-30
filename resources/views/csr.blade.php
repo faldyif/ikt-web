@@ -69,14 +69,14 @@
                               </div>
                           </div>
                           <br>
-                          <p>Sebagai bagian dari keikutsertaan dalam memelihara hubungan baik dan bentuk kepedulian social dengan masyarakat di lingkungan sekitar IPC Car Terminal sekaligus menjaga stabilitas sinergi dalam hubungan bisnis yang dijalankan, PT Indonesia Kendaraan Terminal senantiasa berkewajiban untuk menjaga harmonisasi tersebut melalui program kerja CSR yang juga merupakan tanggung jawab social dan lingkungan kepada masyarakat sekitar. Tema yang diambil dalam kegiatan CSR di PT IKT tersebut bernama RANGKUL WARGA. Dimana dua kata tersebut mengandung makna filosofis dan psikologis yang diterjemahkan sebagai upaya korporasi dalam menjaga hubungan baik dengan masyarakat sekitar.</p>
-                          <p>Rangkul Warga adalah symbol kebersamaan dalam hubungan interpersonal antara perusahaan dan masyarakat sekitar. Membangun kebersamaan, mewujudkan keberpihakan korporat dan memberi kontribusi nyata dalam hubungan social kepada masyarakat yang pada akhirnya ikut mendukung program pemerintah untuk membantu dan memberdayakan masyarakat Indonesia secara umum.</p>
+                          <p>Sebagai bagian dari keikutsertaan dalam memelihara hubungan baik dan bentuk kepedulian sosial dengan masyarakat di lingkungan sekitar IPC Car Terminal sekaligus menjaga stabilitas sinergi dalam hubungan bisnis yang dijalankan, PT Indonesia Kendaraan Terminal senantiasa berkewajiban untuk menjaga harmonisasi tersebut melalui program kerja CSR yang juga merupakan tanggung jawab sosial dan lingkungan kepada masyarakat sekitar. Tema yang diambil dalam kegiatan CSR di PT IKT tersebut bernama RANGKUL WARGA. Dimana dua kata tersebut mengandung makna filosofis dan psikologis yang diterjemahkan sebagai upaya korporasi dalam menjaga hubungan baik dengan masyarakat sekitar.</p>
+                          <p>Rangkul Warga adalah simbol kebersamaan dalam hubungan interpersonal antara perusahaan dan masyarakat sekitar. Membangun kebersamaan, mewujudkan keberpihakan korporat dan memberi kontribusi nyata dalam hubungan sosial kepada masyarakat yang pada akhirnya ikut mendukung program pemerintah untuk membantu dan memberdayakan masyarakat Indonesia secara umum.</p>
                           <p>Konsep Rangkul Warga dalam program kerja CSR di PT IKT dimaksudkan sebagai penajaman dari program CSR yang sudah berjalan sebelumnya. Sementara untuk pola distribusi bantuan, pembinaan, dan dukungan yang dilakukan, Rangkul Warga terdiri dari 4 segmen distribusi yaitu:</p>
                           <ol>
-                              <li>1. Education & Religion</li>
-                              <li>2. Sport, Art & Culture</li>
-                              <li>3. Youth & Entrepreneurship</li>
-                              <li>4. Health, Social & Environment</li>
+                              <li>1. <i> Education & Religion </i></li>
+                              <li>2. <i> Sport, Art & Culture </i></li>
+                              <li>3. <i> Youth & Entrepreneurship </i></li>
+                              <li>4. <i> Health, Social & Environment </i></li>
                           </ol>
                       </div>
                       <div id="menu0" class="tab-pane fade in">

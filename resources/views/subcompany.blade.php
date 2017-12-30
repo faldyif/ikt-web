@@ -38,7 +38,9 @@
               </div>
             </div>
             <div class="col-md-12 pd-bt-20">
+              <center>
                 <a href="http://maspioncarterminal.co.id" target="_blank">Website MKO - MTKI</a>
+              </center>  
             </div>
             <!-- Button gallery maspion -->
 <!--             <div class="col-md-12">
@@ -47,7 +49,7 @@
 
             <!-- section-content -->
             <br/><br/><br/>
-            <h3 style="color: red;">Speciality MKO MKTI Car Terminal</h3>
+            <h3 style="color: red;">Nilai lebih dari MKO MKTI Car Terminal</h3>
             <div class="section-content m-t-60">
 
               <!-- equalizer -->
@@ -214,12 +216,20 @@
         </section>
         <br/><br/><br/>
         <section> 
-          <div class="col-md-12 mg-b-30">
-            <hr class="hrSpec hrSpecOrange">
-            <h3 class="mg-b-30 roboBold">RORO Short Sea Shipping Conference</h3>
-
-
-            <div class="flex-row-center">
+          <div class="row">
+            
+            <div class="col-md-6">
+              <hr class="hrSpec hrSpecOrange">
+              <h3 class="mg-b-30 roboBold">RORO Short Sea Shipping Activity</h3>
+            </div>
+            <div class="col-md-6">
+              <hr class="hrSpec hrSpecOrange">
+              <h3 class="mg-b-30 roboBold">RORO Short Sea Shipping Conference</h3>
+            </div>
+          </div>
+            
+            <div class="col-md-12 mg-b-30">
+              
               <div class="col-md-6 pd-bt-5">
                 <div class="col-md-12" style="margin-bottom: 5%">
                   <img src="{{ url('img/roroconf.png') }}" class="img-responsive">
@@ -227,27 +237,21 @@
               </div>
 
               <div class="col-md-6">
-                <p class="text-justify" style="text-indent: 5em;">Sejalan dengan program yang dicanangkan oleh pemerintah yaitu program Tol Laut di Indonesia untuk meningkatkan kapasitas pelabuhan dan juga sejalan dengan program kerja IPC yaitu Pendulum Nusantara, maka PT Indonesia Kendaraan Terminal bekerjasama dengan PT Maspion Group turut serta dalam mengembangkan infrastruktur kepelabuhanan dengan melakukan pengembangan ke wilayah timur Indonesia.</p>
-                <p class="text-justify" style="text-indent: 5em;">Atas dasar itulah, pada tanggal 2 Desember 2014 telah dilakukan kesepakatan kerjasama antara IPC dalam hal ini diwakili oleh PT Indonesia Kendaraan Terminal dengan PT Maspion Industrial Estate untuk menyiapkan pembangunan dan pengoperasian terminal kendaraan di Maspion Industrial Estate yang berlokasi di Gresik yang akan menjadi terminal kendaraan pertama dan modern di Jawa Timur.</p>  
+                <div class="col-md-12" style="margin-bottom: 5%">
+                  <img src="{{ url('img/rorok.png') }}" class="img-responsive">
+                </div>
               </div>
             </div>
-          </div>
 
 
           <div class="col-md-12">
-            <hr class="hrSpec hrSpecOrange">
-            <h3 class="mg-b-30 roboBold">RORO Short Sea Shipping Activity</h3>
 
             <div class="col-md-6">
-              <p class="text-justify" style="text-indent: 5em;">Sejalan dengan program yang dicanangkan oleh pemerintah yaitu program Tol Laut di Indonesia untuk meningkatkan kapasitas pelabuhan dan juga sejalan dengan program kerja IPC yaitu Pendulum Nusantara, maka PT Indonesia Kendaraan Terminal bekerjasama dengan PT Maspion Group turut serta dalam mengembangkan infrastruktur kepelabuhanan dengan melakukan pengembangan ke wilayah timur Indonesia.</p>
-              <p class="text-justify" style="text-indent: 5em;">Atas dasar itulah, pada tanggal 2 Desember 2014 telah dilakukan kesepakatan kerjasama antara IPC dalam hal ini diwakili oleh PT Indonesia Kendaraan Terminal dengan PT Maspion Industrial Estate untuk menyiapkan pembangunan dan pengoperasian terminal kendaraan di Maspion Industrial Estate yang berlokasi di Gresik yang akan menjadi terminal kendaraan pertama dan modern di Jawa Timur.</p>  
             </div>
 
             <div class="">
               <div class="col-md-6 pd-bt-5">
-                <div class="col-md-12" style="margin-bottom: 5%">
-                  <img src="{{ url('img/rorok.png') }}" class="img-responsive">
-                </div>
+
               </div>
 
             </div>

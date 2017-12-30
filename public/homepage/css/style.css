@@ -918,7 +918,7 @@ header.header-3d{
 }
 @-webkit-keyframes slider {
 	0% {
-	  background: url(../images/bg/1.jpg);
+	  background: url(../images/bg/5.jpg);
 	}
 	25% {
 	  background: url(../images/bg/2.jpg);
@@ -933,7 +933,7 @@ header.header-3d{
   
   @keyframes slider {
 	0% {
-	  background: url(../images/bg/1.jpg);
+	  background: url(../images/bg/5.jpg);
 	}
 	25% {
 	  background: url(../images/bg/2.jpg);

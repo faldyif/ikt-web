@@ -25,9 +25,9 @@
             <div class="col-md-7 col-sm-12">
                 <hr class="hrSpec hrSpecOrange">
                 <h3 class="mg-b-30 roboBold">Tentang Kami</h3>
-                <p>Terminal kendaraan Tanjung Priok adalah Terminal yang melayani kegiatan jasa kepelabuhanan dibidang bongkar muat kendaraan, alat berat dan suku cadang</p>
-                <p>Terminal kendaraan Tanjung Priok merupakan salah satu terminal dari terminal yang lainnya yang melayani kegiatan jasa bongkar muat barang pelabuhan Tanjung Priok seperti terminal peti kemas, terminal penumpang terminal multi purpose, terminal curah.</p>
-                <p>Terminal kendaraan Tanjung Priok adalah terminal kendaran terbesar dan pertama di Indonesia.</p>
+                <p>PT Indonesia Kendaraan Terminal merupakan terminal yang secara khusus diusahakan secara komersial untuk memberikan jasa pelayanan terminal kendaraan. Adapun pelayanan jasanya meliputi Stevedoring, Cargodoring, dan Receiving Delivery. Selain itu juga melayani pelayanan jasa lainnya Vehicle Processing Center (VPC) dan Equipment Processing Center (EPC).</p>
+                <p>PT Indonesia Kendaraan Terminal didirikan sebagai entitas bisnis tersendiri pada tanggal 5 November 2012 dengan prosentase kepemilikan saham PT Pelabuhan Indonesia II (Persero) sebesar 99% dan PT Multi Terminal Indonesia sebesar 1%. Sebelum menjadi entitas bisnis tersendiri, PT Indonesia Kendaraan Terminal hanya sebuah <i> strategic business </i> unit yang bernama Tanjung Priok Car Terminal (TPT) yang pengelolaannya di bawah Kantor Pusat dan  beroperasi sejak Juni 2007.</p>
+                <p>Saat ini PT Indonesia Kendaraan Terminal juga dikenal dengan nama IPC Car Terminal.</p>
               </div>
           </div>
         </section>
@@ -135,12 +135,12 @@
                 <div class="col-md-12">
                   <hr class="hrSpec hrSpecOrange">
                   <h3 class="mg-b-20 roboBold">Role Model</h3>
-                  <h5 class="lh-15em">Role Model adalah individu di PT IKT yang dapat mempengaruhi lingkungannya untuk bergerak melakukan perubahan positif yang membantu manajemen dalam mencapai visi dan misi perusahaan.</h5>
+                  <h5 class="lh-15em">Seluruh pejabat struktural di lingkungan PT IKT merupakan Role Model. Dimana Role Model bertanggungjawab untuk mengimplementasikan ajaran kepemimpinan yang dilahirkan oleh Ki Hajar Dewantoro, yaitu Ing ngarso sung tulodho, ing madyo mangun karso, tut wuri handayani. Selain itu, Role Model harus dapat mempengaruhi lingkungannya untuk bergerak melakukan perubahan positif yang membantu manajemen dalam mencapai visi dan misi perusahaan.</h5>
                 </div>
                 <div class="col-md-12 mg-b-20">
                   <hr class="hrSpec hrSpecOrange">
                   <h3 class="mg-b-20 roboBold">Change Agent</h3>
-                  <h5 class="lh-15em">Change Agent adalah pribadi yang menjadi pengubah lingkungan dan merestorasi mental serta membantu percepatan proses bisnis di IKT.</h5>
+                  <h5 class="lh-15em">Seluruh staf/officer di lingkungan PT IKT adalah Change Agent. Ini dimaksudkan untuk memberikan ruang inovasi, kreativitas, dan kontribusi kepada seluruh staf/officer untuk membuat segala sesuatu menjadi lebih baik sesuai tugas, tanggung jawab, dan perannya masing-masing. Change Agent adalah pribadi yang menjadi pengubah lingkungan dan merestorasi mental serta membantu percepatan proses bisnis di IKT.</h5>
                 </div>
               </div>
               <div class="col-md-7 col-sm-12">
@@ -256,7 +256,7 @@
                   <i class="fa fa-check-circle mg-t-10 bl fa-lg mg-r-10"></i>
                   <section>
                     <h4 class="roboBold">High Production</h4>
-                    <p>Produktivitas tinggi (120 unit/ship/hour)</p>
+                    <p>Produktivitas tinggi (200 unit/ship/hour)</p>
                   </section>
                 </section>
               </div>
@@ -264,8 +264,8 @@
                 <section class="be-flex">
                   <i class="fa fa-check-circle mg-t-10 bl fa-lg mg-r-10"></i>
                   <section>
-                    <h4 class="roboBold">120 Proper & Educated Driver Available</h4>
-                    <p>Tersedia 120 driver yang terlatih dan terdidik dengan baik</p>
+                    <h4 class="roboBold">200 Proper & Educated Driver Available</h4>
+                    <p>Tersedia 200 driver yang terlatih dan terdidik dengan baik</p>
                   </section>
                 </section>
               </div>
@@ -366,7 +366,7 @@
             <h2 class="roboBlack">Peta Lokasi</h2>
             <div class="map">
               <div class="overlay-map"></div>
-              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3967.1833851621095!2d106.91224451476846!3d-6.105991995578615!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xe329d8258290e493!2sTanjung+Priok+Car+Terminal+(TPT)!5e0!3m2!1sen!2sid!4v1501491377262" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+              <iframe src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJ08qLBScgai4RsNf3uWUX7Bg&key=AIzaSyBUi9E0ENiu40ga5gMfRc96XvbRc1zIi5o" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
             </div>
           </div>
         </section>
