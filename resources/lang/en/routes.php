@@ -9,6 +9,7 @@ return [
     'gallery' => 'gallery',
     'press-release' => 'press-release',
     'service.stevedoring' => 'stevedoring',
+    'service.cargodoring' => 'cargodoring',
     'service.receiving' => 'receiving',
     'service.vas' => 'value-added-service',
     'company.about' => 'about',

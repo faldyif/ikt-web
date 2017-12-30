@@ -1,9 +1,9 @@
 <?php
 
 return [
-    'head-title' => 'Stevedoring',
+    'head-title' => 'Cargodoring',
     'sub-title' => 'PT Indonesia Kendaraan Terminal',
-    'title' => 'Stevedoring',
+    'title' => 'Cargodoring',
     'content' => '
               <!-- div 1-->
               <div class="col-md-12 pd-bt-20">
@@ -11,9 +11,9 @@ return [
               <!-- div 2 -->
               <div class="col-md-5">
                 <hr class="hrSpec hrSpecOrange">
-                  <h3 class="mg-b-30 roboBold">Stevedoring</h3>
+                  <h3 class="mg-b-30 roboBold">Cargodoring</h3>
                   <p class="text-justify">
-                  Kegiatan operasional yang dilakukan oleh PT Indonesia Kendaraan Terminal dalam menangani pembongkaran dan pemuatan dari dan ke dalam kapal baik di terminal Internasional maupun Domestik. Jenis cargo yang ditangani meliputi CBU, Alat berat, Equiptments dan Static Cargo lainnya.
+                  PT Indonesia Kendaraan Terminal juga melakukan operasi Cargodoring dari lapangan penumpukan dan gedung parkir menuju dermaga atau sebaliknya baik di terminal Internasional maupun Domestik. Pelayanan Cargodoring ini dilakukan di dalam terminal dengan didukung oleh sistem yang terintegrasi.
                   </p>
                 </div>
                 <!-- //div 2 -->
@@ -25,22 +25,22 @@ return [
 
                     <!-- div st part 1 -->
                     <div class="grid-item">
-                      <img src="'.url("img/stevedoring_1.jpg").'" class="img-responsive">
+                      <img src="'.url("img/cargodoring_4.jpg").'" class="img-responsive">
                     </div>
                     <div class="grid-item">
-                      <img src="'.url("img/stevedoring_2.jpg").'" class="img-responsive">
+                      <img src="'.url("img/cargodoring_2.jpg").'" class="img-responsive">
                     </div>
                     <div class="grid-item">
-                      <img src="'.url("img/stevedoring_3.jpg").'" class="img-responsive">
+                      <img src="'.url("img/cargodoring_3.jpg").'" class="img-responsive">
                     </div>
                     <div class="grid-item">
-                      <img src="'.url("img/stevedoring_4.jpg").'" class="img-responsive">
+                      <img src="'.url("img/cargodoring_1.jpg").'" class="img-responsive">
                     </div>
                     <div class="grid-item">
-                      <img src="'.url("img/stevedoring_5.jpg").'" class="img-responsive">
+                      <img src="'.url("img/cargodoring_5.jpg").'" class="img-responsive">
                     </div>
                     <div class="grid-item">
-                      <img src="'.url("img/stevedoring_6.jpg").'" class="img-responsive">
+                      <img src="'.url("img/cargodoring_6.jpg").'" class="img-responsive">
                     </div>
                     <!-- //div st part 1 -->
                   </div>

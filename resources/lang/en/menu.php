@@ -28,7 +28,8 @@ return [
     // End about us submenu
 
     // Services submenu
-    'stevedoring-cargohandling' => 'Stevedoring & Cargo Handling',
+    'stevedoring' => 'Stevedoring',
+    'cargodoring' => 'Cargodoring',
     'receiving-delivering' => 'Receiving & Delivery',
     'pre-delivery-inspection' => 'Pre Delivery Inspection',
     'value-added-services' => 'Value Added Services',
