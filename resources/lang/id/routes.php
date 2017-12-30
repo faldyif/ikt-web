@@ -15,6 +15,7 @@ return [
     'company.about' => 'tentang',
     'company.ceo-message' => 'ceo-message',
     'company.culture' => 'budaya-perusahaan',
+    'company.corporate-roadmap' => 'corporate-roadmap',
     'company.history' => 'sejarah-perusahaan',
     'company.profile' => 'profil-perusahaan',
     'company.vision-mission' => 'visi-misi-perusahaan',
@@ -23,6 +24,9 @@ return [
     'company.subsidiary' => 'anak-perusahaan',
     'company.magazine' => 'limouzine-magazine',
     'company.gcg' => 'good-corporate-governance',
+    'csr' => 'rangkul-warga',
+    'annual' => 'laporan-tahunan',
+    'statistic' => 'data-statistik',
     'facilities.fas' => 'internasional',
     'facilities.fas-1' => 'domestik',
     // other routes name here
