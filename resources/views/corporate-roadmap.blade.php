@@ -44,10 +44,10 @@
                             <li>a. <i> Volume Growth </i></li>
                             <li>b. <i> Profitability Growth </i></li>
                             <li>c. <i> Holding Establishment </i></li>
-                            <li>d. <span><i>Pengoperasian Terminal Kendaraan di luar Jakarta</i></span></li>
+                            <li>d. <span>Pengoperasian Terminal Kendaraan di luar Jakarta</span></li>
                         </ol>
                         <p><strong>4. SUSTAINABLE</strong></p>
-                        <p class="text-justify"><span>Strategi <em>Sustainable</em> dilakukan pada tahun 2019 setelah&nbsp; PT Indonesia Kendaraan Terminal telah melakukan ekspansi dengan menjalin kerjasama dengan pihak ketiga dan mengoperasikan terminal kendaraan di luar Jakarta yang disertai dengan peningkatan pertumbuhan volume dan profit. PT Indonesia Kendaraan Terminal mengembangkan program-program strategis yang mampu menjaga perusahaan agar tetap berkesinambungan</span><span>.</span></p>
+                        <p class="text-justify"><span>Strategi <em>Sustainable</em> dilakukan pada tahun 2019 setelah&nbsp;PT Indonesia Kendaraan Terminal telah melakukan ekspansi dengan menjalin kerjasama dengan pihak ketiga dan mengoperasikan terminal kendaraan di luar Jakarta yang disertai dengan peningkatan pertumbuhan volume dan profit. PT Indonesia Kendaraan Terminal mengembangkan program-program strategis yang mampu menjaga perusahaan agar tetap berkesinambungan</span><span>.</span></p>
                         <p><strong>5. WORLD CLASS</strong></p>
                         <p class="text-justify"><span>Strategi <em>World Class</em> dilakukan pada tahun 2020 dan merupakan tahapan terakhir untuk mencapai visi perusahaan dimana PT Indonesia Kendaraan Terminal dapat disejajar dengan terminal kendaraan terbaik di dunia. Pada tahap ini PT Indonesia Kendaraan Terminal telah mengimplementasikan segala aktivitas organisasi dengan professional dan sesuai dengan standar internasional.</span></p>
                     </section>
@@ -75,17 +75,6 @@
                         </div>
                     </section>
                     <!-- //roadmap roro -->
-
-                    <section class="row mg-lr-10 mg-t-30">
-                        <h4 class="roboMedium text-center">Share this post : </h4>
-                        <div class="socialMedia text-center">
-                            <ul class="noPad">
-                                <li><a class="fb" href="#"><i class="fa fa-lg fa-facebook"></i></a></li>
-                                <li><a class="tw" href="#"><i class="fa fa-lg fa-twitter"></i></a></li>
-                                <li><a class="ig" href="#"><i class="fa fa-lg fa-instagram"></i></a></li>
-                            </ul>
-                        </div>
-                    </section>
                 </div>
             </section>
         </div>

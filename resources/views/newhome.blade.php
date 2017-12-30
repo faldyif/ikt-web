@@ -75,7 +75,8 @@
               </li>
               <li class="dropdown"> <a href="services-1.html" class="dropdown-toggle" data-toggle="dropdown">{{ strtoupper(trans('menu.services')) }}</a>
                 <ul class="dropdown-menu">
-                  <li><a href="{{ route('service.stevedoring') }}">{{ trans('menu.stevedoring-cargohandling') }}</a></li>
+                  <li><a href="{{ route('service.stevedoring') }}">{{ trans('menu.stevedoring') }}</a></li>
+                  <li><a href="{{ route('service.cargodoring') }}">{{ trans('menu.cargodoring') }}</a></li>
                   <li><a href="{{ route('service.receiving') }}">{{ trans('menu.receiving-delivering') }}</a></li>
                   <li><a href="{{ route('service.vas') }}">Value Added Services</a>
                 </ul>
@@ -95,7 +96,7 @@
                   <li><a href="{{ route('annual') }}">{{ trans('menu.annual-report') }}</a></li>
                   <li><a href="{{ route('statistic') }}">{{ trans('menu.statistic-data') }}</a></li>
                   <li><a href="{{ route('company.clients') }}">{{ trans('menu.our-customer') }}</a></li>
-                  <li><a href="{{ route('company.procurement') }}">{{ trans('menu.procurement') }}</a></li>
+                  <li><a href="http://www.eproc-ikt.com" target="_blank">{{ trans('menu.procurement') }}</></li>
                   <li><a href="{{ route('company.magazine') }}">{{ trans('menu.limouzine-magazine') }}</a></li>
                 </ul>
               </li>
@@ -447,7 +448,7 @@
             </div>
 
             <!-- Center Image -->
-            <div class="col-md-4 step-img img-responsive imgtrans text-center animate fadeIn" data-wow-delay="0.3s"> <img src="{{url('img/visimisi.png')}}" class="img-responsive" alt=""> </div>
+            <div class="col-md-4 step-img img-responsive imgtrans text-center animate fadeIn" data-wow-delay="0.3s"> <img src="{{url('img/circleikt.png')}}" class="img-responsive" alt=""> </div>
           </div>
 
           <!-- Steps 3 -->
@@ -455,6 +456,13 @@
             <h4>Untuk Karyawan</h4>
             <div class="col-md-4 center-auto">
               <p class="whitetext">Menciptakan lingkungan kerja yang nyaman bagi karyawan, mewujudkan insan perusahaan yang fokus pada pelanggan, berintegrasi, bangga kepada perusahaan dan budayanya serta memberikan kesejahteraan dan kepuasan kepada karyawan.</p>
+            </div>
+          </div>
+           <!-- Steps 3 -->
+           <div class="step-3 animate fadeInDown" data-wow-delay="0.6s"> <span class="tittle-back">5</span> <i class="icon-vector"></i>
+            <h4>Untuk Perekonomian Nasioanl</h4>
+            <div class="col-md-4 center-auto">
+              <p class="whitetext">Sebagai pengelola terminal kendaraan yang memaksimalkan nilai tambah bagi seluruh kepentingan (stakeholders) secara berkesinambungan dalam rangka meningkatkan perekonomian nasional</p>
             </div>
           </div>
 

@@ -144,6 +144,10 @@ Route::get(trans('routes.service.stevedoring'), function () {
     return view('stevedoring');
 })->name('service.stevedoring');
 
+Route::get(trans('routes.service.cargodoring'), function () {
+    return view('cargodoring');
+})->name('service.cargodoring');
+
 Route::get(trans('routes.service.receiving'), function () {
     return view('receiving');
 })->name('service.receiving');

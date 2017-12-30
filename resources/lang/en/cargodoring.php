@@ -1,8 +1,8 @@
 <?php
 
 return [
-    'head-title' => 'Stevedoring',
+    'head-title' => 'Cargodoring',
     'sub-title' => 'PT Indonesia Kendaraan Terminal',
-    'title' => 'Stevedoring',
+    'title' => 'Cargodoring',
     'content' => 'Coming Soon',
 ];
