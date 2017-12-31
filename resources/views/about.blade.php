@@ -119,6 +119,11 @@
                 <h3 class="mg-b-20">Masyarakat &amp Negara</h3>
                 <p>Menciptakan lingkungan kerja yang nyaman bagi karyawan, mewujudkan insan perusahaan yang fokus pada pelanggan, bertintegritas, bangga kepada perusahaan dan budayanya, serta memberikan kesejahteraan dan kepuasan kepada karyawan</p>
               </div>
+              <div class="col-md-12 text-center mg-b-30">
+              <center><img class="img-responsive" src="{{ url('img/misi5.png') }}" style="width: 80px; height: auto; margin: 10px"></center>
+                <h3 class="mg-b-20">Ekonomi Nasional</h3>
+                <p>Sebagai pengelola terminal kendaraan yang memaksimalkan nilai tambah bagi seluruh kepentingan (stakeholders) secara berkesinambungan dalam rangka meningkatkan perekonomian nasional</p>
+              </div>
             </section>
           </div>
         </section>

@@ -238,7 +238,7 @@
                                     <div class="col-lg-2 col-sm-6 portfolio-item"></div>
                                     <div class="col-lg-4 col-sm-6 portfolio-item">
                                         <div class="card h-100">
-                                            <a href="#"><img class="card-img-top img-responsive img-responsive" src="{{url('img/')}}" alt=""></a>
+                                            <a href="#"><img class="card-img-top img-responsive img-responsive" src="{{url('img/defaultavatar.png')}}" alt=""></a>
                                             <div class="card-body">
                                                 <h4 class="card-title">
                                                     <a href="#">Bimo Widiatmoko</a>
@@ -252,7 +252,7 @@
                                     </div>
                                     <div class="col-lg-4 col-sm-6 portfolio-item">
                                         <div class="card h-100">
-                                            <a href="#"><img class="card-img-top img-responsive img-responsive" src="{{url('img/')}}" alt=""></a>
+                                            <a href="#"><img class="card-img-top img-responsive img-responsive" src="{{url('img/defaultavatar.png')}}" alt=""></a>
                                             <div class="card-body">
                                                 <h4 class="card-title">
                                                     <a href="#">M Syaifullah</a>
@@ -305,9 +305,138 @@
                                 </div>
                     </div>
                     <div id="menu3" class="tab-pane fade">
-                        <hr class="hrSpec hrSpecOrange">
-                        <h4 class="card-title roboBold">BOC 2017</h4>
+                        
                         <div class="col-md-12">
+        
+                                    <div class="col-md-6">
+                                        <hr class="hrSpec hrSpecOrange">
+                                        <h4 class="card-title roboBold">BOC 2016</h4>
+                                        <div class="row">
+                                            <!--First review-->
+                                            <hr><div class="media">
+                                                <a class="media-left waves-light">
+                                                    <img class="rounded-circle" style="width:140px; height:120px; border: 2px solid; padding:10px; border-color:#63636350;" src="{{url('img/Dede R. Martin - Komisaris Utama.jpg')}}" alt="Generic placeholder image">
+                                                </a>
+                                                <div class="media-body">
+                                                    <h4 class="media-title">Dede R Martin</h4>
+                                                    <p>Komisaris Utama</p>
+                                                </div>
+                                            </div>
+
+                                            <!--Second review-->
+                                            <hr><div class="media">
+                                                <a class="media-left waves-light">
+                                                    <img class="rounded-circle" style="width:140px; height:120px; border: 2px solid; padding:10px; border-color:#63636350;" src="{{url('img/Abdul Hakam - Komisaris.jpg')}}" alt="Generic placeholder image">
+                                                </a>
+                                                <div class="media-body ">
+                                                    <h4 class="media-title">Abdul Hakam</h4>
+                                                    <p>Komisaris</p>
+                                                </div>
+                                            </div>
+
+                                            <!--Second review-->
+                                            <hr><hr><div class="media">
+                                                <a class="media-left waves-light">
+                                                    <img class="rounded-circle" style="width:140px; height:120px; border: 2px solid; padding:10px; border-color:#63636350;" src="{{url('img/Fachry Ali - Komisaris.jpg')}}" alt="Generic placeholder image">
+                                                </a>
+                                                <div class="media-body">
+                                                    <h4 class="media-title">Fachry Ali</h4>
+                                                    <p>Komisaris</p>
+                                                </div>
+                                            </div>
+
+                                            <hr><div class="media">
+                                                <a class="media-left waves-light">
+                                                    <img class="rounded-circle" style="width:140px; height:120px; border: 2px solid; padding:10px; border-color:#63636350;" src="{{url('img/Wahyu Hidayat - Komisaris.jpg')}}" alt="Generic placeholder image">
+                                                </a>
+                                                <div class="media-body">
+                                                    <h4 class="media-title">Wahyu Hidayat</h4>
+                                                    <p>Komisaris</p>
+                                                </div>
+                                            </div>
+                                            
+                                            <hr><div class="media">
+                                                <a class="media-left waves-light">
+                                                    <img class="rounded-circle" style="width:140px; height:120px; border: 2px solid; padding:10px; border-color:#63636350;" src="{{url('img/Dian Lesmana - Komisaris.jpg')}}" alt="Generic placeholder image">
+                                                </a>
+                                                <div class="media-body">
+                                                    <h4 class="media-title">Dian Lesmana</h4>
+                                                    <p>Komisaris</p>
+                                                </div>
+                                            </div>
+                        
+                                        </div>
+                                        <!-- /.row -->
+                                    </div>
+                    
+                                    <div class="col-md-6">
+                                        <hr class="hrSpec hrSpecOrange">
+                                        <h4 class="card-title roboBold">BOC 2017</h4>
+                                        <div class="row grid-divider">
+                                            <!--First review-->
+                                            <hr><div class="media">
+                                                <a class="media-left waves-light">
+                                                    <img class="rounded-circle" style="width:140px; height:120px; border: 2px solid; padding:10px; border-color:#63636350;" src="{{url('img/defaultavatar.png')}}" alt="Generic placeholder image">
+                                                </a>
+                                                <div class="media-body">
+                                                    <h4 class="media-title">Elvyn G Masassya                                                    </h4>
+                                                    <p>Komisaris Utama</p>
+                                                </div>
+                                            </div>
+
+                                            <hr><div class="media">
+                                                <a class="media-left waves-light">
+                                                    <img class="rounded-circle" style="width:140px; height:120px; border: 2px solid; padding:10px; border-color:#63636350;" src="{{url('img/Abdul Hakam - Komisaris.jpg')}}" alt="Generic placeholder image">
+                                                </a>
+                                                <div class="media-body">
+                                                    <h4 class="media-title">Abdul Hakam
+                                                    </h4>
+                                                    <p>Komisaris Bidang SDM & GCG
+                                                    </p>
+                                                </div>
+                                            </div>
+
+                                            <hr><div class="media">
+                                                <a class="media-left waves-light">
+                                                    <img class="rounded-circle" style="width:140px; height:120px; border: 2px solid; padding:10px; border-color:#63636350;" src="{{url('img/defaultavatar.png')}}" alt="Generic placeholder image">
+                                                </a>
+                                                <div class="media-body">
+                                                    <h4 class="media-title">Marta Hardisarwono
+                                                    </h4>
+                                                    <p>Komisaris Bidang Keuangan
+                                                    </p>
+                                                </div>
+                                            </div>
+
+                                            <hr><div class="media">
+                                                <a class="media-left waves-light">
+                                                    <img class="rounded-circle" style="width:140px; height:120px; border: 2px solid; padding:10px; border-color:#63636350;" src="{{url('img/defaultavatar.png')}}" alt="Generic placeholder image">
+                                                </a>
+                                                <div class="media-body">
+                                                    <h4 class="media-title">Fathoni Akbar
+                                                    </h4>
+                                                    <p>Komisaris Bidang Manajemen Resiko
+                                                    </p>
+                                                </div>
+                                            </div>
+
+                                            <hr><div class="media">
+                                                <a class="media-left waves-light">
+                                                    <img class="rounded-circle" style="width:140px; height:120px; border: 2px solid; padding:10px; border-color:#63636350;" src="{{url('img/Dian Lesmana - Komisaris.jpg')}}" alt="Generic placeholder image">
+                                                </a>
+                                                <div class="media-body">
+                                                    <h4 class="media-title">Dian Lesmana</h4>
+                                                    <p>Komisaris Bidang Teknik
+                                                    </p>
+                                                </div>
+                                            </div>
+
+                        
+                                        </div>
+                                    </div>
+                                    
+                        </div>
+                        {{--  <div class="col-md-12">
                                 <div class="row">
                                     <div class="col-lg-4 col-sm-6 portfolio-item"></div>
                                     <div class="col-lg-4 col-sm-6 portfolio-item">
@@ -380,7 +509,8 @@
                             <hr class="hrSpec hrSpecOrange">
                             <h4 class="card-title roboBold">BOC 2016</h4>
                         <div class="col-md-12">
-                                <div class="row">
+                                
+                            <div class="row">
                                     <div class="col-lg-4 col-sm-6 portfolio-item"></div>
                                     <div class="col-lg-4 col-sm-6 portfolio-item">
                                         <div class="card h-100">
@@ -446,7 +576,7 @@
                                                       
                                       </div>
                                       <!-- /.row -->
-                        </div>
+                        </div>  --}}
                     </div>
                     <div id="menu4" class="tab-pane fade">
                         <hr class="hrSpec hrSpecOrange">
