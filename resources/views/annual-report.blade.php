@@ -2,9 +2,15 @@
 <style type="text/css">
   .annual{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    cursor: pointer;
   }
   .annual:hover{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
+  }
+  .annual-img{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: auto; 
+    height: 200px !important;
   }
 </style>
 
@@ -31,10 +37,10 @@
             <hr class="hrSpec hrSpecOrange">
             <h3 class="mg-b-30 roboBold">Annual Report</h3>
               <div class="row">
-                <div class="col-md-12 annual pd-bt-20 mg-bt-10 flex-row-center">
+                <div id="ar-2016" class="col-md-12 annual pd-bt-20 mg-bt-10 flex-row-center">
                   <div class="col-md-3">
                     <!-- foto -->
-                    <img src="{{ url('img/thumb.jpg') }}" class="img-responsive" style="width: 150px; height: auto;">
+                    <img src="http://online.fliphtml5.com/tlahn/sxqf/files/shot.jpg" id="ar-2016-link" class="annual-img img-responsive" data-rel="fh5-light-box-demo" data-href="http://online.fliphtml5.com/tlahn/sxqf/" data-width="700" data-height="400" data-title="Annual Report IKT 2016">
                   </div>
                   <div class="col-md-9">
                     <!-- konten -->
@@ -54,7 +60,7 @@
                 <div class="col-md-12 annual pd-bt-20 mg-bt-10 flex-row-center">
                   <div class="col-md-3">
                     <!-- foto -->
-                    <img src="{{ url('img/thumb.jpg') }}" class="img-responsive" style="width: 150px; height: auto;">
+                    <img src="{{ url('img/thumb.jpg') }}" class="annual-img img-responsive">
                   </div>
                   <div class="col-md-9">
                     <!-- konten -->
@@ -75,5 +81,8 @@
         </section>
       </div>
     </section>
+
     <!---->
+@section('bottom')
+<script src="//static.fliphtml5.com/web/js/plugin/LightBox/js/fliphtml5-light-box-api-min.js"></script>
 @endsection
