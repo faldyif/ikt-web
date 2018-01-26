@@ -38,14 +38,14 @@
                   </div>
                   <div class="col-md-9">
                     <!-- konten -->
-                    <div class="col-md-6">
-                    <p>Judul: Annual Report PT Indonesia Kendaraan Terminal 2016</p>
+                    <div class="col-md-7">
+                    <p>Annual Report PT Indonesia Kendaraan Terminal 2016</p>
                     <p>Halaman: 70 Halaman</p>
                     <p>Tahun: 2016</p>
                     </div>
-                    <div class="col-md-6">
+                    <div class="col-md-5">
                       <p>Deskripsi: </p>
-                      <a href="#">Download</a>
+                      <a href="#" class="btn btn-primary">Download</a>
                     </div>
                   </div>
                 </div>
@@ -58,14 +58,14 @@
                   </div>
                   <div class="col-md-9">
                     <!-- konten -->
-                    <div class="col-md-6">
-                    <p>Judul: Annual Report PT Indonesia Kendaraan Terminal 2017</p>
+                    <div class="col-md-7">
+                    <p>Annual Report PT Indonesia Kendaraan Terminal 2017</p>
                     <p>Halaman: 80 Halaman</p>
                     <p>Tahun: 2017</p>
                     </div>
-                    <div class="col-md-6">
+                    <div class="col-md-5">
                     <p>Deskripsi: </p>
-                    <a href="#">Download</a>
+                    <a href="#" class="btn btn-primary">Download</a>
                     </div>
                   </div>
                 </div>
