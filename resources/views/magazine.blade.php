@@ -39,17 +39,21 @@
                                 <p class="text-center text-caption">Edisi Ulang Tahun</p>
                             </div>
                             <div class="col-xs-4 col-md-2">
-                                <img src='http://online.fliphtml5.com/tlahn/wtlr/files/shot.jpg' data-rel='fh5-light-box-demo' data-href='http://online.fliphtml5.com/tlahn/wtlr/' data-width='700' data-height='400' data-title='Majalah Limouzine Edisi 4' class="img-responsive book">
+                                <img src='http://online.fliphtml5.com/tlahn/wtlr/files/shot.jpg' data-rel='fh5-light-box-demo' data-href='http://online.fliphtml5.com/tlahn/wtlr/' data-width='700' data-height='400' data-title='Majalah Limouzine Edisi 5' class="img-responsive book">
                                 <p class="text-center text-caption">Edisi 5</p>
                             </div>
                             <div class="col-xs-4 col-md-2">
-                                <img src='http://online.fliphtml5.com/tlahn/sehd/files/shot.jpg' data-rel='fh5-light-box-demo' data-href='http://online.fliphtml5.com/tlahn/sehd/' data-width='700' data-height='400' data-title='Majalah Limouzine Edisi 5' class="img-responsive book">
+                                <img src='http://online.fliphtml5.com/tlahn/sehd/files/shot.jpg' data-rel='fh5-light-box-demo' data-href='http://online.fliphtml5.com/tlahn/sehd/' data-width='700' data-height='400' data-title='Majalah Limouzine Edisi 6' class="img-responsive book">
                                 <p class="text-center text-caption">Edisi 6</p>
                             </div>
                             <div class="col-xs-12 shelf"></div>
                             <div class="col-xs-4 col-md-2">
-                                <img src='http://online.fliphtml5.com/tlahn/nugt/files/shot.jpg' data-rel='fh5-light-box-demo' data-href='http://online.fliphtml5.com/tlahn/nugt/' data-width='700' data-height='400' data-title='Majalah Limouzine Edisi 6' class="img-responsive book">
+                                <img src='http://online.fliphtml5.com/tlahn/nugt/files/shot.jpg' data-rel='fh5-light-box-demo' data-href='http://online.fliphtml5.com/tlahn/nugt/' data-width='700' data-height='400' data-title='Majalah Limouzine Edisi 7' class="img-responsive book">
                                 <p class="text-center text-caption">Edisi 7</p>
+                            </div>
+                            <div class="col-xs-4 col-md-2">
+                                <img src='http://online.fliphtml5.com/tlahn/nrym/files/shot.jpg' data-rel='fh5-light-box-demo' data-href='http://online.fliphtml5.com/tlahn/nrym/' data-width='700' data-height='400' data-title='Majalah Limouzine Edisi 8' class="img-responsive book">
+                                <p class="text-center text-caption">Edisi 8</p>
                             </div>
                             <div class="col-xs-12 shelf"></div>
                         </div>
