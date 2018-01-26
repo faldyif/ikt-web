@@ -105,9 +105,13 @@
               <div class="col-md-10">
                 <p>
                   <h4><span class="bigger"><strong>I</strong></span>ntegrity<br><small>Walk the Talk</small></h4>
-                  Menumbuhkan rasa percaya dengan mengatakan apa yang kita rasakan serta melakukan apa yang kita ucapkan.<br>
-                  Menunjukkan sikap profesional dan jujur dalam berinterasi dengan pihak internal maupun eksternal.<br>
-                  Berperilaku disiplin dan patuh terhadap kode etik bisnis di dalam melakukan pelkerjaan kita sehari-hari.<br>
+                  <div class="bullet">
+                    <ul>
+                      <li>Menumbuhkan rasa percaya dengan mengatakan apa yang kita rasakan serta melakukan apa yang kita ucapkan.</li>
+                      <li>Menunjukkan sikap profesional dan jujur dalam berinteraksi dengan pihak internal maupun eksternal.</li>
+                      <li>Berperilaku disiplin dan patuh terhadap kode etik bisnis di dalam melakukan pekerjaan kita sehari-hari.</li>
+                    </ul>
+                  </div>
                 </p>
               </div>
             </div>
@@ -118,9 +122,13 @@
               <div class="col-md-10">
                 <p>
                   <h4><span class="bigger"><strong>N</strong></span>ationalism<br><small>National Pride</small></h4>
-                  Menumbuhkan semangat dan ikut berperan mensukseskan program pemerintah dalam pembangunan nasional.<br>
-                  Menumbuhkan rasa bangga dan semangat masionalisme dalam berkarya.<br>
-                  Terus berkembang dan mampu bersaing dengan perusahaan pengelola pelabuhan kelas dunia.<br>
+                  <div class="bullet">
+                    <ul>
+                      <li>Menumbuhkan semangat dan ikut berperan mensukseskan program pemerintah dalam pembangunan nasional.</li>
+                      <li>Menumbuhkan rasa bangga dan semangat nasionalisme dalam berkarya.</li>
+                      <li>Terus berkembang dan mampu bersaing dengan perusahaan pengelola terminal kendaraan berkelas dunia.</li>
+                    </ul>
+                  </div>
                 </p>
               </div>
             </div>
@@ -131,9 +139,13 @@
               <div class="col-md-10">
                 <p>
                   <h4><span class="bigger"><strong>T</strong></span>eam Work<br><small>Together We Can</small></h4>
-                  Berkolaborasi dalam tim untuk mendapatkan hasil yang terbaik<br>
-                  Bekerja bersama-sama menghasilkan ide-ide implementatif untuk solusi kebutuhan pengguna jasa pelabuhan.<br>
-                  Semangat kebersamaan dan menghargai orang lain.<br>
+                  <div class="bullet">
+                    <ul>
+                      <li>Berkolaborasi dalam tim untuk mendapatkan hasil yang terbaik.</li>
+                      <li>Bekerja bersama-sama menghasilkan ide-ide implementatif untuk solusi kebutuhan pengguna jasa terminal kendaraan.</li>
+                      <li>Semangat kebersamaan dan menghargai orang lain.</li>
+                    </ul>
+                  </div>
                 </p>
               </div>
             </div>
@@ -144,9 +156,13 @@
               <div class="col-md-10">
                 <p>
                   <h4><span class="bigger"><strong>A</strong></span>ction<br><small>Make It Happy</small></h4>
-                  Berani bermimpi dan berusaha mewujudkannya.<br>
-                  Proaktif untuk mencari cara dalam mewujudkan visi perusahaan.<br>
-                  Melakukan terobosan-terobosan dan langkat nyata dalam mendorong perkembangan perusahaan.<br>
+                  <div class="bullet">
+                    <ul>
+                      <li>Berani bermimpi dan berusaha mewujudkannya.</li>
+                      <li>Proaktif untuk mencari cara dalam mewujudkan visi perusahaan.</li>
+                      <li>Melakukan terobosan-terobosan dan langkah nyata dalam mendorong perkembangan perusahaan.</li>
+                    </ul>  
+                  </div>
                 </p>
               </div>
             </div>

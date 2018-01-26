@@ -19,78 +19,9 @@
   <section class="row pd-bt-30">
     <div class="col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1">
       <div class="container-fluid wow fadeInUpBig pd-30">
+        <!-- AUTOMAKER CBU -->
         <hr class="hrSpec hrSpecOrange">
-        <h3 class="roboBold">Shipping Line</h3>
-        <section class="row pd-bt-10 bg-img-contain img-grayscale-anim">
-          <div class="col-md-2 col-sm-3">
-            <figure class="pd-15">
-              <img src="{{ url('img/bg-img.png') }}" alt="" style="background-image: url('{{ url('img/clients/NYKLINE.png') }}')">
-            </figure>
-          </div>
-          <div class="col-md-2 col-sm-3">
-            <figure class="pd-15">
-              <img src="{{ url('img/bg-img.png') }}" alt="" style="background-image: url('{{ url('img/clients/KLINE.png') }}')">
-            </figure>
-          </div>
-          <div class="col-md-2 col-sm-3">
-            <figure class="pd-15">
-              <img src="{{ url('img/bg-img.png') }}" alt="" style="background-image: url('{{ url('img/clients/agungline.png') }}')">
-            </figure>
-          </div>
-          <div class="col-md-2 col-sm-3">
-            <figure class="pd-15">
-              <img src="{{ url('img/bg-img.png') }}" alt="" style="background-image: url('{{ url('img/clients/JZK.png') }}')">
-            </figure>
-          </div>
-          <div class="col-md-2 col-sm-3">
-            <figure class="pd-15">
-              <img src="{{ url('img/bg-img.png') }}" alt="" style="background-image: url('{{ url('img/clients/TFS.png') }}')">
-            </figure>
-          </div>
-          <div class="col-md-2 col-sm-3">
-            <figure class="pd-15">
-              <img src="{{ url('img/bg-img.png') }}" alt="" style="background-image: url('{{ url('img/clients/MOL.png') }}')">
-            </figure>
-          </div>
-          <div class="col-md-2 col-sm-3">
-            <figure class="pd-15">
-              <img src="{{ url('img/bg-img.png') }}" alt="" style="background-image: url('{{ url('img/clients/HA.png') }}')">
-            </figure>
-          </div>
-          <div class="col-md-2 col-sm-3">
-            <figure class="pd-15">
-              <img src="{{ url('img/bg-img.png') }}" alt="" style="background-image: url('{{ url('img/clients/WWL.png') }}')">
-            </figure>
-          </div>
-          <div class="col-md-2 col-sm-3">
-            <figure class="pd-15">
-              <img src="{{ url('img/bg-img.png') }}" alt="" style="background-image: url('{{ url('img/clients/ECL.jpg') }}')">
-            </figure>
-          </div>
-        </section>
-
-        <hr class="hrSpec hrSpecOrange">
-        <h3 class="roboBold">Stevedoring Companies</h3>
-        <section class="row pd-bt-10 bg-img-contain img-grayscale-anim">
-          <div class="col-md-2 col-sm-3">
-            <figure class="pd-15">
-              <img src="{{ url('img/bg-img.png') }}" alt="" style="background-image: url('{{ url('img/clients/BKJ.png') }}')">
-            </figure>
-          </div>
-          <div class="col-md-2 col-sm-3">
-            <figure class="pd-15">
-              <img src="{{ url('img/bg-img.png') }}" alt="" style="background-image: url('{{ url('img/clients/APS.png') }}')">
-            </figure>
-          </div>
-          <div class="col-md-2 col-sm-3">
-            <figure class="pd-15">
-              <img src="{{ url('img/bg-img.png') }}" alt="" style="background-image: url('{{ url('img/clients/ABH.png') }}')">
-            </figure>
-          </div>
-        </section>
-
-        <hr class="hrSpec hrSpecOrange">
-        <h3 class="roboBold">Automaker</h3>
+        <h3 class="roboBold">Automaker CBU (Completely Built Up)</h3>
         <section class="row pd-bt-10 bg-img-contain img-grayscale-anim">
           <div class="col-md-2 col-sm-3">
             <figure class="pd-15">
@@ -102,6 +33,94 @@
               <img src="{{ url('img/bg-img.png') }}" alt="" style="background-image: url('{{ url('img/clients/2.png') }}')">
             </figure>
           </div>
+          <div class="col-md-2 col-sm-3">
+            <figure class="pd-15">
+              <img src="{{ url('img/bg-img.png') }}" alt="" style="background-image: url('{{ url('img/clients/7.png') }}')">
+            </figure>
+          </div>
+          <div class="col-md-2 col-sm-3">
+            <figure class="pd-15">
+              <img src="{{ url('img/bg-img.png') }}" alt="" style="background-image: url('{{ url('img/clients/8.png') }}')">
+            </figure>
+          </div>
+          
+          <div class="col-md-2 col-sm-3">
+            <figure class="pd-15">
+              <img src="{{ url('img/bg-img.png') }}" alt="" style="background-image: url('{{ url('img/clients/10.png') }}')">
+            </figure>
+          </div>
+          
+          <div class="col-md-2 col-sm-3">
+            <figure class="pd-15">
+              <img src="{{ url('img/bg-img.png') }}" alt="" style="background-image: url('{{ url('img/clients/11.png') }}')">
+            </figure>
+          </div>
+
+          <div class="col-md-2 col-sm-3">
+            <figure class="pd-15">
+              <img src="{{ url('img/bg-img.png') }}" alt="" style="background-image: url('{{ url('img/clients/13.png') }}')">
+            </figure>
+          </div>
+
+          <div class="col-md-2 col-sm-3">
+            <figure class="pd-15">
+              <img src="{{ url('img/bg-img.png') }}" alt="" style="background-image: url('{{ url('img/clients/15.png') }}')">
+            </figure>
+          </div>
+          <div class="col-md-2 col-sm-3">
+            <figure class="pd-15">
+              <img src="{{ url('img/bg-img.png') }}" alt="" style="background-image: url('{{ url('img/clients/17.png') }}')">
+            </figure>
+          </div>
+          <div class="col-md-2 col-sm-3">
+            <figure class="pd-15">
+              <img src="{{ url('img/bg-img.png') }}" alt="" style="background-image: url('{{ url('img/clients/19.png') }}')">
+            </figure>
+          </div>
+          <div class="col-md-2 col-sm-3">
+            <figure class="pd-15">
+              <img src="{{ url('img/bg-img.png') }}" alt="" style="background-image: url('{{ url('img/clients/22.png') }}')">
+            </figure>
+          </div>
+          <div class="col-md-2 col-sm-3">
+            <figure class="pd-15">
+              <img src="{{ url('img/bg-img.png') }}" alt="" style="background-image: url('{{ url('img/clients/24.png') }}')">
+            </figure>
+          </div>
+          <div class="col-md-2 col-sm-3">
+            <figure class="pd-15">
+              <img src="{{ url('img/bg-img.png') }}" alt="" style="background-image: url('{{ url('img/clients/25.jpg') }}')">
+            </figure>
+          </div>
+          <div class="col-md-2 col-sm-3">
+            <figure class="pd-15">
+              <img src="{{ url('img/bg-img.png') }}" alt="" style="background-image: url('{{ url('img/clients/26.png') }}')">
+            </figure>
+          </div>
+          
+          <div class="col-md-2 col-sm-3">
+            <figure class="pd-15">
+              <img src="{{ url('img/bg-img.png') }}" alt="" style="background-image: url('{{ url('img/clients/28.jpg') }}')">
+            </figure>
+          </div>
+          <div class="col-md-2 col-sm-3">
+            <figure class="pd-15">
+              <img src="{{ url('img/bg-img.png') }}" alt="" style="background-image: url('{{ url('img/clients/29.png') }}')">
+            </figure>
+          </div>
+          <div class="col-md-2 col-sm-3">
+            <figure class="pd-15">
+              <img src="{{ url('img/bg-img.png') }}" alt="" style="background-image: url('{{ url('img/clients/30.png') }}')">
+            </figure>
+          </div>
+        </section>
+        <br>
+        <!-- //AUTOMAKER CBU -->
+
+        <!-- AUTOMAKER ALATBERAT -->
+        <hr class="hrSpec hrSpecOrange">
+        <h3 class="roboBold">Automaker Alat Berat</h3>
+        <section class="row pd-bt-10 bg-img-contain img-grayscale-anim">
           <div class="col-md-2 col-sm-3">
             <figure class="pd-15">
               <img src="{{ url('img/bg-img.png') }}" alt="" style="background-image: url('{{ url('img/clients/3.png') }}')">
@@ -124,16 +143,6 @@
           </div>
           <div class="col-md-2 col-sm-3">
             <figure class="pd-15">
-              <img src="{{ url('img/bg-img.png') }}" alt="" style="background-image: url('{{ url('img/clients/7.png') }}')">
-            </figure>
-          </div>
-          <div class="col-md-2 col-sm-3">
-            <figure class="pd-15">
-              <img src="{{ url('img/bg-img.png') }}" alt="" style="background-image: url('{{ url('img/clients/8.png') }}')">
-            </figure>
-          </div>
-          <div class="col-md-2 col-sm-3">
-            <figure class="pd-15">
               <img src="{{ url('img/bg-img.png') }}" alt="" style="background-image: url('{{ url('img/clients/8.jpg') }}')">
             </figure>
           </div>
@@ -144,54 +153,22 @@
           </div>
           <div class="col-md-2 col-sm-3">
             <figure class="pd-15">
-              <img src="{{ url('img/bg-img.png') }}" alt="" style="background-image: url('{{ url('img/clients/10.png') }}')">
-            </figure>
-          </div>
-          <div class="col-md-2 col-sm-3">
-            <figure class="pd-15">
-              <img src="{{ url('img/bg-img.png') }}" alt="" style="background-image: url('{{ url('img/clients/11.png') }}')">
-            </figure>
-          </div>
-          <div class="col-md-2 col-sm-3">
-            <figure class="pd-15">
               <img src="{{ url('img/bg-img.png') }}" alt="" style="background-image: url('{{ url('img/clients/12.png') }}')">
             </figure>
           </div>
-          <div class="col-md-2 col-sm-3">
-            <figure class="pd-15">
-              <img src="{{ url('img/bg-img.png') }}" alt="" style="background-image: url('{{ url('img/clients/13.png') }}')">
-            </figure>
-          </div>
-          <div class="col-md-2 col-sm-3">
-            <figure class="pd-15">
-              <img src="{{ url('img/bg-img.png') }}" alt="" style="background-image: url('{{ url('img/clients/14.png') }}')">
-            </figure>
-          </div>
-          <div class="col-md-2 col-sm-3">
-            <figure class="pd-15">
-              <img src="{{ url('img/bg-img.png') }}" alt="" style="background-image: url('{{ url('img/clients/15.png') }}')">
-            </figure>
-          </div>
+
           <div class="col-md-2 col-sm-3">
             <figure class="pd-15">
               <img src="{{ url('img/bg-img.png') }}" alt="" style="background-image: url('{{ url('img/clients/16.gif') }}')">
             </figure>
           </div>
-          <div class="col-md-2 col-sm-3">
-            <figure class="pd-15">
-              <img src="{{ url('img/bg-img.png') }}" alt="" style="background-image: url('{{ url('img/clients/17.png') }}')">
-            </figure>
-          </div>
+          
           <div class="col-md-2 col-sm-3">
             <figure class="pd-15">
               <img src="{{ url('img/bg-img.png') }}" alt="" style="background-image: url('{{ url('img/clients/18.jpg') }}')">
             </figure>
           </div>
-          <div class="col-md-2 col-sm-3">
-            <figure class="pd-15">
-              <img src="{{ url('img/bg-img.png') }}" alt="" style="background-image: url('{{ url('img/clients/19.png') }}')">
-            </figure>
-          </div>
+          
           <div class="col-md-2 col-sm-3">
             <figure class="pd-15">
               <img src="{{ url('img/bg-img.png') }}" alt="" style="background-image: url('{{ url('img/clients/20.jpg') }}')">
@@ -204,74 +181,24 @@
           </div>
           <div class="col-md-2 col-sm-3">
             <figure class="pd-15">
-              <img src="{{ url('img/bg-img.png') }}" alt="" style="background-image: url('{{ url('img/clients/22.png') }}')">
-            </figure>
-          </div>
-          <div class="col-md-2 col-sm-3">
-            <figure class="pd-15">
               <img src="{{ url('img/bg-img.png') }}" alt="" style="background-image: url('{{ url('img/clients/23.png') }}')">
-            </figure>
-          </div>
-          <div class="col-md-2 col-sm-3">
-            <figure class="pd-15">
-              <img src="{{ url('img/bg-img.png') }}" alt="" style="background-image: url('{{ url('img/clients/24.png') }}')">
-            </figure>
-          </div>
-          <div class="col-md-2 col-sm-3">
-            <figure class="pd-15">
-              <img src="{{ url('img/bg-img.png') }}" alt="" style="background-image: url('{{ url('img/clients/25.jpg') }}')">
-            </figure>
-          </div>
-          <div class="col-md-2 col-sm-3">
-            <figure class="pd-15">
-              <img src="{{ url('img/bg-img.png') }}" alt="" style="background-image: url('{{ url('img/clients/26.png') }}')">
             </figure>
           </div>
           <div class="col-md-2 col-sm-3">
             <figure class="pd-15">
               <img src="{{ url('img/bg-img.png') }}" alt="" style="background-image: url('{{ url('img/clients/27.png') }}')">
             </figure>
-          </div>
+          </div>           
           <div class="col-md-2 col-sm-3">
             <figure class="pd-15">
-              <img src="{{ url('img/bg-img.png') }}" alt="" style="background-image: url('{{ url('img/clients/28.jpg') }}')">
+              <img src="{{ url('img/bg-img.png') }}" alt="" style="background-image: url('{{ url('img/clients/14.png') }}')">
             </figure>
-          </div>
-          <div class="col-md-2 col-sm-3">
-            <figure class="pd-15">
-              <img src="{{ url('img/bg-img.png') }}" alt="" style="background-image: url('{{ url('img/clients/29.png') }}')">
-            </figure>
-          </div>
-          <div class="col-md-2 col-sm-3">
-            <figure class="pd-15">
-              <img src="{{ url('img/bg-img.png') }}" alt="" style="background-image: url('{{ url('img/clients/30.png') }}')">
-            </figure>
-          </div>
-        </section>
-        <hr class="hrSpec hrSpecOrange">
-        <h3 class="roboBold">Logistics Companies</h3>
-        <section class="row pd-bt-10 bg-img-contain img-grayscale-anim">
-          <div class="col-md-2 col-sm-3">
-            <figure class="pd-15">
-              <img src="{{ url('img/bg-img.png') }}" alt="" style="background-image: url('{{ url('img/clients/log_1.png') }}')">
-            </figure>
-          </div>
-          <div class="col-md-2 col-sm-3">
-            <figure class="pd-15">
-              <img src="{{ url('img/bg-img.png') }}" alt="" style="background-image: url('{{ url('img/clients/log_2.png') }}')">
-            </figure>
-          </div>
-          <div class="col-md-2 col-sm-3">
-            <figure class="pd-15">
-              <img src="{{ url('img/bg-img.png') }}" alt="" style="background-image: url('{{ url('img/clients/log_3.jpg') }}')">
-            </figure>
-          </div>
-          <div class="col-md-2 col-sm-3">
-            <figure class="pd-15">
-              <img src="{{ url('img/bg-img.png') }}" alt="" style="background-image: url('{{ url('img/clients/log_4.jpg') }}')">
-            </figure>
-          </div>
-        </section>
+          </div> 
+        </section>  
+        <br>
+        <!-- //AUTOMAKER ALATBERAT -->
+        
+        <!-- HEAVY EQUIPMENT -->
         <hr class="hrSpec hrSpecOrange">
         <h3 class="roboBold">Heavy Equipment And Static Cargoes Companies</h3>
         <section class="row pd-bt-10 bg-img-contain img-grayscale-anim">
@@ -386,9 +313,117 @@
             </figure>
           </div>
         </section>
-        </div>
+        <br>
+        <!-- //HEAVY EQUIPMENT -->
+
+        
+        <!-- SHIPPING LINES -->
+        <hr class="hrSpec hrSpecOrange">
+        <h3 class="roboBold">Shipping Line</h3>
+        <section class="row pd-bt-10 bg-img-contain img-grayscale-anim">
+          <div class="col-md-2 col-sm-3">
+            <figure class="pd-15">
+              <img src="{{ url('img/bg-img.png') }}" alt="" style="background-image: url('{{ url('img/clients/NYKLINE.png') }}')">
+            </figure>
+          </div>
+          <div class="col-md-2 col-sm-3">
+            <figure class="pd-15">
+              <img src="{{ url('img/bg-img.png') }}" alt="" style="background-image: url('{{ url('img/clients/KLINE.png') }}')">
+            </figure>
+          </div>
+          <div class="col-md-2 col-sm-3">
+            <figure class="pd-15">
+              <img src="{{ url('img/bg-img.png') }}" alt="" style="background-image: url('{{ url('img/clients/agungline.png') }}')">
+            </figure>
+          </div>
+          <div class="col-md-2 col-sm-3">
+            <figure class="pd-15">
+              <img src="{{ url('img/bg-img.png') }}" alt="" style="background-image: url('{{ url('img/clients/JZK.png') }}')">
+            </figure>
+          </div>
+          <div class="col-md-2 col-sm-3">
+            <figure class="pd-15">
+              <img src="{{ url('img/bg-img.png') }}" alt="" style="background-image: url('{{ url('img/clients/TFS.png') }}')">
+            </figure>
+          </div>
+          <div class="col-md-2 col-sm-3">
+            <figure class="pd-15">
+              <img src="{{ url('img/bg-img.png') }}" alt="" style="background-image: url('{{ url('img/clients/MOL.png') }}')">
+            </figure>
+          </div>
+          <div class="col-md-2 col-sm-3">
+            <figure class="pd-15">
+              <img src="{{ url('img/bg-img.png') }}" alt="" style="background-image: url('{{ url('img/clients/HA.png') }}')">
+            </figure>
+          </div>
+          <div class="col-md-2 col-sm-3">
+            <figure class="pd-15">
+              <img src="{{ url('img/bg-img.png') }}" alt="" style="background-image: url('{{ url('img/clients/WWL.png') }}')">
+            </figure>
+          </div>
+          <div class="col-md-2 col-sm-3">
+            <figure class="pd-15">
+              <img src="{{ url('img/bg-img.png') }}" alt="" style="background-image: url('{{ url('img/clients/ECL.jpg') }}')">
+            </figure>
+          </div>
+        </section>
+        <br>
+        <!-- //SHIPPING LINES -->
+
+        <!-- LOGISTICS -->
+        <hr class="hrSpec hrSpecOrange">
+        <h3 class="roboBold">Logistics Companies</h3>
+        <section class="row pd-bt-10 bg-img-contain img-grayscale-anim">
+          <div class="col-md-2 col-sm-3">
+            <figure class="pd-15">
+              <img src="{{ url('img/bg-img.png') }}" alt="" style="background-image: url('{{ url('img/clients/log_1.png') }}')">
+            </figure>
+          </div>
+          <div class="col-md-2 col-sm-3">
+            <figure class="pd-15">
+              <img src="{{ url('img/bg-img.png') }}" alt="" style="background-image: url('{{ url('img/clients/log_2.png') }}')">
+            </figure>
+          </div>
+          <div class="col-md-2 col-sm-3">
+            <figure class="pd-15">
+              <img src="{{ url('img/bg-img.png') }}" alt="" style="background-image: url('{{ url('img/clients/log_3.jpg') }}')">
+            </figure>
+          </div>
+          <div class="col-md-2 col-sm-3">
+            <figure class="pd-15">
+              <img src="{{ url('img/bg-img.png') }}" alt="" style="background-image: url('{{ url('img/clients/log_4.jpg') }}')">
+            </figure>
+          </div>
+        </section>
+        <br>
+        
+        <!-- //LOGISTICS -->
+
+        <!-- STEVEDORING -->
+        <hr class="hrSpec hrSpecOrange">
+        <h3 class="roboBold">Stevedoring Companies</h3>
+        <section class="row pd-bt-10 bg-img-contain img-grayscale-anim">
+          <div class="col-md-2 col-sm-3">
+            <figure class="pd-15">
+              <img src="{{ url('img/bg-img.png') }}" alt="" style="background-image: url('{{ url('img/clients/BKJ.png') }}')">
+            </figure>
+          </div>
+          <div class="col-md-2 col-sm-3">
+            <figure class="pd-15">
+              <img src="{{ url('img/bg-img.png') }}" alt="" style="background-image: url('{{ url('img/clients/APS.png') }}')">
+            </figure>
+          </div>
+          <div class="col-md-2 col-sm-3">
+            <figure class="pd-15">
+              <img src="{{ url('img/bg-img.png') }}" alt="" style="background-image: url('{{ url('img/clients/ABH.png') }}')">
+            </figure>
+          </div>
+        </section>
+        <!-- //STEVEDORING -->
+        
       </div>
-    </section>
+    </div>
   </section>
-  <!--/CLIENTS-->
-  @endsection
+</section>
+<!--/CLIENTS-->
+@endsection

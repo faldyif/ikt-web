@@ -210,9 +210,9 @@
             var international_ship_call_unit = new Chart(document.getElementById("line-chart-international-ship-call-unit"), {
                 type: 'line',
                 data: {
-                    labels: [2008,2009,2010,2011,2012,2013,2014,2015,2016],
+                    labels: [2013,2014,2015,2016],
                     datasets: [{
-                        data: [250,208,271,268,282,235,237,221,246],
+                        data: [235,237,221,246],
                         label: "Kapal (Unit)",
                         borderColor: "#3e95cd",
                         fill: false,
@@ -226,9 +226,9 @@
             var international_ship_call_gt = new Chart(document.getElementById("line-chart-international-ship-call-gt"), {
                 type: 'line',
                 data: {
-                    labels: [2008,2009,2010,2011,2012,2013,2014,2015,2016],
+                    labels: [2013,2014,2015,2016],
                     datasets: [{
-                        data: [4359244,5369493,5804423,7587429,10984763,9168209,9340992,8967622,10528988],
+                        data: [9168209,9340992,8967622,10528988],
                         label: "Kapal (GT)",
                         borderColor: "#cd7743",
                         fill: false,
@@ -242,9 +242,9 @@
             var throughput_international_car = new Chart(document.getElementById("line-chart-throughput-international-car"), {
                 type: 'line',
                 data: {
-                    labels: [2008,2009,2010,2011,2012,2013,2014,2015,2016],
+                    labels: [2013,2014,2015,2016],
                     datasets: [{
-                        data: [180104,103263,188138,219800,341409,304519,297380,280394,262625],
+                        data: [304519,297380,280394,262625],
                         label: "Car (Unit)",
                         borderColor: "#0ca6ff",
                         fill: false,
@@ -258,9 +258,9 @@
             var throughput_international = new Chart(document.getElementById("line-chart-throughput-international"), {
                 type: 'line',
                 data: {
-                    labels: [2008,2009,2010,2011,2012,2013,2014,2015,2016],
+                    labels: [2013,2014,2015,2016],
                     datasets: [{
-                        data: [9952,5492,15903,20957,27790,17284,14420,15007,14162],
+                        data: [17284,14420,15007,14162],
                         label: "Spare Part (Pkgs)",
                         borderColor: "#ffc30c",
                         fill: false,
