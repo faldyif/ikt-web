@@ -20,7 +20,7 @@
         <section class="row pd-bt-30">
           <div class="col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1">
             <div class="col-md-5 col-sm-12">
-              <h3 class="roboLight" style="line-height: 1.4em">Indonesia Kendaraan Terminal Merupakan Perusahaan Kendaraan Terminal yang Beroperasi Tanjung Priok Jakarta Indonesia, memberikan pelayanan Cargodooring, Stevedoring, Receiving & Delivering serta berbagai Pelayanan Terbaik untuk Pelanggan Kami.</h3>
+              <h3 class="roboLight" style="line-height: 1.4em">PT. Indonesia Kendaraan Terminal merupakan perusahaan kendaraan terminal yang beroperasi di Tanjung Priok Jakarta Indonesia, memberikan pelayanan <i> Cargodoring , Stevedoring, Receiving & Delivering </i> serta berbagai pelayanan terbaik untuk pelanggan kami.</h3>
             </div>
             <div class="col-md-7 col-sm-12" style="text-align: justify">
                 <hr class="hrSpec hrSpecOrange">
@@ -292,7 +292,7 @@
                 <section class="be-flex">
                   <i class="fa fa-check-circle mg-t-10 bl fa-lg mg-r-10"></i>
                   <section>
-                    <h4 class="roboBold">200 Proper & Educated Driver Available</h4>
+                    <h4 class="roboBold">200 Proper & Educated Drivers Available</h4>
                     <p>Tersedia 200 driver yang terlatih dan terdidik dengan baik</p>
                   </section>
                 </section>
@@ -323,6 +323,7 @@
           <div class="col-md-7">
             <hr class="hrSpec hrSpecOrange">
             <h2 class="roboBlack">Benefit Roro</h2>
+            <h4 class="roboLight">Short Sea Shipping</h4>
             <!-- Untuk tulisan -->
             <div class="col-md-12">
               <div class="col-md-12">
