@@ -20,7 +20,7 @@
         <section class="row pd-bt-30">
           <div class="col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1">
             <div class="col-md-5 col-sm-12">
-              <h3 class="roboLight" style="line-height: 1.4em">PT. Indonesia Kendaraan Terminal merupakan perusahaan kendaraan terminal yang beroperasi di Tanjung Priok Jakarta Indonesia, memberikan pelayanan <i> Cargodoring , Stevedoring, Receiving & Delivering </i> serta berbagai pelayanan terbaik untuk pelanggan kami.</h3>
+              <h3 class="roboLight" style="line-height: 1.4em; margin-top:70px;">PT Indonesia Kendaraan Terminal merupakan perusahaan kendaraan terminal yang beroperasi di Tanjung Priok Jakarta Indonesia, memberikan pelayanan <i> Cargodoring , Stevedoring, Receiving & Delivery </i> serta berbagai pelayanan terbaik untuk pelanggan kami.</h3>
             </div>
             <div class="col-md-7 col-sm-12" style="text-align: justify">
                 <hr class="hrSpec hrSpecOrange">
@@ -95,10 +95,14 @@
               <hr class="hrSpec hrSpecOrange">
             </div>
             <h2 class="roboBold text-center">MISI</h2>
+
             </div>
         <section class="row pd-bt-30">
           <div class="col-md-8 col-md-offset-2">
             <section class="row">
+              <div class="col-md-12 text-center mg-b-30">
+                  <h3>Sebagai pengelola terminal kendaraan yang memaksimalkan nilai tambah bagi seluruh kepentingan (stakeholders) secara berkesinambungan dalam rangka meningkatkan perekonomian nasional</h3>
+              </div>
               <div class="col-md-6 text-center mg-b-30">
                 <center><img class="img-responsive" src="{{ url('img/1_corporate_culture.png') }}" style="width: 80px; height: auto; margin: 10px"></center>
                 <h3 class="mg-b-20">Pelanggan &amp Mitra</h3>
@@ -118,11 +122,6 @@
               <center><img class="img-responsive" src="{{ url('img/4.png') }}" style="width: 80px; height: auto; margin: 10px"></center>
                 <h3 class="mg-b-20">Masyarakat &amp Negara</h3>
                 <p>Menciptakan lingkungan kerja yang nyaman bagi karyawan, mewujudkan insan perusahaan yang fokus pada pelanggan, bertintegritas, bangga kepada perusahaan dan budayanya, serta memberikan kesejahteraan dan kepuasan kepada karyawan</p>
-              </div>
-              <div class="col-md-12 text-center mg-b-30">
-              <center><img class="img-responsive" src="{{ url('img/misi5.png') }}" style="width: 80px; height: auto; margin: 10px"></center>
-                <h3 class="mg-b-20">Ekonomi Nasional</h3>
-                <p>Sebagai pengelola terminal kendaraan yang memaksimalkan nilai tambah bagi seluruh kepentingan (stakeholders) secara berkesinambungan dalam rangka meningkatkan perekonomian nasional</p>
               </div>
             </section>
           </div>
@@ -326,49 +325,66 @@
             <h4 class="roboLight">Short Sea Shipping</h4>
             <!-- Untuk tulisan -->
             <div class="col-md-12">
-              <div class="col-md-12">
+              <div class="col-md-12 bullet">
                 <section class="be-flex">
                   <i class="fa fa-check-circle mg-t-10 bl fa-lg mg-r-10"></i>
                   <section>
                     <h4 class="roboBold">Pemerintah</h4>
-                    <p>Mendukung konektifitas di pulau Jawa dan antar pulau</p>
-                    <p>Meringankan anggaran pemeliharaan dan perbaikan Jalur Pantura mencapai IDR 1 trilyun per tahun</p>
-                    <p>Menghindari kecelakaan maut akibat kecelakaan truk yang <i>overloaded</i> di jalan raya yang mengakibatkan kemacetan Jalur Pantura</p>
+                    <ul>
+                      <li><p>Mendukung konektifitas di pulau Jawa dan antar pulau</p></li>
+                      <li><p>Meringankan anggaran pemeliharaan dan perbaikan Jalur Pantura mencapai IDR 1 trilyun per tahun</p></li>
+                      <li><p>Menghindari kecelakaan maut akibat kecelakaan truk yang <i>overloaded</i> di jalan raya yang mengakibatkan kemacetan Jalur Pantura</p></li>
+                    </ul>
                   </section>
                 </section>
               </div>
-              <div class="col-md-12">
+              <div class="col-md-12 bullet">
                 <section class="be-flex">
                   <i class="fa fa-check-circle mg-t-10 bl fa-lg mg-r-10"></i>
                   <section>
                     <h4 class="roboBold">Cargo Owner</h4>
-                    <p>Mengurangi ekonomi biaya tinggi di Jalur Pantura</p>
-                    <p>Kepastian dan keamanan cargo terjamin</p>
-                    <p><b>Fastest lead time with regular service</b> Menciptakan efisiensi melalui <i>management</i> yang efektif</p>
+                    <ul>
+                      <li><p>Mengurangi ekonomi biaya tinggi di Jalur Pantura</p></li>
+                      <li><p>Kepastian dan keamanan cargo terjamin</p></li>
+                      <li><p><b>Fastest lead time with regular service</b> Menciptakan efisiensi melalui <i>management</i> yang efektif</p></li>
+                    </ul>
                   </section>
                 </section>
               </div>
-              <div class="col-md-12">
+              <div class="col-md-12 bullet">
                 <section class="be-flex">
                   <i class="fa fa-check-circle mg-t-10 bl fa-lg mg-r-10"></i>
                   <section>
                     <h4 class="roboBold">Perusahaan Logistik</h4>
-                    <p>Supply chain management yang efisien mendorong inventory management yang efektif</p>
-                    <p>Kepastian dan keamanan caargo terjamin</p>
+                    <ul>
+                      <li>                    <p>Supply chain management yang efisien mendorong inventory management yang efektif</p>
+                      </li>
+                      <li>                    <p>Kepastian dan keamanan caargo terjamin</p>
+                      </li>
+                      
+                    </ul>
                   </section>
                 </section>
               </div>
-              <div class="col-md-12">
+              <div class="col-md-12 bullet">
                 <section class="be-flex">
                   <i class="fa fa-check-circle mg-t-10 bl fa-lg mg-r-10"></i>
                   <section>
                     <h4 class="roboBold">Perusahaan Trucking</h4>
-                    <p>Menghindari kemacetan yang mengakibatkan biaya operasional tinggi</p>
-                    <p>Menghindari biaya pengawalan dan pungli jalanan di banyak titik</p>
-                    <p>Mengurangi konsumsi bahan bakar truk</p>
-                    <p>Menghindari resiko kecelakaan di jalan raya</p>
-                    <p>Mengurangi biaya pemeliharaan armada truk (suku cadang, ban, dll)</p>
-                    <p>Meningkatkan produktifitas dan efektifitas pengemudi</p>
+                    <ul>
+                        <li>                    <p>Menghindari kemacetan yang mengakibatkan biaya operasional tinggi</p>
+                        </li>
+                        <li>                    <p>Menghindari biaya pengawalan dan pungli jalanan di banyak titik</p>
+                        </li>
+                        <li>                    <p>Mengurangi konsumsi bahan bakar truk</p>
+                        </li>
+                        <li>                    <p>Menghindari resiko kecelakaan di jalan raya</p>
+                        </li>
+                        <li>                    <p>Mengurangi biaya pemeliharaan armada truk (suku cadang, ban, dll)</p>
+                        </li>
+                        <li>                    <p>Meningkatkan produktifitas dan efektifitas pengemudi</p>
+                        </li>
+                      </ul>
                   </section>
                 </section>
               </div>
