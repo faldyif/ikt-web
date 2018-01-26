@@ -1663,8 +1663,14 @@ figcaption.caption {
 .media-title {
   color: #2C82C9 !important; }
 
-.bullet ul li {
-  list-style-type: circle; }
+.bullet ul {
+  margin-left: -4%; }
+  .bullet ul li {
+    list-style-type: circle; }
+.bullet ol {
+  margin-left: -4%; }
+  .bullet ol li {
+    list-style-type: upper-alpha; }
 
 .dropcaps:first-of-type:first-letter {
   height: 0.7em;

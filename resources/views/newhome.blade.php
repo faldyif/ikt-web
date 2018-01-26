@@ -708,7 +708,7 @@
     <!-- Heading Block -->
     <div class="heading-block white">
       <h6>get in touch </h6>
-      <span class="huge-tittle">contact</span> </div>
+      <span class="huge-tittle">contact</span></div>
     <div class="rights col-md-9 center-auto">
       <a href="#" class="btn-normal" data-toggle="modal" data-target="#modal-whistleblowing">Aduan Pelanggaran</a>
     </div>

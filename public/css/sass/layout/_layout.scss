@@ -890,11 +890,19 @@ display: flex;
   }
   .bullet {
     ul{
+      margin-left: -4%;
       li {
         list-style-type: circle;      
       }
     }
+    ol{
+     margin-left: -4%;
+     li {
+       list-style-type: upper-alpha;      
+     }
+    }
   }
+
   .dropcaps:first-of-type:first-letter {
   height: 0.7em;
   margin: 0.08em 0 -0.05em 0;
