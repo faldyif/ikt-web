@@ -238,10 +238,10 @@
                                     <div class="col-lg-2 col-sm-6 portfolio-item"></div>
                                     <div class="col-lg-4 col-sm-6 portfolio-item">
                                         <div class="card h-100">
-                                            <a href="#"><img class="card-img-top img-responsive img-responsive" src="{{url('img/')}}" alt=""></a>
+                                            <a href="#"><img class="card-img-top img-responsive img-responsive" src="{{url('img/Bimo_W.JPG')}}" alt=""></a>
                                             <div class="card-body">
                                                 <h4 class="card-title">
-                                                    <a href="#">Bimo Widiatmoko</a>
+                                                    <a href="#">Bimo Widhiatmoko</a>
                                                 </h4>
                                                 <p class="card-text">
                                                     Direktur Operasi dan Komersial<br>
@@ -252,10 +252,10 @@
                                     </div>
                                     <div class="col-lg-4 col-sm-6 portfolio-item">
                                         <div class="card h-100">
-                                            <a href="#"><img class="card-img-top img-responsive img-responsive" src="{{url('img/')}}" alt=""></a>
+                                            <a href="#"><img class="card-img-top img-responsive img-responsive" src="{{url('img/M_Syaefullah.JPG')}}" alt=""></a>
                                             <div class="card-body">
                                                 <h4 class="card-title">
-                                                    <a href="#">M Syaifullah</a>
+                                                    <a href="#">M Syaefullah</a>
                                                 </h4>
                                                 <p class="card-text">
                                                     Direktur Keuangan dan SDM<br>
@@ -335,7 +335,7 @@
                                             </div>
 
                                             <!--Second review-->
-                                            <hr><hr><div class="media">
+                                            <hr><div class="media">
                                                 <a class="media-left waves-light">
                                                     <img class="rounded-circle" style="width:140px; height:120px; border: 2px solid; padding:10px; border-color:#63636350;" src="{{url('img/Fachry Ali - Komisaris.jpg')}}" alt="Generic placeholder image">
                                                 </a>
@@ -376,7 +376,7 @@
                                             <!--First review-->
                                             <hr><div class="media">
                                                 <a class="media-left waves-light">
-                                                    <img class="rounded-circle" style="width:140px; height:120px; border: 2px solid; padding:10px; border-color:#63636350;" src="{{url('img/defaultavatar.png')}}" alt="Generic placeholder image">
+                                                    <img class="rounded-circle" style="width:140px; height:120px; border: 2px solid; padding:10px; border-color:#63636350;" src="{{url('img/ELVYNGMASASSYA.png?1')}}" alt="Generic placeholder image">
                                                 </a>
                                                 <div class="media-body">
                                                     <h4 class="media-title">Elvyn G Masassya                                                    </h4>
@@ -386,7 +386,7 @@
 
                                             <hr><div class="media">
                                                 <a class="media-left waves-light">
-                                                    <img class="rounded-circle" style="width:140px; height:120px; border: 2px solid; padding:10px; border-color:#63636350;" src="{{url('img/defaultavatar.png')}}" alt="Generic placeholder image">
+                                                    <img class="rounded-circle" style="width:140px; height:120px; border: 2px solid; padding:10px; border-color:#63636350;" src="{{url('img/Abdul Hakam - Komisaris.jpg')}}" alt="Generic placeholder image">
                                                 </a>
                                                 <div class="media-body">
                                                     <h4 class="media-title">Abdul Hakam
@@ -422,7 +422,7 @@
 
                                             <hr><div class="media">
                                                 <a class="media-left waves-light">
-                                                    <img class="rounded-circle" style="width:140px; height:120px; border: 2px solid; padding:10px; border-color:#63636350;" src="{{url('img/defaultavatar.png')}}" alt="Generic placeholder image">
+                                                    <img class="rounded-circle" style="width:140px; height:120px; border: 2px solid; padding:10px; border-color:#63636350;" src="{{url('img/Dian Lesmana - Komisaris.jpg')}}" alt="Generic placeholder image">
                                                 </a>
                                                 <div class="media-body">
                                                     <h4 class="media-title">Dian Lesmana</h4>
@@ -436,147 +436,6 @@
                                     </div>
                                     
                         </div>
-                        {{--  <div class="col-md-12">
-                                <div class="row">
-                                    <div class="col-lg-4 col-sm-6 portfolio-item"></div>
-                                    <div class="col-lg-4 col-sm-6 portfolio-item">
-                                        <div class="card h-100">
-                                        <a href="#"><img class="card-img-top img-responsive img-responsive" src="{{url('img/')}}" alt=""></a>
-                                        <div class="card-body">
-                                            <h4 class="card-title">
-                                            <a href="#">Nama</a>
-                                            </h4>
-                                            <p class="card-text">Komisaris Utama</p>
-                                        </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-4 col-sm-6 portfolio-item"></div>
-                                </div>
-                                <div class="row" style="height:30px;">
-    
-                                </div>
-                                <div class="row">
-                                        <div class="col-lg-3 col-md-4 col-sm-6 portfolio-item">
-                                          <div class="card h-100">
-                                            <a href="#"><img class="card-img-top img-responsive" src="{{url('img/')}}" alt=""></a>
-                                            <div class="card-body">
-                                              <h4 class="card-title">
-                                                <a href="#">Nama</a>
-                                              </h4>
-                                              <p class="card-text">Komisaris</p>
-                                            </div>
-                                          </div>
-                                        </div>
-                                        <div class="col-lg-3 col-md-4 col-sm-6 portfolio-item">
-                                                <div class="card h-100">
-                                                  <a href="#"><img class="card-img-top img-responsive" src="{{url('img/')}}" alt=""></a>
-                                                  <div class="card-body">
-                                                    <h4 class="card-title">
-                                                      <a href="#">Nama</a>
-                                                    </h4>
-                                                    <p class="card-text">Komisaris</p>
-                                                  </div>
-                                                </div>
-                                              </div>
-                                              <div class="col-lg-3 col-md-4 col-sm-6 portfolio-item">
-                                                    <div class="card h-100">
-                                                      <a href="#"><img class="card-img-top img-responsive" src="{{url('img/')}}" alt=""></a>
-                                                      <div class="card-body">
-                                                        <h4 class="card-title">
-                                                          <a href="#">Nama</a>
-                                                        </h4>
-                                                        <p class="card-text">Komisaris</p>
-                                                      </div>
-                                                    </div>
-                                                  </div>
-                                                  <div class="col-lg-3 col-md-4 col-sm-6 portfolio-item">
-                                                        <div class="card h-100">
-                                                          <a href="#"><img class="card-img-top img-responsive" src="{{url('img/')}}" alt=""></a>
-                                                          <div class="card-body">
-                                                            <h4 class="card-title">
-                                                              <a href="#">Nama</a>
-                                                            </h4>
-                                                            <p class="card-text">Komisaris</p>
-                                                          </div>
-                                                        </div>
-                                                      </div>
-                                                      
-                                      </div>
-                                      <!-- /.row -->
-                        </div>
-                        <div class="col-md-12" style="height:30px;">
-                            </div>
-                            <hr class="hrSpec hrSpecOrange">
-                            <h4 class="card-title roboBold">BOC 2016</h4>
-                        <div class="col-md-12">
-                                
-                            <div class="row">
-                                    <div class="col-lg-4 col-sm-6 portfolio-item"></div>
-                                    <div class="col-lg-4 col-sm-6 portfolio-item">
-                                        <div class="card h-100">
-                                        <a href="#"><img class="card-img-top img-responsive img-responsive" src="{{url('img/Dede R. Martin - Komisaris Utama.jpg')}}" alt=""></a>
-                                        <div class="card-body">
-                                            <h4 class="card-title">
-                                            <a href="#">Dede R. Martin</a>
-                                            </h4>
-                                            <p class="card-text">Komisaris Utama</p>
-                                        </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-4 col-sm-6 portfolio-item"></div>
-                                </div>
-                                <div class="row" style="height:30px;">
-    
-                                </div>
-                                <div class="row">
-                                        <div class="col-lg-3 col-md-4 col-sm-6 portfolio-item">
-                                          <div class="card h-100">
-                                            <a href="#"><img class="card-img-top img-responsive" src="{{url('img/Abdul Hakam - Komisaris.jpg')}}" alt=""></a>
-                                            <div class="card-body">
-                                              <h4 class="card-title">
-                                                <a href="#">Abdul Hakam </a>
-                                              </h4>
-                                              <p class="card-text">Komisaris</p>
-                                            </div>
-                                          </div>
-                                        </div>
-                                        <div class="col-lg-3 col-md-4 col-sm-6 portfolio-item">
-                                                <div class="card h-100">
-                                                  <a href="#"><img class="card-img-top img-responsive" src="{{url('img/Fachry Ali - Komisaris.jpg')}}" alt=""></a>
-                                                  <div class="card-body">
-                                                    <h4 class="card-title">
-                                                      <a href="#">Fachry Ali </a>
-                                                    </h4>
-                                                    <p class="card-text">Komisaris</p>
-                                                  </div>
-                                                </div>
-                                              </div>
-                                              <div class="col-lg-3 col-md-4 col-sm-6 portfolio-item">
-                                                    <div class="card h-100">
-                                                      <a href="#"><img class="card-img-top img-responsive" src="{{url('img/Wahyu Hidayat - Komisaris.jpg')}}" alt=""></a>
-                                                      <div class="card-body">
-                                                        <h4 class="card-title">
-                                                          <a href="#">Wahyu Hidayat</a>
-                                                        </h4>
-                                                        <p class="card-text">Komisaris</p>
-                                                      </div>
-                                                    </div>
-                                                  </div>
-                                                  <div class="col-lg-3 col-md-4 col-sm-6 portfolio-item">
-                                                        <div class="card h-100">
-                                                          <a href="#"><img class="card-img-top img-responsive" src="{{url('img/Dian Lesmana - Komisaris.jpg')}}" alt=""></a>
-                                                          <div class="card-body">
-                                                            <h4 class="card-title">
-                                                              <a href="#">Dian Lesmana</a>
-                                                            </h4>
-                                                            <p class="card-text">Komisaris</p>
-                                                          </div>
-                                                        </div>
-                                                      </div>
-                                                      
-                                      </div>
-                                      <!-- /.row -->
-                        </div>  --}}
                     </div>
                     <div id="menu4" class="tab-pane fade">
                         <hr class="hrSpec hrSpecOrange">
