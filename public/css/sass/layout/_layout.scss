@@ -888,3 +888,18 @@ display: flex;
   .media-title{
     color: #2C82C9 !important;
   }
+  .bullet {
+    ul{
+      li {
+        list-style-type: circle;      
+      }
+    }
+  }
+  .dropcaps:first-of-type:first-letter {
+  height: 0.7em;
+  margin: 0.08em 0 -0.05em 0;
+  padding: 0 0.065em 0 0;
+  font-size: 5em;
+  line-height: 0.85em;
+  float: left;
+}
