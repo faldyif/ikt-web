@@ -4,6 +4,8 @@
 
 @section('content')
 <!--HERO-->
+<link rel="stylesheet" href="{{ url('homepage/css/bootstrap/bootstrap.min.css')}}">
+
 <section id="heroTitle">
   <div class="heroTitle" style="background-image: url('{{ url('img/3.jpg') }}');">
     <div class="overlay"></div>
@@ -40,7 +42,8 @@
             </div>
             <div class="col-md-12 pd-bt-20">
               <center>
-                <a href="http://maspioncarterminal.co.id" class="btn-normal" target="_blank">Website MKO - MTKI</a>
+                <!-- <button type="button" class="btn btn-primary">Website MKO - MTKI</button> -->
+                <a href="http://maspioncarterminal.co.id" class="btn btn-primary" target="_blank">Website MKO - MTKI</a>
               </center>  
             </div>
             <!-- Button gallery maspion -->
@@ -268,4 +271,3 @@
 @section('bottom')
 <link href="{{ url('css/foundation.css') }}" rel="stylesheet"></link>
 <link href="{{ url('css/styles_foundation3.css') }}" rel="stylesheet"></link>
-<link rel="stylesheet" href="{{ url('homepage/css/bootstrap/bootstrap.min.css')}}">

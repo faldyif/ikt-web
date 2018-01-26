@@ -137,7 +137,7 @@
 		}
 
 		img {
-			background-size: 110%;
+			background-size: 100%;
 		}
 	}
 }
@@ -901,6 +901,15 @@ display: flex;
        list-style-type: upper-alpha;      
      }
     }
+  }
+
+  .bullet-number {
+      ol{
+       margin-left: -4%;
+       li {
+         list-style-type: decimal;
+         }      
+     }
   }
 
   .dropcaps:first-of-type:first-letter {

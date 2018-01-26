@@ -1016,7 +1016,7 @@ h2 {
 .multiple-items .newsList:hover .overlay, .multiple-items .newsList:hover figcaption, .recent-news .newsList:hover .overlay, .recent-news .newsList:hover figcaption {
   bottom: 0; }
 .multiple-items .newsList:hover img, .recent-news .newsList:hover img {
-  background-size: 110%; }
+  background-size: 100%; }
 
 #agenda {
   padding: 0px 70px; }
@@ -1671,6 +1671,11 @@ figcaption.caption {
   margin-left: -4%; }
   .bullet ol li {
     list-style-type: upper-alpha; }
+
+.bullet-number ol {
+  margin-left: -4%; }
+  .bullet-number ol li {
+    list-style-type: decimal; }
 
 .dropcaps:first-of-type:first-letter {
   height: 0.7em;
