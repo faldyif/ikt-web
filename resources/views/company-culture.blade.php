@@ -34,19 +34,19 @@
               <p>
               <h4>2. Integrity<br><small>Walk the Talk</small></h4>
               Menumbuhkan rasa percaya dengan mengatakan apa yang kita rasakan serta melakukan apa yang kita ucapkan.<br>
-              Menunjukkan sikap profesional dan jujur dalam berinterasi dengan pihak internal maupun eksternal.<br>
-              Berperilaku disiplin dan patuh terhadap kode etik bisnis di dalam melakukan pelkerjaan kita sehari-hari.<br>
+              Menunjukkan sikap profesional dan jujur dalam berinteraksi dengan pihak internal maupun eksternal.<br>
+              Berperilaku disiplin dan patuh terhadap kode etik bisnis di dalam melakukan pekerjaan kita sehari-hari.<br>
               </p>
               <p>
               <h4>3. Nationalism<br><small>National Pride</small></h4>
               Menumbuhkan semangat dan ikut berperan mensukseskan program pemerintah dalam pembangunan nasional.<br>
-              Menumbuhkan rasa bangga dan semangat masionalisme dalam berkarya.<br>
-              Terus berkembang dan mampu bersaing dengan perusahaan pengelola pelabuhan kelas dunia.<br>
+              Menumbuhkan rasa bangga dan semangat nasionalisme dalam berkarya.<br>
+              Terus berkembang dan mampu bersaing dengan perusahaan pengelola terminal kendaraan berkelas dunia.<br>
               </p>
               <p>
               <h4>4. Team Work<br><small>Together We Can</small></h4>
               Berkolaborasi dalam tim untuk mendapatkan hasil yang terbaik<br>
-              Bekerja bersama-sama menghasilkan ide-ide implementatif untuk solusi kebutuhan pengguna jasa pelabuhan.<br>
+              Bekerja bersama-sama menghasilkan ide-ide implementatif untuk solusi kebutuhan pengguna jasa terminal kendaraan.<br>
               Semangat kebersamaan dan menghargai orang lain.<br>
               </p>
               <p>
