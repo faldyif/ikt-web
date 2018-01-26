@@ -38,7 +38,7 @@
     <section>
       <div class="col-md-12">
           <h2 class="text-center mg-b-20">VISI</h2>
-        <img class="img-responsive" style="width:100%;" src="{{url('img/visi.png')}}">
+        <img class="img-responsive" style="width:100%;" src="{{url('img/visi.png?a')}}">
       </div>
     </section>
     <section>

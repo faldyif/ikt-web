@@ -238,10 +238,10 @@
                                     <div class="col-lg-2 col-sm-6 portfolio-item"></div>
                                     <div class="col-lg-4 col-sm-6 portfolio-item">
                                         <div class="card h-100">
-                                            <a href="#"><img class="card-img-top img-responsive img-responsive" src="{{url('img/defaultavatar.png')}}" alt=""></a>
+                                            <a href="#"><img class="card-img-top img-responsive img-responsive" src="{{url('img/Bimo_W.JPG')}}" alt=""></a>
                                             <div class="card-body">
                                                 <h4 class="card-title">
-                                                    <a href="#">Bimo Widiatmoko</a>
+                                                    <a href="#">Bimo Widhiatmoko</a>
                                                 </h4>
                                                 <p class="card-text">
                                                     Direktur Operasi dan Komersial<br>
@@ -252,10 +252,10 @@
                                     </div>
                                     <div class="col-lg-4 col-sm-6 portfolio-item">
                                         <div class="card h-100">
-                                            <a href="#"><img class="card-img-top img-responsive img-responsive" src="{{url('img/defaultavatar.png')}}" alt=""></a>
+                                            <a href="#"><img class="card-img-top img-responsive img-responsive" src="{{url('img/M_Syaefullah.JPG')}}" alt=""></a>
                                             <div class="card-body">
                                                 <h4 class="card-title">
-                                                    <a href="#">M Syaifullah</a>
+                                                    <a href="#">M Syaefullah</a>
                                                 </h4>
                                                 <p class="card-text">
                                                     Direktur Keuangan dan SDM<br>
@@ -376,7 +376,7 @@
                                             <!--First review-->
                                             <hr><div class="media">
                                                 <a class="media-left waves-light">
-                                                    <img class="rounded-circle" style="width:140px; height:120px; border: 2px solid; padding:10px; border-color:#63636350;" src="{{url('img/defaultavatar.png')}}" alt="Generic placeholder image">
+                                                    <img class="rounded-circle" style="width:140px; height:120px; border: 2px solid; padding:10px; border-color:#63636350;" src="{{url('img/ELVYNGMASASSYA.png?1')}}" alt="Generic placeholder image">
                                                 </a>
                                                 <div class="media-body">
                                                     <h4 class="media-title">Elvyn G Masassya                                                    </h4>
