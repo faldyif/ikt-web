@@ -22,7 +22,7 @@
             <div class="col-md-5 col-sm-12">
               <h3 class="roboLight" style="line-height: 1.4em">Indonesia Kendaraan Terminal Merupakan Perusahaan Kendaraan Terminal yang Beroperasi Tanjung Priok Jakarta Indonesia, memberikan pelayanan Cargodooring, Stevedoring, Receiving & Delivering serta berbagai Pelayanan Terbaik untuk Pelanggan Kami.</h3>
             </div>
-            <div class="col-md-7 col-sm-12">
+            <div class="col-md-7 col-sm-12" style="text-align: justify">
                 <hr class="hrSpec hrSpecOrange">
                 <h3 class="mg-b-30 roboBold">Tentang Kami</h3>
                 <p>PT Indonesia Kendaraan Terminal merupakan terminal yang secara khusus diusahakan secara komersial untuk memberikan jasa pelayanan terminal kendaraan. Adapun pelayanan jasanya meliputi Stevedoring, Cargodoring, dan Receiving Delivery. Selain itu juga melayani pelayanan jasa lainnya Vehicle Processing Center (VPC) dan Equipment Processing Center (EPC).</p>
@@ -38,13 +38,13 @@
     <section>
       <div class="col-md-12">
           <h2 class="text-center mg-b-20">VISI</h2>
-        <img class="img-responsive" style="width:100%;" src="{{url('img/visi.png')}}">
+        <img class="img-responsive" style="width:100%;" src="{{url('img/visi.png?a')}}">
       </div>
     </section>
     <section>
       <div class="container-fluid lightWhiteSec wow fadeInUpBig">
         <section class="row pd-bt-30">
-          <div class="col-md-8 col-lg-6 col-md-offset-2 col-lg-offset-3">  
+          <div class="col-md-8 col-lg-6 col-md-offset-2 col-lg-offset-3">
             <div class="col-md-offset-5 col-md-offset-right-5">
             <div class="col-md-offset-4">
               <hr class="hrSpec hrSpecOrange">
@@ -119,6 +119,11 @@
                 <h3 class="mg-b-20">Masyarakat &amp Negara</h3>
                 <p>Menciptakan lingkungan kerja yang nyaman bagi karyawan, mewujudkan insan perusahaan yang fokus pada pelanggan, bertintegritas, bangga kepada perusahaan dan budayanya, serta memberikan kesejahteraan dan kepuasan kepada karyawan</p>
               </div>
+              <div class="col-md-12 text-center mg-b-30">
+              <center><img class="img-responsive" src="{{ url('img/misi5.png') }}" style="width: 80px; height: auto; margin: 10px"></center>
+                <h3 class="mg-b-20">Ekonomi Nasional</h3>
+                <p>Sebagai pengelola terminal kendaraan yang memaksimalkan nilai tambah bagi seluruh kepentingan (stakeholders) secara berkesinambungan dalam rangka meningkatkan perekonomian nasional</p>
+              </div>
             </section>
           </div>
         </section>
@@ -135,12 +140,12 @@
                 <div class="col-md-12">
                   <hr class="hrSpec hrSpecOrange">
                   <h3 class="mg-b-20 roboBold">Role Model</h3>
-                  <h5 class="lh-15em">Seluruh pejabat struktural di lingkungan PT IKT merupakan Role Model. Dimana Role Model bertanggungjawab untuk mengimplementasikan ajaran kepemimpinan yang dilahirkan oleh Ki Hajar Dewantoro, yaitu Ing ngarso sung tulodho, ing madyo mangun karso, tut wuri handayani. Selain itu, Role Model harus dapat mempengaruhi lingkungannya untuk bergerak melakukan perubahan positif yang membantu manajemen dalam mencapai visi dan misi perusahaan.</h5>
+                  <h5 class="lh-15em" style="text-align: justify">Seluruh pejabat struktural di lingkungan PT IKT merupakan Role Model. Dimana Role Model bertanggungjawab untuk mengimplementasikan ajaran kepemimpinan yang dilahirkan oleh Ki Hajar Dewantoro, yaitu Ing ngarso sung tulodho, ing madyo mangun karso, tut wuri handayani. Selain itu, Role Model harus dapat mempengaruhi lingkungannya untuk bergerak melakukan perubahan positif yang membantu manajemen dalam mencapai visi dan misi perusahaan.</h5>
                 </div>
                 <div class="col-md-12 mg-b-20">
                   <hr class="hrSpec hrSpecOrange">
                   <h3 class="mg-b-20 roboBold">Change Agent</h3>
-                  <h5 class="lh-15em">Seluruh staf/officer di lingkungan PT IKT adalah Change Agent. Ini dimaksudkan untuk memberikan ruang inovasi, kreativitas, dan kontribusi kepada seluruh staf/officer untuk membuat segala sesuatu menjadi lebih baik sesuai tugas, tanggung jawab, dan perannya masing-masing. Change Agent adalah pribadi yang menjadi pengubah lingkungan dan merestorasi mental serta membantu percepatan proses bisnis di IKT.</h5>
+                  <h5 class="lh-15em" style="text-align: justify">Seluruh staf/officer di lingkungan PT IKT adalah Change Agent. Ini dimaksudkan untuk memberikan ruang inovasi, kreativitas, dan kontribusi kepada seluruh staf/officer untuk membuat segala sesuatu menjadi lebih baik sesuai tugas, tanggung jawab, dan perannya masing-masing. Change Agent adalah pribadi yang menjadi pengubah lingkungan dan merestorasi mental serta membantu percepatan proses bisnis di IKT.</h5>
                 </div>
               </div>
               <div class="col-md-7 col-sm-12">
@@ -153,7 +158,7 @@
                       <i class="fa fa-check-circle mg-t-10 bl fa-lg mg-r-10"></i>
                       <section>
                         <h5 class="roboBold">Ing Ngarso Sung Tulodho</h5>
-                        <p>Setiap pemimpin harus selalu menjadi contoh dalam setiap sepak terjangnya, kiprahnya dan langkah-langkah dalam kehidupannya</p>
+                        <p style="text-align: justify">Setiap pemimpin harus selalu menjadi contoh dalam setiap sepak terjangnya, kiprahnya dan langkah-langkah dalam kehidupannya</p>
                       </section>
                     </section>
                   </div>
@@ -162,7 +167,7 @@
                       <i class="fa fa-check-circle mg-t-10 bl fa-lg mg-r-10"></i>
                       <section>
                         <h5 class="roboBold">Ing Madyo Mangun Karso</h5>
-                        <p>Pemimpin harus berada ditengah rakyat yang dipimpinnya untuk memberikan semangat</p>
+                        <p style="text-align: justify">Pemimpin harus berada ditengah rakyat yang dipimpinnya untuk memberikan semangat</p>
                       </section>
                     </section>
                   </div>
@@ -171,7 +176,7 @@
                       <i class="fa fa-check-circle mg-t-10 bl fa-lg mg-r-10"></i>
                       <section>
                         <h5 class="roboBold">Tut Wuri Handayani</h5>
-                        <p>Seorang pemimpin harus selalu memberikan motivasi dan dorongan dari belakang</p>
+                        <p style="text-align: justify">Seorang pemimpin harus selalu memberikan motivasi dan dorongan dari belakang</p>
                       </section>
                     </section>
                   </div>
@@ -186,7 +191,7 @@
     <!-- /ROLE MODEL -->
     <!-- LOGO -->
     <section>
-      <div class="container-fluid wow fadeInUpBig">
+      <div class="container-fluid wow fadeInUpBig" style="text-align: justify">
         <section class="row pd-bt-30 mg-bt-10">
           <div class="col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1">
             <section class="row">
@@ -202,6 +207,9 @@
                 <p>Warna Jingga pada tulisan Car dan gambar melengkung bagian atas menggambarkan semangat perubahan, kekuatan, optimisme, serta kebanggan setiap karyawan, untuk bersama-sama berdiri di garis terdepan dalam mencapai tujuan organisasi.</p>
                 <h4 class="mg-t-20 roboBlack">Warna Biru</h4>
                 <p>Warna Biru pada gambar melengkung bagian bawah menggambarkan kesiapan memasuki era baru yang dinamis dan fleksibiltas setiap komponen dalam perusahaan menghadapi berbagai tantangan guna mencapai tujuan perusahaan sebagai world-class port operator.</p>
+
+                <h4 class="mg-t-20 roboBlack">We Will Shine With You</h4>
+                <p>Dengan tagline tersebut memberikan motivasi dan spirit bagi kita semuanya untuk berkontribusi kepada masa depan Bangsa Indonesia yang lebih baik melalui kolaborasi dan sinergi para pihak dalam mewujudkan PT IKT sebagai terminal kendaraan berkelas dunia yang unggul dalam operasional dan pelayanan. Selain itu, kelak PT IKT akan menjadi salah satu kebanggaan Bangsa Indonesia.</p>
               </div>
               <div class="col-md-5">
                 <figure class="pd-lr-30">
@@ -210,6 +218,26 @@
                     Logo PT Indonesia Kendaraan Terminal bermakna friendly, sprit, energy dan agility.
                   </figcaption>
                   <img src="{{ url('img/ikt-profil.png') }}" class="pd-30" alt="PT Indonesia Kendaraan Terminal">
+                  <ul style="padding-left: 0;">
+                    <section class="be-flex">
+                      <i class="fa fa-check-circle mg-t-10 bl fa-lg mg-r-10"></i>
+                      <section>
+                        <h5>Mutual respect, mutual trust, mutual understanding, mutual benefit</h5>
+                      </section>
+                    </section>
+                    <section class="be-flex">
+                      <i class="fa fa-check-circle mg-t-10 bl fa-lg mg-r-10"></i>
+                      <section>
+                        <h5>Happy employee, happy family, happy customer, happy country</h5>
+                      </section>
+                    </section>
+                    <section class="be-flex">
+                      <i class="fa fa-check-circle mg-t-10 bl fa-lg mg-r-10"></i>
+                      <section>
+                        <h5>Hear you, understand you, grow together</h5>
+                      </section>
+                    </section>
+                  </ul>
                 </figure>
               </div>
             </section>
