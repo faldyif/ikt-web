@@ -4,6 +4,8 @@
 
 @section('content')
 <!--HERO-->
+<link rel="stylesheet" href="{{ url('homepage/css/bootstrap/bootstrap.min.css')}}">
+
 <section id="heroTitle">
   <div class="heroTitle" style="background-image: url('{{ url('img/3.jpg') }}');">
     <div class="overlay"></div>
@@ -33,13 +35,15 @@
               </div>
 
               <div class="col-md-6 col-xs-12">
-                <p class="text-justify" style="text-indent: 5em;">Sejalan dengan program yang dicanangkan oleh pemerintah yaitu program Tol Laut di Indonesia untuk meningkatkan kapasitas pelabuhan dan juga sejalan dengan program kerja IPC yaitu Pendulum Nusantara, maka PT Indonesia Kendaraan Terminal bekerjasama dengan PT Maspion Group turut serta dalam mengembangkan infrastruktur kepelabuhanan dengan melakukan pengembangan ke wilayah timur Indonesia.</p>
-                <p class="text-justify" style="text-indent: 5em;">Atas dasar itulah, pada tanggal 2 Desember 2014 telah dilakukan kesepakatan kerjasama antara IPC dalam hal ini diwakili oleh PT Indonesia Kendaraan Terminal dengan PT Maspion Industrial Estate untuk menyiapkan pembangunan dan pengoperasian terminal kendaraan di Maspion Industrial Estate yang berlokasi di Gresik yang akan menjadi terminal kendaraan pertama dan modern di Jawa Timur.</p>  
+                
+                  <p class="text-justify dropcaps">Sejalan dengan program yang dicanangkan oleh pemerintah yaitu program Tol Laut di Indonesia untuk meningkatkan kapasitas pelabuhan dan juga sejalan dengan program kerja IPC yaitu Pendulum Nusantara, maka PT Indonesia Kendaraan Terminal bekerjasama dengan PT Maspion Group turut serta dalam mengembangkan infrastruktur kepelabuhanan dengan melakukan pengembangan ke wilayah timur Indonesia. </br>
+                  Atas dasar itulah, pada tanggal 2 Desember 2014 telah dilakukan kesepakatan kerjasama antara IPC dalam hal ini diwakili oleh PT Indonesia Kendaraan Terminal dengan PT Maspion Industrial Estate untuk menyiapkan pembangunan dan pengoperasian terminal kendaraan di Maspion Industrial Estate yang berlokasi di Gresik yang akan menjadi terminal kendaraan pertama dan modern di Jawa Timur.</p>  
               </div>
             </div>
             <div class="col-md-12 pd-bt-20">
               <center>
-                <a href="http://maspioncarterminal.co.id" target="_blank">Website MKO - MTKI</a>
+                <!-- <button type="button" class="btn btn-primary">Website MKO - MTKI</button> -->
+                <a href="http://maspioncarterminal.co.id" class="btn btn-primary" target="_blank">Website MKO - MTKI</a>
               </center>  
             </div>
             <!-- Button gallery maspion -->
@@ -220,11 +224,11 @@
             
             <div class="col-md-6">
               <hr class="hrSpec hrSpecOrange">
-              <h3 class="mg-b-30 roboBold">RORO Short Sea Shipping Activity</h3>
+              <h3 class="mg-b-30 roboBold">RORO Short Sea Shipping Memorandum of Understanding</h3>
             </div>
             <div class="col-md-6">
               <hr class="hrSpec hrSpecOrange">
-              <h3 class="mg-b-30 roboBold">RORO Short Sea Shipping Conference</h3>
+              <h3 class="mg-b-30 roboBold">RORO Short Sea Shipping Activity</h3>
             </div>
           </div>
             
