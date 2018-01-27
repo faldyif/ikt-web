@@ -1,19 +1,4 @@
 @extends('layout.app-with-footer')
-<style type="text/css">
-  .annual{
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    cursor: pointer;
-  }
-  .annual:hover{
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
-  }
-  .annual-img{
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    width: auto; 
-    height: 200px !important;
-    margin: 0 auto;
-  }
-</style>
 
 @section('title','Annual Report | IPC Car Terminal')
 
@@ -83,6 +68,7 @@
         </section>
       </div>
     </section>
+@endsection
 
     <!---->
 @section('bottom')

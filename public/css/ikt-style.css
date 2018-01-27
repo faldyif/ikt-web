@@ -1712,6 +1712,22 @@ figcaption.caption {
   line-height: 0.85em;
   float: left; }
 
+/*-----------------
+Annual Report
+-----------------*/
+.annual {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  cursor: pointer; }
+
+.annual:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.5); }
+
+.annual-img {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  width: auto;
+  height: 200px !important;
+  margin: 0 auto; }
+
 .btn {
   transition: all 0.3s ease-in-out;
   -webkit-transition: all 0.3s ease-in-out;
