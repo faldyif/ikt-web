@@ -3,8 +3,10 @@
 @section('title', 'Edit Berita')
 
 @section('breadcrumb')
-    <li><a href="{{ url('admin/news') }}"><i class="fa fa-newspaper-o"></i> Berita</a></li>
-    <li><a href="{{ url('admin/news') }}/{{ $news->id }}/edit">Edit</a></li>
+    <li><a href="{{ route('news.index') }}"><i class="fa fa-newspaper-o"></i> Berita</a></li>
+    <li><a href="{{ url('id/berita') }}/{{ $news->slug }}" target="_blank">{{ $news->title }}</a></li>
+    <li><a href="{{ url('admin/news') }}/{{ $news->news_id }}">Daftar Terjemahan</a></li>
+    <li><a href="#">Edit ({{ $news->locale == 'id' ? 'Bahasa Indonesia' : ($news->locale == 'en' ? 'Bahasa Inggris' : 'Bahasa Jepang') }})</a></li>
 @endsection
 
 @section('content')
@@ -25,25 +27,29 @@
             <div class="box-body">
             {!! Form::model($news, array('route' => array('news-translation.update', $news->id), 'method' => 'PUT', 'enctype' => 'multipart/form-data')) !!}
                 <input type="hidden" name="news_id" value="{{ $news->id }}">
-                <div class="form-group col-md-2">
-                    <label>Bahasa <sup>*</sup></label>
-                    {{ Form::select('locale', array(
-                        'id' => 'Bahasa Indonesia',
-                        'en' => 'English',
-                        'jp' => '日本語',
-                    ), $news->locale, array('class' => 'form-control', 'disabled' => 'true')) }}
-                </div>
-                <div class="form-group col-md-6">
-                    <label>Judul Berita <sup>*</sup></label>
-                    {{ Form::text('title', null, array('class' => 'form-control', 'placeholder' => 'Masukkan judul berita')) }}
+                <div class="col-md-8">
+                    <div class="form-group col-md-4">
+                        <label>Bahasa <sup>*</sup></label>
+                        {{ Form::select('locale', array(
+                            'id' => 'Bahasa Indonesia',
+                            'en' => 'English',
+                            'jp' => '日本語',
+                        ), $news->locale, array('class' => 'form-control', 'disabled' => 'true')) }}
+                    </div>
+                    <div class="form-group col-md-8">
+                        <label>Judul Berita <sup>*</sup></label>
+                        {{ Form::text('title', null, array('class' => 'form-control', 'placeholder' => 'Masukkan judul berita')) }}
+                    </div>
+                    <div class="form-group col-md-12">
+                        <label for="inputKonten">Konten <sup>*</sup></label>
+                        {{ Form::textarea('content', null, array('class' => 'tinymce')) }}
+                    </div>
                 </div>
                 <div class="form-group col-md-4">
-                    <label>Gambar Thumbnail <sup>*</sup></label>
+                    <label>Gambar Thumbnail <sup>(upload bila ingin mengganti)</sup></label>
+                    <img src="{{ url('storage') . '/' . $news->filename }}" class="img-responsive" alt="">
+                    <br>
                     {{ Form::file('thumbnail' ,array('class' => 'form-control')) }}
-                </div>
-                <div class="form-group col-md-12">
-                    <label for="inputKonten">Konten <sup>*</sup></label>
-                    {{ Form::textarea('content', null, array('class' => 'tinymce')) }}
                 </div>
                 <div class="col-md-2 pull-right">
                     <button type="submit" class="btn btn-block btn-primary">

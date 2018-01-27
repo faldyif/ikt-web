@@ -617,6 +617,9 @@ h2 {
   .book-shelf .book {
     padding: 15px 0 0 0;
     margin: auto; }
+  .book-shelf .book2 {
+    padding: 15px 0px 5% 0;
+    margin: 0%; }
   .book-shelf a:before {
     /* Just to give a little puddle of a shadow without adding another element */
     content: '';
@@ -1663,19 +1666,23 @@ figcaption.caption {
 .media-title {
   color: #2C82C9 !important; }
 
-.bullet ul {
-  margin-left: -4%; }
-  .bullet ul li {
-    list-style-type: circle; }
-.bullet ol {
-  margin-left: -4%; }
-  .bullet ol li {
-    list-style-type: upper-alpha; }
+.bullet {
+  margin: 0 0 10px; }
+  .bullet ul {
+    margin-left: -4%; }
+    .bullet ul li {
+      list-style-type: circle; }
+  .bullet ol {
+    margin-left: -4%; }
+    .bullet ol li {
+      list-style-type: upper-alpha; }
 
-.bullet-number ol {
-  margin-left: -4%; }
-  .bullet-number ol li {
-    list-style-type: decimal; }
+.bullet-number {
+  margin: 0 0 10px; }
+  .bullet-number ol {
+    margin-left: -4%; }
+    .bullet-number ol li {
+      list-style-type: decimal; }
 
 .dropcaps:first-of-type:first-letter {
   height: 0.7em;
