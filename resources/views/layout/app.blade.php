@@ -121,9 +121,20 @@
                 </li>
               </ul>
             </li>
+            <li class=""><a id="showToggle"><i class="fa fa-search"></i></a></li>
           </ul>
         </div>
       </nav>
+    </div>
+    <div id="thisToggle" class="search-field pd-bt-10 col-md-10 col-md-offset-1">
+      <form method="GET" action="{{ route('search') }}">
+        <div class="input-group">
+          <input name="q" type="text" class="form-control col-xs-3" id="" placeholder="{{ trans('menu.search') }}">
+          <div class="input-group-btn">
+            <button type="submit" class="btn btn-primary"><i class="fa fa-search"></i></button>
+          </div>
+        </div>
+      </form>
     </div>
   </div>
 </header>
