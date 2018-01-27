@@ -590,8 +590,7 @@
                                 </ol>
                               </div>
                               </li>
-                              <li>Mekanisme pelaporan pelanggaran
-                                <p class="text-justify">Mekanisme pelaporan pelanggaran diatur sebagai berikut :</p>
+                              <li>Mekanisme pelaporan pelanggaran diatur sebagai berikut :
                                 <div class="bullet-number">
                                   <ol>
                                     <li>Pelapor menyampaikan dugaan pelanggaran oleh insan PT Indonesia Kendaraan Terminal atau terlapor melalui saluran pelaporan yang telah ditetapkan oleh perusahaan.</li>
@@ -620,6 +619,17 @@
                                   </ol>
                                 </div>
                               </li>
+                              <li>SALURAN PELAPORAN PELANGGARAN
+                                <p>Perusahaan menyediakan fasilitas saluran laporan pelanggaran melalui :</p>
+                                <div class="bullet-number">
+                                  <ol>
+                                    <li>Telepon Direct : 021-43932250</li>
+                                    <li>SMS  : 0811 9339930</li>
+                                    <li>Facsimile  : 021-43932251</li>
+                                    <li>Surat  : PT INDONESIA KENDARAAN TERMINAL, Jl. Sindang Laut No.101, Cilincing, Jakarta 14110</li>
+                                  </ol>
+                                </div>
+                              </li>
                             </ol>
                           </div>
                         </div>
@@ -627,7 +637,34 @@
                     <div id="menu8" class="tab-pane fade">
                         <hr class="hrSpec hrSpecOrange">
                         <h4 class="card-title roboBold">Pengelolaan Gratifikasi</h4>
-                        <p>Konten sedang disiapkan...</p>
+                        <div class="col-md-12">
+                          <p class="text-justify">Sebagai perusahaan yang profesional, independen, berintegritas dan berkelanjutan isu anti Korupsi Kolusi dan Nepotisme (KKN) menjadi prioritas bagi manajemen Perusahaan. Dalam semangat tersebut, Manajemen Perseroan terus melakukan upaya-upaya untuk membersihkan diri dari praktik KKN, termasuk didalamnya upaya pengendalian praktik Gratifikasi.</p>
+                          <p class="text-justify">Pedoman Pengelolaan Gratifikasi ini diharapkan akan memperkokoh penegakan GCG perusahaan dan menjadi acuan bagi seluruh insan PT Indonesia Kendaraan Terminal dalam menyikapi gratifikasi ketika berhubungan dengan pihak ketiga perusahaan. Pedoman ini merupakan salah satu rangkaian dokumen penegakan GCG perusahaan dimana konten dalam pedoman ini selaras dengan Pedoman GCG, Kode Etik Bisnis dan juga Tata laksana Kinerja Direksi dan Dewan Komisaris PT Indonesia Kendaraan Terminal.</p>
+                          <p class="text-justify">PRINSIP DASAR</p>
+                            <div class="bullet-number">
+                              <ol>
+                                <!-- 1 -->
+                                <li>Pemberian hadiah/cindera mata dan hiburan
+                                  <p class="text-justify">Insan PT Indonesia Kendaraan Terminal <b>DILARANG</b> secara langsung atau tidak langsung memberi Hadiah/Cinderamata dan/atau Hiburan kepada setiap pihak yang memiliki hubungan bisnis atau pesaing PT Indonesia Kendaraan Terminal yang bertujuan untuk mendapatkan informasi, atau sesuatu hal yang tidak dibenarkan oleh ketentuan perundang-undangan yang berlaku, atau untuk mempengaruhi pihak dimaksud untuk melakukan dan/atau tidak melakukan suatu hal berkaitan dengan kedudukan/jabatannya.</p>
+                                </li>
+                                <!-- 2 -->
+                                <li>Penerimaan hadiah/cindera mata dan hiburan
+                                  <p class="text-justify">Insan PT Indonesia Kendaraan Terminal yang karena jabatannya dan/ atau anggota keluarganya (keluarga inti), <b>DILARANG</b> untuk menerima atau meminta secara langsung atau tidak langsung Hadiah/Cinderamata dan/ atau Hiburan dari setiap pihak yang memiliki hubungan bisnis atau pesaing PT Indonesia Kendaraan Terminal, yang bertujuan untuk mendapatkan informasi, atau sesuatu hal yang tidak dibenarkan oleh ketentuan perundang-undangan yang berlaku, atau untuk mempengaruhi pihak dimaksud untuk melakukan dan/atau tidak melakukan suatu hal berkaitan dengan kedudukan/jabatannya. Insan PT Indonesia Kendaraan Terminal apabila ditawarkan/diberikan Hadiah/Cinderamata dan/ atau Hiburan yang tidak sesuai dengan ketentuan yang diatur dalam Pedoman ini, wajib <b>MELAKUKAN PENOLAKAN</b> dengan cara santun terhadap tawaran/pemberian dimaksud, dengan memberikan penjelasan terhadap kebijakan dan aturan ini kepada Pihak Ketiga</p>
+                                </li>
+                                <!-- 3 -->
+                                <li>Gratifikasi yang termasuk kategori suap
+                                  <p class="text-justify">Suatu Gratifikasi akan berubah menjadi tindak pidana suap apabila memenuhi unsur-unsur sebagai berikut :</p>
+                                  <div class="bullet">
+                                    <ul>
+                                      <li>Gratifikasi tersebut berhubungan dengan wewenang/jabatan insan PT Indonesia Kendaraan Terminal di Perusahaan.</li>
+                                      <li>Gratifikasi yang berupa penerimaan Hadiah/Cinderamata dan Hiburan tidak dilaporkan kepada KPK dalam Jangka waktu 30 hari kerja sejak tanggal diterimanya.</li>
+                                      <li>Gratifikasi tersebut berlawanan dengan kewajiban dan atau tugas insan PT Indonesia Kendaraan Terminal.</li>
+                                    </ul>
+                                  </div>
+                                </li>
+                              </ol>
+                            </div>
+                        </div>
                     </div>
                     <div id="menu9" class="tab-pane fade">
                         <hr class="hrSpec hrSpecOrange">
