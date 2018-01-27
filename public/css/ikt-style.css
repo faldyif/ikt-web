@@ -1878,10 +1878,6 @@ figure figcaption {
   background-color: rgba(0, 0, 0, 0.6);
   margin-top: 5px !important;
   border: none;
-  box-shadow: none !important;
-  -webkit-box-shadow: none !important;
-  -moz-box-shadow: none !important;
-  -o-box-shadow: none !important;
   border-radius: 0;
   -webkit-border-radius: 0;
   -moz-border-radius: 0;

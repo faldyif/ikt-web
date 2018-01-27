@@ -1,5 +1,5 @@
 <link rel="stylesheet" type="text/css" href="{{ url('css/foundation.css') }}">
-<link rel="stylesheet" type="text/css" href="{{ url('css/styles_foundation.css') }}"> 
+<link rel="stylesheet" type="text/css" href="{{ url('css/styles_foundation.css') }}">
 @extends('layout.app-with-footer')
 
 @section('title', trans('stevedoring.head-title') . ' | IPC Car Terminal')

@@ -414,16 +414,23 @@
         <div class="process-steps">
           <!-- Steps 1 -->
           <div class="step-1">
-            <div class="col-md-4 center-auto animate fadeInUp" data-wow-delay="0.6s"> <span class="tittle-back"></span>
+            <div class="col-md-7 center-auto animate fadeInUp" data-wow-delay="0.6s"> <span class="tittle-back"></span>
               <h2 style="color:orange;">VISI</h2>
               <p class="whitetext">Menjadi Terminal Kendaraan Kelas Dunia yang Unggul dalam Operasional dan Pelayanan</p>
               <i class="icon-note"></i> </div>
           </div>
 
+          <div class="step-1 mg-b-30">
+            <div class="col-md-8 center-auto animate fadeInUp" data-wow-delay="0.6s"> <span class="tittle-back"></span>
+              <h2 style="color:orange;">MISI</h2>
+              <p class="whitetext">Sebagai pengelola terminal kendaraan yang memaksimalkan nilai tambah bagi seluruh kepentingan (<span class="font-italic">stakeholders</span>) secara berkesinambungan dalam rangka meningkatkan perekonomian nasional</p>
+              <i class="ion-android-checkbox-outline"></i> </div>
+
+          </div>
           <!-- Steps 1 -->
           <div class="step-1">
             <div class="col-md-4 center-auto animate fadeInUp" data-wow-delay="0.6s"> <span class="tittle-back">1</span>
-              <h2 style="color:orange;">MISI</h2>
+              <!-- <h2 style="color:orange;">MISI</h2> -->
               <h4>Untuk Masyarakat Negara</h4>
               <p class="whitetext">Menjamin kelancaran dari keamanan arus barang untuk mewujudkan efisiensi biaya logistik dalam rangka memacu pertumbuhan ekonomi yang berdampak pada peningkatan kesejahteraan masyarakat</p>
               <i class="icon-note"></i> </div>
@@ -448,7 +455,10 @@
             </div>
 
             <!-- Center Image -->
-            <div class="col-md-4 step-img img-responsive imgtrans text-center animate fadeIn" data-wow-delay="0.3s"> <img src="{{url('img/circleikt.png')}}" class="img-responsive" alt=""> </div>
+            <div class="col-md-4 step-img img-responsive imgtrans text-center animate fadeIn" data-wow-delay="0.3s">
+              <img src="{{url('img/circleikt-2.png')}}" class="img-responsive" alt="">
+              <div class="shine-anim"></div>
+            </div>
           </div>
 
           <!-- Steps 3 -->
@@ -459,12 +469,12 @@
             </div>
           </div>
            <!-- Steps 3 -->
-           <div class="step-3 animate fadeInDown" data-wow-delay="0.6s"> <span class="tittle-back">5</span> <i class="icon-vector"></i>
+           <!-- <div class="step-3 animate fadeInDown" data-wow-delay="0.6s"> <span class="tittle-back">5</span> <i class="icon-vector"></i>
             <h4>Untuk Perekonomian Nasioanl</h4>
             <div class="col-md-4 center-auto">
               <p class="whitetext">Sebagai pengelola terminal kendaraan yang memaksimalkan nilai tambah bagi seluruh kepentingan (stakeholders) secara berkesinambungan dalam rangka meningkatkan perekonomian nasional</p>
             </div>
-          </div>
+          </div> -->
 
         </div>
       </div>
@@ -708,9 +718,18 @@
     <!-- Heading Block -->
     <div class="heading-block white">
       <h6>get in touch </h6>
-      <span class="huge-tittle">contact</span></div>
-    <div class="rights col-md-9 center-auto">
-      <a href="#" class="btn-normal" data-toggle="modal" data-target="#modal-whistleblowing">Aduan Pelanggaran</a>
+      <span class="huge-tittle">contact</span> </div>
+    <div class="rights wb col-md-9 center-auto">
+      <a href="#" class="btn-normal" data-toggle="modal" data-target="#modal-whistleblowing">
+        <div class="">
+          <figure class="">
+            <img src="{{ url('img/whistle.png') }}" alt="">
+          </figure>
+          <p class="font-extra-bold text-uppercase" style="">
+            Pengaduan <br> Pelanggaran
+          </p>
+        </div>
+      </a>
     </div>
     <br>
     <!-- Rights -->
