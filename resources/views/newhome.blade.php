@@ -456,9 +456,8 @@
 
             <!-- Center Image -->
             <div class="col-md-4 step-img img-responsive imgtrans text-center animate fadeIn" data-wow-delay="0.3s">
-              <div class="shine-anim"></div>
               <img src="{{url('img/circleikt-2.png')}}" class="img-responsive" alt="">
-              <!-- <video src="{{ url('video/shine.mp4') }}" class="shine-vid" autoplay loop poster="{{url('img/circle.png')}}"></video> -->
+              <div class="shine-anim"></div>
             </div>
           </div>
 
