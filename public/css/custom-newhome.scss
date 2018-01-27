@@ -65,3 +65,128 @@
   100%{left:120%;top:-120%;}
 
 }
+// -------------------------------- whistle-blowing
+.wb {
+  a.btn-normal {
+    border: none;
+    position: relative;
+
+    &>div {
+      padding: 20px;
+
+      figure {
+        margin-bottom: 30px;
+        position: relative;
+
+        &:before {
+          content: '';
+          border: 2px solid #fff;
+          border-radius: 50% ;
+        	-webkit-border-radius: 50% ;
+        	-moz-border-radius: 50% ;
+        	-o-border-radius: 50% ;
+          height: 120px;
+          left: 50%;
+          opacity: 1;
+          position: absolute;
+          top: 50%;
+          transform: translate(-50%,-50%);
+          width: 120px;
+          z-index: -1;
+          transition: all 0.3s ease-in-out ;
+        	-webkit-transition: all 0.3s ease-in-out ;
+        	-moz-transition: all 0.3s ease-in-out ;
+        	-o-transition: all 0.3s ease-in-out ;
+        }
+      }
+      p {
+        color: #fff;
+        margin-bottom: 0;
+        transition: all 0.3s ease-in-out ;
+        -webkit-transition: all 0.3s ease-in-out ;
+        -moz-transition: all 0.3s ease-in-out ;
+        -o-transition: all 0.3s ease-in-out ;
+      }
+    }
+
+    &:before {
+      content: '';
+      background: #ff8349;
+      height: 3px;
+      left: 0;
+      position: absolute;
+      bottom: 7px;
+      width: 100%;
+      z-index: -1;
+
+      transition: all 0.3s ease-in-out ;
+    	-webkit-transition: all 0.3s ease-in-out ;
+    	-moz-transition: all 0.3s ease-in-out ;
+    	-o-transition: all 0.3s ease-in-out ;
+    }
+    &:hover {
+      background: none;
+
+      p {
+        color: #000;
+      }
+      &:before {
+        height: 12px;
+        z-index: 1;
+      }
+      figure {
+
+        &:before {
+          height: 110px;
+          width: 110px;
+          opacity: 0;
+        }
+      }
+    }
+  }
+}
+// -------------------------- IKT-logo animation
+.work-process .process-steps .step-img img {
+  background-color: #fff;
+}
+.shine-anim {
+  animation: shineAnim 3s infinite;
+  background:radial-gradient(transparent 0%,
+        rgba(241, 255, 22, 0.1) 35%,
+        rgba(240, 251, 71, 0.5) 60%,
+        rgba(221, 247, 10, 0.1) 75%);
+  border-radius: 50% ;
+  -webkit-border-radius: 50% ;
+  -moz-border-radius: 50% ;
+  -o-border-radius: 50% ;
+  height: 0;
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%,-50%);
+  width: 0;
+  z-index: 2;
+}
+@keyframes shineAnim {
+  from {
+    height: 0;
+    opacity: 1;
+    width: 0;
+  }
+  to {
+    height: 100%;
+    opacity: 0;
+    width: 100%;
+  }
+}
+.shine-vid {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 50%;
+  left: 50%;
+  z-index: 3;
+  transform: translate(-50%,-50%);
+  // -webkit-mask-image: url(../img/circleikt.png);
+  // mask-image: url(../img/circleikt.png);
+}
