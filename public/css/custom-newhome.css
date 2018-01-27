@@ -117,8 +117,8 @@
   background-color: #fff; }
 
 .shine-anim {
-  animation: shineAnim 3s infinite;
-  background: radial-gradient(transparent 0%, rgba(241, 255, 22, 0.1) 35%, rgba(240, 251, 71, 0.5) 60%, rgba(221, 247, 10, 0.1) 75%);
+  animation: shineAnim 2s infinite;
+  background: radial-gradient(transparent 0%, rgba(241, 255, 22, 0.1) 35%, rgba(240, 251, 71, 0.7) 65%, #f0fb47 70%, rgba(221, 247, 10, 0.1) 71%, transparent 100%);
   border-radius: 50%;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
