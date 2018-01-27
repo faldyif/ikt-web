@@ -36,7 +36,7 @@
                         <div class="timeline-panel">
                             <div class="timeline-heading">
                                 <p><span class="roboMedium normalTitle or">2014</span></p>
-                                <h4 class="timeline-title">Penilaian KAP dengan Penilaian Wajar Terhadap Semua Hal yang Materiil (EY)</h4>
+                                <h4 class="timeline-title">Penilaian KAP dengan Penilaian Waiar Terhadap Semua Hal yang Materiil (EY)</h4>
                             </div>
                         </div>
                     </li>
@@ -99,8 +99,10 @@
                         <div class="timeline-badge"><i class="fa fa-trophy"></i></div>
                         <div class="timeline-panel">
                             <div class="timeline-heading">
+                                <img class="img-responsive" style="width:80%" src="{{ url('img/bestinnov.png')}}">
                                 <p><span class="roboMedium normalTitle or">2017</span></p>
-                                <h4 class="timeline-title">Implementasi Sistem Standar Mutu Operasional ISO 9001:2015</h4>
+                                <h4 class="timeline-title">The Best Innovation Subsidiary 2017
+                                    </h4>
                             </div>
                         </div>
                     </li>
@@ -112,22 +114,6 @@
                             </div>
                             <div class="timeline-body">
                                 <p class="roboMedium">Indonesia Sales &amp; Marketing Award 2017/ISMA 2017, Majalah Economic Review, Binus Business School, Indonesia-Asia Institute, Frontliner Services, Ideku Group</p>
-                            </div>
-                        </div>
-                    </li>
-                    <li class="timeline-inverted">
-                        <div class="timeline-panel">
-                            <div class="timeline-heading">
-                                <p><span class="roboMedium normalTitle or">2017</span></p>
-                                <h4 class="timeline-title">Implementasi Sistem Standar Lingkungan ISO 14001:2015</h4>
-                            </div>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="timeline-panel">
-                            <div class="timeline-heading">
-                                <p><span class="roboMedium normalTitle or">2017</span></p>
-                                <h4 class="timeline-title">Implementasi Sistem Standar K3 OHSAS 18001:2007</h4>
                             </div>
                         </div>
                     </li>

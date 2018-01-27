@@ -402,7 +402,7 @@
 <!-- /BENEFIT OF RORO -->
 <!-- Sertification -->
 <section>
-    <div class="container-fluid wow fadeInUpBig" style="text-align: justify">
+    <div class="container-fluid wow fadeInUpBig" >
       
       <h2 class="roboBold text-center">SERTIFIKASI</h2>
       <section class="row pd-bt-30 mg-bt-10">
