@@ -65,7 +65,7 @@
                             <a href="#"><img class="card-img-top img-responsive img-responsive" src="http://placehold.it/700x400" alt=""></a>
                             <div class="card-body">
                               <h4 class="card-title">
-                                <a href="#">Office & Workshop</a>
+                                <a href="#">Shuttle</a>
                               </h4>
                             </div>
                           </div>
@@ -96,7 +96,7 @@
                             <a href="#"><img class="card-img-top img-responsive img-responsive" src="http://placehold.it/700x400" alt=""></a>
                             <div class="card-body">
                               <h4 class="card-title">
-                                <a href="#">Waiting Room	</a>
+                                <a href="#">Golf Cart	</a>
                               </h4>
                             </div>
                           </div>
@@ -116,7 +116,7 @@
                             <a href="#"><img class="card-img-top img-responsive img-responsive" src="http://placehold.it/700x400" alt=""></a>
                             <div class="card-body">
                               <h4 class="card-title">
-                                <a href="#">Car Wash</a>
+                                <a href="#">Head Truck</a>
                               </h4>
                             </div>
                           </div>
@@ -170,7 +170,7 @@
                             <a href="#"><img class="card-img-top img-responsive img-responsive" src="http://placehold.it/700x400" alt=""></a>
                             <div class="card-body">
                               <h4 class="card-title">
-                                <a href="#">Fire Resque Truck</a>
+                                <a href="#">Fire Rescue Truck</a>
                               </h4>
                               <p>Jumlah : 1 unit</p>
                             </div>
@@ -184,6 +184,17 @@
                                 <a href="#">Shuttle Service</a>
                               </h4>
                               <p>Jumlah : 2 unit</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-lg-4 col-sm-6 portfolio-item mg-bt-10">
+                          <div class="card h-100">
+                            <a href="#"><img class="card-img-top img-responsive img-responsive" src="http://placehold.it/700x400" alt=""></a>
+                            <div class="card-body">
+                              <h4 class="card-title">
+                                <a href="#">Central Inspection Facility</a>
+                              </h4>
+                              
                             </div>
                           </div>
                         </div>

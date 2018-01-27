@@ -56,7 +56,7 @@
                       <div class="row">
                         <div class="col-lg-4 col-sm-6 portfolio-item mg-bt-10">
                           <div class="card h-100">
-                            <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
+                            <a href="#"><img class="card-img-top img-responsive" src="http://placehold.it/700x400" alt=""></a>
                             <div class="card-body">
                               <h4 class="card-title">
                                 <a href="#">Kanal</a>
@@ -68,7 +68,7 @@
                         </div>
                         <div class="col-lg-4 col-sm-6 portfolio-item mg-bt-10">
                           <div class="card h-100">
-                            <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
+                            <a href="#"><img class="card-img-top img-responsive" src="http://placehold.it/700x400" alt=""></a>
                             <div class="card-body">
                               <h4 class="card-title">
                                 <a href="#">Dermaga 1</a>
@@ -80,7 +80,7 @@
                         </div>
                         <div class="col-lg-4 col-sm-6 portfolio-item mg-bt-10">
                           <div class="card h-100">
-                            <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
+                            <a href="#"><img class="card-img-top img-responsive" src="http://placehold.it/700x400" alt=""></a>
                             <div class="card-body" >
                               <h4 class="card-title">
                                 <a href="#">Dermaga 2</a>
@@ -134,7 +134,7 @@
                       <div class="row">
                         <div class="col-lg-4 col-sm-6 portfolio-item mg-bt-10">
                           <div class="card h-100">
-                            <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
+                            <a href="#"><img class="card-img-top img-responsive" src="http://placehold.it/700x400" alt=""></a>
                             <div class="card-body">
                               <h4 class="card-title">
                                 <a href="#">Lapangan A</a>
@@ -145,7 +145,7 @@
                         </div>
                         <div class="col-lg-4 col-sm-6 portfolio-item mg-bt-10">
                           <div class="card h-100">
-                            <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
+                            <a href="#"><img class="card-img-top img-responsive" src="http://placehold.it/700x400" alt=""></a>
                             <div class="card-body">
                             <h4 class="card-title">
                             <a href="#">Lapangan B</a>
@@ -156,7 +156,7 @@
                         </div>
                         <div class="col-lg-4 col-sm-6 portfolio-item mg-bt-10">
                           <div class="card h-100">
-                            <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
+                            <a href="#"><img class="card-img-top img-responsive" src="http://placehold.it/700x400" alt=""></a>
                             <div class="card-body" >
                             <h4 class="card-title">
                             <a href="#">Lapangan C (Buffer)</a>
@@ -167,7 +167,7 @@
                         </div>
                         <div class="col-lg-4 col-sm-6 portfolio-item mg-bt-10">
                           <div class="card h-100">
-                            <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
+                            <a href="#"><img class="card-img-top img-responsive" src="http://placehold.it/700x400" alt=""></a>
                             <div class="card-body" >
                             <h4 class="card-title">
                             <a href="#">Lapangan H</a>
@@ -178,7 +178,7 @@
                         </div>
                         <div class="col-lg-4 col-sm-6 portfolio-item mg-bt-10">
                           <div class="card h-100">
-                            <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
+                            <a href="#"><img class="card-img-top img-responsive" src="http://placehold.it/700x400" alt=""></a>
                             <div class="card-body" >
                             <h4 class="card-title">
                             <a href="#">Lapangan O</a>
@@ -189,7 +189,7 @@
                         </div>
                         <div class="col-lg-4 col-sm-6 portfolio-item mg-bt-10">
                           <div class="card h-100">
-                            <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
+                            <a href="#"><img class="card-img-top img-responsive" src="http://placehold.it/700x400" alt=""></a>
                             <div class="card-body" >
                             <h4 class="card-title">
                             <a href="#">Gedung Parkir 5 Lantai</a>
@@ -250,7 +250,7 @@
                       <div class="row">
                       <div class="col-lg-4 col-sm-6 portfolio-item mg-bt-10">
                           <div class="card h-100">
-                            <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
+                            <a href="#"><img class="card-img-top img-responsive" src="http://placehold.it/700x400" alt=""></a>
                             <div class="card-body" >
                             <h4 class="card-title">
                             <a href="#">Lapangan E</a>
