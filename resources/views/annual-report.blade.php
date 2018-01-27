@@ -83,6 +83,7 @@
         </section>
       </div>
     </section>
+@endsection
 
     <!---->
 @section('bottom')
