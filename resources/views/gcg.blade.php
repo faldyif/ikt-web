@@ -199,7 +199,7 @@
                                 </div>
                                 <div class="col-lg-4 col-sm-6 portfolio-item">
                                     <div class="card h-100">
-                                    <a href="#"><img class="card-img-top img-responsive img-responsive" src="{{url('img/IndraHidayatSani.jpg')}}" alt=""></a>
+                                    <a href="#"><img class="card-img-top img-responsive img-responsive" src="{{url('img/IndraHidayatSani-w.jpg')}}" alt=""></a>
                                     <div class="card-body">
                                         <h4 class="card-title">
                                         <a href="#">Indra Hidayat Sani</a>
@@ -213,7 +213,7 @@
                                 </div>
                                 <div class="col-lg-4 col-sm-6 portfolio-item">
                                     <div class="card h-100">
-                                    <a href="#"><img class="card-img-top img-responsive img-responsive" src="{{url('img/Arman Badudu.jpg')}}" alt=""></a>
+                                    <a href="#"><img class="card-img-top img-responsive img-responsive" src="{{url('img/Arman Badudu-w.jpg')}}" alt=""></a>
                                     <div class="card-body">
                                         <h4 class="card-title">
                                         <a href="#">Armand Badudu</a>
@@ -260,7 +260,7 @@
                                     <div class="col-lg-2 col-sm-6 portfolio-item"></div>
                                     <div class="col-lg-4 col-sm-6 portfolio-item">
                                         <div class="card h-100">
-                                            <a href="#"><img class="card-img-top img-responsive img-responsive" src="{{url('img/Bimo_W.JPG')}}" alt=""></a>
+                                            <a href="#"><img class="card-img-top img-responsive img-responsive" src="{{url('img/Bimo_W-w.JPG')}}" alt=""></a>
                                             <div class="card-body">
                                                 <h4 class="card-title">
                                                     <a href="#">Bimo Widhiatmoko</a>
@@ -274,7 +274,7 @@
                                     </div>
                                     <div class="col-lg-4 col-sm-6 portfolio-item">
                                         <div class="card h-100">
-                                            <a href="#"><img class="card-img-top img-responsive img-responsive" src="{{url('img/M_Syaefullah.JPG')}}" alt=""></a>
+                                            <a href="#"><img class="card-img-top img-responsive img-responsive" src="{{url('img/M_Syaefullah-w.JPG')}}" alt=""></a>
                                             <div class="card-body">
                                                 <h4 class="card-title">
                                                     <a href="#">M Syaefullah</a>
@@ -295,7 +295,7 @@
                                     <div class="col-lg-2 col-sm-6 portfolio-item"></div>
                                     <div class="col-lg-4 col-sm-6 portfolio-item">
                                         <div class="card h-100">
-                                            <a href="#"><img class="card-img-top img-responsive img-responsive" src="{{url('img/IndraHidayatSani.jpg')}}" alt=""></a>
+                                            <a href="#"><img class="card-img-top img-responsive img-responsive" src="{{url('img/IndraHidayatSani-w.jpg')}}" alt=""></a>
                                             <div class="card-body">
                                                 <h4 class="card-title">
                                                     <a href="#">Indra Hidayat Sani</a>
@@ -309,7 +309,7 @@
                                     </div>
                                     <div class="col-lg-4 col-sm-6 portfolio-item">
                                         <div class="card h-100">
-                                            <a href="#"><img class="card-img-top img-responsive img-responsive" src="{{url('img/Arman Badudu.jpg')}}" alt=""></a>
+                                            <a href="#"><img class="card-img-top img-responsive img-responsive" src="{{url('img/Arman Badudu-w.jpg')}}" alt=""></a>
                                             <div class="card-body">
                                                 <h4 class="card-title">
                                                     <a href="#">Armand Badudu</a>
@@ -669,12 +669,55 @@
                     <div id="menu9" class="tab-pane fade">
                         <hr class="hrSpec hrSpecOrange">
                         <h4 class="card-title roboBold">Pedoman Kepatuhan LHKPN</h4>
-                        <p>Konten sedang disiapkan...</p>
+                        <div class="col-md-12">
+                          <p class="text-justify">Untuk menujukkan komitmen terhadap penerapan GCG di perusahaan, Pedoman Kepatuhan Laporan Harta Kekayaan Penyelenggara Negara (LHKPN) ini akan diterapkan secara konsisten di semua aktivitas bisnis perusahaan. Karena itu PT Indonesia Kendaraan Terminal  dalam menjaga kepercayaan dan kredibilitas perusahaan dengan masyarakat, pemegang saham, pemerintah, mitra kerja dan pemangku kepentingan lainnya selalu mengedepankan integritas dan komitmen yang tinggi untuk mengelola LHKPN.</p>
+                          <p class="text-justify">Sebagai salah satu anak perusahaan Badan Usaha Milik Negara, PT Indonesia Kendaraan Terminal menyusun, menetapkan dan mengimplementasi pedoman kepatuhan Laporan Harta Kekayaan Penyelenggara Negara sebagai wujud kepatuhan perusahaan dalam melaksanakan berbagai peraturan perundang-undangan khususnya terkait dengan pelaporan harta kekayaan yang dimiliki oleh pejabat wajib lapor PT Indonesia Kendaraan Terminal.</p>
+                          <p class="text-justify">Pengelolaan LHKPN juga merupakan komitmen bersama Insan PT Indonesia Kendaraan Terminal sebagai pejabat wajib lapor untuk melaksanakan tugas dan tanggung jawabnya dalam rangka mencapai visi, misi dan tata nilai perusahaan.</p>
+                        </div>
                     </div>
                     <div id="menu10" class="tab-pane fade">
                         <hr class="hrSpec hrSpecOrange">
                         <h4 class="card-title roboBold">Internal Auditor</h4>
-                        <p>Konten sedang disiapkan...</p>
+                        <div class="col-md-12">
+                          <div class="table-responsive">
+                            <table class="table table-striped table-hover">
+                              <thead>
+                                <tr>
+                                  <th>No</th>
+                                  <th>Tahun</th>
+                                  <th>Audit</th>
+                                  <th>Opini</th>
+                                </tr>
+                              </thead>
+                              <tbody>
+                                <tr>
+                                  <td>1</td>
+                                  <td>2013</td>
+                                  <td>Hadori Sugiarto Adi & Rekan, HLB</td>
+                                  <td>Wajar Tanpa Pengecualian</td>
+                                </tr>
+                                <tr>
+                                  <td>2</td>
+                                  <td>2014</td>
+                                  <td>Purwantono, Suherman & Surja, EY</td>
+                                  <td>Wajar Tanpa Pengecualian</td>
+                                </tr>
+                                <tr>
+                                  <td>3</td>
+                                  <td>2015</td>
+                                  <td>Purwantono, Sungkoro & Surja, EY</td>
+                                  <td>Wajar Tanpa Pengecualian</td>
+                                </tr> 
+                                <tr>
+                                  <td>4</td>
+                                  <td>2016</td>
+                                  <td>Purwantono, Sungkoro & Surja, EY</td>
+                                  <td>Wajar Tanpa Pengecualian</td>
+                                </tr> 
+                              </tbody>
+                            </table>
+                          </div>
+                        </div>
                     </div>
                     <div id="menu11" class="tab-pane fade">
                         <hr class="hrSpec hrSpecOrange">
