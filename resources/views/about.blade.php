@@ -197,7 +197,7 @@
               <div class="col-md-7">
                 <hr class="hrSpec hrSpecOrange">
                 <h3 class="roboBlack">Logo Perusahaan</h3>
-                
+
                 <h4 class="mg-t-20 roboBlack">Bentuk Logo</h4>
                 <p>Bentuk Logo perusahaan yang melengkung menandakan dinamis dan tangkas yang dirancang untuk mewakili ambisi perusahaan menjadi Operator Terminal Kendaraan yang berkelas Dunia.</p>
                 <h4 class="mg-t-20 roboBlack">Warna Abu-abu</h4>
@@ -361,7 +361,7 @@
                       </li>
                       <li>                    <p>Kepastian dan keamanan caargo terjamin</p>
                       </li>
-                      
+
                     </ul>
                   </section>
                 </section>
@@ -392,7 +392,7 @@
           </div>
           <div class="col-md-5">
             <!-- Untuk gambar -->
-            
+
           </div>
         </section>
       </div>
@@ -403,7 +403,7 @@
 <!-- Sertification -->
 <section>
     <div class="container-fluid wow fadeInUpBig" style="text-align: justify">
-      
+
       <h2 class="roboBold text-center">SERTIFIKASI</h2>
       <section class="row pd-bt-30 mg-bt-10">
         <div class="col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1">
@@ -423,7 +423,7 @@
                           <h3> Sistem Standar Mutu Operasional ISO 9001:2015</h3>
                       </div>
                   </div>
-                  
+
               </section>
           </div>
           <!-- /newAlbumList -->
@@ -443,7 +443,7 @@
                           <h3> Sistem Standar Lingkungan ISO 14001:2015</h3>
                       </div>
                   </div>
-                  
+
               </section>
           </div>
           <!-- /newAlbumList -->
@@ -463,11 +463,11 @@
                           <h3> Sistem Standar K3 OHSAS 18001:2007</h3>
                       </div>
                   </div>
-                  
+
               </section>
           </div>
           <!-- /newAlbumList -->
-          
+
         </div>
       </section>
     </div>
@@ -492,4 +492,5 @@
   </div>
 </section>
 <!-- /PETA LOKASI -->
+
 @endsection

@@ -144,7 +144,7 @@ figure {
 	background-color: rgba(0, 0, 0, 0.6);
 	margin-top:5px !important;
 	border: none;
-	@include no-box-shadow();
+	// @include no-box-shadow();
 	@include radius(0);
 	&>li {
 		&>a {
