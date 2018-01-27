@@ -25,7 +25,7 @@
             <div class="col-md-7 col-sm-12" style="text-align: justify">
                 <hr class="hrSpec hrSpecOrange">
                 <h3 class="mg-b-30 roboBold">Tentang Kami</h3>
-                <p>PT Indonesia Kendaraan Terminal merupakan terminal yang secara khusus diusahakan secara komersial untuk memberikan jasa pelayanan terminal kendaraan. Adapun pelayanan jasanya meliputi Stevedoring, Cargodoring, dan Receiving Delivery. Selain itu juga melayani pelayanan jasa lainnya Vehicle Processing Center (VPC) dan Equipment Processing Center (EPC).</p>
+                <p>PT Indonesia Kendaraan Terminal merupakan terminal yang secara khusus diusahakan secara komersial untuk memberikan jasa pelayanan terminal kendaraan. Adapun pelayanan jasanya meliputi <i>Stevedoring</i>, <i>Cargodoring</i>, <i>Receiving</i>, dan <i>Delivery</i>. Selain itu juga melayani pelayanan jasa lainnya <i>Vehicle Processing Center</i> (VPC) dan <i>Equipment Processing Center</i> (EPC).</p>
                 <p>PT Indonesia Kendaraan Terminal didirikan sebagai entitas bisnis tersendiri pada tanggal 5 November 2012 dengan prosentase kepemilikan saham PT Pelabuhan Indonesia II (Persero) sebesar 99% dan PT Multi Terminal Indonesia sebesar 1%. Sebelum menjadi entitas bisnis tersendiri, PT Indonesia Kendaraan Terminal hanya sebuah <i> strategic business </i> unit yang bernama Tanjung Priok Car Terminal (TPT) yang pengelolaannya di bawah Kantor Pusat dan  beroperasi sejak Juni 2007.</p>
                 <p>Saat ini PT Indonesia Kendaraan Terminal juga dikenal dengan nama IPC Car Terminal.</p>
             </div>
@@ -101,7 +101,7 @@
           <div class="col-md-8 col-md-offset-2">
             <section class="row">
               <div class="col-md-12 text-center mg-b-30">
-                  <h3>Sebagai pengelola terminal kendaraan yang memaksimalkan nilai tambah bagi seluruh kepentingan (stakeholders) secara berkesinambungan dalam rangka meningkatkan perekonomian nasional</h3>
+                  <h3>Sebagai pengelola terminal kendaraan yang memaksimalkan nilai tambah bagi seluruh kepentingan (<i>stakeholders</i>) secara berkesinambungan dalam rangka meningkatkan perekonomian nasional</h3>
               </div>
               <div class="col-md-6 text-center mg-b-30">
                 <center><img class="img-responsive" src="{{ url('img/1_corporate_culture.png') }}" style="width: 80px; height: auto; margin: 10px"></center>
@@ -205,7 +205,7 @@
                 <h4 class="mg-t-20 roboBlack">Warna Jingga</h4>
                 <p>Warna Jingga pada tulisan Car dan gambar melengkung bagian atas menggambarkan semangat perubahan, kekuatan, optimisme, serta kebanggan setiap karyawan, untuk bersama-sama berdiri di garis terdepan dalam mencapai tujuan organisasi.</p>
                 <h4 class="mg-t-20 roboBlack">Warna Biru</h4>
-                <p>Warna Biru pada gambar melengkung bagian bawah menggambarkan kesiapan memasuki era baru yang dinamis dan fleksibiltas setiap komponen dalam perusahaan menghadapi berbagai tantangan guna mencapai tujuan perusahaan sebagai world-class port operator.</p>
+                <p>Warna Biru pada gambar melengkung bagian bawah menggambarkan kesiapan memasuki era baru yang dinamis dan fleksibiltas setiap komponen dalam perusahaan menghadapi berbagai tantangan guna mencapai tujuan perusahaan sebagai <i>world-class port operator</i>.</p>
 
                 <h4 class="mg-t-20 roboBlack">We Will <font color="#E1373F">S</font><font color="#35A5D7">H</font><font color="#ADCD49">I</font><font color="#D9853A">N</font><font color="#D35A9D">E</font> With You</h4>
                 <p>Dengan tagline tersebut memberikan motivasi dan spirit bagi kita semuanya untuk berkontribusi kepada masa depan Bangsa Indonesia yang lebih baik melalui kolaborasi dan sinergi para pihak dalam mewujudkan PT IKT sebagai terminal kendaraan berkelas dunia yang unggul dalam operasional dan pelayanan. Selain itu, kelak PT IKT akan menjadi salah satu kebanggaan Bangsa Indonesia.</p>
@@ -357,9 +357,9 @@
                   <section>
                     <h4 class="roboBold">Perusahaan Logistik</h4>
                     <ul>
-                      <li>                    <p>Supply chain management yang efisien mendorong inventory management yang efektif</p>
+                      <li>                    <p>Supply chain management yang efisien mendorong <i>inventory management</i> yang efektif</p>
                       </li>
-                      <li>                    <p>Kepastian dan keamanan caargo terjamin</p>
+                      <li>                    <p>Kepastian dan keamanan cargo terjamin</p>
                       </li>
 
                     </ul>

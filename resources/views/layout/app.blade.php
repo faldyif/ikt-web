@@ -189,7 +189,7 @@
   <script src="{{ url('js/masonry.js') }}"></script>
   <script src="{{ url('js/imagesloaded.js') }}"></script>
   <script src="{{ url('js/custom.js') }}"></script>
-  <script src="{{ url('homepage/js/vendors/own-menu.js')}}"></script>
+  <!-- <script src="{{ url('homepage/js/vendors/own-menu.js')}}"></script> -->
   <script src="{{ url('homepage/js/vendors/jquery.sticky.js')}}"></script>
   <script src="{{ url('js/bootstrap-notify.min.js') }}"></script>
   <script type="text/javascript">
@@ -198,7 +198,7 @@
         /*		STICKY NAVIGATION
         /*-----------------------------------------------------------------------------------*/
         $(".sticky").sticky({topSpacing:0});
-        
+
           $('#modal-whistleblowing-response').hide();
           $('#modal-whistleblowing-loading').hide();
 

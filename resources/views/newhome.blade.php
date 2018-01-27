@@ -423,7 +423,7 @@
           <div class="step-1 mg-b-30">
             <div class="col-md-8 center-auto animate fadeInUp" data-wow-delay="0.6s"> <span class="tittle-back"></span>
               <h2 style="color:orange;">MISI</h2>
-              <p class="whitetext">Sebagai pengelola terminal kendaraan yang memaksimalkan nilai tambah bagi seluruh kepentingan (stakeholders) secara berkesinambungan dalam rangka meningkatkan perekonomian nasional</p>
+              <p class="whitetext">Sebagai pengelola terminal kendaraan yang memaksimalkan nilai tambah bagi seluruh kepentingan (<span class="font-italic">stakeholders</span>) secara berkesinambungan dalam rangka meningkatkan perekonomian nasional</p>
               <i class="ion-android-checkbox-outline"></i> </div>
 
           </div>
