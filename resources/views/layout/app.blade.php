@@ -17,9 +17,10 @@
   <link rel="stylesheet" type="text/css" href="{{ url('css/animate.css') }}">
   <link rel="stylesheet" type="text/css" href="{{ url('css/lightcase.css') }}">
   <link rel="stylesheet" type="text/css" href="{{ url('css/slick.css') }}">
-  <link rel="stylesheet" type="text/css" href="{{ url('css/jquery.fullpage.min.css') }}">
+  <!-- <link rel="stylesheet" type="text/css" href="{{ url('css/jquery.fullpage.min.css') }}"> -->
   <link rel="stylesheet" type="text/css" href="{{ url('css/ikt-style.css') }}">
   <link rel="stylesheet" type="text/css" href="{{ url('homepage/css/header-only.css')}}">
+  <link rel="stylesheet" href="{{ url('homepage/css/responsive.css')}}">
   
 
   <meta name="csrf-token" content="{{ csrf_token() }}">
