@@ -27,6 +27,23 @@
 
   <!-- COLORS -->
   <link rel="stylesheet" id="color" href="{{ url('homepage/css/colors/blue.css')}}">
+  <style type="text/css">
+    button.btn-normal {
+      background: white;
+      color: rgb(255, 131, 73);
+
+      transition-duration: 0.4s;
+      transition-timing-function: ease-in-out;
+      transition-delay: initial;
+      transition-property: all;
+      font-family: Montserrat, sans-serif;
+      text-decoration: none !important;
+    }
+    button.btn-normal:hover {
+      color: white;
+      background: rgb(255, 131, 73);
+    }
+  </style>
 
   <!-- JavaScripts -->
   <script src="{{ url('homepage/js/vendors/modernizr.js')}}"></script>

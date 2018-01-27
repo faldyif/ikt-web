@@ -181,8 +181,14 @@
           <br>
           {!! Recaptcha::render() !!}
           <hr>
-          <a class="btn-normal" data-dismiss="modal">Tutup</a>
-          <button id="postbutton" class="btn-normal"><i class="fa fa-send"></i> Kirim</button>
+          <a class="btn-normal" data-dismiss="modal" style="
+            padding: 4.5px;
+            border: 1px solid black;
+            color: #2C82C9;">Tutup</a>
+          <button id="postbutton" class="btn-normal" style="
+            background: white;
+            border: 1px solid black;
+            color: #2C82C9;"><i class="fa fa-send"></i> Kirim</button>
           {!! Form::close() !!}
         </div>
       </div>
