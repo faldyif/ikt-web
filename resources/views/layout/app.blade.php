@@ -20,6 +20,7 @@
   <link rel="stylesheet" type="text/css" href="{{ url('css/jquery.fullpage.min.css') }}">
   <link rel="stylesheet" type="text/css" href="{{ url('css/ikt-style.css') }}">
   <link rel="stylesheet" type="text/css" href="{{ url('homepage/css/header-only.css')}}">
+  
 
   <meta name="csrf-token" content="{{ csrf_token() }}">
   @yield('head')
