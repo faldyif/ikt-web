@@ -27,13 +27,6 @@ li {
 		@include transition(0.3);
 	}
 }
-nav {
-	button {
-		span {
-			background-color: $white;
-		}
-	}
-}
 .containerCenter {
 	position: absolute;
 	overflow: hidden ;

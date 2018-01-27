@@ -140,9 +140,6 @@ li {
     -moz-transition: all 0.3s ease-in-out;
     -o-transition: all 0.3s ease-in-out; }
 
-nav button span {
-  background-color: #ffffff; }
-
 .containerCenter {
   position: absolute;
   overflow: hidden;
@@ -1716,11 +1713,13 @@ figcaption.caption {
 @media only screen and (max-height: 768px) {
   .taglineMerah {
     width: 65%;
-    height: auto; }
+    height: auto;
+    margin-left: 8%; }
 
   .iktheart {
     width: 65%;
-    height: auto; } }
+    height: auto;
+    margin-left: 14%; } }
 .btn {
   transition: all 0.3s ease-in-out;
   -webkit-transition: all 0.3s ease-in-out;

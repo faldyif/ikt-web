@@ -81,7 +81,7 @@
                   Sejalan dengan CINTA (Customer Centric, Integrity, Nasionalism, Teamwork dan Action) sebagai nilai-nilai perusahaan yang disemat dalam tagline tersebut, PT Indonesia Kendaraan Terminal bertekad untuk menjadi perusahaan pengelola terminal kendaraan yang profesional dan dapat disejajarkan serta bersaing dengan penyedia layanan terminal kendaraan terbaik di dunia. Hal lain yang menjadi tujuan dari penetapan Budaya Perusahaan adalah bahwa PT Indonesia Kendaraan Terminal harus mampu menjadi terminal kendaraan yang unggul dalam operasional dengan menerapkan standar operasional terbaik di dunia yang berproduktifitas tinggi, serta secara efektif dan efisien sekaligus mampu menerapkan <i> internasional best practice </i> yang mengimplementasikan kebijakan <i> “zero accident” </i>, termasuk memberikan pelayanan-pelayanan yang unggul serta mengerti akan kebutuhan pengguna jasanya.
                 </p>
                  <br> 
-                <img src="{{ url('img/iktheart.png') }}" class="img-responsive iktheart">
+                <img src="{{ url('img/iktheart1.png') }}" class="img-responsive iktheart">
               </div>
             </div>
           </div>
