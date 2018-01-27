@@ -678,6 +678,11 @@
                     <div id="menu10" class="tab-pane fade">
                         <hr class="hrSpec hrSpecOrange">
                         <h4 class="card-title roboBold">Internal Auditor</h4>
+                        <p>Konten sedang disiapkan...</p>
+                    </div>
+                    <div id="menu11" class="tab-pane fade">
+                        <hr class="hrSpec hrSpecOrange">
+                        <h4 class="card-title roboBold">Auditor Independent</h4>
                         <div class="col-md-12">
                           <div class="table-responsive">
                             <table class="table table-striped table-hover">
@@ -718,11 +723,6 @@
                             </table>
                           </div>
                         </div>
-                    </div>
-                    <div id="menu11" class="tab-pane fade">
-                        <hr class="hrSpec hrSpecOrange">
-                        <h4 class="card-title roboBold">Auditor Independent</h4>
-                        <p>Konten sedang disiapkan...</p>
                     </div>
                   </div>
                 </div>

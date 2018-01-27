@@ -41,21 +41,22 @@
                 <div id="ar-2016" class="col-md-12 annual pd-bt-20 mg-bt-10 flex-row-center">
                   <div class="col-md-3">
                     <!-- foto -->
-                    <img src="http://online.fliphtml5.com/tlahn/sxqf/files/shot.jpg" id="ar-2016-link" class="annual-img img-responsive" data-rel="fh5-light-box-demo" data-href="" data-width="700" data-height="400" data-title="Annual Report IKT 2016">
+                    <img src="http://online.fliphtml5.com/tlahn/sxqf/files/shot.jpg" class="annual-img img-responsive">
                   </div>
                   <div class="col-md-9">
                     <!-- konten -->
                     <div class="col-md-7">
                     <p>Annual Report PT Indonesia Kendaraan Terminal 2016</p>
-                    <p>Halaman: 70 Halaman</p>
+                    <p>Halaman: 73 Halaman</p>
                     <p>Tahun: 2016</p>
                     </div>
                     <div class="col-md-5">
                       <p>Deskripsi: </p>
-                      <a href="#" class="btn btn-primary">Download</a>
+                      <a href="{{ url('img/pdf/annual_report_2016.pdf')}}" class="btn btn-primary" download="">Download</a>
                     </div>
                   </div>
                 </div>
+                <img src="http://online.fliphtml5.com/tlahn/sxqf/files/shot.jpg" id="ar-2016-link" class="annual-img img-responsive" data-rel="fh5-light-box-demo" data-href="http://online.fliphtml5.com/tlahn/sxqf/" data-width="700" data-height="400" data-title="Annual Report IKT 2016" style="display: none">
               </div>
               <div class="row">
                 <div class="col-md-12 annual pd-bt-20 mg-bt-10 flex-row-center">
@@ -88,7 +89,7 @@
 <script src="//static.fliphtml5.com/web/js/plugin/LightBox/js/fliphtml5-light-box-api-min.js"></script>
 <script type="text/javascript">
   $("#ar-2016").click(function () { 
-    $("#ar-2016-link").attr("data-href", "http://online.fliphtml5.com/tlahn/sxqf/");
+    $("#ar-2016-link").trigger('click');
 
 });
 </script>
