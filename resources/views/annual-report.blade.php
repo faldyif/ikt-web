@@ -11,6 +11,7 @@
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     width: auto; 
     height: 200px !important;
+    margin: 0 auto;
   }
 </style>
 
@@ -40,7 +41,7 @@
                 <div id="ar-2016" class="col-md-12 annual pd-bt-20 mg-bt-10 flex-row-center">
                   <div class="col-md-3">
                     <!-- foto -->
-                    <img src="http://online.fliphtml5.com/tlahn/sxqf/files/shot.jpg" id="ar-2016-link" class="annual-img img-responsive" data-rel="fh5-light-box-demo" data-href="http://online.fliphtml5.com/tlahn/sxqf/" data-width="700" data-height="400" data-title="Annual Report IKT 2016">
+                    <img src="http://online.fliphtml5.com/tlahn/sxqf/files/shot.jpg" id="ar-2016-link" class="annual-img img-responsive" data-rel="fh5-light-box-demo" data-href="" data-width="700" data-height="400" data-title="Annual Report IKT 2016">
                   </div>
                   <div class="col-md-9">
                     <!-- konten -->
@@ -60,7 +61,7 @@
                 <div class="col-md-12 annual pd-bt-20 mg-bt-10 flex-row-center">
                   <div class="col-md-3">
                     <!-- foto -->
-                    <img src="{{ url('img/thumb.jpg') }}" class="annual-img img-responsive">
+                    <img src="{{ url('img/ar-2017.png') }}" class="annual-img img-responsive">
                   </div>
                   <div class="col-md-9">
                     <!-- konten -->
@@ -71,7 +72,7 @@
                     </div>
                     <div class="col-md-5">
                     <p>Deskripsi: </p>
-                    <a href="#" class="btn btn-primary">Download</a>
+                    <a href="#" class="btn btn-primary disabled">Download</a>
                     </div>
                   </div>
                 </div>
@@ -85,4 +86,10 @@
     <!---->
 @section('bottom')
 <script src="//static.fliphtml5.com/web/js/plugin/LightBox/js/fliphtml5-light-box-api-min.js"></script>
+<script type="text/javascript">
+  $("#ar-2016").click(function () { 
+    $("#ar-2016-link").attr("data-href", "http://online.fliphtml5.com/tlahn/sxqf/");
+
+});
+</script>
 @endsection
