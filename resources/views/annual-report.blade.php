@@ -52,7 +52,7 @@
                     </div>
                     <div class="col-md-5">
                       <p>Deskripsi: </p>
-                      <a href="{{ url('img/pdf/annual_report_2016.pdf')}}" class="btn btn-primary" download="">Download</a>
+                      <a href="{{ url('img/pdf/annual_report_2016.pdf')}}" id="dwn" class="btn btn-primary" download="">Download</a>
                     </div>
                   </div>
                 </div>
@@ -72,7 +72,7 @@
                     <p>Tahun: 2017</p>
                     </div>
                     <div class="col-md-5">
-                    <p>Deskripsi: </p>
+                    <p>Deskripsi: Coming Soon</p>
                     <a href="#" class="btn btn-primary disabled">Download</a>
                     </div>
                   </div>
@@ -88,8 +88,10 @@
 @section('bottom')
 <script src="//static.fliphtml5.com/web/js/plugin/LightBox/js/fliphtml5-light-box-api-min.js"></script>
 <script type="text/javascript">
-  $("#ar-2016").click(function () { 
-    $("#ar-2016-link").trigger('click');
+  $("#ar-2016").click(function (e) { 
+    if ($(e.target).closest("#dwn").length == 0){
+      $("#ar-2016-link").trigger('click');
+    }
 
 });
 </script>
