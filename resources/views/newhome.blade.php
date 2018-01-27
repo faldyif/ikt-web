@@ -85,7 +85,7 @@
                 <ul class="dropdown-menu">
                   <li><a href="{{ route('facilities.fas') }}">{{ trans('menu.main-facilities') }}</a></li>
                   <li><a href="{{ route('facilities.fas-1') }}">{{ trans('menu.support-facilities') }}</a></li>
-                <!-- <li><a href="{{ route('facilities.fas-2') }}">{{ trans('menu.equipment-facilities') }}</a></li> -->
+                  <li><a href="{{ route('facilities.fas-2') }}">{{ trans('menu.equipment-facilities') }}</a></li>
                 </ul>
               </li>
               <li class="dropdown"> <a href="blog.html" class="dropdown-toggle" data-toggle="dropdown">{{ strtoupper(trans('menu.information-center')) }}</a>
