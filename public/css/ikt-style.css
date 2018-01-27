@@ -617,6 +617,9 @@ h2 {
   .book-shelf .book {
     padding: 15px 0 0 0;
     margin: auto; }
+  .book-shelf .book2 {
+    padding: 15px 0px 5% 0;
+    margin: 0%; }
   .book-shelf a:before {
     /* Just to give a little puddle of a shadow without adding another element */
     content: '';
@@ -1016,7 +1019,7 @@ h2 {
 .multiple-items .newsList:hover .overlay, .multiple-items .newsList:hover figcaption, .recent-news .newsList:hover .overlay, .recent-news .newsList:hover figcaption {
   bottom: 0; }
 .multiple-items .newsList:hover img, .recent-news .newsList:hover img {
-  background-size: 110%; }
+  background-size: 100%; }
 
 #agenda {
   padding: 0px 70px; }
@@ -1534,7 +1537,7 @@ figcaption.caption {
 
 .quote-card:before {
   font-family: Georgia, serif;
-  content: "“";
+  content: "ΓÇ£";
   position: absolute;
   top: 10px;
   left: 10px;
@@ -1544,7 +1547,7 @@ figcaption.caption {
 
 .quote-card:after {
   font-family: Georgia, serif;
-  content: "”";
+  content: "ΓÇ¥";
   position: absolute;
   bottom: -110px;
   line-height: 100px;
@@ -1640,6 +1643,55 @@ figcaption.caption {
     /*background-image: -webkit-linear-gradient(30deg, #f7f7f7 50%, transparent 50%);*/
     background: -webkit-linear-gradient(-30deg, black 60%, transparent 70%), url("../img/back_footer.jpg");
     min-height: 350px; } }
+.thumbnail {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  overflow: hidden; }
+
+.thumbnail img {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  height: 100%;
+  width: auto;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%); }
+
+.thumbnail img.portrait {
+  width: 100%;
+  height: auto; }
+
+.media-title {
+  color: #2C82C9 !important; }
+
+.bullet {
+  margin: 0 0 10px; }
+  .bullet ul {
+    margin-left: -4%; }
+    .bullet ul li {
+      list-style-type: circle; }
+  .bullet ol {
+    margin-left: -4%; }
+    .bullet ol li {
+      list-style-type: upper-alpha; }
+
+.bullet-number {
+  margin: 0 0 10px; }
+  .bullet-number ol {
+    margin-left: -4%; }
+    .bullet-number ol li {
+      list-style-type: decimal; }
+
+.dropcaps:first-of-type:first-letter {
+  height: 0.7em;
+  margin: 0.08em 0 -0.05em 0;
+  padding: 0 0.065em 0 0;
+  font-size: 5em;
+  line-height: 0.85em;
+  float: left; }
+
 .btn {
   transition: all 0.3s ease-in-out;
   -webkit-transition: all 0.3s ease-in-out;
@@ -1826,10 +1878,6 @@ figure figcaption {
   background-color: rgba(0, 0, 0, 0.6);
   margin-top: 5px !important;
   border: none;
-  box-shadow: none !important;
-  -webkit-box-shadow: none !important;
-  -moz-box-shadow: none !important;
-  -o-box-shadow: none !important;
   border-radius: 0;
   -webkit-border-radius: 0;
   -moz-border-radius: 0;

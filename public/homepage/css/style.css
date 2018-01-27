@@ -8,21 +8,21 @@
 -------------------------------------------------------------------*/
 
 /*------------------------------------------------------------------
-body 
+body
  + WRAP
  + HEADER
  + NAVIGATION
  + BANNER
  + SERVICES
  + OUR FEATURED FOUNDERS
- + BLOG UPDATES 
+ + BLOG UPDATES
  + APPOINMENT
  + NEWS FROM BLOG
  + PARTNERS / CLIENTS
  + FOOTER
  + SOCIAL ICONS
  + MEGA MENU
- + 3 MENU LEVEL 
+ + 3 MENU LEVEL
 -------------------------------------------------------------------*/
 /*=======================================================
       IMPORT FILE
@@ -37,12 +37,12 @@ body
 	padding: 0px;
 }
 .imgtrans{
-	opacity:0.7;
+	opacity:1;
 }
 #logo {
 	display: none;
   }
-  
+
   canvas {
 	position: absolute;
 	top: 50%;
@@ -52,7 +52,7 @@ body
   .next-particle {
 	display: none;
   }
-  
+
   canvas {
 	position: absolute;
 	top: 50%;
@@ -874,7 +874,7 @@ header.header-3d{
 	margin-top:0px;
 }
 /*=======================================================
-      HOME 
+      HOME
 ========================================================*/
 .home-agency {
 	height: 800px;
@@ -924,13 +924,13 @@ header.header-3d{
 	  background: url(../images/bg/2.jpg);
 	}
 	50% {
-	  background: url(../images/bg/3.jpg); 
+	  background: url(../images/bg/3.jpg);
 	}
 	100% {
 	  background: url(../images/bg/4.jpg);
 	}
   }
-  
+
   @keyframes slider {
 	0% {
 	  background: url(../images/bg/5.jpg);

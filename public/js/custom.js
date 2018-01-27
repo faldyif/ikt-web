@@ -38,11 +38,11 @@ $(document).ready(function(){
       if ($(".navbar").offset().top > 50) {
           $(".navbar-fixed-top").addClass("top-nav-collapse");
           $(".navbar-fixed-top").addClass("bg-navbar");
-          $(".dropdown-menu").removeClass("dropdown-menu-opacity");
+          // $(".dropdown-menu").removeClass("dropdown-menu-opacity");
       } else {
           $(".navbar-fixed-top").removeClass("top-nav-collapse");
           $(".navbar-fixed-top").removeClass("bg-navbar");
-          $(".dropdown-menu").addClass("dropdown-menu-opacity");
+          // $(".dropdown-menu").addClass("dropdown-menu-opacity");
       }
     });
 
