@@ -609,17 +609,37 @@ h2 {
 
 /* --- Magazine Bookshelf --- */
 .book-shelf {
+  /*media display setting*/
+  /*phone*/
+  /*tablet*/
   /*Example adding pseudo element to give shelf depth*/ }
+  @media only screen and (max-width: 768px) {
+    .book-shelf .book2 {
+      padding: 20% 0px 0 0;
+      margin: 0%; }
+    .book-shelf .book3 {
+      padding: 21% 0px 0 0;
+      margin: 0%; } }
+  @media only screen and (min-width: 768px) {
+    .book-shelf .book2 {
+      padding: 27% 0px 0 0;
+      margin: 0%; }
+    .book-shelf .book3 {
+      padding: 28% 0px 0 0;
+      margin: 0%; } }
   .book-shelf .text-caption {
     padding: 2.5px;
     background-color: rgba(0, 0, 0, 0.7);
     color: #FFFFFF; }
   .book-shelf .book {
-    padding: 15px 0 0 0;
+    padding: 15% 0 0 0;
     margin: auto; }
   .book-shelf .book2 {
-    padding: 15px 0px 5% 0;
-    margin: 0%; }
+    padding: 20% 0 0 0;
+    margin: auto; }
+  .book-shelf .book3 {
+    padding: 22% 0 0 0;
+    margin: auto; }
   .book-shelf a:before {
     /* Just to give a little puddle of a shadow without adding another element */
     content: '';
