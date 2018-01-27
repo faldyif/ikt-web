@@ -5,7 +5,7 @@
 @section('content')
 <!--HERO-->
 <section id="heroTitle">
-  <div class="heroTitle" style="background-image: url('{{ url('img/receiving-delivery-01.jpg') }}');">
+  <div class="heroTitle" style="background-image: url('{{ url('img/culture.jpg') }}');">
     <div class="overlay"></div>
     <section class="container-fluid pd-30">
       <h2 class="roboBold wh alignCenter" data-wow-delay="0.4s">{{ trans('company-culture.head-title') }}</h2>
@@ -71,12 +71,26 @@
           <!-- home -->
           <div id="home" class="tab-pane fade in active">
             <img  class="img-responsive" style="width: 50%; height: auto">
-            <h1>Ini budaya perusahaan landing</h1>
+            <div>
+              <hr class="hrSpec hrSpecOrange">
+              <h4 class="card-title roboBold">Budaya Perusahaan Kami</h4>
+              <!-- <br> -->
+              <div>
+                <p class="dropcaps text-justify">
+                  Sebagai percepatan proses transformasi bisnis dan budaya perusahaan sesuai dengan harapan pemegang saham, PT Indonesia Kendaraan Terminal telah menetapkan Logo, Visi, Misi, Karakter dan Nilai-nilai perusahaan yang lebih spesifik, terukur dan realistis sesuai kebutuhan jangka pendek, menengah, dan panjang perusahaan. Telah ditetapkan pula tagline transformasi budaya perusahaan yang berbunyi : “Dengan CINTA, satukan langkah wujudkan kerja nyata IPC Car Terminal berkelas dunia”. <br>
+                  Sejalan dengan CINTA (Customer Centric, Integrity, Nasionalism, Teamwork dan Action) sebagai nilai-nilai perusahaan yang disemat dalam tagline tersebut, PT Indonesia Kendaraan Terminal bertekad untuk menjadi perusahaan pengelola terminal kendaraan yang profesional dan dapat disejajarkan serta bersaing dengan penyedia layanan terminal kendaraan terbaik di dunia. Hal lain yang menjadi tujuan dari penetapan Budaya Perusahaan adalah bahwa PT Indonesia Kendaraan Terminal harus mampu menjadi terminal kendaraan yang unggul dalam operasional dengan menerapkan standar operasional terbaik di dunia yang berproduktifitas tinggi, serta secara efektif dan efisien sekaligus mampu menerapkan <i> internasional best practice </i> yang mengimplementasikan kebijakan <i> “zero accident” </i>, termasuk memberikan pelayanan-pelayanan yang unggul serta mengerti akan kebutuhan pengguna jasanya.
+                </p>
+                 <br> 
+                <img src="{{ url('img/iktheart.png') }}" class="img-responsive iktheart">
+              </div>
+            </div>
           </div>
           <!-- //home -->
           <!-- tagline -->
-          <div id="tagline" class="tab-pane fade in">
-            <img src="{{ url('img/tagline.png') }}" class="img-responsive" style="width: 50%; height: auto">
+          <div id="tagline" class="tab-pane fade in taglineMerah">
+            <center>
+            <img src="{{ url('img/tagline.png') }}" class="img-responsive">
+            </center>
           </div>
           <!-- //tagline -->
           <!-- menu1 -->

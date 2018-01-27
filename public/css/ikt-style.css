@@ -1712,6 +1712,15 @@ figcaption.caption {
   line-height: 0.85em;
   float: left; }
 
+/*desktop*/
+@media only screen and (max-height: 768px) {
+  .taglineMerah {
+    width: 65%;
+    height: auto; }
+
+  .iktheart {
+    width: 65%;
+    height: auto; } }
 .btn {
   transition: all 0.3s ease-in-out;
   -webkit-transition: all 0.3s ease-in-out;
