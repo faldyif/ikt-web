@@ -30,8 +30,15 @@ class SendWhistleBlowing extends Mailable
      */
     public function build()
     {
-        return $this->view('emails.whistle')
+        $mail = $this->view('emails.whistle')
             ->subject('IPC Car Terminal Whistleblowing Report #'.$this->data->hash)
             ->with('data', $this->data);
+        foreach ($this->data->lampiran_bukti as $key) {
+            $mail->attach($key->getRealPath(), [
+                'as' => $key->getClientOriginalName(),
+                'mime' => $key->getMimeType()
+            ]);
+        }
+        return $mail;
     }
 }

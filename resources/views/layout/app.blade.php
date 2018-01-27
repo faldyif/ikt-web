@@ -162,14 +162,28 @@
         <div class="modal-body">
           <p>Kirimkan aduan pelanggaran melalui form di bawah ini:</p>
           {!! Form::open(array('route' => 'whistle.send', 'enctype' => 'multipart/form-data', 'id' => 'form_send_whistleblowing')) !!}
-          {{ Form::textarea('content', null, array('id' => 'content_wb', 'required' => 'required', 'class' => 'form-control', 'style' => '-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box;width: 100%;')) }}
-          <hr>
+          {{ Form::text('name', null, array('id' => 'name_wb', 'placeholder' => 'Nama', 'required' => 'required', 'class' => 'form-control')) }}
+          <br>
+          {{ Form::email('email', null, array('id' => 'email_wb', 'placeholder' => 'Email', 'required' => 'required', 'class' => 'form-control')) }}
+          <br>
+          {{ Form::text('no_telp', null, array('id' => 'no_telp_wb', 'placeholder' => 'Nomor telepon (opsional)', 'class' => 'form-control')) }}
+          <br>
+          {{ Form::textarea('uraian_pelanggaran', null, array('id' => 'uraian_pelanggaran_wb', 'placeholder' => 'Uraian pelanggaran', 'required' => 'required', 'class' => 'form-control', 'style' => '-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box;width: 100%;')) }}
+          <br>
+          {{ Form::text('tempat_kejadian', null, array('id' => 'tempat_kejadian_wb', 'placeholder' => 'Tempat kejadian', 'class' => 'form-control')) }}
+          <br>
+          {{ Form::text('waktu_kejadian', null, array('id' => 'waktu_kejadian_wb', 'placeholder' => 'Waktu kejadian', 'class' => 'form-control')) }}
+          <br>
+          {{ Form::text('pihak_terlibat', null, array('id' => 'pihak_terlibat_wb', 'placeholder' => 'Pihak-pihak yang terlibat', 'class' => 'form-control')) }}
+          <br>
+          <p>Lampiran bukti-bukti:</p>
+          {{ Form::file('lampiran_bukti[]', array('id' => 'lampiran_bukti', 'class' => 'form-control', 'multiple' => 'multiple')) }}
+          <br>
           {!! Recaptcha::render() !!}
+          <hr>
+          <a class="btn-normal" data-dismiss="modal">Tutup</a>
+          <button id="postbutton" class="btn-normal"><i class="fa fa-send"></i> Kirim</button>
           {!! Form::close() !!}
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-default" data-dismiss="modal">Tutup</button>
-          <button id="postbutton" class="btn btn-info"><i class="fa fa-send"></i> Kirim</button>
         </div>
       </div>
 
@@ -214,12 +228,29 @@
           $('#modal-whistleblowing-loading').hide();
 
           var CSRF_TOKEN = $('meta[name="csrf-token"]').attr('content');
-          $("#postbutton").click(function(){
+          $('form#form_send_whistleblowing').submit(function(e){
+              e.preventDefault();
 
               var gresponse = grecaptcha.getResponse();
-              var content = $("#content_wb").val();
+              var uraian_pelanggaran = $("#uraian_pelanggaran_wb").val();
+              var name = $("#name_wb").val();
+              var email = $("#email_wb").val();
+              var no_telp = $("#no_telp_wb").val();
+              var tempat_kejadian = $("#tempat_kejadian_wb").val();
+              var waktu_kejadian = $("#waktu_kejadian_wb").val();
+              var pihak_terlibat = $("#pihak_terlibat_wb").val();
+              var lampiran_bukti = $("#lampiran_bukti_wb").val();
 
-              if(gresponse === null || gresponse === "" || content === null || content === "") {
+              var form_data = new FormData(this);
+
+              // Validation
+              if(gresponse === null || gresponse === "" ||
+                  uraian_pelanggaran === null || uraian_pelanggaran === "" ||
+                  name === null || name === "" ||
+                  email === null || email === "" ||
+                  tempat_kejadian === null || tempat_kejadian === "" ||
+                  waktu_kejadian === null || waktu_kejadian === "" ||
+                  pihak_terlibat === null || pihak_terlibat === "") {
                   if(gresponse === null || gresponse === "") {
                       $.notify({
                           message: 'Anda harus melakukan verifikasi captcha'
@@ -228,9 +259,49 @@
                           type: 'danger'
                       });
                   }
-                  if(content === null || content === "") {
+                  if(uraian_pelanggaran === null || uraian_pelanggaran === "") {
                       $.notify({
-                          message: 'Konten harus terisi'
+                          message: 'Uraian pelanggaran harus terisi'
+                      },{
+                          z_index: 2000,
+                          type: 'danger'
+                      });
+                  }
+                  if(name === null || name === "") {
+                      $.notify({
+                          message: 'Nama harus terisi'
+                      },{
+                          z_index: 2000,
+                          type: 'danger'
+                      });
+                  }
+                  if(email === null || email === "") {
+                      $.notify({
+                          message: 'Email harus terisi'
+                      },{
+                          z_index: 2000,
+                          type: 'danger'
+                      });
+                  }
+                  if(tempat_kejadian === null || tempat_kejadian === "") {
+                      $.notify({
+                          message: 'Tempat kejadian harus terisi'
+                      },{
+                          z_index: 2000,
+                          type: 'danger'
+                      });
+                  }
+                  if(waktu_kejadian === null || waktu_kejadian === "") {
+                      $.notify({
+                          message: 'Waktu kejadian harus terisi'
+                      },{
+                          z_index: 2000,
+                          type: 'danger'
+                      });
+                  }
+                  if(pihak_terlibat === null || pihak_terlibat === "") {
+                      $.notify({
+                          message: 'Pihak yang terlibat harus terisi'
                       },{
                           z_index: 2000,
                           type: 'danger'
@@ -245,18 +316,29 @@
                       url: '{{ route('whistle.send') }}',
                       type: 'POST',
                     /* send the csrf-token and the input to the controller */
-                      data: {_token: CSRF_TOKEN, content: content, 'g-recaptcha-response': gresponse},
-                      dataType: 'JSON',
+                      data: form_data,
+                      contentType: false, // NEEDED, DON'T OMIT THIS (requires jQuery 1.6+)
+                      processData: false, // NEEDED, DON'T OMIT THIS
                     /* remind that 'data' is the response of the AjaxController */
                       success: function (data) {
-                          $(".writeinfo").append(data.msg);
+                          if(data.error !== true) {
+                              $("#whistleblowing-response-text").text('Berhasil mengirimkan aduan pelanggaran!');
+
+                              $("#uraian_pelanggaran_wb").val('');
+                              $("#name_wb").val('');
+                              $("#no_telp_wb").val('');
+                              $("#tempat_kejadian_wb").val('');
+                              $("#waktu_kejadian_wb").val('');
+                              $("#pihak_terlibat_wb").val('');
+                              $("#lampiran_bukti_wb").val('');
+                          } else {
+                              $("#whistleblowing-response-text").text('Terjadi kesalahan! Silahkan coba lagi. Periksa kembali isian email serta captcha anda');
+                          }
+                          grecaptcha.reset();
 
                           $('#modal-whistleblowing-display').hide();
                           $('#modal-whistleblowing-response').show();
                           $('#modal-whistleblowing-loading').hide();
-
-                          grecaptcha.reset();
-                          $("#content_wb").val('');
                       },
                       error: function (request, status, error) {
                           $('#modal-whistleblowing-display').hide();
