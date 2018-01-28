@@ -99,7 +99,7 @@
                     <li class="timeline-inverted">
                         <div class="timeline-panel">
                             <div class="timeline-heading">
-                                <img class="img-responsive" src="{{ url('img/prima2016.jpg')}}">
+                                <img class="img-responsive" src="{{ url('img/prima2016.JPG')}}">
                                 <p><span class="roboMedium normalTitle or">2016</span></p>
                                 <h4 class="timeline-title">Penilaian Pelayanan Prima Unit Pelayanan Publik Sektor Transportasi</h4>
                             </div>

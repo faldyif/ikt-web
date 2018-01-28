@@ -59,7 +59,7 @@
                                 </div>
                                 <div class="col-lg-4 col-sm-6 portfolio-item mg-bt-10">
                                     <div class="card h-100">
-                                        <a href="#"><img class="card-img-top img-responsive img-responsive" src="{{url('img/WAREHOUSE.JPG')}}" alt=""></a>
+                                        <a href="#"><img class="card-img-top img-responsive img-responsive" src="{{url('img/WAREHOUSE.jpg')}}" alt=""></a>
                                         <div class="card-body">
                                             <h4 class="card-title">
                                                 <a href="#">Warehouse</a>
@@ -69,7 +69,7 @@
                                 </div>
                                 <div class="col-lg-4 col-sm-6 portfolio-item mg-bt-10">
                                     <div class="card h-100">
-                                        <a href="#"><img class="card-img-top img-responsive img-responsive" src="{{url('img/gate.jpg')}}" alt=""></a>
+                                        <a href="#"><img class="card-img-top img-responsive img-responsive" src="{{url('img/GATE.JPG')}}" alt=""></a>
                                         <div class="card-body">
                                             <h4 class="card-title">
                                                 <a href="#">Gate In/Out</a>
@@ -125,7 +125,7 @@
                                 </div>
                                 <div class="col-lg-4 col-sm-6 portfolio-item mg-bt-10">
                                     <div class="card h-100">
-                                        <a href="#"><img class="card-img-top img-responsive img-responsive" src="{{url('img/YARDSWEEPER.png')}}" alt=""></a>
+                                        <a href="#"><img class="card-img-top img-responsive img-responsive" src="{{url('img/yardsweeper.png')}}" alt=""></a>
                                         <div class="card-body">
                                             <h4 class="card-title">
                                                 <a href="#">Yard Sweeper</a>
@@ -149,7 +149,7 @@
                             <div class="row">
                                 <div class="col-lg-4 col-sm-6 portfolio-item mg-bt-10">
                                     <div class="card h-100">
-                                        <a href="#"><img class="card-img-top img-responsive img-responsive" src="{{url('img/rolltrailers.png')}}" alt=""></a>
+                                        <a href="#"><img class="card-img-top img-responsive img-responsive" src="{{url('img/Rolltrailers.png')}}" alt=""></a>
                                         <div class="card-body">
                                             <h4 class="card-title">
                                                 <a href="#">Roll Trailers</a>
@@ -228,7 +228,7 @@
                                 </div>
                                 <div class="col-lg-4 col-sm-6 portfolio-item mg-bt-10">
                                     <div class="card h-100">
-                                        <a href="#"><img class="card-img-top img-responsive img-responsive" src="{{url('img/forklit.jpg')}}" alt=""></a>
+                                        <a href="#"><img class="card-img-top img-responsive img-responsive" src="{{url('img/Forklit.jpg')}}" alt=""></a>
                                         <div class="card-body">
                                             <h4 class="card-title">
                                                 <a href="#">Forklift</a>
