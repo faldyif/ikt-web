@@ -1557,7 +1557,7 @@ figcaption.caption {
 
 .quote-card:before {
   font-family: Georgia, serif;
-  content: "ΓÇ£";
+  content: "“";
   position: absolute;
   top: 10px;
   left: 10px;
@@ -1567,7 +1567,7 @@ figcaption.caption {
 
 .quote-card:after {
   font-family: Georgia, serif;
-  content: "ΓÇ¥";
+  content: "”";
   position: absolute;
   bottom: -110px;
   line-height: 100px;
