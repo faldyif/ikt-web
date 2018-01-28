@@ -69,7 +69,7 @@ return [
     </p>
     <div class="col-md-12 flex-row-center">
     <div class="col-md-4">
-    <img class="img-responsive" src="'.url("img/elevasi1.png").'"><br>
+    <img class="img-responsive" src="'.url("img/5_history.jpg").'"><br>
     </div>
     <div class="col-md-8">
     <blockquote class="blockquote">
@@ -79,6 +79,22 @@ return [
     </div>
     </div>
     <p class="text-justify">
-    Uji Coba sudut elevasi antara dermaga Car Terminal dengan Ramp door kapal yang pertama kalinya (4 Oktober 2007), sebelum secara resmi digunakan. Cargo owner melakukan pengujian dengan menggunakan kapal liner domestic (KM Serasi II) sebelum disandarkan kapal dengan dimensi (DWT) yang lebih besar untuk kunjungan ekspor/impor. Hal ini penting dilakukan terkait prosedur safety cargo yang akan ditangani di terminal IKT. Hasil pengujian tersebut menjadi penentu apakah dermaga IKT layak dan memenuhi standar untuk digunakan pada kegiatan operasional di terminal Roro.
-    </p>'
+    Uji Coba sudut elevasi antara dermaga Car Terminal dengan Ramp door kapal yang pertama kalinya (4 Oktober 2007), sebelum secara resmi digunakan. Cargo owner melakukan pengujian dengan menggunakan kapal liner domestic (KM Serasi II) sebelum disandarkan kapal dengan dimensi (DWT) yang lebih besar untuk kunjungan ekspor/impor. Hal ini penting dilakukan terkait prosedur safety cargo yang akan ditangani di terminal IKT. Hasil pengujian tersebut menjadi penentu apakah dermaga IKT layak dan memenuhi standar untuk digunakan pada kegiatan operasional di terminal Roro. 
+    </p><br>
+    <div class="col-lg-12 galleryb">
+    
+    <div class="img-responsive gallerys">
+    <img src="'.url("img/elevasi3.jpg").'" alt="Fjords" width="600" height="500">
+    </div>
+    <div class="img-responsive gallerys">
+    <img src="'.url("img/elevasi4.jpg").'" alt="Fjords" width="600" height="500">
+    </div>
+    <div class="img-responsive gallerys">
+    <img src="'.url("img/elevasi6.jpg").'" alt="Fjords" width="600" height="500">
+    </div>
+    <div class="img-responsive gallerys">
+    <img src="'.url("img/elevasi5.jpg").'" alt="Fjords" width="600" height="500">
+    </div>
+
+    </div>'
 ];

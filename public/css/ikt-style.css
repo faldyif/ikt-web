@@ -1557,7 +1557,7 @@ figcaption.caption {
 
 .quote-card:before {
   font-family: Georgia, serif;
-  content: "“";
+  content: "ΓÇ£";
   position: absolute;
   top: 10px;
   left: 10px;
@@ -1567,7 +1567,7 @@ figcaption.caption {
 
 .quote-card:after {
   font-family: Georgia, serif;
-  content: "”";
+  content: "ΓÇ¥";
   position: absolute;
   bottom: -110px;
   line-height: 100px;
@@ -1739,6 +1739,27 @@ Annual Report
     width: 65%;
     height: auto;
     margin-left: 14%; } }
+/*gallery sejarah*/
+div.galleryb {
+  margin-left: 3%; }
+
+div.gallerys {
+  margin: 0px;
+  float: left;
+  width: 24%; }
+
+div.gallerys:hover {
+  border: 1px solid #777; }
+
+div.gallerys img {
+  width: 100%;
+  height: auto; }
+
+@media (max-width: 600px) {
+  div.gallerys {
+    margin-left: 9%;
+    float: left;
+    width: 80%; } }
 .btn {
   transition: all 0.3s ease-in-out;
   -webkit-transition: all 0.3s ease-in-out;
