@@ -1,12 +1,4 @@
 @extends('layout.app-with-footer')
-<style type="text/css">
-  .annual{
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  }
-  .annual:hover{
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
-  }
-</style>
 
 @section('title','Annual Report | IPC Car Terminal')
 
@@ -31,41 +23,42 @@
             <hr class="hrSpec hrSpecOrange">
             <h3 class="mg-b-30 roboBold">Annual Report</h3>
               <div class="row">
-                <div class="col-md-12 annual pd-bt-20 mg-bt-10 flex-row-center">
+                <div id="ar-2016" class="col-md-12 annual pd-bt-20 mg-bt-10 flex-row-center">
                   <div class="col-md-3">
                     <!-- foto -->
-                    <img src="{{ url('img/thumb.jpg') }}" class="img-responsive" style="width: 150px; height: auto;">
+                    <img src="http://online.fliphtml5.com/tlahn/sxqf/files/shot.jpg" class="annual-img img-responsive">
                   </div>
                   <div class="col-md-9">
                     <!-- konten -->
-                    <div class="col-md-6">
-                    <p>Judul: Annual Report PT Indonesia Kendaraan Terminal 2016</p>
-                    <p>Halaman: 70 Halaman</p>
+                    <div class="col-md-7">
+                    <p>Annual Report PT Indonesia Kendaraan Terminal 2016</p>
+                    <p>Halaman: 73 Halaman</p>
                     <p>Tahun: 2016</p>
                     </div>
-                    <div class="col-md-6">
+                    <div class="col-md-5">
                       <p>Deskripsi: </p>
-                      <a href="#">Download</a>
+                      <a href="{{ url('img/pdf/annual_report_2016.pdf')}}" id="dwn" class="btn btn-primary" download="">Download</a>
                     </div>
                   </div>
                 </div>
+                <img src="http://online.fliphtml5.com/tlahn/sxqf/files/shot.jpg" id="ar-2016-link" class="annual-img img-responsive" data-rel="fh5-light-box-demo" data-href="http://online.fliphtml5.com/tlahn/sxqf/" data-width="700" data-height="400" data-title="Annual Report IKT 2016" style="display: none">
               </div>
               <div class="row">
                 <div class="col-md-12 annual pd-bt-20 mg-bt-10 flex-row-center">
                   <div class="col-md-3">
                     <!-- foto -->
-                    <img src="{{ url('img/thumb.jpg') }}" class="img-responsive" style="width: 150px; height: auto;">
+                    <img src="{{ url('img/ar-2017.png') }}" class="annual-img img-responsive">
                   </div>
                   <div class="col-md-9">
                     <!-- konten -->
-                    <div class="col-md-6">
-                    <p>Judul: Annual Report PT Indonesia Kendaraan Terminal 2017</p>
+                    <div class="col-md-7">
+                    <p>Annual Report PT Indonesia Kendaraan Terminal 2017</p>
                     <p>Halaman: 80 Halaman</p>
                     <p>Tahun: 2017</p>
                     </div>
-                    <div class="col-md-6">
-                    <p>Deskripsi: </p>
-                    <a href="#">Download</a>
+                    <div class="col-md-5">
+                    <p>Deskripsi: Coming Soon</p>
+                    <a href="#" class="btn btn-primary disabled">Download</a>
                     </div>
                   </div>
                 </div>
@@ -75,5 +68,17 @@
         </section>
       </div>
     </section>
+@endsection
+
     <!---->
+@section('bottom')
+<script src="//static.fliphtml5.com/web/js/plugin/LightBox/js/fliphtml5-light-box-api-min.js"></script>
+<script type="text/javascript">
+  $("#ar-2016").click(function (e) { 
+    if ($(e.target).closest("#dwn").length == 0){
+      $("#ar-2016-link").trigger('click');
+    }
+
+});
+</script>
 @endsection

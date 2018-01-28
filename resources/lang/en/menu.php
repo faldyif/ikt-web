@@ -38,7 +38,7 @@ return [
     // Facilities submenu
     'main-facilities' => 'Internastional Facilities',
     'support-facilities' => 'Domestic Facilities',
-    // 'equipment-facilities' => 'Equipment Facilities',
+    'equipment-facilities' => 'Supporting Facilities',
     // End facilities submenu
 
     // Information center submenu

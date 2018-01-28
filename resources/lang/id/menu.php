@@ -38,7 +38,7 @@ return [
     // Facilities submenu
     'main-facilities' => 'Internasional',
     'support-facilities' => 'Domestik',
-    // 'equipment-facilities' => 'Peralatan',
+    'equipment-facilities' => 'Penunjang',
     // End facilities submenu
 
     // Information center submenu

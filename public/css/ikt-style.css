@@ -926,6 +926,9 @@ h2 {
   .navbar-brand img {
     height: 100%; }
 
+@media (max-width: 600px) {
+  .navbar-brand {
+    padding-left: 20px !important; } }
 .dropdown-submenu {
   position: relative; }
   .dropdown-submenu > .dropdown-menu {
@@ -1554,7 +1557,7 @@ figcaption.caption {
 
 .quote-card:before {
   font-family: Georgia, serif;
-  content: "ΓÇ£";
+  content: "“";
   position: absolute;
   top: 10px;
   left: 10px;
@@ -1564,7 +1567,7 @@ figcaption.caption {
 
 .quote-card:after {
   font-family: Georgia, serif;
-  content: "ΓÇ¥";
+  content: "”";
   position: absolute;
   bottom: -110px;
   line-height: 100px;
@@ -1708,6 +1711,22 @@ figcaption.caption {
   font-size: 5em;
   line-height: 0.85em;
   float: left; }
+
+/*-----------------
+Annual Report
+-----------------*/
+.annual {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  cursor: pointer; }
+
+.annual:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.5); }
+
+.annual-img {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  width: auto;
+  height: 200px !important;
+  margin: 0 auto; }
 
 /*desktop*/
 @media only screen and (max-height: 768px) {
@@ -1906,10 +1925,6 @@ figure figcaption {
   background-color: rgba(0, 0, 0, 0.6);
   margin-top: 5px !important;
   border: none;
-  box-shadow: none !important;
-  -webkit-box-shadow: none !important;
-  -moz-box-shadow: none !important;
-  -o-box-shadow: none !important;
   border-radius: 0;
   -webkit-border-radius: 0;
   -moz-border-radius: 0;

@@ -1,3 +1,5 @@
+<link rel="stylesheet" type="text/css" href="{{ url('css/foundation.css') }}">
+<link rel="stylesheet" type="text/css" href="{{ url('css/styles_foundation.css') }}">
 @extends('layout.app-with-footer')
 
 @section('title','Anak Perusahaan | IPC Car Terminal')
@@ -268,7 +270,3 @@
 </section>
 <!--/ABOUT-->
 @endsection
-
-@section('bottom')
-<link href="{{ url('css/foundation.css') }}" rel="stylesheet"></link>
-<link href="{{ url('css/styles_foundation3.css') }}" rel="stylesheet"></link>

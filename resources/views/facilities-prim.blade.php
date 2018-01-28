@@ -5,7 +5,7 @@
 @section('content')
     <!--HERO-->
     <section id="heroTitle">
-        <div class="heroTitle" style="background-image: url('{{ url('img/2.jpg') }}');">
+        <div class="heroTitle" style="background-image: url('{{ url('img/headerinternasional.jpg') }}');">
             <div class="overlay"></div>
             <section class="container-fluid pd-30">
                 <h2 class="roboBold wh alignCenter" data-wow-delay="0.4s">Fasilitas Internasional</h2>
@@ -36,13 +36,7 @@
                         </div>
                        </a>
                      </li>
-                    <li class="">
-                      <a data-toggle="pill" href="#menu2">
-                        <div class="be-flex">
-                         <i class="fa fa-th mg-r-15 mg-t-5"></i> <span>Sistem Informasi dan Lain-Lain</span>
-                        </div>
-                       </a>
-                     </li>
+
                     <!-- <li class="">
                       <a data-toggle="pill" href="#menu3">
                         <div class="be-flex">
@@ -56,7 +50,49 @@
                 <div class="col-md-9">
                   <div class="tab-content">
                     <div id="home" class="tab-pane fade in active">
-                      <div class="table-responsive">
+                    <hr class="hrSpec hrSpecOrange">
+                    <h3>Fasilitas Dermaga :</h3>
+                    <div style="height:50px;"></div>
+                      <div class="row">
+                        <div class="col-lg-4 col-sm-6 portfolio-item mg-bt-10">
+                          <div class="card h-100">
+                            <a href="#"><img class="card-img-top img-responsive" src="{{url('img/KANAL INTERNASIONAL.JPG')}}" alt=""></a>
+                            <div class="card-body">
+                              <h4 class="card-title">
+                                <a href="#">Kanal</a>
+                              </h4>
+                              <p>Panjang : - </p>
+                              <p>Kedalaman : -14 m LWS</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-lg-4 col-sm-6 portfolio-item mg-bt-10">
+                          <div class="card h-100">
+                            <a href="#"><img class="card-img-top img-responsive" src="{{url('img/DERMAGA 1.JPG')}}" alt=""></a>
+                            <div class="card-body">
+                              <h4 class="card-title">
+                                <a href="#">Dermaga 1</a>
+                              </h4>
+                              
+                              <p>Panjang : 220 m'</p>
+                              <p>Kedalaman : -11 m LWS</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-lg-4 col-sm-6 portfolio-item mg-bt-10">
+                          <div class="card h-100">
+                            <a href="#"><img class="card-img-top img-responsive" src="{{url('img/DERMAGA 2.JPG')}}" alt=""></a>
+                            <div class="card-body" >
+                              <h4 class="card-title">
+                                <a href="#">Dermaga 2</a>
+                              </h4>
+                              <p>Panjang : 88 m'</p>
+                              <p>Kedalaman : -6 m LWS</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="table-responsive" hidden>
                         <table class="table table-striped table-hover">
                           <thead>
                             <tr>
@@ -90,9 +126,82 @@
                       </div>
                     </div>
                     <div id="menu1" class="tab-pane fade">
+                    <hr class="hrSpec hrSpecOrange">
+                      <h3>Fasilitas Penumpukan :</h3>
+                    <div style="height:50px;"></div>
+
                       <hr class="hrSpec hrSpecOrange">
                       <h4>Ekspor</h4>
-                      <div class="table-responsive">
+                      <div class="row">
+                        <div class="col-lg-4 col-sm-6 portfolio-item mg-bt-10">
+                          <div class="card h-100">
+                            <a href="#"><img class="card-img-top img-responsive" src="{{url('img/LAPANGAN A.JPG')}}" alt=""></a>
+                            <div class="card-body">
+                              <h4 class="card-title">
+                                <a href="#">Lapangan A</a>
+                              </h4>
+                              <p>Kapasitas : 1.036 Slot</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-lg-4 col-sm-6 portfolio-item mg-bt-10">
+                          <div class="card h-100">
+                            <a href="#"><img class="card-img-top img-responsive" src="{{url('img/LAPANGAN B.JPG')}}" alt=""></a>
+                            <div class="card-body">
+                            <h4 class="card-title">
+                            <a href="#">Lapangan B</a>
+                          </h4>
+                          <p>Kapasitas : 240 Slot</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-lg-4 col-sm-6 portfolio-item mg-bt-10">
+                          <div class="card h-100">
+                            <a href="#"><img class="card-img-top img-responsive" src="{{url('img/LAPANGAN C.JPG')}}" alt=""></a>
+                            <div class="card-body" >
+                            <h4 class="card-title">
+                            <a href="#">Lapangan C (Buffer)</a>
+                          </h4>
+                          <p>Kapasitas : 250 Slot</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-lg-4 col-sm-6 portfolio-item mg-bt-10">
+                          <div class="card h-100">
+                            <a href="#"><img class="card-img-top img-responsive" src="{{url('img/LAPANGAN H.JPG')}}" alt=""></a>
+                            <div class="card-body" >
+                            <h4 class="card-title">
+                            <a href="#">Lapangan H</a>
+                          </h4>
+                          <p>Kapasitas : 1.120 Slot</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-lg-4 col-sm-6 portfolio-item mg-bt-10">
+                          <div class="card h-100">
+                            <a href="#"><img class="card-img-top img-responsive" src="{{url('img/LAP O.JPG')}}" alt=""></a>
+                            <div class="card-body" >
+                            <h4 class="card-title">
+                            <a href="#">Lapangan O</a>
+                          </h4>
+                          <p>Kapasitas : 166 Slot</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-lg-4 col-sm-6 portfolio-item mg-bt-10">
+                          <div class="card h-100">
+                            <a href="#"><img class="card-img-top img-responsive" src="{{url('img/GEDUNG PARKIR 5 LANTAI.JPG')}}" alt=""></a>
+                            <div class="card-body" >
+                            <h4 class="card-title">
+                            <a href="#">Gedung Parkir 5 Lantai</a>
+                          </h4>
+                          <p>Kapasitas : 2.766 Slot</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      
+                      <div class="table-responsive" hidden>
                         <table class="table table-striped table-hover">
                           <thead>
                             <tr>
@@ -135,10 +244,24 @@
                           </tbody>
                         </table>
                       </div>
-
+                      <div style="height:50px;"></div>
                       <hr class="hrSpec hrSpecOrange">
+                      
                       <h4>Impor</h4>
-                      <div class="table-responsive">
+                      <div class="row">
+                      <div class="col-lg-4 col-sm-6 portfolio-item mg-bt-10">
+                          <div class="card h-100">
+                            <a href="#"><img class="card-img-top img-responsive" src="{{url('img/LAPANGAN E.JPG')}}" alt=""></a>
+                            <div class="card-body" >
+                            <h4 class="card-title">
+                            <a href="#">Lapangan E</a>
+                          </h4>
+                          <p>Kapasitas : 3.489 Slot</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="table-responsive" hidden>
                         <table class="table table-striped table-hover">
                           <thead>
                             <tr>
@@ -158,78 +281,7 @@
                       </div>
 
                     </div>
-                    <div id="menu2" class="tab-pane fade">
-                      <!-- <h3 class="roboBlack">3 Lorem ipsum dolor sit amet</h3> -->
-                      <!-- <h3 class="roboBlack">Lapangan O</h3> -->
-                      <div class="table-responsive">
-                        <table class="table table-striped table-hover">
-                          <thead>
-                            <tr>
-                              <th>No</th>
-                              <th>Nama</th>
-                              <th>Jumlah</th>
-                            </tr>
-                          </thead>  
-                          <tbody>
-                            <tr>
-                              <td>1</td>
-                              <td>Warehouse (Gudang)</td>
-                              <td></td>
-                            </tr>
-                            <tr>
-                              <td>2</td>
-                              <td>Car Wash</td>
-                              <td></td>
-                            </tr>
-                            <tr>
-                              <td>3</td>
-                              <td>Office & Workshop</td>
-                              <td></td>
-                            </tr>
-                            <tr>
-                              <td>4</td>
-                              <td>Gate In/Out</td>
-                              <td></td>
-                            </tr>
-                            <tr>
-                              <td>5</td>
-                              <td>Yard Sweeper</td>
-                              <td>3 Unit</td>
-                            </tr>
-                            <tr>
-                              <td>6</td>
-                              <td>Tug Master</td>
-                              <td>2 Unit</td>
-                            </tr>
-                            <tr>
-                              <td>7</td>
-                              <td>Chasis</td>
-                              <td>4 Unit</td>
-                            </tr>
-                            <tr>
-                              <td>8</td>
-                              <td>Taxi Car</td>
-                              <td>8 Unit</td>
-                            </tr>
-                            <tr>
-                              <td>9</td>
-                              <td>Fire Resque Truck</td>
-                              <td>1 Unit</td>
-                            </tr>
-                            <tr>
-                              <td>10</td>
-                              <td>Shuttle Service</td>
-                              <td>2 Unit</td>
-                            </tr>
-                            <tr>
-                              <td>11</td>
-                              <td>Car Terminal Operating System</td>
-                              <td></td>
-                            </tr>
-                          </tbody>
-                        </table>
-                      </div>
-                    </div>
+                    
                   </div>
                 </div>
               </section>
