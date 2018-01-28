@@ -27,7 +27,8 @@ return [
     'csr' => 'rangkul-warga',
     'annual' => 'laporan-tahunan',
     'statistic' => 'data-statistik',
-    'facilities.fas' => 'internasional',
-    'facilities.fas-1' => 'domestik',
+    'facilities.fas' => 'fasilitas-internasional',
+    'facilities.fas-1' => 'fasilitas-domestik',
+    'facilities.fas-2' => 'fasilitas-penunjang',
     // other routes name here
 ];

@@ -72,6 +72,7 @@
                             </div>
                         </div>
                     </li>
+                    
                     <li class="timeline-inverted">
                         <div class="timeline-badge"><i class="fa fa-trophy"></i></div>
                         <div class="timeline-panel">
@@ -96,6 +97,18 @@
                         </div>
                     </li>
                     <li class="timeline-inverted">
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <img class="img-responsive" src="{{ url('img/prima2016.jpg')}}">
+                                <p><span class="roboMedium normalTitle or">2016</span></p>
+                                <h4 class="timeline-title">Penilaian Pelayanan Prima Unit Pelayanan Publik Sektor Transportasi</h4>
+                            </div>
+                            <div class="timeline-body">
+                                <p class="roboMedium">Menteri Perhubungan Republik Indonesia</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li >
                         <div class="timeline-badge"><i class="fa fa-trophy"></i></div>
                         <div class="timeline-panel">
                             <div class="timeline-heading">
@@ -106,7 +119,8 @@
                             </div>
                         </div>
                     </li>
-                    <li>
+
+                    <li class="timeline-inverted">
                         <div class="timeline-panel">
                             <div class="timeline-heading">
                                 <p><span class="roboMedium normalTitle or">2017</span></p>
@@ -116,8 +130,9 @@
                                 <p class="roboMedium">Indonesia Sales &amp; Marketing Award 2017/ISMA 2017, Majalah Economic Review, Binus Business School, Indonesia-Asia Institute, Frontliner Services, Ideku Group</p>
                             </div>
                         </div>
+                        
                     </li>
-                    <li class="timeline-inverted">
+                    <li >
                         <div class="timeline-panel">
                             <div class="timeline-heading">
                                 <img class="img-responsive" src="{{ url('img/achievement_1st_best_5_of_sales_2017.jpg')}}">
@@ -129,7 +144,7 @@
                             </div>
                         </div>
                     </li>
-                    <li>
+                    <li class="timeline-inverted">
                         <div class="timeline-panel">
                             <div class="timeline-heading">
                                 <img class="img-responsive" src="{{ url('img/achievement_speaker_indonesia_sales_marketing_award_2017.jpg')}}">
@@ -141,7 +156,7 @@
                             </div>
                         </div>
                     </li>
-                    <li class="timeline-inverted">
+                    <li >
                         <div class="timeline-panel">
                             <div class="timeline-heading">
                                 <img class="img-responsive" src="{{ url('img/achievement_speaker_tol_maritim_2017.jpeg')}}">
@@ -150,7 +165,7 @@
                             </div>
                         </div>
                     </li>
-                    <li>
+                    <li class="timeline-inverted">
                         <div class="timeline-panel">
                             <div class="timeline-heading">
                                 <img class="img-responsive" src="{{ url('img/achievement_best_subsidiary_2017.jpg')}}">
@@ -162,7 +177,7 @@
                             </div>
                         </div>
                     </li>
-                    <li class="timeline-inverted">
+                    <li >
                         <div class="timeline-panel">
                             <div class="timeline-heading">
                                 <img class="img-responsive" src="{{ url('img/achievement_2017.JPG')}}">
@@ -175,7 +190,7 @@
                             </div>
                         </div>
                     </li>
-                    <li>
+                    <li class="timeline-inverted">
                         <div class="timeline-panel">
                             <div class="timeline-heading">
                                 <img class="img-responsive" src="{{ url('img/achievement_2017.JPG')}}">
@@ -188,7 +203,7 @@
                             </div>
                         </div>
                     </li>
-                    <li class="timeline-inverted">
+                    <li >
                         <div class="timeline-panel">
                             <div class="timeline-heading">
                                 <img class="img-responsive" src="{{ url('img/achievement_2017.JPG')}}">
@@ -201,7 +216,7 @@
                             </div>
                         </div>
                     </li>
-                    <li>
+                    <li class="timeline-inverted">
                         <div class="timeline-panel">
                             <div class="timeline-heading">
                                 <img class="img-responsive" src="{{ url('img/achievement_2017.JPG')}}">
@@ -214,7 +229,7 @@
                             </div>
                         </div>
                     </li>
-                    <li class="timeline-inverted">
+                    <li >
                         <div class="timeline-panel">
                             <div class="timeline-heading">
                                 <img class="img-responsive" src="{{ url('img/IKP_IKT.png')}}">

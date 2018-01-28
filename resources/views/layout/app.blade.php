@@ -58,7 +58,6 @@
         <div class="navbar-header">
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#nav-open-btn" aria-expanded="false"> <span><i class="fa fa-navicon"></i></span> </button>
         </div>
-
         <!-- NAV -->
         <div class="collapse navbar-collapse" id="nav-open-btn">
           <ul class="nav">
@@ -89,7 +88,7 @@
               <ul class="dropdown-menu">
                 <li><a href="{{ route('facilities.fas') }}">{{ trans('menu.main-facilities') }}</a></li>
                 <li><a href="{{ route('facilities.fas-1') }}">{{ trans('menu.support-facilities') }}</a></li>
-              <!-- <li><a href="{{ route('facilities.fas-2') }}">{{ trans('menu.equipment-facilities') }}</a></li> -->
+                <li><a href="{{ route('facilities.fas-2') }}">{{ trans('menu.equipment-facilities') }}</a></li>
               </ul>
             </li>
             <li class="dropdown"> <a href="blog.html" class="dropdown-toggle" data-toggle="dropdown">{{ strtoupper(trans('menu.information-center')) }}</a>
