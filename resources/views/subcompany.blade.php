@@ -27,10 +27,10 @@
             <hr class="hrSpec hrSpecOrange">
             <h3 class="mg-b-30 roboBold">Manajemen Kerjasama Operasi - Maspion Terminal Kendaraan Indonesia</h3>
 
-            <div class="flex-row-center">
+            <div class="col-md-12">
               <div class="col-md-6 pd-bt-5 col-xs-12">
                 <div class="col-md-12" style="margin-bottom: 5%">
-                  <img src="{{ url('img/maspion.png') }}" class="img-responsive">
+                  <img src="{{ url('img/maspionmtki.png') }}" class="img-responsive maspion">
                 </div>
               </div>
 
@@ -223,29 +223,30 @@
           <div class="row">
             
             <div class="col-md-6">
-              <hr class="hrSpec hrSpecOrange">
-              <h3 class="mg-b-30 roboBold">RORO Short Sea Shipping Memorandum of Understanding</h3>
-            </div>
-            <div class="col-md-6">
-              <hr class="hrSpec hrSpecOrange">
-              <h3 class="mg-b-30 roboBold">RORO Short Sea Shipping Activity</h3>
-            </div>
-          </div>
-            
-            <div class="col-md-12 mg-b-30">
-              
-              <div class="col-md-6 pd-bt-5">
+              <div class="col-md-12">
+                <hr class="hrSpec hrSpecOrange">
+                <h3 class="mg-b-30 roboBold">RORO Short Sea Shipping Memorandum of Understanding</h3>
+              </div>
+              <div class="col-md-12 pd-bt-5">
                 <div class="col-md-12" style="margin-bottom: 5%">
                   <img src="{{ url('img/roroconf.png') }}" class="img-responsive">
                 </div>
               </div>
-
-              <div class="col-md-6">
+            </div>
+            <div class="col-md-6">
+              <div class="col-md-12">
+                <hr class="hrSpec hrSpecOrange">
+                <h3 class="mg-b-30 roboBold">RORO Short Sea Shipping Activity</h3>
+              </div>
+              <div class="col-md-12">
                 <div class="col-md-12" style="margin-bottom: 5%">
                   <img src="{{ url('img/rorok.png') }}" class="img-responsive">
                 </div>
               </div>
             </div>
+            
+            
+          </div>
 
 
           <div class="col-md-12">
