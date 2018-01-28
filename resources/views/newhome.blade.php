@@ -145,6 +145,7 @@
                   </li>
                 </ul>
               </li>
+              <!-- <li class=""><a id="showToggle"><i class="fa fa-search"></i></a></li> -->
             </ul>
           </div>
         </nav>
