@@ -56,10 +56,23 @@
                       <div class="row">
                         <div class="col-lg-4 col-sm-6 portfolio-item mg-bt-10">
                           <div class="card h-100">
-                            <a href="#"><img class="card-img-top img-responsive" src="http://placehold.it/700x400" alt=""></a>
+                            <a href="#"><img class="card-img-top img-responsive" src="{{url('img/kanaldomestik.jpg')}}" alt=""></a>
                             <div class="card-body">
                               <h4 class="card-title">
                                 <a href="#">Kanal</a>
+                              </h4>
+                              
+                              <p>Kedalaman : -12 m LWS</p>
+                              <p></p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-lg-4 col-sm-6 portfolio-item mg-bt-10">
+                          <div class="card h-100">
+                            <a href="#"><img class="card-img-top img-responsive" src="{{url('img/dermaga1dom.jpg')}}" alt=""></a>
+                            <div class="card-body">
+                              <h4 class="card-title">
+                                <a href="#">Dermaga 1</a>
                               </h4>
                               <p>Panjang : 304 m'</p>
                               <p>Kedalaman : -12 m LWS</p>
@@ -68,29 +81,30 @@
                         </div>
                         <div class="col-lg-4 col-sm-6 portfolio-item mg-bt-10">
                           <div class="card h-100">
-                            <a href="#"><img class="card-img-top img-responsive" src="http://placehold.it/700x400" alt=""></a>
-                            <div class="card-body">
-                              <h4 class="card-title">
-                                <a href="#">Dermaga 1</a>
-                              </h4>
-                              <p>Panjang : 148 m'</p>
-                              <p>Kedalaman : -7 m LWS</p>
-                            </div>
-                          </div>
-                        </div>
-                        <div class="col-lg-4 col-sm-6 portfolio-item mg-bt-10">
-                          <div class="card h-100">
-                            <a href="#"><img class="card-img-top img-responsive" src="http://placehold.it/700x400" alt=""></a>
+                            <a href="#"><img class="card-img-top img-responsive" src="{{url('img/dermaga2dom.png')}}" alt=""></a>
                             <div class="card-body" >
                               <h4 class="card-title">
                                 <a href="#">Dermaga 2</a>
                               </h4>
-                              <p>Panjang : 42 m'</p>
-                              <p>Kedalaman : -7 m LWS</p>
+                              <p>Panjang : 148 m'</p>
+                              <p>Kedalaman : -8 m LWS</p>
                             </div>
                           </div>
                         </div>
                       </div>
+                      <div class="col-lg-4 col-sm-6 portfolio-item mg-bt-10">
+                          <div class="card h-100">
+                            <a href="#"><img class="card-img-top img-responsive" src="{{url('img/dermaga3dom.jpg')}}" alt=""></a>
+                            <div class="card-body" >
+                              <h4 class="card-title">
+                                <a href="#">Dermaga 3 (Beaching Point)</a>
+                              </h4>
+                              <p>Panjang : 15 m'</p>
+                              <p>Kedalaman : -8 m LWS</p>
+                            </div>
+                          </div>
+                        </div>
+                        
                       
                     </div>
                     <div id="menu1" class="tab-pane fade">
@@ -100,7 +114,7 @@
                     <div class="row">
                         <div class="col-lg-4 col-sm-6 portfolio-item mg-bt-10">
                           <div class="card h-100">
-                            <a href="#"><img class="card-img-top img-responsive" src="http://placehold.it/700x400" alt=""></a>
+                            <a href="#"><img class="card-img-top img-responsive" src="{{url('img/lapanganG.jpg')}}" alt=""></a>
                             <div class="card-body">
                               <h4 class="card-title">
                                 <a href="#">Lapangan G1</a>
@@ -111,7 +125,7 @@
                         </div>
                         <div class="col-lg-4 col-sm-6 portfolio-item mg-bt-10">
                           <div class="card h-100">
-                            <a href="#"><img class="card-img-top img-responsive" src="http://placehold.it/700x400" alt=""></a>
+                            <a href="#"><img class="card-img-top img-responsive" src="{{url('img/lapanganG.jpg')}}" alt=""></a>
                             <div class="card-body">
                               <h4 class="card-title">
                                 <a href="#">Lapangan G2</a>
@@ -122,7 +136,7 @@
                         </div>
                         <div class="col-lg-4 col-sm-6 portfolio-item mg-bt-10">
                           <div class="card h-100">
-                            <a href="#"><img class="card-img-top img-responsive" src="http://placehold.it/700x400" alt=""></a>
+                            <a href="#"><img class="card-img-top img-responsive" src="{{url('img/lapanganG.jpg')}}" alt=""></a>
                             <div class="card-body" >
                               <h4 class="card-title">
                                 <a href="#">Lapangan G3</a>
@@ -133,7 +147,7 @@
                         </div>
                         <div class="col-lg-4 col-sm-6 portfolio-item mg-bt-10">
                           <div class="card h-100">
-                            <a href="#"><img class="card-img-top img-responsive" src="http://placehold.it/700x400" alt=""></a>
+                            <a href="#"><img class="card-img-top img-responsive" src="{{url('img/lapanganG.jpg')}}" alt=""></a>
                             <div class="card-body" >
                               <h4 class="card-title">
                                 <a href="#">Lapangan G4</a>
@@ -144,10 +158,10 @@
                         </div>
                         <div class="col-lg-4 col-sm-6 portfolio-item mg-bt-10">
                           <div class="card h-100">
-                            <a href="#"><img class="card-img-top img-responsive" src="http://placehold.it/700x400" alt=""></a>
+                            <a href="#"><img class="card-img-top img-responsive" src="{{url('img/lapanganG.jpg')}}" alt=""></a>
                             <div class="card-body" >
                               <h4 class="card-title">
-                                <a href="#">Gerbang Kompleks</a>
+                                <a href="#">Gate Complex</a>
                               </h4>
                               <p>Kapasitas : 50 Slot</p>
                             </div>
