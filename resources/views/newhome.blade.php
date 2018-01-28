@@ -15,7 +15,7 @@
 
   <!-- StyleSheets -->
   <link rel="stylesheet" href="{{ url('css/custom-newhome.css')}}">
-  <link rel="stylesheet" href="{{ url('homepage/css/ionicons.min.css')}}">
+  <!-- <link rel="stylesheet" href="{{ url('homepage/css/ionicons.min.css')}}"> -->
   <link rel="stylesheet" href="{{ url('homepage/css/bootstrap/bootstrap.min.css')}}">
   <link rel="stylesheet" href="{{ url('homepage/css/font-awesome.min.css')}}">
   <link rel="stylesheet" href="{{ url('homepage/css/main.css')}}">

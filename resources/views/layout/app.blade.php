@@ -21,6 +21,16 @@
   <link rel="stylesheet" type="text/css" href="{{ url('css/ikt-style.css') }}">
   <link rel="stylesheet" type="text/css" href="{{ url('homepage/css/header-only.css')}}">
   <link rel="stylesheet" href="{{ url('homepage/css/responsive.css')}}">
+  <style type="text/css">
+    .dropdown:hover .dropdown-menu {
+        display: block;
+    }
+    .dropdown .dropdown-menu li a {
+        color: #898989;
+        padding: 6px 20px;
+        font-weight: 300;
+    }
+  </style>
   
 
   <meta name="csrf-token" content="{{ csrf_token() }}">
