@@ -69,7 +69,7 @@ return [
     </p>
     <div class="col-md-12 flex-row-center">
     <div class="col-md-4">
-    <img class="img-responsive" src="'.url("img/5_history.jpg").'"><br>
+    <img class="img-responsive" src="'.url("img/elevasi1.png").'"><br>
     </div>
     <div class="col-md-8">
     <blockquote class="blockquote">
