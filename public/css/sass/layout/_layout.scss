@@ -12,6 +12,11 @@
 		height: 100%;
 	}
 }
+@media (max-width: 600px) {
+	.navbar-brand {
+		padding-left: 20px !important;
+	}
+}
 .dropdown-submenu {
 	position:relative;
 	&>.dropdown-menu {
@@ -940,3 +945,16 @@ Annual Report
 	height: 200px !important;
 	margin: 0 auto;
 }
+
+  /*desktop*/
+  @media only screen and (max-height: 768px) {
+  .taglineMerah {
+    width: 65%;
+    height: auto;
+    margin-left: 8%; }
+  .iktheart {
+    width: 65%;
+    height: auto;
+    margin-left: 14%; }  
+  }
+
