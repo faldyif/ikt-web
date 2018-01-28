@@ -156,17 +156,7 @@
                             </div>
                           </div>
                         </div>
-                        <div class="col-lg-4 col-sm-6 portfolio-item mg-bt-10">
-                          <div class="card h-100">
-                            <a href="#"><img class="card-img-top img-responsive" src="{{url('img/lapanganG.jpg')}}" alt=""></a>
-                            <div class="card-body" >
-                              <h4 class="card-title">
-                                <a href="#">Gate Complex</a>
-                              </h4>
-                              <p>Kapasitas : 50 Slot</p>
-                            </div>
-                          </div>
-                        </div>
+                        
                         
                       </div>
                       <div class="table-responsive" hidden>
