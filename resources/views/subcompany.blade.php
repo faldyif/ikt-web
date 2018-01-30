@@ -6,7 +6,7 @@
 
 @section('content')
 <!--HERO-->
-<link rel="stylesheet" href="{{ url('homepage/css/bootstrap/bootstrap.min.css')}}">
+<!-- <link rel="stylesheet" href="{{ url('homepage/css/bootstrap/bootstrap.min.css')}}"> -->
 
 <section id="heroTitle">
   <div class="heroTitle" style="background-image: url('{{ url('img/3.jpg') }}');">
