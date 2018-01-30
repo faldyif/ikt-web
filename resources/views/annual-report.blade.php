@@ -47,7 +47,7 @@
                 <div class="col-md-12 annual pd-bt-20 mg-bt-10 flex-row-center">
                   <div class="col-md-3">
                     <!-- foto -->
-                    <img src="{{ url('img/ar-2017.png') }}" class="annual-img img-responsive">
+                    <img src="{{ url('img/ar-2017w.png') }}" class="annual-img img-responsive">
                   </div>
                   <div class="col-md-9">
                     <!-- konten -->
