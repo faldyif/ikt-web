@@ -492,7 +492,7 @@ header .sticky {
 	padding: 0px 15px;
 }
 .is-sticky .sticky {
-	position: relative !important;
+	/*position: relative !important;*/
 	padding: 10px 15px !important;
 	background: rgba(0,0,0,0.8) !important;
 }

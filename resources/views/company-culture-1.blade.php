@@ -5,7 +5,7 @@
 @section('content')
 <!--HERO-->
 <section id="heroTitle">
-  <div class="heroTitle" style="background-image: url('{{ url('img/receiving-delivery-01.jpg') }}');">
+  <div class="heroTitle" style="background-image: url('{{ url('img/culture.jpg') }}');">
     <div class="overlay"></div>
     <section class="container-fluid pd-30">
       <h2 class="roboBold wh alignCenter" data-wow-delay="0.4s">{{ trans('company-culture.head-title') }}</h2>
@@ -71,12 +71,26 @@
           <!-- home -->
           <div id="home" class="tab-pane fade in active">
             <img  class="img-responsive" style="width: 50%; height: auto">
-            <h1>Ini budaya perusahaan landing</h1>
+            <div>
+              <hr class="hrSpec hrSpecOrange">
+              <h4 class="card-title roboBold">Budaya Perusahaan Kami</h4>
+              <!-- <br> -->
+              <div>
+                <p class="dropcaps text-justify">
+                  Sebagai percepatan proses transformasi bisnis dan budaya perusahaan sesuai dengan harapan pemegang saham, PT Indonesia Kendaraan Terminal telah menetapkan Logo, Visi, Misi, Karakter dan Nilai-nilai perusahaan yang lebih spesifik, terukur dan realistis sesuai kebutuhan jangka pendek, menengah, dan panjang perusahaan. Telah ditetapkan pula tagline transformasi budaya perusahaan yang berbunyi : “Dengan CINTA, satukan langkah wujudkan kerja nyata IPC Car Terminal berkelas dunia”. <br>
+                  Sejalan dengan CINTA (Customer Centric, Integrity, Nasionalism, Teamwork dan Action) sebagai nilai-nilai perusahaan yang disemat dalam tagline tersebut, PT Indonesia Kendaraan Terminal bertekad untuk menjadi perusahaan pengelola terminal kendaraan yang profesional dan dapat disejajarkan serta bersaing dengan penyedia layanan terminal kendaraan terbaik di dunia. Hal lain yang menjadi tujuan dari penetapan Budaya Perusahaan adalah bahwa PT Indonesia Kendaraan Terminal harus mampu menjadi terminal kendaraan yang unggul dalam operasional dengan menerapkan standar operasional terbaik di dunia yang berproduktifitas tinggi, serta secara efektif dan efisien sekaligus mampu menerapkan <i> internasional best practice </i> yang mengimplementasikan kebijakan <i> “zero accident” </i>, termasuk memberikan pelayanan-pelayanan yang unggul serta mengerti akan kebutuhan pengguna jasanya.
+                </p>
+                 <br> 
+                <img src="{{ url('img/iktheart1.png') }}" class="img-responsive iktheart">
+              </div>
+            </div>
           </div>
           <!-- //home -->
           <!-- tagline -->
-          <div id="tagline" class="tab-pane fade in">
-            <img src="{{ url('img/tagline.png') }}" class="img-responsive" style="width: 50%; height: auto">
+          <div id="tagline" class="tab-pane fade in taglineMerah">
+            <center>
+            <img src="{{ url('img/tagline.png') }}" class="img-responsive">
+            </center>
           </div>
           <!-- //tagline -->
           <!-- menu1 -->
@@ -105,9 +119,13 @@
               <div class="col-md-10">
                 <p>
                   <h4><span class="bigger"><strong>I</strong></span>ntegrity<br><small>Walk the Talk</small></h4>
-                  Menumbuhkan rasa percaya dengan mengatakan apa yang kita rasakan serta melakukan apa yang kita ucapkan.<br>
-                  Menunjukkan sikap profesional dan jujur dalam berinterasi dengan pihak internal maupun eksternal.<br>
-                  Berperilaku disiplin dan patuh terhadap kode etik bisnis di dalam melakukan pelkerjaan kita sehari-hari.<br>
+                  <div class="bullet">
+                    <ul>
+                      <li>Menumbuhkan rasa percaya dengan mengatakan apa yang kita rasakan serta melakukan apa yang kita ucapkan.</li>
+                      <li>Menunjukkan sikap profesional dan jujur dalam berinteraksi dengan pihak internal maupun eksternal.</li>
+                      <li>Berperilaku disiplin dan patuh terhadap kode etik bisnis di dalam melakukan pekerjaan kita sehari-hari.</li>
+                    </ul>
+                  </div>
                 </p>
               </div>
             </div>
@@ -118,9 +136,13 @@
               <div class="col-md-10">
                 <p>
                   <h4><span class="bigger"><strong>N</strong></span>ationalism<br><small>National Pride</small></h4>
-                  Menumbuhkan semangat dan ikut berperan mensukseskan program pemerintah dalam pembangunan nasional.<br>
-                  Menumbuhkan rasa bangga dan semangat masionalisme dalam berkarya.<br>
-                  Terus berkembang dan mampu bersaing dengan perusahaan pengelola pelabuhan kelas dunia.<br>
+                  <div class="bullet">
+                    <ul>
+                      <li>Menumbuhkan semangat dan ikut berperan mensukseskan program pemerintah dalam pembangunan nasional.</li>
+                      <li>Menumbuhkan rasa bangga dan semangat nasionalisme dalam berkarya.</li>
+                      <li>Terus berkembang dan mampu bersaing dengan perusahaan pengelola terminal kendaraan berkelas dunia.</li>
+                    </ul>
+                  </div>
                 </p>
               </div>
             </div>
@@ -131,9 +153,13 @@
               <div class="col-md-10">
                 <p>
                   <h4><span class="bigger"><strong>T</strong></span>eam Work<br><small>Together We Can</small></h4>
-                  Berkolaborasi dalam tim untuk mendapatkan hasil yang terbaik<br>
-                  Bekerja bersama-sama menghasilkan ide-ide implementatif untuk solusi kebutuhan pengguna jasa pelabuhan.<br>
-                  Semangat kebersamaan dan menghargai orang lain.<br>
+                  <div class="bullet">
+                    <ul>
+                      <li>Berkolaborasi dalam tim untuk mendapatkan hasil yang terbaik.</li>
+                      <li>Bekerja bersama-sama menghasilkan ide-ide implementatif untuk solusi kebutuhan pengguna jasa terminal kendaraan.</li>
+                      <li>Semangat kebersamaan dan menghargai orang lain.</li>
+                    </ul>
+                  </div>
                 </p>
               </div>
             </div>
@@ -144,9 +170,13 @@
               <div class="col-md-10">
                 <p>
                   <h4><span class="bigger"><strong>A</strong></span>ction<br><small>Make It Happy</small></h4>
-                  Berani bermimpi dan berusaha mewujudkannya.<br>
-                  Proaktif untuk mencari cara dalam mewujudkan visi perusahaan.<br>
-                  Melakukan terobosan-terobosan dan langkat nyata dalam mendorong perkembangan perusahaan.<br>
+                  <div class="bullet">
+                    <ul>
+                      <li>Berani bermimpi dan berusaha mewujudkannya.</li>
+                      <li>Proaktif untuk mencari cara dalam mewujudkan visi perusahaan.</li>
+                      <li>Melakukan terobosan-terobosan dan langkah nyata dalam mendorong perkembangan perusahaan.</li>
+                    </ul>  
+                  </div>
                 </p>
               </div>
             </div>

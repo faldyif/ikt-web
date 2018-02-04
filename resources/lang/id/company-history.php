@@ -5,7 +5,7 @@ return [
     'sub-title' => 'PT Indonesia Kendaraan Terminal',
     'title' => 'Stevedoring & Cargodoring',
     'content' => '
-    <p class="text-justify">
+    <p class="text-justify dropcaps">
     Industri otomotif nasional mengalami pertumbuhan yang cukup pesat dalam satu dekade terakhir ini. Hal ini dikarenakan semakin tingginya daya beli masyarakat dan meningkatnya kepercayaan produsen produk otomotif global untuk menjadikan Indonesia sebagai basis produksi dengan mendirikan pabrik otomotif di negara ini. Kesempatan ini tentu harus didukung pemerintah dengan meningkatkan pertumbuhan infrastruktur yang mendukung industri otomotif nasional. 
     Sedangkan pelabuhan-pelabuhan untuk menangani distribusi kendaraan baik antar pulau maupun ekspor /impor dilakukan oleh Pelabuhan dengan terminal konvensional atau <i> multi purpose </i> terminal. Untuk itu peningkatan produktifitas dan percepatan distribusi kendaraan diperlukan terminal yang secara khusus melayani kendaraan, alat berat dan  turunannya.
     Untuk merealisasikan itu, maka  pada pada tahun 2016 Wakil Presiden Republik Indoesia pada saat itu, yaitu Bapak Muhammad Jusuf Kalla mengusulkan untuk didirikan pelabuhan khusus untuk melayani kegiatan bongkar muat kargo-kargo yang dimuat melalui kapal Ro-Ro ( <i> Roll on Roll Off </i>). Selama ini kegiatan ekspor/impor kendaraan masih terkendala karena tidak adanya fasilitas dermaga khusus di pelabuhan yang mampu menangani kargo kendaraan dengan standar kelas dunia. Untuk menindak lanjuti usul dari Bapak Wakil Presiden tersebut, maka pada tanggal 14 Maret 2006 dimulai pembuatan desain awal terminal oleh Konsultan LAPI ITB yang ditunjuk oleh PT Pelabuhan Indonesia II (Persero) untuk membuat rancangan terminal kendaraan di Tanjung Priok.
@@ -65,6 +65,36 @@ return [
     </div>
     </div>
     <p class="text-justify">
-    Seiring dengan transformasi yang dilakukan oleh PT Pelabuhan Indonesia II (Persero) yang dimulai pada tahun 2012, maka PT Indonesia Kendaraan Terminal yang merupakan salah satu dari anak perusahaan juga harus ikut bertransformasi mengingat sukses tidaknya proses transformasi perusahaan induk salah satunya juga berkaitan dengan suksesnya transformasi anak perusahaan yang ada di dalamnya. Untuk itu pada tahun 2012 PT Pelabuhan Indonesia II (Persero) membuat blue print yang ditujukan sebagai pedoman pengelolaan PT Indonesia Kendaraan Terminal. Pengelolaan anak perusahaan kembali ditata ulang, ditingkatkan, dan diperkuat landasannya pada tahun 2017 yang sejalan dengan <i> corporate roadmap </i> PT Pelabuhan Indonesia II (Persero). Dengan dilandasi platform yang kuat dan efektif, PT Indonesia Kendaraan Terminal dituntut untuk menjadi terminal kendaraan berkelas dunia yang unggul dalam operasional dan pelayanan dengan <i> tagline </i> We Will Shine With You.
-    </p>'
+    Seiring dengan transformasi yang dilakukan oleh PT Pelabuhan Indonesia II (Persero) yang dimulai pada tahun 2012, maka PT Indonesia Kendaraan Terminal yang merupakan salah satu dari anak perusahaan juga harus ikut bertransformasi mengingat sukses tidaknya proses transformasi perusahaan induk salah satunya juga berkaitan dengan suksesnya transformasi anak perusahaan yang ada di dalamnya. Untuk itu pada tahun 2012 PT Pelabuhan Indonesia II (Persero) membuat blue print yang ditujukan sebagai pedoman pengelolaan PT Indonesia Kendaraan Terminal. Pengelolaan anak perusahaan kembali ditata ulang, ditingkatkan, dan diperkuat landasannya pada tahun 2017 yang sejalan dengan <i> corporate roadmap </i> PT Pelabuhan Indonesia II (Persero). Dengan dilandasi platform yang kuat dan efektif, PT Indonesia Kendaraan Terminal dituntut untuk menjadi terminal kendaraan berkelas dunia yang unggul dalam operasional dan pelayanan dengan <i> tagline </i> We Will <font color="#E1373F">S</font><font color="#35A5D7">H</font><font color="#ADCD49">I</font><font color="#D9853A">N</font><font color="#D35A9D">E</font> With You.
+    </p>
+    <div class="col-md-12 flex-row-center">
+    <div class="col-md-4">
+    <img class="img-responsive" src="'.url("img/5_history.jpg").'"><br>
+    </div>
+    <div class="col-md-8">
+    <blockquote class="blockquote">
+    <h4>UJI ELEVASI PERDANA DERMAGA</h4>
+    <small><cite>PT Indonesia Kendaraan Terminal</cite></small>
+    </blockquote>
+    </div>
+    </div>
+    <p class="text-justify">
+    Uji Coba sudut elevasi antara dermaga Car Terminal dengan Ramp door kapal yang pertama kalinya (4 Oktober 2007), sebelum secara resmi digunakan. Cargo owner melakukan pengujian dengan menggunakan kapal liner domestic (KM Serasi II) sebelum disandarkan kapal dengan dimensi (DWT) yang lebih besar untuk kunjungan ekspor/impor. Hal ini penting dilakukan terkait prosedur safety cargo yang akan ditangani di terminal IKT. Hasil pengujian tersebut menjadi penentu apakah dermaga IKT layak dan memenuhi standar untuk digunakan pada kegiatan operasional di terminal Roro. 
+    </p><br>
+    <div class="col-lg-12 galleryb">
+    
+    <div class="img-responsive gallerys">
+    <img src="'.url("img/elevasi3.jpg").'" alt="Fjords" width="600" height="500">
+    </div>
+    <div class="img-responsive gallerys">
+    <img src="'.url("img/elevasi4.jpg").'" alt="Fjords" width="600" height="500">
+    </div>
+    <div class="img-responsive gallerys">
+    <img src="'.url("img/elevasi6.jpg").'" alt="Fjords" width="600" height="500">
+    </div>
+    <div class="img-responsive gallerys">
+    <img src="'.url("img/elevasi5.jpg").'" alt="Fjords" width="600" height="500">
+    </div>
+
+    </div>'
 ];

@@ -12,6 +12,11 @@
 		height: 100%;
 	}
 }
+@media (max-width: 600px) {
+	.navbar-brand {
+		padding-left: 20px !important;
+	}
+}
 .dropdown-submenu {
 	position:relative;
 	&>.dropdown-menu {
@@ -137,7 +142,7 @@
 		}
 
 		img {
-			background-size: 110%;
+			background-size: 100%;
 		}
 	}
 }
@@ -889,12 +894,31 @@ display: flex;
     color: #2C82C9 !important;
   }
   .bullet {
+    margin: 0 0 10px;
     ul{
+      margin-left: -4%;
       li {
         list-style-type: circle;      
       }
     }
+    ol{
+     margin-left: -4%;
+     li {
+       list-style-type: upper-alpha;      
+     }
+    }
   }
+
+  .bullet-number {
+    margin: 0 0 10px;
+      ol{
+       margin-left: -4%;
+       li {
+         list-style-type: decimal;
+         }      
+     }
+  }
+
   .dropcaps:first-of-type:first-letter {
   height: 0.7em;
   margin: 0.08em 0 -0.05em 0;
@@ -902,4 +926,60 @@ display: flex;
   font-size: 5em;
   line-height: 0.85em;
   float: left;
+}
+
+/*-----------------
+Annual Report
+-----------------*/
+
+.annual{
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	cursor: pointer;
+}
+.annual:hover{
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
+}
+.annual-img{
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	width: auto;
+	height: 200px !important;
+	margin: 0 auto;
+}
+
+  /*desktop*/
+  @media only screen and (max-height: 768px) {
+  .taglineMerah {
+    width: 65%;
+    height: auto;
+    margin-left: 8%; }
+  .iktheart {
+    width: 65%;
+    height: auto;
+    margin-left: 14%; }  
+  }
+
+/*gallery sejarah*/
+
+div.galleryb {
+  margin-left: 3%;
+}
+div.gallerys {
+    margin: 0px;
+    float: left;
+    width: 24%;
+}
+div.gallerys:hover {
+    border: 1px solid #777;
+}
+div.gallerys img {
+    width: 100%;
+    height: auto;
+}
+
+@media (max-width: 600px){
+ div.gallerys {
+    margin-left: 9%;
+    float: left;
+    width: 80%;
+  } 
 }

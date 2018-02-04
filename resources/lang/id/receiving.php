@@ -48,19 +48,19 @@ return [
       <div class="col-md-7 col-sm-pull-5">
         
         <div class="col-md-6" style="margin-bottom: 5%">
-          <img src="'.url("img/delivery1.jpg").'" class="img-responsive">
+          <img src="'.url("img/delivery1.JPG").'" class="img-responsive">
         </div>
         <div class="col-md-6" style="margin-bottom: 5%">
-          <img src="'.url("img/delivery2.jpg").'" class="img-responsive">
+          <img src="'.url("img/delivery2.JPG").'" class="img-responsive">
         </div>
         <div class="col-md-6" style="margin-bottom: 5%">
-          <img src="'.url("img/delivery3.jpg").'" class="img-responsive">
+          <img src="'.url("img/delivery3.JPG").'" class="img-responsive">
         </div>
         <div class="col-md-6" style="margin-bottom: 5%">
-          <img src="'.url("img/delivery6.jpg").'" class="img-responsive">
+          <img src="'.url("img/delivery6.JPG").'" class="img-responsive">
         </div>
         <div class="col-md-6" style="margin-bottom: 5%">
-          <img src="'.url("img/delivery5.jpg").'" class="img-responsive">
+          <img src="'.url("img/delivery5.JPG").'" class="img-responsive">
         </div>
         <div class="col-md-6" style="margin-bottom: 5%">
           <img src="'.url("img/delivery_2.jpg").'" class="img-responsive">
