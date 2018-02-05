@@ -18,7 +18,7 @@
         <div class="container-fluid wow fadeInUpBig">
             <section class="pd-lr-30">
                 <hr class="hrSpec hrSpecOrange">
-                <h3 class="mg-b-30 roboBold">Achivements</h3>
+                <h3 class="mg-b-30 roboBold">Achievements</h3>
             </section>
             <!-- timeline -->
             <div class="container">
