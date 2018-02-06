@@ -326,7 +326,12 @@
                             <div id="menu4" class="tab-pane fade">
                                 <div class="col-md-12">
                                     <hr class="hrSpec hrSpecOrange">
-                                    <h3>Penyaluran CSR IKT 2017</h3>
+                                    <div class="row">
+                                        <div class="col-md-6 col-md-offset-4">
+                                            <h3>Penyaluran CSR IKT 2017 </h3>
+                                        </div>
+                                    </div>
+                                    
                                     <table cellspacing=0 border=1 class="table table-bordered table-striped">
                                         <tr>
                                             <td style=min-width:50px>No</td>
@@ -540,7 +545,7 @@
                                     <div class="row">
 
                                     <div class="col-md-3 ">
-                                        <div class="card">
+                                        <div class="card" style="background-color:#E1373F;">
                                             <h4 class="card-header">Education & Religion</h4>
                                             <div class="card-block">
                                                 <h4 class="card-title " style="margin-left:10px;"  >Rp628,700,000</h4>
@@ -548,8 +553,8 @@
                                         </div>
                                     </div>
                                     <div class="col-md-3 ">
-                                            <div class="card">
-                                                <h4 class="card-header">Health, Social & Environment
+                                            <div class="card" style="background-color:#35A5D7;">
+                                                <h4 class="card-header" >Health, Social & Environment
                                                     </h4>
                                                 <div class="card-block">
                                                     <h4 class="card-title " style="margin-left:10px;"  >Rp861,663,500
@@ -558,7 +563,7 @@
                                             </div>
                                         </div>
                                         <div class="col-md-3 ">
-                                                <div class="card">
+                                                <div class="card" style="background-color:#ADCD49;">
                                                     <h4 class="card-header">Youth & Entrepreneurship                                                        </h4>
                                                     <div class="card-block">
                                                         <h4 class="card-title " style="margin-left:10px;"  >Rp6,000,000
@@ -566,8 +571,8 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="col-md-3 ">
-                                                    <div class="card">
+                                            <div class="col-md-3 " >
+                                                    <div class="card" style="background-color:#D9853A;">
                                                         <h4 class="card-header">Sport, Art & Culture
                                                             </h4>
                                                         <div class="card-block">
@@ -582,7 +587,7 @@
                                     <row>
 
                                         <div class="col-md-6 col-md-offset-3 ">
-                                            <div class="card">
+                                            <div class="card" style="background-color:#D35A9D;">
                                                 <h4 class="card-header">Total Penyaluran</h4>
                                                 <div class="card-block">
                                                     <h4 class="card-title " style="margin-left:10px;"  >Rp1,517,863,500
