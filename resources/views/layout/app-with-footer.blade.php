@@ -60,13 +60,25 @@
               </div>
               <div class="col-sm-12">
                 <div class="row text-center">
-                  <button type="button" class="btn btn-warning btn-xs" data-toggle="modal" data-target="#modal-whistleblowing"><i class="fa fa-bullhorn"></i> Aduan Pelanggaran</button>
+                  <!-- <button type="button" class="btn btn-warning btn-xs" data-toggle="modal" data-target="#modal-whistleblowing"><i class="fa fa-bullhorn"></i> Aduan Pelanggaran</button> -->
+                  <div class=" wb wb-footer ">
+                    <a href="#" class="btn-normal" data-toggle="modal" data-target="#modal-whistleblowing">
+                      <div class="">
+                        <figure class="">
+                          <img src="{{ url('img/whistle.png') }}" alt="">
+                        </figure>
+                        <p class="font-extra-bold text-uppercase" style="">
+                          Pengaduan <br> Pelanggaran
+                        </p>
+                      </div>
+                    </a>
+                  </div>
                 </div>
               </div>
             </section>
           </div>
           <div class="col-md-4 noPad hidden-sm">
-            
+
           </div>
         </section>
       </section>

@@ -1,4 +1,13 @@
-
+@mixin flex-center {
+	align-items: center;
+	display: flex;
+	justify-content: center;
+}
+// --------------------------------taken from homepage/css/style.css
+.font-extra-bold {
+	font-family: 'Montserrat', sans-serif;
+	font-weight:bold;
+}
 /* ------------------ Navbar ------------------------- */
 
 .shine{
@@ -141,6 +150,36 @@
           width: 110px;
           opacity: 0;
         }
+      }
+    }
+  }
+}
+// -------------------------- whistleblowing in Footer
+.wb-footer {
+	@include flex-center();
+  a.btn-normal {
+		&:before {
+			height: 0px;
+		}
+    &>div {
+			figure {
+	      max-width: 60px;
+
+				&:before {
+					content: '';
+					height: 95px;
+					width: 95px;
+					z-index: 9;
+				}
+	    }
+		}
+    &:hover {
+      p {
+        color: #ff8349;
+      }
+      &:before {
+				height: 4px;
+        z-index: 9;
       }
     }
   }

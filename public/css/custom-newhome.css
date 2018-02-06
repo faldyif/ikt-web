@@ -1,3 +1,7 @@
+.font-extra-bold {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold; }
+
 /* ------------------ Navbar ------------------------- */
 .shine {
   display: inline-block;
@@ -113,11 +117,30 @@
       width: 110px;
       opacity: 0; }
 
+.wb-footer {
+  align-items: center;
+  display: flex;
+  justify-content: center; }
+  .wb-footer a.btn-normal:before {
+    height: 0px; }
+  .wb-footer a.btn-normal > div figure {
+    max-width: 60px; }
+    .wb-footer a.btn-normal > div figure:before {
+      content: '';
+      height: 95px;
+      width: 95px;
+      z-index: 9; }
+  .wb-footer a.btn-normal:hover p {
+    color: #ff8349; }
+  .wb-footer a.btn-normal:hover:before {
+    height: 4px;
+    z-index: 9; }
+
 .work-process .process-steps .step-img img {
   background-color: #fff; }
 
 .shine-anim {
-  animation: shineAnim 2s infinite;
+  animation: shineAnim 4s infinite;
   background: radial-gradient(transparent 0%, rgba(241, 255, 22, 0.1) 35%, rgba(240, 251, 71, 0.7) 65%, #f0fb47 70%, rgba(221, 247, 10, 0.1) 71%, transparent 100%);
   border-radius: 50%;
   -webkit-border-radius: 50%;
@@ -134,7 +157,7 @@
 @keyframes shineAnim {
   from {
     height: 0;
-    opacity: 1;
+    opacity: 0.6;
     width: 0; }
   to {
     height: 100%;
