@@ -284,7 +284,9 @@
                      data-endelementdelay="0.1"
                      data-endspeed="300"
                      data-scrolloffset="0"
-                     style="z-index: 8;"><a href="#content" class="btn-normal">SELENGKAPNYA</a> </div>
+                     style="z-index: 8;">
+                     <!-- <a href="#content" class="btn-normal">SELENGKAPNYA</a>  -->
+                   </div>
               </li>
             </ul>
           </div>
