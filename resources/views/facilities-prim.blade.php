@@ -68,7 +68,7 @@
                         </div>
                         <div class="col-lg-4 col-sm-6 portfolio-item mg-bt-10">
                           <div class="card h-100">
-                            <a href="#"><img class="card-img-top img-responsive" src="{{url('img/dermaga 1.jpg')}}" alt=""></a>
+                            <a href="#"><img class="card-img-top img-responsive" src="{{url('img/DERMAGA 1.JPG')}}" alt=""></a>
                             <div class="card-body">
                               <h4 class="card-title">
                                 <a href="#">Dermaga 1</a>
@@ -81,7 +81,7 @@
                         </div>
                         <div class="col-lg-4 col-sm-6 portfolio-item mg-bt-10">
                           <div class="card h-100">
-                            <a href="#"><img class="card-img-top img-responsive" src="{{url('img/dermaga 2.jpg')}}" alt=""></a>
+                            <a href="#"><img class="card-img-top img-responsive" src="{{url('img/DERMAGA 2.JPG')}}" alt=""></a>
                             <div class="card-body" >
                               <h4 class="card-title">
                                 <a href="#">Dermaga 2</a>
@@ -135,7 +135,7 @@
                       <div class="row">
                         <div class="col-lg-4 col-sm-6 portfolio-item mg-bt-10">
                           <div class="card h-100">
-                            <a href="#"><img class="card-img-top img-responsive" src="{{url('img/lapangan a.jpg')}}" alt=""></a>
+                            <a href="#"><img class="card-img-top img-responsive" src="{{url('img/LAPANGAN A.JPG')}}" alt=""></a>
                             <div class="card-body">
                               <h4 class="card-title">
                                 <a href="#">Lapangan A</a>
@@ -146,7 +146,7 @@
                         </div>
                         <div class="col-lg-4 col-sm-6 portfolio-item mg-bt-10">
                           <div class="card h-100">
-                            <a href="#"><img class="card-img-top img-responsive" src="{{url('img/lapangan b.jpg')}}" alt=""></a>
+                            <a href="#"><img class="card-img-top img-responsive" src="{{url('img/LAPANGAN B.JPG')}}" alt=""></a>
                             <div class="card-body">
                             <h4 class="card-title">
                             <a href="#">Lapangan B</a>
@@ -157,7 +157,7 @@
                         </div>
                         <div class="col-lg-4 col-sm-6 portfolio-item mg-bt-10">
                           <div class="card h-100">
-                            <a href="#"><img class="card-img-top img-responsive" src="{{url('img/lapangan c.jpg')}}" alt=""></a>
+                            <a href="#"><img class="card-img-top img-responsive" src="{{url('img/LAPANGAN C.JPG')}}" alt=""></a>
                             <div class="card-body" >
                             <h4 class="card-title">
                             <a href="#">Lapangan C (Buffer)</a>
@@ -168,7 +168,7 @@
                         </div>
                         <div class="col-lg-4 col-sm-6 portfolio-item mg-bt-10">
                           <div class="card h-100">
-                            <a href="#"><img class="card-img-top img-responsive" src="{{url('img/lapangan h.jpg')}}" alt=""></a>
+                            <a href="#"><img class="card-img-top img-responsive" src="{{url('img/LAPANGAN H.JPG')}}" alt=""></a>
                             <div class="card-body" >
                             <h4 class="card-title">
                             <a href="#">Lapangan H</a>
@@ -179,7 +179,7 @@
                         </div>
                         <div class="col-lg-4 col-sm-6 portfolio-item mg-bt-10">
                           <div class="card h-100">
-                            <a href="#"><img class="card-img-top img-responsive" src="{{url('img/lap o.jpg')}}" alt=""></a>
+                            <a href="#"><img class="card-img-top img-responsive" src="{{url('img/LAP O.JPG')}}" alt=""></a>
                             <div class="card-body" >
                             <h4 class="card-title">
                             <a href="#">Lapangan O</a>
@@ -251,7 +251,7 @@
                       <div class="row">
                       <div class="col-lg-4 col-sm-6 portfolio-item mg-bt-10">
                           <div class="card h-100">
-                            <a href="#"><img class="card-img-top img-responsive" src="{{url('img/lapangan e.jpg')}}" alt=""></a>
+                            <a href="#"><img class="card-img-top img-responsive" src="{{url('img/LAPANGAN E.JPG')}}" alt=""></a>
                             <div class="card-body" >
                             <h4 class="card-title">
                             <a href="#">Lapangan E</a>
