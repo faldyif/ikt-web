@@ -33,6 +33,7 @@ return [
     'receiving-delivering' => 'Receiving & Delivery',
     'pre-delivery-inspection' => 'Pre Delivery Inspection',
     'value-added-services' => 'Value Added Services',
+    'sop' => 'Standard Operating Procedure',
     // End services submenu
 
     // Facilities submenu
@@ -50,6 +51,7 @@ return [
     'procurement' => 'e-Procurement',
     'limouzine-magazine' => 'Majalah Limouzine',
     'gallery' => 'Galeri',
+    'appraisal' => 'Penilaian',
     // End facilities submenu
 
     // Search bar

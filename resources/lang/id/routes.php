@@ -30,5 +30,7 @@ return [
     'facilities.fas' => 'fasilitas-internasional',
     'facilities.fas-1' => 'fasilitas-domestik',
     'facilities.fas-2' => 'fasilitas-penunjang',
+    'information.appraisal' => 'penilaian',
+    'service.sop' => 'sop',
     // other routes name here
 ];

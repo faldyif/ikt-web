@@ -30,5 +30,7 @@ return [
     'facilities.fas' => 'international-facilities',
     'facilities.fas-1' => 'domestic-facilities',
     'facilities.fas-2' => 'supporting-facilities',
+    'information.appraisal' => 'appraisal',
+    'service.sop' => 'sop',
     // other routes name here
 ];

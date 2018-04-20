@@ -226,6 +226,14 @@ Route::get(trans('routes.annual'), function () {
     return view('annual-report');
 })->name('annual');
 
+Route::get(trans('routes.information.appraisal'), function () {
+    return view('penilaian');
+})->name('information.appraisal');
+
+Route::get(trans('routes.service.sop'), function () {
+    return view('sop');
+})->name('service.sop');
+
 // Statistic Data
 Route::get(trans('routes.statistic'), function () {
     $berthing = App\BerthingPlan::orderBy('eta', 'desc')->where('eta', '>=', date("Y-m-d"))->get();
