@@ -34,6 +34,8 @@ return [
     'pre-delivery-inspection' => 'Pre Delivery Inspection',
     'value-added-services' => 'Value Added Services',
     'sop' => 'Standard Operating Procedure',
+    'maklumat' => 'Proclaim Services',
+    'standart' => 'Standard Services',
     // End services submenu
 
     // Facilities submenu
@@ -52,6 +54,7 @@ return [
     'limouzine-magazine' => 'Limouzine Magazine',
     'gallery' => 'Gallery',
     'appraisal' => 'Appraisal',
+    'kuisioner' => 'Customer Questionnaire',
     // End facilities submenu
 
     // Search bar

@@ -34,6 +34,8 @@ return [
     'pre-delivery-inspection' => 'Pre Delivery Inspection',
     'value-added-services' => 'Value Added Services',
     'sop' => 'Standard Operating Procedure',
+    'maklumat' => 'Maklumat Pelayanan',
+    'standart' => 'Standar Pelayanan',
     // End services submenu
 
     // Facilities submenu
@@ -52,6 +54,7 @@ return [
     'limouzine-magazine' => 'Majalah Limouzine',
     'gallery' => 'Galeri',
     'appraisal' => 'Penilaian',
+    'kuisioner' => 'Kuesioner Customer',
     // End facilities submenu
 
     // Search bar
