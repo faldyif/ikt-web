@@ -33,6 +33,8 @@ return [
     'receiving-delivering' => 'Receiving & Delivery',
     'pre-delivery-inspection' => 'Pre Delivery Inspection',
     'value-added-services' => 'Value Added Services',
+    'maklumat' => 'Maklumat Pelayanan',
+    'standart' => 'Standar Pelayanan',
     // End services submenu
 
     // Facilities submenu
@@ -50,6 +52,7 @@ return [
     'procurement' => 'e-Procurement',
     'limouzine-magazine' => 'Majalah Limouzine',
     'gallery' => 'Galeri',
+    'kuisioner' => 'Kuesioner Customer',
     // End facilities submenu
 
     // Search bar

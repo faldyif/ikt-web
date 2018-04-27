@@ -96,6 +96,8 @@
                   <li><a href="{{ route('service.cargodoring') }}">{{ trans('menu.cargodoring') }}</a></li>
                   <li><a href="{{ route('service.receiving') }}">{{ trans('menu.receiving-delivering') }}</a></li>
                   <li><a href="{{ route('service.vas') }}">Value Added Services</a>
+                  <li><a href="{{ route('service.maklumat') }}">{{ trans('menu.maklumat') }}</a>
+                  <li><a href="{{ route('service.standart') }}">{{ trans('menu.standart') }}</a>
                 </ul>
               </li>
               <li class="dropdown"> <a href="index_mp-3a.html" class="dropdown-toggle" data-toggle="dropdown">{{ strtoupper(trans('menu.facilities')) }}</a>
@@ -115,6 +117,7 @@
                   <li><a href="{{ route('company.clients') }}">{{ trans('menu.our-customer') }}</a></li>
                   <li><a href="http://www.eproc-ikt.com" target="_blank">{{ trans('menu.procurement') }}</></li>
                   <li><a href="{{ route('company.magazine') }}">{{ trans('menu.limouzine-magazine') }}</a></li>
+                  <li><a href="{{ route('company.kuisioner') }}">{{ trans('menu.kuisioner') }}</a></li>
                 </ul>
               </li>
               <li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown">language</a>

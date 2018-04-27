@@ -137,6 +137,10 @@ Route::get(trans('routes.company.corporate-roadmap'), function () {
     return view('corporate-roadmap');
 })->name('company.corporate-roadmap');
 
+Route::get(trans('routes.company.kuisioner'), function () {
+    return view('customer-questionnaire');
+})->name('company.kuisioner');
+
 /*
  * Services route groups
  */
@@ -151,6 +155,14 @@ Route::get(trans('routes.service.cargodoring'), function () {
 Route::get(trans('routes.service.receiving'), function () {
     return view('receiving');
 })->name('service.receiving');
+
+Route::get(trans('routes.service.maklumat'), function () {
+    return view('maklumat-pelayanan');
+})->name('service.maklumat');
+
+Route::get(trans('routes.service.standart'), function () {
+    return view('standar-pelayanan');
+})->name('service.standart');
 
 Route::get(trans('routes.service.pdi'), function () {
     return view('pdi');
