@@ -82,6 +82,10 @@
                   </div>
                 </div>
               </div>
+              <br>
+              <div class="row">
+                <h3 class="text-center">Kuesioner yang sudah diisi dapat dikirim kembali ke IPC Car Terminal dengan alamat JL Sindang Laut No. 101, Cilincing Jakarta Utara, 14110</h3>
+              </div>
             </div>
           </div>
         </section>

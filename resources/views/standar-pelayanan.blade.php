@@ -26,7 +26,7 @@
                 <div id="ar-2016" class="col-md-12 annual pd-bt-20 mg-bt-10 flex-row-center">
                   <div class="col-md-3">
                     <!-- foto -->
-                    <img src="http://online.fliphtml5.com/tlahn/sxqf/files/shot.jpg" class="annual-img img-responsive">
+                    <img src="{{ url('img/stdpelayanan2018.png') }}" class="annual-img img-responsive">
                   </div>
                   <div class="col-md-9">
                     <!-- konten -->
